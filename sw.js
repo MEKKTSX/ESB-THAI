@@ -14,6 +14,16 @@ const urlsToCache = [
     './resetFeature.js',
     './audioFeature.js',
     './notificationFeature.js'
+    './upcomingFeature.js'
+    './study.js'
+    './shared.js'
+    './review.js'
+    './retentionFeature.js'
+    './practiceFeature.js'
+    './profile.js'
+    './home.js'
+    './bookmarkFeature.js'
+
 ];
 
 // --- 1. โค้ดเดิมของคุณ (จัดการ Offline & Cache) ---
