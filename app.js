@@ -184,3 +184,17 @@ const App = () => {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
+
+// --- เพิ่มส่วนนี้เข้าไปท้ายไฟล์ app.js ---
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js')
+            .then(reg => {
+                console.log('Service Worker Registered!', reg.scope);
+            })
+            .catch(err => {
+                console.log('Service Worker Registration Failed!', err);
+            });
+    });
+}
+
