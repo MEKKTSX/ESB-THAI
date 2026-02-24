@@ -215,9 +215,10 @@ window.FlashcardQuizView = ({ quizQueue, settings, onClose, onSaveSRS, onOpenSet
     }
 
     const handleRate = (rating) => {
+        // ให้มันซ่อนคำตอบทันที แล้วค่อยเปลี่ยน Index
+        setShowAnswer(false); 
         onSaveSRS(currentCard.uniqueId, rating);
         if (currentIndex < quizQueue.length - 1) {
-            setShowAnswer(false);
             setCurrentIndex(prev => prev + 1);
         } else {
             onClose(); 
@@ -263,11 +264,15 @@ window.FlashcardQuizView = ({ quizQueue, settings, onClose, onSaveSRS, onOpenSet
                     <div className="flex-1 overflow-y-auto flex flex-col items-center justify-center p-6 pt-16 text-center" style={{ scrollbarWidth: 'none' }}>
                         <h3 className="text-2xl md:text-3xl font-bold text-white leading-snug">{frontText}</h3>
                         
-                        {showAnswer && <div className="w-12 h-1 bg-navy-700 rounded-full mx-auto my-8 shrink-0"></div>}
-                        
-                        <div className={`transition-all duration-300 flex flex-col items-center justify-center w-full ${showAnswer ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
-                            <p className="text-2xl md:text-3xl font-bold text-blue-400 leading-snug">{backText}</p>
-                        </div>
+                        {/* ⭐️ ถอดแอนิเมชันหน่วงเวลาออก แล้วใช้แบบตัดฉึบเมื่อ showAnswer เป็น true */}
+                        {showAnswer && (
+                            <>
+                                <div className="w-12 h-1 bg-navy-700 rounded-full mx-auto my-8 shrink-0"></div>
+                                <div className="flex flex-col items-center justify-center w-full animate-fade-in">
+                                    <p className="text-2xl md:text-3xl font-bold text-blue-400 leading-snug">{backText}</p>
+                                </div>
+                            </>
+                        )}
                     </div>
 
                     {!showAnswer && (
