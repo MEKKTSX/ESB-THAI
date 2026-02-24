@@ -13,16 +13,16 @@ const urlsToCache = [
     './session3.js',
     './resetFeature.js',
     './audioFeature.js',
-    './notificationFeature.js'
-    './upcomingFeature.js'
-    './study.js'
-    './shared.js'
-    './review.js'
-    './retentionFeature.js'
-    './practiceFeature.js'
-    './profile.js'
-    './home.js'
-    './bookmarkFeature.js'
+    './notificationFeature.js',
+    './upcomingFeature.js',
+    './study.js',
+    './shared.js',
+    './review.js',
+    './retentionFeature.js',
+    './practiceFeature.js',
+    './profile.js',
+    './home.js',
+    './bookmarkFeature.js',
 
 ];
 
