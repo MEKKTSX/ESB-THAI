@@ -3,11 +3,9 @@ const { useState, useEffect } = React;
 // ----------------------------------------------------
 // 1. หน้า Review Schedule (สถิติ และ Bar Chart)
 // ----------------------------------------------------
-// review.js
 window.ReviewScheduleView = ({ memoryStats, dueCards, srsData, reviewHistory, onOpenSettings, onStartReview, dailyProgress, sessionGoals, SessionData }) => {
     const { SettingsIcon, PlayIcon, CheckCircleIcon } = window.Icons;
     
-    // ⭐️ นับความยาวของ ID ที่ถูกทำไปแล้ว (เพื่อแก้บั๊กนับข้อซ้ำ)
     const session1Count = (dailyProgress.reviewedCards && dailyProgress.reviewedCards['session-1']) ? dailyProgress.reviewedCards['session-1'].length : 0;
     const session2Count = (dailyProgress.reviewedCards && dailyProgress.reviewedCards['session-2']) ? dailyProgress.reviewedCards['session-2'].length : 0;
     const session3Count = (dailyProgress.reviewedCards && dailyProgress.reviewedCards['session-3']) ? dailyProgress.reviewedCards['session-3'].length : 0;
@@ -87,8 +85,9 @@ window.ReviewScheduleView = ({ memoryStats, dueCards, srsData, reviewHistory, on
                     <div className="bg-navy-800/80 backdrop-blur border border-white/10 p-5 rounded-[1.5rem] shadow-lg text-center"><div className="text-2xl font-bold text-brand-yellow mb-1">{memoryStats.mastered}</div><div className="flex items-center justify-center gap-1.5 text-[9px] font-bold text-slate-400 uppercase tracking-wider"><span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_5px_rgba(16,185,129,0.5)]"></span> Mastered</div></div>
                 </div>
 
-                {/* ⭐️ เพิ่มการตรวจสอบให้มั่นใจว่าโหลด Retention Chart ติดแน่นอน */}
-                {window.ESB_Features && window.ESB_Features.UpcomingReviews && <window.ESB_Features.UpcomingReviews srsData={srsData} dueCardsCount={dueCards.length} />}
+                {/* ⭐️ แก้ไขให้ส่ง reviewHistory={reviewHistory} ลงไปให้ UpcomingReviews ด้วย! */}
+                {window.ESB_Features && window.ESB_Features.UpcomingReviews && <window.ESB_Features.UpcomingReviews srsData={srsData} dueCardsCount={dueCards.length} reviewHistory={reviewHistory} />}
+                
                 {window.ESB_Features && window.ESB_Features.RetentionChart ? <window.ESB_Features.RetentionChart reviewHistory={reviewHistory} /> : <div className="text-center text-rose-500 text-xs my-4 p-4 border border-rose-500/20 rounded-xl bg-rose-500/5">Error: RetentionChart component is missing. Please check retentionFeature.js</div>}
             </div>
             
@@ -112,13 +111,11 @@ window.ReviewScheduleView = ({ memoryStats, dueCards, srsData, reviewHistory, on
 // ----------------------------------------------------
 // 2. หน้า Flashcard Settings Modal
 // ----------------------------------------------------
-// ในไฟล์ review.js ให้หา window.FlashcardSettingsModal แล้ววางทับด้วยโค้ดนี้ครับ
 window.FlashcardSettingsModal = ({ settings, setSettings, SessionData, onClose }) => {
     const { BookIcon } = window.Icons;
     const togglePool = (id) => setSettings(prev => ({ ...prev, pool: prev.pool.includes(id) ? prev.pool.filter(p => p !== id) : [...prev.pool, id] }));
 
     return (
-        // ⭐️ เปลี่ยน z-50 เป็น z-[999] เพื่อให้มันเด้งขึ้นมาทับหน้า Flashcard แน่นอน 100%
         <div className="fixed inset-0 z-[999] bg-[#0B1121] flex flex-col animate-fade-in overflow-y-auto">
             <div className="sticky top-0 bg-[#0B1121]/90 backdrop-blur border-b border-white/5 px-5 py-4 flex items-center justify-between z-10">
                 <h2 className="text-xl font-bold text-white">Flashcard Settings</h2>
@@ -167,10 +164,8 @@ window.FlashcardSettingsModal = ({ settings, setSettings, SessionData, onClose }
     );
 };
 
-
-
 // ----------------------------------------------------
-// 3. หน้าทำข้อสอบ Flashcard (กดซ่อน/โชว์ได้อิสระ)
+// 3. หน้าทำข้อสอบ Flashcard
 // ----------------------------------------------------
 window.FlashcardQuizView = ({ quizQueue, settings, onClose, onSaveSRS, onOpenSettings, dailyProgress, sessionGoals }) => {
     const { useState, useEffect } = React;
@@ -188,17 +183,14 @@ window.FlashcardQuizView = ({ quizQueue, settings, onClose, onSaveSRS, onOpenSet
 
     const currentCard = quizQueue[currentIndex];
     
-    // ⭐️ 1. ตั้งค่าตรรกะข้อความและเสียงพูด
     const isThaiFront = settings.cardFront === 'th';
     const frontText = isThaiFront ? currentCard?.th : currentCard?.en;
     const backText = isThaiFront ? currentCard?.en : currentCard?.th;
     
-    // ⭐️ 2. กำหนดว่าเสียงต้องอ่านประโยคไหน และใช้สำเนียงอะไร (อ่านเฉพาะคำเฉลย)
     const speakText = isThaiFront ? currentCard?.en : currentCard?.th;
     const speakLang = isThaiFront ? 'en-US' : 'th-TH';
 
     useEffect(() => {
-        // ⭐️ Auto-play ทำงานตอนโชว์เฉลยเท่านั้น
         if (settings.autoPlay && showAnswer && currentCard && window.Utils && window.Utils.speak) {
             window.Utils.speak(speakText, speakLang, settings.speed);
         }
@@ -215,7 +207,6 @@ window.FlashcardQuizView = ({ quizQueue, settings, onClose, onSaveSRS, onOpenSet
     }
 
     const handleRate = (rating) => {
-        // ให้มันซ่อนคำตอบทันที แล้วค่อยเปลี่ยน Index
         setShowAnswer(false); 
         onSaveSRS(currentCard.uniqueId, rating);
         if (currentIndex < quizQueue.length - 1) {
@@ -248,11 +239,10 @@ window.FlashcardQuizView = ({ quizQueue, settings, onClose, onSaveSRS, onOpenSet
 
             <div className="flex-1 flex flex-col px-5 pb-6 overflow-hidden">
                 <div className="bg-gradient-to-b from-navy-800 to-navy-900 flex-1 rounded-[2rem] shadow-xl border border-white/5 flex flex-col relative overflow-hidden" 
-                     onClick={() => { if(!showAnswer) setShowAnswer(true); }}>
+                    onClick={() => { if(!showAnswer) setShowAnswer(true); }}>
                     
                     <div className="flex justify-between items-start p-5 absolute w-full top-0 shrink-0 z-10">
                         {showAnswer ? <span className="border border-brand-yellow/30 text-brand-yellow text-[10px] font-bold px-3 py-1 rounded uppercase tracking-widest">Answer</span> : <span></span>}
-                        {/* ⭐️ 3. กดลำโพงก็จะอ่านคำเฉลย ด้วยสำเนียงที่ถูกต้อง */}
                         <button onClick={(e) => { 
                             e.stopPropagation(); 
                             if(window.Utils && window.Utils.speak) window.Utils.speak(speakText, speakLang, settings.speed); 
@@ -264,7 +254,6 @@ window.FlashcardQuizView = ({ quizQueue, settings, onClose, onSaveSRS, onOpenSet
                     <div className="flex-1 overflow-y-auto flex flex-col items-center justify-center p-6 pt-16 text-center" style={{ scrollbarWidth: 'none' }}>
                         <h3 className="text-2xl md:text-3xl font-bold text-white leading-snug">{frontText}</h3>
                         
-                        {/* ⭐️ ถอดแอนิเมชันหน่วงเวลาออก แล้วใช้แบบตัดฉึบเมื่อ showAnswer เป็น true */}
                         {showAnswer && (
                             <>
                                 <div className="w-12 h-1 bg-navy-700 rounded-full mx-auto my-8 shrink-0"></div>

@@ -1,37 +1,128 @@
 // upcomingFeature.js
 window.ESB_Features = window.ESB_Features || {};
 
+// ⭐️ เปลี่ยนมารับค่า srsData และ dueCardsCount แทน reviewHistory
+window.MonthlyCalendarModal = ({ srsData = {}, dueCardsCount = 0, onClose }) => {
+    const { useState, useMemo } = React;
+    const [viewDate, setViewDate] = useState(new Date());
+    
+    const prevMonth = () => setViewDate(new Date(viewDate.getFullYear(), viewDate.getMonth() - 1, 1));
+    const nextMonth = () => setViewDate(new Date(viewDate.getFullYear(), viewDate.getMonth() + 1, 1));
+    
+    const year = viewDate.getFullYear();
+    const month = viewDate.getMonth();
+    const monthName = viewDate.toLocaleString('en-US', { month: 'short' }); 
+    
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const firstDay = new Date(year, month, 1).getDay();
+    
+    const blanks = Array(firstDay).fill(null);
+    const days = Array.from({length: daysInMonth}, (_, i) => i + 1);
+    const weekDays = ['S', 'M', 'T', 'W', 'T', 'F', 'S'];
+
+    // ⭐️ คำนวณพยากรณ์การ์ดในอนาคต (Forecast) จาก srsData
+    const futureDueMap = useMemo(() => {
+        const map = {};
+        const today = new Date();
+        today.setHours(0,0,0,0);
+        
+        Object.values(srsData).forEach(card => {
+            if (card.nextReview) {
+                const reviewDate = new Date(card.nextReview);
+                reviewDate.setHours(0,0,0,0);
+                if (reviewDate.getTime() > today.getTime()) {
+                    const key = `${reviewDate.getFullYear()}-${String(reviewDate.getMonth() + 1).padStart(2, '0')}-${String(reviewDate.getDate()).padStart(2, '0')}`;
+                    map[key] = (map[key] || 0) + 1;
+                }
+            }
+        });
+        return map;
+    }, [srsData]);
+
+    const today = new Date();
+    today.setHours(0,0,0,0);
+
+    return (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-navy-900/80 backdrop-blur-md animate-fade-in" onClick={onClose}>
+            <div className="bg-[#151F32] w-full max-w-[320px] rounded-[2rem] p-6 border border-brand-yellow/30 shadow-[0_0_40px_rgba(250,204,21,0.15)] relative" onClick={e => e.stopPropagation()}>
+                
+                <div className="flex justify-center mb-4">
+                    <div className="w-12 h-12 rounded-full border border-white/10 bg-[#1E293B] flex items-center justify-center text-xl shadow-inner">🗓️</div>
+                </div>
+
+                <div className="flex justify-between items-center mb-6 mt-2">
+                    <button onClick={prevMonth} className="p-2 text-slate-400 hover:text-brand-yellow transition-colors font-bold text-lg">&lt;</button>
+                    <h3 className="text-lg font-bold text-white tracking-widest uppercase">{monthName} <span className="text-brand-yellow">{year}</span></h3>
+                    <button onClick={nextMonth} className="p-2 text-slate-400 hover:text-brand-yellow transition-colors font-bold text-lg">&gt;</button>
+                </div>
+
+                <div className="grid grid-cols-7 gap-2 mb-3 border-b border-white/5 pb-2">
+                    {weekDays.map((d, i) => <div key={i} className="text-[10px] font-bold text-slate-500 text-center">{d}</div>)}
+                </div>
+
+                <div className="grid grid-cols-7 gap-2 mb-6">
+                    {blanks.map((_, i) => <div key={`blank-${i}`} className="aspect-square"></div>)}
+                    {days.map(day => {
+                        const cellDate = new Date(year, month, day);
+                        cellDate.setHours(0,0,0,0);
+                        const dateKey = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                        
+                        let count = 0;
+                        let isPast = cellDate.getTime() < today.getTime();
+                        let isToday = cellDate.getTime() === today.getTime();
+
+                        // ⭐️ ดึงยอดการ์ดที่ค้างอยู่ (Due)
+                        if (isToday) {
+                            count = dueCardsCount; // วันนี้เอายอดจริงๆ มาโชว์
+                        } else if (!isPast) {
+                            count = futureDueMap[dateKey] || 0; // อนาคตเอายอดพยากรณ์มาโชว์
+                        }
+
+                        // จัดสีให้ดูง่าย
+                        let styleClass = "bg-[#0B1121] text-slate-600 border border-white/5";
+                        if (isPast) {
+                            styleClass = "bg-transparent text-slate-700 opacity-50"; // วันในอดีต (จางลง)
+                        } else if (isToday) {
+                            styleClass = "bg-navy-800 text-white border-2 border-brand-yellow shadow-[0_0_10px_rgba(250,204,21,0.2)]"; // วันนี้ (กรอบเหลือง)
+                        } else if (count > 0) {
+                            styleClass = "bg-navy-800 border border-navy-600 text-slate-300"; // วันที่มีการ์ดรอทวน
+                        }
+
+                        return (
+                            <div key={day} className={`aspect-square rounded-xl flex flex-col items-center justify-center transition-all ${styleClass}`}>
+                                <span className={`text-[12px] font-semibold leading-none ${isToday ? 'text-brand-yellow' : ''}`}>{day}</span>
+                                {/* โชว์ตัวเลขการ์ด (เฉพาะวันนี้และอนาคต) */}
+                                {!isPast && (
+                                    <span className={`text-[8px] mt-0.5 leading-none tracking-tighter ${count > 0 ? (isToday ? 'text-brand-yellow' : 'text-slate-400') : 'text-slate-600'}`}>
+                                        {count > 0 ? count : '-'}
+                                    </span>
+                                )}
+                            </div>
+                        );
+                    })}
+                </div>
+
+                <button onClick={onClose} className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-[#0B1121] py-4 rounded-xl font-bold text-sm shadow-[0_5px_15px_rgba(250,204,21,0.3)] active:scale-95 transition-all">
+                    รับทราบ
+                </button>
+            </div>
+        </div>
+    );
+};
+
 window.ESB_Features.UpcomingReviews = ({ srsData, dueCardsCount }) => {
     const { useMemo, useState } = React;
-    const [popupContent, setPopupContent] = useState(null);
+    const [showCalendar, setShowCalendar] = useState(false);
 
-    // ฟังก์ชันตรวจสอบสถิติการเรียน (ต้องมีข้อมูลอย่างน้อย 7 วัน)
     const handleViewMonthClick = () => {
-        const history = JSON.parse(localStorage.getItem('esb_review_history') || '{}');
-        const daysLearned = Object.keys(history).length;
-
-        if (daysLearned >= 7) {
-            setPopupContent({
-                title: "Monthly View Unlocked 🗓️",
-                desc: `ยอดเยี่ยมมากคุณเมฆ! คุณเรียนมาแล้ว ${daysLearned} วัน สถิติของคุณพร้อมสำหรับมุมมองรายเดือนแล้ว (ฟีเจอร์ตัวเต็มจะมาในอัปเดตถัดไป)`,
-                btnText: "รับทราบ"
-            });
-        } else {
-            setPopupContent({
-                title: "Feature Locked 🔒",
-                desc: `ขณะนี้คุณมีข้อมูลสถิติเพียง ${daysLearned} วัน กรุณาเรียนต่อเนื่องให้ครบ 7 วันเพื่อเปิดใช้งานระบบวิเคราะห์รายเดือน`,
-                btnText: "ตกลง"
-            });
-        }
+        setShowCalendar(true);
     };
 
-    // คำนวณจำนวนการ์ดที่จะต้องทบทวนล่วงหน้า
     const upcomingDays = useMemo(() => {
         const days = [];
         const today = new Date();
         today.setHours(0, 0, 0, 0);
 
-        // วันนี้
         days.push({
             label: 'Today',
             date: today.getDate(),
@@ -39,7 +130,6 @@ window.ESB_Features.UpcomingReviews = ({ srsData, dueCardsCount }) => {
             isToday: true
         });
 
-        // ล่วงหน้าอีก 4 วัน
         for (let i = 1; i <= 4; i++) {
             const nextDate = new Date(today);
             nextDate.setDate(today.getDate() + i);
@@ -94,25 +184,13 @@ window.ESB_Features.UpcomingReviews = ({ srsData, dueCardsCount }) => {
                 ))}
             </div>
 
-            {/* Custom Theme Pop-up */}
-            {popupContent && (
-                <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-navy-900/90 backdrop-blur-sm animate-fade-in" onClick={() => setPopupContent(null)}>
-                    <div className="bg-navy-800 border border-brand-yellow/30 p-8 rounded-3xl shadow-glow-yellow max-w-sm w-full text-center relative" onClick={e => e.stopPropagation()}>
-                        <div className="w-16 h-16 bg-brand-yellow/10 rounded-full flex items-center justify-center mx-auto mb-4 border border-brand-yellow/20">
-                            <span className="text-2xl">{popupContent.title.includes('Locked') ? '🔒' : '🗓️'}</span>
-                        </div>
-                        <h3 className="text-xl font-bold text-white mb-2">{popupContent.title}</h3>
-                        <p className="text-slate-400 text-sm mb-8 leading-relaxed">
-                            {popupContent.desc}
-                        </p>
-                        <button 
-                            onClick={() => setPopupContent(null)}
-                            className="w-full bg-gradient-to-r from-yellow-400 to-amber-500 text-navy-900 font-bold py-4 rounded-2xl active:scale-95 transition-transform shadow-lg shadow-yellow-500/20"
-                        >
-                            {popupContent.btnText}
-                        </button>
-                    </div>
-                </div>
+            {/* ⭐️ ส่ง srsData และ dueCardsCount ไปให้ปฏิทิน */}
+            {showCalendar && (
+                <window.MonthlyCalendarModal 
+                    srsData={srsData} 
+                    dueCardsCount={dueCardsCount} 
+                    onClose={() => setShowCalendar(false)} 
+                />
             )}
         </div>
     );
