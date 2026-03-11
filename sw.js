@@ -1,4 +1,4 @@
-const CACHE_NAME = 'esb-thai-1.1.1-Stable'; 
+const CACHE_NAME = 'esb-thai-1.1.2-Stable-Bot'; 
 
 const urlsToCache = [
     './', 
