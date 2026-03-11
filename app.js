@@ -1,3 +1,222 @@
+// ==========================================
+// 🤖 FLOATING AI CHATBOT (V4 - Bulletproof Stable Model)
+// ==========================================
+const FloatingAIChat = () => {
+    const { useState, useRef, useEffect } = React;
+    const { XIcon } = window.Icons || {};
+    
+    const BACKEND_URL = "/api/chat"; // Vercel จะรู้เองว่าต้องไปเรียกไฟล์ในโฟลเดอร์ api
+
+    const [isOpen, setIsOpen] = useState(false);
+    const [input, setInput] = useState("");
+    const [messages, setMessages] = useState([
+        { role: 'ai', text: 'มีประโยคไหนในแอปที่สงสัย พิมพ์ถามผมได้เลยครับ! 😊' }
+    ]);
+    const [isLoading, setIsLoading] = useState(false);
+    const messagesEndRef = useRef(null);
+
+    // Refs สำหรับควบคุมการลากแบบ 60FPS
+    const chatHeadRef = useRef(null);
+    const dragInfo = useRef({
+        isDragging: false,
+        currentX: window.innerWidth - 80,
+        currentY: window.innerHeight - 150,
+        startX: 0, startY: 0,
+        isMoved: false
+    });
+
+    useEffect(() => {
+        if (chatHeadRef.current) {
+            chatHeadRef.current.style.left = `${dragInfo.current.currentX}px`;
+            chatHeadRef.current.style.top = `${dragInfo.current.currentY}px`;
+        }
+    }, []);
+
+    useEffect(() => {
+        if (messagesEndRef.current) messagesEndRef.current.scrollIntoView({ behavior: 'smooth' });
+    }, [messages, isOpen]);
+
+    // ----------------------------------------
+    // 🖱️ ระบบลากปุ่มแบบ Ultra Smooth
+    // ----------------------------------------
+    const handlePointerDown = (e) => {
+        dragInfo.current.isDragging = true;
+        dragInfo.current.isMoved = false;
+        dragInfo.current.startX = (e.clientX || e.touches?.[0].clientX) - dragInfo.current.currentX;
+        dragInfo.current.startY = (e.clientY || e.touches?.[0].clientY) - dragInfo.current.currentY;
+        e.target.setPointerCapture(e.pointerId);
+    };
+
+    const handlePointerMove = (e) => {
+        if (!dragInfo.current.isDragging) return;
+        
+        const x = (e.clientX || e.touches?.[0].clientX) - dragInfo.current.startX;
+        const y = (e.clientY || e.touches?.[0].clientY) - dragInfo.current.startY;
+        
+        // ตรวจสอบว่ามีการเคลื่อนที่จริงไหม (ป้องกันการแตะเบาๆ แล้วกลายเป็นลาก)
+        if (Math.abs(x - dragInfo.current.currentX) > 3 || Math.abs(y - dragInfo.current.currentY) > 3) {
+            dragInfo.current.isMoved = true;
+        }
+
+        // ดักขอบจอ
+        const clampedX = Math.max(10, Math.min(x, window.innerWidth - 70));
+        const clampedY = Math.max(10, Math.min(y, window.innerHeight - 70));
+
+        dragInfo.current.currentX = clampedX;
+        dragInfo.current.currentY = clampedY;
+
+        // ใช้ requestAnimationFrame เพื่อความลื่นไหลสูงสุด
+        requestAnimationFrame(() => {
+            if (chatHeadRef.current) {
+                chatHeadRef.current.style.left = `${clampedX}px`;
+                chatHeadRef.current.style.top = `${clampedY}px`;
+            }
+        });
+    };
+
+    const handlePointerUp = (e) => {
+        if (!dragInfo.current.isDragging) return;
+        dragInfo.current.isDragging = false;
+        e.target.releasePointerCapture(e.pointerId);
+
+        // ถ้าไม่ได้ลาก ให้เปิดหน้าต่างแชท
+        if (!dragInfo.current.isMoved) {
+            setIsOpen(true);
+        }
+    };
+
+    // ----------------------------------------
+    // 💬 ระบบคุยกับ AI (ใช้โมเดล gemini-pro ที่เสถียรสุด)
+    // ----------------------------------------
+        // ----------------------------------------
+    // 💬 ระบบคุยกับ AI (เวอร์ชันแชทเป็นธรรมชาติ)
+    // ----------------------------------------
+    const handleSendMessage = async () => {
+        if (!input.trim() || !GEMINI_API_KEY || GEMINI_API_KEY.includes('ใส่_API_KEY')) return;
+
+        const userMsg = input;
+        setMessages(prev => [...prev, { role: 'user', text: userMsg }]);
+        setInput("");
+        setIsLoading(true);
+
+        try {
+            // ⭐️ 1. ปรับ Prompt ใหม่ บังคับให้ตอบแบบเพื่อนแชท สั้นๆ ห้ามใช้สัญลักษณ์
+            const systemPrompt = `คุณคือเพื่อนชาวไทยที่เก่งภาษาอังกฤษ กำลังอธิบายความหมายประโยคหรือแกรมม่าให้เพื่อนฟังทางแชท 
+            กฎเหล็ก:
+            - ตอบสั้นมากๆ กระชับ ตรงประเด็น (ไม่เกิน 2-3 ประโยค)
+            - ใช้ภาษาพูดสบายๆ เป็นธรรมชาติเหมือนมนุษย์คุยกัน
+            - ห้ามใช้สัญลักษณ์ Markdown เด็ดขาด (ห้ามมี ** หรือ * หรือ bullet point)
+            - ถ้ายกตัวอย่าง ให้ยกมาแค่ 1 อันสั้นๆ ก็พอ`
+            // ⭐️ ปรับ Prompt ใหม่ให้ AI รู้จักแอปและทำหน้าที่เป็นไกด์ด้วย
+            `คุณคือผู้ช่วยอัจฉริยะประจำแอป "ESB Thai" (English Sentence Bank) ข้อมูลแอปเบื้องต้น:
+            - แอปนี้ใช้ฝึกภาษาอังกฤษด้วยระบบ SRS (Spaced Repetition System) ยิ่งตอบถูกบ่อย การ์ดจะยิ่งทิ้งช่วงทบทวนนานขึ้น
+            - โหมด Study: ใช้เปิดดูประโยคใหม่ๆ พร้อมคำแปล
+            - โหมด Review: ใช้ทดสอบความจำ มี 4 ปุ่มคือ Again (เริ่มใหม่), Hard (ยาก), Good (พอได้), Easy (จำได้แม่น)
+            - หน้า Home: มีปฏิทินแสดงความขยัน (Heatmap) ยิ่งทวนเยอะสียิ่งเข้ม
+            
+            กฎการตอบของคุณ:
+            1. ตอบคำถามเกี่ยวกับภาษาอังกฤษ แกรมม่า คำแปล ได้อย่างถูกต้อง
+            2. ถ้าผู้ใช้ถามวิธีใช้แอป หรือปุ่มต่างๆ ทำงานยังไง ให้อธิบายตามข้อมูลด้านบน
+            3. ตอบสั้นๆ กระชับ เป็นมิตร เป็นธรรมชาติ
+            4. ห้ามใช้สัญลักษณ์ Markdown (ห้ามพิมพ์ *, **, #) โดยเด็ดขาด`;
+            
+            // ใช้ 2.5-flash หรือ 2.0-flash ตามที่คุณใช้ได้เลย
+            const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
+            
+            const response = await fetch(API_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    contents: [{ parts: [{ text: `${systemPrompt}\n\nคำถาม: ${userMsg}` }] }]
+                })
+            });
+
+            const data = await response.json();
+            
+            if (response.ok && data.candidates?.[0]?.content?.parts?.[0]?.text) {
+                // ⭐️ 2. กรองสัญลักษณ์รกๆ ทิ้งอีกรอบ (ดักพวก * ` #)
+                let cleanText = data.candidates[0].content.parts[0].text;
+                cleanText = cleanText.replace(/[*`#]/g, '').trim();
+                
+                setMessages(prev => [...prev, { role: 'ai', text: cleanText }]);
+            } else {
+                const errMsg = data.error?.message || "ระบบขัดข้อง โปรดลองใหม่";
+                setMessages(prev => [...prev, { role: 'ai', text: `⚠️ Error: ${errMsg}` }]);
+            }
+        } catch (error) {
+            setMessages(prev => [...prev, { role: 'ai', text: `⚠️ เชื่อมต่อไม่ได้: ${error.message}` }]);
+        } finally {
+            setIsLoading(false);
+        }
+    };
+    
+    return (
+        <>
+            {/* กล่องแชท */}
+            {isOpen && (
+                <div className="fixed inset-0 z-[1000] flex items-center justify-center p-4">
+                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setIsOpen(false)}></div>
+                    <div className="relative w-full max-w-[340px] h-[480px] max-h-[80vh] bg-[#0B1121]/95 backdrop-blur-xl border border-white/10 rounded-[2rem] shadow-2xl flex flex-col overflow-hidden animate-scale-in">
+                        <div className="px-5 py-4 border-b border-white/10 flex justify-between items-center bg-navy-900/80">
+                            <div className="flex items-center gap-3">
+                                <span className="text-2xl">🤖</span>
+                                <span className="text-[10px] font-bold text-slate-400 tracking-[0.2em] uppercase">English Assistant</span>
+                            </div>
+                            <button onClick={() => setIsOpen(false)} className="p-2 text-slate-500 hover:text-white transition-colors">
+                                {XIcon ? <XIcon size={20}/> : '✕'}
+                            </button>
+                        </div>
+                        <div className="flex-1 overflow-y-auto p-4 space-y-4" style={{ scrollbarWidth: 'none' }}>
+                            {messages.map((msg, idx) => (
+                                <div key={idx} className={`flex ${msg.role === 'user' ? 'justify-end' : 'justify-start'}`}>
+                                <div className={`max-w-[85%] p-3.5 rounded-2xl text-[13px] leading-relaxed ${msg.role === 'user' ? 'bg-brand-yellow text-navy-900 font-bold rounded-tr-sm' : 'bg-navy-800 text-slate-200 border border-white/5 rounded-tl-sm'}`}>
+                                {msg.text}
+                                </div>
+                            </div>
+
+                            ))}
+                            {isLoading && (
+                                <div className="flex justify-start animate-pulse">
+                                    <div className="bg-navy-800 text-slate-500 p-3 rounded-2xl rounded-tl-sm text-xs">AI กำลังคิด...</div>
+                                </div>
+                            )}
+                            <div ref={messagesEndRef} />
+                        </div>
+                        <div className="p-4 bg-navy-900/80">
+                            <div className="flex bg-[#0B1121] border border-white/10 rounded-2xl overflow-hidden focus-within:border-brand-yellow/50 transition-all">
+                                <input 
+                                    type="text" 
+                                    value={input} 
+                                    onChange={(e) => setInput(e.target.value)} 
+                                    onKeyPress={(e) => e.key === 'Enter' && handleSendMessage()}
+                                    placeholder="พิมพ์คำถามที่นี่..." 
+                                    className="flex-1 bg-transparent text-white text-sm px-4 py-3.5 outline-none"
+                                />
+                                <button onClick={handleSendMessage} className="px-5 text-brand-yellow font-bold text-sm active:bg-white/5">ส่ง</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            )}
+
+            {/* ปุ่ม Chat Head */}
+            <div 
+                ref={chatHeadRef}
+                onPointerDown={handlePointerDown}
+                onPointerMove={handlePointerMove}
+                onPointerUp={handlePointerUp}
+                className={`fixed z-[999] w-14 h-14 rounded-full bg-navy-800 border-2 border-brand-yellow shadow-[0_0_20px_rgba(250,204,21,0.3)] flex items-center justify-center text-2xl cursor-grab active:cursor-grabbing touch-none select-none ${isOpen ? 'opacity-0 pointer-events-none scale-0' : 'opacity-100 scale-100'} transition-all duration-300`}
+                style={{ position: 'fixed' }}
+            >
+                🤖
+            </div>
+        </>
+    );
+};
+
+// ==========================================
+// 🚀 MAIN APP
+// ==========================================
 const App = () => {
     const { useState, useEffect, useMemo } = React;
     
@@ -120,17 +339,11 @@ const App = () => {
         reader.readAsText(file);
     };
 
-    // ⭐️ ฟังก์ชันพิฆาต: หยุดเวลาทุกอย่างในเว็บก่อนสั่งลบข้อมูล
     const handleResetAll = () => {
         if(window.confirm("⚠️ ยืนยัน: ล้างข้อมูลทั้งหมดรวมถึงเวลาใช้งานวันนี้ด้วยใช่ไหม? (ไม่สามารถกู้ได้)")) {
-            // 1. แฮ็กระบบเพื่อหยุด setInterval ของเวลาที่กำลังวิ่งอยู่ทันที
             let id = window.setTimeout(function() {}, 0);
             while (id--) { window.clearTimeout(id); }
-            
-            // 2. ล้างข้อมูลทุกอย่างใน LocalStorage แบบถอนรากถอนโคน
             localStorage.clear();
-            
-            // 3. บังคับโหลดหน้าใหม่และทำลายแคชเก่าทิ้ง
             window.location.href = window.location.href.split('?')[0] + '?reset=' + Date.now();
         }
     };
@@ -163,11 +376,8 @@ const App = () => {
             <div className="pb-24">
                 {currentTab === 'home' && window.DashboardView && <window.DashboardView SessionData={SessionData} srsData={srsData} timeSpent={timeSpent.seconds} currentStreak={currentStreak} dueCardsCount={dueCards.length} onNavigateToSession={(i) => { setTargetSessionForStudy(i); setCurrentTab('study'); }} onNavigateTab={setCurrentTab} />}
                 {currentTab === 'study' && window.StudyListView && <window.StudyListView SessionData={SessionData} initialSessionIndex={targetSessionForStudy} allSentencesFlat={allSentencesFlat} onSaveSRS={handleSaveSRS} srsData={srsData} selectedCards={selectedCards} toggleCardSelection={(id)=>setSelectedCards(prev=>prev.includes(id)?prev.filter(c=>c!==id):[...prev,id])} toggleSelectAll={(ids,s)=>setSelectedCards(prev=>Array.from(new Set(s?[...prev,...ids]:prev.filter(id=>!ids.includes(id)))))} onStartCustomReview={()=>{const now=Date.now(); const custom=allSentencesFlat.filter(c=>selectedCards.includes(c.uniqueId)&&!(srsData[c.uniqueId]?.nextReview>now)); if(custom.length>0) setQuizQueue(window.Utils.shuffleArray(custom)); else alert("Cards already reviewed today");}} bookmarks={bookmarks} toggleBookmark={(id)=>setBookmarks(prev=>prev.includes(id)?prev.filter(b=>b!==id):[...prev,id])} clearSelection={()=>setSelectedCards([])} onStartPracticeReview={()=>{const custom=allSentencesFlat.filter(c=>selectedCards.includes(c.uniqueId)); if(custom.length>0) setPracticeQueue(window.Utils.shuffleArray(custom));}} onOpenSettings={() => setShowSettingsModal(true)} />}
-                {currentTab === 'progress' && window.ReviewScheduleView && <window.ReviewScheduleView memoryStats={memoryStats} dueCards={dueCards} srsData={srsData} reviewHistory={reviewHistory} onOpenSettings={() => setShowSettingsModal(true)} onStartReview={(cards)=>setQuizQueue(window.Utils.shuffleArray(cards.slice(0,40)))} dailyProgress={dailyProgress} sessionGoals={SESSION_GOALS} SessionData={SessionData} />}
-                
-                {/* ⭐️ ส่ง onResetAll ไปให้หน้า Profile ด้วย */}
+                {currentTab === 'progress' && window.ReviewScheduleView && <window.ReviewScheduleView memoryStats={memoryStats} dueCards={dueCards} srsData={srsData} reviewHistory={reviewHistory} onOpenSettings={() => setShowSettingsModal(true)} onStartReview={(cards)=>setQuizQueue(window.Utils.shuffleArray(cards))} dailyProgress={dailyProgress} sessionGoals={SESSION_GOALS} SessionData={SessionData} />}
                 {currentTab === 'profile' && window.ProfileView && <window.ProfileView memoryStats={memoryStats} bookmarksCount={bookmarks.length} dueCardsCount={dueCards.length} onOpenBookmarks={() => setShowBookmarkModal(true)} onExport={handleExport} onImport={handleImport} onResetAll={handleResetAll} />}
-                
                 {window.SharedComponents?.BottomNav && <window.SharedComponents.BottomNav activeTab={currentTab} setActiveTab={setCurrentTab} />}
             </div>
         );
@@ -178,6 +388,9 @@ const App = () => {
             {renderActiveMode()}
             {showSettingsModal && window.FlashcardSettingsModal && <window.FlashcardSettingsModal settings={appSettings} setSettings={setAppSettings} SessionData={SessionData} onClose={() => setShowSettingsModal(false)} />}
             {showBookmarkModal && window.ESB_Features?.BookmarkModal && <window.ESB_Features.BookmarkModal bookmarks={bookmarks} allSentencesFlat={allSentencesFlat} onToggleBookmark={(id)=>setBookmarks(prev=>prev.includes(id)?prev.filter(b=>b!==id):[...prev,id])} onClose={() => setShowBookmarkModal(false)} />}
+            
+            {/* 🤖 ปุ่มแชทบอทลอยอยู่บนสุด */}
+            <FloatingAIChat />
         </div>
     );
 };
@@ -185,16 +398,11 @@ const App = () => {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 
-// --- เพิ่มส่วนนี้เข้าไปท้ายไฟล์ app.js ---
+// --- รัน Service Worker ---
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
-            .then(reg => {
-                console.log('Service Worker Registered!', reg.scope);
-            })
-            .catch(err => {
-                console.log('Service Worker Registration Failed!', err);
-            });
+            .then(reg => { console.log('Service Worker Registered!', reg.scope); })
+            .catch(err => { console.log('Service Worker Registration Failed!', err); });
     });
 }
-
