@@ -84,15 +84,13 @@ const FloatingAIChat = () => {
             setIsOpen(true);
         }
     };
-
-    // ----------------------------------------
-    // 💬 ระบบคุยกับ AI (ใช้โมเดล gemini-pro ที่เสถียรสุด)
-    // ----------------------------------------
+    
         // ----------------------------------------
-    // 💬 ระบบคุยกับ AI (เวอร์ชันแชทเป็นธรรมชาติ)
+    // 💬 ระบบคุยกับ AI (เวอร์ชัน Vercel Backend)
     // ----------------------------------------
     const handleSendMessage = async () => {
-        if (!input.trim() || !GEMINI_API_KEY || GEMINI_API_KEY.includes('ใส่_API_KEY')) return;
+        // ❌ ลบการเช็ค GEMINI_API_KEY ออกไป เพราะเราย้ายไปซ่อนที่ Vercel แล้ว
+        if (!input.trim()) return;
 
         const userMsg = input;
         setMessages(prev => [...prev, { role: 'user', text: userMsg }]);
@@ -100,15 +98,8 @@ const FloatingAIChat = () => {
         setIsLoading(true);
 
         try {
-            // ⭐️ 1. ปรับ Prompt ใหม่ บังคับให้ตอบแบบเพื่อนแชท สั้นๆ ห้ามใช้สัญลักษณ์
-            const systemPrompt = `คุณคือเพื่อนชาวไทยที่เก่งภาษาอังกฤษ กำลังอธิบายความหมายประโยคหรือแกรมม่าให้เพื่อนฟังทางแชท 
-            กฎเหล็ก:
-            - ตอบสั้นมากๆ กระชับ ตรงประเด็น (ไม่เกิน 2-3 ประโยค)
-            - ใช้ภาษาพูดสบายๆ เป็นธรรมชาติเหมือนมนุษย์คุยกัน
-            - ห้ามใช้สัญลักษณ์ Markdown เด็ดขาด (ห้ามมี ** หรือ * หรือ bullet point)
-            - ถ้ายกตัวอย่าง ให้ยกมาแค่ 1 อันสั้นๆ ก็พอ`
-            // ⭐️ ปรับ Prompt ใหม่ให้ AI รู้จักแอปและทำหน้าที่เป็นไกด์ด้วย
-            `คุณคือผู้ช่วยอัจฉริยะประจำแอป "ESB Thai" (English Sentence Bank) ข้อมูลแอปเบื้องต้น:
+            // ⭐️ 1. รวบ Prompt ให้เป็นก้อนเดียวสมบูรณ์
+            const systemPrompt = `คุณคือผู้ช่วยอัจฉริยะประจำแอป "ESB Thai" (English Sentence Bank) ข้อมูลแอปเบื้องต้น:
             - แอปนี้ใช้ฝึกภาษาอังกฤษด้วยระบบ SRS (Spaced Repetition System) ยิ่งตอบถูกบ่อย การ์ดจะยิ่งทิ้งช่วงทบทวนนานขึ้น
             - โหมด Study: ใช้เปิดดูประโยคใหม่ๆ พร้อมคำแปล
             - โหมด Review: ใช้ทดสอบความจำ มี 4 ปุ่มคือ Again (เริ่มใหม่), Hard (ยาก), Good (พอได้), Easy (จำได้แม่น)
@@ -120,28 +111,23 @@ const FloatingAIChat = () => {
             3. ตอบสั้นๆ กระชับ เป็นมิตร เป็นธรรมชาติ
             4. ห้ามใช้สัญลักษณ์ Markdown (ห้ามพิมพ์ *, **, #) โดยเด็ดขาด`;
             
-            // ใช้ 2.5-flash หรือ 2.0-flash ตามที่คุณใช้ได้เลย
-            const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${GEMINI_API_KEY}`;
-            
-            const response = await fetch(API_URL, {
+            // ⭐️ 2. เปลี่ยนมายิงไปที่ Vercel Backend ของเรา (BACKEND_URL = "/api/chat")
+            const response = await fetch(BACKEND_URL, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
-                    contents: [{ parts: [{ text: `${systemPrompt}\n\nคำถาม: ${userMsg}` }] }]
+                    message: userMsg,
+                    systemPrompt: systemPrompt
                 })
             });
 
             const data = await response.json();
             
-            if (response.ok && data.candidates?.[0]?.content?.parts?.[0]?.text) {
-                // ⭐️ 2. กรองสัญลักษณ์รกๆ ทิ้งอีกรอบ (ดักพวก * ` #)
-                let cleanText = data.candidates[0].content.parts[0].text;
-                cleanText = cleanText.replace(/[*`#]/g, '').trim();
-                
-                setMessages(prev => [...prev, { role: 'ai', text: cleanText }]);
+            // ⭐️ 3. รับคำตอบที่คลีนแล้วจาก Backend
+            if (response.ok) {
+                setMessages(prev => [...prev, { role: 'ai', text: data.reply }]);
             } else {
-                const errMsg = data.error?.message || "ระบบขัดข้อง โปรดลองใหม่";
-                setMessages(prev => [...prev, { role: 'ai', text: `⚠️ Error: ${errMsg}` }]);
+                setMessages(prev => [...prev, { role: 'ai', text: `⚠️ Error: ${data.error}` }]);
             }
         } catch (error) {
             setMessages(prev => [...prev, { role: 'ai', text: `⚠️ เชื่อมต่อไม่ได้: ${error.message}` }]);
@@ -149,6 +135,7 @@ const FloatingAIChat = () => {
             setIsLoading(false);
         }
     };
+
     
     return (
         <>
