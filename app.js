@@ -82,6 +82,10 @@ const FloatingAIChat = () => {
         // ถ้าไม่ได้ลาก ให้เปิดหน้าต่างแชท
         if (!dragInfo.current.isMoved) {
             setIsOpen(true);
+            
+            setTimeout(() => { 
+                setIsOpen(true);
+            }, 50);
         }
     };
     
@@ -142,7 +146,7 @@ const FloatingAIChat = () => {
             {/* กล่องแชท */}
             {isOpen && (
                 <div className="fixed inset-0 z-[1000] flex items-center justify-center p-4">
-                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-fade-in" onClick={() => setIsOpen(false)}></div>
+                    <div className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-fade-in" onPointerDown={() => setIsOpen(false)}></div>
                     <div className="relative w-full max-w-[340px] h-[480px] max-h-[80vh] bg-[#0B1121]/95 backdrop-blur-xl border border-white/10 rounded-[2rem] shadow-2xl flex flex-col overflow-hidden animate-scale-in">
                         <div className="px-5 py-4 border-b border-white/10 flex justify-between items-center bg-navy-900/80">
                             <div className="flex items-center gap-3">
