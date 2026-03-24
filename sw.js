@@ -1,4 +1,4 @@
-const CACHE_NAME = 'esb-thai-1.1.2-Stable-Bot'; 
+const CACHE_NAME = 'esb-thai-v1.1.2'; 
 
 const urlsToCache = [
     './', 
@@ -8,6 +8,9 @@ const urlsToCache = [
     './app.js',
     './session1.js',
     './session2.js',
+    './session2.1.js'
+    './session2.2.js'
+    './session2.3.js'
     './session3.js',
     './resetFeature.js',
     './audioFeature.js',
