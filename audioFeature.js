@@ -1,55 +1,72 @@
-// ไฟล์: features/audioFeature.js (เวอร์ชันอัปเกรดสำหรับมือถือ)
 const AudioService = {
-    speak: (text, lang = 'en-US') => {
-        // 1. ยกเลิกเสียงที่ค้างอยู่
-        window.speechSynthesis.cancel();
-
-        // 2. สร้าง Utterance
-        const utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = lang;
-        utterance.rate = 0.9;
-        utterance.pitch = 1.0;
-
-        // 3. จัดการเรื่อง Voice (แก้ไขบั๊กเสียงไม่มาในครั้งแรกบนมือถือ)
-        const speakNow = () => {
-            const voices = window.speechSynthesis.getVoices();
-            const enVoice = voices.find(v => v.lang.startsWith('en') && v.name.includes('Google')) 
-                         || voices.find(v => v.lang.startsWith('en'));
-            if (enVoice) utterance.voice = enVoice;
-            window.speechSynthesis.speak(utterance);
+    voices: [],
+    
+    init: function() {
+        // โหลดรายการเสียงทั้งหมดที่มีในเครื่องมาเก็บไว้
+        const loadVoices = () => {
+            this.voices = window.speechSynthesis.getVoices();
         };
-
-        if (window.speechSynthesis.getVoices().length !== 0) {
-            speakNow();
-        } else {
-            // ถ้า voices ยังไม่โหลด (พบบ่อยในมือถือ) ให้รอจนกว่าจะโหลดเสร็จ
-            window.speechSynthesis.onvoiceschanged = speakNow;
+        
+        loadVoices();
+        // บางเบราว์เซอร์ต้องรอให้เสียงโหลดเสร็จก่อน
+        if (speechSynthesis.onvoiceschanged !== undefined) {
+            speechSynthesis.onvoiceschanged = loadVoices;
         }
+    },
+
+    speak: function(text, lang = 'en-US', speed = 1.0) {
+        if (!window.speechSynthesis) {
+            console.warn("Browser does not support Speech Synthesis");
+            return;
+        }
+
+        // หยุดเสียงเก่าที่อาจจะกำลังพูดค้างอยู่
+        window.speechSynthesis.cancel(); 
+
+        const utterance = new SpeechSynthesisUtterance(text);
+        
+        // 🌟 ปรับความเร็ว (Rate): ลดทอนลง 15% จากค่าที่ตั้งไว้เพื่อให้การควบกล้ำ/เว้นวรรคชัดขึ้น
+        utterance.rate = speed * 0.85; 
+        
+        // 🌟 ปรับระดับเสียง (Pitch): ดันขึ้นนิดนึงให้ฟังดูเป็นมิตร ไม่แข็งกระด้าง
+        utterance.pitch = 1.05; 
+
+        // 🌟 ระบบ AI คัดกรองเสียง (Voice Selector)
+        if (this.voices.length > 0) {
+            let selectedVoice = null;
+            
+            if (lang.includes('en')) {
+                // หาเสียงภาษาอังกฤษเกรดพรีเมียม (จัดลำดับความสำคัญ)
+                selectedVoice = 
+                    this.voices.find(v => v.name.includes('Google US English')) || // เสียงเนียนของ Chrome/Android
+                    this.voices.find(v => v.name.includes('Samantha')) || // เสียงเนียนของ Mac/iOS
+                    this.voices.find(v => v.name.includes('Siri')) || // เสียง Siri (ถ้าเบราว์เซอร์อนุญาต)
+                    this.voices.find(v => v.name.includes('UK English Female')) || // เสียงสำเนียงบริติชชัดๆ
+                    this.voices.find(v => v.lang === 'en-US' && v.localService === false) || // เสียงผ่าน Cloud (ชัดกว่า)
+                    this.voices.find(v => v.lang.startsWith('en')); // ถ้าไม่มี เอาอันแรกที่เจอ
+            } 
+            else if (lang.includes('th')) {
+                // หาเสียงภาษาไทยเกรดพรีเมียม
+                selectedVoice = 
+                    this.voices.find(v => v.name.includes('Narisa')) || // เสียงภาษาไทยที่ดีที่สุดบน Apple
+                    this.voices.find(v => v.name.includes('Kanya')) || // เสียงผู้หญิงบน Mac
+                    this.voices.find(v => v.name.includes('Google') && v.lang === 'th-TH') || // เสียงของ Android
+                    this.voices.find(v => v.lang === 'th-TH');
+            }
+
+            if (selectedVoice) {
+                utterance.voice = selectedVoice;
+            }
+        }
+
+        // สั่งให้พูด
+        window.speechSynthesis.speak(utterance);
     }
 };
 
-const SpeakerButton = ({ text, className = "" }) => {
-    return (
-        <button 
-            onClick={(e) => {
-                e.stopPropagation();
-                // 💡 ปลุกระบบเสียง (บางเบราว์เซอร์ต้องการการสั่ง Resume ก่อน)
-                if (window.speechSynthesis.paused) {
-                    window.speechSynthesis.resume();
-                }
-                AudioService.speak(text);
-            }}
-            className={`p-2 rounded-full hover:bg-gray-100 active:scale-95 transition-all ${className}`}
-            title="Listen"
-        >
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-indigo-500">
-                <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
-                <path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path>
-            </svg>
-        </button>
-    );
-};
+// เริ่มทำงานทันที
+AudioService.init();
 
+// ส่งออกไปให้ app.js ใช้งาน
 window.ESB_Features = window.ESB_Features || {};
-window.ESB_Features.Speaker = SpeakerButton;
 window.ESB_Features.AudioService = AudioService;
