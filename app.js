@@ -5,7 +5,7 @@ const FloatingAIChat = () => {
     const { useState, useRef, useEffect } = React;
     const { XIcon } = window.Icons || {};
     
-    const BACKEND_URL = "/api/chat"; // Vercel จะรู้เองว่าต้องไปเรียกไฟล์ในโฟลเดอร์ api
+    const BACKEND_URL = "/api/chat"; 
 
     const [isOpen, setIsOpen] = useState(false);
     const [input, setInput] = useState("");
@@ -15,7 +15,6 @@ const FloatingAIChat = () => {
     const [isLoading, setIsLoading] = useState(false);
     const messagesEndRef = useRef(null);
 
-    // Refs สำหรับควบคุมการลากแบบ 60FPS
     const chatHeadRef = useRef(null);
     const dragInfo = useRef({
         isDragging: false,
@@ -36,9 +35,6 @@ const FloatingAIChat = () => {
         if (messagesEndRef.current) messagesEndRef.current.scrollIntoView({ behavior: 'smooth' });
     }, [messages, isOpen]);
 
-    // ----------------------------------------
-    // 🖱️ ระบบลากปุ่มแบบ Ultra Smooth
-    // ----------------------------------------
     const handlePointerDown = (e) => {
         dragInfo.current.isDragging = true;
         dragInfo.current.isMoved = false;
@@ -49,23 +45,19 @@ const FloatingAIChat = () => {
 
     const handlePointerMove = (e) => {
         if (!dragInfo.current.isDragging) return;
-        
         const x = (e.clientX || e.touches?.[0].clientX) - dragInfo.current.startX;
         const y = (e.clientY || e.touches?.[0].clientY) - dragInfo.current.startY;
         
-        // ตรวจสอบว่ามีการเคลื่อนที่จริงไหม (ป้องกันการแตะเบาๆ แล้วกลายเป็นลาก)
         if (Math.abs(x - dragInfo.current.currentX) > 3 || Math.abs(y - dragInfo.current.currentY) > 3) {
             dragInfo.current.isMoved = true;
         }
 
-        // ดักขอบจอ
         const clampedX = Math.max(10, Math.min(x, window.innerWidth - 70));
         const clampedY = Math.max(10, Math.min(y, window.innerHeight - 70));
 
         dragInfo.current.currentX = clampedX;
         dragInfo.current.currentY = clampedY;
 
-        // ใช้ requestAnimationFrame เพื่อความลื่นไหลสูงสุด
         requestAnimationFrame(() => {
             if (chatHeadRef.current) {
                 chatHeadRef.current.style.left = `${clampedX}px`;
@@ -79,21 +71,13 @@ const FloatingAIChat = () => {
         dragInfo.current.isDragging = false;
         e.target.releasePointerCapture(e.pointerId);
 
-        // ถ้าไม่ได้ลาก ให้เปิดหน้าต่างแชท
         if (!dragInfo.current.isMoved) {
             setIsOpen(true);
-            
-            setTimeout(() => { 
-                setIsOpen(true);
-            }, 50);
+            setTimeout(() => { setIsOpen(true); }, 50);
         }
     };
     
-        // ----------------------------------------
-    // 💬 ระบบคุยกับ AI (เวอร์ชัน Vercel Backend)
-    // ----------------------------------------
     const handleSendMessage = async () => {
-        // ❌ ลบการเช็ค GEMINI_API_KEY ออกไป เพราะเราย้ายไปซ่อนที่ Vercel แล้ว
         if (!input.trim()) return;
 
         const userMsg = input;
@@ -102,32 +86,21 @@ const FloatingAIChat = () => {
         setIsLoading(true);
 
         try {
-            // ⭐️ 1. รวบ Prompt ให้เป็นก้อนเดียวสมบูรณ์
             const systemPrompt = `คุณคือผู้ช่วยอัจฉริยะประจำแอป "ESB Thai" (English Sentence Bank) ข้อมูลแอปเบื้องต้น:
-            - แอปนี้ใช้ฝึกภาษาอังกฤษด้วยระบบ SRS (Spaced Repetition System) ยิ่งตอบถูกบ่อย การ์ดจะยิ่งทิ้งช่วงทบทวนนานขึ้น
+            - แอปนี้ใช้ฝึกภาษาอังกฤษด้วยระบบ SRS
             - โหมด Study: ใช้เปิดดูประโยคใหม่ๆ พร้อมคำแปล
-            - โหมด Review: ใช้ทดสอบความจำ มี 4 ปุ่มคือ Again (เริ่มใหม่), Hard (ยาก), Good (พอได้), Easy (จำได้แม่น)
-            - หน้า Home: มีปฏิทินแสดงความขยัน (Heatmap) ยิ่งทวนเยอะสียิ่งเข้ม
+            - โหมด Review: ใช้ทดสอบความจำ
+            - โหมด Typing: ใช้ฝึกพิมพ์ประโยคคำถาม-คำตอบ
+            กฎ: ตอบคำถามเกี่ยวกับภาษาอังกฤษ แกรมม่า คำแปล ได้อย่างถูกต้อง สั้นๆ กระชับ เป็นมิตร ห้ามใช้ Markdown`;
             
-            กฎการตอบของคุณ:
-            1. ตอบคำถามเกี่ยวกับภาษาอังกฤษ แกรมม่า คำแปล ได้อย่างถูกต้อง
-            2. ถ้าผู้ใช้ถามวิธีใช้แอป หรือปุ่มต่างๆ ทำงานยังไง ให้อธิบายตามข้อมูลด้านบน
-            3. ตอบสั้นๆ กระชับ เป็นมิตร เป็นธรรมชาติ
-            4. ห้ามใช้สัญลักษณ์ Markdown (ห้ามพิมพ์ *, **, #) โดยเด็ดขาด`;
-            
-            // ⭐️ 2. เปลี่ยนมายิงไปที่ Vercel Backend ของเรา (BACKEND_URL = "/api/chat")
             const response = await fetch(BACKEND_URL, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    message: userMsg,
-                    systemPrompt: systemPrompt
-                })
+                body: JSON.stringify({ message: userMsg, systemPrompt: systemPrompt })
             });
 
             const data = await response.json();
             
-            // ⭐️ 3. รับคำตอบที่คลีนแล้วจาก Backend
             if (response.ok) {
                 setMessages(prev => [...prev, { role: 'ai', text: data.reply }]);
             } else {
@@ -140,10 +113,8 @@ const FloatingAIChat = () => {
         }
     };
 
-    
     return (
         <>
-            {/* กล่องแชท */}
             {isOpen && (
                 <div className="fixed inset-0 z-[1000] flex items-center justify-center p-4">
                     <div className="absolute inset-0 bg-black/60 backdrop-blur-sm animate-fade-in" onPointerDown={() => setIsOpen(false)}></div>
@@ -164,7 +135,6 @@ const FloatingAIChat = () => {
                                 {msg.text}
                                 </div>
                             </div>
-
                             ))}
                             {isLoading && (
                                 <div className="flex justify-start animate-pulse">
@@ -189,8 +159,6 @@ const FloatingAIChat = () => {
                     </div>
                 </div>
             )}
-
-            {/* ปุ่ม Chat Head */}
             <div 
                 ref={chatHeadRef}
                 onPointerDown={handlePointerDown}
@@ -202,6 +170,116 @@ const FloatingAIChat = () => {
                 🤖
             </div>
         </>
+    );
+};
+
+// ==========================================
+// 🌟 PREMIUM DASHBOARD COMPONENT 
+// ==========================================
+const PremiumDashboardView = ({ currentStreak, masteredCount, sessionProgressData, currentActiveSession, setCurrentTab }) => {
+    return (
+        <div className="px-6 pt-12 space-y-8 animate-in fade-in duration-500">
+            <header className="flex justify-between items-center">
+                <div className="flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-[#1e293b] flex items-center justify-center border border-slate-700">
+                        <span className="material-symbols-outlined text-blue-500">school</span>
+                    </div>
+                    <div>
+                        <h1 className="text-[10px] font-bold tracking-widest text-slate-400 uppercase">ESB Thai</h1>
+                        <p className="text-lg font-bold mt-0.5">Dashboard</p>
+                    </div>
+                </div>
+                <div className="p-2 rounded-full hover:bg-slate-800">
+                    <span className="material-symbols-outlined text-slate-300">notifications</span>
+                </div>
+            </header>
+
+            <div>
+                <h2 className="text-3xl font-light text-white mb-1">Good Evening,</h2>
+                <h2 className="text-3xl font-bold text-white">Learner.</h2>
+            </div>
+
+            <section className="grid grid-cols-2 gap-4">
+                <div className="bg-[#161e2d] p-5 rounded-2xl border border-slate-800/80">
+                    <div className="flex justify-between items-start mb-2">
+                        <span className="material-symbols-outlined text-blue-500">local_fire_department</span>
+                        <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Streak</span>
+                    </div>
+                    <p className="text-2xl font-bold text-white mt-1">{currentStreak} <span className="text-sm font-normal text-slate-400">days</span></p>
+                    <p className="text-xs text-slate-500 mt-1">Keep it up!</p>
+                </div>
+                <div className="bg-[#161e2d] p-5 rounded-2xl border border-slate-800/80">
+                    <div className="flex justify-between items-start mb-2">
+                        <span className="material-symbols-outlined text-amber-400">workspace_premium</span>
+                        <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">Mastered</span>
+                    </div>
+                    <p className="text-2xl font-bold text-white mt-1">{masteredCount} <span className="text-sm font-normal text-slate-400">words</span></p>
+                    <p className="text-xs text-slate-500 mt-1">Long-term memory</p>
+                </div>
+            </section>
+
+            {currentActiveSession && (
+                <section>
+                    <div className="flex items-center justify-between mb-4">
+                        <h3 className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">Current Session</h3>
+                        <button className="text-[11px] font-bold text-amber-400 uppercase tracking-wider">View All</button>
+                    </div>
+                    <div className="relative w-full rounded-3xl overflow-hidden border border-amber-400/20 bg-[#141b28] shadow-[0_0_20px_rgba(251,191,36,0.05)] p-6">
+                        <div className="flex justify-between items-start">
+                            <div>
+                                <span className={`inline-flex items-center px-3 py-1 rounded-full text-[9px] font-bold uppercase tracking-widest mb-4 border ${currentActiveSession.isCompleted ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20' : 'bg-amber-400/10 text-amber-400 border-amber-400/20'}`}>
+                                    {currentActiveSession.isCompleted ? 'COMPLETED' : 'IN PROGRESS'}
+                                </span>
+                                <h4 className="text-2xl font-bold text-white mb-2">{currentActiveSession.title}</h4>
+                                <p className="text-sm text-slate-400 font-light">Continue your learning journey.</p>
+                            </div>
+                            <div onClick={() => setCurrentTab('study')} className="w-12 h-12 rounded-full bg-amber-400/10 flex items-center justify-center text-amber-400 shrink-0 cursor-pointer hover:bg-amber-400/20">
+                                <span className="material-symbols-outlined text-2xl">play_arrow</span>
+                            </div>
+                        </div>
+                        <div className="mt-8">
+                            <div className="flex justify-between text-[11px] font-bold text-slate-400 mb-2 tracking-widest uppercase">
+                                <span>{currentActiveSession.learnedCards} / {currentActiveSession.totalCards} CARDS</span>
+                                <span className="text-amber-400">{currentActiveSession.progressPercent}%</span>
+                            </div>
+                            <div className="w-full bg-slate-800 rounded-full h-1.5 overflow-hidden">
+                                <div className="bg-amber-400 h-1.5 rounded-full transition-all duration-1000" style={{width: `${currentActiveSession.progressPercent}%`}}></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            )}
+
+            <section className="pb-8">
+                <h3 className="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-4">Learning Path</h3>
+                <div className="space-y-4">
+                    {sessionProgressData.map((session, idx) => {
+                        const isLocked = !session.isUnlocked;
+                        const iconList = ['book', 'business_center', 'flight', 'restaurant', 'computer'];
+                        
+                        return (
+                            <div key={idx} onClick={() => { if (!isLocked) setCurrentTab('study'); }} className={`bg-[#161e2d] border ${isLocked ? 'border-slate-800/50 opacity-60' : 'border-slate-700/80 hover:border-amber-400/30 cursor-pointer'} p-5 rounded-2xl flex items-center gap-4 transition-all group`}>
+                                <div className={`w-12 h-12 rounded-xl flex items-center justify-center shrink-0 ${isLocked ? 'bg-[#1a2333] text-slate-600' : 'bg-[#1a2333] text-slate-300 group-hover:text-amber-400'}`}>
+                                    <span className="material-symbols-outlined">{iconList[idx % 5] || 'book'}</span>
+                                </div>
+                                <div className="flex-1">
+                                    <h4 className={`font-semibold text-base ${isLocked ? 'text-slate-500' : 'text-slate-200'}`}>{session.title}</h4>
+                                    <div className="flex items-center gap-3 mt-2">
+                                        <div className="flex-1 bg-slate-800/80 rounded-full h-1 overflow-hidden">
+                                            <div className={`h-1 rounded-full ${isLocked ? 'bg-slate-600' : 'bg-slate-400'}`} style={{width: `${session.progressPercent}%`}}></div>
+                                        </div>
+                                        <span className={`text-[10px] font-bold ${isLocked ? 'text-slate-600' : 'text-slate-500'}`}>{session.progressPercent}%</span>
+                                    </div>
+                                </div>
+                                <span className={`material-symbols-outlined ${isLocked ? 'text-slate-700' : 'text-slate-500 group-hover:text-amber-400'}`}>
+                                    {isLocked ? 'lock' : 'chevron_right'}
+                                </span>
+                            </div>
+                        );
+                    })}
+                </div>
+            </section>
+        </div>
     );
 };
 
@@ -218,6 +296,35 @@ const App = () => {
     };
     
     const [srsData, setSrsData] = useState(() => { try { return JSON.parse(localStorage.getItem('esb_srs_data')) || {}; } catch(e) { return {}; } });
+    
+    // 🌟 🌟 🌟 สคริปต์แก้ปัญหา: กู้ข้อมูล Session 2.1 - 2.3 กลับมาล็อคให้ 🌟 🌟 🌟
+    useEffect(() => {
+        let isModified = false;
+        const fixedData = { ...srsData };
+        
+        Object.keys(fixedData).forEach(key => {
+            // เช็คว่าเป็น Card ของ Session 2.1, 2.2, 2.3 หรือไม่ (A21, B22, H23 ฯลฯ)
+            if (key.match(/[A-Z]2[1-3]-/)) {
+                // ถ้าเคยเรียนไปแล้ว แต่ interval มีค่าต่ำ (1 วัน) และถึงเวลาปลดล็อคแล้ว
+                if (fixedData[key].interval <= 1) {
+                    // อัปเกรดให้กระโดดไป 14 วัน เพื่อบังคับแม่กุญแจล็อค
+                    fixedData[key].interval = 14;
+                    fixedData[key].step = 3;
+                    fixedData[key].nextReview = Date.now() + (14 * 24 * 60 * 60 * 1000);
+                    isModified = true;
+                }
+            }
+        });
+
+        if (isModified) {
+            setSrsData(fixedData);
+            setTimeout(() => {
+                alert("✅ กู้ข้อมูล Session 2.1 - 2.3 สำเร็จ!\n\nระบบตรวจพบประโยคที่คุณเคยเรียนไปแล้ว และได้ทำการ 'ล็อคแม่กุญแจ' ให้ใหม่ (ข้ามไปที่เลเวล 14 วัน) คุณจะได้ไม่ต้องกลับไปทวนซ้ำของเดิมครับ!");
+            }, 500);
+        }
+    }, []); // ทำงานแค่ครั้งเดียวตอนโหลดแอป
+    // 🌟 🌟 🌟 --------------------------------------------- 🌟 🌟 🌟
+
     const [appSettings, setAppSettings] = useState(() => { try { return JSON.parse(localStorage.getItem('esb_app_settings')) || { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false }; } catch(e) { return { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false }; } });
     const [bookmarks, setBookmarks] = useState(() => { try { return JSON.parse(localStorage.getItem('esb_bookmarks')) || []; } catch(e) { return []; } });
     const [reviewHistory, setReviewHistory] = useState(() => { try { return JSON.parse(localStorage.getItem('esb_review_history')) || {}; } catch(e) { return {}; } });
@@ -257,8 +364,11 @@ const App = () => {
     const [currentTab, setCurrentTab] = useState('home');
     const [showSettingsModal, setShowSettingsModal] = useState(false);
     const [showBookmarkModal, setShowBookmarkModal] = useState(false);
+    
     const [quizQueue, setQuizQueue] = useState(null);
     const [practiceQueue, setPracticeQueue] = useState(null);
+    const [typingQueue, setTypingQueue] = useState(null);
+    
     const [targetSessionForStudy, setTargetSessionForStudy] = useState(0);
     const [selectedCards, setSelectedCards] = useState([]);
     
@@ -304,6 +414,36 @@ const App = () => {
         Object.values(srsData).forEach(card => { unseen--; if (card.interval >= 21) mastered++; else learning++; });
         return { total: allSentencesFlat.length, unseen, learning, mastered };
     }, [allSentencesFlat, srsData]);
+
+    const sessionProgressData = useMemo(() => {
+        let isPreviousCompleted = true;
+        return SessionData.map((session, index) => {
+            let totalCards = 0;
+            let learnedCards = 0;
+            if(session.data) {
+                session.data.forEach(cat => {
+                    if(cat.sentences) {
+                        cat.sentences.forEach((s, idx) => {
+                            totalCards++;
+                            const uniqueId = `${cat.id}-${idx}`;
+                            if (srsData[uniqueId]) learnedCards++;
+                        });
+                    }
+                });
+            }
+            const progressPercent = totalCards === 0 ? 0 : Math.round((learnedCards / totalCards) * 100);
+            const isCompleted = progressPercent >= 100;
+            const isUnlocked = index === 0 || isPreviousCompleted || learnedCards > 0;
+            isPreviousCompleted = isCompleted;
+            return { ...session, totalCards, learnedCards, progressPercent, isCompleted, isUnlocked };
+        });
+    }, [SessionData, srsData]);
+
+    const currentActiveSession = useMemo(() => {
+        if (!sessionProgressData || sessionProgressData.length === 0) return null;
+        const active = sessionProgressData.find(s => s.isUnlocked && !s.isCompleted);
+        return active || sessionProgressData[sessionProgressData.length - 1]; 
+    }, [sessionProgressData]);
 
     const handleExport = () => {
         try {
@@ -358,18 +498,68 @@ const App = () => {
         }
         setSelectedCards(prev => prev.filter(id => id !== uId));
     };
-
+    
     const renderActiveMode = () => {
-        if (practiceQueue) return <div className="fixed inset-0 z-[100] bg-[#0B1121]">{window.ESB_Features?.PracticeFlashcardView && <window.ESB_Features.PracticeFlashcardView queue={practiceQueue} settings={appSettings} onClose={() => setPracticeQueue(null)} onOpenSettings={() => setShowSettingsModal(true)} />}</div>;
-        if (quizQueue) return <div className="fixed inset-0 z-[100] bg-[#0B1121]">{window.FlashcardQuizView && <window.FlashcardQuizView quizQueue={quizQueue} settings={appSettings} onClose={() => setQuizQueue(null)} onSaveSRS={handleSaveSRS} onOpenSettings={() => setShowSettingsModal(true)} dailyProgress={dailyProgress} sessionGoals={SESSION_GOALS} />}</div>;
+        if (typingQueue && window.ESB_Features?.TypingChallengeView) return <div className="fixed inset-0 z-[100] bg-[#0B1121]"><window.ESB_Features.TypingChallengeView queue={typingQueue} onClose={() => setTypingQueue(null)} AudioService={window.ESB_Features?.AudioService} /></div>;
+        if (practiceQueue && window.ESB_Features?.PracticeFlashcardView) return <div className="fixed inset-0 z-[100] bg-[#0B1121]"><window.ESB_Features.PracticeFlashcardView queue={practiceQueue} settings={appSettings} onClose={() => setPracticeQueue(null)} onOpenSettings={() => setShowSettingsModal(true)} /></div>;
+        if (quizQueue && window.FlashcardQuizView) return <div className="fixed inset-0 z-[100] bg-[#0B1121]"><window.FlashcardQuizView quizQueue={quizQueue} settings={appSettings} onClose={() => setQuizQueue(null)} onSaveSRS={handleSaveSRS} onOpenSettings={() => setShowSettingsModal(true)} dailyProgress={dailyProgress} sessionGoals={SESSION_GOALS} /></div>;
         
         return (
-            <div className="pb-24">
-                {currentTab === 'home' && window.DashboardView && <window.DashboardView SessionData={SessionData} srsData={srsData} timeSpent={timeSpent.seconds} currentStreak={currentStreak} dueCardsCount={dueCards.length} onNavigateToSession={(i) => { setTargetSessionForStudy(i); setCurrentTab('study'); }} onNavigateTab={setCurrentTab} />}
-                {currentTab === 'study' && window.StudyListView && <window.StudyListView SessionData={SessionData} initialSessionIndex={targetSessionForStudy} allSentencesFlat={allSentencesFlat} onSaveSRS={handleSaveSRS} srsData={srsData} selectedCards={selectedCards} toggleCardSelection={(id)=>setSelectedCards(prev=>prev.includes(id)?prev.filter(c=>c!==id):[...prev,id])} toggleSelectAll={(ids,s)=>setSelectedCards(prev=>Array.from(new Set(s?[...prev,...ids]:prev.filter(id=>!ids.includes(id)))))} onStartCustomReview={()=>{const now=Date.now(); const custom=allSentencesFlat.filter(c=>selectedCards.includes(c.uniqueId)&&!(srsData[c.uniqueId]?.nextReview>now)); if(custom.length>0) setQuizQueue(window.Utils.shuffleArray(custom)); else alert("Cards already reviewed today");}} bookmarks={bookmarks} toggleBookmark={(id)=>setBookmarks(prev=>prev.includes(id)?prev.filter(b=>b!==id):[...prev,id])} clearSelection={()=>setSelectedCards([])} onStartPracticeReview={()=>{const custom=allSentencesFlat.filter(c=>selectedCards.includes(c.uniqueId)); if(custom.length>0) setPracticeQueue(window.Utils.shuffleArray(custom));}} onOpenSettings={() => setShowSettingsModal(true)} />}
+            <div className="pb-24 relative min-h-screen">
+                
+                {currentTab === 'home' && (
+                    <PremiumDashboardView 
+                        currentStreak={currentStreak}
+                        masteredCount={memoryStats.mastered}
+                        sessionProgressData={sessionProgressData}
+                        currentActiveSession={currentActiveSession}
+                        setCurrentTab={setCurrentTab}
+                    />
+                )}
+                
+                {currentTab === 'study' && window.StudyListView && (
+                    <window.StudyListView 
+                        SessionData={SessionData} 
+                        initialSessionIndex={targetSessionForStudy} 
+                        allSentencesFlat={allSentencesFlat} 
+                        onSaveSRS={handleSaveSRS} 
+                        srsData={srsData} 
+                        selectedCards={selectedCards} 
+                        toggleCardSelection={(id)=>setSelectedCards(prev=>prev.includes(id)?prev.filter(c=>c!==id):[...prev,id])} 
+                        toggleSelectAll={(ids,s)=>setSelectedCards(prev=>Array.from(new Set(s?[...prev,...ids]:prev.filter(id=>!ids.includes(id)))))} 
+                        clearSelection={()=>setSelectedCards([])} 
+                        bookmarks={bookmarks} 
+                        toggleBookmark={(id)=>setBookmarks(prev=>prev.includes(id)?prev.filter(b=>b!==id):[...prev,id])} 
+                        onOpenSettings={() => setShowSettingsModal(true)} 
+                        onStartCustomReview={()=>{const now=Date.now(); const custom=allSentencesFlat.filter(c=>selectedCards.includes(c.uniqueId)&&!(srsData[c.uniqueId]?.nextReview>now)); if(custom.length>0) setQuizQueue(window.Utils.shuffleArray(custom)); else alert("Cards already reviewed today");}} 
+                        onStartPracticeReview={()=>{const custom=allSentencesFlat.filter(c=>selectedCards.includes(c.uniqueId)); if(custom.length>0) setPracticeQueue(window.Utils.shuffleArray(custom));}} 
+                        onStartTypingReview={()=>{
+                            const custom = allSentencesFlat.filter(c => selectedCards.includes(c.uniqueId)); 
+                            if(custom.length > 0) setTypingQueue(window.Utils.shuffleArray(custom));
+                        }} 
+                    />
+                )}
+                
                 {currentTab === 'progress' && window.ReviewScheduleView && <window.ReviewScheduleView memoryStats={memoryStats} dueCards={dueCards} srsData={srsData} reviewHistory={reviewHistory} onOpenSettings={() => setShowSettingsModal(true)} onStartReview={(cards)=>setQuizQueue(window.Utils.shuffleArray(cards))} dailyProgress={dailyProgress} sessionGoals={SESSION_GOALS} SessionData={SessionData} />}
+                
                 {currentTab === 'profile' && window.ProfileView && <window.ProfileView memoryStats={memoryStats} bookmarksCount={bookmarks.length} dueCardsCount={dueCards.length} onOpenBookmarks={() => setShowBookmarkModal(true)} onExport={handleExport} onImport={handleImport} onResetAll={handleResetAll} />}
+                
                 {window.SharedComponents?.BottomNav && <window.SharedComponents.BottomNav activeTab={currentTab} setActiveTab={setCurrentTab} />}
+
+                {currentTab === 'home' && (
+                    <div className="fixed bottom-28 left-0 w-full px-6 flex justify-center pointer-events-none z-40">
+                        <button 
+                            onClick={() => {
+                                if(dueCards.length > 0) setQuizQueue(window.Utils.shuffleArray(dueCards));
+                            }}
+                            disabled={dueCards.length === 0}
+                            className={`pointer-events-auto w-full max-w-[320px] h-14 rounded-xl font-bold text-lg flex items-center justify-center gap-3 transition-all active:scale-95 border ${dueCards.length > 0 ? 'bg-blue-600 text-white border-blue-400/30 shadow-[0_8px_30px_rgba(37,99,235,0.4)]' : 'bg-[#1e293b] text-slate-500 border-slate-700 shadow-none'}`}
+                        >
+                            <span className="material-symbols-outlined">{dueCards.length > 0 ? 'style' : 'done_all'}</span>
+                            {dueCards.length > 0 ? `Start Flashcards (${dueCards.length})` : 'All Cleared! 🎉'}
+                        </button>
+                    </div>
+                )}
             </div>
         );
     };
@@ -380,7 +570,6 @@ const App = () => {
             {showSettingsModal && window.FlashcardSettingsModal && <window.FlashcardSettingsModal settings={appSettings} setSettings={setAppSettings} SessionData={SessionData} onClose={() => setShowSettingsModal(false)} />}
             {showBookmarkModal && window.ESB_Features?.BookmarkModal && <window.ESB_Features.BookmarkModal bookmarks={bookmarks} allSentencesFlat={allSentencesFlat} onToggleBookmark={(id)=>setBookmarks(prev=>prev.includes(id)?prev.filter(b=>b!==id):[...prev,id])} onClose={() => setShowBookmarkModal(false)} />}
             
-            {/* 🤖 ปุ่มแชทบอทลอยอยู่บนสุด */}
             <FloatingAIChat />
         </div>
     );
@@ -389,11 +578,10 @@ const App = () => {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 
-// --- รัน Service Worker ---
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
         navigator.serviceWorker.register('./sw.js')
             .then(reg => { console.log('Service Worker Registered!', reg.scope); })
             .catch(err => { console.log('Service Worker Registration Failed!', err); });
     });
-}
+            }
