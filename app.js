@@ -481,12 +481,18 @@ const App = () => {
 
     const handleSaveSRS = (uId, rating) => {
         if (!window.Utils?.calculateSRS) return;
+        
+        // 1. คำนวณและบันทึกค่า SRS ใหม่
         setSrsData(prev => ({ ...prev, [uId]: window.Utils.calculateSRS(prev[uId] || {}, rating) }));
+        
+        // 2. บันทึกสถิติความแม่นยำรายวัน
         const dateKey = getTodayKey();
         setReviewHistory(prev => {
             const curr = prev[dateKey] || { correct: 0, total: 0 };
             return { ...prev, [dateKey]: { total: curr.total + 1, correct: curr.correct + (rating !== 'again' ? 1 : 0) } };
         });
+        
+        // 3. บันทึกความคืบหน้าของแต่ละด่าน
         const card = allSentencesFlat.find(c => c.uniqueId === uId);
         if (card) {
             setDailyProgress(prev => {
@@ -496,7 +502,22 @@ const App = () => {
                 return { ...prev, reviewedCards: newRev };
             });
         }
-        setSelectedCards(prev => prev.filter(id => id !== uId));
+        
+        // 🌟 4. ซ่อมลอจิกปุ่ม Again (ให้วนซ้ำท้ายคิว และไม่เด้งหลุด)
+        if (rating === 'again') {
+            // ก๊อปปี้การ์ดใบนี้ ไปต่อท้ายคิว (เพื่อให้ระบบเอามาถามซ้ำอีกรอบในเซสชันนี้)
+            setQuizQueue(prevQueue => {
+                if (prevQueue) {
+                    const cardToRepeat = prevQueue.find(c => c.uniqueId === uId);
+                    if (cardToRepeat) return [...prevQueue, cardToRepeat];
+                }
+                return prevQueue;
+            });
+            // 💡 เราจะไม่สั่งลบออกจากการ์ดที่เลือกไว้ (Selected) คุณจะได้ไม่ต้องไปกดติ๊กใหม่
+        } else {
+            // ถ้าตอบผ่านแล้ว (Good / Easy) ค่อยปลดติ๊กออกให้ เพื่อเคลียร์หน้าจอ
+            setSelectedCards(prev => prev.filter(id => id !== uId));
+        }
     };
     
     const renderActiveMode = () => {
