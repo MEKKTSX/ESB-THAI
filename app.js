@@ -45,6 +45,7 @@ const FloatingAIChat = () => {
 
     const handlePointerMove = (e) => {
         if (!dragInfo.current.isDragging) return;
+        
         const x = (e.clientX || e.touches?.[0].clientX) - dragInfo.current.startX;
         const y = (e.clientY || e.touches?.[0].clientY) - dragInfo.current.startY;
         
@@ -297,35 +298,31 @@ const App = () => {
     
     const [srsData, setSrsData] = useState(() => { try { return JSON.parse(localStorage.getItem('esb_srs_data')) || {}; } catch(e) { return {}; } });
     
-    // 🌟 🌟 🌟 สคริปต์แก้ปัญหา: กู้ข้อมูล Session 2.1 - 2.3 กลับมาล็อคให้ 🌟 🌟 🌟
+    const [appSettings, setAppSettings] = useState(() => { 
+        try { 
+            const saved = JSON.parse(localStorage.getItem('esb_app_settings'));
+            if (saved) return saved;
+            return { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false }; 
+        } catch(e) { 
+            return { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false }; 
+        } 
+    });
+
+    // 🌟 🌟 🌟 ระบบ Auto-sync Pool: เติม Session ใหม่ให้อัตโนมัติ ป้องกันปัญหาการ์ดหาย 🌟 🌟 🌟
     useEffect(() => {
-        let isModified = false;
-        const fixedData = { ...srsData };
-        
-        Object.keys(fixedData).forEach(key => {
-            // เช็คว่าเป็น Card ของ Session 2.1, 2.2, 2.3 หรือไม่ (A21, B22, H23 ฯลฯ)
-            if (key.match(/[A-Z]2[1-3]-/)) {
-                // ถ้าเคยเรียนไปแล้ว แต่ interval มีค่าต่ำ (1 วัน) และถึงเวลาปลดล็อคแล้ว
-                if (fixedData[key].interval <= 1) {
-                    // อัปเกรดให้กระโดดไป 14 วัน เพื่อบังคับแม่กุญแจล็อค
-                    fixedData[key].interval = 14;
-                    fixedData[key].step = 3;
-                    fixedData[key].nextReview = Date.now() + (14 * 24 * 60 * 60 * 1000);
-                    isModified = true;
-                }
+        setAppSettings(prev => {
+            const currentPool = prev.pool || [];
+            const allSessionIds = SessionData.map(s => s.id);
+            const missingIds = allSessionIds.filter(id => !currentPool.includes(id));
+            
+            if (missingIds.length > 0) {
+                return { ...prev, pool: [...currentPool, ...missingIds] };
             }
+            return prev;
         });
+    }, [SessionData]);
+    // ---------------------------------------------------------
 
-        if (isModified) {
-            setSrsData(fixedData);
-            setTimeout(() => {
-                alert("✅ กู้ข้อมูล Session 2.1 - 2.3 สำเร็จ!\n\nระบบตรวจพบประโยคที่คุณเคยเรียนไปแล้ว และได้ทำการ 'ล็อคแม่กุญแจ' ให้ใหม่ (ข้ามไปที่เลเวล 14 วัน) คุณจะได้ไม่ต้องกลับไปทวนซ้ำของเดิมครับ!");
-            }, 500);
-        }
-    }, []); // ทำงานแค่ครั้งเดียวตอนโหลดแอป
-    // 🌟 🌟 🌟 --------------------------------------------- 🌟 🌟 🌟
-
-    const [appSettings, setAppSettings] = useState(() => { try { return JSON.parse(localStorage.getItem('esb_app_settings')) || { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false }; } catch(e) { return { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false }; } });
     const [bookmarks, setBookmarks] = useState(() => { try { return JSON.parse(localStorage.getItem('esb_bookmarks')) || []; } catch(e) { return []; } });
     const [reviewHistory, setReviewHistory] = useState(() => { try { return JSON.parse(localStorage.getItem('esb_review_history')) || {}; } catch(e) { return {}; } });
 
@@ -356,6 +353,7 @@ const App = () => {
         return () => clearInterval(timer);
     }, []);
 
+    useEffect(() => { localStorage.setItem('esb_app_settings', JSON.stringify(appSettings)); }, [appSettings]);
     useEffect(() => { localStorage.setItem('esb_srs_data', JSON.stringify(srsData)); }, [srsData]);
     useEffect(() => { localStorage.setItem('esb_bookmarks', JSON.stringify(bookmarks)); }, [bookmarks]);
     useEffect(() => { localStorage.setItem('esb_review_history', JSON.stringify(reviewHistory)); }, [reviewHistory]);
@@ -481,18 +479,12 @@ const App = () => {
 
     const handleSaveSRS = (uId, rating) => {
         if (!window.Utils?.calculateSRS) return;
-        
-        // 1. คำนวณและบันทึกค่า SRS ใหม่
         setSrsData(prev => ({ ...prev, [uId]: window.Utils.calculateSRS(prev[uId] || {}, rating) }));
-        
-        // 2. บันทึกสถิติความแม่นยำรายวัน
         const dateKey = getTodayKey();
         setReviewHistory(prev => {
             const curr = prev[dateKey] || { correct: 0, total: 0 };
             return { ...prev, [dateKey]: { total: curr.total + 1, correct: curr.correct + (rating !== 'again' ? 1 : 0) } };
         });
-        
-        // 3. บันทึกความคืบหน้าของแต่ละด่าน
         const card = allSentencesFlat.find(c => c.uniqueId === uId);
         if (card) {
             setDailyProgress(prev => {
@@ -502,10 +494,8 @@ const App = () => {
                 return { ...prev, reviewedCards: newRev };
             });
         }
-        
-        // 🌟 4. ซ่อมลอจิกปุ่ม Again (ให้วนซ้ำท้ายคิว และไม่เด้งหลุด)
+
         if (rating === 'again') {
-            // ก๊อปปี้การ์ดใบนี้ ไปต่อท้ายคิว (เพื่อให้ระบบเอามาถามซ้ำอีกรอบในเซสชันนี้)
             setQuizQueue(prevQueue => {
                 if (prevQueue) {
                     const cardToRepeat = prevQueue.find(c => c.uniqueId === uId);
@@ -513,9 +503,7 @@ const App = () => {
                 }
                 return prevQueue;
             });
-            // 💡 เราจะไม่สั่งลบออกจากการ์ดที่เลือกไว้ (Selected) คุณจะได้ไม่ต้องไปกดติ๊กใหม่
         } else {
-            // ถ้าตอบผ่านแล้ว (Good / Easy) ค่อยปลดติ๊กออกให้ เพื่อเคลียร์หน้าจอ
             setSelectedCards(prev => prev.filter(id => id !== uId));
         }
     };
@@ -605,4 +593,4 @@ if ('serviceWorker' in navigator) {
             .then(reg => { console.log('Service Worker Registered!', reg.scope); })
             .catch(err => { console.log('Service Worker Registration Failed!', err); });
     });
-            }
+        }
