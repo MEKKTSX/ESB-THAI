@@ -1,3 +1,6 @@
+// ==========================================
+// 🌟 SHARED UTILITIES & PREMIUM COMPONENTS
+// ==========================================
 window.Utils = {
     shuffleArray: (array) => {
         const arr = [...array];
@@ -7,39 +10,139 @@ window.Utils = {
         }
         return arr;
     },
+    
+    // Anki-like Supervised SRS Algorithm
     calculateSRS: (cardData, rating) => {
         let { interval = 0, ease = 2.5, step = 0 } = cardData || {};
-        if (rating === 'again') { step = 0; interval = 0; ease = Math.max(1.3, ease - 0.2); } 
-        else if (rating === 'hard') { if (step === 0) { interval = 1; step = 1; } else { interval = Math.max(1, Math.round(interval * 1.2)); ease = Math.max(1.3, ease - 0.15); } } 
-        else if (rating === 'good') { if (step === 0) { interval = 4; step = 1; } else { interval = Math.max(1, Math.round(interval * ease)); } } 
-        else if (rating === 'easy') { if (step === 0) { interval = 7; step = 1; } else { ease += 0.15; interval = Math.max(7, Math.round(interval * ease * 1.3)); } }
+        if (rating === 'again') { 
+            step = 0; 
+            interval = 0; 
+            ease = Math.max(1.3, ease - 0.2); 
+        } else if (rating === 'hard') { 
+            if (step === 0) { 
+                interval = 1; 
+                step = 1; 
+            } else { 
+                interval = Math.max(1, Math.round(interval * 1.2)); 
+                ease = Math.max(1.3, ease - 0.15); 
+            } 
+        } else if (rating === 'good') { 
+            if (step === 0) { 
+                interval = 4; 
+                step = 1; 
+            } else { 
+                interval = Math.max(1, Math.round(interval * ease)); 
+            } 
+        } else if (rating === 'easy') { 
+            if (step === 0) { 
+                interval = 7; 
+                step = 1; 
+            } else { 
+                ease += 0.15; 
+                interval = Math.max(7, Math.round(interval * ease * 1.3)); 
+            } 
+        }
         const nextDate = new Date();
-        if (interval > 0) nextDate.setDate(nextDate.getDate() + interval);
-        else nextDate.setMinutes(nextDate.getMinutes() + 10);
-        nextDate.setHours(4, 0, 0, 0); 
+        if (interval > 0) {
+            nextDate.setDate(nextDate.getDate() + interval);
+            nextDate.setHours(4, 0, 0, 0); // รีเซ็ตการสอบทบทวนตอนตี 4 ของวันตามระบบสากลของ Anki
+        } else {
+            nextDate.setMinutes(nextDate.getMinutes() + 10); // ถ้า Again จะกลับมาในอีก 10 นาที (ตามมาตรฐาน Anki)
+        }
         return { interval, ease, step, nextReview: nextDate.getTime() };
     },
+
+    // แบ่งคำประโยคอัจฉริยะ (Smart Sentence Chunking)
     smartChunk: (text) => {
-        const words = text.split(' '); const chunks = []; let current = [];
+        const words = text.split(' '); 
+        const chunks = []; 
+        let current = [];
         const breakWords = new Set(['and', 'but', 'or', 'so', 'because', 'to', 'for', 'with', 'in', 'on', 'at', 'about', 'which', 'that', 'who', 'when', 'where', 'while']);
+        
         words.forEach((word) => {
             const cleanWord = word.toLowerCase().replace(/[^a-z]/g, '');
-            if (breakWords.has(cleanWord) && current.length > 0) { chunks.push(current.join(' ')); current = [word]; } 
-            else { current.push(word); if (word.match(/[.,!?:]$/)) { chunks.push(current.join(' ')); current = []; } }
+            if (breakWords.has(cleanWord) && current.length > 0) { 
+                chunks.push(current.join(' ')); 
+                current = [word]; 
+            } else { 
+                current.push(word); 
+                if (word.match(/[.,!?:]$/)) { 
+                    chunks.push(current.join(' ')); 
+                    current = []; 
+                } 
+            }
         });
         if (current.length > 0) chunks.push(current.join(' '));
         return chunks.filter(c => c.trim().length > 0);
     },
+
+    // ป้องกันคลื่นเสียงชนกันพร้อมค้นหาเสียงพรีเมียมเสมือนมนุษย์ (Premium Human-Like Speech Engine)
     speak: (text, lang = 'en-US', speed = 1.0) => {
         try {
             if (!('speechSynthesis' in window)) return;
-            window.speechSynthesis.cancel();
+            window.speechSynthesis.cancel(); // ตัดเสียงเก่าก่อนพูดใหม่ทันที
+            
             const utterance = new SpeechSynthesisUtterance(text);
-            utterance.lang = lang; utterance.rate = speed;
+            utterance.lang = lang; 
+            utterance.rate = speed;
+            
+            const voices = window.speechSynthesis.getVoices();
+            if (voices && voices.length > 0) {
+                // กรองเสียงตามตระกูลภาษาหลัก (เช่น en หรือ th)
+                const targetLangShort = lang.split('-')[0].toLowerCase();
+                const matchedVoices = voices.filter(v => v.lang.toLowerCase().replace('_', '-').startsWith(targetLangShort));
+                
+                if (matchedVoices.length > 0) {
+                    // จัดอันดับค้นหาเสียงมนุษย์ที่พรีเมียมที่สุด
+                    let selectedVoice = null;
+                    
+                    // 1. ลองค้นหาเสียงระบุ Premium หรือ Natural
+                    selectedVoice = matchedVoices.find(v => {
+                        const nameLower = v.name.toLowerCase();
+                        return nameLower.includes('premium') || nameLower.includes('natural');
+                    });
+                    
+                    // 2. ลองค้นหาเสียง Google (คุณภาพสุดยอดและมีความเป็นธรรมชาติสูงมากบน Android/Chrome)
+                    if (!selectedVoice) {
+                        selectedVoice = matchedVoices.find(v => v.name.toLowerCase().includes('google'));
+                    }
+                    
+                    // 3. ลองค้นหาเสียง Apple หรือเสียงยอดนิยมในมือถือ/คอม (Samantha, Karen, Moira, Tessa, Zira, Hazel)
+                    if (!selectedVoice) {
+                        const popularNames = ['samantha', 'karen', 'moira', 'tessa', 'zira', 'hazel', 'daniel', 'apple'];
+                        selectedVoice = matchedVoices.find(v => {
+                            const nameLower = v.name.toLowerCase();
+                            return popularNames.some(p => nameLower.includes(p));
+                        });
+                    }
+                    
+                    // 4. Fallback: เอาเสียงแรกของระบบในภาษานั้น
+                    if (!selectedVoice) {
+                        selectedVoice = matchedVoices[0];
+                    }
+                    
+                    if (selectedVoice) {
+                        utterance.voice = selectedVoice;
+                    }
+                }
+            }
+            
             window.speechSynthesis.speak(utterance);
-        } catch (e) { console.warn("Audio error", e); }
+        } catch (e) { 
+            console.warn("Audio error", e); 
+        }
     }
 };
+
+// กระตุ้นให้เบราว์เซอร์ดาวน์โหลดและแคชรายชื่อเสียงเมื่อหน้าเว็บรันครั้งแรก (แก้อาการเสียงหุ่นยนต์บนมือถือ)
+if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    window.speechSynthesis.getVoices();
+    if (window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = () => {
+            window.speechSynthesis.getVoices();
+        };
+    }
+}
 
 const IconBase = ({ children, size = 24, className = "", onClick }) => (
     <svg xmlns="http://www.w3.org/2000/svg" width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className} onClick={onClick}>{children}</svg>
@@ -70,6 +173,7 @@ window.Icons = {
 };
 
 window.SharedComponents = {
+    // 1. Navigation bar ด้านล่าง แบบแก้วคริสตัล (Glassmorphic Navigation Bar)
     BottomNav: ({ activeTab, setActiveTab }) => {
         const navItems = [
             { id: 'home', icon: window.Icons.HomeIcon, label: 'Home' },
@@ -78,15 +182,19 @@ window.SharedComponents = {
             { id: 'profile', icon: window.Icons.UserIcon, label: 'Profile' }
         ];
         return (
-            <div className="fixed bottom-0 left-0 right-0 bg-navy-900 border-t border-navy-700 pb-safe z-40">
-                <div className="flex justify-around items-center h-16 px-2">
+            <div className="fixed bottom-0 left-0 right-0 bg-navy-950/80 backdrop-blur-xl border-t border-white/5 pb-safe z-40 shadow-2xl">
+                <div className="flex justify-around items-center h-16 px-4 max-w-lg mx-auto">
                     {navItems.map(item => {
                         const Icon = item.icon;
                         const isActive = activeTab === item.id;
                         return (
-                            <button key={item.id} onClick={() => setActiveTab(item.id)} className={`flex flex-col items-center justify-center w-full h-full space-y-1 transition-colors ${isActive ? 'text-brand-yellow' : 'text-slate-500'}`}>
-                                <Icon size={22} className={isActive ? "fill-brand-yellow/20" : ""} />
-                                <span className="text-[10px] font-medium">{item.label}</span>
+                            <button 
+                                key={item.id} 
+                                onClick={() => setActiveTab(item.id)} 
+                                className={`flex flex-col items-center justify-center w-full h-full space-y-1 active:scale-95 transition-all duration-300 ${isActive ? 'text-brand-yellow font-extrabold' : 'text-slate-500 hover:text-slate-400'}`}
+                            >
+                                <Icon size={20} className={isActive ? "fill-brand-yellow/15 text-brand-yellow drop-shadow-[0_0_8px_rgba(250,204,21,0.4)]" : "text-slate-500"} />
+                                <span className="text-[9px] font-bold tracking-wider">{item.label}</span>
                             </button>
                         );
                     })}
@@ -94,70 +202,191 @@ window.SharedComponents = {
             </div>
         );
     },
-    ChunkedSentenceCard: ({ sentence, isActive, onClick, onSaveSRS, langToggle, isSelectionMode, isSelected, onToggleSelect, isBookmarked, onToggleBookmark, isLocked }) => {
-        const { BookmarkIcon, Volume2Icon, CheckCircleIcon, CircleIcon } = window.Icons;
+
+    // 2. การ์ดประโยคระดับพรีเมียม (Premium Chunked Sentence Card)
+    ChunkedSentenceCard: ({ 
+        sentence, 
+        isActive, 
+        onClick, 
+        onSaveSRS, 
+        langToggle, 
+        isSelectionMode, 
+        isSelected, 
+        onToggleSelect, 
+        isBookmarked, 
+        onToggleBookmark, 
+        isLocked,
+        isCustom, // Props บ่งบอกว่าเป็นการ์ดสร้างเอง
+        onDeleteCustomCard // Callback ลบการ์ดสร้างเอง
+    }) => {
+        const { BookmarkIcon, Volume2Icon, CheckCircleIcon, CircleIcon } = window.Icons || {};
+        
         const mainText = langToggle === 'en' ? sentence.en : sentence.th;
         const chunks = window.Utils.smartChunk(sentence.en);
         
         const borderStyle = isSelected 
-            ? "border-2 border-brand-yellow shadow-[0_0_15px_rgba(250,204,21,0.2)]" 
-            : (isLocked ? "border border-transparent opacity-40 grayscale" : "border border-navy-700/50 hover:bg-navy-700/50");
+            ? "border-2 border-brand-yellow shadow-[0_0_20px_rgba(250,204,21,0.25)] bg-[#1e293b]/80" 
+            : (isLocked 
+                ? "border border-emerald-500/20 bg-emerald-500/[0.01] opacity-50" 
+                : "border border-white/[0.05] bg-white/[0.02] hover:bg-white/[0.05] hover:border-white/[0.08]");
 
-        // ⭐️ แก้ไขให้โหมดเลือกการ์ด สามารถจิ้มเลือกการ์ดที่ติดล็อคไปแล้วได้!
         const handleCardClick = () => {
             if (isSelectionMode) { 
                 onToggleSelect(); 
-            } 
-            else { 
+            } else { 
                 onClick(); 
             }
         };
 
         const renderSelectRing = () => {
-            if (isSelected) return <CheckCircleIcon size={24} className="text-brand-yellow fill-brand-yellow/20" />;
-            if (isLocked) return <CheckCircleIcon size={24} className="text-emerald-500 fill-emerald-500/20" />;
-            return <CircleIcon size={24} className="text-navy-600" />;
+            if (isSelected) return <CheckCircleIcon size={20} className="text-brand-yellow fill-brand-yellow/10" />;
+            if (isLocked) return <CheckCircleIcon size={20} className="text-emerald-500 fill-emerald-500/10" />;
+            return <CircleIcon size={20} className="text-slate-600" />;
         };
         
         return (
-            <div onClick={handleCardClick} className={`bg-navy-800 p-4 md:p-5 rounded-xl cursor-pointer transition-all relative overflow-hidden ${borderStyle} ${!isActive ? 'flex justify-between items-center' : ''}`}>
-                {isSelected && <div className="absolute top-0 right-0 bg-brand-yellow text-navy-900 px-3 py-0.5 rounded-bl-lg text-[10px] font-bold z-10 uppercase">Selected</div>}
+            <div 
+                onClick={handleCardClick} 
+                className={`backdrop-blur-md p-4.5 rounded-2xl cursor-pointer transition-all duration-300 relative overflow-hidden active:scale-[0.99] ${borderStyle} ${!isActive ? 'flex justify-between items-center gap-3' : ''}`}
+            >
+                {/* Custom Card indicator */}
+                {isCustom && (
+                    <div className="absolute top-0 left-0 bg-blue-600/25 border-r border-b border-blue-500/30 text-blue-400 px-2 py-0.5 rounded-br-lg text-[8px] font-extrabold uppercase tracking-widest z-10">
+                        Custom
+                    </div>
+                )}
+                {isSelected && (
+                    <div className="absolute top-0 right-0 bg-brand-yellow text-navy-900 px-3 py-0.5 rounded-bl-lg text-[8px] font-extrabold z-10 uppercase tracking-widest">
+                        Selected
+                    </div>
+                )}
+
                 {!isActive && (
                     <>
-                        <div className="flex items-center gap-3 flex-1">
+                        <div className="flex items-center gap-3 flex-1 min-w-0">
                             {isSelectionMode && renderSelectRing()}
-                            <div className="flex-1">
-                                <h3 className="text-base font-bold text-slate-100 leading-snug">{mainText}</h3>
-                                <p className="text-xs text-slate-500 mt-1">{isLocked ? 'Reviewed today' : `Tap to ${isSelectionMode ? 'select' : 'reveal'}`}</p>
+                            <div className="flex-1 min-w-0">
+                                <h3 className="text-sm font-bold text-slate-100 leading-snug truncate pr-2">{mainText}</h3>
+                                <p className="text-[10px] text-slate-500 mt-1 font-medium">
+                                    {isLocked ? 'Reviewed today' : `Tap to ${isSelectionMode ? 'select' : 'reveal detail'}`}
+                                </p>
                             </div>
                         </div>
-                        {!isSelectionMode && <Volume2Icon size={20} className="text-slate-500 shrink-0 ml-2" onClick={(e) => { e.stopPropagation(); window.Utils.speak(sentence.en); }} />}
+                        
+                        {/* Action buttons (when card collapsed) */}
+                        <div className="flex items-center gap-2" onClick={e => e.stopPropagation()}>
+                            {!isSelectionMode && (
+                                <button 
+                                    onClick={() => window.Utils.speak(sentence.en)}
+                                    className="p-2 hover:bg-white/5 rounded-full text-slate-400 hover:text-white transition-colors"
+                                >
+                                    {Volume2Icon ? <Volume2Icon size={16} /> : '🔊'}
+                                </button>
+                            )}
+                            
+                            {/* Delete custom card button */}
+                            {isCustom && onDeleteCustomCard && (
+                                <button 
+                                    onClick={() => {
+                                        if (window.confirm("ยืนยันการลบการ์ดคำศัพท์นี้ถาวรครับ?")) {
+                                            onDeleteCustomCard();
+                                        }
+                                    }}
+                                    className="p-2 hover:bg-rose-500/10 text-slate-500 hover:text-rose-400 rounded-full transition-colors"
+                                    title="Delete Card"
+                                >
+                                    <span className="material-symbols-outlined text-sm font-bold">delete</span>
+                                </button>
+                            )}
+                        </div>
                     </>
                 )}
+
+                {/* Expanded Details View */}
                 {isActive && (
-                    <div className="animate-fade-in w-full">
-                        <div className="flex justify-between items-start mb-5">
+                    <div className="animate-fade-in w-full space-y-4">
+                        <div className="flex justify-between items-start">
                             <div className="flex items-center gap-2">
                                 {isSelectionMode && renderSelectRing()}
-                                <span className="bg-brand-yellow/20 text-brand-yellow text-[10px] font-bold px-2 py-1 rounded uppercase tracking-widest border border-brand-yellow/30">Active</span>
+                                <span className="bg-brand-yellow/10 text-brand-yellow text-[8px] font-extrabold px-2.5 py-1 rounded border border-brand-yellow/20 uppercase tracking-widest">
+                                    Active
+                                </span>
                             </div>
-                            <div className="flex gap-3 items-center" onClick={e => e.stopPropagation()}>
-                                <button onClick={(e) => { e.stopPropagation(); onToggleBookmark(); }}><BookmarkIcon size={20} className={isBookmarked ? "text-brand-yellow fill-brand-yellow" : "text-slate-500"} /></button>
-                                <div className="w-10 h-10 rounded-full bg-gradient-to-br from-yellow-400 to-amber-600 flex items-center justify-center shadow-[0_0_15px_rgba(250,204,21,0.3)] active:scale-95 transition-transform"><Volume2Icon size={20} className="text-navy-900 fill-navy-900" onClick={() => window.Utils.speak(sentence.en)} /></div>
+                            
+                            {/* Speech and Bookmark Tools */}
+                            <div className="flex gap-2.5 items-center" onClick={e => e.stopPropagation()}>
+                                {isCustom && onDeleteCustomCard && (
+                                    <button 
+                                        onClick={() => {
+                                            if (window.confirm("ยืนยันการลบการ์ดคำศัพท์นี้ถาวรครับ?")) {
+                                                onDeleteCustomCard();
+                                            }
+                                        }}
+                                        className="p-2 hover:bg-rose-500/10 text-slate-400 hover:text-rose-400 rounded-full transition-colors"
+                                    >
+                                        <span className="material-symbols-outlined text-base">delete</span>
+                                    </button>
+                                )}
+                                
+                                <button 
+                                    onClick={() => onToggleBookmark()}
+                                    className="p-2 hover:bg-white/5 rounded-full text-slate-400 transition-colors"
+                                >
+                                    {BookmarkIcon && <BookmarkIcon size={18} className={isBookmarked ? "text-brand-yellow fill-brand-yellow" : "text-slate-500"} />}
+                                </button>
+                                
+                                <button 
+                                    onClick={() => window.Utils.speak(sentence.en)}
+                                    className="w-9 h-9 rounded-full bg-gradient-to-br from-yellow-400 to-amber-600 flex items-center justify-center shadow-lg active:scale-95 transition-transform text-navy-900 font-bold"
+                                >
+                                    {Volume2Icon ? <Volume2Icon size={16} className="fill-navy-900" /> : '🔊'}
+                                </button>
                             </div>
                         </div>
-                        <div className="flex flex-wrap gap-2 mb-4">{chunks.map((chunk, i) => <span key={i} className="bg-navy-900/80 text-blue-100 text-sm font-semibold px-3 py-2 rounded-lg border border-navy-700">{chunk}</span>)}</div>
-                        <div className="border-t border-navy-700/50 pt-4 mb-5">
-                            {langToggle === 'th' && <p className="text-white text-[15px] font-medium mb-2">{sentence.en}</p>}
-                            <p className="text-slate-300 text-[15px] font-medium">{sentence.th}</p>
+
+                        {/* Chunked word badges */}
+                        <div className="flex flex-wrap gap-1.5 pt-1">
+                            {chunks.map((chunk, i) => (
+                                <span 
+                                    key={i} 
+                                    className="bg-navy-950/60 text-blue-100 text-xs font-semibold px-2.5 py-1.5 rounded-lg border border-white/[0.04] shadow-inner"
+                                >
+                                    {chunk}
+                                </span>
+                            ))}
                         </div>
+
+                        {/* Translation */}
+                        <div className="border-t border-white/[0.06] pt-3.5 space-y-1">
+                            {langToggle === 'th' && (
+                                <p className="text-white text-sm font-semibold">{sentence.en}</p>
+                            )}
+                            <p className="text-slate-300 text-sm font-semibold">{sentence.th}</p>
+                        </div>
+
+                        {/* SRS Quick Score Rating (if not locked) */}
                         {!isSelectionMode && !isLocked && (
-                            <div className="flex items-center justify-between border-t border-navy-700/50 pt-4" onClick={(e) => e.stopPropagation()}>
-                                <span className="text-[10px] font-bold text-slate-500 uppercase tracking-widest">SRS Rating</span>
+                            <div className="flex items-center justify-between border-t border-white/[0.06] pt-3.5" onClick={e => e.stopPropagation()}>
+                                <span className="text-[9px] font-extrabold text-slate-500 uppercase tracking-widest">Rate Recalled</span>
                                 <div className="flex gap-1.5">
-                                    <button onClick={() => { onSaveSRS(sentence.uniqueId, 'again'); onClick(); }} className="px-3 py-1.5 rounded bg-rose-500/20 text-rose-500 border border-rose-500/30 text-xs font-bold">Again</button>
-                                    <button onClick={() => { onSaveSRS(sentence.uniqueId, 'good'); onClick(); }} className="px-3 py-1.5 rounded bg-blue-500/20 text-blue-400 border border-blue-500/30 text-xs font-bold">Good</button>
-                                    <button onClick={() => { onSaveSRS(sentence.uniqueId, 'easy'); onClick(); }} className="px-3 py-1.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 text-xs font-bold">Easy</button>
+                                    <button 
+                                        onClick={() => { onSaveSRS(sentence.uniqueId, 'again'); onClick(); }} 
+                                        className="px-2.5 py-1.5 rounded bg-rose-500/10 text-rose-400 border border-rose-500/20 text-[10px] font-bold active:scale-95 transition-transform"
+                                    >
+                                        Again
+                                    </button>
+                                    <button 
+                                        onClick={() => { onSaveSRS(sentence.uniqueId, 'good'); onClick(); }} 
+                                        className="px-2.5 py-1.5 rounded bg-blue-500/10 text-blue-400 border border-blue-500/20 text-[10px] font-bold active:scale-95 transition-transform"
+                                    >
+                                        Good
+                                    </button>
+                                    <button 
+                                        onClick={() => { onSaveSRS(sentence.uniqueId, 'easy'); onClick(); }} 
+                                        className="px-2.5 py-1.5 rounded bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 text-[10px] font-bold active:scale-95 transition-transform"
+                                    >
+                                        Easy
+                                    </button>
                                 </div>
                             </div>
                         )}
