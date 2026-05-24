@@ -174,21 +174,43 @@ window.ESB_Features.StoryListeningView = ({ onClose, settings }) => {
         utterance.lang = 'en-US';
         utterance.rate = playbackSpeed;
 
-        // ค้นหาเสียงพรีเมียมเสมือนมนุษย์
+        // ค้นหาเสียงพรีเมียมเสมือนมนุษย์ (จัดอันดับเน้นเสียงผู้ชายตามความพึงพอใจการเรียนรู้)
         const voices = window.speechSynthesis.getVoices();
         if (voices && voices.length > 0) {
             const enVoices = voices.filter(v => v.lang.toLowerCase().replace('_', '-').startsWith('en'));
-            let selectedVoice = enVoices.find(v => v.name.toLowerCase().includes('premium') || v.name.toLowerCase().includes('natural'));
+            
+            let selectedVoice = null;
+            
+            // 1. ค้นหาเสียงผู้ชายคุณภาพสูงก่อน
+            const maleKeywords = ['david', 'daniel', 'male', 'guy', 'aaron', 'ryan', 'gordon', 'stefan', 'iom'];
+            selectedVoice = enVoices.find(v => {
+                const nameLower = v.name.toLowerCase();
+                return maleKeywords.some(keyword => nameLower.includes(keyword));
+            });
+            
+            // 2. ถ้าไม่พบ ให้ลองหาเสียงที่ระบุ Premium หรือ Natural
+            if (!selectedVoice) {
+                selectedVoice = enVoices.find(v => v.name.toLowerCase().includes('premium') || v.name.toLowerCase().includes('natural'));
+            }
+            
+            // 3. ถ้าไม่พบ ให้ลองหาเสียงของ Google
             if (!selectedVoice) {
                 selectedVoice = enVoices.find(v => v.name.toLowerCase().includes('google'));
             }
+            
+            // 4. ถ้าไม่มีจริง ๆ ลองหาเสียง Apple หรือ Samantha
             if (!selectedVoice) {
                 selectedVoice = enVoices.find(v => v.name.toLowerCase().includes('samantha') || v.name.toLowerCase().includes('apple'));
             }
+            
+            // 5. Fallback
             if (!selectedVoice && enVoices.length > 0) {
                 selectedVoice = enVoices[0];
             }
-            if (selectedVoice) utterance.voice = selectedVoice;
+            
+            if (selectedVoice) {
+                utterance.voice = selectedVoice;
+            }
         }
 
         // เมื่ออ่านจบประโยคนี้ ให้เล่นประโยคถัดไปโดยอัตโนมัติ

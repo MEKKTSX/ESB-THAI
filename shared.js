@@ -93,30 +93,39 @@ window.Utils = {
                 const matchedVoices = voices.filter(v => v.lang.toLowerCase().replace('_', '-').startsWith(targetLangShort));
                 
                 if (matchedVoices.length > 0) {
-                    // จัดอันดับค้นหาเสียงมนุษย์ที่พรีเมียมที่สุด
+                    // จัดอันดับค้นหาเสียงมนุษย์ที่เสมือนจริง (เน้นเสียงผู้ชายตามความชอบเรียนรู้ของผู้ใช้)
                     let selectedVoice = null;
                     
-                    // 1. ลองค้นหาเสียงระบุ Premium หรือ Natural
+                    // 1. ลองค้นหาเสียงผู้ชายคุณภาพสูงก่อน (เดวิด, แดเนียล, กาย, และรหัสเสียงผู้ชายของ Google/Apple)
+                    const maleKeywords = ['david', 'daniel', 'male', 'guy', 'aaron', 'ryan', 'gordon', 'stefan', 'iom'];
                     selectedVoice = matchedVoices.find(v => {
                         const nameLower = v.name.toLowerCase();
-                        return nameLower.includes('premium') || nameLower.includes('natural');
+                        return maleKeywords.some(keyword => nameLower.includes(keyword));
                     });
                     
-                    // 2. ลองค้นหาเสียง Google (คุณภาพสุดยอดและมีความเป็นธรรมชาติสูงมากบน Android/Chrome)
+                    // 2. ถ้าไม่พบ ให้ลองหาเสียงที่ระบุ Premium หรือ Natural
+                    if (!selectedVoice) {
+                        selectedVoice = matchedVoices.find(v => {
+                            const nameLower = v.name.toLowerCase();
+                            return nameLower.includes('premium') || nameLower.includes('natural');
+                        });
+                    }
+                    
+                    // 3. ถ้าไม่พบ ลองหาเสียงของ Google (คุณภาพสูงใน Android)
                     if (!selectedVoice) {
                         selectedVoice = matchedVoices.find(v => v.name.toLowerCase().includes('google'));
                     }
                     
-                    // 3. ลองค้นหาเสียง Apple หรือเสียงยอดนิยมในมือถือ/คอม (Samantha, Karen, Moira, Tessa, Zira, Hazel)
+                    // 4. ถ้าไม่มีจริง ๆ ให้ลองหาเสียงยอดนิยมค่ายหลักอื่น ๆ (เช่น Samantha, Apple)
                     if (!selectedVoice) {
-                        const popularNames = ['samantha', 'karen', 'moira', 'tessa', 'zira', 'hazel', 'daniel', 'apple'];
+                        const popularNames = ['samantha', 'karen', 'moira', 'tessa', 'zira', 'hazel', 'apple'];
                         selectedVoice = matchedVoices.find(v => {
                             const nameLower = v.name.toLowerCase();
                             return popularNames.some(p => nameLower.includes(p));
                         });
                     }
                     
-                    // 4. Fallback: เอาเสียงแรกของระบบในภาษานั้น
+                    // 5. Fallback: เอาเสียงแรกของระบบในภาษานั้น
                     if (!selectedVoice) {
                         selectedVoice = matchedVoices[0];
                     }
