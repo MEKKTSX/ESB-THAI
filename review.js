@@ -224,6 +224,30 @@ window.FlashcardSettingsModal = ({ settings, setSettings, SessionData, onClose }
                     </div>
                 </div>
 
+                {/* Voice Engine Selector */}
+                <div className="space-y-3">
+                    <h3 className="text-[10px] font-black tracking-[0.2em] text-slate-500 uppercase px-1">Voice Engine / แหล่งเสียง</h3>
+                    <div className="bg-[#04060A]/80 p-1 rounded-xl flex border border-white/[0.04]">
+                        <button 
+                            onClick={() => setSettings({...settings, voiceEngine: 'native'})} 
+                            className={`flex-1 py-3.5 text-xs font-bold rounded-lg flex flex-col justify-center items-center gap-0.5 transition-all duration-300 ${settings.voiceEngine !== 'cloud' ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg shadow-indigo-600/20' : 'text-slate-400 hover:text-slate-300'}`}
+                        >
+                            <span className="font-extrabold text-[11px]">🇹🇭/🇺🇸 Offline</span>
+                            <span className="text-[8px] font-bold opacity-60">ระบบดั้งเดิมของมือถือ</span>
+                        </button>
+                        <button 
+                            onClick={() => setSettings({...settings, voiceEngine: 'cloud'})} 
+                            className={`flex-1 py-3.5 text-xs font-bold rounded-lg flex flex-col justify-center items-center gap-0.5 transition-all duration-300 ${settings.voiceEngine === 'cloud' ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg shadow-indigo-600/20' : 'text-slate-400 hover:text-slate-300'}`}
+                        >
+                            <span className="font-extrabold text-[11px] flex items-center gap-1">✨ AI Cloud Voice</span>
+                            <span className="text-[8px] font-bold opacity-60">เสียงผู้ชายพรีเมียมสมจริง</span>
+                        </button>
+                    </div>
+                    <p className="text-[9px] text-slate-500 px-1 leading-normal">
+                        * AI Cloud Voice สตรีมเสียงพูดสังเคราะห์จากคลาวด์ OpenAI (Onyx) ที่สมจริงเหมือนคนพูด 100% สำเนียงเป๊ะเท่ากันทั้งมือถือและคอมพิวเตอร์ (ต้องการเน็ต และหากช้าเกิน 2.5 วินาทีระบบจะสลับมาออฟไลน์ดั้งเดิมอัตโนมัติ)
+                    </p>
+                </div>
+
                 {/* Auto Play Option */}
                 <div className="space-y-3">
                     <h3 className="text-[10px] font-black tracking-[0.2em] text-slate-500 uppercase px-1">Behavior</h3>

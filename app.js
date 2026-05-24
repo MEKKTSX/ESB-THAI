@@ -200,10 +200,11 @@ const App = () => {
     const [appSettings, setAppSettings] = useState(() => { 
         try { 
             const saved = JSON.parse(localStorage.getItem('esb_app_settings'));
-            if (saved) return saved;
-            return { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false }; 
+            const defaults = { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false, voiceEngine: 'native' };
+            if (saved) return { ...defaults, ...saved };
+            return defaults; 
         } catch(e) { 
-            return { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false }; 
+            return { cardFront: 'th', speed: 1.0, pool: SessionData.map(s => s.id), autoPlay: true, loop: false, voiceEngine: 'native' }; 
         } 
     });
 

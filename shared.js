@@ -76,11 +76,116 @@ window.Utils = {
         return chunks.filter(c => c.trim().length > 0);
     },
 
-    // ป้องกันคลื่นเสียงชนกันพร้อมค้นหาเสียงพรีเมียมเสมือนมนุษย์ (Premium Human-Like Speech Engine)
-    speak: (text, lang = 'en-US', speed = 1.0) => {
+    // ป้องกันคลื่นเสียงชนกันพร้อมค้นหาเสียงพรีเมียมเสมือนมนุษย์ (Premium Hybrid Speech Engine)
+    speak: (text, lang = 'en-US', speed = 1.0, onEnd = null) => {
         try {
-            if (!('speechSynthesis' in window)) return;
-            window.speechSynthesis.cancel(); // ตัดเสียงเก่าก่อนพูดใหม่ทันที
+            // โหลดและดึงค่าเสียงจากการตั้งค่า LocalStorage
+            let savedSettings = null;
+            try {
+                savedSettings = JSON.parse(localStorage.getItem('esb_app_settings'));
+            } catch(e) {}
+            
+            const useCloud = savedSettings && savedSettings.voiceEngine === 'cloud' && navigator.onLine && window.puter;
+            
+            if (useCloud) {
+                // เคลียร์เสียง Cloud เก่าที่เล่นอยู่
+                if (window._currentCloudAudio) {
+                    window._currentCloudAudio.pause();
+                    window._currentCloudAudio = null;
+                }
+                if (window._cloudFallbackTimeout) {
+                    clearTimeout(window._cloudFallbackTimeout);
+                    window._cloudFallbackTimeout = null;
+                }
+                
+                // สั่งตัดเสียงออฟไลน์ทันทีด้วย
+                if ('speechSynthesis' in window) {
+                    window.speechSynthesis.cancel();
+                }
+
+                // เลือกผู้ให้บริการและเสียงพูดคุณภาพตามหลักภาษา
+                // สำหรับอังกฤษใช้ OpenAI Onyx (เสียงผู้ชายสมจริง) ส่วนภาษาอื่น (ไทย) ใช้ Gemini
+                const isEnglish = lang.toLowerCase().startsWith('en');
+                const provider = isEnglish ? "openai" : "gemini";
+                const voice = isEnglish ? "onyx" : "Puck";
+                
+                let didFallback = false;
+                
+                // สร้างระบบป้องกันความล่าช้า (Timeout Fallback): หากคลาวด์ใช้เวลาโหลดเกิน 2.5 วินาที จะตัดเข้าออฟไลน์ทันที
+                window._cloudFallbackTimeout = setTimeout(() => {
+                    didFallback = true;
+                    console.warn("AI Cloud Voice timed out (2.5s), falling back to offline native speech.");
+                    window.Utils.speakNative(text, lang, speed, onEnd);
+                }, 2500);
+
+                window.puter.ai.txt2speech(text, {
+                    provider: provider,
+                    voice: voice
+                }).then((audio) => {
+                    if (didFallback) return; // หากข้ามไปเล่นออฟไลน์แล้ว ไม่ต้องรันซ้ำ
+                    
+                    if (window._cloudFallbackTimeout) {
+                        clearTimeout(window._cloudFallbackTimeout);
+                        window._cloudFallbackTimeout = null;
+                    }
+
+                    audio.playbackRate = speed;
+                    window._currentCloudAudio = audio;
+                    
+                    audio.onended = () => {
+                        if (window._currentCloudAudio === audio) {
+                            window._currentCloudAudio = null;
+                        }
+                        if (onEnd) onEnd();
+                    };
+                    
+                    audio.onerror = () => {
+                        if (window._currentCloudAudio === audio) {
+                            window._currentCloudAudio = null;
+                        }
+                        console.warn("Cloud playback error, falling back to native.");
+                        window.Utils.speakNative(text, lang, speed, onEnd);
+                    };
+
+                    audio.play().catch(e => {
+                        console.warn("Cloud playback blocked or failed, falling back to native.", e);
+                        window.Utils.speakNative(text, lang, speed, onEnd);
+                    });
+                }).catch(err => {
+                    if (didFallback) return;
+                    if (window._cloudFallbackTimeout) {
+                        clearTimeout(window._cloudFallbackTimeout);
+                        window._cloudFallbackTimeout = null;
+                    }
+                    console.warn("Puter.js error, falling back to native.", err);
+                    window.Utils.speakNative(text, lang, speed, onEnd);
+                });
+            } else {
+                window.Utils.speakNative(text, lang, speed, onEnd);
+            }
+        } catch (e) { 
+            console.warn("Speech error, falling back to native.", e); 
+            window.Utils.speakNative(text, lang, speed, onEnd);
+        }
+    },
+
+    // ระบบสังเคราะห์เสียงดั้งเดิมของตัวเครื่อง (Offline Native Engine)
+    speakNative: (text, lang = 'en-US', speed = 1.0, onEnd = null) => {
+        try {
+            if (window._currentCloudAudio) {
+                window._currentCloudAudio.pause();
+                window._currentCloudAudio = null;
+            }
+            if (window._cloudFallbackTimeout) {
+                clearTimeout(window._cloudFallbackTimeout);
+                window._cloudFallbackTimeout = null;
+            }
+            
+            if (!('speechSynthesis' in window)) {
+                if (onEnd) onEnd();
+                return;
+            }
+            window.speechSynthesis.cancel();
             
             const utterance = new SpeechSynthesisUtterance(text);
             utterance.lang = lang; 
@@ -88,15 +193,13 @@ window.Utils = {
             
             const voices = window.speechSynthesis.getVoices();
             if (voices && voices.length > 0) {
-                // กรองเสียงตามตระกูลภาษาหลัก (เช่น en หรือ th)
                 const targetLangShort = lang.split('-')[0].toLowerCase();
                 const matchedVoices = voices.filter(v => v.lang.toLowerCase().replace('_', '-').startsWith(targetLangShort));
                 
                 if (matchedVoices.length > 0) {
-                    // จัดอันดับค้นหาเสียงมนุษย์ที่เสมือนจริง (เน้นเสียงผู้ชายตามความชอบเรียนรู้ของผู้ใช้)
                     let selectedVoice = null;
                     
-                    // 1. ลองค้นหาเสียงผู้ชายคุณภาพสูงก่อน (เดวิด, แดเนียล, กาย, และรหัสเสียงผู้ชายของ Google/Apple)
+                    // 1. ค้นหาเสียงผู้ชายคุณภาพสูงก่อน
                     const maleKeywords = ['david', 'daniel', 'male', 'guy', 'aaron', 'ryan', 'gordon', 'stefan', 'iom'];
                     selectedVoice = matchedVoices.find(v => {
                         const nameLower = v.name.toLowerCase();
@@ -111,12 +214,12 @@ window.Utils = {
                         });
                     }
                     
-                    // 3. ถ้าไม่พบ ลองหาเสียงของ Google (คุณภาพสูงใน Android)
+                    // 3. ถ้าไม่พบ ลองหาเสียงของ Google
                     if (!selectedVoice) {
                         selectedVoice = matchedVoices.find(v => v.name.toLowerCase().includes('google'));
                     }
                     
-                    // 4. ถ้าไม่มีจริง ๆ ให้ลองหาเสียงยอดนิยมค่ายหลักอื่น ๆ (เช่น Samantha, Apple)
+                    // 4. ถ้าไม่มีจริง ๆ ให้ลองหาเสียง Samantha หรือ Apple
                     if (!selectedVoice) {
                         const popularNames = ['samantha', 'karen', 'moira', 'tessa', 'zira', 'hazel', 'apple'];
                         selectedVoice = matchedVoices.find(v => {
@@ -136,9 +239,34 @@ window.Utils = {
                 }
             }
             
+            if (onEnd) {
+                utterance.onend = onEnd;
+                utterance.onerror = onEnd;
+            }
+            
             window.speechSynthesis.speak(utterance);
-        } catch (e) { 
-            console.warn("Audio error", e); 
+        } catch (e) {
+            console.warn("Native speech error", e);
+            if (onEnd) onEnd();
+        }
+    },
+
+    // สั่งปิดเสียงสังเคราะห์และสตรีมมิ่งทั้งหมดในระบบทันที
+    cancelSpeak: () => {
+        try {
+            if (window._currentCloudAudio) {
+                window._currentCloudAudio.pause();
+                window._currentCloudAudio = null;
+            }
+            if (window._cloudFallbackTimeout) {
+                clearTimeout(window._cloudFallbackTimeout);
+                window._cloudFallbackTimeout = null;
+            }
+            if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+                window.speechSynthesis.cancel();
+            }
+        } catch(e) {
+            console.warn("Cancel speech error", e);
         }
     }
 };
