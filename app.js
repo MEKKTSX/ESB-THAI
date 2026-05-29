@@ -359,6 +359,62 @@ const App = () => {
     useEffect(() => { localStorage.setItem('esb_review_history', JSON.stringify(reviewHistory)); }, [reviewHistory]);
     useEffect(() => { localStorage.setItem('esb_daily_progress', JSON.stringify(dailyProgress)); }, [dailyProgress]);
 
+    // ซ่อมระบบตารางเวลา: เลื่อนคิว SRS ไปข้างหน้าตามจำนวนวันที่ลืมทำ (Timeline Freeze)
+useEffect(() => {
+    const todayStr = getTodayKey(); // ฟังก์ชันดึงวันที่ปัจจุบัน (เช่น "2026-05-29")
+    const lastProcessed = localStorage.getItem('esb_last_processed_date');
+    
+    // 1. เปิดแอปครั้งแรกสุด ให้บันทึกวันปัจจุบันไว้ก่อน แล้วยังไม่ต้องคำนวณอะไร
+    if (!lastProcessed) {
+        localStorage.setItem('esb_last_processed_date', todayStr);
+        return;
+    }
+    
+    // 2. ถ้าเป็นวันใหม่ (วันปัจจุบันไม่ตรงกับวันที่เคยประมวลผลล่าสุด)
+    if (lastProcessed !== todayStr) {
+        const start = new Date(lastProcessed);
+        const end = new Date(todayStr);
+        let skippedDaysCount = 0;
+        
+        // วนลูปตรวจสอบ "ทุกๆ วันที่ผ่านมาในอดีต" ระหว่างวันล่าสุดที่บันทึก จนถึง วันนี้
+        for (let d = new Date(start.getTime() + 24 * 60 * 60 * 1000); d < end; d.setDate(d.getDate() + 1)) {
+            const yyyy = d.getFullYear();
+            const mm = String(d.getMonth() + 1).padStart(2, '0');
+            const dd = String(d.getDate()).padStart(2, '0');
+            const dayStr = `${yyyy}-${mm}-${dd}`;
+            
+            // เช็ค Data ประวัติ: ถ้าวันนั้นในอดีตไม่มีการทำรีวิวเลย (total เป็น 0 หรือไม่มีตาราง)
+            if (!reviewHistory[dayStr] || !reviewHistory[dayStr].total || reviewHistory[dayStr].total === 0) {
+                skippedDaysCount++; // นับเป็นวันที่ลืมทำ
+            }
+        }
+        
+        // 3. ถ้าพบว่ามีวันที่ลืมทำจริง ให้ทำการ Shift (เลื่อน) ข้อมูลเวลาของการ์ดทุกใบ
+        if (skippedDaysCount > 0) {
+            const oneDayMs = 24 * 60 * 60 * 1000;
+            const shiftMs = skippedDaysCount * oneDayMs; // แปลงจำนวนวันที่ลืมเป็นมิลลิวินาที
+            
+            setSrsData(prev => {
+                const updated = { ...prev };
+                Object.keys(updated).forEach(cardId => {
+                    if (updated[cardId] && updated[cardId].nextReview) {
+                        // บวกเวลาเพิ่มให้การ์ดทุกใบตามจำนวนวันที่ขาดไป ตารางจะถูกยืดออกไปทันที
+                        updated[cardId] = {
+                            ...updated[cardId],
+                            nextReview: updated[cardId].nextReview + shiftMs
+                        };
+                    }
+                });
+                return updated;
+            });
+            console.log(`[SRS Timeline Freeze] ข้ามไป ${skippedDaysCount} วัน ทำการเลื่อนคิวการ์ดทั้งหมดออกไปขนานกัน`);
+        }
+        
+        // อัปเดตสถานะวันล่าสุดที่ระบบตรวจสอบแล้วลงเครื่อง
+        localStorage.setItem('esb_last_processed_date', todayStr);
+    }
+}, [reviewHistory]);
+
     const [currentTab, setCurrentTab] = useState('home');
     const [showSettingsModal, setShowSettingsModal] = useState(false);
     const [showBookmarkModal, setShowBookmarkModal] = useState(false);
