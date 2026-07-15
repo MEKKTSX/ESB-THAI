@@ -1,0 +1,127 @@
+{
+  "id": "U06-L08",
+  "number": 8,
+  "title": "นักท่องเที่ยวต่างชาติสามารถขอคืนภาษี (Tax Refund) ได้ไหม",
+  "chunks": [
+    {
+      "id": "zh-Hans:U06-L08-C071",
+      "legacyId": "U06-L08-C071",
+      "position": 1,
+      "script": "外国游客可以退税吗？",
+      "pronunciation": "wài guó yóu kè kě yǐ tuì shuì ma?",
+      "phonetic": "ไว้ ก๋ัว โหย่ว เค่อ เขอ อี่ ทุ่ย ซุ่ย มะ?",
+      "translation": "นักท่องเที่ยวต่างชาติสามารถขอคืนภาษี (Tax Refund) ได้ไหม",
+      "chunks": [
+        "外国游客可以退税吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L08-C072",
+      "legacyId": "U06-L08-C072",
+      "position": 2,
+      "script": "在哪里办理退税手续？",
+      "pronunciation": "zài nǎ lǐ bàn lǐ tuì shuì shǒu xù?",
+      "phonetic": "ไซ้ หน่า หลี่ ป้าน หลี่ ทุ่ย ซุ่ย โส่ว ซวี่?",
+      "translation": "จัดการขั้นตอนการคืนภาษีได้ที่ตรงไหน",
+      "chunks": [
+        "在哪里办理退税手续？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L08-C073",
+      "legacyId": "U06-L08-C073",
+      "position": 3,
+      "script": "请出示您的护照和购物小票。",
+      "pronunciation": "qǐng chū shì nín de hù zhào hé gòu wù xiǎo piào.",
+      "phonetic": "ฉิ่ง ชู สื้อ หนิน เตอ หู้ จ้าว เหอ ก้าว วู่ เสียว เพี้ยว.",
+      "translation": "กรุณาแสดงหนังสือเดินทางและใบเสร็จซื้อของของคุณ",
+      "chunks": [
+        "请出示您的护照和购物小票。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L08-C074",
+      "legacyId": "U06-L08-C074",
+      "position": 4,
+      "script": "这个超市几点打烊？",
+      "pronunciation": "zhè gè chāo shì jǐ diǎn dǎ yàng?",
+      "phonetic": "เจ้อ เก้อ เชา สื้อ จี๋ เตี่ยน ต๋า ย่าง?",
+      "translation": "ซูเปอร์มาร์เก็ตนี้ปิดกี่โมง",
+      "chunks": [
+        "这个超市几点打烊？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L08-C075",
+      "legacyId": "U06-L08-C075",
+      "position": 5,
+      "script": "已经打烊了，明天再来吧。",
+      "pronunciation": "yǐ jīng dǎ yàng le, míng tiān zài lái ba.",
+      "phonetic": "อี่ จิง ต๋า ย่าง เลอ, หมิง เทียน ไซ้ ไหล ปะ.",
+      "translation": "ปิดร้านแล้ว พรุ่งนี้ค่อยมาใหม่นะ",
+      "chunks": [
+        "已经打烊了，明天再来吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L08-C076",
+      "legacyId": "U06-L08-C076",
+      "position": 6,
+      "script": "这个推车怎么用？",
+      "pronunciation": "zhè gè tuī chē zěn me yòng?",
+      "phonetic": "เจ้อ เก้อ ทุย เชอ เจิ่น เมอ ย่ง?",
+      "translation": "รถเข็นนี้ใช้งานยังไง",
+      "chunks": [
+        "这个推车怎么用？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L08-C077",
+      "legacyId": "U06-L08-C077",
+      "position": 7,
+      "script": "需要放一个一块钱的硬币。",
+      "pronunciation": "xū yào fàng yí gè yí kuài qián de yìng bì.",
+      "phonetic": "ซวี่ เย้า ฟ้าง อี๋ เก้อ อี๋ คว้าย เฉียน เตอ ยิ่ง ปี้.",
+      "translation": "จำเป็นต้องหยอดเหรียญหนึ่งหยวนหนึ่งเหรียญ",
+      "chunks": [
+        "需要放一个一块钱的硬币。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L08-C078",
+      "legacyId": "U06-L08-C078",
+      "position": 8,
+      "script": "收银台在哪儿？",
+      "pronunciation": "shōu yín tái zài nǎr?",
+      "phonetic": "โซว หยวาน ไถ ไซ้ หน่าร์?",
+      "translation": "เคาน์เตอร์แคชเชียร์อยู่ที่ไหน",
+      "chunks": [
+        "收银台在哪儿？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L08-C079",
+      "legacyId": "U06-L08-C079",
+      "position": 9,
+      "script": "现在排队结账的人很多。",
+      "pronunciation": "xiàn zài pái duì jié zhàng de rén hěn duō.",
+      "phonetic": "เซี่ยน ไซ้ ไผ ตุ้ย เจี๋ย จ้าง เตอ เหริน เหิ่น ตัว.",
+      "translation": "ตอนนี้คนต่อคิวจ่ายเงินเยอะมาก",
+      "chunks": [
+        "现在排队结账的人很多。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L08-C080",
+      "legacyId": "U06-L08-C080",
+      "position": 10,
+      "script": "可以自助结账吗？",
+      "pronunciation": "kě yǐ zì zhù jié zhàng ma?",
+      "phonetic": "เขอ อี่ จื้อ จู้ เจี๋ย จ้าง มะ?",
+      "translation": "สามารถจ่ายเงินด้วยตัวเอง (Self-checkout) ได้ไหม",
+      "chunks": [
+        "可以自助结账吗？"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U07-L08",
+  "number": 8,
+  "title": "คุณจะกลับประเทศต้นเดือนหน้าหรือกลางเดือนหน้า",
+  "chunks": [
+    {
+      "id": "zh-Hans:U07-L08-C071",
+      "legacyId": "U07-L08-C071",
+      "position": 1,
+      "script": "你下个月初还是月中回国？",
+      "pronunciation": "nǐ xià gè yuè chū hái shì yuè zhōng huí guó?",
+      "phonetic": "หนี่ เซี่ย เก้อ ยวี่เอ้ ชู หาย สื้อ ยวี่เอ้ จง หุย ก๋ัว?",
+      "translation": "คุณจะกลับประเทศต้นเดือนหน้าหรือกลางเดือนหน้า",
+      "chunks": [
+        "你下个月初还是月中回国？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L08-C072",
+      "legacyId": "U07-L08-C072",
+      "position": 2,
+      "script": "目前计划是月中，票还没买呢。",
+      "pronunciation": "mù qián jì huà shì yuè zhōng, piào hái méi mǎi ne.",
+      "phonetic": "มู่ เฉียน จี้ หว้า สื้อ ยวี่เอ้ จง, เพี้ยว หาย เหมย หม่าย เนอ.",
+      "translation": "แผนการตอนนี้คือกลางเดือน ตั๋วยังไม่ได้ซื้อเลย",
+      "chunks": [
+        "目前计划是月中，票还没买呢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L08-C073",
+      "legacyId": "U07-L08-C073",
+      "position": 3,
+      "script": "买到票了告诉我一声，我去送你。",
+      "pronunciation": "mǎi dào piào le gào sù wǒ yì shēng, wǒ qù sòng nǐ.",
+      "phonetic": "หม่าย ต้าว เพี้ยว เลอ เค้า สุ หว่อ อี เซิง, หว่อ ชวี่ ส้ง หนี่.",
+      "translation": "ซื้อตั๋วได้แล้วบอกฉันคำนึงนะ ฉันจะไปส่งคุณ",
+      "chunks": [
+        "买到票了告诉我一声，我去送你。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L08-C074",
+      "legacyId": "U07-L08-C074",
+      "position": 4,
+      "script": "好的，先谢谢你了。",
+      "pronunciation": "hǎo de, xiān xiè xie nǐ le.",
+      "phonetic": "ห่าว เตอ, เซียน เซี่ย เสี่ย หนี่ เลอ.",
+      "translation": "โอเค ขอบคุณคุณล่วงหน้าเลยนะ",
+      "chunks": [
+        "好的，先谢谢你了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L08-C075",
+      "legacyId": "U07-L08-C075",
+      "position": 5,
+      "script": "明天开会的内容准备好了吗？",
+      "pronunciation": "míng tiān kāi huì de nèi róng zhǔn bèi hǎo le ma?",
+      "phonetic": "หมิง เทียน ไค หุ่ย เตอ เน่ย รง จวิ๋น เป้ย ห่าว เลอ มะ?",
+      "translation": "เนื้อหาสำหรับการประชุมพรุ่งนี้เตรียมเสร็จเรียบร้อยหรือยัง",
+      "chunks": [
+        "明天开会的内容准备好了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L08-C076",
+      "legacyId": "U07-L08-C076",
+      "position": 6,
+      "script": "PPT已经发到您的邮箱了，请查收。",
+      "pronunciation": "P P T yǐ jīng fā dào nín de yóu xiāng le, qǐng chá shōu.",
+      "phonetic": "พีพีที อี่ จิง ฟา ต้าว หนิน เตอ โหย่ว เซียง เลอ, ฉิ่ง ฉา โซว.",
+      "translation": "ไฟล์พาวเวอร์พ้อยต์ส่งเข้าอีเมลของคุณเรียบร้อยแล้ว กรุณาเช็กดูด้วยครับ",
+      "chunks": [
+        "PPT已经发到您的邮箱了，请查收。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L08-C077",
+      "legacyId": "U07-L08-C077",
+      "position": 7,
+      "script": "辛苦了，今天早点下班休息吧。",
+      "pronunciation": "xīn kǔ le, jīn tiān zǎo diǎn xià bān xiū xi ba.",
+      "phonetic": "ซิน ขู่ เลอ, จิน เทียน เจ๋า เตี่ยน เซี่ย ปาน ซิว สิ ปะ.",
+      "translation": "ลำบากมากแล้ว วันนี้รีบเลิกงานกลับไปพักผ่อนเร็วหน่อยเถอะ",
+      "chunks": [
+        "辛苦了，今天早点下班休息吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L08-C078",
+      "legacyId": "U07-L08-C078",
+      "position": 8,
+      "script": "谢谢老板，那我就先走了。",
+      "pronunciation": "xiè xie lǎo bǎn, nà wǒ jiù xiān zǒu le.",
+      "phonetic": "เซี่ย เสี่ย เหล่า ป๋ัน, น้า หว่อ จิ้ว เซียน โจ่ว เลอ.",
+      "translation": "ขอบคุณครับเถ้าแก่ งั้นฉันขอตัวกลับก่อนนะครับ",
+      "chunks": [
+        "谢谢老板，那我就先走了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L08-C079",
+      "legacyId": "U07-L08-C079",
+      "position": 9,
+      "script": "今天时间过得太慢了，真无聊。",
+      "pronunciation": "jīn tiān shí jiān guò de tài màn le, zhēn wú liáo.",
+      "phonetic": "จิน เทียน สือ เจียน กั้ว เตอ ไท่ ม่าน เลอ, เจิน อู๋ เลี้ยว.",
+      "translation": "วันนี้เวลามันเดินช้าเกินไปแล้ว น่าเบื่อจริงๆ",
+      "chunks": [
+        "今天时间过得太慢了，真无聊。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L08-C080",
+      "legacyId": "U07-L08-C080",
+      "position": 10,
+      "script": "那是你太闲了，我有做不完的工作。",
+      "pronunciation": "nà shì nǐ tài xián le, wǒ yǒu zuò bù wán de gōng zuò.",
+      "phonetic": "น้า สื้อ หนี่ ไท่ แซียน เลอ, หว่อ โหย่ว จั่ว ปู้ หวัน เตอ กง จั้ว.",
+      "translation": "นั่นมันเป็นเพราะคุณว่างเกินไปต่างหาก ส่วนฉันมีงานทำไม่หมดไม่สิ้น",
+      "chunks": [
+        "那是你太闲了，我有做不完的工作。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U13-L03",
+  "number": 3,
+  "title": "เมื่อกี้ประชุมอยู่ ก็เลยไม่ได้ตอบข้อความ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U13-L03-C021",
+      "legacyId": "U13-L03-C021",
+      "position": 1,
+      "script": "刚才在开会，所以没回消息。",
+      "pronunciation": "gāng cái zài kāi huì, suǒ yǐ méi huí xiāo xi.",
+      "phonetic": "กัง ฉาย ไซ้ ไค หุ่ย, สั่ว อี่ เหมย หุย เสียว สิ.",
+      "translation": "เมื่อกี้ประชุมอยู่ ก็เลยไม่ได้ตอบข้อความ",
+      "chunks": [
+        "刚才在开会，所以没回消息。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L03-C022",
+      "legacyId": "U13-L03-C022",
+      "position": 2,
+      "script": "我把地址发在微信群里了。",
+      "pronunciation": "wǒ bǎ dì zhǐ fā zài wēi xìn qún lǐ le.",
+      "phonetic": "หว่อ ป๋า ตี้ จื่อ ฟา ไซ้ แวย ซิ้น ฉวิน หลี่ เลอ.",
+      "translation": "ฉันส่งที่อยู่ออกไปในกลุ่มวีแชทแล้วนะ",
+      "chunks": [
+        "我把地址发在微信群里了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L03-C023",
+      "legacyId": "U13-L03-C023",
+      "position": 3,
+      "script": "打字不方便，我们用语音通话吧。",
+      "pronunciation": "dǎ zì bù fāng biàn, wǒ men yòng yǔ yīn tōng huà ba.",
+      "phonetic": "ต๋า จื้อ ปู้ ฟาง เปี้ยน, พวกเรา ย่ง อวี่ อิน ทง หว้า ปะ.",
+      "translation": "พิมพ์ไม่ค่อยสะดวก พวกเราคอลสายคุยกันเถอะ",
+      "chunks": [
+        "打字不方便，我们用语音通话吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L03-C024",
+      "legacyId": "U13-L03-C024",
+      "position": 4,
+      "script": "我只认识简单的汉字，太复杂的不行。",
+      "pronunciation": "wǒ zhǐ rèn shi jiǎn dān de hàn zì, tài fù zá de bù xíng.",
+      "phonetic": "หว่อ จื่อ เริ่น สือ เจี่ยน ตาน เตอ ฮั่น จื้อ, ไท่ ฟู่ ซ๋า เตอ ปู้ สิง.",
+      "translation": "ฉันรู้จักแค่ตัวจีนง่ายๆ ตัวที่ซับซ้อนเกินไปอ่านไม่ได้",
+      "chunks": [
+        "我只认识简单的汉字，太复杂的不行。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L03-C025",
+      "legacyId": "U13-L03-C025",
+      "position": 5,
+      "script": "你可以带拼音和中文一起发吗？",
+      "pronunciation": "nǐ kě yǐ dài pīn yīn hé zhōng wén yì qǐ fā ma?",
+      "phonetic": "หนี่ เขอ อี่ ต้าย พิน อิน เหอ จง เหวิน อี้ ฉี่ ฟา มะ?",
+      "translation": "คุณช่วยส่งพินอินควบคู่ไปกับตัวจีนด้วยได้ไหม",
+      "chunks": [
+        "你可以带拼音和中文一起发吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L03-C026",
+      "legacyId": "U13-L03-C026",
+      "position": 6,
+      "script": "这个句子用中文怎么解释？",
+      "pronunciation": "zhè ge jù zi yòng zhōng wén zěn me jiě shì?",
+      "phonetic": "เจ้อ เกอ จวี่ จิ ย่ง จง เหวิน เจิ่น เมอ เจี่ย สื้อ?",
+      "translation": "ประโยคนี้ใช้ภาษาจีนอธิบายยังไง",
+      "chunks": [
+        "这个句子用中文怎么解释？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L03-C027",
+      "legacyId": "U13-L03-C027",
+      "position": 7,
+      "script": "你用海外版的抖音还是国内版的？",
+      "pronunciation": "nǐ yòng hǎi wài bǎn de dǒu yīn hái shì guó nèi bǎn de?",
+      "phonetic": "หนี่ ย่ง ไห่ ไว้ ป่าน เตอ โต่ว อิน หาย สื้อ ก๋ัว เน่ย ป่าน เตอ?",
+      "translation": "คุณใช้ติ๊กต็อกเวอร์ชันต่างประเทศ (TikTok) หรือเวอร์ชันจีน (Douyin)",
+      "chunks": [
+        "你用海外版的抖音还是国内版的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L03-C028",
+      "legacyId": "U13-L03-C028",
+      "position": 8,
+      "script": "别忘了关注我的新账号。",
+      "pronunciation": "bié wàng le guān zhù wǒ de xīn zhàng hào.",
+      "phonetic": "เปี๋ย ว้าง เลอ กวาน จู้ หว่อ เตอ ซิน จ้าง ห้าว.",
+      "translation": "อย่าลืมกดติดตามบัญชีใหม่ของฉันด้วยนะ",
+      "chunks": [
+        "别忘了关注我的新账号。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L03-C029",
+      "legacyId": "U13-L03-C029",
+      "position": 9,
+      "script": "太晚了，我不打扰你了，明天再说。",
+      "pronunciation": "tài wǎn le, wǒ bù dǎ rǎo nǐ le, míng tiān zài shuō.",
+      "phonetic": "ไท่ หวั่น เลอ, หว่อ ปู้ ต๋า หร่าว หนี่ เลอ, หมิง เทียน ไซ้ ซัว.",
+      "translation": "ดึกมากแล้ว ฉันไม่รบกวนคุณแล้วล่ะ พรุ่งนี้ค่อยว่ากัน",
+      "chunks": [
+        "太晚了，我不打扰你了，明天再说。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L03-C030",
+      "legacyId": "U13-L03-C030",
+      "position": 10,
+      "script": "不好意思，信号不好，消息发不出去。",
+      "pronunciation": "bù hǎo yì si, xìn hào bù hǎo, xiāo xi fā bú chū qù.",
+      "phonetic": "ปู้ ห่าว อี้ สิ, ซิ้น ห้าว ปู้ ห่าว, เสียว สิ ฟา ปู๋ ชู ชวี่.",
+      "translation": "ขอโทษที สัญญาณไม่ดี ข้อความส่งไม่ยอมไปเลย",
+      "chunks": [
+        "不好意思，信号不好，消息发不出去。"
+      ]
+    }
+  ]
+}

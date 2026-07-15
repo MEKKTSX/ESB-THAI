@@ -1,0 +1,266 @@
+{
+  "id": "B2",
+  "number": 2,
+  "title": "B. Continuous Actions in the Past",
+  "chunks": [
+    {
+      "id": "en:session-2:B2:1",
+      "legacyId": "B2-0",
+      "position": 1,
+      "script": "I was working late last night.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อคืนฉันทำงานดึก",
+      "chunks": [
+        "I was working late last night."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:2",
+      "legacyId": "B2-1",
+      "position": 2,
+      "script": "I was waiting for the bus when it started to rain.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังรอรถเมล์ตอนที่ฝนเริ่มตก",
+      "chunks": [
+        "I was waiting",
+        "for the bus",
+        "when it started",
+        "to rain."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:3",
+      "legacyId": "B2-2",
+      "position": 3,
+      "script": "I was thinking about you earlier.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อกี้ฉันกำลังคิดถึงคุณอยู่",
+      "chunks": [
+        "I was thinking",
+        "about you earlier."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:4",
+      "legacyId": "B2-3",
+      "position": 4,
+      "script": "I was wondering if you were free.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังสงสัยว่าคุณว่างไหม",
+      "chunks": [
+        "I was wondering if you were free."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:5",
+      "legacyId": "B2-4",
+      "position": 5,
+      "script": "I was trying to call you, but the line was busy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันพยายามโทรหาคุณ แต่สายไม่ว่าง",
+      "chunks": [
+        "I was trying",
+        "to call you,",
+        "but the line was busy."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:6",
+      "legacyId": "B2-5",
+      "position": 6,
+      "script": "I was watching TV when the power went out.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังดูทีวีตอนไฟดับ",
+      "chunks": [
+        "I was watching TV",
+        "when the power went out."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:7",
+      "legacyId": "B2-6",
+      "position": 7,
+      "script": "I was cooking dinner when the guests arrived.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังทำมื้อเย็นตอนที่แขกมาถึง",
+      "chunks": [
+        "I was cooking dinner",
+        "when the guests arrived."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:8",
+      "legacyId": "B2-7",
+      "position": 8,
+      "script": "I was cleaning my room all morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันทำความสะอาดห้องตลอดทั้งเช้า",
+      "chunks": [
+        "I was cleaning my room all morning."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:9",
+      "legacyId": "B2-8",
+      "position": 9,
+      "script": "I was feeling a bit sick yesterday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อวานฉันรู้สึกป่วยนิดหน่อย",
+      "chunks": [
+        "I was feeling a bit sick yesterday."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:10",
+      "legacyId": "B2-9",
+      "position": 10,
+      "script": "I was driving to work when I saw the accident.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังขับรถไปทำงานตอนที่เห็นอุบัติเหตุ",
+      "chunks": [
+        "I was driving",
+        "to work",
+        "when I saw the accident."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:11",
+      "legacyId": "B2-10",
+      "position": 11,
+      "script": "We were talking about our holiday plans.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเรากำลังคุยกันเรื่องแผนวันหยุด",
+      "chunks": [
+        "We were talking",
+        "about our holiday plans."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:12",
+      "legacyId": "B2-11",
+      "position": 12,
+      "script": "We were having lunch when you called.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเรากำลังกินมื้อเที่ยงตอนที่คุณโทรมา",
+      "chunks": [
+        "We were having lunch",
+        "when you called."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:13",
+      "legacyId": "B2-12",
+      "position": 13,
+      "script": "We were walking in the park.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเรากำลังเดินเล่นในสวน",
+      "chunks": [
+        "We were walking",
+        "in the park."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:14",
+      "legacyId": "B2-13",
+      "position": 14,
+      "script": "They were arguing about money.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขากำลังทะเลาะกันเรื่องเงิน",
+      "chunks": [
+        "They were arguing",
+        "about money."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:15",
+      "legacyId": "B2-14",
+      "position": 15,
+      "script": "They were playing loud music all night.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาเปิดเพลงเสียงดังทั้งคืน",
+      "chunks": [
+        "They were playing loud music all night."
+      ]
+    },
+    {
+      "id": "en:session-2:B2:16",
+      "legacyId": "B2-15",
+      "position": 16,
+      "script": "What were you doing at 8 p.m.?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอน 2 ทุ่มคุณกำลังทำอะไรอยู่?",
+      "chunks": [
+        "What were you doing",
+        "at 8 p.m.?"
+      ]
+    },
+    {
+      "id": "en:session-2:B2:17",
+      "legacyId": "B2-16",
+      "position": 17,
+      "script": "What were you talking about?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณกำลังคุยเรื่องอะไรกัน?",
+      "chunks": [
+        "What were you talking",
+        "about?"
+      ]
+    },
+    {
+      "id": "en:session-2:B2:18",
+      "legacyId": "B2-17",
+      "position": 18,
+      "script": "What were you thinking?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณกำลังคิดอะไรอยู่?",
+      "chunks": [
+        "What were you thinking?"
+      ]
+    },
+    {
+      "id": "en:session-2:B2:19",
+      "legacyId": "B2-18",
+      "position": 19,
+      "script": "Where were you going when I saw you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนที่ฉันเห็นคุณ คุณกำลังจะไปไหน?",
+      "chunks": [
+        "Where were you going",
+        "when I saw you?"
+      ]
+    },
+    {
+      "id": "en:session-2:B2:20",
+      "legacyId": "B2-19",
+      "position": 20,
+      "script": "Who were you talking to on the phone?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณกำลังคุยโทรศัพท์กับใคร?",
+      "chunks": [
+        "Who were you talking",
+        "to",
+        "on the phone?"
+      ]
+    }
+  ]
+}

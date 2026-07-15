@@ -1,0 +1,127 @@
+{
+  "id": "U05-L10",
+  "number": 10,
+  "title": "พนักงานครับ ช่วยเพิ่มเก้าอี้ให้พวกเราหน่อยครับ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L10-C091",
+      "legacyId": "U05-L10-C091",
+      "position": 1,
+      "script": "服务员，请帮我们加把椅子。",
+      "pronunciation": "fú wù yuán, qǐng bāng wǒ men jiā bǎ yǐ zi.",
+      "phonetic": "ฟู่ อู้ หยวาน, ฉิ่ง ปัง หว่อ เมิน เจีย ป๋่า อี่ จิ.",
+      "translation": "พนักงานครับ ช่วยเพิ่มเก้าอี้ให้พวกเราหน่อยครับ",
+      "chunks": [
+        "服务员，请帮我们加把椅子。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L10-C092",
+      "legacyId": "U05-L10-C092",
+      "position": 2,
+      "script": "今天的烤鸭皮很脆。",
+      "pronunciation": "jīn tiān de kǎo yā pí hěn cuì.",
+      "phonetic": "จิน เทียน เตอ ข่าว ยา ผี เหิ่น ชเว่ย.",
+      "translation": "เป็ดย่างวันนี้หนังกรอบมาก",
+      "chunks": [
+        "今天的烤鸭皮很脆。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L10-C093",
+      "legacyId": "U05-L10-C093",
+      "position": 3,
+      "script": "我吃饱了，真的吃不下了。",
+      "pronunciation": "wǒ chī bǎo le, zhēn de chī bú xià le.",
+      "phonetic": "หว่อ ชือ เป๋า เลอ, เจิน เตอ ชือ ปู๋ เซี่ย เลอ.",
+      "translation": "ฉันอิ่มแล้ว กินไม่ลงอีกแล้วจริงๆ",
+      "chunks": [
+        "我吃饱了，真的吃不下了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L10-C094",
+      "legacyId": "U05-L10-C094",
+      "position": 4,
+      "script": "这顿饭多少钱？我转账给你。",
+      "pronunciation": "zhè dùn fàn duō shǎo qián? wǒ zhuǎn zhàng gěi nǐ.",
+      "phonetic": "เจ้อ ตุ้น ฟ้าน ตัว เส่า เฉียน？ หว่อ จ่วน จ้าง เก๋ย หนี่.",
+      "translation": "มื้อนี้ราคาเท่าไหร่ ฉันโอนเงินให้คุณนะ",
+      "chunks": [
+        "这顿饭多少钱？我转账给你。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L10-C095",
+      "legacyId": "U05-L10-C095",
+      "position": 5,
+      "script": "别客气，今天我请客吃饭。",
+      "pronunciation": "bié kè qi, jīntiān wǒ qǐng kè chī fàn.",
+      "phonetic": "เปี๋ย เค่อ ฉิ, จิน เทียน หว่อ ฉิ่ง เค่อ ชือ ฟ้าน.",
+      "translation": "ไม่ต้องเกรงใจ วันนี้ฉันเลี้ยงข้าวเอง",
+      "chunks": [
+        "别客气，今天我请客吃饭。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L10-C096",
+      "legacyId": "U05-L10-C096",
+      "position": 6,
+      "script": "我们换一家餐厅吧，这里排队太久了。",
+      "pronunciation": "wǒ men huàn yì jiā cān tīng ba, zhè lǐ pái duì tài jiǔ le.",
+      "phonetic": "หว่อ เมิน ห้วน อี๋ เจีย ซาน ทิง ปะ, เจ้อ หลี่ ไผ ตุ้ย ไท่ จิ่ว เลอ.",
+      "translation": "พวกเราเปลี่ยนร้านอาหารกันเถอะ ที่นี่ต่อคิวนานเกินไปแล้ว",
+      "chunks": [
+        "我们换一家餐厅吧，这里排队太久了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L10-C097",
+      "legacyId": "U05-L10-C097",
+      "position": 7,
+      "script": "这个火锅底料味道太辣了，帮我加点汤。",
+      "pronunciation": "zhè ge huǒ guō dǐ liào wèi dào tài là le, bāng wǒ jiā diǎn tāng.",
+      "phonetic": "เจ้อ เกอ โห่ว กัว ตี่ เลี้ยว เว่ย ต้าว ไท่ ล้า เลอ, ปัง หว่อ เจีย เตี่ยน ทาง.",
+      "translation": "ซุปหม้อไฟนี้รสชาติเผ็ดเกินไป ช่วยเติมน้ำซุปให้ฉันหน่อย",
+      "chunks": [
+        "这个火锅底料味道太辣了，帮我加点汤。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L10-C098",
+      "legacyId": "U05-L10-C098",
+      "position": 8,
+      "script": "你喝过这里的奶茶吗？很好喝的。",
+      "pronunciation": "nǐ hē guò zhè lǐ de nǎi chá ma? hěn hǎo hē de.",
+      "phonetic": "หนี่ เฮอ กั้ว เจ้อ หลี่ เตอ ไน่ ฉา มะ？ เหิ่น ห่าว เฮอ เตอ.",
+      "translation": "คุณเคยดื่มชานมของที่นี่ไหม อร่อยมากเลยนะ",
+      "chunks": [
+        "你喝过这里的奶茶吗？很好喝的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L10-C099",
+      "legacyId": "U05-L10-C099",
+      "position": 9,
+      "script": "我觉得这家店的烤肉性价比很高。",
+      "pronunciation": "wǒ jué de zhè jiā diàn de kǎo ròu xìng jià bǐ hěn hǎo.",
+      "phonetic": "หว่อ จว๋ะ เตอ เจ้อ เจีย เตี้ยน เตอ ข่าว โหร่ว ซิ่ง เจี้ย ปี่ เหิ่น ห่าว.",
+      "translation": "ฉันรู้สึกว่าปิ้งย่างของร้านนี้คุ้มค่าคุ้มราคามากเลย",
+      "chunks": [
+        "我觉得这家店的烤肉性价比很高。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L10-C100",
+      "legacyId": "U05-L10-C100",
+      "position": 10,
+      "script": "祝大家胃口好，我们开动吧！",
+      "pronunciation": "zhù dà jiā wèi kǒu hǎo, wǒ men kāi dòng ba!",
+      "phonetic": "จู้ ต้า เจีย เว่ย โข่ว ห่าว, หว่อ เมิน ไค ต้ง ปะ!",
+      "translation": "ขอให้ทุกคนเจริญอาหาร พวกเราเริ่มกินกันเลยเถอะ!",
+      "chunks": [
+        "祝大家胃口好，我们开动吧！"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U06-L10",
+  "number": 10,
+  "title": "ไม่ลดราคาครับ อันนี้เป็นสินค้าใหม่",
+  "chunks": [
+    {
+      "id": "zh-Hans:U06-L10-C091",
+      "legacyId": "U06-L10-C091",
+      "position": 1,
+      "script": "不打折，这个是新品。",
+      "pronunciation": "bù dǎ zhé, zhè gè shì xīn pǐn.",
+      "phonetic": "ปู้ ต๋า เจ๋อ, เจ้อ เก้อ สื้อ ซิน ผิ่น.",
+      "translation": "ไม่ลดราคาครับ อันนี้เป็นสินค้าใหม่",
+      "chunks": [
+        "不打折，这个是新品。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L10-C092",
+      "legacyId": "U06-L10-C092",
+      "position": 2,
+      "script": "我想退掉刚才买的衣服，还没穿过。",
+      "pronunciation": "wǒ xiǎng tuì diào gāng cái mǎi de yī fu, hái méi chuān guò.",
+      "phonetic": "หว่อ แฉี่ยง ทุ่ย เตี้ยว กัง ฉาย หม่าย เตอ อี ฟุ, หาย เหมย ชวน กั้ว.",
+      "translation": "ฉันอยากคืนเสื้อที่เพิ่งซื้อไปเมื่อกี้ ยังไม่เคยใส่เลย",
+      "chunks": [
+        "我想退掉刚才买的衣服，还没穿过。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L10-C093",
+      "legacyId": "U06-L10-C093",
+      "position": 3,
+      "script": "吊牌还在吗？如果剪了就不能退了。",
+      "pronunciation": "diào pái hái zài ma? rú guǒ jiǎn le jiù bù néng tuì le.",
+      "phonetic": "เตี้ยว ไผ หาย ไซ้ มะ？ หรู่ ก๋ัว เจี่ยน เลอ จิ้ว ปู้ เหนิง ทุ่ย เลอ.",
+      "translation": "ป้ายสินค้ายังอยู่ไหม ถ้าตัดออกแล้วจะคืนไม่ได้แล้วนะ",
+      "chunks": [
+        "吊牌还在吗？如果剪了就不能退了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L10-C094",
+      "legacyId": "U06-L10-C094",
+      "position": 4,
+      "script": "还在的，你看，一次都没洗过。",
+      "pronunciation": "hái zài de, nǐ kàn, yí cì dōu méi xǐ guò.",
+      "phonetic": "หาย ไซ้ เตอ, หนี่ ค่าน, อี๋ ซี่ โตว เหมย สี่ กั้ว.",
+      "translation": "ยังอยู่ครบเลย ดูสิ ไม่เคยซักเลยแม้แต่ครั้งเดียว",
+      "chunks": [
+        "还在的，你看，一次都没洗过。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L10-C095",
+      "legacyId": "U06-L10-C095",
+      "position": 5,
+      "script": "好的，请把购物小票和原卡给我，帮您做退款。",
+      "pronunciation": "hǎo de, qǐng bǎ gòu wù xiǎo piào hé yuán kǎ gěi wǒ, bāng nín zuò tuì kuǎn.",
+      "phonetic": "ห่าว เตอ, ฉิ่ง ป๋๋า ก้าว วู่ เสียว เพี้ยว เหอ หยวาน ข่า เก๋ย หว่อ, ปัง หนิน จั่ว ทุ่ย ขวั่น.",
+      "translation": "ได้ครับ กรุณาส่งใบเสร็จและบัตรใบเดิมมาให้ฉัน จะทำเรื่องคืนเงินให้",
+      "chunks": [
+        "好的，请把购物小票和原卡给我，帮您做退款。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L10-C096",
+      "legacyId": "U06-L10-C096",
+      "position": 6,
+      "script": "网上的价格比实体店便宜很多。",
+      "pronunciation": "wǎng shàng de jià gé bǐ shí tǐ diàn pián yi hěn duō.",
+      "phonetic": "หวั่ง ส่าง เตอ เจี้ย เก๋อ ปี่ สื้อ ถี่ เตี้ยน เผียน อิ เหิ่น ตัว.",
+      "translation": "ราคาในเน็ตถูกกว่าหน้าร้านจริงตั้งเยอะ",
+      "chunks": [
+        "网上的价格比实体店便宜很多。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L10-C097",
+      "legacyId": "U06-L10-C097",
+      "position": 7,
+      "script": "但是实体店可以试穿，质量更放心。",
+      "pronunciation": "dàn shì shí tǐ diàn kě yǐ shì chuān, zhì liàng gèng fàng xīn.",
+      "phonetic": "ต้าน สื้อ สื้อ ถี่ เตี้ยน เขอ อี่ สื้อ ชวน, จื้อ เลี้ยง เกิ้ง ฟ้าง ซิน.",
+      "translation": "แต่หน้าร้านจริงสามารถลองใส่ได้ เรื่องคุณภาพจะสบายใจกว่านะ",
+      "chunks": [
+        "但是实体店可以试穿，质量更放心。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L10-C098",
+      "legacyId": "U06-L10-C098",
+      "position": 8,
+      "script": "说的也是，那我就在店里买吧。",
+      "pronunciation": "shuō de yě shì, nà wǒ jiù zài diàn lǐ mǎi ba.",
+      "phonetic": "ซัว เตอ เยี่ย สื้อ, น้า หว่อ จิ้ว ไซ้ เตี้ยน หลี่ หม่าย ปะ.",
+      "translation": "พูดอีกก็ถูก งั้นฉันซื้อที่ร้านเลยแล้วกัน",
+      "chunks": [
+        "说的也是，那我就在店里买吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L10-C099",
+      "legacyId": "U06-L10-C099",
+      "position": 9,
+      "script": "一共两百块，请问您怎么支付？",
+      "pronunciation": "yí gòng liǎng bǎi kuài, qǐng wèn nín zěn me zhī fù?",
+      "phonetic": "อี๋ ก้ง เหลี่ยง ป๋าย คว้าย, ฉิ่ง เวิน หนิน เจิ่น เมอ จื้อ ฟู่？",
+      "translation": "ทั้งหมดสองร้อยหยวน ขอทราบว่าคุณสะดวกจ่ายเงินทางไหนครับ/ค่ะ",
+      "chunks": [
+        "一共两百块，请问您怎么支付？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L10-C100",
+      "legacyId": "U06-L10-C100",
+      "position": 10,
+      "script": "手机没电了，我可以付现金吗？",
+      "pronunciation": "shǒu jī méi diàn le, wǒ kě yǐ fù xiàn jīn ma?",
+      "phonetic": "โส่ว จี เหมย เตี้ยน เลอ, หว่อ เขอ อี่ ฟู่ เสี้ยน จิน มะ？",
+      "translation": "โทรศัพท์มือถือแบตหมดแล้ว ฉันขอจ่ายเงินสดได้ไหม",
+      "chunks": [
+        "手机没电了，我可以付现金吗？"
+      ]
+    }
+  ]
+}

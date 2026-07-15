@@ -1,0 +1,139 @@
+{
+  "id": "Y2",
+  "number": 25,
+  "title": "Y. Expressing Purpose",
+  "chunks": [
+    {
+      "id": "en:session-2:Y2:1",
+      "legacyId": "Y2-0",
+      "position": 1,
+      "script": "I went to the shop to buy milk.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไปร้านค้าเพื่อซื้อนม",
+      "chunks": [
+        "I went",
+        "to the shop",
+        "to buy milk."
+      ]
+    },
+    {
+      "id": "en:session-2:Y2:2",
+      "legacyId": "Y2-1",
+      "position": 2,
+      "script": "I’m studying English to get a better job.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเรียนภาษาอังกฤษเพื่อหางานที่ดีขึ้น",
+      "chunks": [
+        "I’m studying English",
+        "to get a better job."
+      ]
+    },
+    {
+      "id": "en:session-2:Y2:3",
+      "legacyId": "Y2-2",
+      "position": 3,
+      "script": "I called him to apologize.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันโทรหาเขาเพื่อขอโทษ",
+      "chunks": [
+        "I called him",
+        "to apologize."
+      ]
+    },
+    {
+      "id": "en:session-2:Y2:4",
+      "legacyId": "Y2-3",
+      "position": 4,
+      "script": "I went there to see my friends.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไปที่นั่นเพื่อเจอเพื่อน",
+      "chunks": [
+        "I went there",
+        "to see my friends."
+      ]
+    },
+    {
+      "id": "en:session-2:Y2:5",
+      "legacyId": "Y2-4",
+      "position": 5,
+      "script": "This button is for turning on the machine.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปุ่มนี้มีไว้สำหรับเปิดเครื่อง",
+      "chunks": [
+        "This button is",
+        "for turning",
+        "on the machine."
+      ]
+    },
+    {
+      "id": "en:session-2:Y2:6",
+      "legacyId": "Y2-5",
+      "position": 6,
+      "script": "This tool is for cutting wood.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เครื่องมือนี้มีไว้ตัดไม้",
+      "chunks": [
+        "This tool is",
+        "for cutting wood."
+      ]
+    },
+    {
+      "id": "en:session-2:Y2:7",
+      "legacyId": "Y2-6",
+      "position": 7,
+      "script": "Is this seat for me?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ที่นั่งนี้สำหรับฉันหรือเปล่า?",
+      "chunks": [
+        "Is this seat",
+        "for me?"
+      ]
+    },
+    {
+      "id": "en:session-2:Y2:8",
+      "legacyId": "Y2-7",
+      "position": 8,
+      "script": "Thank you for helping me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณที่ช่วยฉันนะ",
+      "chunks": [
+        "Thank you",
+        "for helping me."
+      ]
+    },
+    {
+      "id": "en:session-2:Y2:9",
+      "legacyId": "Y2-8",
+      "position": 9,
+      "script": "Thank you for inviting me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณที่เชิญฉันนะ",
+      "chunks": [
+        "Thank you",
+        "for inviting me."
+      ]
+    },
+    {
+      "id": "en:session-2:Y2:10",
+      "legacyId": "Y2-9",
+      "position": 10,
+      "script": "I’m sorry for being late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษที่มาสาย",
+      "chunks": [
+        "I’m sorry",
+        "for being late."
+      ]
+    }
+  ]
+}

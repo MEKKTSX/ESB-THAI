@@ -1,0 +1,127 @@
+{
+  "id": "U02-L09",
+  "number": 9,
+  "title": "ปกติคุณเลิกงานกี่โมง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L09-C081",
+      "legacyId": "U02-L09-C081",
+      "position": 1,
+      "script": "你一般几点下班？",
+      "pronunciation": "nǐ yì bān jǐ diǎn xià bān?",
+      "phonetic": "หนี่ อี้ ปาน จี๋ เตี่ยน เซี่ย ปาน?",
+      "translation": "ปกติคุณเลิกงานกี่โมง",
+      "chunks": [
+        "你一般几点下班？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L09-C082",
+      "legacyId": "U02-L09-C082",
+      "position": 2,
+      "script": "我平时工作很忙。",
+      "pronunciation": "wǒ píng shí gōng zuò hěn máng.",
+      "phonetic": "หว่อ ผิง สื้อ กง จั้ว เหิ่น หมาง.",
+      "translation": "ปกติช่วงเวลาทำงานฉันยุ่งมาก",
+      "chunks": [
+        "我平时工作很忙。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L09-C083",
+      "legacyId": "U02-L09-C083",
+      "position": 3,
+      "script": "你周末喜欢做什么？",
+      "pronunciation": "nǐ zhōu mò xǐ huan zuò shén me?",
+      "phonetic": "หนี่ โจว ม่อ สี่ หวน จั่ว เซิ่น เมอ?",
+      "translation": "สุดสัปดาห์คุณชอบทำอะไร",
+      "chunks": [
+        "你周末喜欢做什么？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L09-C084",
+      "legacyId": "U02-L09-C084",
+      "position": 4,
+      "script": "我喜欢在家看书。",
+      "pronunciation": "wǒ xǐ huan zài jiā kàn shū.",
+      "phonetic": "หว่อ สี่ หวน ไซ้ เจีย ค่าน ซู.",
+      "translation": "ฉันชอบอ่านหนังสืออยู่บ้าน",
+      "chunks": [
+        "我喜欢在家看书。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L09-C085",
+      "legacyId": "U02-L09-C085",
+      "position": 5,
+      "script": "你有什么运动爱好的吗？",
+      "pronunciation": "nǐ yǒu shén me yùn dòng ài hào de ma?",
+      "phonetic": "หนี่ โหย่ว เซิ่น เมอ ยวิ่น ต้ง อ้าย ห้าว เตอ มะ?",
+      "translation": "คุณมีความชอบด้านกีฬาอะไรบ้างไหม",
+      "chunks": [
+        "你有什么运动爱好的吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L09-C086",
+      "legacyId": "U02-L09-C086",
+      "position": 6,
+      "script": "我喜欢打羽毛球。",
+      "pronunciation": "wǒ xǐ huan dǎ yǔ máo qiú.",
+      "phonetic": "หว่อ สี่ หวน ต๋า อวี่ หมาว ฉิว.",
+      "translation": "ฉันชอบตีแบดมินตัน",
+      "chunks": [
+        "我喜欢打羽毛球。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L09-C087",
+      "legacyId": "U02-L09-C087",
+      "position": 7,
+      "script": "你是怎么知道这个地方的？",
+      "pronunciation": "nǐ shì zěn me zhī dào zhè ge dì fāng de?",
+      "phonetic": "หนี่ สื้อ เจิ่น เมอ จือ เต้า เจ้อ เกอ ตี้ ฟาง เตอ?",
+      "translation": "คุณรู้จักสถานที่นี้ได้อย่างไร / มาที่นี่ได้ยังไง",
+      "chunks": [
+        "你是怎么知道这个地方的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L09-C088",
+      "legacyId": "U02-L09-C088",
+      "position": 8,
+      "script": "朋友推荐我来的。",
+      "pronunciation": "péng you tuī jiàn wǒ lái de.",
+      "phonetic": "เผิง โย่ว ทุย เจี้ยน หว่อ ไหล เตอ.",
+      "translation": "เพื่อนแนะนำให้ฉันมา",
+      "chunks": [
+        "朋友推荐我来的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L09-C089",
+      "legacyId": "U02-L09-C089",
+      "position": 9,
+      "script": "很高兴能和你聊天。",
+      "pronunciation": "hěn gāo xìng néng hé nǐ liáo tiān.",
+      "phonetic": "เหิ่น เกา ซิ่ง เหนิง เหอ หนี่ เลี้ยว เทียน.",
+      "translation": "ดีใจมากนะที่มีโอกาสได้คุยกับคุณ",
+      "chunks": [
+        "很高兴能和你聊天。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L09-C090",
+      "legacyId": "U02-L09-C090",
+      "position": 10,
+      "script": "我也是，今天聊得很开心。",
+      "pronunciation": "wǒ yě shì, jīn tiān liáo de hěn kāi xīn.",
+      "phonetic": "หว่อ เยี่ย สื้อ, จิน เทียน เลี้ยว เตอ เหิ่น ไค ซิน.",
+      "translation": "ฉันก็เหมือนกัน วันนี้คุยสนุกมากเลย",
+      "chunks": [
+        "我也是，今天聊得很开心。"
+      ]
+    }
+  ]
+}

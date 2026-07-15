@@ -1,0 +1,127 @@
+{
+  "id": "U05-L04",
+  "number": 4,
+  "title": "ใส่ต้นหอมซอยเยอะหน่อยนะ ขอบคุณ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L04-C031",
+      "legacyId": "U05-L04-C031",
+      "position": 1,
+      "script": "多放点儿葱花，谢谢。",
+      "pronunciation": "duō fàng diǎnr cōng huā, xiè xie.",
+      "phonetic": "ตัว ฟ้าง เดี๋ยร์ โซง ฮวา, เซี่ย เสี่ย.",
+      "translation": "ใส่ต้นหอมซอยเยอะหน่อยนะ ขอบคุณ",
+      "chunks": [
+        "多放点儿葱花，谢谢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L04-C032",
+      "legacyId": "U05-L04-C032",
+      "position": 2,
+      "script": "不要放香菜。",
+      "pronunciation": "bú yào fàng xiāng cài.",
+      "phonetic": "ปู๋ เย้า ฟ้าง เซียง ไช้.",
+      "translation": "ไม่ใส่ผักชี",
+      "chunks": [
+        "不要放香菜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L04-C033",
+      "legacyId": "U05-L04-C033",
+      "position": 3,
+      "script": "你可以吃辣吗？",
+      "pronunciation": "nǐ kě yǐ chī là ma?",
+      "phonetic": "หนี่ เขอ อี่ ชือ ล้า มะ?",
+      "translation": "คุณกินเผ็ดได้ไหม",
+      "chunks": [
+        "你可以吃辣吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L04-C034",
+      "legacyId": "U05-L04-C034",
+      "position": 4,
+      "script": "我特别喜欢吃火锅。",
+      "pronunciation": "wǒ tè bié xǐ huan chī huǒ guō.",
+      "phonetic": "หว่อ เท่อ เปี๋ย สี่ หวน ชือ โห่ว กัว.",
+      "translation": "ฉันชอบกินหม้อไฟ (หม่าล่า) เป็นพิเศษ",
+      "chunks": [
+        "我特别喜欢吃火锅。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L04-C035",
+      "legacyId": "U05-L04-C035",
+      "position": 5,
+      "script": "菜已经齐了吗？",
+      "pronunciation": "cài yǐ jīng qí le ma?",
+      "phonetic": "ไช้ อี่ จิง ฉี เลอ มะ?",
+      "translation": "อาหารมาครบหรือยัง",
+      "chunks": [
+        "菜已经齐了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L04-C036",
+      "legacyId": "U05-L04-C036",
+      "position": 6,
+      "script": "这个不是我点的。",
+      "pronunciation": "zhè ge bú shì wǒ diǎn de.",
+      "phonetic": "เจ้อ เกอ บู๋ สื้อ หว่อ เตี่ยน เตอ.",
+      "translation": "จานนี้ฉันไม่ได้สั่งครับ/ค่ะ",
+      "chunks": [
+        "这个不是我点的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L04-C037",
+      "legacyId": "U05-L04-C037",
+      "position": 7,
+      "script": "请帮我拿一双筷子。",
+      "pronunciation": "qǐng bāng wǒ ná yì shuāng kuài zi.",
+      "phonetic": "ฉิ่ง ปัง หว่อ น๋า อี้ สวอง คว้าย จิ.",
+      "translation": "กรุณาหยิบตะเกียบให้ฉันหนึ่งคู่",
+      "chunks": [
+        "请帮我拿一双筷子。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L04-C038",
+      "legacyId": "U05-L04-C038",
+      "position": 8,
+      "script": "有勺子吗？",
+      "pronunciation": "yǒu sháo zi ma?",
+      "phonetic": "โหย่ว ส๋าว จิ มะ?",
+      "translation": "มีช้อนไหม",
+      "chunks": [
+        "有勺子吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L04-C039",
+      "legacyId": "U05-L04-C039",
+      "position": 9,
+      "script": "我觉得这个太油腻了。",
+      "pronunciation": "wǒ jué de zhè ge tài yóu nì le.",
+      "phonetic": "หว่อ จว๋ะ เตอ เจ้อ เกอ ไท่ โหย่ว นี่ เลอ.",
+      "translation": "ฉันรู้สึกว่าอันนี้มันเลี่ยนเกินไป / น้ำมันเยอะไป",
+      "chunks": [
+        "我觉得这个太油腻了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L04-C040",
+      "legacyId": "U05-L04-C040",
+      "position": 10,
+      "script": "饮料里请少放点儿糖。",
+      "pronunciation": "yǐn liào lǐ qǐng shǎo fàng diǎnr táng.",
+      "phonetic": "ยิ่น เลี้ยว หลี่ ฉิ่ง เส่า ฟ้าง เดี๋ยร์ ถัง.",
+      "translation": "เครื่องดื่มกรุณาใส่น้ำตาลน้อยหน่อย",
+      "chunks": [
+        "饮料里请少放点儿糖。"
+      ]
+    }
+  ]
+}

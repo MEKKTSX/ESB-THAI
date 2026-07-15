@@ -1,0 +1,127 @@
+{
+  "id": "U06-L09",
+  "number": 9,
+  "title": "ได้ครับ ไปสแกนที่เครื่องตรงนั้นได้โดยตรงเลย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U06-L09-C081",
+      "legacyId": "U06-L09-C081",
+      "position": 1,
+      "script": "可以，直接去那边的机器扫描吧。",
+      "pronunciation": "kě yǐ, zhí jiē qù nà biān de jī qì sǎo miáo ba.",
+      "phonetic": "เขอ อี่, จื๋อ เจีย ชวี่ น้า เปียน เตอ จี จี้ ส๋าว เหมียว ปะ.",
+      "translation": "ได้ครับ ไปสแกนที่เครื่องตรงนั้นได้โดยตรงเลย",
+      "chunks": [
+        "可以，直接去那边的机器扫描吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L09-C082",
+      "legacyId": "U06-L09-C082",
+      "position": 2,
+      "script": "这个商品参加满减活动吗？",
+      "pronunciation": "zhè gè shāng pǐn cān jiā mǎn jiǎn huó dòng ma?",
+      "phonetic": "เจ้อ เก้อ ซาง ผิ่น ซาน เจีย หมั่น เจี่ยน หวอ ต้ง มะ?",
+      "translation": "สินค้าชิ้นนี้ร่วมกิจกรรมส่วนลดเมื่อซื้อครบกำหนดไหม",
+      "chunks": [
+        "这个商品参加满减活动吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L09-C083",
+      "legacyId": "U06-L09-C083",
+      "position": 3,
+      "script": "满一百减二十块。",
+      "pronunciation": "mǎn yì bǎi jiǎn èr shí kuài.",
+      "phonetic": "หมั่น อี๋ ป๋าย เจี่ยน เอ้อร์ สื้อ คว้าย.",
+      "translation": "ครบหนึ่งร้อยลดทันที ยี่สิบหยวน",
+      "chunks": [
+        "满一百减二十块。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L09-C084",
+      "legacyId": "U06-L09-C084",
+      "position": 4,
+      "script": "那我还差十块钱，再去拿个东西。",
+      "pronunciation": "nà wǒ hái chà shí kuài qián, zài qù ná gè dōng xi.",
+      "phonetic": "น้า หว่อ หาย ช่า สื้อ เฉียน, ไซ้ ชวี่ น๋า เก้อ ตง สิ.",
+      "translation": "งั้นฉันยังขาดอีกสิบหยวน ไปหยิบของเพิ่มอีกอย่างดีกว่า",
+      "chunks": [
+        "那我还差十块钱，再去拿个东西。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L09-C085",
+      "legacyId": "U06-L09-C085",
+      "position": 5,
+      "script": "有会员卡吗？可以积分。",
+      "pronunciation": "yǒu huì yuán kǎ ma? kě yǐ jī fēn.",
+      "phonetic": "โหย่ว หุ่ย หยวาน ข่า มะ？ เขอ อี่ จี เฟิน.",
+      "translation": "มีบัตรสมาชิกไหม สามารถสะสมแต้มได้นะ",
+      "chunks": [
+        "有会员卡吗？可以积分。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L09-C086",
+      "legacyId": "U06-L09-C086",
+      "position": 6,
+      "script": "帮我查一下手机号吧，就是会员卡。",
+      "pronunciation": "bāng wǒ chá yí xià shǒu jī hào ba, jiù shì huì yuán kǎ.",
+      "phonetic": "ปัง หว่อ ฉา อี๋ เซี่ย โส่ว จี ห้าว ปะ, จิ้ว สื้อ หุ่ย หยวาน ข่า.",
+      "translation": "ช่วยเช็กเบอร์มือถือให้หน่อยครับ ใช้เบอร์เป็นบัตรสมาชิกเลย",
+      "chunks": [
+        "帮我查一下手机号吧，就是会员卡。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L09-C087",
+      "legacyId": "U06-L09-C087",
+      "position": 7,
+      "script": "积分可以兑换什么礼品？",
+      "pronunciation": "jī fēn kě yǐ duì huàn shén me lǐ pǐn?",
+      "phonetic": "จี เฟิน เขอ อี่ ตุ้ย ห้วน เซิ่น เมо หลี่ ผิ่น?",
+      "translation": "คะแนนสะสมสามารถแลกของขวัญอะไรได้บ้าง",
+      "chunks": [
+        "积分可以兑换什么礼品？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L09-C088",
+      "legacyId": "U06-L09-C088",
+      "position": 8,
+      "script": "这个是正品吗？不是假货吧？",
+      "pronunciation": "zhè gè shì zhèng pǐn ma? bú shì jiǎ huò ba?",
+      "phonetic": "เจ้อ เก้อ สื้อ เจิ้ง ผิ่น มะ？ บู๋ สื้อ เจี่ย หว้อ ปะ？",
+      "translation": "อันนี้เป็นของแท้ใช่ไหม ไม่ใช่ของปลอมใช่ไหม",
+      "chunks": [
+        "这个是正品吗？不是假货吧？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L09-C089",
+      "legacyId": "U06-L09-C089",
+      "position": 9,
+      "script": "放心吧，我们是官方专卖店。",
+      "pronunciation": "fàng xīn ba, wǒ men shì guān fāng zhuān mài diàn.",
+      "phonetic": "ฟ้าง ซิน ปะ, หว่อ เมิน สื้อ กวาน ฟาง จวน ม้าย เตี้ยน.",
+      "translation": "วางใจได้เลย พวกเราเป็นร้านค้าอย่างเป็นทางการ (Official Store)",
+      "chunks": [
+        "放心吧，我们是官方专卖店。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L09-C090",
+      "legacyId": "U06-L09-C090",
+      "position": 10,
+      "script": "这个款式现在打几折？",
+      "pronunciation": "zhè gè kuán shì xiàn zài dǎ jǐ zhé?",
+      "phonetic": "เจ้อ เก้อ ขวั่น สื้อ เซี่ยน ไซ้ ต๋า จี๋ เจ๋อ?",
+      "translation": "แบบนี้ตอนนี้ลดราคากี่เปอร์เซ็นต์",
+      "chunks": [
+        "这个款式现在打几折？"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U08-L10",
+  "number": 10,
+  "title": "การซื้อของออนไลน์สมัยนี้มันสะดวกสบายเกินไปจริงๆ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L10-C091",
+      "legacyId": "U08-L10-C091",
+      "position": 1,
+      "script": "现在的网上购物真是太方便了。",
+      "pronunciation": "xiàn zài de wǎng shàng gòu wù zhēn shì tài fāng biàn le.",
+      "phonetic": "เซี่ยน ไซ้ เตอ หวั่ง ส่าง ก้าว วู่ เจน สื้อ ไท่ ฟาง เปี้ยน เลอ.",
+      "translation": "การซื้อของออนไลน์สมัยนี้มันสะดวกสบายเกินไปจริงๆ",
+      "chunks": [
+        "现在的网上购物真是太方便了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L10-C092",
+      "legacyId": "U08-L10-C092",
+      "position": 2,
+      "script": "对啊，足不出户就能买到所有东西。",
+      "pronunciation": "duì a, zú bù chū hù jiù néng mǎi dào suǒ yǒu dōng xi.",
+      "phonetic": "ตุ้ย อา, จู๋ ปู้ ชู หู้ จิ้ว เหนิง หม่าย ต้าว สั่ว โหย่ว ตง สิ.",
+      "translation": "ใช่เลย ไม่ต้องก้าวเท้าออกจากบ้านก็ซื้อของได้ทุกอย่างแล้ว",
+      "chunks": [
+        "对啊，足不出户就能买到所有东西。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L10-C093",
+      "legacyId": "U08-L10-C093",
+      "position": 3,
+      "script": "你平时有午睡的习惯吗？",
+      "pronunciation": "nǐ píng shí yǒu wǔ shuì de xí guàn ma?",
+      "phonetic": "หนี่ ผิง สื้อ โหย่ว อู่ ซุ่ย เตอ สี่ ก้วน มะ？",
+      "translation": "ปกติคุณมีนิสัยชอบนอนกลางวันไหม",
+      "chunks": [
+        "你平时有午睡的习惯吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L10-C094",
+      "legacyId": "U08-L10-C094",
+      "position": 4,
+      "script": "有啊，不睡的话下午很容易犯困。",
+      "pronunciation": "yǒu a, bú shuì de huà xià wǔ hěn róng yì fàn kùn.",
+      "phonetic": "โหย่ว อา, ปู้ ซุ่ย เตอ หว้า เซี่ย อู่ เหิ่น รง อิ ฟ้าน คุ้น.",
+      "translation": "มีสิ ถ้าไม่นอนตอนบ่ายจะง่วงนอนสะลึมสะลือได้ง่ายมากเลย",
+      "chunks": [
+        "有啊，不睡的话下午很容易犯困。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L10-C095",
+      "legacyId": "U08-L10-C095",
+      "position": 5,
+      "script": "我午睡二十分钟就觉得精神充沛了。",
+      "pronunciation": "wǒ wǔ shuì èr shí fēn zhōng jiù jué de jīng shén chōng pèi le.",
+      "phonetic": "หว่อ อู่ ซุ่ย เอ้อร์ สื้อ เฟิน จง จิ้ว จว๋ะ เตอ จิง เซิน โซง เผุ่ย เลอ.",
+      "translation": "ฉันนอนกลางวันแค่ยี่สิบนาทีก็รู้สึกพลังเต็มเปี่ยมแล้ว",
+      "chunks": [
+        "我午睡二十分钟就觉得精神充沛了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L10-C096",
+      "legacyId": "U08-L10-C096",
+      "position": 6,
+      "script": "睡太久反而觉得头疼，适度就好。",
+      "pronunciation": "shuì tài jiǔ fǎn ér jué de tóu téng, shì dù jiù hǎo.",
+      "phonetic": "ซุ่ย ไท่ จิ่ว ฝั่น เอ่อร์ จว๋ะ เตอ โถ่ว เถิง, สื้อ ตู้ จิ้ว ห่าว.",
+      "translation": "นอนนานเกินไปกลับรู้สึกปวดหัว เอาแค่พอดีๆ ก็พอ",
+      "chunks": [
+        "睡太久反而觉得头疼，适度就好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L10-C097",
+      "legacyId": "U08-L10-C097",
+      "position": 7,
+      "script": "今晚有好看的球赛，你熬夜看吗？",
+      "pronunciation": "jīn wǎn yǒu hǎo kàn de qiú sài, nǐ áo yè kàn ma?",
+      "phonetic": "จิน หวั่น โหย่ว ห่าว ค่าน เตอ ฉิว ซี่, หนี่ เอา เย่ ค่าน มะ？",
+      "translation": "คืนนี้มีการแข่งขันบอลสนุกๆ คุณจะอยู่โต้รุ่งดูไหม",
+      "chunks": [
+        "今晚有好看的球赛，你熬夜看吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L10-C098",
+      "legacyId": "U08-L10-C098",
+      "position": 8,
+      "script": "不熬夜了，明天一大早还要见客户呢。",
+      "pronunciation": "bù áo yè le, míng tiān yí dà zǎo hái yào jiàn kè hù ne.",
+      "phonetic": "ปู้ เอา เย่ เลอ, หมิง เทียน อี๋ ต้า เจ๋า หาย เย้า เจี้ยน เค่อ หู้ เนอ.",
+      "translation": "ไม่โต้รุ่งแล้ว พรุ่งนี้เช้าตรู่ยังต้องไปพบลูกค้าอีกนะ",
+      "chunks": [
+        "不熬夜了，明天一大早还要见客户呢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L10-C099",
+      "legacyId": "U08-L10-C099",
+      "position": 9,
+      "script": "好吧，那祝你明天一切顺利，早点睡吧。",
+      "pronunciation": "hǎo ba, nà zhù nǐ míng tiān yí qiè shùn lì, zǎo diǎn shuì ba.",
+      "phonetic": "ห่าว ปะ, น้า จู้ หนี่ หมิง เทียน อี๋ เชี่ย สวิ่น ลี่, เจ๋า เตี่ยน ซุ่ย ปะ.",
+      "translation": "โอเค งั้นขอให้พรุ่งนี้ทุกอย่างราบรื่นนะ รีบนอนเร็วหน่อยเถอะ",
+      "chunks": [
+        "好吧，那祝你明天一切顺利，早点睡吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L10-C100",
+      "legacyId": "U08-L10-C100",
+      "position": 10,
+      "script": "谢谢，你也早点休息，晚安！",
+      "pronunciation": "xiè xie, nǐ yě zǎo diǎn xiū xi, wǎn ān!",
+      "phonetic": "เซี่ย เสี่ย, หนี่ เยี่ย เจ๋า เตี่ยน ซิว สิ, หวั่น อัน!",
+      "translation": "ขอบคุณนะ คุณเองก็รีบพักผ่อนล่ะ ราตรีสวัสดิ์!",
+      "chunks": [
+        "谢谢，你也早点休息，晚安！"
+      ]
+    }
+  ]
+}

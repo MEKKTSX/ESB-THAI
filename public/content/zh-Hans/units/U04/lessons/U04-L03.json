@@ -1,0 +1,127 @@
+{
+  "id": "U04-L03",
+  "number": 3,
+  "title": "ฉันเห็นด้วย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U04-L03-C021",
+      "legacyId": "U04-L03-C021",
+      "position": 1,
+      "script": "我同意。",
+      "pronunciation": "wǒ tóng yì.",
+      "phonetic": "หว่อ ถง อี้.",
+      "translation": "ฉันเห็นด้วย",
+      "chunks": [
+        "我同意。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L03-C022",
+      "legacyId": "U04-L03-C022",
+      "position": 2,
+      "script": "我也这么觉得。",
+      "pronunciation": "wǒ yě zhè me jué de.",
+      "phonetic": "หว่อ เยี่ย เจ้อ เมอ จว๋ะ เตอ.",
+      "translation": "ฉันก็รู้สึกแบบนั้นเหมือนกัน",
+      "chunks": [
+        "我也这么觉得。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L03-C023",
+      "legacyId": "U04-L03-C023",
+      "position": 3,
+      "script": "没意见。",
+      "pronunciation": "méi yì jiàn.",
+      "phonetic": "เหมย อี้ เจี้ยน.",
+      "translation": "ไม่มีความเห็น / ยังไงก็ได้",
+      "chunks": [
+        "没意见。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L03-C024",
+      "legacyId": "U04-L03-C024",
+      "position": 4,
+      "script": "我不这么认为。",
+      "pronunciation": "wǒ bù zhè me rèn wéi.",
+      "phonetic": "หว่อ ปู้ เจ้อ เมอ เริ่น เย.",
+      "translation": "ฉันไม่คิดอย่างนั้นนะ",
+      "chunks": [
+        "我不这么认为。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L03-C025",
+      "legacyId": "U04-L03-C025",
+      "position": 5,
+      "script": "我反对。",
+      "pronunciation": "wǒ fǎn duì.",
+      "phonetic": "หว่อ ฝ่าน ตุ้ย.",
+      "translation": "ฉันคัดค้าน / ไม่เห็นด้วย",
+      "chunks": [
+        "我反对。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L03-C026",
+      "legacyId": "U04-L03-C026",
+      "position": 6,
+      "script": "听你的。",
+      "pronunciation": "tīng nǐ de.",
+      "phonetic": "ทิง หนี่ เตอ.",
+      "translation": "ฟังคุณเลย / ตามใจคุณ",
+      "chunks": [
+        "听你的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L03-C027",
+      "legacyId": "U04-L03-C027",
+      "position": 7,
+      "script": "真的吗？",
+      "pronunciation": "zhēn de ma?",
+      "phonetic": "เจิน เตอ มะ?",
+      "translation": "จริงหรอ",
+      "chunks": [
+        "真的吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L03-C028",
+      "legacyId": "U04-L03-C028",
+      "position": 8,
+      "script": "不会吧？",
+      "pronunciation": "bú huì ba?",
+      "phonetic": "ปู๋ ฮุ่ย ปะ?",
+      "translation": "ไม่มั้ง? / บ้าน่า?",
+      "chunks": [
+        "不会吧？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L03-C029",
+      "legacyId": "U04-L03-C029",
+      "position": 9,
+      "script": "确实。",
+      "pronunciation": "què shí.",
+      "phonetic": "ชเว่ สื้อ.",
+      "translation": "จริงๆ / แน่นอนอยู่แล้ว",
+      "chunks": [
+        "确实。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L03-C030",
+      "legacyId": "U04-L03-C030",
+      "position": 10,
+      "script": "说得对。",
+      "pronunciation": "shuō de duì.",
+      "phonetic": "ซัว เตอ ตุ้ย.",
+      "translation": "พูดถูกแล้ว",
+      "chunks": [
+        "说得对。"
+      ]
+    }
+  ]
+}

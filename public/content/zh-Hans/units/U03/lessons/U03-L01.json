@@ -1,0 +1,127 @@
+{
+  "id": "U03-L01",
+  "number": 1,
+  "title": "นี่คืออะไร",
+  "chunks": [
+    {
+      "id": "zh-Hans:U03-L01-C001",
+      "legacyId": "U03-L01-C001",
+      "position": 1,
+      "script": "这是什么？",
+      "pronunciation": "zhè shì shén me?",
+      "phonetic": "เจ้อ สื้อ เซิ่น เมอ?",
+      "translation": "นี่คืออะไร",
+      "chunks": [
+        "这是什么？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L01-C002",
+      "legacyId": "U03-L01-C002",
+      "position": 2,
+      "script": "你在干嘛？",
+      "pronunciation": "nǐ zài gàn má?",
+      "phonetic": "หนี่ ไซ้ ก้าน หมา?",
+      "translation": "คุณกำลังทำอะไรอยู่",
+      "chunks": [
+        "你在干嘛？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L01-C003",
+      "legacyId": "U03-L01-C003",
+      "position": 3,
+      "script": "那是什么东西？",
+      "pronunciation": "nà shì shén me dōng xi?",
+      "phonetic": "น้า สื้อ เซิ่น เมอ ตง สิ?",
+      "translation": "นั่นคือของอะไร / นั่นคือตัวอะไร",
+      "chunks": [
+        "那是什么东西？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L01-C004",
+      "legacyId": "U03-L01-C004",
+      "position": 4,
+      "script": "他说的是什么意思？",
+      "pronunciation": "tā shuō de shì shén me yì si?",
+      "phonetic": "ทา ซัว เตอ สื้อ เซิ่น เมอ อี้ สิ?",
+      "translation": "ที่เขาพูดหมายความว่ายังไง",
+      "chunks": [
+        "他说的是什么意思？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L01-C005",
+      "legacyId": "U03-L01-C005",
+      "position": 5,
+      "script": "他是谁？",
+      "pronunciation": "tā shì shéi?",
+      "phonetic": "ทา สื้อ เษ่ย?",
+      "translation": "เขาคือใคร",
+      "chunks": [
+        "他是谁？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L01-C006",
+      "legacyId": "U03-L01-C006",
+      "position": 6,
+      "script": "谁有笔？",
+      "pronunciation": "shéi yǒu bǐ?",
+      "phonetic": "เษ่ย โหย่ว ปี่?",
+      "translation": "ใครมีปากกาบ้าง",
+      "chunks": [
+        "谁有笔？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L01-C007",
+      "legacyId": "U03-L01-C007",
+      "position": 7,
+      "script": "你在找谁？",
+      "pronunciation": "nǐ zài zhǎo shéi?",
+      "phonetic": "หนี่ ไซ้ เจ่า เษ่ย?",
+      "translation": "คุณกำลังหาใครอยู่",
+      "chunks": [
+        "你在找谁？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L01-C008",
+      "legacyId": "U03-L01-C008",
+      "position": 8,
+      "script": "这是谁的手机？",
+      "pronunciation": "zhè shì shéi de shǒu jī?",
+      "phonetic": "เจ้อ สื้อ เษ่ย เตอ โส่ว จี?",
+      "translation": "นี่คือโทรศัพท์ของใคร",
+      "chunks": [
+        "这是谁的手机？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L01-C009",
+      "legacyId": "U03-L01-C009",
+      "position": 9,
+      "script": "你在哪儿？",
+      "pronunciation": "nǐ zài nǎr?",
+      "phonetic": "หนี่ ไซ้ หน่าร์?",
+      "translation": "คุณอยู่ที่ไหน",
+      "chunks": [
+        "你在哪儿？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L01-C010",
+      "legacyId": "U03-L01-C010",
+      "position": 10,
+      "script": "我们要去哪里？",
+      "pronunciation": "wǒ men yào qù nǎ lǐ?",
+      "phonetic": "หว่อ เมิน เย้า ชวี่ หน่า หลี่?",
+      "translation": "พวกเราจะไปไหนกัน",
+      "chunks": [
+        "我们要去哪里？"
+      ]
+    }
+  ]
+}

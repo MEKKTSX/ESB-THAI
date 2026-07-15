@@ -1,0 +1,13 @@
+{
+  "name": "LingoFlow",
+  "short_name": "LingoFlow",
+  "id": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050607",
+  "theme_color": "#40d6ba",
+  "description": "Learn languages in your flow.",
+  "icons": [
+    { "src": "/lingoflow-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

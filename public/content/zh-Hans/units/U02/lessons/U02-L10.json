@@ -1,0 +1,127 @@
+{
+  "id": "U02-L10",
+  "number": 10,
+  "title": "สวัสดีครับ ฉันชื่ออาหมิง เป็นคนไทยครับ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L10-C091",
+      "legacyId": "U02-L10-C091",
+      "position": 1,
+      "script": "你好，我叫阿明，是泰国人。",
+      "pronunciation": "nǐ hǎo, wǒ jiào ā míng, shì tài guó rén.",
+      "phonetic": "หนี ห่าว, หว่อ เจี้ยว อา หมิง, สื้อ ไท่ ก๋ัว เหริน.",
+      "translation": "สวัสดีครับ ฉันชื่ออาหมิง เป็นคนไทยครับ",
+      "chunks": [
+        "你好，我叫阿明，是泰国人。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L10-C092",
+      "legacyId": "U02-L10-C092",
+      "position": 2,
+      "script": "今年二十八岁，现在在曼谷工作。",
+      "pronunciation": "jīn nián èr shí bā suì, xiàn zài zài màn gǔ gōng zuò.",
+      "phonetic": "จิน เหนียน เอ้อร์ สื้อ ปา ซุ่ย, เซี่ยน ไซ้ ไซ้ ม่าน กู่ กง จั้ว.",
+      "translation": "ปีนี้อายุยี่สิบแปดปี ตอนนี้ทำงานอยู่ที่กรุงเทพฯ",
+      "chunks": [
+        "今年二十八岁，现在在曼谷工作。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L10-C093",
+      "legacyId": "U02-L10-C093",
+      "position": 3,
+      "script": "我是软件工程师。",
+      "pronunciation": "wǒ shì ruǎn jiàn gōng chéng shī.",
+      "phonetic": "หว่อ สื้อ ร่วน เจี้ยน กง เฉิง ซือ.",
+      "translation": "ฉันเป็นวิศวกรซอฟต์แวร์",
+      "chunks": [
+        "我是软件工程师。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L10-C094",
+      "legacyId": "U02-L10-C094",
+      "position": 4,
+      "script": "因为工作需要，所以我开始学中文。",
+      "pronunciation": "yīn wéi gōng zuò xū yào, suǒ yǐ wǒ kāi shǐ xué zhōng wén.",
+      "phonetic": "อิน เว่ย กง จั้ว ซวี่ เย้า, สั่ว อี่ หว่อ ไค สื่อ เสวี่ย จง เหวิน.",
+      "translation": "เพราะความจำเป็นเรื่องงาน ฉันก็เลยเริ่มเรียนภาษาจีน",
+      "chunks": [
+        "因为工作需要，所以我开始学中文。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L10-C095",
+      "legacyId": "U02-L10-C095",
+      "position": 5,
+      "script": "我刚学了三个月，请大家多关照。",
+      "pronunciation": "wǒ gāng xué le sān gè yuè, qǐng dà jiā duō guān zhào.",
+      "phonetic": "หว่อ กัง เสวี่ย เลอ ซาน เก้อ ยวี่เอ้, ฉิ่ง ต้า เจีย ตัว กวน จ้าว.",
+      "translation": "ฉันเพิ่งเรียนได้สามเดือน ขอฝากเนื้อฝากตัวด้วยนะครับ",
+      "chunks": [
+        "我刚学了三个月，请大家多关照。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L10-C096",
+      "legacyId": "U02-L10-C096",
+      "position": 6,
+      "script": "很高兴认识各位新朋友。",
+      "pronunciation": "hěn gāo xìng rèn shi gè wèi xīn péng you.",
+      "phonetic": "เหิ่น เกา ซิ่ง เริ่น สือ เก้อ เว่ย ซิน เผิง โย่ว.",
+      "translation": "ยินดีที่ได้รู้จักเพื่อนใหม่ทุกๆ ท่านครับ",
+      "chunks": [
+        "很高兴认识各位新朋友。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L10-C097",
+      "legacyId": "U02-L10-C097",
+      "position": 7,
+      "script": "我的中文名字叫李明。",
+      "pronunciation": "wǒ de zhōng wén míng zi jiào lǐ míng.",
+      "phonetic": "หว่อ เตอ จง เหวิน หมิง สิ เจี้ยว หลี่ หมิง.",
+      "translation": "ชื่อภาษาจีนของฉันชื่อหลี่หมิง",
+      "chunks": [
+        "我的中文名字叫李明。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L10-C098",
+      "legacyId": "U02-L10-C098",
+      "position": 8,
+      "script": "这是我的名片，请收下。",
+      "pronunciation": "zhè shì wǒ de míng piàn, qǐng shōu xià.",
+      "phonetic": "เจ้อ สื้อ หว่อ เตอ หมิง เพี้ยน, ฉิ่ง โซว เซี่ย.",
+      "translation": "นี่คือนามบัตรของฉัน กรุณารับไว้ด้วยครับ/ค่ะ",
+      "chunks": [
+        "这是我的名片，请收下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L10-C099",
+      "legacyId": "U02-L10-C099",
+      "position": 9,
+      "script": "保持联系，这是我的电话号码。",
+      "pronunciation": "bǎo chí lián xì, zhè shì wǒ de diàn huà hào mǎ.",
+      "phonetic": "เป่า ฉือ เหลียน ซี่, เจ้อ สื้อ หว่อ เตอ เตี้ยน หว้า ห้าว หม่า.",
+      "translation": "ติดต่อกันไว้นะ นี่คือเบอร์โทรศัพท์ของฉัน",
+      "chunks": [
+        "保持联系，这是我的电话号码。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L10-C100",
+      "legacyId": "U02-L10-C100",
+      "position": 10,
+      "script": "太好了，那我们微信聊！",
+      "pronunciation": "tài hǎo le, nà wǒ men wēi xìn liáo!",
+      "phonetic": "ไท่ ห่าว เลอ, น้า หว่อ เมิน เวย ซิ้น เลี้ยว!",
+      "translation": "ดีเลย งั้นพวกเราคุยกันในวีแชทนะ!",
+      "chunks": [
+        "太好了，那我们微信聊！"
+      ]
+    }
+  ]
+}

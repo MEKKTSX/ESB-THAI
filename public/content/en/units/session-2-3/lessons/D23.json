@@ -1,0 +1,201 @@
+{
+  "id": "D23",
+  "number": 4,
+  "title": "D. ร้านอาหาร & สั่งอาหาร",
+  "chunks": [
+    {
+      "id": "en:session-2-3:D23:1",
+      "legacyId": "D23-0",
+      "position": 1,
+      "script": "I'd like to reserve a table for two, please.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอจองโต๊ะสำหรับสองคนหน่อยได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "I'd like",
+        "to reserve a table",
+        "for two,",
+        "please."
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:2",
+      "legacyId": "D23-1",
+      "position": 2,
+      "script": "Could I see the menu, please?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอดูเมนูหน่อยได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Could I see the menu,",
+        "please?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:3",
+      "legacyId": "D23-2",
+      "position": 3,
+      "script": "What do you recommend today?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้มีอะไรแนะนำบ้างครับ/ค่ะ?",
+      "chunks": [
+        "What do you recommend today?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:4",
+      "legacyId": "D23-3",
+      "position": 4,
+      "script": "I'll have the grilled salmon and a glass of water, please.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอแซลมอนย่างกับน้ำเปล่าแก้วนึงครับ/ค่ะ",
+      "chunks": [
+        "I'll have the grilled salmon",
+        "and a glass of water,",
+        "please."
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:5",
+      "legacyId": "D23-4",
+      "position": 5,
+      "script": "Does this dish contain peanuts? I have a nut allergy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จานนี้มีถั่วลิสงไหมครับ/ค่ะ? ฉันแพ้ถั่ว",
+      "chunks": [
+        "Does this dish contain peanuts?",
+        "I have a nut allergy."
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:6",
+      "legacyId": "D23-5",
+      "position": 6,
+      "script": "Could I get this without the sauce?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอแบบไม่ใส่ซอสได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Could I get this without the sauce?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:7",
+      "legacyId": "D23-6",
+      "position": 7,
+      "script": "Is there a vegetarian option available?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีเมนูมังสวิรัติด้วยไหมครับ/ค่ะ?",
+      "chunks": [
+        "Is there a vegetarian option available?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:8",
+      "legacyId": "D23-7",
+      "position": 8,
+      "script": "Excuse me — I think there's a mistake in my order.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษนะครับ/ค่ะ คิดว่าออร์เดอร์ฉันผิด",
+      "chunks": [
+        "Excuse me — I think there's a mistake",
+        "in my order."
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:9",
+      "legacyId": "D23-8",
+      "position": 9,
+      "script": "This isn't what I ordered — I asked for the pasta.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อันนี้ไม่ใช่ที่ฉันสั่งนะครับ/ค่ะ ฉันสั่งพาสต้า",
+      "chunks": [
+        "This isn't what I ordered — I asked",
+        "for the pasta."
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:10",
+      "legacyId": "D23-9",
+      "position": 10,
+      "script": "Could we get some extra napkins, please?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอกระดาษทิชชูเพิ่มหน่อยได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Could we get some extra napkins,",
+        "please?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:11",
+      "legacyId": "D23-10",
+      "position": 11,
+      "script": "We're ready to order.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเราพร้อมสั่งแล้วครับ/ค่ะ",
+      "chunks": [
+        "We're ready",
+        "to order."
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:12",
+      "legacyId": "D23-11",
+      "position": 12,
+      "script": "Can we have the bill, please?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบิลหน่อยได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Can we have the bill,",
+        "please?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:13",
+      "legacyId": "D23-12",
+      "position": 13,
+      "script": "Could we pay separately?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แยกบิลได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Could we pay separately?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:14",
+      "legacyId": "D23-13",
+      "position": 14,
+      "script": "The food was excellent — compliments to the chef.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาหารอร่อยมากเลยครับ/ค่ะ ฝากชมพ่อครัวด้วยนะ",
+      "chunks": [
+        "The food was excellent — compliments",
+        "to the chef."
+      ]
+    },
+    {
+      "id": "en:session-2-3:D23:15",
+      "legacyId": "D23-14",
+      "position": 15,
+      "script": "Do you accept credit card, or is it cash only?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รับบัตรเครดิตไหมครับ/ค่ะ หรือจ่ายเงินสดเท่านั้น?",
+      "chunks": [
+        "Do you accept credit card,",
+        "or is it cash only?"
+      ]
+    }
+  ]
+}

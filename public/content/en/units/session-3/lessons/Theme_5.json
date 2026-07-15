@@ -1,0 +1,1151 @@
+{
+  "id": "Theme_5",
+  "number": 5,
+  "title": "5. Formal Workplace Communication",
+  "chunks": [
+    {
+      "id": "en:session-3:Theme_5:1",
+      "legacyId": "Theme_5-0",
+      "position": 1,
+      "script": "I am writing to formally request a brief extension for the data science project deadline due to unexpected server downtime.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมเขียนมาเพื่อขอขยายกำหนดส่งโปรเจกต์ดาต้าซายน์ออกไปเล็กน้อยอย่างเป็นทางการ เนื่องจากเซิร์ฟเวอร์ล่มโดยไม่คาดคิดครับ",
+      "chunks": [
+        "I am writing",
+        "to formally request a brief extension",
+        "for the data science project deadline due",
+        "to unexpected server downtime."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:2",
+      "legacyId": "Theme_5-1",
+      "position": 2,
+      "script": "I am writing to formally request your approval to deploy the new machine learning model to the production environment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันเขียนมาเพื่อขออนุมัติจากคุณอย่างเป็นทางการ ในการนำโมเดลแมชชีนเลิร์นนิงตัวใหม่ขึ้นสู่ระบบจริงค่ะ",
+      "chunks": [
+        "I am writing",
+        "to formally request your approval",
+        "to deploy the new machine learning model",
+        "to the production environment."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:3",
+      "legacyId": "Theme_5-2",
+      "position": 3,
+      "script": "I am writing to formally request a short leave of absence next week to attend a university seminar on artificial intelligence.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมเขียนมาเพื่อขอลางานช่วงสั้นๆ ในสัปดาห์หน้าอย่างเป็นทางการ เพื่อไปเข้าร่วมงานสัมมนาของมหาวิทยาลัยเกี่ยวกับปัญญาประดิษฐ์ครับ",
+      "chunks": [
+        "I am writing",
+        "to formally request a short leave of absence next week",
+        "to attend a university seminar",
+        "on artificial intelligence."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:4",
+      "legacyId": "Theme_5-3",
+      "position": 4,
+      "script": "I am writing to formally request additional computational resources so that we can train the neural network much faster.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันเขียนมาเพื่อขอทรัพยากรการประมวลผลคอมพิวเตอร์เพิ่มเติมอย่างเป็นทางการ เพื่อให้พวกเราเทรนโครงข่ายประสาทเทียมได้เร็วขึ้นมากค่ะ",
+      "chunks": [
+        "I am writing",
+        "to formally request additional computational resources",
+        "so",
+        "that we can train the neural network much faster."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:5",
+      "legacyId": "Theme_5-4",
+      "position": 5,
+      "script": "Could you please review the attached Python script when you have a moment, as I value your technical expertise?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รบกวนช่วยตรวจทานสคริปต์ไพธอนที่แนบมานี้ตอนที่คุณพอมีเวลาได้ไหมครับ เพราะผมให้ความสำคัญกับความเชี่ยวชาญด้านเทคนิคของคุณมาก",
+      "chunks": [
+        "Could you please review the attached Python script",
+        "when you have a moment,",
+        "as I value your technical expertise?"
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:6",
+      "legacyId": "Theme_5-5",
+      "position": 6,
+      "script": "Could you please review the latest financial projections for the space exploration startup before we finalize our investment strategy?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยกรุณาตรวจสอบการคาดการณ์ทางการเงินล่าสุดของสตาร์ทอัพสำรวจอวกาศ ก่อนที่เราจะสรุปกลยุทธ์การลงทุนของเราได้ไหมคะ?",
+      "chunks": [
+        "Could you please review the latest financial projections",
+        "for the space exploration startup before we finalize our investment strategy?"
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:7",
+      "legacyId": "Theme_5-6",
+      "position": 7,
+      "script": "Could you please review the updated database schema to ensure it meets the company's strict security and performance standards?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รบกวนช่วยรีวิวโครงสร้างฐานข้อมูลที่อัปเดตใหม่ เพื่อให้มั่นใจว่ามันตรงตามมาตรฐานความปลอดภัยและประสิทธิภาพที่เข้มงวดของบริษัทได้ไหมครับ?",
+      "chunks": [
+        "Could you please review the updated database schema",
+        "to ensure it meets the company's strict security",
+        "and performance standards?"
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:8",
+      "legacyId": "Theme_5-7",
+      "position": 8,
+      "script": "Could you please review my proposed presentation slides for the upcoming AI conference by the end of this week?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รบกวนช่วยตรวจทานสไลด์พรีเซนต์ที่ดิฉันเสนอ สำหรับงานคอนเฟอเรนซ์ด้าน AI ที่กำลังจะมาถึง ภายในสิ้นสัปดาห์นี้ได้ไหมคะ?",
+      "chunks": [
+        "Could you please review my proposed presentation slides",
+        "for the upcoming AI conference by the end of this week?"
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:9",
+      "legacyId": "Theme_5-8",
+      "position": 9,
+      "script": "Based on my recent analysis of the user data, I strongly recommend implementing a more intuitive dashboard interface.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จากการวิเคราะห์ข้อมูลผู้ใช้เมื่อเร็วๆ นี้ของผม ผมขอแนะนำอย่างยิ่งให้ทำหน้าจอแดชบอร์ดที่ใช้งานได้สัญชาตญาณมากขึ้นครับ",
+      "chunks": [
+        "Based",
+        "on my recent analysis of the user data,",
+        "I strongly recommend implementing a more intuitive dashboard interface."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:10",
+      "legacyId": "Theme_5-9",
+      "position": 10,
+      "script": "Based on my recent analysis of the tech market trends, it would be highly beneficial to diversify our portfolio immediately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จากการวิเคราะห์เทรนด์ตลาดเทคโนโลยีล่าสุดของฉัน มันจะเป็นประโยชน์อย่างมากที่จะกระจายพอร์ตการลงทุนของเราในทันทีค่ะ",
+      "chunks": [
+        "Based",
+        "on my recent analysis of the tech market trends,",
+        "it would be highly beneficial",
+        "to diversify our portfolio immediately."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:11",
+      "legacyId": "Theme_5-10",
+      "position": 11,
+      "script": "Based on my recent analysis of the chatbot's performance, we definitely need to gather a wider variety of training data.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อ้างอิงจากการวิเคราะห์ประสิทธิภาพของแชทบอทล่าสุด เราจำเป็นต้องรวบรวมข้อมูลสำหรับเทรนให้มีความหลากหลายมากกว่านี้อย่างแน่นอนครับ",
+      "chunks": [
+        "Based",
+        "on my recent analysis of the chatbot's performance,",
+        "we definitely need",
+        "to gather a wider variety of training data."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:12",
+      "legacyId": "Theme_5-11",
+      "position": 12,
+      "script": "Based on my recent analysis of our daily server logs, the sudden system crashes are directly caused by memory leaks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จากการวิเคราะห์ล็อกเซิร์ฟเวอร์รายวันของดิฉัน ระบบที่พังลงอย่างกะทันหันมีสาเหตุโดยตรงมาจากปัญหาหน่วยความจำรั่วไหลค่ะ",
+      "chunks": [
+        "Based",
+        "on my recent analysis of our daily server logs,",
+        "the sudden system crashes are directly caused by memory leaks."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:13",
+      "legacyId": "Theme_5-12",
+      "position": 13,
+      "script": "I would greatly appreciate it if you could clarify the specific requirements for the upcoming advanced machine learning assignment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมจะรู้สึกขอบคุณเป็นอย่างยิ่งหากอาจารย์ช่วยขยายความข้อกำหนดเฉพาะสำหรับงานแมชชีนเลิร์นนิงขั้นสูงที่กำลังจะมาถึงนี้ให้ชัดเจนขึ้นครับ",
+      "chunks": [
+        "I would greatly appreciate it if you could clarify the specific requirements",
+        "for the upcoming advanced machine learning assignment."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:14",
+      "legacyId": "Theme_5-13",
+      "position": 14,
+      "script": "I would greatly appreciate it if you could provide some constructive feedback on my latest data visualization charts.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะขอบคุณมากหากคุณสามารถให้ข้อเสนอแนะเชิงสร้างสรรค์เกี่ยวกับกราฟแสดงข้อมูลล่าสุดของฉันได้ค่ะ",
+      "chunks": [
+        "I would greatly appreciate it if you could provide some constructive feedback",
+        "on my latest data visualization charts."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:15",
+      "legacyId": "Theme_5-14",
+      "position": 15,
+      "script": "I would greatly appreciate it if you could approve the budget for upgrading our outdated cloud storage infrastructure soon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมจะซาบซึ้งใจมากหากคุณช่วยอนุมัติงบประมาณสำหรับการอัปเกรดโครงสร้างพื้นฐานคลาวด์สตอเรจที่ล้าสมัยของเราในเร็วๆ นี้ครับ",
+      "chunks": [
+        "I would greatly appreciate it if you could approve the budget",
+        "for upgrading our outdated cloud storage infrastructure soon."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:16",
+      "legacyId": "Theme_5-15",
+      "position": 16,
+      "script": "I would greatly appreciate it if you could send me the official API documentation before the end of the day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะขอบคุณมากเลยค่ะหากคุณช่วยส่งเอกสารคู่มือ API อย่างเป็นทางการมาให้ฉันก่อนหมดวันทำงานนี้",
+      "chunks": [
+        "I would greatly appreciate it if you could send me the official API documentation before the end of the day."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:17",
+      "legacyId": "Theme_5-16",
+      "position": 17,
+      "script": "Despite our diligent efforts to resolve the critical software bug, the system still occasionally crashes during heavy user traffic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้ว่าพวกเราจะพยายามอย่างเต็มที่เพื่อแก้ไขบั๊กซอฟต์แวร์ที่วิกฤตนี้ แต่ระบบก็ยังคงล่มเป็นบางครั้งในช่วงที่มีผู้ใช้งานหนาแน่นครับ",
+      "chunks": [
+        "Despite our diligent efforts",
+        "to resolve the critical software bug,",
+        "the system still occasionally crashes during heavy user traffic."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:18",
+      "legacyId": "Theme_5-17",
+      "position": 18,
+      "script": "Despite our diligent efforts to clean the massive dataset, there are still some unavoidable inconsistencies in the historical records.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้เราจะทุ่มเทความพยายามในการคลีนชุดข้อมูลขนาดใหญ่ แต่ก็ยังคงมีความไม่สอดคล้องกันที่หลีกเลี่ยงไม่ได้บางจุดในบันทึกข้อมูลย้อนหลังค่ะ",
+      "chunks": [
+        "Despite our diligent efforts",
+        "to clean the massive dataset,",
+        "there are still some unavoidable inconsistencies",
+        "in the historical records."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:19",
+      "legacyId": "Theme_5-18",
+      "position": 19,
+      "script": "Despite our diligent efforts to optimize the algorithmic logic, the deep learning model requires significantly more processing time than expected.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้เราจะพยายามปรับแต่งตรรกะของอัลกอริทึมอย่างขยันขันแข็ง แต่โมเดลดีปเลิร์นนิงก็ยังต้องใช้เวลาประมวลผลมากกว่าที่คาดไว้มากครับ",
+      "chunks": [
+        "Despite our diligent efforts",
+        "to optimize the algorithmic logic,",
+        "the deep learning model requires significantly more processing time than expected."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:20",
+      "legacyId": "Theme_5-19",
+      "position": 20,
+      "script": "Despite our diligent efforts to secure the necessary funding, the tech startup unfortunately decided to delay its ambitious expansion.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้จะใช้ความพยายามอย่างมากในการจัดหาเงินทุนที่จำเป็น แต่น่าเสียดายที่สตาร์ทอัพเทคตัดสินใจเลื่อนแผนขยายธุรกิจอันทะเยอทะยานออกไปค่ะ",
+      "chunks": [
+        "Despite our diligent efforts",
+        "to secure the necessary funding,",
+        "the tech startup unfortunately decided",
+        "to delay its ambitious expansion."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:21",
+      "legacyId": "Theme_5-20",
+      "position": 21,
+      "script": "Please find attached the comprehensive analytical report detailing the quarterly performance of our high-growth technology stock investments.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โปรดดูรายงานการวิเคราะห์เชิงลึกที่แนบมา ซึ่งแจกแจงรายละเอียดผลประกอบการรายไตรมาสของการลงทุนในหุ้นเทคโนโลยีที่เติบโตสูงของเราครับ",
+      "chunks": [
+        "Please find attached the comprehensive analytical report detailing the quarterly performance of our high-growth technology stock investments."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:22",
+      "legacyId": "Theme_5-21",
+      "position": 22,
+      "script": "Please find attached the revised source code for the university project, which includes all the requested architectural improvements.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โปรดดูซอร์สโค้ดสำหรับโปรเจกต์มหาวิทยาลัยฉบับแก้ไขที่แนบมา ซึ่งรวมถึงการปรับปรุงโครงสร้างสถาปัตยกรรมทั้งหมดตามที่ร้องขอแล้วค่ะ",
+      "chunks": [
+        "Please find attached the revised source code",
+        "for the university project,",
+        "which includes all the requested architectural improvements."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:23",
+      "legacyId": "Theme_5-22",
+      "position": 23,
+      "script": "Please find attached the official meeting minutes summarizing our detailed discussion regarding the new artificial intelligence implementation strategy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โปรดตรวจสอบรายงานการประชุมอย่างเป็นทางการที่แนบมา ซึ่งสรุปการหารือโดยละเอียดของเราเกี่ยวกับกลยุทธ์การติดตั้งปัญญาประดิษฐ์ระบบใหม่ครับ",
+      "chunks": [
+        "Please find attached the official meeting minutes summarizing our detailed discussion regarding the new artificial intelligence implementation strategy."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:24",
+      "legacyId": "Theme_5-23",
+      "position": 24,
+      "script": "Please find attached the updated project timeline, which carefully accounts for the recent unexpected delays in data collection.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โปรดดูไทม์ไลน์โปรเจกต์อัปเดตใหม่ที่แนบมา ซึ่งได้คำนวณเผื่อความล่าช้าที่ไม่คาดคิดในการรวบรวมข้อมูลเมื่อเร็วๆ นี้อย่างรอบคอบแล้วค่ะ",
+      "chunks": [
+        "Please find attached the updated project timeline,",
+        "which carefully accounts",
+        "for the recent unexpected delays",
+        "in data collection."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:25",
+      "legacyId": "Theme_5-24",
+      "position": 25,
+      "script": "If we decide to proceed with this highly risky tech investment, we must strictly monitor the market volatility every day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากเราตัดสินใจที่จะดำเนินการลงทุนสายเทคที่มีความเสี่ยงสูงนี้ต่อไป เราจะต้องเฝ้าระวังความผันผวนของตลาดอย่างเข้มงวดทุกวันครับ",
+      "chunks": [
+        "If we decide",
+        "to proceed",
+        "with this highly risky tech investment,",
+        "we must strictly monitor the market volatility every day."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:26",
+      "legacyId": "Theme_5-25",
+      "position": 26,
+      "script": "If we decide to proceed with deploying the untested chatbot version, we will likely face severe complaints from our clients.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าเราตัดสินใจเดินหน้าปล่อยแชทบอทเวอร์ชันที่ยังไม่ได้ทดสอบขึ้นระบบ เรามีแนวโน้มที่จะต้องเผชิญกับคำร้องเรียนอย่างหนักจากลูกค้าค่ะ",
+      "chunks": [
+        "If we decide",
+        "to proceed",
+        "with deploying the untested chatbot version,",
+        "we will likely face severe complaints from our clients."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:27",
+      "legacyId": "Theme_5-26",
+      "position": 27,
+      "script": "If we decide to proceed with upgrading the main server, the entire system will be temporarily offline for several hours.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากเราตัดสินใจที่จะดำเนินการอัปเกรดเซิร์ฟเวอร์หลัก ระบบทั้งหมดจะออฟไลน์ชั่วคราวเป็นเวลาหลายชั่วโมงครับ",
+      "chunks": [
+        "If we decide",
+        "to proceed",
+        "with upgrading the main server,",
+        "the entire system will be temporarily offline",
+        "for several hours."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:28",
+      "legacyId": "Theme_5-27",
+      "position": 28,
+      "script": "If we decide to proceed with this new data architecture, I will need to rewrite a significant portion of the backend code.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าเราตกลงที่จะใช้สถาปัตยกรรมข้อมูลแบบใหม่นี้ ฉันจะจำเป็นต้องเขียนโค้ดฝั่งแบ็คเอนด์ใหม่เป็นจำนวนมากค่ะ",
+      "chunks": [
+        "If we decide",
+        "to proceed",
+        "with this new data architecture,",
+        "I will need",
+        "to rewrite a significant portion of the backend code."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:29",
+      "legacyId": "Theme_5-28",
+      "position": 29,
+      "script": "I completely understand your concerns regarding the project's tight deadline, but I assure you we are working diligently.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมเข้าใจถึงความกังวลของคุณเกี่ยวกับเดดไลน์โปรเจกต์ที่กระชั้นชิดอย่างเต็มที่ แต่ผมขอรับรองว่าเรากำลังทำงานอย่างขยันขันแข็งครับ",
+      "chunks": [
+        "I completely understand your concerns regarding the project's tight deadline,",
+        "but I assure you we are working diligently."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:30",
+      "legacyId": "Theme_5-29",
+      "position": 30,
+      "script": "I completely understand your concerns regarding the high cost of the new GPU, but it is absolutely necessary for training the AI.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันเข้าใจความกังวลของคุณเรื่องราคาที่สูงลิ่วของการ์ดจอใหม่เป็นอย่างดี แต่มันจำเป็นอย่างยิ่งยวดสำหรับการเทรน AI ค่ะ",
+      "chunks": [
+        "I completely understand your concerns regarding the high cost of the new GPU,",
+        "but it is absolutely necessary",
+        "for training the AI."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:31",
+      "legacyId": "Theme_5-30",
+      "position": 31,
+      "script": "I completely understand your concerns regarding the data privacy issues, which is exactly why we implemented strict encryption protocols.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมเข้าใจข้อกังวลของคุณเรื่องปัญหาความเป็นส่วนตัวของข้อมูลครับ ซึ่งนั่นเป็นเหตุผลพอดีเลยที่เราได้นำโปรโตคอลการเข้ารหัสที่เข้มงวดมาใช้",
+      "chunks": [
+        "I completely understand your concerns regarding the data privacy issues,",
+        "which is exactly why we implemented strict encryption protocols."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:32",
+      "legacyId": "Theme_5-31",
+      "position": 32,
+      "script": "I completely understand your concerns regarding the stock's recent volatility, though I still believe in its long-term fundamental value.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเข้าใจความกังวลของคุณเกี่ยวกับความผันผวนล่าสุดของหุ้นตัวนี้ แม้ว่าฉันจะยังคงเชื่อมั่นในมูลค่าพื้นฐานระยะยาวของมันก็ตามค่ะ",
+      "chunks": [
+        "I completely understand your concerns regarding the stock's recent volatility,",
+        "though I still believe",
+        "in its long-term fundamental value."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:33",
+      "legacyId": "Theme_5-32",
+      "position": 33,
+      "script": "It has come to my attention that several automated Python scripts are failing due to an unexpected change in the API.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมได้รับทราบมาว่าสคริปต์ไพธอนอัตโนมัติหลายตัวกำลังทำงานล้มเหลว เนื่องจากการเปลี่ยนแปลงที่ไม่คาดคิดในระบบ API ครับ",
+      "chunks": [
+        "It has come",
+        "to my attention",
+        "that several automated Python scripts are failing due",
+        "to an unexpected change",
+        "in the API."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:34",
+      "legacyId": "Theme_5-33",
+      "position": 34,
+      "script": "It has come to my attention that the latest software update is causing severe performance issues on older hardware devices.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันได้รับแจ้งว่าซอฟต์แวร์อัปเดตล่าสุดกำลังก่อให้เกิดปัญหาด้านประสิทธิภาพอย่างรุนแรงบนอุปกรณ์ฮาร์ดแวร์รุ่นเก่าค่ะ",
+      "chunks": [
+        "It has come",
+        "to my attention",
+        "that the latest software update is causing severe performance issues",
+        "on older hardware devices."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:35",
+      "legacyId": "Theme_5-34",
+      "position": 35,
+      "script": "It has come to my attention that some team members are struggling to understand the complex logic behind the new algorithm.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมเพิ่งทราบมาว่าสมาชิกในทีมบางคนกำลังประสบปัญหาในการทำความเข้าใจตรรกะที่ซับซ้อนเบื้องหลังอัลกอริทึมตัวใหม่ครับ",
+      "chunks": [
+        "It has come",
+        "to my attention",
+        "that some team members are struggling",
+        "to understand the complex logic behind the new algorithm."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:36",
+      "legacyId": "Theme_5-35",
+      "position": 36,
+      "script": "It has come to my attention that our current cloud storage plan will exceed its maximum data limit by next week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันได้รับรายงานว่าแพลนพื้นที่เก็บข้อมูลบนคลาวด์ปัจจุบันของเรา จะใช้ข้อมูลเกินขีดจำกัดสูงสุดภายในสัปดาห์หน้าค่ะ",
+      "chunks": [
+        "It has come",
+        "to my attention",
+        "that our current cloud storage plan will exceed its maximum data limit by next week."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:37",
+      "legacyId": "Theme_5-36",
+      "position": 37,
+      "script": "In order to ensure that the final presentation runs smoothly, I suggest we schedule a full rehearsal tomorrow afternoon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อให้มั่นใจว่าการพรีเซนต์รอบไฟนอลจะดำเนินไปอย่างราบรื่น ผมขอเสนอให้เรานัดซ้อมใหญ่กันในบ่ายวันพรุ่งนี้ครับ",
+      "chunks": [
+        "In order",
+        "to ensure",
+        "that the final presentation runs smoothly,",
+        "I suggest we schedule a full rehearsal tomorrow afternoon."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:38",
+      "legacyId": "Theme_5-37",
+      "position": 38,
+      "script": "In order to ensure that the dataset is completely free of errors, I will write a custom validation script tonight.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อให้แน่ใจว่าชุดข้อมูลนั้นปราศจากข้อผิดพลาดโดยสมบูรณ์ ฉันจะเขียนสคริปต์สำหรับตรวจสอบความถูกต้องแบบปรับแต่งเองในคืนนี้ค่ะ",
+      "chunks": [
+        "In order",
+        "to ensure",
+        "that the dataset is completely free of errors,",
+        "I will write a custom validation script tonight."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:39",
+      "legacyId": "Theme_5-38",
+      "position": 39,
+      "script": "In order to ensure that our investment portfolio remains balanced, we should carefully reevaluate our tech stock holdings this quarter.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อให้พอร์ตการลงทุนของเรายังคงสมดุล เราควรประเมินการถือครองหุ้นเทคโนโลยีของเราใหม่อย่างรอบคอบในไตรมาสนี้ครับ",
+      "chunks": [
+        "In order",
+        "to ensure",
+        "that our investment portfolio remains balanced,",
+        "we should carefully reevaluate our tech stock holdings this quarter."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:40",
+      "legacyId": "Theme_5-39",
+      "position": 40,
+      "script": "In order to ensure that the new employees understand the workflow, I have prepared a detailed technical documentation guide.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อสร้างความมั่นใจว่าพนักงานใหม่จะเข้าใจระบบการทำงาน ดิฉันได้จัดเตรียมคู่มือเอกสารทางเทคนิคที่มีรายละเอียดครบถ้วนไว้แล้วค่ะ",
+      "chunks": [
+        "In order",
+        "to ensure",
+        "that the new employees understand the workflow,",
+        "I have prepared a detailed technical documentation guide."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:41",
+      "legacyId": "Theme_5-40",
+      "position": 41,
+      "script": "I would like to suggest that we temporarily suspend the server migration until we have thoroughly backed up all databases.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมขอเสนอแนะให้เราระงับการย้ายเซิร์ฟเวอร์ไว้ชั่วคราว จนกว่าพวกเราจะทำการสำรองฐานข้อมูลทั้งหมดอย่างถี่ถ้วนเสียก่อนครับ",
+      "chunks": [
+        "I would like",
+        "to suggest",
+        "that we temporarily suspend the server migration until we have thoroughly backed up all databases."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:42",
+      "legacyId": "Theme_5-41",
+      "position": 42,
+      "script": "I would like to suggest that we invite a guest speaker from the data science industry to our next university seminar.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันอยากจะเสนอให้เราเชิญวิทยากรรับเชิญจากแวดวงวิทยาการข้อมูล มาบรรยายในงานสัมมนาของมหาวิทยาลัยครั้งหน้าค่ะ",
+      "chunks": [
+        "I would like",
+        "to suggest",
+        "that we invite a guest speaker from the data science industry",
+        "to our next university seminar."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:43",
+      "legacyId": "Theme_5-42",
+      "position": 43,
+      "script": "I would like to suggest that we implement a more rigorous code review process to prevent future bugs from reaching production.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมขอเสนอให้เรานำกระบวนการตรวจทานโค้ดที่เข้มงวดกว่าเดิมมาใช้ เพื่อป้องกันไม่ให้บั๊กหลุดไปถึงระบบจริงในอนาคตครับ",
+      "chunks": [
+        "I would like",
+        "to suggest",
+        "that we implement a more rigorous code review process",
+        "to prevent future bugs from reaching production."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:44",
+      "legacyId": "Theme_5-43",
+      "position": 44,
+      "script": "I would like to suggest that we organize a brief weekly meeting to align our individual progress on the AI project.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันขอเสนอให้เราจัดการประชุมสั้นๆ ทุกสัปดาห์ เพื่อปรับความเข้าใจให้ตรงกันเรื่องความคืบหน้าของแต่ละคนในโปรเจกต์ AI ค่ะ",
+      "chunks": [
+        "I would like",
+        "to suggest",
+        "that we organize a brief weekly meeting",
+        "to align our individual progress",
+        "on the AI project."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:45",
+      "legacyId": "Theme_5-44",
+      "position": 45,
+      "script": "As discussed in our previous meeting, I will immediately begin rewriting the core logic for the data preprocessing module.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตามที่ได้หารือกันในการประชุมครั้งก่อน ผมจะเริ่มลงมือเขียนตรรกะหลักสำหรับโมดูลเตรียมการข้อมูลใหม่ในทันทีครับ",
+      "chunks": [
+        "As discussed",
+        "in our previous meeting,",
+        "I will immediately begin rewriting the core logic",
+        "for the data preprocessing module."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:46",
+      "legacyId": "Theme_5-45",
+      "position": 46,
+      "script": "As discussed in our previous meeting, I will carefully monitor the performance of the newly deployed machine learning algorithm.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตามที่เราคุยกันในการประชุมก่อนหน้านี้ ดิฉันจะเฝ้าติดตามประสิทธิภาพของอัลกอริทึมแมชชีนเลิร์นนิงที่เพิ่งนำขึ้นระบบอย่างระมัดระวังค่ะ",
+      "chunks": [
+        "As discussed",
+        "in our previous meeting,",
+        "I will carefully monitor the performance of the newly deployed machine learning algorithm."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:47",
+      "legacyId": "Theme_5-46",
+      "position": 47,
+      "script": "As discussed in our previous meeting, I will draft a formal email to the clients explaining the sudden technical delay.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อ้างอิงจากการประชุมครั้งก่อน ผมจะร่างอีเมลแบบเป็นทางการส่งถึงลูกค้าเพื่อชี้แจงถึงความล่าช้าทางเทคนิคที่เกิดขึ้นกะทันหันครับ",
+      "chunks": [
+        "As discussed",
+        "in our previous meeting,",
+        "I will draft a formal email",
+        "to the clients explaining the sudden technical delay."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:48",
+      "legacyId": "Theme_5-47",
+      "position": 48,
+      "script": "As discussed in our previous meeting, I will research alternative cloud computing platforms to significantly reduce our monthly operational costs.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตามที่หารือกันไว้ ฉันจะไปค้นคว้ารีเสิร์ชแพลตฟอร์มคลาวด์ทางเลือกอื่นๆ เพื่อช่วยลดต้นทุนการดำเนินงานรายเดือนของเราลงอย่างเป็นกอบเป็นกำค่ะ",
+      "chunks": [
+        "As discussed",
+        "in our previous meeting,",
+        "I will research alternative cloud computing platforms",
+        "to significantly reduce our monthly operational costs."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:49",
+      "legacyId": "Theme_5-48",
+      "position": 49,
+      "script": "We must carefully consider the fact that rushing the software deployment could lead to catastrophic security vulnerabilities.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราต้องพิจารณาความจริงอย่างรอบคอบว่า การเร่งนำซอฟต์แวร์ขึ้นระบบอาจนำไปสู่ช่องโหว่ด้านความปลอดภัยที่ร้ายแรงได้ครับ",
+      "chunks": [
+        "We must carefully consider the fact",
+        "that rushing the software deployment could lead",
+        "to catastrophic security vulnerabilities."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:50",
+      "legacyId": "Theme_5-49",
+      "position": 50,
+      "script": "We must carefully consider the fact that artificial intelligence heavily relies on the quality and diversity of the training data.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราจำต้องพิจารณาข้อเท็จจริงที่ว่า ปัญญาประดิษฐ์นั้นต้องพึ่งพาคุณภาพและความหลากหลายของข้อมูลสำหรับเทรนอย่างมหาศาลค่ะ",
+      "chunks": [
+        "We must carefully consider the fact",
+        "that artificial intelligence heavily relies",
+        "on the quality",
+        "and diversity of the training data."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:51",
+      "legacyId": "Theme_5-50",
+      "position": 51,
+      "script": "We must carefully consider the fact that investing a massive amount of capital in a single tech startup is highly risky.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเราต้องไตร่ตรองข้อเท็จจริงนี้อย่างระมัดระวัง ว่าการลงทุนด้วยเงินทุนมหาศาลในสตาร์ทอัพเทคโนโลยีเพียงแห่งเดียวนั้นมีความเสี่ยงสูงมากครับ",
+      "chunks": [
+        "We must carefully consider the fact",
+        "that investing a massive amount of capital",
+        "in a single tech startup is highly risky."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:52",
+      "legacyId": "Theme_5-51",
+      "position": 52,
+      "script": "We must carefully consider the fact that my daily commute by motorcycle is heavily affected by the unpredictable rainy weather.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราต้องพิจารณาเรื่องนี้ดีๆ ว่าการเดินทางไปทำงานด้วยมอเตอร์ไซค์ในทุกๆ วันของฉัน มันได้รับผลกระทบอย่างหนักจากสภาพอากาศฝนตกที่คาดเดาไม่ได้เลย",
+      "chunks": [
+        "We must carefully consider the fact",
+        "that my daily commute by motorcycle is heavily affected by the unpredictable rainy weather."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:53",
+      "legacyId": "Theme_5-52",
+      "position": 53,
+      "script": "I sincerely apologize for any inconvenience caused by the unexpected delay in submitting my final data science assignment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมต้องขออภัยอย่างจริงใจสำหรับความไม่สะดวกที่เกิดจากความล่าช้าโดยไม่คาดคิด ในการส่งงานวิชาดาต้าซายน์ชิ้นสุดท้ายของผมครับ",
+      "chunks": [
+        "I sincerely apologize",
+        "for any inconvenience caused by the unexpected delay",
+        "in submitting my final data science assignment."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:54",
+      "legacyId": "Theme_5-53",
+      "position": 54,
+      "script": "I sincerely apologize for any inconvenience caused by the temporary unavailability of the interactive portfolio dashboard this morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันขออภัยอย่างสุดซึ้งสำหรับความไม่สะดวกใดๆ ที่เกิดจากการที่แดชบอร์ดพอร์ตโฟลิโออินเทอร์แอกทีฟไม่สามารถใช้งานได้ชั่วคราวเมื่อเช้านี้ค่ะ",
+      "chunks": [
+        "I sincerely apologize",
+        "for any inconvenience caused by the temporary unavailability of the interactive portfolio dashboard this morning."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:55",
+      "legacyId": "Theme_5-54",
+      "position": 55,
+      "script": "I sincerely apologize for any inconvenience caused by my late arrival to the morning meeting due to terrible traffic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมขออภัยอย่างยิ่งสำหรับความไม่สะดวกจากการที่ผมมาถึงที่ประชุมช่วงเช้าสาย อันเนื่องมาจากการจราจรที่ติดขัดอย่างหนักครับ",
+      "chunks": [
+        "I sincerely apologize",
+        "for any inconvenience caused by my late arrival",
+        "to the morning meeting due",
+        "to terrible traffic."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:56",
+      "legacyId": "Theme_5-55",
+      "position": 56,
+      "script": "I sincerely apologize for any inconvenience caused by the formatting errors present in the initial version of the quarterly report.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันขออภัยอย่างจริงใจต่อความไม่สะดวกที่เกิดจากข้อผิดพลาดในการจัดรูปแบบ ซึ่งปรากฏในรายงานประจำไตรมาสเวอร์ชันแรกค่ะ",
+      "chunks": [
+        "I sincerely apologize",
+        "for any inconvenience caused by the formatting errors present",
+        "in the initial version of the quarterly report."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:57",
+      "legacyId": "Theme_5-56",
+      "position": 57,
+      "script": "Unless we receive formal approval from the department head, we cannot legally access the university's highly sensitive student database.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เว้นเสียแต่ว่าจะได้รับการอนุมัติอย่างเป็นทางการจากหัวหน้าภาควิชา เราไม่สามารถเข้าถึงฐานข้อมูลนักศึกษาที่มีความอ่อนไหวสูงของมหาวิทยาลัยได้อย่างถูกระเบียบครับ",
+      "chunks": [
+        "Unless we receive formal approval from the department head,",
+        "we cannot legally access the university's highly sensitive student database."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:58",
+      "legacyId": "Theme_5-57",
+      "position": 58,
+      "script": "Unless we receive formal approval from the executive board, the proposed budget for the new AI project will be frozen.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากเราไม่ได้รับการอนุมัติอย่างเป็นทางการจากบอร์ดบริหาร งบประมาณที่เสนอไปสำหรับโปรเจกต์ AI ตัวใหม่นี้ก็จะถูกระงับไว้ค่ะ",
+      "chunks": [
+        "Unless we receive formal approval from the executive board,",
+        "the proposed budget",
+        "for the new AI project will be frozen."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:59",
+      "legacyId": "Theme_5-58",
+      "position": 59,
+      "script": "Unless we receive formal approval from the lead software engineer, we should not merge these major changes into the main branch.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เว้นแต่จะได้รับการอนุมัติเป็นลายลักษณ์อักษรจากหัวหน้าวิศวกรซอฟต์แวร์ เราไม่ควรนำการเปลี่ยนแปลงครั้งใหญ่นี้ไปรวมเข้ากับโค้ดหลักครับ",
+      "chunks": [
+        "Unless we receive formal approval from the lead software engineer,",
+        "we should not merge these major changes into the main branch."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:60",
+      "legacyId": "Theme_5-59",
+      "position": 60,
+      "script": "Unless we receive formal approval from the compliance team, we cannot officially launch the new automated trading feature.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าเรายังไม่ได้รับไฟเขียวอย่างเป็นทางการจากทีมกำกับดูแล เราก็ไม่สามารถเปิดตัวฟีเจอร์เทรดอัตโนมัติตัวใหม่อย่างเป็นทางการได้ค่ะ",
+      "chunks": [
+        "Unless we receive formal approval from the compliance team,",
+        "we cannot officially launch the new automated trading feature."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:61",
+      "legacyId": "Theme_5-60",
+      "position": 61,
+      "script": "I am confident that my strong background in AI engineering makes me a highly suitable candidate for this data scientist position.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมมั่นใจว่าพื้นฐานที่แข็งแกร่งด้านวิศวกรรม AI ทำให้ผมเป็นผู้สมัครที่เหมาะสมอย่างยิ่งสำหรับตำแหน่งนักวิทยาการข้อมูลนี้ครับ",
+      "chunks": [
+        "I am confident",
+        "that my strong background",
+        "in AI engineering makes me a highly suitable candidate",
+        "for this data scientist position."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:62",
+      "legacyId": "Theme_5-61",
+      "position": 62,
+      "script": "I am confident that my strong background in analytical problem-solving will allow me to significantly contribute to your development team.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันมีความมั่นใจว่าพื้นฐานด้านการแก้ปัญหาเชิงวิเคราะห์ที่แข็งแกร่งของดิฉัน จะช่วยให้ฉันสามารถทำประโยชน์ให้กับทีมพัฒนาของคุณได้อย่างมากค่ะ",
+      "chunks": [
+        "I am confident",
+        "that my strong background",
+        "in analytical problem-solving will allow me",
+        "to significantly contribute",
+        "to your development team."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:63",
+      "legacyId": "Theme_5-62",
+      "position": 63,
+      "script": "I am confident that my strong background in managing personal investments gives me a unique perspective on financial technology solutions.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมมั่นใจเต็มที่ว่าประสบการณ์ที่อัดแน่นในการบริหารการลงทุนส่วนตัว มอบมุมมองที่ไม่เหมือนใครในด้านโซลูชันเทคโนโลยีทางการเงินให้กับผมครับ",
+      "chunks": [
+        "I am confident",
+        "that my strong background",
+        "in managing personal investments gives me a unique perspective",
+        "on financial technology solutions."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:64",
+      "legacyId": "Theme_5-63",
+      "position": 64,
+      "script": "I am confident that my strong background in Python programming will enable me to rapidly adapt to your company's proprietary framework.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันมีความเชื่อมั่นว่าพื้นฐานที่แน่นหนาในการเขียนโปรแกรมภาษาไพธอน จะช่วยให้ดิฉันสามารถปรับตัวเข้ากับเฟรมเวิร์กเฉพาะของบริษัทคุณได้อย่างรวดเร็วค่ะ",
+      "chunks": [
+        "I am confident",
+        "that my strong background",
+        "in Python programming will enable me",
+        "to rapidly adapt",
+        "to your company's proprietary framework."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:65",
+      "legacyId": "Theme_5-64",
+      "position": 65,
+      "script": "While I understand your perspective, I firmly believe that adopting a cloud-based infrastructure is essential for our long-term growth.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้ผมจะเข้าใจในมุมมองของคุณ แต่ผมยังเชื่อมั่นอย่างแน่วแน่ว่าการปรับไปใช้โครงสร้างพื้นฐานบนคลาวด์นั้น จำเป็นต่อการเติบโตระยะยาวของเราครับ",
+      "chunks": [
+        "While I understand your perspective,",
+        "I firmly believe",
+        "that adopting a cloud-based infrastructure is essential",
+        "for our long-term growth."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:66",
+      "legacyId": "Theme_5-65",
+      "position": 66,
+      "script": "While I understand your perspective, I firmly believe that this particular tech stock is currently overvalued by the general market.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้ฉันจะเข้าใจความคิดเห็นของคุณ แต่ฉันก็ยังเชื่อฝังหัวว่าหุ้นเทคตัวนี้กำลังถูกประเมินมูลค่าสูงเกินจริงจากตลาดโดยรวมในปัจจุบันค่ะ",
+      "chunks": [
+        "While I understand your perspective,",
+        "I firmly believe",
+        "that this particular tech stock is currently overvalued by the general market."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:67",
+      "legacyId": "Theme_5-66",
+      "position": 67,
+      "script": "While I understand your perspective, I firmly believe that the machine learning model needs more complex features to predict accurately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงผมจะเข้าใจมุมมองของคุณนะ แต่ผมก็ยังเชื่อมั่นเต็มเปี่ยมว่าโมเดลแมชชีนเลิร์นนิงตัวนี้ต้องการฟีเจอร์ที่ซับซ้อนกว่านี้ เพื่อที่จะทำนายผลได้อย่างแม่นยำครับ",
+      "chunks": [
+        "While I understand your perspective,",
+        "I firmly believe",
+        "that the machine learning model needs more complex features",
+        "to predict accurately."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:68",
+      "legacyId": "Theme_5-67",
+      "position": 68,
+      "script": "While I understand your perspective, I firmly believe that investing a little extra time in code refactoring will prevent future disasters.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในขณะที่ฉันเข้าใจมุมมองของคุณนะคะ แต่ฉันเชื่อมั่นอย่างยิ่งว่าการสละเวลาเพิ่มอีกนิดเพื่อจัดระเบียบโค้ดใหม่ จะช่วยป้องกันหายนะในอนาคตได้ค่ะ",
+      "chunks": [
+        "While I understand your perspective,",
+        "I firmly believe",
+        "that investing a little extra time",
+        "in code refactoring will prevent future disasters."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:69",
+      "legacyId": "Theme_5-68",
+      "position": 69,
+      "script": "Thank you for bringing this critical issue to my attention; I will investigate the server error logs immediately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณที่แจ้งปัญหาสำคัญนี้ให้ผมทราบครับ ผมจะเข้าไปตรวจสอบล็อกข้อผิดพลาดของเซิร์ฟเวอร์ในทันทีครับ",
+      "chunks": [
+        "Thank you",
+        "for bringing this critical issue",
+        "to my attention; I will investigate the server error logs immediately."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:70",
+      "legacyId": "Theme_5-69",
+      "position": 70,
+      "script": "Thank you for bringing this critical issue to our team's attention; we will release an emergency patch by tomorrow morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณที่นำปัญหาที่วิกฤตนี้มาแจ้งให้ทีมของเราทราบค่ะ พวกเราจะปล่อยแพตช์แก้ไขฉุกเฉินให้ภายในพรุ่งนี้เช้าค่ะ",
+      "chunks": [
+        "Thank you",
+        "for bringing this critical issue",
+        "to our team's attention; we will release an emergency patch by tomorrow morning."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:71",
+      "legacyId": "Theme_5-70",
+      "position": 71,
+      "script": "Thank you for bringing this critical issue to my attention; I will revise the inaccurate data visualizations in the presentation right away.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณที่ช่วยทักท้วงปัญหาอันตรายนี้ให้ผมรับรู้นะครับ ผมจะรีบกลับไปแก้ไขกราฟข้อมูลที่ไม่แม่นยำในพรีเซนต์เดี๋ยวนี้เลย",
+      "chunks": [
+        "Thank you",
+        "for bringing this critical issue",
+        "to my attention; I will revise the inaccurate data visualizations",
+        "in the presentation right away."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:72",
+      "legacyId": "Theme_5-71",
+      "position": 72,
+      "script": "Thank you for bringing this critical issue to my attention; I apologize for my stubbornness regarding the algorithm's initial design.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณที่ชี้ให้เห็นถึงปัญหาที่สำคัญนี้ค่ะ ดิฉันต้องขออภัยในความดื้อรั้นของตัวเองเกี่ยวกับการออกแบบเบื้องต้นของอัลกอริทึมด้วยนะคะ",
+      "chunks": [
+        "Thank you",
+        "for bringing this critical issue",
+        "to my attention; I apologize",
+        "for my stubbornness regarding the algorithm's initial design."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:73",
+      "legacyId": "Theme_5-72",
+      "position": 73,
+      "script": "I look forward to discussing this matter further during our scheduled one-on-one performance review next Friday afternoon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมตั้งตารอที่จะได้พูดคุยเรื่องนี้เพิ่มเติมในระหว่างการประเมินผลงานแบบตัวต่อตัวที่เรานัดกันไว้ในบ่ายวันศุกร์หน้าครับ",
+      "chunks": [
+        "I look forward",
+        "to discussing this matter further during our scheduled one-on-one performance review next Friday afternoon."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:74",
+      "legacyId": "Theme_5-73",
+      "position": 74,
+      "script": "I look forward to discussing this matter further during the upcoming team meeting regarding the artificial intelligence integration plan.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉันรอคอยที่จะได้หารือเกี่ยวกับเรื่องนี้ต่อในระหว่างการประชุมทีมครั้งหน้า ที่ว่าด้วยแผนการผสานรวมปัญญาประดิษฐ์เข้ากับระบบค่ะ",
+      "chunks": [
+        "I look forward",
+        "to discussing this matter further during the upcoming team meeting regarding the artificial intelligence integration plan."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:75",
+      "legacyId": "Theme_5-74",
+      "position": 75,
+      "script": "I look forward to discussing this matter further during my official thesis consultation with the university professor tomorrow.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผมคาดหวังว่าจะได้พูดคุยประเด็นนี้ให้ลึกขึ้น ในระหว่างการขอคำปรึกษาเรื่องวิทยานิพนธ์อย่างเป็นทางการกับอาจารย์มหาวิทยาลัยในวันพรุ่งนี้ครับ",
+      "chunks": [
+        "I look forward",
+        "to discussing this matter further during my official thesis consultation",
+        "with the university professor tomorrow."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:76",
+      "legacyId": "Theme_5-75",
+      "position": 76,
+      "script": "I look forward to discussing this matter further during the quarterly financial review with the executive board of directors.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตั้งตารอที่จะได้หารือถึงเรื่องนี้เพิ่มเติมในระหว่างการทบทวนสถานะทางการเงินประจำไตรมาส ร่วมกับคณะกรรมการบริหารค่ะ",
+      "chunks": [
+        "I look forward",
+        "to discussing this matter further during the quarterly financial review",
+        "with the executive board of directors."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:77",
+      "legacyId": "Theme_5-76",
+      "position": 77,
+      "script": "If you require any further information, please do not hesitate to contact me directly via my professional email address.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากท่านต้องการข้อมูลเพิ่มเติมใดๆ โปรดอย่าลังเลที่จะติดต่อผมโดยตรงผ่านทางที่อยู่อีเมลสำหรับทำงานของผมครับ",
+      "chunks": [
+        "If you require any further information,",
+        "please do not hesitate",
+        "to contact me directly via my professional email address."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:78",
+      "legacyId": "Theme_5-77",
+      "position": 78,
+      "script": "If you require any further information, please do not hesitate to reach out to the technical support team immediately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากคุณต้องการข้อมูลเพิ่มเติมประการใด โปรดอย่าลังเลที่จะติดต่อทีมสนับสนุนด้านเทคนิคในทันทีเลยนะคะ",
+      "chunks": [
+        "If you require any further information,",
+        "please do not hesitate",
+        "to reach out",
+        "to the technical support team immediately."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:79",
+      "legacyId": "Theme_5-78",
+      "position": 79,
+      "script": "If you require any further information, please do not hesitate to ask me during the Q&A session after my presentation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากทุกท่านต้องการข้อมูลใดๆ เพิ่มเติม โปรดอย่าลังเลที่จะถามผมในช่วงถาม-ตอบหลังจากจบการพรีเซนต์ของผมนะครับ",
+      "chunks": [
+        "If you require any further information,",
+        "please do not hesitate",
+        "to ask me during the Q&A session after my presentation."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_5:80",
+      "legacyId": "Theme_5-79",
+      "position": 80,
+      "script": "If you require any further information, please do not hesitate to request the raw data files from my university cloud drive.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากคุณจำเป็นต้องใช้ข้อมูลเพิ่มเติมใดๆ โปรดอย่าลังเลที่จะรีเควสขอไฟล์ข้อมูลดิบจากคลาวด์ไดรฟ์ของมหาลัยของฉันได้เลยค่ะ",
+      "chunks": [
+        "If you require any further information,",
+        "please do not hesitate",
+        "to request the raw data files from my university cloud drive."
+      ]
+    }
+  ]
+}

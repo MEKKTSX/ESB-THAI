@@ -1,0 +1,127 @@
+{
+  "id": "U01-L03",
+  "number": 3,
+  "title": "ขอสอบถามหน่อยครับ/ค่ะ...",
+  "chunks": [
+    {
+      "id": "zh-Hans:U01-L03-C021",
+      "legacyId": "U01-L03-C021",
+      "position": 1,
+      "script": "请问，...",
+      "pronunciation": "qǐng wèn,...",
+      "phonetic": "ฉิ่ง เวิน,...",
+      "translation": "ขอสอบถามหน่อยครับ/ค่ะ...",
+      "chunks": [
+        "请问，..."
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L03-C022",
+      "legacyId": "U01-L03-C022",
+      "position": 2,
+      "script": "麻烦你了。",
+      "pronunciation": "má fan nǐ le.",
+      "phonetic": "หมา ฝ่าน หนี่ เลอ.",
+      "translation": "รบกวนคุณแล้วนะ / ลำบากคุณแล้ว",
+      "chunks": [
+        "麻烦你了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L03-C023",
+      "legacyId": "U01-L03-C023",
+      "position": 3,
+      "script": "打扰一下。",
+      "pronunciation": "dǎ rǎo yí xià.",
+      "phonetic": "ตา หร่าว อี๋ เซี่ย.",
+      "translation": "ขอรบกวนเวลาสักครู่ครับ/ค่ะ",
+      "chunks": [
+        "打扰一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L03-C024",
+      "legacyId": "U01-L03-C024",
+      "position": 4,
+      "script": "没门儿！",
+      "pronunciation": "méi mén r!",
+      "phonetic": "เหมย เหมินร์!",
+      "translation": "ไม่มีทาง! / ฝันไปเถอะ",
+      "chunks": [
+        "没门儿！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L03-C025",
+      "legacyId": "U01-L03-C025",
+      "position": 5,
+      "script": "那是当然。",
+      "pronunciation": "nà shì dāng rán.",
+      "phonetic": "น้า สื้อ ตัง หราน.",
+      "translation": "มันเป็นอย่างนั้นแน่นอนอยู่แล้ว",
+      "chunks": [
+        "那是当然。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L03-C026",
+      "legacyId": "U01-L03-C026",
+      "position": 6,
+      "script": "没错！",
+      "pronunciation": "méi cuò!",
+      "phonetic": "เหมย ฉั่ว!",
+      "translation": "ไม่ผิดเลย! / ใช่เลย!",
+      "chunks": [
+        "没错！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L03-C027",
+      "legacyId": "U01-L03-C027",
+      "position": 7,
+      "script": "不是我。",
+      "pronunciation": "bú shì wǒ.",
+      "phonetic": "บู๋ สื้อ หว่อ.",
+      "translation": "ไม่ใช่ฉัน",
+      "chunks": [
+        "不是我。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L03-C028",
+      "legacyId": "U01-L03-C028",
+      "position": 8,
+      "script": "行吗？",
+      "pronunciation": "xíng ma?",
+      "phonetic": "สิง มะ?",
+      "translation": "ได้ไหม? / โอไหม?",
+      "chunks": [
+        "行吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L03-C029",
+      "legacyId": "U01-L03-C029",
+      "position": 9,
+      "script": "可以啊。",
+      "pronunciation": "kě yǐ a.",
+      "phonetic": "เขอ อี่ อา.",
+      "translation": "ได้สิ",
+      "chunks": [
+        "可以啊。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L03-C030",
+      "legacyId": "U01-L03-C030",
+      "position": 10,
+      "script": "没问题！",
+      "pronunciation": "méi wèn tí!",
+      "phonetic": "เหมย เวิ่น ถี!",
+      "translation": "ไม่มีปัญหา!",
+      "chunks": [
+        "没问题！"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "id": "U2",
+  "number": 21,
+  "title": "U. Indirect Questions",
+  "chunks": [
+    {
+      "id": "en:session-2:U2:1",
+      "legacyId": "U2-0",
+      "position": 1,
+      "script": "Can you tell me where the station is?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยบอกหน่อยได้ไหมว่าสถานีอยู่ที่ไหน?",
+      "chunks": [
+        "Can you tell me",
+        "where the station is?"
+      ]
+    },
+    {
+      "id": "en:session-2:U2:2",
+      "legacyId": "U2-1",
+      "position": 2,
+      "script": "Can you tell me what time it is?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยบอกเวลาน่อยได้ไหม?",
+      "chunks": [
+        "Can you tell me what time it is?"
+      ]
+    },
+    {
+      "id": "en:session-2:U2:3",
+      "legacyId": "U2-2",
+      "position": 3,
+      "script": "Do you know who that man is?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรู้ไหมว่าผู้ชายคนนั้นเป็นใคร?",
+      "chunks": [
+        "Do you know",
+        "who",
+        "that man is?"
+      ]
+    },
+    {
+      "id": "en:session-2:U2:4",
+      "legacyId": "U2-3",
+      "position": 4,
+      "script": "Do you know when the bus leaves?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรู้ไหมว่ารถออกกี่โมง?",
+      "chunks": [
+        "Do you know",
+        "when the bus leaves?"
+      ]
+    },
+    {
+      "id": "en:session-2:U2:5",
+      "legacyId": "U2-4",
+      "position": 5,
+      "script": "Do you know if she is coming?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรู้ไหมว่าเธอจะมาหรือเปล่า?",
+      "chunks": [
+        "Do you know if she is coming?"
+      ]
+    },
+    {
+      "id": "en:session-2:U2:6",
+      "legacyId": "U2-5",
+      "position": 6,
+      "script": "I’d like to know how much it costs.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากทราบว่าราคาเท่าไหร่",
+      "chunks": [
+        "I’d like",
+        "to know how much it costs."
+      ]
+    },
+    {
+      "id": "en:session-2:U2:7",
+      "legacyId": "U2-6",
+      "position": 7,
+      "script": "I’d like to know why you are late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากรู้ว่าทำไมคุณมาสาย",
+      "chunks": [
+        "I’d like",
+        "to know why you are late."
+      ]
+    },
+    {
+      "id": "en:session-2:U2:8",
+      "legacyId": "U2-7",
+      "position": 8,
+      "script": "Could you tell me where I can park?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยบอกหน่อยได้ไหมว่าจอดรถตรงไหนได้บ้าง?",
+      "chunks": [
+        "Could you tell me",
+        "where I can park?"
+      ]
+    },
+    {
+      "id": "en:session-2:U2:9",
+      "legacyId": "U2-8",
+      "position": 9,
+      "script": "Do you remember where we parked?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จำได้ไหมว่าเราจอดรถไว้ไหน?",
+      "chunks": [
+        "Do you remember",
+        "where we parked?"
+      ]
+    },
+    {
+      "id": "en:session-2:U2:10",
+      "legacyId": "U2-9",
+      "position": 10,
+      "script": "Do you have any idea how to fix this?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พอจะรู้วิธีซ่อมมันไหม?",
+      "chunks": [
+        "Do you have any idea how",
+        "to fix this?"
+      ]
+    }
+  ]
+}

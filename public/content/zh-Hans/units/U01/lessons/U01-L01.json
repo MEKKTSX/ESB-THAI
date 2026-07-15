@@ -1,0 +1,127 @@
+{
+  "id": "U01-L01",
+  "number": 1,
+  "title": "สวัสดีครับ/ค่ะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U01-L01-C001",
+      "legacyId": "U01-L01-C001",
+      "position": 1,
+      "script": "你好！",
+      "pronunciation": "nǐ hǎo!",
+      "phonetic": "หนี ห่าว!",
+      "translation": "สวัสดีครับ/ค่ะ",
+      "chunks": [
+        "你好！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L01-C002",
+      "legacyId": "U01-L01-C002",
+      "position": 2,
+      "script": "您贵姓？",
+      "pronunciation": "nín guì xìng?",
+      "phonetic": "หนิน กุ้ย ซิ่ง?",
+      "translation": "คุณนามสกุลอะไรครับ/ค่ะ (สุภาพ)",
+      "chunks": [
+        "您贵姓？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L01-C003",
+      "legacyId": "U01-L01-C003",
+      "position": 3,
+      "script": "认识你很高兴。",
+      "pronunciation": "rèn shi nǐ hěn gāo xìng.",
+      "phonetic": "เริ่น สือ หนี่ เหิ่น เกา ซิ่ง.",
+      "translation": "ยินดีที่ได้รู้จักคุณ",
+      "chunks": [
+        "认识你很高兴。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L01-C004",
+      "legacyId": "U01-L01-C004",
+      "position": 4,
+      "script": "好久不见！",
+      "pronunciation": "hǎo jiǔ bú jiàn!",
+      "phonetic": "หาว จิ่ว บู๋ เจี้ยน!",
+      "translation": "ไม่ได้เจอกันนานเลย",
+      "chunks": [
+        "好久不见！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L01-C005",
+      "legacyId": "U01-L01-C005",
+      "position": 5,
+      "script": "最近怎么样？",
+      "pronunciation": "zuì jìn zěn me yàng?",
+      "phonetic": "จุ้ย จิ้น เจิ่น เมอ ย่าง?",
+      "translation": "ช่วงนี้เป็นยังไงบ้าง",
+      "chunks": [
+        "最近怎么样？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L01-C006",
+      "legacyId": "U01-L01-C006",
+      "position": 6,
+      "script": "我很好，你呢？",
+      "pronunciation": "wǒ hěn hǎo, nǐ ne?",
+      "phonetic": "หว่อ เหิ่น ห่าว, หนี่ เนอ?",
+      "translation": "ฉันสบายดี แล้วคุณล่ะ",
+      "chunks": [
+        "我很好，你呢？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L01-C007",
+      "legacyId": "U01-L01-C007",
+      "position": 7,
+      "script": "拜拜！",
+      "pronunciation": "bái bái!",
+      "phonetic": "บาย บาย!",
+      "translation": "บ๊ายบาย",
+      "chunks": [
+        "拜拜！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L01-C008",
+      "legacyId": "U01-L01-C008",
+      "position": 8,
+      "script": "明天见！",
+      "pronunciation": "míng tiān jiàn!",
+      "phonetic": "หมิง เทียน เจี้ยน?",
+      "translation": "เจอกันพรุ่งนี้",
+      "chunks": [
+        "明天见！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L01-C009",
+      "legacyId": "U01-L01-C009",
+      "position": 9,
+      "script": "一路平安！",
+      "pronunciation": "yí lù píng ān!",
+      "phonetic": "อี๋ ลู่ ผิง อัน!",
+      "translation": "เดินทางปลอดภัยนะ",
+      "chunks": [
+        "一路平安！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L01-C010",
+      "legacyId": "U01-L01-C010",
+      "position": 10,
+      "script": "保重！",
+      "pronunciation": "bǎo zhòng!",
+      "phonetic": "เป่า จ้ง!",
+      "translation": "รักษาสุขภาพด้วยนะ",
+      "chunks": [
+        "保重！"
+      ]
+    }
+  ]
+}

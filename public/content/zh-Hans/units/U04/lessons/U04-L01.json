@@ -1,0 +1,127 @@
+{
+  "id": "U04-L01",
+  "number": 1,
+  "title": "ใช่ครับ/ค่ะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U04-L01-C001",
+      "legacyId": "U04-L01-C001",
+      "position": 1,
+      "script": "是的。",
+      "pronunciation": "shì de.",
+      "phonetic": "สื้อ เตอ.",
+      "translation": "ใช่ครับ/ค่ะ",
+      "chunks": [
+        "是的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L01-C002",
+      "legacyId": "U04-L01-C002",
+      "position": 2,
+      "script": "不是。",
+      "pronunciation": "bú shì.",
+      "phonetic": "บู๋ สื้อ.",
+      "translation": "ไม่ใช่",
+      "chunks": [
+        "不是。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L01-C003",
+      "legacyId": "U04-L01-C003",
+      "position": 3,
+      "script": "对。",
+      "pronunciation": "duì.",
+      "phonetic": "ตุ้ย.",
+      "translation": "ถูก / ใช่",
+      "chunks": [
+        "对。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L01-C004",
+      "legacyId": "U04-L01-C004",
+      "position": 4,
+      "script": "不对。",
+      "pronunciation": "bú duì.",
+      "phonetic": "ปู๋ ตุ้ย.",
+      "translation": "ไม่ถูก / ไม่ใช่",
+      "chunks": [
+        "不对。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L01-C005",
+      "legacyId": "U04-L01-C005",
+      "position": 5,
+      "script": "可以。",
+      "pronunciation": "kě yǐ.",
+      "phonetic": "เขอ อี่.",
+      "translation": "ได้",
+      "chunks": [
+        "可以。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L01-C006",
+      "legacyId": "U04-L01-C006",
+      "position": 6,
+      "script": "不可以。",
+      "pronunciation": "bù kě yǐ.",
+      "phonetic": "ปู้ เขอ อี่.",
+      "translation": "ไม่ได้",
+      "chunks": [
+        "不可以。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L01-C007",
+      "legacyId": "U04-L01-C007",
+      "position": 7,
+      "script": "能。",
+      "pronunciation": "néng.",
+      "phonetic": "เหนิง.",
+      "translation": "ได้ / สามารถ",
+      "chunks": [
+        "能。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L01-C008",
+      "legacyId": "U04-L01-C008",
+      "position": 8,
+      "script": "不能。",
+      "pronunciation": "bù néng.",
+      "phonetic": "ปู้ เหนิง.",
+      "translation": "ไม่ได้ / ไม่สามารถ",
+      "chunks": [
+        "不能。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L01-C009",
+      "legacyId": "U04-L01-C009",
+      "position": 9,
+      "script": "行。",
+      "pronunciation": "xíng.",
+      "phonetic": "สิง.",
+      "translation": "ได้ / โอเค",
+      "chunks": [
+        "行。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L01-C010",
+      "legacyId": "U04-L01-C010",
+      "position": 10,
+      "script": "不行。",
+      "pronunciation": "bù xíng.",
+      "phonetic": "ปู้ สิง.",
+      "translation": "ไม่ได้ / ไม่โอเค",
+      "chunks": [
+        "不行。"
+      ]
+    }
+  ]
+}

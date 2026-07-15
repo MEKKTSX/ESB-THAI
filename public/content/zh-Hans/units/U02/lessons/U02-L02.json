@@ -1,0 +1,127 @@
+{
+  "id": "U02-L02",
+  "number": 2,
+  "title": "คุณเรียนสาขาอะไร / เอกอะไร",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L02-C011",
+      "legacyId": "U02-L02-C011",
+      "position": 1,
+      "script": "你学什么专业？",
+      "pronunciation": "nǐ xué shén me zhuān yè?",
+      "phonetic": "หนี่ เสวี่ย เซิ่น เมอ จวน เย่?",
+      "translation": "คุณเรียนสาขาอะไร / เอกอะไร",
+      "chunks": [
+        "你学什么专业？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L02-C012",
+      "legacyId": "U02-L02-C012",
+      "position": 2,
+      "script": "我的专业是计算机。",
+      "pronunciation": "wǒ de zhuān yè shì jì suàn jī.",
+      "phonetic": "หว่อ เตอ จวน เย่ สื้อ จี้ ส้วน จี.",
+      "translation": "สาขาของฉันคือคอมพิวเตอร์",
+      "chunks": [
+        "我的专业是计算机。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L02-C013",
+      "legacyId": "U02-L02-C013",
+      "position": 3,
+      "script": "你做什么工作？",
+      "pronunciation": "nǐ zuò shén me gōng zuò?",
+      "phonetic": "หนี่ จั่ว เซิ่น เมอ กง จั้ว?",
+      "translation": "คุณทำงานอะไร",
+      "chunks": [
+        "你做什么工作？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L02-C014",
+      "legacyId": "U02-L02-C014",
+      "position": 4,
+      "script": "我是公司职员。",
+      "pronunciation": "wǒ shì gōng sī zhí yuán.",
+      "phonetic": "หว่อ สื้อ กง ซือ จื๋อ หยวาน.",
+      "translation": "ฉันเป็นพนักงานบริษัท",
+      "chunks": [
+        "我是公司职员。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L02-C015",
+      "legacyId": "U02-L02-C015",
+      "position": 5,
+      "script": "我是一家医院的医生。",
+      "pronunciation": "wǒ shì yì jiā yī yuàn de yī shēng.",
+      "phonetic": "หว่อ สื้อ อี๋ เจีย อี ย่วน เตอ อี เซิง.",
+      "translation": "ฉันเป็นหมอของโรงพยาบาลแห่งหนึ่ง",
+      "chunks": [
+        "我是一家医院的医生。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L02-C016",
+      "legacyId": "U02-L02-C016",
+      "position": 6,
+      "script": "你为什么学中文？",
+      "pronunciation": "nǐ wèi shén me xué zhōng wén?",
+      "phonetic": "หนี่ เว่ย เซิ่น เมอ เสวี่ย จง เหวิน?",
+      "translation": "ทำไมคุณถึงเรียนภาษาจีน",
+      "chunks": [
+        "你为什么学中文？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L02-C017",
+      "legacyId": "U02-L02-C017",
+      "position": 7,
+      "script": "因为我想去中国旅游。",
+      "pronunciation": "yīn wèi wǒ xiǎng qù zhōng guó lǚ yóu.",
+      "phonetic": "อิน เว่ย หว่อ แฉี่ยง ชวี่ จง ก๋ัว ลวี่ โหย่ว.",
+      "translation": "เพราะว่าฉันอยากไปเที่ยวประเทศจีน",
+      "chunks": [
+        "因为我想去中国旅游。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L02-C018",
+      "legacyId": "U02-L02-C018",
+      "position": 8,
+      "script": "为了以后的工作。",
+      "pronunciation": "wèi le yǐ hòu de gōng zuò.",
+      "phonetic": "เว่ย เลอ อี่ โห่ว เตอ กง จั้ว.",
+      "translation": "เพื่อการทำงานในอนาคต",
+      "chunks": [
+        "为了以后的工作。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L02-C019",
+      "legacyId": "U02-L02-C019",
+      "position": 9,
+      "script": "很高兴认识你。",
+      "pronunciation": "hěn gāo xìng rèn shi nǐ.",
+      "phonetic": "เหิ่น เกา ซิ่ง เริ่น สือ หนี่.",
+      "translation": "ยินดีที่ได้รู้จักคุณนะ",
+      "chunks": [
+        "很高兴认识你。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L02-C020",
+      "legacyId": "U02-L02-C020",
+      "position": 10,
+      "script": "认识你，我也很高兴。",
+      "pronunciation": "rèn shi nǐ, wǒ yě hěn gāo xìng.",
+      "phonetic": "เริ่น สือ หนี่, หว่อ เยี่ย เหิ่น เกา ซิ่ง.",
+      "translation": "ที่ได้รู้จักคุณ ฉันก็ยินดีมากเช่นกัน",
+      "chunks": [
+        "认识你，我也很高兴。"
+      ]
+    }
+  ]
+}

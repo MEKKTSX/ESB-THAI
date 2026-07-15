@@ -1,0 +1,127 @@
+{
+  "id": "U12-L04",
+  "number": 4,
+  "title": "วิชาเลือกน่าสนุกมาก",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L04-C031",
+      "legacyId": "U12-L04-C031",
+      "position": 1,
+      "script": "选修课很有趣。",
+      "pronunciation": "xuǎn xiū kè hěn yǒu qù.",
+      "phonetic": "เซี่ยน ซิว เค่อ หิ่น โหย่ว ฉวี่",
+      "translation": "วิชาเลือกน่าสนุกมาก",
+      "chunks": [
+        "选修课很有趣。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L04-C032",
+      "legacyId": "U12-L04-C032",
+      "position": 2,
+      "script": "王教授很有名。",
+      "pronunciation": "wáng jiào shòu hěn yǒu míng.",
+      "phonetic": "หวัง เจี้ยว โซ่ว หิ่น โหย่ว หมิง",
+      "translation": "ศาสตราจารย์หวังมีชื่อเสียงมาก",
+      "chunks": [
+        "王教授很有名。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L04-C033",
+      "legacyId": "U12-L04-C033",
+      "position": 3,
+      "script": "去一号教学楼。",
+      "pronunciation": "qù yī hào jiào xué lóu.",
+      "phonetic": "ฉวี่ อี ฮ่าว เจี้ยว เสวีย โหลว",
+      "translation": "ไปที่อาคารเรียน 1",
+      "chunks": [
+        "去一号教学楼。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L04-C034",
+      "legacyId": "U12-L04-C034",
+      "position": 4,
+      "script": "老师点名了。",
+      "pronunciation": "lǎo shī diǎn míng le.",
+      "phonetic": "เหล่า ซือ เติ๋ยน หมิง เลอะ",
+      "translation": "อาจารย์เช็กชื่อแล้ว",
+      "chunks": [
+        "老师点名了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L04-C035",
+      "legacyId": "U12-L04-C035",
+      "position": 5,
+      "script": "听不懂教授说什么。",
+      "pronunciation": "tīng bù dǒng jiào shòu shuō shén me.",
+      "phonetic": "ทิง ปู้ ต่ง เจี้ยว โซ่ว ซัว เสิน เมอะ",
+      "translation": "ฟังศาสตราจารย์พูดไม่รู้เรื่องเลย",
+      "chunks": [
+        "听不懂教授说什么。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L04-C036",
+      "legacyId": "U12-L04-C036",
+      "position": 6,
+      "script": "阶梯教室在哪？",
+      "pronunciation": "jiē tī jiào shì zài nǎ?",
+      "phonetic": "เจีย ที เจี้ยว ซื่อ ไจ้ น้า",
+      "translation": "ห้องเรียนรวมแบบขั้นบันไดอยู่ไหน",
+      "chunks": [
+        "阶梯教室在哪？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L04-C037",
+      "legacyId": "U12-L04-C037",
+      "position": 7,
+      "script": "老师讲得很生动。",
+      "pronunciation": "lǎo shī jiǎng de hěn shēng dòng.",
+      "phonetic": "เหล่า ซือ เจี่ยง เตอะ หิ่น เซิง ต้ง",
+      "translation": "อาจารย์สอนได้เห็นภาพและสนุกมาก",
+      "chunks": [
+        "老师讲得很生动。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L04-C038",
+      "legacyId": "U12-L04-C038",
+      "position": 8,
+      "script": "别迟到了。",
+      "pronunciation": "bié chí dào le.",
+      "phonetic": "เปี๋ย ฉี เต้า เลอะ",
+      "translation": "อย่าไปสายนะ",
+      "chunks": [
+        "别迟到了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L04-C039",
+      "legacyId": "U12-L04-C039",
+      "position": 9,
+      "script": "这门课挂科率高。",
+      "pronunciation": "zhè mén kè guà kē lǜ gāo.",
+      "phonetic": "เจ้อ เหมิน เค่อ กว้าง เคอ ลวี่ เกา",
+      "translation": "วิชานี้อัตราตกสูงมาก",
+      "chunks": [
+        "这门课挂科率高。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L04-C040",
+      "legacyId": "U12-L04-C040",
+      "position": 10,
+      "script": "作业写完了吗？",
+      "pronunciation": "zuò yè xiě wán le ma?",
+      "phonetic": "จั้ว เย้ เสี่ย หวาน เลอะ มา",
+      "translation": "ทำการบ้านเสร็จหรือยัง",
+      "chunks": [
+        "作业写完了吗？"
+      ]
+    }
+  ]
+}

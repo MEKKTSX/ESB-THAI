@@ -1,0 +1,127 @@
+{
+  "id": "U03-L06",
+  "number": 6,
+  "title": "เมื่อคืนคุณนอนกี่โมง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U03-L06-C051",
+      "legacyId": "U03-L06-C051",
+      "position": 1,
+      "script": "你昨晚几点睡的？",
+      "pronunciation": "nǐ zuó wǎn jǐ diǎn shuì de?",
+      "phonetic": "หนี่ จั๋ว หวั่น จี๋ เตี่ยน ซุ่ย เตอ?",
+      "translation": "เมื่อคืนคุณนอนกี่โมง",
+      "chunks": [
+        "你昨晚几点睡的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L06-C052",
+      "legacyId": "U03-L06-C052",
+      "position": 2,
+      "script": "你周末一般怎么过？",
+      "pronunciation": "nǐ zhōu mò yì bān zěn me guò?",
+      "phonetic": "หนี่ โจว ม่อ อี้ ปาน เจิ่น เมอ กั้ว?",
+      "translation": "สุดสัปดาห์ปกติคุณใช้เวลายังไง",
+      "chunks": [
+        "你周末一般怎么过？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L06-C053",
+      "legacyId": "U03-L06-C053",
+      "position": 3,
+      "script": "这个周末有空出来玩吗？",
+      "pronunciation": "zhè ge zhōu mò yǒu kòng chū lái wán ma?",
+      "phonetic": "เจ้อ เกอ โจว ม่อ โหย่ว ค่ง ชู ไหล หวัน มะ?",
+      "translation": "สุดสัปดาห์นี้ว่างออกมาเที่ยวไหม",
+      "chunks": [
+        "这个周末有空出来玩吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L06-C054",
+      "legacyId": "U03-L06-C054",
+      "position": 4,
+      "script": "你有什么好的建议吗？",
+      "pronunciation": "nǐ yǒu shén me hǎo de jiàn yì ma?",
+      "phonetic": "หนี่ โหย่ว เซิ่น เมอ ห่าว เตอ เจี้ยน อี้?",
+      "translation": "คุณมีคำแนะนำดีๆ บ้างไหม",
+      "chunks": [
+        "你有什么好的建议吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L06-C055",
+      "legacyId": "U03-L06-C055",
+      "position": 5,
+      "script": "这次活动的负责人是谁？",
+      "pronunciation": "zhè cì huó dòng de fù zé rén shì shéi?",
+      "phonetic": "เจ้อ ซี่ หวอ ต้ง เตอ ฟู่ เจ๋อ เหริน สื้อ เษ่ย?",
+      "translation": "ผู้รับผิดชอบงานกิจกรรมครั้งนี้คือใคร",
+      "chunks": [
+        "这次活动的负责人是谁？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L06-C056",
+      "legacyId": "U03-L06-C056",
+      "position": 6,
+      "script": "你是在哪儿买到这个的？",
+      "pronunciation": "nǐ shì zài nǎr mǎi dào zhè ge de ma?",
+      "phonetic": "หนี่ สื้อ ไซ้ หน่าร์ หม่าย ต้าว เจ้อ เกอ เตอ?",
+      "translation": "คุณซื้ออันนี้มาจากที่ไหน",
+      "chunks": [
+        "你是在哪儿买到这个的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L06-C057",
+      "legacyId": "U03-L06-C057",
+      "position": 7,
+      "script": "我们什么时候才能见面？",
+      "pronunciation": "wǒ men shén me shí hou cái néng jiàn miàn?",
+      "phonetic": "หว่อ เมิน เซิ่น เมอ สือ โห่ว ฉาย เหนิง เจี้ยน เมี้ยน?",
+      "translation": "เมื่อไหร่พวกเราถึงจะได้เจอกัน",
+      "chunks": [
+        "我们什么时候才能见面？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L06-C058",
+      "legacyId": "U03-L06-C058",
+      "position": 8,
+      "script": "你为什么突然想学摄影？",
+      "pronunciation": "nǐ wèi shén me tū rán xiǎng xué shè yǐng?",
+      "phonetic": "หนี่ เว่ย เซิ่น เมอ ทู ราน แฉี่ยง เสวี่ย เซ่อ อิ่ง?",
+      "translation": "ทำไมจู่ๆ คุณถึงอยากเรียนถ่ายภาพ",
+      "chunks": [
+        "你为什么突然想学摄影？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L06-C059",
+      "legacyId": "U03-L06-C059",
+      "position": 9,
+      "script": "这台电脑怎么开机？",
+      "pronunciation": "zhè tái diàn nǎo zěn me kāi jī?",
+      "phonetic": "เจ้อ ไถ เตี้ยน แหน่ว เจิ่น เมอ ไค จี?",
+      "translation": "คอมพิวเตอร์เครื่องนี้เปิดเครื่องยังไง",
+      "chunks": [
+        "这台电脑怎么开机？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L06-C060",
+      "legacyId": "U03-L06-C060",
+      "position": 10,
+      "script": "这趟火车大概要坐多久？",
+      "pronunciation": "zhè tàng huǒ chē dà gài yào zuò duō jiǔ?",
+      "phonetic": "เจ้อ ท้าง โห่ว เชอ ต้า ก้าย เย้า จั่ว ตัว จิ่ว?",
+      "translation": "รถไฟเที่ยวนี้ต้องนั่งประมาณนานเท่าไหร่",
+      "chunks": [
+        "这趟火车大概要坐多久？"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U06-L01",
+  "number": 1,
+  "title": "อันนี้ราคาเท่าไหร่",
+  "chunks": [
+    {
+      "id": "zh-Hans:U06-L01-C001",
+      "legacyId": "U06-L01-C001",
+      "position": 1,
+      "script": "这个多少钱？",
+      "pronunciation": "zhè ge duō shǎo qián?",
+      "phonetic": "เจ้อ เกอ ตัว เส่า เฉียน?",
+      "translation": "อันนี้ราคาเท่าไหร่",
+      "chunks": [
+        "这个多少钱？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L01-C002",
+      "legacyId": "U06-L01-C002",
+      "position": 2,
+      "script": "那个怎么卖？",
+      "pronunciation": "nà ge zěn me mài?",
+      "phonetic": "น้า เกอ เจิ่น เมอ ม้าย?",
+      "translation": "อันนั้นขายยังไง",
+      "chunks": [
+        "那个怎么卖？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L01-C003",
+      "legacyId": "U06-L01-C003",
+      "position": 3,
+      "script": "我想买这个。",
+      "pronunciation": "wǒ xiǎng mǎi zhè ge.",
+      "phonetic": "หว่อ เสี่ยง หม่าย เจ้อ เกอ.",
+      "translation": "ฉันอยากซื้ออันนี้",
+      "chunks": [
+        "我想买这个。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L01-C004",
+      "legacyId": "U06-L01-C004",
+      "position": 4,
+      "script": "请给我拿那个。",
+      "pronunciation": "qǐng gěi wǒ ná nà ge.",
+      "phonetic": "ฉิ่ง เก๋ย หว่อ น๋า น้า เกอ.",
+      "translation": "กรุณาหยิบอันนั้นให้ฉันหน่อย",
+      "chunks": [
+        "请给我拿那个。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L01-C005",
+      "legacyId": "U06-L01-C005",
+      "position": 5,
+      "script": "这个太贵了。",
+      "pronunciation": "zhè ge tài guì le.",
+      "phonetic": "เจ้อ เกอ ไท่ กุ้ย เลอ.",
+      "translation": "อันนี้แพงเกินไปแล้ว",
+      "chunks": [
+        "这个太贵了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L01-C006",
+      "legacyId": "U06-L01-C006",
+      "position": 6,
+      "script": "有便宜一点儿的吗？",
+      "pronunciation": "yǒu pián yi yì diǎnr de ma?",
+      "phonetic": "โหย่ว เผียน อิ อี้ เดี๋ยร์ เตอ มะ?",
+      "translation": "มีที่ถูกกว่านี้หน่อยไหม",
+      "chunks": [
+        "有便宜一点儿的吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L01-C007",
+      "legacyId": "U06-L01-C007",
+      "position": 7,
+      "script": "现在打折吗？",
+      "pronunciation": "xiàn zài dǎ zhé ma?",
+      "phonetic": "เซี่ยน ไซ้ ต๋า เจ๋อ มะ?",
+      "translation": "ตอนนี้มีลดราคาไหม",
+      "chunks": [
+        "现在打折吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L01-C008",
+      "legacyId": "U06-L01-C008",
+      "position": 8,
+      "script": "老板，便宜点儿吧。",
+      "pronunciation": "lǎo bǎn, pián yi diǎnr ba.",
+      "phonetic": "เหล่า ป๋ัน, เผียน อิ เดี๋ยร์ ปะ.",
+      "translation": "เถ้าแก่ ลดหน่อยเถอะนะ",
+      "chunks": [
+        "老板，便宜点儿吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L01-C009",
+      "legacyId": "U06-L01-C009",
+      "position": 9,
+      "script": "能少一点儿吗？",
+      "pronunciation": "néng shǎo yì diǎnr ma?",
+      "phonetic": "เหนิง เส่า อี้ เดี๋ยร์ มะ?",
+      "translation": "ลดให้หน่อยได้ไหม",
+      "chunks": [
+        "能少一点儿吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L01-C010",
+      "legacyId": "U06-L01-C010",
+      "position": 10,
+      "script": "买两个可以算便宜点吗？",
+      "pronunciation": "mǎi liǎng gè kě yǐ suàn pián yi diǎn ma?",
+      "phonetic": "หม่าย เหลี่ยง เก้อ เขо อี่ ส้วน เผียน อิ เตี่ยน มะ?",
+      "translation": "ซื้อสองอันคิดให้ถูกหน่อยได้ไหม",
+      "chunks": [
+        "买两个可以算便宜点吗？"
+      ]
+    }
+  ]
+}

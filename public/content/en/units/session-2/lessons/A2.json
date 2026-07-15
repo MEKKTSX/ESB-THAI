@@ -1,0 +1,448 @@
+{
+  "id": "A2",
+  "number": 1,
+  "title": "A. Past Experiences & Narratives",
+  "chunks": [
+    {
+      "id": "en:session-2:A2:1",
+      "legacyId": "A2-0",
+      "position": 1,
+      "script": "I went to the grocery store yesterday afternoon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไปร้านขายของชำเมื่อวานตอนบ่าย",
+      "chunks": [
+        "I went",
+        "to the grocery store yesterday afternoon."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:2",
+      "legacyId": "A2-1",
+      "position": 2,
+      "script": "I went to a really interesting conference last month.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไปงานประชุมที่น่าสนใจมากเมื่อเดือนที่แล้ว",
+      "chunks": [
+        "I went",
+        "to a really interesting conference last month."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:3",
+      "legacyId": "A2-2",
+      "position": 3,
+      "script": "I went to high school in a different city.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเรียนมัธยมปลายในเมืองอื่น",
+      "chunks": [
+        "I went",
+        "to high school",
+        "in a different city."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:4",
+      "legacyId": "A2-3",
+      "position": 4,
+      "script": "I saw a strange man standing outside.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเห็นผู้ชายแปลกๆ ยืนอยู่ข้างนอก",
+      "chunks": [
+        "I saw a strange man standing outside."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:5",
+      "legacyId": "A2-4",
+      "position": 5,
+      "script": "I saw that movie a couple of years ago.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันดูหนังเรื่องนั้นเมื่อสองสามปีก่อน",
+      "chunks": [
+        "I saw",
+        "that movie a couple of years ago."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:6",
+      "legacyId": "A2-5",
+      "position": 6,
+      "script": "I visited my grandparents over the weekend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไปเยี่ยมปู่ย่าตายายช่วงสุดสัปดาห์",
+      "chunks": [
+        "I visited my grandparents over the weekend."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:7",
+      "legacyId": "A2-6",
+      "position": 7,
+      "script": "I stayed at home and relaxed all day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยู่บ้านและพักผ่อนทั้งวัน",
+      "chunks": [
+        "I stayed",
+        "at home",
+        "and relaxed all day."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:8",
+      "legacyId": "A2-7",
+      "position": 8,
+      "script": "I finished my project just in time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันทำโปรเจกต์เสร็จทันเวลาพอดี",
+      "chunks": [
+        "I finished my project just",
+        "in time."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:9",
+      "legacyId": "A2-8",
+      "position": 9,
+      "script": "I started learning to play the guitar recently.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งเริ่มเรียนกีตาร์เมื่อไม่นานมานี้",
+      "chunks": [
+        "I started learning",
+        "to play the guitar recently."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:10",
+      "legacyId": "A2-9",
+      "position": 10,
+      "script": "I bought a new laptop because my old one broke.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันซื้อแล็ปท็อปใหม่เพราะเครื่องเก่าพัง",
+      "chunks": [
+        "I bought a new laptop",
+        "because my old one broke."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:11",
+      "legacyId": "A2-10",
+      "position": 11,
+      "script": "I didn't have time to eat breakfast this morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่มีเวลากินมื้อเช้าเมื่อเช้านี้",
+      "chunks": [
+        "I didn't have time",
+        "to eat breakfast this morning."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:12",
+      "legacyId": "A2-11",
+      "position": 12,
+      "script": "I didn't know you were coming today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่รู้ว่าวันนี้คุณจะมา",
+      "chunks": [
+        "I didn't know you were coming today."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:13",
+      "legacyId": "A2-12",
+      "position": 13,
+      "script": "I didn't realize it was so late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ทันสังเกตว่ามันดึกขนาดนี้แล้ว",
+      "chunks": [
+        "I didn't realize it was",
+        "so late."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:14",
+      "legacyId": "A2-13",
+      "position": 14,
+      "script": "I didn't expect to see you here.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่คิดว่าจะเจอคุณที่นี่",
+      "chunks": [
+        "I didn't expect",
+        "to see you here."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:15",
+      "legacyId": "A2-14",
+      "position": 15,
+      "script": "I didn't mean to hurt your feelings.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ได้ตั้งใจจะทำร้ายความรู้สึกคุณ",
+      "chunks": [
+        "I didn't mean",
+        "to hurt your feelings."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:16",
+      "legacyId": "A2-15",
+      "position": 16,
+      "script": "I didn't get your message until later.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งได้รับข้อความของคุณทีหลัง",
+      "chunks": [
+        "I didn't get your message until later."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:17",
+      "legacyId": "A2-16",
+      "position": 17,
+      "script": "I didn't sleep very well last night.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อคืนฉันนอนไม่ค่อยหลับ",
+      "chunks": [
+        "I didn't sleep very well last night."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:18",
+      "legacyId": "A2-17",
+      "position": 18,
+      "script": "I didn't go out because it was raining heavily.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ได้ออกไปข้างนอกเพราะฝนตกหนัก",
+      "chunks": [
+        "I didn't go out",
+        "because it was raining heavily."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:19",
+      "legacyId": "A2-18",
+      "position": 19,
+      "script": "I didn't like the food at that restaurant.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ชอบอาหารที่ร้านนั้นเลย",
+      "chunks": [
+        "I didn't like the food",
+        "at",
+        "that restaurant."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:20",
+      "legacyId": "A2-19",
+      "position": 20,
+      "script": "I didn't understand what he was saying.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เข้าใจว่าเขาพูดอะไร",
+      "chunks": [
+        "I didn't understand what he was saying."
+      ]
+    },
+    {
+      "id": "en:session-2:A2:21",
+      "legacyId": "A2-20",
+      "position": 21,
+      "script": "Did you have a good weekend?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สุดสัปดาห์ที่ผ่านมาดีไหม?",
+      "chunks": [
+        "Did you have a good weekend?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:22",
+      "legacyId": "A2-21",
+      "position": 22,
+      "script": "Did you manage to finish the report?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณทำรายงานเสร็จทันไหม?",
+      "chunks": [
+        "Did you manage",
+        "to finish the report?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:23",
+      "legacyId": "A2-22",
+      "position": 23,
+      "script": "Did you hear about the news?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณได้ยินข่าวหรือยัง?",
+      "chunks": [
+        "Did you hear",
+        "about the news?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:24",
+      "legacyId": "A2-23",
+      "position": 24,
+      "script": "Did you enjoy the party last night?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปาร์ตี้เมื่อคืนสนุกไหม?",
+      "chunks": [
+        "Did you enjoy the party last night?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:25",
+      "legacyId": "A2-24",
+      "position": 25,
+      "script": "Did you find what you were looking for?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณหาของที่ต้องการเจอหรือยัง?",
+      "chunks": [
+        "Did you find what you were looking",
+        "for?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:26",
+      "legacyId": "A2-25",
+      "position": 26,
+      "script": "Did you get home safely?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณกลับถึงบ้านปลอดภัยไหม?",
+      "chunks": [
+        "Did you get home safely?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:27",
+      "legacyId": "A2-26",
+      "position": 27,
+      "script": "Did you see the email I sent you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเห็นอีเมลที่ฉันส่งให้ไหม?",
+      "chunks": [
+        "Did you see the email I sent you?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:28",
+      "legacyId": "A2-27",
+      "position": 28,
+      "script": "Did you watch the game yesterday?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อวานคุณดูการแข่งขันไหม?",
+      "chunks": [
+        "Did you watch the game yesterday?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:29",
+      "legacyId": "A2-28",
+      "position": 29,
+      "script": "Where did you grow up?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณโตที่ไหน?",
+      "chunks": [
+        "Where did you grow up?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:30",
+      "legacyId": "A2-29",
+      "position": 30,
+      "script": "Where did you buy those shoes?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณซื้อรองเท้าคู่นั้นที่ไหน?",
+      "chunks": [
+        "Where did you buy those shoes?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:31",
+      "legacyId": "A2-30",
+      "position": 31,
+      "script": "When did you arrive?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณมาถึงเมื่อไหร่?",
+      "chunks": [
+        "When did you arrive?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:32",
+      "legacyId": "A2-31",
+      "position": 32,
+      "script": "When did you start working here?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเริ่มทำงานที่นี่เมื่อไหร่?",
+      "chunks": [
+        "When did you start working here?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:33",
+      "legacyId": "A2-32",
+      "position": 33,
+      "script": "Why did you leave so early?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทำไมคุณกลับเร็วจัง?",
+      "chunks": [
+        "Why did you leave",
+        "so early?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:34",
+      "legacyId": "A2-33",
+      "position": 34,
+      "script": "Why did you choose this university?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทำไมคุณถึงเลือกมหาวิทยาลัยนี้?",
+      "chunks": [
+        "Why did you choose this university?"
+      ]
+    },
+    {
+      "id": "en:session-2:A2:35",
+      "legacyId": "A2-34",
+      "position": 35,
+      "script": "How did you fix the problem?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณแก้ปัญหานั้นยังไง?",
+      "chunks": [
+        "How did you fix the problem?"
+      ]
+    }
+  ]
+}

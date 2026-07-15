@@ -1,0 +1,127 @@
+{
+  "id": "U08-L08",
+  "number": 8,
+  "title": "คุณซักผ้ากี่โมงทุกวัน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L08-C071",
+      "legacyId": "U08-L08-C071",
+      "position": 1,
+      "script": "你每天几点洗衣服？",
+      "pronunciation": "nǐ měi tiān jǐ diǎn xǐ yī fu?",
+      "phonetic": "หนี่ เหม่ย เทียน จี๋ เตี่ยน สี่ อี ฟุ?",
+      "translation": "คุณซักผ้ากี่โมงทุกวัน",
+      "chunks": [
+        "你每天几点洗衣服？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L08-C072",
+      "legacyId": "U08-L08-C072",
+      "position": 2,
+      "script": "我一般晚上用洗衣机洗。",
+      "pronunciation": "wǒ yì bān wǎn shang yòng xǐ yī jī xǐ.",
+      "phonetic": "หว่อ อี้ ปาน หวั่น ส่าง ย่ง สี่ อี จี สี่.",
+      "translation": "ปกติฉันใช้เครื่องซักผ้าซักตอนกลางคืน",
+      "chunks": [
+        "我一般晚上用洗衣机洗。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L08-C073",
+      "legacyId": "U08-L08-C073",
+      "position": 3,
+      "script": "衣服洗完记得晾起来。",
+      "pronunciation": "yī fu xǐ wán jì de liàng qǐ lái.",
+      "phonetic": "อี ฟุ สี่ หวัน จี้ เตอ เลี้ยง ฉี่ ไหล.",
+      "translation": "ซักผ้าเสร็จแล้วอย่าลืมตากด้วยล่ะ",
+      "chunks": [
+        "衣服洗完记得晾起来。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L08-C074",
+      "legacyId": "U08-L08-C074",
+      "position": 4,
+      "script": "今天太阳很好，衣服很快就能晒干。",
+      "pronunciation": "jīn tiān tài yáng hěn hǎo, yī fu hěn kuài jiù néng shài gān.",
+      "phonetic": "จิน เทียน ท้าย แหยง เห่น ห่าว, อี ฟุ เหิ่น คว้าย จิ้ว เหนิง ส้าย กาน.",
+      "translation": "วันนี้แดดดีมาก เสื้อผ้าแป๊บเดียวก็ตากแห้งแล้ว",
+      "chunks": [
+        "今天太阳很好，衣服很快就能晒干。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L08-C075",
+      "legacyId": "U08-L08-C075",
+      "position": 5,
+      "script": "你今天打扫房间了吗？",
+      "pronunciation": "nǐ jìn tiān dǎ sǎo fáng jiān le ma?",
+      "phonetic": "หนี่ จิน เทียน ต๋า ส๋าว ฝาง เจียน เลอ มะ?",
+      "translation": "วันนี้คุณทำความสะอาดห้องหรือยัง",
+      "chunks": [
+        "你今天打扫房间了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L08-C076",
+      "legacyId": "U08-L08-C076",
+      "position": 6,
+      "script": "房间太乱了，我下午得收拾一下。",
+      "pronunciation": "fáng jiān tài luàn le, wǒ xià wǔ děi shōu shi yí xià.",
+      "phonetic": "ฝาง เจียน ไท่ ล่วน เลอ, หว่อ เซี่ย อู่ เต่ย โซว สิ อี๋ เซี่ย.",
+      "translation": "ห้องรกเกินไปแล้ว ช่วงบ่ายฉันต้องจัดเก็บสักหน่อย",
+      "chunks": [
+        "房间太乱了，我下午得收拾一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L08-C077",
+      "legacyId": "U08-L08-C077",
+      "position": 7,
+      "script": "桌子上有灰尘，拿抹布擦擦吧。",
+      "pronunciation": "zhuō zi shàng yǒu huī chén, ná mā bù cā cā ba.",
+      "phonetic": "จวอ สิ ส่าง โหย่ว ฮุย เฉิน, น๋า มา ปู้ ฉา ฉา ปะ.",
+      "translation": "บนโต๊ะมีฝุ่นเกาะ เอาผ้าขี้ริ้วมาเช็ดหน่อยสิ",
+      "chunks": [
+        "桌子上有灰尘，拿抹布擦擦吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L08-C078",
+      "legacyId": "U08-L08-C078",
+      "position": 8,
+      "script": "地我已经拖过了，干净多了。",
+      "pronunciation": "dì wǒ yǐ jīng tuō guò le, gān jìng duō le.",
+      "phonetic": "ตี้ หว่อ อี่ จิง โทว กั้ว เลอ, กาน จิ้ง ตัว เลอ.",
+      "translation": "พื้นฉันถูเรียบร้อยแล้ว สะอาดขึ้นเยอะเลย",
+      "chunks": [
+        "地我已经拖过了，干净多了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L08-C079",
+      "legacyId": "U08-L08-C079",
+      "position": 9,
+      "script": "垃圾桶满了，出门顺便倒一下。",
+      "pronunciation": "lā jī tǒng mǎn le, chū mén shùn biàn dào yí xià.",
+      "phonetic": "ลา จี ถ่ง หมั่น เลอ, ชู เหมิน สวิ่น เปี้ยน ต้าว อี๋ เซี่ย.",
+      "translation": "ถังขยะเต็มแล้ว ตอนออกจากบ้านช่วยเอาไปทิ้งด้วยนะ",
+      "chunks": [
+        "垃圾桶满了，出门顺便倒一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L08-C080",
+      "legacyId": "U08-L08-C080",
+      "position": 10,
+      "script": "知道了，我下楼的时候带过去。",
+      "pronunciation": "zhī dào le, wǒ xià lóu de shí hou dài guò qù.",
+      "phonetic": "จือ เต้า เลอ, หว่อ เซี่ย โหล่ว เตอ สือ โห่ว ต้าย กั้ว ชวี่.",
+      "translation": "รับทราบแล้ว ตอนฉันลงตึกจะติดมือไปด้วย",
+      "chunks": [
+        "知道了，我下楼的时候带过去。"
+      ]
+    }
+  ]
+}

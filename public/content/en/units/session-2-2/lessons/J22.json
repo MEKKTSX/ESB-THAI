@@ -1,0 +1,196 @@
+{
+  "id": "J22",
+  "number": 10,
+  "title": "J. Ending Conversations Naturally",
+  "chunks": [
+    {
+      "id": "en:session-2-2:J22:1",
+      "legacyId": "J22-0",
+      "position": 1,
+      "script": "I'll let you get back to what you were doing.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้คุณกลับไปทำสิ่งที่ค้างไว้ได้เลยนะ",
+      "chunks": [
+        "I'll let you get back",
+        "to what you were doing."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:2",
+      "legacyId": "J22-1",
+      "position": 2,
+      "script": "Let's catch up properly soon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไว้หาเวลานั่งคุยกันจริงๆ จังๆ นะ",
+      "chunks": [
+        "Let's catch up properly soon."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:3",
+      "legacyId": "J22-2",
+      "position": 3,
+      "script": "We should do this again sometime.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไว้หาโอกาสทำแบบนี้อีกนะ",
+      "chunks": [
+        "We should do this again sometime."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:4",
+      "legacyId": "J22-3",
+      "position": 4,
+      "script": "It was really nice talking to you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สนุกมากเลยที่ได้คุยกัน",
+      "chunks": [
+        "It was really nice talking",
+        "to you."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:5",
+      "legacyId": "J22-4",
+      "position": 5,
+      "script": "I've really got to run — I'll message you later.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องไปแล้วจริงๆ ไว้ทักไปทีหลังนะ",
+      "chunks": [
+        "I've really got",
+        "to run — I'll message you later."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:6",
+      "legacyId": "J22-5",
+      "position": 6,
+      "script": "I'll be in touch soon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไว้ติดต่อกันเร็วๆ นี้นะ",
+      "chunks": [
+        "I'll be",
+        "in touch soon."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:7",
+      "legacyId": "J22-6",
+      "position": 7,
+      "script": "Talk soon — take care of yourself.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไว้คุยกันนะ ดูแลตัวเองด้วย",
+      "chunks": [
+        "Talk soon — take care of yourself."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:8",
+      "legacyId": "J22-7",
+      "position": 8,
+      "script": "I should probably get going now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "น่าจะได้เดินทางได้แล้วนะตอนนี้",
+      "chunks": [
+        "I should probably get going now."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:9",
+      "legacyId": "J22-8",
+      "position": 9,
+      "script": "It's been great seeing you again.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดีใจมากที่ได้เจอกันอีกครั้ง",
+      "chunks": [
+        "It's been great seeing you again."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:10",
+      "legacyId": "J22-9",
+      "position": 10,
+      "script": "We'll have to do this more often.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ต้องทำแบบนี้บ่อยๆ เลยนะ",
+      "chunks": [
+        "We'll have",
+        "to do this more often."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:11",
+      "legacyId": "J22-10",
+      "position": 11,
+      "script": "Anyway, I should go — it was good to catch up.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เอาล่ะ ฉันต้องไปแล้ว ดีมากที่ได้คุยกัน",
+      "chunks": [
+        "Anyway,",
+        "I should go — it was good",
+        "to catch up."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:12",
+      "legacyId": "J22-11",
+      "position": 12,
+      "script": "Keep me posted on how things go.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อัปเดตให้ฟังด้วยนะว่าเป็นยังไง",
+      "chunks": [
+        "Keep me posted",
+        "on how things go."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:13",
+      "legacyId": "J22-12",
+      "position": 13,
+      "script": "Let me know if you need anything.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ต้องการอะไรบอกได้เลยนะ",
+      "chunks": [
+        "Let me know if you need anything."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:14",
+      "legacyId": "J22-13",
+      "position": 14,
+      "script": "Thanks for everything — I really appreciate it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณทุกอย่างนะ ซาบซึ้งมากจริงๆ",
+      "chunks": [
+        "Thanks",
+        "for everything — I really appreciate it."
+      ]
+    },
+    {
+      "id": "en:session-2-2:J22:15",
+      "legacyId": "J22-14",
+      "position": 15,
+      "script": "I'll reach out once I have more information.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะติดต่อไปพอมีข้อมูลเพิ่มเติมนะ",
+      "chunks": [
+        "I'll reach out once I have more information."
+      ]
+    }
+  ]
+}

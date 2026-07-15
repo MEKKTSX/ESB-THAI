@@ -1,0 +1,127 @@
+{
+  "id": "U09-L09",
+  "number": 9,
+  "title": "ฉันอยากไปนะ แต่ไม่มีเงิน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U09-L09-C081",
+      "legacyId": "U09-L09-C081",
+      "position": 1,
+      "script": "我想去，但是没钱。",
+      "pronunciation": "wǒ xiǎng qù, dàn shì méi qián.",
+      "phonetic": "หว่อ แฉี่ยง ชวี่, ต้าน สื้อ เหมย เฉียน.",
+      "translation": "ฉันอยากไปนะ แต่ไม่มีเงิน",
+      "chunks": [
+        "我想去，但是没钱。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L09-C082",
+      "legacyId": "U09-L09-C082",
+      "position": 2,
+      "script": "因为下雨，我没出门。",
+      "pronunciation": "yīn wèi xià yǔ, wǒ méi chū mén.",
+      "phonetic": "อิน เว่ย เซี่ย อวี่, หว่อ เหมย ชู เหมิน.",
+      "translation": "เพราะว่าฝนตก ฉันก็เลยไม่ได้ออกจากบ้าน",
+      "chunks": [
+        "因为下雨，我没出门。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L09-C083",
+      "legacyId": "U09-L09-C083",
+      "position": 3,
+      "script": "因为天气不好，所以比赛取消了。",
+      "pronunciation": "yīn wèi tiān qì bù hǎo, suǒ yǐ bǐ sài qǔ xiāo le.",
+      "phonetic": "อิน เว่ย เทียน จี้ ปู้ ห่าว, สั่ว อี่ ปี่ ซี่ ชวี่ เซียว เลอ.",
+      "translation": "เพราะว่าอากาศไม่ดี การแข่งขันก็เลยยกเลิกไป",
+      "chunks": [
+        "因为天气不好，所以比赛取消了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L09-C084",
+      "legacyId": "U09-L09-C084",
+      "position": 4,
+      "script": "我想去，但是今天实在没空。",
+      "pronunciation": "wǒ xiǎng qù, dàn shì jìn tiān shí zài méi kòng.",
+      "phonetic": "หว่อ แฉี่ยง ชวี่, ต้าน สื้อ จิน เทียน สื้อ ไซ้ เหมย ค่ง.",
+      "translation": "ฉันอยากไปนะ แต่ว่าวันนี้ไม่มีเวลาว่างจริงๆ",
+      "chunks": [
+        "我想去，但是今天实在没空。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L09-C085",
+      "legacyId": "U09-L09-C085",
+      "position": 5,
+      "script": "虽然很难，但他还是坚持了下来。",
+      "pronunciation": "suī rán hěn nán, dàn tā hái shì jiān chí le xià lái.",
+      "phonetic": "ซุย ราน เห่น นาน, ต้าน ทา หาย สื้อ เจียน ฉี เลอ เซี่ย ไหล.",
+      "translation": "แม้ว่าจะยากมาก แต่เขาก็ยังคงกัดฟันอดทนสู้จนถึงที่สุด",
+      "chunks": [
+        "虽然很难，但他还是坚持了下来。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L09-C086",
+      "legacyId": "U09-L09-C086",
+      "position": 6,
+      "script": "既然你不想去，那就别勉强了。",
+      "pronunciation": "jì rán nǐ bù xiǎng qù, nà jiù bié miǎn qiǎng le.",
+      "phonetic": "จี้ ราน หนี่ ปู้ แฉี่ยง ชวี่, น้า จิ้ว แปี๋ย เมี่ยน ฉี่ ยง เลอ.",
+      "translation": "ในเมื่อคุณไม่อยากไป งั้นก็อย่าไปฝืนใจตัวเองเลย",
+      "chunks": [
+        "既然你不想去，那就别勉强了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L09-C087",
+      "legacyId": "U09-L09-C087",
+      "position": 7,
+      "script": "虽说有点贵，但是质量非常好。",
+      "pronunciation": "suī shuō yǒu diǎn guì, dàn shì zhì liàng fēi cháng hǎo.",
+      "phonetic": "ซุย ซัว โหย่ว เตี่ยน กุ้ย, ต้าน สื้อ จื้อ เลี้ยง เฟย ฉาง ห่าว.",
+      "translation": "ถึงแม้จะบอกว่าแพงไปหน่อย แต่ว่าคุณภาพดีมากจริงๆ",
+      "chunks": [
+        "虽说有点贵，但是质量非常好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L09-C088",
+      "legacyId": "U09-L09-C088",
+      "position": 8,
+      "script": "既然结果已经出来了，后悔也没用。",
+      "pronunciation": "jì rán jié guǒ yǐ jīng chū lái le, hòu huǐ yě méi yòng.",
+      "phonetic": "จี้ ราน เจี๋ย ก๋ัว อี่ จิง ชู ไหล เลอ, โห่ว หวุ่ย เยี่ย เหมย ย่ง.",
+      "translation": "ในเมื่อผลลัพธ์มันออกมาแล้ว เสียใจทีหลังก็ไม่มีประโยชน์",
+      "chunks": [
+        "既然结果已经出来了，后悔也没用。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L09-C089",
+      "legacyId": "U09-L09-C089",
+      "position": 9,
+      "script": "不管怎么样，我都会支持你的决定。",
+      "pronunciation": "bù guǎn zěn me yàng, wǒ dōu huì zhī chí nǐ de jué dìng.",
+      "phonetic": "ปู้ ก๋ัน เจิ่น เมอ ย่าง, หว่อ โตว ฮุ่ย จือ ฉี หนี่ เตอ จว๋ะ ติ้ง.",
+      "translation": "ไม่ว่าจะยังไงก็ตาม ฉันก็จะสนับสนุนการตัดสินใจของคุณนะ",
+      "chunks": [
+        "不管怎么样，我都会支持你的决定。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L09-C090",
+      "legacyId": "U09-L09-C090",
+      "position": 10,
+      "script": "哪怕只有一线希望，我也要试试。",
+      "pronunciation": "nǎ pà zhǐ yǒu yí xiàn xī wàng, wǒ yě yào shì shì.",
+      "phonetic": "หน่า พ้า จื่อ โหย่ว อี๋ เสี้ยน ซี หวัง, หว่อ เยี่ย เย้า สื้อ สื้อ.",
+      "translation": "ต่อให้เหลือความหวังเพียงริบหรี่ ฉันก็จะต้องขอลองดูสักตั้ง",
+      "chunks": [
+        "哪怕只有一线希望，我也要试试。"
+      ]
+    }
+  ]
+}

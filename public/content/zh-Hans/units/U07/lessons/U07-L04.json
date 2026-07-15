@@ -1,0 +1,127 @@
+{
+  "id": "U07-L04",
+  "number": 4,
+  "title": "ถัดจากวันมะรืนไปอีกวันฉันก็ยังไม่ว่าง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U07-L04-C031",
+      "legacyId": "U07-L04-C031",
+      "position": 1,
+      "script": "大后天我也没空。",
+      "pronunciation": "dà hòu tiān wǒ yě méi kòng.",
+      "phonetic": "ต้า โห่ว เทียน หว่อ เยี่ย เหมย ค่ง.",
+      "translation": "ถัดจากวันมะรืนไปอีกวันฉันก็ยังไม่ว่าง",
+      "chunks": [
+        "大后天我也没空。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L04-C032",
+      "legacyId": "U07-L04-C032",
+      "position": 2,
+      "script": "他大概多长时间能到？",
+      "pronunciation": "tā dà gài duō cháng shí jiān néng dào?",
+      "phonetic": "ทา ต้า ก้าย ตัว ฉาง สือ เจียน เหนิง ต้าว?",
+      "translation": "เขาใช้เวลาประมาณนานเท่าไหร่ถึงจะมาถึง",
+      "chunks": [
+        "他大概多长时间能到？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L04-C033",
+      "legacyId": "U07-L04-C033",
+      "position": 3,
+      "script": "还有半个小时就到了。",
+      "pronunciation": "hái yǒu bàn gè xiǎo shí jiù dào le.",
+      "phonetic": "หาย โหย่ว ป้าน เก้อ เสียว สื้อ จิ้ว ต้าว เลอ.",
+      "translation": "อีกครึ่งชั่วโมงก็มาถึงแล้ว",
+      "chunks": [
+        "还有半个小时就到了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L04-C034",
+      "legacyId": "U07-L04-C034",
+      "position": 4,
+      "script": "我的表慢了五分钟。",
+      "pronunciation": "wǒ de biǎo màn le wǔ fēn zhōng.",
+      "phonetic": "หว่อ เตอ เปี่๋ยว ม่าน เลอ อู่ เฟิน จง.",
+      "translation": "นาฬิกาของฉันเดินช้าไปห้านาที",
+      "chunks": [
+        "我的表慢了五分钟。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L04-C035",
+      "legacyId": "U07-L04-C035",
+      "position": 5,
+      "script": "我们九点准时出发。",
+      "pronunciation": "wǒ men jiǔ diǎn zhǔn shí chū fā.",
+      "phonetic": "หว่อ เมิน จิ๋ว เตี่ยน จวิ๋น สือ ชู ฟา.",
+      "translation": "พวกเราจะออกเดินทางตอนเก้าโมงตรง",
+      "chunks": [
+        "我们九点准时出发。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L04-C036",
+      "legacyId": "U07-L04-C036",
+      "position": 6,
+      "script": "这次会议大概开两个小时。",
+      "pronunciation": "zhè cì huì yì dà gài kāi liǎng gè xiǎo shí.",
+      "phonetic": "เจ้อ ซี่ หุ่ย อี้ ต้า ก้าย ไค เหลี่ยง เก้อ เสียว สื้อ.",
+      "translation": "การประชุมครั้งนี้เปิดประมาณสองชั่วโมง",
+      "chunks": [
+        "这次会议大概开两个小时。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L04-C037",
+      "legacyId": "U07-L04-C037",
+      "position": 7,
+      "script": "时间差不多了，我们走吧。",
+      "pronunciation": "shí jiān chà bù duō le, wǒ men zǒu ba.",
+      "phonetic": "สือ เจียน ชา ปู้ ตัว เลอ, หว่อ เมิน โจ่ว ปะ.",
+      "translation": "เวลาใกล้เคียงแล้ว/ได้เวลาแล้ว พวกเราไปกันเถอะ",
+      "chunks": [
+        "时间差不多了，我们走吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L04-C038",
+      "legacyId": "U07-L04-C038",
+      "position": 8,
+      "script": "你今天能提前下班吗？",
+      "pronunciation": "nǐ jìn tiān néng tí qián xià bān ma?",
+      "phonetic": "หนี่ จิน เทียน เหนิง ถี เฉียน เซี่ย ปาน มะ?",
+      "translation": "วันนี้คุณสามารถเลิกงานก่อนเวลาได้ไหม",
+      "chunks": [
+        "你今天能提前下班吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L04-C039",
+      "legacyId": "U07-L04-C039",
+      "position": 9,
+      "script": "今晚我要加班到很晚。",
+      "pronunciation": "jīn wǎn wǒ yào jiā bān dào hěn wǎn.",
+      "phonetic": "จิน หวั่น หว่อ เย้า เจีย ปาน ต้าว เหิ่น หวั่น.",
+      "translation": "เย็นนี้ฉันต้องอยู่ทำงานล่วงเวลา (OT) จนดึกมาก",
+      "chunks": [
+        "今晚我要加班到很晚。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L04-C040",
+      "legacyId": "U07-L04-C040",
+      "position": 10,
+      "script": "那就约星期六下午两点吧。",
+      "pronunciation": "nà jiù yuē xīng qī liù xià wǔ liǎng diǎn ba.",
+      "phonetic": "น้า จิ้ว ยเว่ ซิง ชี ลิ่ว เซี่ย อู่ เหลี่ยง เตี่ยน ปะ.",
+      "translation": "งั้นก็นัดเป็นวันเสาร์บ่ายสองโมงแล้วกันนะ",
+      "chunks": [
+        "那就约星期六下午两点吧。"
+      ]
+    }
+  ]
+}

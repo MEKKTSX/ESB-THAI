@@ -1,0 +1,1130 @@
+{
+  "id": "Theme_3",
+  "number": 3,
+  "title": "3. AI Engineering & Data Science",
+  "chunks": [
+    {
+      "id": "en:session-3:Theme_3:1",
+      "legacyId": "Theme_3-0",
+      "position": 1,
+      "script": "I have been trying to optimize this machine learning algorithm for hours, but it still throws a weird error.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันพยายามปรับแต่งอัลกอริทึมแมชชีนเลิร์นนิงตัวนี้มาหลายชั่วโมงแล้ว แต่มันก็ยังฟ้องเออเรอร์แปลกๆ อยู่ดี",
+      "chunks": [
+        "I have been trying",
+        "to optimize this machine learning algorithm",
+        "for hours,",
+        "but it still throws a weird error."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:2",
+      "legacyId": "Theme_3-1",
+      "position": 2,
+      "script": "I have been trying to clean this massive dataset all morning, and there are still so many missing values.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันนั่งคลีนข้อมูลชุดใหญ่เบิ้มนี้มาทั้งเช้าแล้ว และมันก็ยังมีค่าที่หายไปอีกเยอะมาก",
+      "chunks": [
+        "I have been trying",
+        "to clean this massive dataset all morning,",
+        "and there are still",
+        "so many missing values."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:3",
+      "legacyId": "Theme_3-2",
+      "position": 3,
+      "script": "I have been trying to debug my Python code since last night, and I am feeling incredibly frustrated.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันพยายามนั่งแก้บั๊กโค้ดไพธอนมาตั้งแต่เมื่อคืนแล้ว และตอนนี้รู้สึกหัวเสียสุดๆ",
+      "chunks": [
+        "I have been trying",
+        "to debug my Python code since last night,",
+        "and I am feeling incredibly frustrated."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:4",
+      "legacyId": "Theme_3-3",
+      "position": 4,
+      "script": "I have been trying to improve the chatbot's response accuracy, but it requires a lot more training data.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันพยายามปรับปรุงความแม่นยำในการตอบคำถามของแชทบอทอยู่ แต่มันต้องใช้ข้อมูลสำหรับเทรนมากกว่านี้อีกเยอะ",
+      "chunks": [
+        "I have been trying",
+        "to improve the chatbot's response accuracy,",
+        "but it requires a lot more training data."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:5",
+      "legacyId": "Theme_3-4",
+      "position": 5,
+      "script": "If we had more computational power, we would train the deep learning model much faster than we currently do.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าเรามีพลังประมวลผลคอมพิวเตอร์มากกว่านี้ เราคงเทรนโมเดลดีปเลิร์นนิงได้เร็วกว่าที่เป็นอยู่ตอนนี้เยอะเลย",
+      "chunks": [
+        "If we had more computational power,",
+        "we would train the deep learning model much faster than we currently do."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:6",
+      "legacyId": "Theme_3-5",
+      "position": 6,
+      "script": "If the dataset wasn't so messy, I would easily finish the data preprocessing phase by the end of today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าชุดข้อมูลมันไม่เละเทะขนาดนี้ ฉันคงทำขั้นตอนเตรียมข้อมูลเสร็จสบายๆ ภายในสิ้นวันนี้แหละ",
+      "chunks": [
+        "If the dataset wasn't",
+        "so messy,",
+        "I would easily finish the data preprocessing phase by the end of today."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:7",
+      "legacyId": "Theme_3-6",
+      "position": 7,
+      "script": "If I understood this complex calculus concept better, I would write a much more efficient algorithm for my project.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันเข้าใจคอนเซปต์แคลคูลัสที่ซับซ้อนอันนี้ได้ดีกว่านี้ ฉันคงเขียนอัลกอริทึมสำหรับโปรเจกต์ได้มีประสิทธิภาพกว่านี้มาก",
+      "chunks": [
+        "If I understood this complex calculus concept better,",
+        "I would write a much more efficient algorithm",
+        "for my project."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:8",
+      "legacyId": "Theme_3-7",
+      "position": 8,
+      "script": "If we used a robust cloud-based server, the chatbot would handle concurrent user requests much more smoothly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าเราใช้เซิร์ฟเวอร์คลาวด์ที่เสถียร แชทบอทคงรับมือกับคำขอจากผู้ใช้ที่เข้ามาพร้อมกันได้ลื่นไหลกว่านี้เยอะ",
+      "chunks": [
+        "If we used a robust cloud-based server,",
+        "the chatbot would handle concurrent user requests much more smoothly."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:9",
+      "legacyId": "Theme_3-8",
+      "position": 9,
+      "script": "If I had saved my Python script earlier, I wouldn't have lost all my progress when the computer crashed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันเซฟสคริปต์ไพธอนไว้ก่อนหน้านี้ ฉันคงไม่เสียงานทั้งหมดไปตอนที่คอมค้างหรอก",
+      "chunks": [
+        "If I had saved my Python script earlier,",
+        "I wouldn't have lost all my progress",
+        "when the computer crashed."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:10",
+      "legacyId": "Theme_3-9",
+      "position": 10,
+      "script": "If we had chosen a different neural network architecture, the prediction accuracy would have been significantly higher.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าพวกเราเลือกโครงสร้างนิวรัลเน็ตเวิร์กแบบอื่น ความแม่นยำในการทำนายคงจะสูงกว่านี้อย่างเห็นได้ชัดเลย",
+      "chunks": [
+        "If we had chosen a different neural network architecture,",
+        "the prediction accuracy would have been significantly higher."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:11",
+      "legacyId": "Theme_3-10",
+      "position": 11,
+      "script": "If I hadn't been so stubbornly attached to my logic, I would have found the bug in the code much sooner.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันไม่ดื้อรั้นยึดติดกับโลจิกของตัวเองขนาดนั้น ฉันคงหาบั๊กในโค้ดเจอเร็วกว่านี้ตั้งนานแล้ว",
+      "chunks": [
+        "If I hadn't been",
+        "so stubbornly attached",
+        "to my logic,",
+        "I would have found the bug",
+        "in the code much sooner."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:12",
+      "legacyId": "Theme_3-11",
+      "position": 12,
+      "script": "If we had scraped more data from the website, our predictive model would have performed flawlessly during the test.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าเราดูดข้อมูลจากเว็บไซต์มามากกว่านี้ โมเดลทำนายผลของเราคงทำงานได้แบบไร้ที่ติไปแล้วตอนทดสอบ",
+      "chunks": [
+        "If we had scraped more data from the website,",
+        "our predictive model would have performed flawlessly during the test."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:13",
+      "legacyId": "Theme_3-12",
+      "position": 13,
+      "script": "The raw data must be carefully preprocessed and normalized before it is fed into the machine learning model.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ข้อมูลดิบจะต้องถูกนำมาเตรียมการและปรับบรรทัดฐานอย่างระมัดระวังก่อนที่จะถูกป้อนเข้าสู่โมเดลแมชชีนเลิร์นนิง",
+      "chunks": [
+        "The raw data must be carefully preprocessed",
+        "and normalized before it is fed into the machine learning model."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:14",
+      "legacyId": "Theme_3-13",
+      "position": 14,
+      "script": "The final university project will be strictly evaluated based on both the code quality and the oral presentation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โปรเจกต์จบของมหาลัยจะถูกประเมินอย่างเข้มงวดโดยดูจากทั้งคุณภาพของโค้ดและการพรีเซนต์งานหน้าห้อง",
+      "chunks": [
+        "The final university project will be strictly evaluated based",
+        "on both the code quality",
+        "and the oral presentation."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:15",
+      "legacyId": "Theme_3-14",
+      "position": 15,
+      "script": "The stock market prediction algorithm is currently being tested extensively using decades of historical financial data.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อัลกอริทึมทำนายตลาดหุ้นกำลังถูกทดสอบอย่างหนักหน่วงโดยใช้ข้อมูลย้อนหลังทางการเงินหลายสิบปี",
+      "chunks": [
+        "The stock market prediction algorithm is currently being tested extensively using decades of historical financial data."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:16",
+      "legacyId": "Theme_3-15",
+      "position": 16,
+      "script": "The new artificial intelligence feature was successfully implemented into the dashboard without causing any sudden system crashes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฟีเจอร์ปัญญาประดิษฐ์ตัวใหม่ถูกนำไปติดตั้งลงในแดชบอร์ดสำเร็จโดยไม่ได้ทำให้ระบบพังกระทันหันเลย",
+      "chunks": [
+        "The new artificial intelligence feature was successfully implemented into the dashboard without causing any sudden system crashes."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:17",
+      "legacyId": "Theme_3-16",
+      "position": 17,
+      "script": "I am going to deploy the natural language processing model to a live server by the end of next weekend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะนำโมเดลประมวลผลภาษาธรรมชาติตัวนี้ขึ้นเซิร์ฟเวอร์จริงให้เสร็จภายในสุดสัปดาห์หน้า",
+      "chunks": [
+        "I am going",
+        "to deploy the natural language processing model",
+        "to a live server by the end of next weekend."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:18",
+      "legacyId": "Theme_3-17",
+      "position": 18,
+      "script": "I am going to scrape more financial data from the web to drastically improve my portfolio dashboard's accuracy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไปดึงข้อมูลการเงินจากเว็บมาเพิ่ม เพื่อพัฒนาความแม่นยำของแดชบอร์ดพอร์ตหุ้นของฉันให้ดีขึ้นแบบก้าวกระโดด",
+      "chunks": [
+        "I am going",
+        "to scrape more financial data from the web",
+        "to drastically improve my portfolio dashboard's accuracy."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:19",
+      "legacyId": "Theme_3-18",
+      "position": 19,
+      "script": "I am going to spend the entire night reviewing linear algebra and calculus for tomorrow's challenging mid-term exam.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะใช้เวลาทั้งคืนทบทวนพีชคณิตเชิงเส้นและแคลคูลัสเพื่อเตรียมสอบมิดเทอมสุดหินพรุ่งนี้",
+      "chunks": [
+        "I am going",
+        "to spend the entire night reviewing linear algebra",
+        "and calculus",
+        "for tomorrow's challenging mid-term exam."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:20",
+      "legacyId": "Theme_3-19",
+      "position": 20,
+      "script": "I am going to rewrite this entire Python module because the current code structure is completely unreadable and messy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะเขียนโมดูลไพธอนอันนี้ใหม่ทั้งหมดเลย เพราะโครงสร้างโค้ดตอนนี้มันอ่านไม่รู้เรื่องและเละเทะมาก",
+      "chunks": [
+        "I am going",
+        "to rewrite this entire Python module",
+        "because the current code structure is completely unreadable",
+        "and messy."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:21",
+      "legacyId": "Theme_3-20",
+      "position": 21,
+      "script": "The deep learning model requires massive amounts of data; therefore, we must use a distributed database system.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โมเดลดีปเลิร์นนิงต้องการข้อมูลปริมาณมหาศาล ดังนั้นเราจึงต้องใช้ระบบฐานข้อมูลแบบกระจายศูนย์",
+      "chunks": [
+        "The deep learning model requires massive amounts of data; therefore,",
+        "we must use a distributed database system."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:22",
+      "legacyId": "Theme_3-21",
+      "position": 22,
+      "script": "The university server was unexpectedly down for maintenance; therefore, I couldn't run my data science experiments overnight.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เซิร์ฟเวอร์ของมหาลัยปิดปรับปรุงกะทันหัน ดังนั้นฉันเลยรันการทดลองทางดาต้าซายน์ทิ้งไว้ข้ามคืนไม่ได้",
+      "chunks": [
+        "The university server was unexpectedly down",
+        "for maintenance; therefore,",
+        "I couldn't run my data science experiments overnight."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:23",
+      "legacyId": "Theme_3-22",
+      "position": 23,
+      "script": "The neural network kept overfitting the training data; therefore, I decided to add dropout layers to the architecture.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โครงข่ายประสาทเทียมมันจำข้อมูลเทรนมากเกินไปจนเกิดภาวะ Overfitting ดังนั้นฉันเลยตัดสินใจเพิ่มเลเยอร์ Dropout เข้าไปในโครงสร้าง",
+      "chunks": [
+        "The neural network kept overfitting the training data; therefore,",
+        "I decided",
+        "to add dropout layers",
+        "to the architecture."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:24",
+      "legacyId": "Theme_3-23",
+      "position": 24,
+      "script": "My laptop lacks a highly powerful GPU; therefore, training this complex AI model takes several hours to complete.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แล็ปท็อปของฉันไม่มีการ์ดจอที่แรงพอ ดังนั้นการเทรนโมเดล AI ที่ซับซ้อนตัวนี้เลยต้องใช้เวลาหลายชั่วโมงกว่าจะเสร็จ",
+      "chunks": [
+        "My laptop lacks a highly powerful GPU; therefore,",
+        "training this complex AI model takes several hours",
+        "to complete."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:25",
+      "legacyId": "Theme_3-24",
+      "position": 25,
+      "script": "I used to write incredibly messy code, but now I strictly follow standard software engineering practices.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อก่อนฉันเคยเขียนโค้ดที่เละเทะสุดๆ แต่เดี๋ยวนี้ฉันปฏิบัติตามมาตรฐานวิศวกรรมซอฟต์แวร์อย่างเคร่งครัดแล้ว",
+      "chunks": [
+        "I used",
+        "to write incredibly messy code,",
+        "but now I strictly follow standard software engineering practices."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:26",
+      "legacyId": "Theme_3-25",
+      "position": 26,
+      "script": "I used to think that artificial intelligence was magic, but now I know it is mostly just advanced applied mathematics.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยคิดว่าปัญญาประดิษฐ์เป็นเรื่องของเวทมนตร์ แต่ตอนนี้ฉันรู้แล้วว่าส่วนใหญ่มันก็แค่คณิตศาสตร์ประยุกต์ขั้นสูงเท่านั้น",
+      "chunks": [
+        "I used",
+        "to think",
+        "that artificial intelligence was magic,",
+        "but now I know it is mostly just advanced applied mathematics."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:27",
+      "legacyId": "Theme_3-26",
+      "position": 27,
+      "script": "I used to struggle with object-oriented programming, but building the React dashboard helped me understand it perfectly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อก่อนฉันมีปัญหาตลอดเวลาเขียนโปรแกรมเชิงวัตถุ แต่การสร้างแดชบอร์ดด้วย React ช่วยให้ฉันเข้าใจมันได้ทะลุปรุโปร่งเลย",
+      "chunks": [
+        "I used",
+        "to struggle",
+        "with object-oriented programming,",
+        "but building the React dashboard helped me understand it perfectly."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:28",
+      "legacyId": "Theme_3-27",
+      "position": 28,
+      "script": "I used to manually track my stock investments, but now my custom Python script handles everything automatically.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อก่อนฉันเคยจดบันทึกการลงทุนหุ้นด้วยตัวเอง แต่เดี๋ยวนี้สคริปต์ไพธอนที่ฉันเขียนขึ้นมาจัดการทุกอย่างให้อัตโนมัติแล้ว",
+      "chunks": [
+        "I used",
+        "to manually track my stock investments,",
+        "but now my custom Python script handles everything automatically."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:29",
+      "legacyId": "Theme_3-28",
+      "position": 29,
+      "script": "Even though the Python script threw multiple errors, I persistently debugged it until it finally worked perfectly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้ว่าสคริปต์ไพธอนจะเด้งเออเรอร์มารัวๆ แต่ฉันก็กัดฟันนั่งแก้บั๊กจนในที่สุดมันก็ทำงานได้สมบูรณ์แบบ",
+      "chunks": [
+        "Even though the Python script threw multiple errors,",
+        "I persistently debugged it until it finally worked perfectly."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:30",
+      "legacyId": "Theme_3-29",
+      "position": 30,
+      "script": "Even though data science requires a strong foundation in calculus, the practical coding part is still incredibly fun.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้ว่าวิทยาการข้อมูลจะต้องการพื้นฐานแคลคูลัสที่แน่นมาก แต่พาร์ทที่ได้เขียนโค้ดจริงๆ มันก็ยังสนุกสุดๆ ไปเลย",
+      "chunks": [
+        "Even though data science requires a strong foundation",
+        "in calculus,",
+        "the practical coding part is still incredibly fun."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:31",
+      "legacyId": "Theme_3-30",
+      "position": 31,
+      "script": "Even though the chatbot can answer basic questions, it still noticeably struggles with highly complex logical reasoning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้แชทบอทจะตอบคำถามพื้นฐานได้ แต่มันก็ยังมีปัญหาอย่างเห็นได้ชัดเมื่อเจอกับการให้เหตุผลเชิงตรรกะที่ซับซ้อนมากๆ",
+      "chunks": [
+        "Even though the chatbot can answer basic questions,",
+        "it still noticeably struggles",
+        "with highly complex logical reasoning."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:32",
+      "legacyId": "Theme_3-31",
+      "position": 32,
+      "script": "Even though we spent weeks gathering the data, the final dataset still contained an unacceptable amount of missing values.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้พวกเราจะใช้เวลาหลายสัปดาห์ในการรวบรวมข้อมูล แต่ชุดข้อมูลสุดท้ายก็ยังมีค่าที่หายไปในปริมาณที่ยอมรับไม่ได้อยู่ดี",
+      "chunks": [
+        "Even though we spent weeks gathering the data,",
+        "the final dataset still contained an unacceptable amount of missing values."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:33",
+      "legacyId": "Theme_3-32",
+      "position": 33,
+      "script": "The machine learning algorithm that I designed for my university project can somewhat predict short-term stock price movements.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อัลกอริทึมแมชชีนเลิร์นนิงที่ฉันออกแบบสำหรับโปรเจกต์มหาลัย พอที่จะสามารถทำนายการเคลื่อนไหวของราคาหุ้นในระยะสั้นได้บ้าง",
+      "chunks": [
+        "The machine learning algorithm",
+        "that I designed",
+        "for my university project can somewhat predict short-term stock price movements."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:34",
+      "legacyId": "Theme_3-33",
+      "position": 34,
+      "script": "The open-source library that we imported into our Python environment literally saved us hours of tedious programming work.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไลบรารีโอเพนซอร์สที่เราอิมพอร์ตเข้ามาในสภาพแวดล้อมไพธอน ช่วยประหยัดเวลาการเขียนโค้ดที่น่าเบื่อไปได้หลายชั่วโมงเลยทีเดียว",
+      "chunks": [
+        "The open-source library",
+        "that we imported into our Python environment literally saved us hours of tedious programming work."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:35",
+      "legacyId": "Theme_3-34",
+      "position": 35,
+      "script": "The experienced data scientist who gave a guest lecture at Bangkok University completely changed my perspective on AI.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นักวิทยาการข้อมูลมากประสบการณ์ที่มาบรรยายพิเศษที่มหาวิทยาลัยกรุงเทพ ได้เปลี่ยนมุมมองที่ฉันมีต่อ AI ไปอย่างสิ้นเชิง",
+      "chunks": [
+        "The experienced data scientist",
+        "who gave a guest lecture",
+        "at Bangkok University completely changed my perspective",
+        "on AI."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:36",
+      "legacyId": "Theme_3-35",
+      "position": 36,
+      "script": "The API endpoint that fetches real-time financial data is currently returning an unexpected and frustrating server error.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จุดเชื่อมต่อ API ที่ดึงข้อมูลการเงินแบบเรียลไทม์ ตอนนี้กำลังส่งค่าเออเรอร์จากเซิร์ฟเวอร์ที่ไม่มีใครคาดคิดและน่าหงุดหงิดกลับมา",
+      "chunks": [
+        "The API endpoint",
+        "that fetches real-time financial data is currently returning an unexpected",
+        "and frustrating server error."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:37",
+      "legacyId": "Theme_3-36",
+      "position": 37,
+      "script": "My professor told me that my data visualization charts needed to be much clearer for the final group presentation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาจารย์บอกฉันว่ากราฟแสดงผลข้อมูลของฉันจำเป็นต้องดูให้เคลียร์กว่านี้เยอะ สำหรับการพรีเซนต์งานกลุ่มรอบไฟนอล",
+      "chunks": [
+        "My professor told me",
+        "that my data visualization charts needed",
+        "to be much clearer",
+        "for the final group presentation."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:38",
+      "legacyId": "Theme_3-37",
+      "position": 38,
+      "script": "The lead developer mentioned that we should strictly use version control when collaborating on this massive AI project.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หัวหน้าทีมพัฒนาบอกไว้ว่าพวกเราควรใช้ระบบควบคุมเวอร์ชัน (Version Control) อย่างเคร่งครัดเวลาทำงานร่วมกันในโปรเจกต์ AI ยักษ์ใหญ่นี้",
+      "chunks": [
+        "The lead developer mentioned",
+        "that we should strictly use version control",
+        "when collaborating",
+        "on this massive AI project."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:39",
+      "legacyId": "Theme_3-38",
+      "position": 39,
+      "script": "My classmate asked if I could clearly explain the fundamental difference between supervised and unsupervised learning algorithms.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อนร่วมคลาสถามฉันว่าพอจะอธิบายความแตกต่างพื้นฐานระหว่างอัลกอริทึมแบบ Supervised กับ Unsupervised ให้เคลียร์ๆ หน่อยได้ไหม",
+      "chunks": [
+        "My classmate asked if I could clearly explain the fundamental difference between supervised",
+        "and unsupervised learning algorithms."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:40",
+      "legacyId": "Theme_3-39",
+      "position": 40,
+      "script": "The official documentation stated that the software library would no longer be supported after the end of this year.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เอกสารคู่มืออย่างเป็นทางการระบุไว้ว่าซอฟต์แวร์ไลบรารีตัวนี้จะไม่ได้รับการสนับสนุนหรืออัปเดตอีกต่อไปหลังจากสิ้นปีนี้",
+      "chunks": [
+        "The official documentation stated",
+        "that the software library would no longer be supported after the end of this year."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:41",
+      "legacyId": "Theme_3-40",
+      "position": 41,
+      "script": "As soon as the dataset is fully cleaned and formatted, I will immediately start training the predictive model.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทันทีที่ชุดข้อมูลถูกคลีนและจัดฟอร์แมตเสร็จสมบูรณ์ ฉันจะเริ่มเทรนโมเดลทำนายผลทันที",
+      "chunks": [
+        "As soon as the dataset is fully cleaned",
+        "and formatted,",
+        "I will immediately start training the predictive model."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:42",
+      "legacyId": "Theme_3-41",
+      "position": 42,
+      "script": "As soon as the API returns the requested JSON data, the React dashboard will automatically update the interactive charts.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทันทีที่ API ส่งคืนข้อมูล JSON ตามที่ขอไป แดชบอร์ด React จะทำการอัปเดตกราฟแบบอินเทอร์แอกทีฟโดยอัตโนมัติ",
+      "chunks": [
+        "As soon as the API returns the requested JSON data,",
+        "the React dashboard will automatically update the interactive charts."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:43",
+      "legacyId": "Theme_3-42",
+      "position": 43,
+      "script": "As soon as I manage to fix this annoying syntax error, I will safely push my code to the GitHub repository.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทันทีที่ฉันจัดการแก้เออเรอร์ไวยากรณ์น่ารำคาญนี่ได้ ฉันจะพุชโค้ดของฉันขึ้น GitHub ทันที",
+      "chunks": [
+        "As soon as I manage",
+        "to fix this annoying syntax error,",
+        "I will safely push my code",
+        "to the GitHub repository."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:44",
+      "legacyId": "Theme_3-43",
+      "position": 44,
+      "script": "As soon as this stressful semester is finally over, I strongly plan to build a fully autonomous trading bot.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทันทีที่เทอมสุดเครียดนี้จบลงไปสักที ฉันวางแผนแน่วแน่ว่าจะเขียนบอทเทรดหุ้นอัตโนมัติแบบเต็มรูปแบบขึ้นมา",
+      "chunks": [
+        "As soon as this stressful semester is finally over,",
+        "I strongly plan",
+        "to build a fully autonomous trading bot."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:45",
+      "legacyId": "Theme_3-44",
+      "position": 45,
+      "script": "Unless you properly normalize the numerical features, your machine learning model will likely produce heavily biased predictions.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เว้นเสียแต่ว่าคุณจะปรับสเกลตัวเลขให้เป็นบรรทัดฐานอย่างเหมาะสม ไม่งั้นโมเดลแมชชีนเลิร์นนิงของคุณมีแนวโน้มที่จะทำนายผลออกมาแบบเอนเอียงสุดๆ",
+      "chunks": [
+        "Unless you properly normalize the numerical features,",
+        "your machine learning model will likely produce heavily biased predictions."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:46",
+      "legacyId": "Theme_3-45",
+      "position": 46,
+      "script": "Unless we significantly upgrade our current cloud infrastructure, the server will inevitably crash under heavy user traffic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากเราไม่อัปเกรดโครงสร้างพื้นฐานระบบคลาวด์ในปัจจุบันขนานใหญ่ เซิร์ฟเวอร์ก็จะล่มอย่างหลีกเลี่ยงไม่ได้เมื่อเจอผู้ใช้งานจำนวนมาก",
+      "chunks": [
+        "Unless we significantly upgrade our current cloud infrastructure,",
+        "the server will inevitably crash under heavy user traffic."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:47",
+      "legacyId": "Theme_3-46",
+      "position": 47,
+      "script": "Unless you handle the missing data points logically, the resulting statistical analysis will be completely meaningless and flawed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าคุณไม่จัดการกับข้อมูลที่ขาดหายไปอย่างมีตรรกะ ผลการวิเคราะห์ทางสถิติที่ออกมาก็จะไม่มีความหมายและผิดเพี้ยนไปหมด",
+      "chunks": [
+        "Unless you handle the missing data points logically,",
+        "the resulting statistical analysis will be completely meaningless",
+        "and flawed."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:48",
+      "legacyId": "Theme_3-47",
+      "position": 48,
+      "script": "Unless I find a much more computationally efficient algorithm, this Python script will literally take several days to execute.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เว้นแต่ฉันจะหาอัลกอริทึมที่ประมวลผลได้เร็วกว่านี้มากๆ ได้ สคริปต์ไพธอนตัวนี้คงกินเวลาทำงานเป็นวันๆ แน่นอน",
+      "chunks": [
+        "Unless I find a much more computationally efficient algorithm,",
+        "this Python script will literally take several days",
+        "to execute."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:49",
+      "legacyId": "Theme_3-48",
+      "position": 49,
+      "script": "It is absolutely crucial that we thoroughly test the chatbot's logic before deploying it to the live production environment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันเป็นเรื่องสำคัญขั้นสุดยอดเลยที่เราต้องทดสอบโลจิกของแชทบอทให้ละเอียดถี่ถ้วนก่อนที่จะปล่อยมันขึ้นระบบจริง",
+      "chunks": [
+        "It is absolutely crucial",
+        "that we thoroughly test the chatbot's logic before deploying it",
+        "to the live production environment."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:50",
+      "legacyId": "Theme_3-49",
+      "position": 50,
+      "script": "It is highly important that you clearly comment your code so that other developers can quickly understand your logic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป็นเรื่องสำคัญมากที่คุณจะต้องคอมเมนต์อธิบายโค้ดให้ชัดเจน เพื่อให้นักพัฒนาคนอื่นสามารถทำความเข้าใจวิธีคิดของคุณได้อย่างรวดเร็ว",
+      "chunks": [
+        "It is highly important",
+        "that you clearly comment your code",
+        "so",
+        "that other developers can quickly understand your logic."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:51",
+      "legacyId": "Theme_3-50",
+      "position": 51,
+      "script": "It is strictly necessary that we secure the database properly to prevent unauthorized access to sensitive user information.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันเป็นสิ่งจำเป็นอย่างเคร่งครัดที่เราต้องรักษาความปลอดภัยฐานข้อมูลให้ดี เพื่อป้องกันการเข้าถึงข้อมูลอ่อนไหวของผู้ใช้โดยไม่ได้รับอนุญาต",
+      "chunks": [
+        "It is strictly necessary",
+        "that we secure the database properly",
+        "to prevent unauthorized access",
+        "to sensitive user information."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:52",
+      "legacyId": "Theme_3-51",
+      "position": 52,
+      "script": "It is strongly recommended that data scientists continuously learn new mathematical concepts to stay relevant in the fast-paced industry.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอแนะนำอย่างยิ่งให้นักวิทยาการข้อมูลหมั่นเรียนรู้แนวคิดทางคณิตศาสตร์ใหม่ๆ อยู่เสมอ เพื่อให้ก้าวทันอุตสาหกรรมที่เปลี่ยนแปลงไปอย่างรวดเร็ว",
+      "chunks": [
+        "It is strongly recommended",
+        "that data scientists continuously learn new mathematical concepts",
+        "to stay relevant",
+        "in the fast-paced industry."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:53",
+      "legacyId": "Theme_3-52",
+      "position": 53,
+      "script": "While the neural network was slowly training in the background, I started thoroughly reviewing my calculus lecture notes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ระหว่างที่นิวรัลเน็ตเวิร์กกำลังค่อยๆ เทรนตัวมันเองเป็นแบ็คกราวด์อยู่ ฉันก็เริ่มหยิบช็อตโน้ตวิชาแคลคูลัสมาอ่านทบทวนอย่างละเอียด",
+      "chunks": [
+        "While the neural network was slowly training",
+        "in the background,",
+        "I started thoroughly reviewing my calculus lecture notes."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:54",
+      "legacyId": "Theme_3-53",
+      "position": 54,
+      "script": "While my complex code was compiling, I quickly checked the latest market updates on my high-growth tech stocks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในระหว่างที่โค้ดสุดซับซ้อนของฉันกำลังคอมไพล์อยู่ ฉันก็แอบแว็บไปเช็คอัปเดตตลาดล่าสุดของหุ้นเทคเติบโตสูงในพอร์ตอย่างรวดเร็ว",
+      "chunks": [
+        "While my complex code was compiling,",
+        "I quickly checked the latest market updates",
+        "on my high-growth tech stocks."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:55",
+      "legacyId": "Theme_3-54",
+      "position": 55,
+      "script": "While the automated script was scraping data from the target website, my laptop suddenly ran out of memory.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนที่สคริปต์อัตโนมัติกำลังดูดข้อมูลจากเว็บไซต์เป้าหมาย จู่ๆ แรมในแล็ปท็อปของฉันก็เต็มขึ้นมากะทันหัน",
+      "chunks": [
+        "While the automated script was scraping data from the target website,",
+        "my laptop suddenly ran out of memory."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:56",
+      "legacyId": "Theme_3-55",
+      "position": 56,
+      "script": "While we were deeply discussing the system architecture, we collectively realized that the current database schema was fundamentally flawed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ระหว่างที่พวกเรากำลังถกเถียงเรื่องสถาปัตยกรรมระบบกันอย่างลึกซึ้ง พวกเราก็ตระหนักได้พร้อมกันว่าโครงสร้างฐานข้อมูลปัจจุบันมันผิดพลาดตั้งแต่รากฐานเลย",
+      "chunks": [
+        "While we were deeply discussing the system architecture,",
+        "we collectively realized",
+        "that the current database schema was fundamentally flawed."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:57",
+      "legacyId": "Theme_3-56",
+      "position": 57,
+      "script": "In order to significantly improve the model's accuracy, we need to gather a much larger and more diverse dataset.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อที่จะพัฒนาความแม่นยำของโมเดลให้ดีขึ้นอย่างเห็นได้ชัด พวกเราต้องรวบรวมชุดข้อมูลที่ใหญ่และมีความหลากหลายมากกว่านี้เยอะ",
+      "chunks": [
+        "In order",
+        "to significantly improve the model's accuracy,",
+        "we need",
+        "to gather a much larger",
+        "and more diverse dataset."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:58",
+      "legacyId": "Theme_3-57",
+      "position": 58,
+      "script": "In order to become a highly successful AI engineer, you must profoundly understand both programming and advanced statistics.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อที่จะก้าวไปเป็นวิศวกร AI ที่ประสบความสำเร็จขั้นสูง คุณต้องมีความเข้าใจอย่างลึกซึ้งทั้งในด้านการเขียนโปรแกรมและสถิติขั้นสูง",
+      "chunks": [
+        "In order",
+        "to become a highly successful AI engineer,",
+        "you must profoundly understand both programming",
+        "and advanced statistics."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:59",
+      "legacyId": "Theme_3-58",
+      "position": 59,
+      "script": "In order to handle large-scale data processing efficiently, many modern companies are actively migrating to cloud computing platforms.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อรองรับการประมวลผลข้อมูลขนาดใหญ่ได้อย่างมีประสิทธิภาพ บริษัทสมัยใหม่หลายแห่งกำลังย้ายระบบไปใช้แพลตฟอร์มคลาวด์คอมพิวติ้งอย่างตื่นตัว",
+      "chunks": [
+        "In order",
+        "to handle large-scale data processing efficiently,",
+        "many modern companies are actively migrating",
+        "to cloud computing platforms."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:60",
+      "legacyId": "Theme_3-59",
+      "position": 60,
+      "script": "In order to make the portfolio dashboard highly interactive, I intentionally implemented several dynamic and responsive React components.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อให้แดชบอร์ดพอร์ตโฟลิโอมีความอินเทอร์แอกทีฟสูง ฉันตั้งใจเขียนคอมโพเนนต์ React แบบไดนามิกที่ตอบสนองรวดเร็วเข้าไปหลายตัว",
+      "chunks": [
+        "In order",
+        "to make the portfolio dashboard highly interactive,",
+        "I intentionally implemented several dynamic",
+        "and responsive React components."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:61",
+      "legacyId": "Theme_3-60",
+      "position": 61,
+      "script": "Despite meticulously following the official documentation step by step, the software installation still mysteriously failed on my machine.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทั้งที่ทำตามคู่มืออย่างเป็นทางการแบบเป๊ะๆ ทุกขั้นตอนแล้ว แต่การติดตั้งซอฟต์แวร์บนเครื่องของฉันก็ยังคงล้มเหลวอย่างเป็นปริศนาอยู่ดี",
+      "chunks": [
+        "Despite meticulously following the official documentation step by step,",
+        "the software installation still mysteriously failed",
+        "on my machine."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:62",
+      "legacyId": "Theme_3-61",
+      "position": 62,
+      "script": "Despite the initial annoying bugs in the system, the AI chatbot performed remarkably well during the final class demonstration.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้ระบบจะมีบั๊กกวนใจในช่วงแรกๆ แต่แชทบอท AI ก็ทำงานได้ดีอย่างน่าทึ่งตอนพรีเซนต์รอบไฟนอลในคลาส",
+      "chunks": [
+        "Despite the initial annoying bugs",
+        "in the system,",
+        "the AI chatbot performed remarkably well during the final class demonstration."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:63",
+      "legacyId": "Theme_3-62",
+      "position": 63,
+      "script": "Despite having a very limited and noisy dataset, the predictive model was still able to identify some interesting hidden patterns.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้ว่าจะมีชุดข้อมูลที่จำกัดมากและเต็มไปด้วยน้อยส์ แต่โมเดลทำนายผลก็ยังสามารถค้นพบรูปแบบที่ซ่อนอยู่ที่น่าสนใจได้บ้าง",
+      "chunks": [
+        "Despite having a very limited",
+        "and noisy dataset,",
+        "the predictive model was still able",
+        "to identify some interesting hidden patterns."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:64",
+      "legacyId": "Theme_3-63",
+      "position": 64,
+      "script": "Despite his notoriously stubborn personality, he is undoubtedly one of the most brilliant programmers in our university faculty.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้จะได้ชื่อว่าเป็นคนดื้อรั้นสุดๆ แต่เขาก็เป็นหนึ่งในโปรแกรมเมอร์ที่หัวกะทิที่สุดในคณะของมหาวิทยาลัยเราอย่างไม่ต้องสงสัย",
+      "chunks": [
+        "Despite his notoriously stubborn personality,",
+        "he is undoubtedly one of the most brilliant programmers",
+        "in our university faculty."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:65",
+      "legacyId": "Theme_3-64",
+      "position": 65,
+      "script": "Not only did the optimized algorithm run much faster, but it also consumed significantly less memory than the previous version.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อัลกอริทึมที่ถูกปรับแต่งมาใหม่ไม่เพียงแต่จะรันได้เร็วขึ้นมาก แต่มันยังกินแรมน้อยกว่าเวอร์ชันก่อนหน้าอย่างเห็นได้ชัดด้วย",
+      "chunks": [
+        "Not only did the optimized algorithm run much faster,",
+        "but it also consumed significantly less memory than the previous version."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:66",
+      "legacyId": "Theme_3-65",
+      "position": 66,
+      "script": "Not only can this advanced AI generate highly realistic images, but it can also write incredibly complex computer code.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "AI ขั้นสูงตัวนี้ไม่เพียงแต่จะสามารถสร้างภาพที่สมจริงสุดๆ ได้เท่านั้น แต่มันยังสามารถเขียนโค้ดคอมพิวเตอร์ที่ซับซ้อนอย่างเหลือเชื่อได้อีกด้วย",
+      "chunks": [
+        "Not only can this advanced AI generate highly realistic images,",
+        "but it can also write incredibly complex computer code."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:67",
+      "legacyId": "Theme_3-66",
+      "position": 67,
+      "script": "Not only did we finish the demanding data science project on time, but we also received the highest grade in the class.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเราไม่เพียงแต่จะทำโปรเจกต์ดาต้าซายน์สุดโหดเสร็จทันเวลาเท่านั้น แต่ยังได้คะแนนสูงสุดในห้องอีกต่างหาก",
+      "chunks": [
+        "Not only did we finish the demanding data science project",
+        "on time,",
+        "but we also received the highest grade",
+        "in the class."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:68",
+      "legacyId": "Theme_3-67",
+      "position": 68,
+      "script": "Not only is Python an excellent programming language for data analysis, but it is also highly versatile for backend web development.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไพธอนไม่ได้เป็นแค่ภาษาโปรแกรมที่ยอดเยี่ยมสำหรับการวิเคราะห์ข้อมูลเท่านั้น แต่มันยังอเนกประสงค์สุดๆ สำหรับการทำเว็บฝั่งแบ็คเอนด์อีกด้วย",
+      "chunks": [
+        "Not only is Python an excellent programming language",
+        "for data analysis,",
+        "but it is also highly versatile",
+        "for backend web development."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:69",
+      "legacyId": "Theme_3-68",
+      "position": 69,
+      "script": "It takes a significant amount of computational power and time to train a deep neural network entirely from scratch.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันต้องใช้ทั้งพลังประมวลผลและเวลาอย่างมหาศาลในการเทรนโครงข่ายประสาทเทียมเชิงลึกแบบเริ่มนับจากศูนย์ใหม่ทั้งหมด",
+      "chunks": [
+        "It takes a significant amount of computational power",
+        "and time",
+        "to train a deep neural network entirely from scratch."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:70",
+      "legacyId": "Theme_3-69",
+      "position": 70,
+      "script": "It takes months of consistent and disciplined practice to truly master the intricate concepts of machine learning algorithms.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันต้องใช้เวลาฝึกฝนอย่างสม่ำเสมอและมีวินัยเป็นเดือนๆ กว่าจะเข้าใจคอนเซปต์อันซับซ้อนของอัลกอริทึมแมชชีนเลิร์นนิงได้อย่างแท้จริง",
+      "chunks": [
+        "It takes months of consistent",
+        "and disciplined practice",
+        "to truly master the intricate concepts of machine learning algorithms."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:71",
+      "legacyId": "Theme_3-70",
+      "position": 71,
+      "script": "It takes careful and strategic planning to perfectly design a scalable database architecture that can handle millions of active users.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "การจะออกแบบสถาปัตยกรรมฐานข้อมูลที่ขยายสเกลเพื่อรองรับผู้ใช้งานพร้อมกันนับล้านคนได้อย่างสมบูรณ์แบบนั้น ต้องอาศัยการวางแผนเชิงกลยุทธ์ที่รอบคอบมากๆ",
+      "chunks": [
+        "It takes careful",
+        "and strategic planning",
+        "to perfectly design a scalable database architecture",
+        "that can handle millions of active users."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:72",
+      "legacyId": "Theme_3-71",
+      "position": 72,
+      "script": "It takes a lot of mental patience to manually label thousands of training images for a computer vision university project.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันต้องใช้ความอดทนทางจิตใจสูงมากในการมานั่งแปะป้ายกำกับรูปภาพสำหรับเทรนโมเดลหลายพันรูปด้วยมือ เพื่อทำโปรเจกต์วิชาคอมพิวเตอร์วิทัศน์",
+      "chunks": [
+        "It takes a lot of mental patience",
+        "to manually label thousands of training images",
+        "for a computer vision university project."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:73",
+      "legacyId": "Theme_3-72",
+      "position": 73,
+      "script": "I am really looking forward to applying these advanced machine learning techniques to real-world financial data in the stock market.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตั้งหน้าตั้งตารอที่จะได้นำเทคนิคแมชชีนเลิร์นนิงขั้นสูงพวกนี้ไปประยุกต์ใช้กับข้อมูลการเงินจริงๆ ในตลาดหุ้น",
+      "chunks": [
+        "I am really looking forward",
+        "to applying these advanced machine learning techniques",
+        "to real-world financial data",
+        "in the stock market."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:74",
+      "legacyId": "Theme_3-73",
+      "position": 74,
+      "script": "I am genuinely looking forward to officially presenting our AI chatbot project to the university professors next week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตั้งตารอคอยที่จะได้พรีเซนต์โปรเจกต์แชทบอท AI ของพวกเราให้อาจารย์มหาลัยดูอย่างเป็นทางการในสัปดาห์หน้าจริงๆ",
+      "chunks": [
+        "I am genuinely looking forward",
+        "to officially presenting our AI chatbot project",
+        "to the university professors next week."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:75",
+      "legacyId": "Theme_3-74",
+      "position": 75,
+      "script": "I am incredibly looking forward to graduating and officially starting my professional career as an AI and data engineer.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตั้งตารอวันที่จะได้เรียนจบและเริ่มต้นสายอาชีพวิศวกร AI และดาต้าอย่างเป็นทางการแบบสุดๆ",
+      "chunks": [
+        "I am incredibly looking forward",
+        "to graduating",
+        "and officially starting my professional career as an AI",
+        "and data engineer."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:76",
+      "legacyId": "Theme_3-75",
+      "position": 76,
+      "script": "I am looking forward to deeply exploring how artificial intelligence will eventually revolutionize space exploration in the near future.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตั้งตารอที่จะได้สำรวจเจาะลึกว่าสุดท้ายแล้วปัญญาประดิษฐ์จะเข้ามาปฏิวัติวงการสำรวจอวกาศในอนาคตอันใกล้นี้ได้อย่างไร",
+      "chunks": [
+        "I am looking forward",
+        "to deeply exploring how artificial intelligence will eventually revolutionize space exploration",
+        "in the near future."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:77",
+      "legacyId": "Theme_3-76",
+      "position": 77,
+      "script": "Make sure you securely back up your database before running any script that drastically alters the existing table structures.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตรวจสอบให้แน่ใจว่าคุณได้สำรองฐานข้อมูลไว้ปลอดภัยแล้ว ก่อนที่จะรันสคริปต์อะไรก็ตามที่จะเข้าไปเปลี่ยนโครงสร้างตารางเดิมขนานใหญ่",
+      "chunks": [
+        "Make sure you securely back up your database before running any script",
+        "that drastically alters the existing table structures."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:78",
+      "legacyId": "Theme_3-77",
+      "position": 78,
+      "script": "Make sure the dataset is perfectly clean; otherwise, the machine learning model will just learn from incorrect or noisy data.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทำข้อมูลให้คลีนแบบเป๊ะๆ นะ ไม่งั้นโมเดลแมชชีนเลิร์นนิงก็จะได้เรียนรู้จากข้อมูลที่ผิดๆ หรือเต็มไปด้วยน้อยส์",
+      "chunks": [
+        "Make sure the dataset is perfectly clean; otherwise,",
+        "the machine learning model will just learn from incorrect",
+        "or noisy data."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:79",
+      "legacyId": "Theme_3-78",
+      "position": 79,
+      "script": "Make sure you completely understand the underlying mathematics before simply importing and using a pre-built machine learning library.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จงทำความเข้าใจคณิตศาสตร์ที่อยู่เบื้องหลังให้ถ่องแท้ก่อนที่จะใช้วิธีง่ายๆ อย่างการอิมพอร์ตไลบรารีแมชชีนเลิร์นนิงสำเร็จรูปมาใช้",
+      "chunks": [
+        "Make sure you completely understand the underlying mathematics before simply importing",
+        "and using a pre-built machine learning library."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_3:80",
+      "legacyId": "Theme_3-79",
+      "position": 80,
+      "script": "Make sure your private API keys are securely hidden before carelessly pushing your source code to a public GitHub repository.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เช็คให้ชัวร์ว่าซ่อนคีย์ API ส่วนตัวไว้ปลอดภัยแล้ว ก่อนที่จะเผลอพุชซอร์สโค้ดของคุณขึ้นบน GitHub แบบสาธารณะ",
+      "chunks": [
+        "Make sure your private API keys are securely hidden before carelessly pushing your source code",
+        "to a public GitHub repository."
+      ]
+    }
+  ]
+}

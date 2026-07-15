@@ -1,0 +1,127 @@
+{
+  "id": "U14-L10",
+  "number": 10,
+  "title": "ด้วยความยินดีค่ะ ขอบคุณสำหรับกำลังใจนะคะคุณจาง ขอให้คุณพบเจอแต่สิ่งดีๆ ราบรื่นเช่นกันค่ะ สวัสดีค่ะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U14-L10-C091",
+      "legacyId": "U14-L10-C091",
+      "position": 1,
+      "script": "不辛苦，谢谢张总的鼓励，祝您也一切顺心，再见！",
+      "pronunciation": "bù xīn kǔ, xiè xie zhāng zǒng de gǔ lì, zhù nín yě yí qiè shùn xīn, zài jiàn!",
+      "phonetic": "ปู้ ซิน ขู่, เซี่ย เสี่ย จาง จ่ง เตอ กู่ ลี่, จู้ หนิน เยี่ย อี๋ เชี่ย สวิ่น ซิน, ไซ้ เจี้ยน!",
+      "translation": "ด้วยความยินดีค่ะ ขอบคุณสำหรับกำลังใจนะคะคุณจาง ขอให้คุณพบเจอแต่สิ่งดีๆ ราบรื่นเช่นกันค่ะ สวัสดีค่ะ",
+      "chunks": [
+        "不辛苦，谢谢张总的鼓励，祝您也一切顺心，再见！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L10-C092",
+      "legacyId": "U14-L10-C092",
+      "position": 2,
+      "script": "今天我有点儿累。",
+      "pronunciation": "jīn tiān wǒ yǒu diǎnr lèi.",
+      "phonetic": "จิน เทียน หว่อ โหย่ว เดี๋ยร์ เลุ่ย.",
+      "translation": "วันนี้ฉันเหนื่อย นิดหน่อย",
+      "chunks": [
+        "今天我有点儿累。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L10-C093",
+      "legacyId": "U14-L10-C093",
+      "position": 3,
+      "script": "昨天我去见朋友了。",
+      "pronunciation": "zuó tiān wǒ qù jiàn péng you le.",
+      "phonetic": "จั๋ว เทียน หว่อ ชวี่ เจี้ยน เผิง โย่ว เลอ.",
+      "translation": "เมื่อวานฉันไปเจอเพื่อนมา",
+      "chunks": [
+        "昨天我去见朋友了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L10-C094",
+      "legacyId": "U14-L10-C094",
+      "position": 4,
+      "script": "明天我要去上班。",
+      "pronunciation": "míng tiān wǒ yào qù shàng bān.",
+      "phonetic": "หมิง เทียน หว่อ เย้า ชวี่ ซ้าง ปาน.",
+      "translation": "พรุ่งนี้ฉันต้องไปทำงาน",
+      "chunks": [
+        "明天我要去上班。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L10-C095",
+      "legacyId": "U14-L10-C095",
+      "position": 5,
+      "script": "平时我喜欢喝茶。",
+      "pronunciation": "píng shí wǒ xǐ huan hē chá.",
+      "phonetic": "ผิง สื้อ หว่อ สี่ หวน เฮอ ฉา.",
+      "translation": "ปกติฉันชอบดื่มชา",
+      "chunks": [
+        "平时我喜欢喝茶。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L10-C096",
+      "legacyId": "U14-L10-C096",
+      "position": 6,
+      "script": "先吃饭，然后再出去。",
+      "pronunciation": "xiān chī fàn, rán hòu zài chū qù.",
+      "phonetic": "เซียน ชือ ฟ้าน, รัน โห่ว ไซ้ ชู ชวี่.",
+      "translation": "กินข้าวก่อน แล้วหลังจากนั้นค่อยออกไป",
+      "chunks": [
+        "先吃饭，然后再出去。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L10-C097",
+      "legacyId": "U14-L10-C097",
+      "position": 7,
+      "script": "因为下雨，所以我没去。",
+      "pronunciation": "yīn wèi xià yǔ, suǒ yǐ wǒ méi qù.",
+      "phonetic": "อิน เว่ย เซี่ย อวี่, สั่ว อี่ หว่อ เหมย ชวี่.",
+      "translation": "เพราะว่าฝนตก ฉันก็เลยไม่ได้ไป",
+      "chunks": [
+        "因为下雨，所以我没去。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L10-C098",
+      "legacyId": "U14-L10-C098",
+      "position": 8,
+      "script": "如果有机会，我想去中国。",
+      "pronunciation": "rú guǒ yǒu jī huì, wǒ xiǎng qù zhōng guó.",
+      "phonetic": "หรู ก๋ัว โหย่ว จี หุ่ย, หว่อ แฉี่ยง ชวี่ จง ก๋ัว.",
+      "translation": "ถ้ามีโอกาส ฉันอยากไปประเทศจีน",
+      "chunks": [
+        "如果有机会，我想去中国。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L10-C099",
+      "legacyId": "U14-L10-C099",
+      "position": 9,
+      "script": "我最喜欢的事情是听音乐。",
+      "pronunciation": "wǒ zuì xǐ huan de shì qing shì tīng yīn yuè.",
+      "phonetic": "หว่อ จุ้ย สี่ หวน เตอ สื้อ ฉิง สื้อ ทิง อิน ยเว่.",
+      "translation": "สิ่งที่ฉันชอบที่สุดคือการฟังเพลง",
+      "chunks": [
+        "我最喜欢的事情是听音乐。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L10-C100",
+      "legacyId": "U14-L10-C100",
+      "position": 10,
+      "script": "我的目标是学好中文。",
+      "pronunciation": "wǒ de mù biāo shì xué hǎo zhōng wén.",
+      "phonetic": "หว่อ เตอ มู่ เปียว สื้อ เสวี่ย ห่าว จง เหวิน.",
+      "translation": "เป้าหมายของฉันคือเรียนภาษาจีนให้เก่ง",
+      "chunks": [
+        "我的目标是学好中文。"
+      ]
+    }
+  ]
+}

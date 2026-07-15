@@ -1,0 +1,56 @@
+{
+  "id": "session-2-3",
+  "number": 5,
+  "title": "Session 2.3: Thai Context & Personal Scenarios",
+  "description": "English sentence practice",
+  "lessons": [
+    {
+      "id": "A23",
+      "number": 1,
+      "title": "A. AI & Data Science — อธิบายงานให้คนอื่นฟัง",
+      "chunkCount": 20
+    },
+    {
+      "id": "B23",
+      "number": 2,
+      "title": "B. คุยกับ Professor / TA ต่างชาติ",
+      "chunkCount": 20
+    },
+    {
+      "id": "C23",
+      "number": 3,
+      "title": "C. สุขภาพ & คลินิก / โรงพยาบาล",
+      "chunkCount": 20
+    },
+    {
+      "id": "D23",
+      "number": 4,
+      "title": "D. ร้านอาหาร & สั่งอาหาร",
+      "chunkCount": 15
+    },
+    {
+      "id": "E23",
+      "number": 5,
+      "title": "E. ช้อปปิ้ง & ต่อรอง",
+      "chunkCount": 15
+    },
+    {
+      "id": "F23",
+      "number": 6,
+      "title": "F. อธิบายวัฒนธรรม & อาหารไทยให้ต่างชาติ",
+      "chunkCount": 15
+    },
+    {
+      "id": "G23",
+      "number": 7,
+      "title": "G. LinkedIn / Email สมัครงาน & Cover Letter",
+      "chunkCount": 20
+    },
+    {
+      "id": "H23",
+      "number": 8,
+      "title": "H. การเงิน & ธนาคาร",
+      "chunkCount": 15
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U06-L06",
+  "number": 6,
+  "title": "ฉันอยากซื้อโน้ตบุ๊กสักเครื่อง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U06-L06-C051",
+      "legacyId": "U06-L06-C051",
+      "position": 1,
+      "script": "我想买一台笔记本电脑。",
+      "pronunciation": "wǒ xiǎng mǎi yì tái bǐ jì běn diàn nǎo.",
+      "phonetic": "หว่อ แฉี่ยง หม่าย อี้ ไถ ปี่ จี้ เปิ่น เตี้ยน แหน่ว.",
+      "translation": "ฉันอยากซื้อโน้ตบุ๊กสักเครื่อง",
+      "chunks": [
+        "我想买一台笔记本电脑。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L06-C052",
+      "legacyId": "U06-L06-C052",
+      "position": 2,
+      "script": "这个保修期是多久？",
+      "pronunciation": "zhè gè bǎo xiū qī shì duō jiǔ?",
+      "phonetic": "เจ้อ เก้อ เป่า ซิว ชี สื้อ ตัว จิ่ว?",
+      "translation": "อันนี้ระยะเวลาประกันนานเท่าไหร่",
+      "chunks": [
+        "这个保修期是多久？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L06-C053",
+      "legacyId": "U06-L06-C053",
+      "position": 3,
+      "script": "保修一年，全国联保。",
+      "pronunciation": "bǎo xiū yì nián, quán guó lián bǎo.",
+      "phonetic": "เป่า ซิว อี เหนียน, ฉวาน ก๋ัว เหลียน เป่า.",
+      "translation": "ประกันหนึ่งปี ประกันศูนย์ทั่วประเทศ",
+      "chunks": [
+        "保修一年，全国联保。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L06-C054",
+      "legacyId": "U06-L06-C054",
+      "position": 4,
+      "script": "网购一般比较便宜。",
+      "pronunciation": "wǎng gòu yì bān bǐ jiào pián yi.",
+      "phonetic": "หวั่ง ก้าว อี้ ปาน ปี่ เจี้ยว เผียน อิ.",
+      "translation": "ซื้อของออนไลน์ปกติจะถูกกว่า",
+      "chunks": [
+        "网购一般比较便宜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L06-C055",
+      "legacyId": "U06-L06-C055",
+      "position": 5,
+      "script": "这个快递几天能到？",
+      "pronunciation": "zhè gè kuài dì jǐ tiān néng dào?",
+      "phonetic": "เจ้อ เก้อ คว้าย ตี้ จี๋ เทียน เหนิง ต้าว?",
+      "translation": "พัสดุนี้กี่วันถึง",
+      "chunks": [
+        "这个快递几天能到？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L06-C056",
+      "legacyId": "U06-L06-C056",
+      "position": 6,
+      "script": "可以包邮吗？",
+      "pronunciation": "kě yǐ bāo yóu ma?",
+      "phonetic": "เขอ อี่ เปา โหย่ว มะ?",
+      "translation": "ส่งฟรี (รวมค่าส่ง) ได้ไหม",
+      "chunks": [
+        "可以包邮吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L06-C057",
+      "legacyId": "U06-L06-C057",
+      "position": 7,
+      "script": "我的快递怎么还没到？",
+      "pronunciation": "wǒ de kuài dì zěn me hái méi dào?",
+      "phonetic": "หว่อ เตอ คว้าย ตี้ เจิ่น เมอ หาย เหมย ต้าว?",
+      "translation": "พัสดุของฉันทำไมยังมาไม่ถึงอีก",
+      "chunks": [
+        "我的快递怎么还没到？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L06-C058",
+      "legacyId": "U06-L06-C058",
+      "position": 8,
+      "script": "帮我查一下单号，谢谢。",
+      "pronunciation": "bāng wǒ chá yí xià dān hào, xiè xie.",
+      "phonetic": "ปัง หว่อ ฉา อี๋ เซี่ย ตาน ห้าว, เซี่ย เสี่ย.",
+      "translation": "ช่วยเช็กเลขพัสดุให้ฉันหน่อย ขอบคุณ",
+      "chunks": [
+        "帮我查一下单号，谢谢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L06-C059",
+      "legacyId": "U06-L06-C059",
+      "position": 9,
+      "script": "这家店的信誉很好。",
+      "pronunciation": "zhè jiā diàn de xìn yù hěn hǎo.",
+      "phonetic": "เจ้อ เจีย เตี้ยน เตอ ซิ้น อวี่ เหิ่น ห่าว.",
+      "translation": "เครดิต/ความน่าเชื่อถือของร้านนี้ดีมาก",
+      "chunks": [
+        "这家店的信誉很好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L06-C060",
+      "legacyId": "U06-L06-C060",
+      "position": 10,
+      "script": "买家评价怎么样？",
+      "pronunciation": "mǎi jiā píng jià zěn me yàng?",
+      "phonetic": "หม่าย เจีย ผิง เจี้ย เจิ่น เมอ ย่าง?",
+      "translation": "รีวิวจากผู้ซื้อเป็นยังไงบ้าง",
+      "chunks": [
+        "买家评价怎么样？"
+      ]
+    }
+  ]
+}

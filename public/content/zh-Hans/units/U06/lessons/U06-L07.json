@@ -1,0 +1,127 @@
+{
+  "id": "U06-L07",
+  "number": 7,
+  "title": "มีคนให้รีวิวแง่บวก (5 ดาว) เยอะมาก",
+  "chunks": [
+    {
+      "id": "zh-Hans:U06-L07-C061",
+      "legacyId": "U06-L07-C061",
+      "position": 1,
+      "script": "有很多人给好评。",
+      "pronunciation": "yǒu hěn duō rén gěi hǎo píng.",
+      "phonetic": "โหย่ว เหิ่น ตัว เหริน เก๋ย ห่าว ผิง.",
+      "translation": "มีคนให้รีวิวแง่บวก (5 ดาว) เยอะมาก",
+      "chunks": [
+        "有很多人给好评。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L07-C062",
+      "legacyId": "U06-L07-C062",
+      "position": 2,
+      "script": "我想退掉这个订单。",
+      "pronunciation": "wǒ xiǎng tuì diào zhè gè dìng dān.",
+      "phonetic": "หว่อ แฉี่ยง ทุ่ย เตี้ยว เจ้อ เก้อ ติ้ง ตาน.",
+      "translation": "ฉันอยากจะยกเลิกออเดอร์นี้",
+      "chunks": [
+        "我想退掉这个订单。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L07-C063",
+      "legacyId": "U06-L07-C063",
+      "position": 3,
+      "script": "退货的运费谁付？",
+      "pronunciation": "tuì huò de yùn fèi shéi fù?",
+      "phonetic": "ทุ่ย หว้อ เตอ ยวิ่น เฟ่ย เษ่ย ฟู่?",
+      "translation": "ค่าส่งของคืนใครเป็นคนจ่าย",
+      "chunks": [
+        "退货的运费谁付？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L07-C064",
+      "legacyId": "U06-L07-C064",
+      "position": 4,
+      "script": "卖家包退货运费。",
+      "pronunciation": "mài jiā bāo tuì huò yùn fèi.",
+      "phonetic": "ม้าย เจีย เปา ทุ่ย หว้อ ยวิ่น เฟ่ย.",
+      "translation": "ผู้ขายรับผิดชอบค่าส่งของคืนให้",
+      "chunks": [
+        "卖家包退货运费。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L07-C065",
+      "legacyId": "U06-L07-C065",
+      "position": 5,
+      "script": "小票在袋子里，请拿好。",
+      "pronunciation": "xiǎo piào zài dài zi lǐ, qǐng ná hǎo.",
+      "phonetic": "เสียว เพี้ยว ไซ้ ต้าย จิ หลี่, ฉิ่ง น๋า ห่าว.",
+      "translation": "ใบเสร็จอยู่ในถุงแล้ว ถือดีๆ นะครับ/ค่ะ",
+      "chunks": [
+        "小票在袋子里，请拿好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L07-C066",
+      "legacyId": "U06-L07-C066",
+      "position": 6,
+      "script": "如果弄丢了小票就不能换了。",
+      "pronunciation": "rú guǒ nòng diū le xiǎo piào jiù bù néng huàn le.",
+      "phonetic": "หรู ก๋ัว น่ง ติว เลอ เสียว เพี้ยว จิ้ว ปู้ เหนิง ห้วน เลอ.",
+      "translation": "ถ้าทำใบเสร็จหายจะเปลี่ยนไม่ได้แล้วนะ",
+      "chunks": [
+        "如果弄丢了小票就不能换了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L07-C067",
+      "legacyId": "U06-L07-C067",
+      "position": 7,
+      "script": "这个可以开发票吗？",
+      "pronunciation": "kě yǐ kāi fā piào ma?",
+      "phonetic": "เขอ อี่ ไค ฟา เพี้ยว มะ?",
+      "translation": "อันนี้ออกใบกำกับภาษีได้ไหม",
+      "chunks": [
+        "这个可以开发票吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L07-C068",
+      "legacyId": "U06-L07-C068",
+      "position": 8,
+      "script": "可以，请留下您的抬头和税号。",
+      "pronunciation": "kě yǐ, qǐng liú xià nín de tái tóu hé shuì hào.",
+      "phonetic": "เขอ อี่, ฉิ่ง หลิว เซี่ย หนิน เตอ ไถ โถ่ว เหอ ซุ่ย ห้าว.",
+      "translation": "ได้ครับ กรุณาทิ้งชื่อหัวข้อและเลขประจำตัวผู้เสียภาษีไว้",
+      "chunks": [
+        "可以，请留下您的抬头和税号。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L07-C069",
+      "legacyId": "U06-L07-C069",
+      "position": 9,
+      "script": "我想买特产带回国。",
+      "pronunciation": "wǒ xiǎng mǎi tè chǎn dài huí guó.",
+      "phonetic": "หว่อ แฉี่ยง หม่าย เท่อ ฉั่น ต้าย หุย ก๋ัว.",
+      "translation": "ฉันอยากซื้อของฝากพื้นเมืองกลับประเทศ",
+      "chunks": [
+        "我想买特产带回国。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L07-C070",
+      "legacyId": "U06-L07-C070",
+      "position": 10,
+      "script": "这附近有免税店吗？",
+      "pronunciation": "zhè fù jìn yǒu miǎn shuì diàn ma?",
+      "phonetic": "เจ้อ ฟู่ จิ้น โหย่ว เมี่ยน ซุ่ย เตี้ยน มะ?",
+      "translation": "แถวนี้มีร้านค้าปลอดภาษี (Duty Free) ไหม",
+      "chunks": [
+        "这附近有免税店吗？"
+      ]
+    }
+  ]
+}

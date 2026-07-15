@@ -1,0 +1,271 @@
+{
+  "id": "K2",
+  "number": 11,
+  "title": "K. Time Relationships",
+  "chunks": [
+    {
+      "id": "en:session-2:K2:1",
+      "legacyId": "K2-0",
+      "position": 1,
+      "script": "When I get home, I will call you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อฉันถึงบ้าน ฉันจะโทรหานะ",
+      "chunks": [
+        "When I get home,",
+        "I will call you."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:2",
+      "legacyId": "K2-1",
+      "position": 2,
+      "script": "When I was a child, I lived in Tokyo.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนฉันเป็นเด็ก ฉันอาศัยในโตเกียว",
+      "chunks": [
+        "When I was a child,",
+        "I lived",
+        "in Tokyo."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:3",
+      "legacyId": "K2-2",
+      "position": 3,
+      "script": "When you arrive, please wait in the lobby.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อคุณมาถึง รอที่ล็อบบี้นะ",
+      "chunks": [
+        "When you arrive,",
+        "please wait",
+        "in the lobby."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:4",
+      "legacyId": "K2-3",
+      "position": 4,
+      "script": "While I was cooking, the phone rang.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนฉันกำลังทำกับข้าว โทรศัพท์ก็ดัง",
+      "chunks": [
+        "While I was cooking,",
+        "the phone rang."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:5",
+      "legacyId": "K2-4",
+      "position": 5,
+      "script": "While you are out, can you buy some milk?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนคุณออกไปข้างนอก ฝากซื้อนมหน่อยได้ไหม?",
+      "chunks": [
+        "While you are out,",
+        "can you buy some milk?"
+      ]
+    },
+    {
+      "id": "en:session-2:K2:6",
+      "legacyId": "K2-5",
+      "position": 6,
+      "script": "Please be quiet while I am on the phone.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยเงียบหน่อยตอนฉันคุยโทรศัพท์",
+      "chunks": [
+        "Please be quiet",
+        "while I am",
+        "on the phone."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:7",
+      "legacyId": "K2-6",
+      "position": 7,
+      "script": "Don't use your phone while you are driving.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่าเล่นมือถือตอนขับรถ",
+      "chunks": [
+        "Don't use your phone",
+        "while you are driving."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:8",
+      "legacyId": "K2-7",
+      "position": 8,
+      "script": "I fell asleep while I was reading.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเผลอหลับตอนกำลังอ่านหนังสือ",
+      "chunks": [
+        "I fell asleep",
+        "while I was reading."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:9",
+      "legacyId": "K2-8",
+      "position": 9,
+      "script": "As soon as I finish, I will let you know.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทันทีที่ฉันทำเสร็จ ฉันจะบอกนะ",
+      "chunks": [
+        "As soon as I finish,",
+        "I will let you know."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:10",
+      "legacyId": "K2-9",
+      "position": 10,
+      "script": "As soon as you see him, tell me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทันทีที่เจอเขา บอกฉันด้วย",
+      "chunks": [
+        "As soon as you see him,",
+        "tell me."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:11",
+      "legacyId": "K2-10",
+      "position": 11,
+      "script": "Before I go to bed, I always brush my teeth.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนเข้านอน ฉันแปรงฟันเสมอ",
+      "chunks": [
+        "Before I go",
+        "to bed,",
+        "I always brush my teeth."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:12",
+      "legacyId": "K2-11",
+      "position": 12,
+      "script": "Before you leave, please turn off the lights.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนคุณไป ช่วยปิดไฟด้วย",
+      "chunks": [
+        "Before you leave,",
+        "please turn off the lights."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:13",
+      "legacyId": "K2-12",
+      "position": 13,
+      "script": "After I finished work, I went to the gym.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หลังจากทำงานเสร็จ ฉันไปยิม",
+      "chunks": [
+        "After I finished work,",
+        "I went",
+        "to the gym."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:14",
+      "legacyId": "K2-13",
+      "position": 14,
+      "script": "After we eat, let’s go for a walk.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หลังจากกินเสร็จ ไปเดินเล่นกันเถอะ",
+      "chunks": [
+        "After we eat,",
+        "let’s go",
+        "for a walk."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:15",
+      "legacyId": "K2-14",
+      "position": 15,
+      "script": "I can’t go out until I finish this.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันออกไปไม่ได้จนกว่าจะทำนี่เสร็จ",
+      "chunks": [
+        "I can’t go out until I finish this."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:16",
+      "legacyId": "K2-15",
+      "position": 16,
+      "script": "I will wait here until you come back.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะรอตรงนี้จนกว่าคุณจะกลับมา",
+      "chunks": [
+        "I will wait here until you come back."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:17",
+      "legacyId": "K2-16",
+      "position": 17,
+      "script": "We stayed at the party until midnight.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราอยู่ที่ปาร์ตี้จนถึงเที่ยงคืน",
+      "chunks": [
+        "We stayed",
+        "at the party until midnight."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:18",
+      "legacyId": "K2-17",
+      "position": 18,
+      "script": "By the time I arrived, they had left.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กว่าฉันจะไปถึง พวกเขาก็กลับไปแล้ว",
+      "chunks": [
+        "By the time I arrived,",
+        "they had left."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:19",
+      "legacyId": "K2-18",
+      "position": 19,
+      "script": "During the meeting, I took notes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ระหว่างประชุม ฉันจดบันทึกไปด้วย",
+      "chunks": [
+        "During the meeting,",
+        "I took notes."
+      ]
+    },
+    {
+      "id": "en:session-2:K2:20",
+      "legacyId": "K2-19",
+      "position": 20,
+      "script": "During the flight, I watched two movies.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ระหว่างบิน ฉันดูหนังไป 2 เรื่อง",
+      "chunks": [
+        "During the flight,",
+        "I watched two movies."
+      ]
+    }
+  ]
+}

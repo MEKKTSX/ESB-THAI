@@ -1,0 +1,127 @@
+{
+  "id": "U01-L08",
+  "number": 8,
+  "title": "ห้องน้ำอยู่ที่ไหน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U01-L08-C071",
+      "legacyId": "U01-L08-C071",
+      "position": 1,
+      "script": "洗手间在哪儿？",
+      "pronunciation": "xǐ shǒu jiān zài nǎr?",
+      "phonetic": "สี่ โส่ว เจียน ไซ้ หน่าร์?",
+      "translation": "ห้องน้ำอยู่ที่ไหน",
+      "chunks": [
+        "洗手间在哪儿？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L08-C072",
+      "legacyId": "U01-L08-C072",
+      "position": 2,
+      "script": "多少钱？",
+      "pronunciation": "duō shǎo qián?",
+      "phonetic": "ตัว เส่า เฉียน?",
+      "translation": "ราคาเท่าไหร่",
+      "chunks": [
+        "多少钱？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L08-C073",
+      "legacyId": "U01-L08-C073",
+      "position": 3,
+      "script": "太贵了，便宜点吧。",
+      "pronunciation": "tài guì le, pián yi diǎn ba.",
+      "phonetic": "ไท่ กุ้ย เลอ, เผียน อิ เตี่ยน ปะ.",
+      "translation": "แพงเกินไป ลดหน่อยสิ",
+      "chunks": [
+        "太贵了，便宜点吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L08-C074",
+      "legacyId": "U01-L08-C074",
+      "position": 4,
+      "script": "可以刷卡吗？",
+      "pronunciation": "kě yǐ shuā kǎ ma?",
+      "phonetic": "เขอ อี่ ซัว ข่า มะ?",
+      "translation": "รูดบัตรได้ไหม",
+      "chunks": [
+        "可以刷卡吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L08-C075",
+      "legacyId": "U01-L08-C075",
+      "position": 5,
+      "script": "我要买这个。",
+      "pronunciation": "wǒ yào mǎi zhè ge.",
+      "phonetic": "หว่อ เย้า หม่าย เจ้อ เกอ.",
+      "translation": "ฉันจะซื้ออันนี้",
+      "chunks": [
+        "我要买这个。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L08-C076",
+      "legacyId": "U01-L08-C076",
+      "position": 6,
+      "script": "现在几点了？",
+      "pronunciation": "xiàn zài jǐ diǎn le?",
+      "phonetic": "เซี่ยน ไซ้ จี๋ เตี่ยน เลอ?",
+      "translation": "ตอนนี้กี่โมงแล้ว",
+      "chunks": [
+        "现在几点了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L08-C077",
+      "legacyId": "U01-L08-C077",
+      "position": 7,
+      "script": "等一下。",
+      "pronunciation": "děng yí xià.",
+      "phonetic": "เติ๋ง อี๋ เซี่ย.",
+      "translation": "รอแป๊บนึง",
+      "chunks": [
+        "等一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L08-C078",
+      "legacyId": "U01-L08-C078",
+      "position": 8,
+      "script": "请在这里签字。",
+      "pronunciation": "qǐng zài zhè lǐ qiān zì.",
+      "phonetic": "ฉิ่ง ไซ้ เจ้อ หลี่ เชียน จื้อ.",
+      "translation": "กรุณาเซ็นชื่อตรงนี้",
+      "chunks": [
+        "请在这里签字。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L08-C079",
+      "legacyId": "U01-L08-C079",
+      "position": 9,
+      "script": "这里可以拍照吗？",
+      "pronunciation": "zhè lǐ kě yǐ pāi zhào ma?",
+      "phonetic": "เจ้อ หลี่ เขอ อี่ ไพ จ้าว มะ?",
+      "translation": "ตรงนี้ถ่ายรูปได้ไหม",
+      "chunks": [
+        "这里可以拍照吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L08-C080",
+      "legacyId": "U01-L08-C080",
+      "position": 10,
+      "script": "我有急事。",
+      "pronunciation": "wǒ yǒu jí shì.",
+      "phonetic": "หว่อ โหย่ว จี๋ สื้อ.",
+      "translation": "ฉันมีธุระด่วน",
+      "chunks": [
+        "我有急事。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "id": "G21",
+  "number": 7,
+  "title": "G. Wish / If Only / Would Rather",
+  "chunks": [
+    {
+      "id": "en:session-2-1:G21:1",
+      "legacyId": "G21-0",
+      "position": 1,
+      "script": "I wish I had more time to travel.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากมีเวลาเที่ยวให้มากกว่านี้จัง",
+      "chunks": [
+        "I wish I had more time",
+        "to travel."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:2",
+      "legacyId": "G21-1",
+      "position": 2,
+      "script": "I wish I spoke English more fluently.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากพูดภาษาอังกฤษให้คล่องกว่านี้จัง",
+      "chunks": [
+        "I wish I spoke English more fluently."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:3",
+      "legacyId": "G21-2",
+      "position": 3,
+      "script": "She wishes she lived closer to her family.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธออยากอยู่ใกล้ครอบครัวมากกว่านี้",
+      "chunks": [
+        "She wishes she lived closer",
+        "to her family."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:4",
+      "legacyId": "G21-3",
+      "position": 4,
+      "script": "I wish it wasn't so hot today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากให้วันนี้มันไม่ร้อนขนาดนี้จัง",
+      "chunks": [
+        "I wish it wasn't",
+        "so hot today."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:5",
+      "legacyId": "G21-4",
+      "position": 5,
+      "script": "He wishes he knew how to cook properly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาอยากทำอาหารเป็นจัง",
+      "chunks": [
+        "He wishes he knew how",
+        "to cook properly."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:6",
+      "legacyId": "G21-5",
+      "position": 6,
+      "script": "I wish I had studied harder for the exam.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รู้งี้น่าจะตั้งใจอ่านหนังสือมากกว่านี้",
+      "chunks": [
+        "I wish I had studied harder",
+        "for the exam."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:7",
+      "legacyId": "G21-6",
+      "position": 7,
+      "script": "I wish I hadn't said that.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเสียใจที่พูดเรื่องนั้นออกไป",
+      "chunks": [
+        "I wish I hadn't said",
+        "that."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:8",
+      "legacyId": "G21-7",
+      "position": 8,
+      "script": "She wishes she had taken the other job offer.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอเสียดายที่ไม่ได้รับงานที่อีกที่นั้น",
+      "chunks": [
+        "She wishes she had taken the other job offer."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:9",
+      "legacyId": "G21-8",
+      "position": 9,
+      "script": "I wish I had saved more money last year.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รู้งี้น่าจะเก็บเงินให้มากกว่านี้ตั้งแต่ปีที่แล้ว",
+      "chunks": [
+        "I wish I had saved more money last year."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:10",
+      "legacyId": "G21-9",
+      "position": 10,
+      "script": "He wishes he hadn't left his hometown.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาเสียดายที่ออกจากบ้านเกิด",
+      "chunks": [
+        "He wishes he hadn't left his hometown."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:11",
+      "legacyId": "G21-10",
+      "position": 11,
+      "script": "I'd rather stay home tonight.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คืนนี้ฉันอยากอยู่บ้านมากกว่า",
+      "chunks": [
+        "I'd rather stay home tonight."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:12",
+      "legacyId": "G21-11",
+      "position": 12,
+      "script": "I'd rather take the train than drive.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากนั่งรถไฟมากกว่าขับรถเอง",
+      "chunks": [
+        "I'd rather take the train than drive."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:13",
+      "legacyId": "G21-12",
+      "position": 13,
+      "script": "She'd rather not talk about it right now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนนี้เธออยากจะยังไม่พูดเรื่องนั้นมากกว่า",
+      "chunks": [
+        "She'd rather not talk",
+        "about it right now."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:14",
+      "legacyId": "G21-13",
+      "position": 14,
+      "script": "I'd rather have coffee than tea, thanks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอกาแฟมากกว่าชานะ ขอบใจ",
+      "chunks": [
+        "I'd rather have coffee than tea,",
+        "thanks."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:15",
+      "legacyId": "G21-14",
+      "position": 15,
+      "script": "I'd rather you didn't tell anyone about this.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากให้คุณไม่บอกเรื่องนี้กับใคร",
+      "chunks": [
+        "I'd rather you didn't tell anyone",
+        "about this."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:16",
+      "legacyId": "G21-15",
+      "position": 16,
+      "script": "I'd rather you came earlier next time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากให้คุณมาเร็วกว่านี้คราวหน้า",
+      "chunks": [
+        "I'd rather you came earlier next time."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:17",
+      "legacyId": "G21-16",
+      "position": 17,
+      "script": "She'd rather we met somewhere quiet.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธออยากให้เราไปนัดกันที่เงียบๆ มากกว่า",
+      "chunks": [
+        "She'd rather we met somewhere quiet."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:18",
+      "legacyId": "G21-17",
+      "position": 18,
+      "script": "If only I had more energy right now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าตอนนี้ฉันมีพลังงานมากกว่านี้ก็ดีจัง",
+      "chunks": [
+        "If only I had more energy right now."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:19",
+      "legacyId": "G21-18",
+      "position": 19,
+      "script": "If only I had listened to your advice.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รู้งี้น่าจะฟังคำแนะนำของคุณตั้งแต่แรก",
+      "chunks": [
+        "If only I had listened",
+        "to your advice."
+      ]
+    },
+    {
+      "id": "en:session-2-1:G21:20",
+      "legacyId": "G21-19",
+      "position": 20,
+      "script": "If only it wasn't raining right now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าตอนนี้ฝนไม่ตกก็ดีนะ",
+      "chunks": [
+        "If only it wasn't raining right now."
+      ]
+    }
+  ]
+}

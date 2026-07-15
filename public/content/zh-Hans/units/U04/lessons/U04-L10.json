@@ -1,0 +1,127 @@
+{
+  "id": "U04-L10",
+  "number": 10,
+  "title": "พอเถอะคุณ / ช่างคุณเถอะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U04-L10-C091",
+      "legacyId": "U04-L10-C091",
+      "position": 1,
+      "script": "算了吧你。",
+      "pronunciation": "suàn le ba nǐ.",
+      "phonetic": "ส้วน เลอ ปะ หนี่.",
+      "translation": "พอเถอะคุณ / ช่างคุณเถอะ",
+      "chunks": [
+        "算了吧你。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L10-C092",
+      "legacyId": "U04-L10-C092",
+      "position": 2,
+      "script": "别开玩笑了。",
+      "pronunciation": "bié kāi wán xiào le.",
+      "phonetic": "เปี๋ย ไค หวาน เสี้ยว เลอ.",
+      "translation": "อย่าล้อเล่นน่า / อย่าพูดเล่นเลย",
+      "chunks": [
+        "别开玩笑了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L10-C093",
+      "legacyId": "U04-L10-C093",
+      "position": 3,
+      "script": "这怎么可能？",
+      "pronunciation": "zhè zěn me kě néng?",
+      "phonetic": "เจ้อ เจิ่น เมอ เข่อ เหนิง?",
+      "translation": "นี่มันเป็นไปได้ยังไงกัน",
+      "chunks": [
+        "这怎么可能？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L10-C094",
+      "legacyId": "U04-L10-C094",
+      "position": 4,
+      "script": "开什么玩笑！",
+      "pronunciation": "kāi shén me wán xiào!",
+      "phonetic": "ไค เซิ่น เมอ หวาน เสี้ยว!",
+      "translation": "ล้อเล่นอะไรกันเนี่ย!",
+      "chunks": [
+        "开什么玩笑！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L10-C095",
+      "legacyId": "U04-L10-C095",
+      "position": 5,
+      "script": "别想太多。",
+      "pronunciation": "bié xiǎng tài duō.",
+      "phonetic": "เปี๋ย แฉี่ยง ไท่ ตัว.",
+      "translation": "อย่าคิดมากเกินไป",
+      "chunks": [
+        "别想太多。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L10-C096",
+      "legacyId": "U04-L10-C096",
+      "position": 6,
+      "script": "顺其自然吧。",
+      "pronunciation": "shùn qí zì rán ba.",
+      "phonetic": "สวิ่น ฉี จื้อ ราน ปะ.",
+      "translation": "ปล่อยให้เป็นไปตามธรรมชาติเถอะ",
+      "chunks": [
+        "顺其自然吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L10-C097",
+      "legacyId": "U04-L10-C097",
+      "position": 7,
+      "script": "那就算了吧。",
+      "pronunciation": "nà jiù suàn le ba.",
+      "phonetic": "น้า จิ้ว ส้วน เลอ ปะ.",
+      "translation": "งั้นก็ช่างมันเถอะ / งั้นก็พอก่อน",
+      "chunks": [
+        "那就算了吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L10-C098",
+      "legacyId": "U04-L10-C098",
+      "position": 8,
+      "script": "这不公平。",
+      "pronunciation": "zhè bù gōng píng.",
+      "phonetic": "เจ้อ ปู้ กง ผิง.",
+      "translation": "นี่มันไม่ยุติธรรมเลย",
+      "chunks": [
+        "这不公平。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L10-C099",
+      "legacyId": "U04-L10-C099",
+      "position": 9,
+      "script": "你想怎么做？",
+      "pronunciation": "nǐ xiǎng zěn me zuò?",
+      "phonetic": "หนี่ แฉี่ยง เจิ่น เมอ จั่ว?",
+      "translation": "คุณอยากจะทำยังไงล่ะ",
+      "chunks": [
+        "你想怎么做？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L10-C100",
+      "legacyId": "U04-L10-C100",
+      "position": 10,
+      "script": "听你的安排。",
+      "pronunciation": "tīng nǐ de ān pái.",
+      "phonetic": "ทิง หนี่ เตอ อัน ไผ.",
+      "translation": "ตามการจัดการ/แผนงานของคุณเลย",
+      "chunks": [
+        "听你的安排。"
+      ]
+    }
+  ]
+}

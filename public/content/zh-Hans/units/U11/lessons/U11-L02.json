@@ -1,0 +1,127 @@
+{
+  "id": "U11-L02",
+  "number": 2,
+  "title": "ประมาณต้องเดินกี่นาที",
+  "chunks": [
+    {
+      "id": "zh-Hans:U11-L02-C011",
+      "legacyId": "U11-L02-C011",
+      "position": 1,
+      "script": "大概需要走多少分钟？",
+      "pronunciation": "dà gài xū yào zǒu duō shǎo fēn zhōng?",
+      "phonetic": "ต้า ก้าย ซวี่ เย้า โจ่ว ตัว เส่า เฟิน จง?",
+      "translation": "ประมาณต้องเดินกี่นาที",
+      "chunks": [
+        "大概需要走多少分钟？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L02-C012",
+      "legacyId": "U11-L02-C012",
+      "position": 2,
+      "script": "最近的地铁站在哪儿？",
+      "pronunciation": "zuì jìn de dì tiě zhàn zài nǎr?",
+      "phonetic": "จุ้ย จิ้น เตอ ตี้ เถี่ย จ้าน ไซ้ หน่าร์?",
+      "translation": "สถานีรถไฟใต้ดินที่ใกล้ที่สุดอยู่ที่ไหน",
+      "chunks": [
+        "最近的地铁站在哪儿？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L02-C013",
+      "legacyId": "U11-L02-C013",
+      "position": 3,
+      "script": "这趟公交车去火车站吗？",
+      "pronunciation": "zhè tàng gōng jiāo chē qù huǒ chē zhàn?",
+      "phonetic": "เจ้อ ท้าง กง เจียว เชอ ชวี่ โห่ว เชอ จ้าน?",
+      "translation": "รถเมล์สายนี้ไปสถานีรถไฟไหม",
+      "chunks": [
+        "这趟公交车去火车站吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L02-C014",
+      "legacyId": "U11-L02-C014",
+      "position": 4,
+      "script": "我想打车去王府井。",
+      "pronunciation": "wǒ xiǎng dǎ chē qù wáng fǔ jǐng.",
+      "phonetic": "หว่อ แฉี่ยง ต๋า เชอ ชวี่ หวาง ฝู่ จิ่ง.",
+      "translation": "ฉันอยากนั่งแท็กซี่ไปหวังฝู่จิ่ง",
+      "chunks": [
+        "我想打车去王府井。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L02-C015",
+      "legacyId": "U11-L02-C015",
+      "position": 5,
+      "script": "师傅，请开一下后备箱。",
+      "pronunciation": "shī fu, qǐng kāi yí xià hòu bèi xiāng.",
+      "phonetic": "ซือ ฟุ, ฉิ่ง ไค อี๋ เซี่ย โห่ว เปุ่ย เซียง.",
+      "translation": "คนขับครับ ช่วยเปิดกระโปรงหลังรถหน่อยครับ",
+      "chunks": [
+        "师傅，请开一下后备箱。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L02-C016",
+      "legacyId": "U11-L02-C016",
+      "position": 6,
+      "script": "售票处在几楼？",
+      "pronunciation": "shòu piào chù zài jǐ lóu?",
+      "phonetic": "โซว เพี้ยว ชู่ ไซ้ จี๋ โหล่ว?",
+      "translation": "ที่ขายตั๋วอยู่ชั้นไหน",
+      "chunks": [
+        "售票处在几楼？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L02-C017",
+      "legacyId": "U11-L02-C017",
+      "position": 7,
+      "script": "去哪里买轻轨票？",
+      "pronunciation": "qù nǎ lǐ mǎi qīng guǐ piào?",
+      "phonetic": "ชวี่ หน่า หลี่ หม่าย ชิง กุ่ย เพี้ยว?",
+      "translation": "ไปซื้อตั๋วรถไฟฟ้าได้ที่ไหน",
+      "chunks": [
+        "去哪里买轻轨票？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L02-C018",
+      "legacyId": "U11-L02-C018",
+      "position": 8,
+      "script": "一直往前走就是了。",
+      "pronunciation": "yì zhí wǎng qián zǒu jiù shì le.",
+      "phonetic": "อี้ จื๋อ หวั่ง เฉียน โจ่ว จิ้ว สื้อ เลอ.",
+      "translation": "เดินตรงไปข้างหน้าเรื่อยๆ ก็ใช่แล้วล่ะ",
+      "chunks": [
+        "一直往前走就是了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L02-C019",
+      "legacyId": "U11-L02-C019",
+      "position": 9,
+      "script": "在第一个十字路口往右拐。",
+      "pronunciation": "zài dì yī gè shí zì lù kǒu wǎng yòu guǎi.",
+      "phonetic": "ไซ้ ตี่ อี เก้อ สื้อ จื้อ ลู่ โข่ว หวั่ง โย่ว ต๋าย.",
+      "translation": "เลี้ยวขวาตรงสี่แยกแรก",
+      "chunks": [
+        "在第一个十字路口往右拐。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L02-C020",
+      "legacyId": "U11-L02-C020",
+      "position": 10,
+      "script": "过马路往左转，就能看到了。",
+      "pronunciation": "guò mǎ lù wǎng zuǒ zhuǎn, jiù néng kàn dào le.",
+      "phonetic": "กั้ว หม๋า ลู่ หวั่ง จั่ว จ่วน, จิ้ว เหนิง ค่าน ต้าว เลอ.",
+      "translation": "ข้ามถนนแล้วเลี้ยวซ้าย ก็จะมองเห็นแล้ว",
+      "chunks": [
+        "过马路往左转，就能看到了。"
+      ]
+    }
+  ]
+}

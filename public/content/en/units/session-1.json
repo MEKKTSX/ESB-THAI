@@ -1,0 +1,86 @@
+{
+  "id": "session-1",
+  "number": 1,
+  "title": "Session 1: Basic Conversations",
+  "description": "English sentence practice",
+  "lessons": [
+    {
+      "id": "A",
+      "number": 1,
+      "title": "A. Greetings & General Small Talk",
+      "chunkCount": 28
+    },
+    {
+      "id": "B",
+      "number": 2,
+      "title": "B. Daily Routines & Habits",
+      "chunkCount": 30
+    },
+    {
+      "id": "C",
+      "number": 3,
+      "title": "C. Study & Work",
+      "chunkCount": 27
+    },
+    {
+      "id": "D",
+      "number": 4,
+      "title": "D. Friends & Social Life",
+      "chunkCount": 26
+    },
+    {
+      "id": "E",
+      "number": 5,
+      "title": "E. Feelings, Opinions & Preferences",
+      "chunkCount": 28
+    },
+    {
+      "id": "F",
+      "number": 6,
+      "title": "F. Asking for & Giving Information",
+      "chunkCount": 24
+    },
+    {
+      "id": "G",
+      "number": 7,
+      "title": "G. Offers, Requests & Permission",
+      "chunkCount": 22
+    },
+    {
+      "id": "H",
+      "number": 8,
+      "title": "H. Plans & Arrangements",
+      "chunkCount": 20
+    },
+    {
+      "id": "I",
+      "number": 9,
+      "title": "I. Online, Phone & Chat",
+      "chunkCount": 19
+    },
+    {
+      "id": "J",
+      "number": 10,
+      "title": "J. Problems & Complaints",
+      "chunkCount": 22
+    },
+    {
+      "id": "K",
+      "number": 11,
+      "title": "K. Reactions & Exclamations",
+      "chunkCount": 28
+    },
+    {
+      "id": "L",
+      "number": 12,
+      "title": "L. University Life, Technology & AI",
+      "chunkCount": 26
+    },
+    {
+      "id": "M",
+      "number": 13,
+      "title": "M. Bonus Series: \"I am\" & \"It is\"",
+      "chunkCount": 15
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "id": "E23",
+  "number": 5,
+  "title": "E. ช้อปปิ้ง & ต่อรอง",
+  "chunks": [
+    {
+      "id": "en:session-2-3:E23:1",
+      "legacyId": "E23-0",
+      "position": 1,
+      "script": "Do you have this in a larger size?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีขนาดที่ใหญ่กว่านี้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Do you have this",
+        "in a larger size?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:2",
+      "legacyId": "E23-1",
+      "position": 2,
+      "script": "Can I try this on?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอลองใส่ได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Can I try this",
+        "on?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:3",
+      "legacyId": "E23-2",
+      "position": 3,
+      "script": "How much is this?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ชิ้นนี้ราคาเท่าไหร่ครับ/ค่ะ?",
+      "chunks": [
+        "How much is this?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:4",
+      "legacyId": "E23-3",
+      "position": 4,
+      "script": "Is this on sale right now?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนนี้มีโปรโมชันไหมครับ/ค่ะ?",
+      "chunks": [
+        "Is this",
+        "on sale right now?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:5",
+      "legacyId": "E23-4",
+      "position": 5,
+      "script": "That's a bit more than I was hoping to spend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันแพงกว่าที่คิดไว้นิดนึงครับ/ค่ะ",
+      "chunks": [
+        "That's a bit more than I was hoping",
+        "to spend."
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:6",
+      "legacyId": "E23-5",
+      "position": 6,
+      "script": "Would you be willing to lower the price a little?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ลดราคาให้นิดนึงได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Would you be willing",
+        "to lower the price a little?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:7",
+      "legacyId": "E23-6",
+      "position": 7,
+      "script": "I'd like to return this — it doesn't fit.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอคืนอันนี้ได้ไหมครับ/ค่ะ ใส่ไม่พอดี",
+      "chunks": [
+        "I'd like",
+        "to return this — it doesn't fit."
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:8",
+      "legacyId": "E23-7",
+      "position": 8,
+      "script": "Do you have a return policy?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีนโยบายรับคืนสินค้าไหมครับ/ค่ะ?",
+      "chunks": [
+        "Do you have a return policy?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:9",
+      "legacyId": "E23-8",
+      "position": 9,
+      "script": "I bought this two days ago and it's already broken.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันซื้อมาสองวันก่อนแล้วมันก็พังแล้ว",
+      "chunks": [
+        "I bought this two days ago",
+        "and it's already broken."
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:10",
+      "legacyId": "E23-9",
+      "position": 10,
+      "script": "Could I exchange this for a different colour?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอเปลี่ยนเป็นสีอื่นได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Could I exchange this",
+        "for a different colour?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:11",
+      "legacyId": "E23-10",
+      "position": 11,
+      "script": "I'll think about it and come back.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอคิดดูก่อนนะครับ/ค่ะ แล้วจะกลับมา",
+      "chunks": [
+        "I'll think",
+        "about it",
+        "and come back."
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:12",
+      "legacyId": "E23-11",
+      "position": 12,
+      "script": "Do you do free shipping for orders over a certain amount?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีบริการส่งฟรีถ้าสั่งเกินจำนวนที่กำหนดไหมครับ/ค่ะ?",
+      "chunks": [
+        "Do you do free shipping",
+        "for orders over a certain amount?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:13",
+      "legacyId": "E23-12",
+      "position": 13,
+      "script": "I saw a cheaper version of this online.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเห็นเวอร์ชันที่ถูกกว่านี้ออนไลน์",
+      "chunks": [
+        "I saw a cheaper version of this online."
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:14",
+      "legacyId": "E23-13",
+      "position": 14,
+      "script": "Can I pay in installments?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผ่อนชำระได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Can I pay",
+        "in installments?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:E23:15",
+      "legacyId": "E23-14",
+      "position": 15,
+      "script": "I'll take it — can you wrap it as a gift?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เอาเลยครับ/ค่ะ ห่อเป็นของขวัญให้ด้วยได้ไหม?",
+      "chunks": [
+        "I'll take it — can you wrap it as a gift?"
+      ]
+    }
+  ]
+}

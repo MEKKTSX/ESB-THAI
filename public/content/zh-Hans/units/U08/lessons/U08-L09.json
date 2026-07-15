@@ -1,0 +1,127 @@
+{
+  "id": "U08-L09",
+  "number": 9,
+  "title": "ปกติคุณทำกับข้าวกินเองหรือกินข้างนอก",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L09-C081",
+      "legacyId": "U08-L09-C081",
+      "position": 1,
+      "script": "你平时自己做饭还是在外面吃？",
+      "pronunciation": "nǐ píng shí zì jǐ zuò fàn hái shì zài wài mian chī?",
+      "phonetic": "หนี่ ผิง สื้อ จื้อ จี่ จั่ว ฟ้าน หาย สื้อ ไซ้ ไว้ เมียน ชือ？",
+      "translation": "ปกติคุณทำกับข้าวกินเองหรือกินข้างนอก",
+      "chunks": [
+        "你平时自己做饭还是在外面吃？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L09-C082",
+      "legacyId": "U08-L09-C082",
+      "position": 2,
+      "script": "我自己只会煮方便面，经常点外卖。",
+      "pronunciation": "wǒ zì jǐ zhǐ huì zhǔ fāng biàn miàn, jīng cháng diǎn wài mài.",
+      "phonetic": "หว่อ จื้อ จี่ จื่อ ฮุ่ย จู่ ฟาง เปี้ยน เมี้ยน, จิง ฉาง เตี่ยน ไว้ ม้าย.",
+      "translation": "ตัวฉันเองต้มเป็นแค่บะหมี่กึ่งสำเร็จรูป สั่งเดลิเวอรีบ่อยมาก",
+      "chunks": [
+        "我自己只会煮方便面，经常点外卖。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L09-C083",
+      "legacyId": "U08-L09-C083",
+      "position": 3,
+      "script": "老吃外卖对身体不好，偶尔也自己做点。",
+      "pronunciation": "lǎo chī wài mài duì shēn tǐ bù hǎo, ǒu ěr yě zì jǐ zuò diǎn.",
+      "phonetic": "เหล่า ชือ ไว้ ม้าย ตุ้ย เซิน ถี่ ปู้ ห่าว, โอ่ว เอ่อร์ เยี่ย จื้อ จี่ จั่ว เตี่ยน.",
+      "translation": "กินเดลิเวอรีบ่อยๆ ไม่ดีต่อสุขภาพนะ นานๆ ทีทำกินเองบ้างสิ",
+      "chunks": [
+        "老吃外卖对身体不好，偶尔也自己做点。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L09-C084",
+      "legacyId": "U08-L09-C084",
+      "position": 4,
+      "script": "我也想学做菜，但是觉得太麻烦了。",
+      "pronunciation": "wǒ yě xiǎng xué zuò cài, dàn shì jué de tài má fan le.",
+      "phonetic": "หว่อ เยี่ย แฉี่ยง เสวี่ย จั่ว ไช้, ต้าน สื้อ จว๋ะ เตอ ไท่ หมา ฝ่าน เลอ.",
+      "translation": "ฉันก็อยากเรียนทำกับข้าวนะ แต่รู้สึกว่ามันยุ่งยากเกินไป",
+      "chunks": [
+        "我也想学做菜，但是觉得太麻烦了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L09-C085",
+      "legacyId": "U08-L09-C085",
+      "position": 5,
+      "script": "可以从简单的炒蛋开始学起。",
+      "pronunciation": "kě yǐ cóng jiǎn dān de chǎo dàn kāi shǐ xué qǐ.",
+      "phonetic": "เขอ อี่ ฉง เจี่ยน ตาน เตอ ฉ่าว ต้าน ไค สื่อ เสวี่ย ฉี่.",
+      "translation": "เริ่มเรียนจากไข่เจียว/ไข่ผัดง่ายๆ ก่อนก็ได้นะ",
+      "chunks": [
+        "可以从简单的炒蛋开始学起。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L09-C086",
+      "legacyId": "U08-L09-C086",
+      "position": 6,
+      "script": "有道理，那这个周末我试试看。",
+      "pronunciation": "yǒu dào lǐ, nà zhè gè zhōu mò wǒ shì shì kàn.",
+      "phonetic": "โหย่ว ต้าว หลี่, น้า เจ้อ เก้อ โจว ม่อ หว่อ สื้อ สื้อ ค่าน.",
+      "translation": "มีเหตุผล งั้นสุดสัปดาห์นี้ฉันจะลองดู",
+      "chunks": [
+        "有道理，那这个周末我试试看。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L09-C087",
+      "legacyId": "U08-L09-C087",
+      "position": 7,
+      "script": "做完饭记得把厨房收拾干净。",
+      "pronunciation": "zuò wán fàn jì de bǎ chú fáng shōu shi gān jìng.",
+      "phonetic": "จั่ว หวัน ฟ้าน จี้ เตอ ป๋า ฉู ฝาง โซว สิ กาน จิ้ง.",
+      "translation": "ทำกับข้าวเสร็จแล้วอย่าลืมจัดห้องครัวให้สะอาดเรียบร้อยล่ะ",
+      "chunks": [
+        "做完饭记得把厨房收拾干净。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L09-C088",
+      "legacyId": "U08-L09-C088",
+      "position": 8,
+      "script": "放心吧，我不会弄得一团糟的。",
+      "pronunciation": "fàng xīn ba, wǒ bú huì nòng de yì tuán zāo de.",
+      "phonetic": "ฟ้าง ซิน ปะ, หว่อ บู๋ ฮุ่ย น่ง เตอ อี๋ ถวาน เซา เตอ.",
+      "translation": "วางใจเถอะ ฉันไม่ทำจนเละเทะหรอกน่า",
+      "chunks": [
+        "放心吧，我不会弄得一团糟的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L09-C089",
+      "legacyId": "U08-L09-C089",
+      "position": 9,
+      "script": "需要我帮你买点蔬菜水果吗？",
+      "pronunciation": "xū yào wǒ bāng nǐ mǎi diǎn shū cài shuǐ guǒ ma?",
+      "phonetic": "ซวี่ เย้า หว่อ ปัง หนี่ หม่าย เตี่ยน ซู ไช้ สุ่ย ก๋ัว มะ？",
+      "translation": "ต้องการให้ฉันช่วยซื้อผักผลไม้ให้หน่อยไหม",
+      "chunks": [
+        "需要我帮你买点蔬菜水果吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L09-C090",
+      "legacyId": "U08-L09-C090",
+      "position": 10,
+      "script": "不用了，我直接在手机上买就行，送货上门。",
+      "pronunciation": "bú yòng le, wǒ zhí jiē zài shǒu jī shàng mǎi jiù xíng, sòng huò shàng mén.",
+      "phonetic": "บู๋ ย่ง เลอ, หว่อ จื๋อ เจีย ไซ้ โส่ว จี ส่าง หม่าย จิ้ว สิง, ส้ง หว้อ ส่าง เหมิน.",
+      "translation": "ไม่ต้องหรอก ฉันกดซื้อในมือถือได้เลย เค้ามาส่งให้ถึงหน้าประตูบ้าน",
+      "chunks": [
+        "不用了，我直接在手机上买就行，送货上门。"
+      ]
+    }
+  ]
+}

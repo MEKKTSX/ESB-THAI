@@ -1,0 +1,266 @@
+{
+  "id": "E2",
+  "number": 5,
+  "title": "E. Future Plans & Intentions",
+  "chunks": [
+    {
+      "id": "en:session-2:E2:1",
+      "legacyId": "E2-0",
+      "position": 1,
+      "script": "I’m going to buy a new car next month.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกะว่าจะซื้อรถใหม่เดือนหน้า",
+      "chunks": [
+        "I’m going",
+        "to buy a new car next month."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:2",
+      "legacyId": "E2-1",
+      "position": 2,
+      "script": "I’m going to visit my sister in London.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไปเยี่ยมพี่สาวที่ลอนดอน",
+      "chunks": [
+        "I’m going",
+        "to visit my sister",
+        "in London."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:3",
+      "legacyId": "E2-2",
+      "position": 3,
+      "script": "I’m going to start a diet on Monday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะเริ่มลดน้ำหนักวันจันทร์",
+      "chunks": [
+        "I’m going",
+        "to start a diet",
+        "on Monday."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:4",
+      "legacyId": "E2-3",
+      "position": 4,
+      "script": "I’m going to look for a new job.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะหางานใหม่",
+      "chunks": [
+        "I’m going",
+        "to look",
+        "for a new job."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:5",
+      "legacyId": "E2-4",
+      "position": 5,
+      "script": "I’m going to take a few days off.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะลางานสักสองสามวัน",
+      "chunks": [
+        "I’m going",
+        "to take a few days off."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:6",
+      "legacyId": "E2-5",
+      "position": 6,
+      "script": "I’m going to study harder this semester.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เทอมนี้ฉันจะตั้งใจเรียนให้มากขึ้น",
+      "chunks": [
+        "I’m going",
+        "to study harder this semester."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:7",
+      "legacyId": "E2-6",
+      "position": 7,
+      "script": "I’m going to clean the house this weekend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะทำความสะอาดบ้านสุดสัปดาห์นี้",
+      "chunks": [
+        "I’m going",
+        "to clean the house this weekend."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:8",
+      "legacyId": "E2-7",
+      "position": 8,
+      "script": "I’m going to ask for a promotion.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะขอเลื่อนตำแหน่ง",
+      "chunks": [
+        "I’m going",
+        "to ask",
+        "for a promotion."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:9",
+      "legacyId": "E2-8",
+      "position": 9,
+      "script": "It’s going to rain later.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดี๋ยวฝนน่าจะตก",
+      "chunks": [
+        "It’s going",
+        "to rain later."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:10",
+      "legacyId": "E2-9",
+      "position": 10,
+      "script": "It’s going to be a long day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้คงเป็นวันที่ยาวนานแน่ๆ",
+      "chunks": [
+        "It’s going",
+        "to be a long day."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:11",
+      "legacyId": "E2-10",
+      "position": 11,
+      "script": "I’m meeting my boss tomorrow morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พรุ่งนี้เช้าฉันมีนัดกับหัวหน้า",
+      "chunks": [
+        "I’m meeting my boss tomorrow morning."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:12",
+      "legacyId": "E2-11",
+      "position": 12,
+      "script": "I’m having dinner with Sarah tonight.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คืนนี้ฉันนัดทานข้าวกับซาร่า",
+      "chunks": [
+        "I’m having dinner",
+        "with Sarah tonight."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:13",
+      "legacyId": "E2-12",
+      "position": 13,
+      "script": "I’m flying to New York next Friday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันศุกร์หน้าฉันจะบินไปนิวยอร์ก",
+      "chunks": [
+        "I’m flying",
+        "to New York next Friday."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:14",
+      "legacyId": "E2-13",
+      "position": 14,
+      "script": "I’m staying at a hotel downtown.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันพักที่โรงแรมในตัวเมือง",
+      "chunks": [
+        "I’m staying",
+        "at a hotel downtown."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:15",
+      "legacyId": "E2-14",
+      "position": 15,
+      "script": "I’m not doing anything special this weekend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สุดสัปดาห์นี้ฉันไม่ได้ทำอะไรพิเศษ",
+      "chunks": [
+        "I’m not doing anything special this weekend."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:16",
+      "legacyId": "E2-15",
+      "position": 16,
+      "script": "We are getting married next summer.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราจะแต่งงานกันหน้าร้อนหน้า",
+      "chunks": [
+        "We are getting married next summer."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:17",
+      "legacyId": "E2-16",
+      "position": 17,
+      "script": "We are moving to a new house soon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เรากำลังจะย้ายบ้านเร็วๆ นี้",
+      "chunks": [
+        "We are moving",
+        "to a new house soon."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:18",
+      "legacyId": "E2-17",
+      "position": 18,
+      "script": "They are coming to visit us.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขากำลังจะมาเยี่ยมเรา",
+      "chunks": [
+        "They are coming",
+        "to visit us."
+      ]
+    },
+    {
+      "id": "en:session-2:E2:19",
+      "legacyId": "E2-18",
+      "position": 19,
+      "script": "What are you doing next week?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาทิตย์หน้าคุณจะทำอะไร?",
+      "chunks": [
+        "What are you doing next week?"
+      ]
+    },
+    {
+      "id": "en:session-2:E2:20",
+      "legacyId": "E2-19",
+      "position": 20,
+      "script": "When are you leaving?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณจะไปเมื่อไหร่?",
+      "chunks": [
+        "When are you leaving?"
+      ]
+    }
+  ]
+}

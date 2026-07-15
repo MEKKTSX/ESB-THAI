@@ -1,0 +1,270 @@
+{
+  "id": "I21",
+  "number": 9,
+  "title": "I. So / Such / Too / Enough",
+  "chunks": [
+    {
+      "id": "en:session-2-1:I21:1",
+      "legacyId": "I21-0",
+      "position": 1,
+      "script": "The weather is so nice today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้อากาศดีจริงๆ เลย",
+      "chunks": [
+        "The weather is",
+        "so nice today."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:2",
+      "legacyId": "I21-1",
+      "position": 2,
+      "script": "She speaks English so naturally.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอพูดภาษาอังกฤษได้ธรรมชาติมากเลย",
+      "chunks": [
+        "She speaks English",
+        "so naturally."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:3",
+      "legacyId": "I21-2",
+      "position": 3,
+      "script": "He was so tired that he fell asleep immediately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาเหนื่อยมากจนหลับทันทีเลย",
+      "chunks": [
+        "He was",
+        "so tired",
+        "that he fell asleep immediately."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:4",
+      "legacyId": "I21-3",
+      "position": 4,
+      "script": "It was so cold that we decided to stay inside.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันหนาวมากจนเราตัดสินใจอยู่ข้างใน",
+      "chunks": [
+        "It was",
+        "so cold",
+        "that we decided",
+        "to stay inside."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:5",
+      "legacyId": "I21-4",
+      "position": 5,
+      "script": "She's so kind — she always helps everyone.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอใจดีมากเลย คอยช่วยทุกคนเสมอ",
+      "chunks": [
+        "She's",
+        "so kind — she always helps everyone."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:6",
+      "legacyId": "I21-5",
+      "position": 6,
+      "script": "It was such a great movie.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หนังเรื่องนั้นดีมากจริงๆ",
+      "chunks": [
+        "It was such a great movie."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:7",
+      "legacyId": "I21-6",
+      "position": 7,
+      "script": "He's such a hardworking person.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาเป็นคนขยันมากๆ เลย",
+      "chunks": [
+        "He's such a hardworking person."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:8",
+      "legacyId": "I21-7",
+      "position": 8,
+      "script": "It was such a long day that I just wanted to sleep.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้ยาวนานมากจนอยากนอนอย่างเดียวเลย",
+      "chunks": [
+        "It was such a long day",
+        "that I just wanted",
+        "to sleep."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:9",
+      "legacyId": "I21-8",
+      "position": 9,
+      "script": "She had such a good time at the party.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอสนุกกับงานปาร์ตี้มากเลย",
+      "chunks": [
+        "She had such a good time",
+        "at the party."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:10",
+      "legacyId": "I21-9",
+      "position": 10,
+      "script": "It was such beautiful weather that we went for a walk.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อากาศดีมากจนเราออกไปเดินเล่น",
+      "chunks": [
+        "It was such beautiful weather",
+        "that we went",
+        "for a walk."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:11",
+      "legacyId": "I21-10",
+      "position": 11,
+      "script": "This bag is too heavy to carry.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กระเป๋าใบนี้หนักเกินไปจะถือไหว",
+      "chunks": [
+        "This bag is too heavy",
+        "to carry."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:12",
+      "legacyId": "I21-11",
+      "position": 12,
+      "script": "It's too late to cancel now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สายเกินไปแล้วที่จะยกเลิก",
+      "chunks": [
+        "It's too late",
+        "to cancel now."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:13",
+      "legacyId": "I21-12",
+      "position": 13,
+      "script": "He speaks too fast for me to follow.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาพูดเร็วเกินไปจนฉันตามไม่ทัน",
+      "chunks": [
+        "He speaks too fast",
+        "for me",
+        "to follow."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:14",
+      "legacyId": "I21-13",
+      "position": 14,
+      "script": "The room is too small for all of us.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ห้องเล็กเกินสำหรับพวกเราทุกคน",
+      "chunks": [
+        "The room is too small",
+        "for all of us."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:15",
+      "legacyId": "I21-14",
+      "position": 15,
+      "script": "Are you sure you have enough time?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แน่ใจนะว่ามีเวลาพอ?",
+      "chunks": [
+        "Are you sure you have enough time?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:16",
+      "legacyId": "I21-15",
+      "position": 16,
+      "script": "She's old enough to make her own decisions.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอโตพอที่จะตัดสินใจเองได้แล้ว",
+      "chunks": [
+        "She's old enough",
+        "to make her own decisions."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:17",
+      "legacyId": "I21-16",
+      "position": 17,
+      "script": "He didn't study hard enough to pass.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาขยันอ่านหนังสือไม่พอที่จะผ่านได้",
+      "chunks": [
+        "He didn't study hard enough",
+        "to pass."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:18",
+      "legacyId": "I21-17",
+      "position": 18,
+      "script": "Is the signal strong enough to make a video call?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สัญญาณแรงพอจะวิดีโอคอลได้ไหม?",
+      "chunks": [
+        "Is the signal strong enough",
+        "to make a video call?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:19",
+      "legacyId": "I21-18",
+      "position": 19,
+      "script": "I haven't saved enough money yet.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันยังเก็บเงินได้ไม่พอเลย",
+      "chunks": [
+        "I haven't saved enough money yet."
+      ]
+    },
+    {
+      "id": "en:session-2-1:I21:20",
+      "legacyId": "I21-19",
+      "position": 20,
+      "script": "She was confident enough to speak in front of the class.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอมั่นใจพอที่จะพูดต่อหน้าชั้นเรียนได้",
+      "chunks": [
+        "She was confident enough",
+        "to speak",
+        "in front of the class."
+      ]
+    }
+  ]
+}

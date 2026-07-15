@@ -1,0 +1,127 @@
+{
+  "id": "U01-L06",
+  "number": 6,
+  "title": "ช่วยหน่อยได้ไหม",
+  "chunks": [
+    {
+      "id": "zh-Hans:U01-L06-C051",
+      "legacyId": "U01-L06-C051",
+      "position": 1,
+      "script": "帮个忙，好吗？",
+      "pronunciation": "bāng gè máng, hǎo ma?",
+      "phonetic": "ปัง เก้อ หมาง, ห่าว มะ?",
+      "translation": "ช่วยหน่อยได้ไหม",
+      "chunks": [
+        "帮个忙，好吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L06-C052",
+      "legacyId": "U01-L06-C052",
+      "position": 2,
+      "script": "救命啊！",
+      "pronunciation": "jiù mìng a!",
+      "phonetic": "จิ้ว มิ่ง อา!",
+      "translation": "ช่วยด้วย! (เหตุฉุกเฉิน)",
+      "chunks": [
+        "救命啊！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L06-C053",
+      "legacyId": "U01-L06-C053",
+      "position": 3,
+      "script": "请帮我一下。",
+      "pronunciation": "qǐng bāng wǒ yí xià.",
+      "phonetic": "ฉิ่ง ปัง หว่อ อี๋ เซี่ย.",
+      "translation": "กรุณาช่วยฉันหน่อย",
+      "chunks": [
+        "请帮我一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L06-C054",
+      "legacyId": "U01-L06-C054",
+      "position": 4,
+      "script": "有人会说英语吗？",
+      "pronunciation": "yǒu rén huì shuō yīng yǔ ma?",
+      "phonetic": "โหย่ว เหริน ฮุ่ย ซัว อิง อวี่ มะ?",
+      "translation": "มีใครพูดภาษาอังกฤษได้ไหม",
+      "chunks": [
+        "有人会说英语吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L06-C055",
+      "legacyId": "U01-L06-C055",
+      "position": 5,
+      "script": "请帮我报警。",
+      "pronunciation": "qǐng bāng wǒ bào jǐng.",
+      "phonetic": "ฉิ่ง ปัง หว่อ เป้า จิ่ง.",
+      "translation": "กรุณาช่วยแจ้งตำรวจให้ฉันหน่อย",
+      "chunks": [
+        "请帮我报警。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L06-C056",
+      "legacyId": "U01-L06-C056",
+      "position": 6,
+      "script": "我迷路了。",
+      "pronunciation": "wǒ mí lù le.",
+      "phonetic": "หว่อ มี ลู่ เลอ.",
+      "translation": "ฉันหลงทางแล้ว",
+      "chunks": [
+        "我迷路了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L06-C057",
+      "legacyId": "U01-L06-C057",
+      "position": 7,
+      "script": "我的钱包丢了。",
+      "pronunciation": "wǒ de qián bāo diū le.",
+      "phonetic": "หว่อ เตอ เฉียน เปา ติว เลอ.",
+      "translation": "กระเป๋าเงินของฉันหายไปแล้ว",
+      "chunks": [
+        "我的钱包丢了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L06-C058",
+      "legacyId": "U01-L06-C058",
+      "position": 8,
+      "script": "哪里有医院？",
+      "pronunciation": "nǎ lǐ yǒu yī yuàn?",
+      "phonetic": "หนา หลี่ โหย่ว อี ย่วน?",
+      "translation": "มีโรงพยาบาลอยู่ที่ไหน",
+      "chunks": [
+        "哪里有医院？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L06-C059",
+      "legacyId": "U01-L06-C059",
+      "position": 9,
+      "script": "可以借用手机吗？",
+      "pronunciation": "kě yǐ jiè yòng shǒu jī ma?",
+      "phonetic": "เขอ อี่ เจี้ย ย่ง โส่ว จี มะ?",
+      "translation": "ขอยืมใช้โทรศัพท์หน่อยได้ไหม",
+      "chunks": [
+        "可以借用手机吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L06-C060",
+      "legacyId": "U01-L06-C060",
+      "position": 10,
+      "script": "别丢下我。",
+      "pronunciation": "bié diū xià wǒ.",
+      "phonetic": "เปี๋ย ติว เซี่ย หว่อ.",
+      "translation": "อย่าทิ้งฉันไว้",
+      "chunks": [
+        "别丢下我。"
+      ]
+    }
+  ]
+}

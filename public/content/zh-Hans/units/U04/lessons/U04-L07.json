@@ -1,0 +1,127 @@
+{
+  "id": "U04-L07",
+  "number": 7,
+  "title": "งั้นก็ดีแล้ว",
+  "chunks": [
+    {
+      "id": "zh-Hans:U04-L07-C061",
+      "legacyId": "U04-L07-C061",
+      "position": 1,
+      "script": "那就好。",
+      "pronunciation": "nà jiù hǎo.",
+      "phonetic": "น้า จิ้ว ห่าว.",
+      "translation": "งั้นก็ดีแล้ว",
+      "chunks": [
+        "那就好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L07-C062",
+      "legacyId": "U04-L07-C062",
+      "position": 2,
+      "script": "就这么办。",
+      "pronunciation": "jiù zhè me bàn.",
+      "phonetic": "จิ้ว เจ้อ เมอ ป้าน.",
+      "translation": "เอาตามนี้เลย / ทำแบบนี้แหละ",
+      "chunks": [
+        "就这么办。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L07-C063",
+      "legacyId": "U04-L07-C063",
+      "position": 3,
+      "script": "那行吧。",
+      "pronunciation": "nà xíng ba.",
+      "phonetic": "น้า สิง ปะ.",
+      "translation": "งั้นก็ได้ / เอาอย่างนั้นก็ได้",
+      "chunks": [
+        "那行吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L07-C064",
+      "legacyId": "U04-L07-C064",
+      "position": 4,
+      "script": "我没空。",
+      "pronunciation": "wǒ méi kòng.",
+      "phonetic": "หว่อ เหมย ค่ง.",
+      "translation": "ฉันไม่ว่าง",
+      "chunks": [
+        "我没空。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L07-C065",
+      "legacyId": "U04-L07-C065",
+      "position": 5,
+      "script": "真倒霉。",
+      "pronunciation": "zhēn dǎo méi.",
+      "phonetic": "เจิน ต๋า เหมย.",
+      "translation": "ซวยจริงๆเลย",
+      "chunks": [
+        "真倒霉。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L07-C066",
+      "legacyId": "U04-L07-C066",
+      "position": 6,
+      "script": "太巧了！",
+      "pronunciation": "tài qiǎo le!",
+      "phonetic": "ไท่ เฉี่ยว เลอ!",
+      "translation": "บังเอิญจังเลย!",
+      "chunks": [
+        "太巧了！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L07-C067",
+      "legacyId": "U04-L07-C067",
+      "position": 7,
+      "script": "随便你。",
+      "pronunciation": "suí biàn nǐ.",
+      "phonetic": "สุ่ย เปี้ยน หนี่.",
+      "translation": "แล้วแต่คุณ",
+      "chunks": [
+        "随便你。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L07-C068",
+      "legacyId": "U04-L07-C068",
+      "position": 8,
+      "script": "那倒也是。",
+      "pronunciation": "nà dào yě shì.",
+      "phonetic": "น้า ต้าว เยี่ย สื้อ.",
+      "translation": "นั่นมันก็ใช่นะ / มันก็น่าคิดนะ",
+      "chunks": [
+        "那倒也是。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L07-C069",
+      "legacyId": "U04-L07-C069",
+      "position": 9,
+      "script": "我尽力吧。",
+      "pronunciation": "wǒ jìn lì ba.",
+      "phonetic": "หว่อ จิ้น ลี่ ปะ.",
+      "translation": "ฉันจะพยายามให้เต็มที่นะ",
+      "chunks": [
+        "我尽力吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L07-C070",
+      "legacyId": "U04-L07-C070",
+      "position": 10,
+      "script": "听天由命吧。",
+      "pronunciation": "tīng tiān yóu mìng ba.",
+      "phonetic": "ทิง เทียน โหย่ว มิ่ง ปะ.",
+      "translation": "ปล่อยให้เป็นเรื่องของโชคชะตาเถอะ",
+      "chunks": [
+        "听天由命吧。"
+      ]
+    }
+  ]
+}

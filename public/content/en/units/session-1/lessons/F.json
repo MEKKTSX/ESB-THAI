@@ -1,0 +1,300 @@
+{
+  "id": "F",
+  "number": 6,
+  "title": "F. Asking for & Giving Information",
+  "chunks": [
+    {
+      "id": "en:session-1:F:1",
+      "legacyId": "F-0",
+      "position": 1,
+      "script": "Excuse me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษนะครับ/คะ",
+      "chunks": [
+        "Excuse me."
+      ]
+    },
+    {
+      "id": "en:session-1:F:2",
+      "legacyId": "F-1",
+      "position": 2,
+      "script": "Do you speak English?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณพูดภาษาอังกฤษได้ไหม?",
+      "chunks": [
+        "Do you speak English?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:3",
+      "legacyId": "F-2",
+      "position": 3,
+      "script": "Do you understand?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเข้าใจไหม?",
+      "chunks": [
+        "Do you understand?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:4",
+      "legacyId": "F-3",
+      "position": 4,
+      "script": "Do you know him?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรู้จักเขาไหม?",
+      "chunks": [
+        "Do you know him?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:5",
+      "legacyId": "F-4",
+      "position": 5,
+      "script": "Do you know where it is?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รู้ไหมว่ามันอยู่ที่ไหน?",
+      "chunks": [
+        "Do you know",
+        "where it is?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:6",
+      "legacyId": "F-5",
+      "position": 6,
+      "script": "Do you know what time it is?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รู้ไหมว่ากี่โมงแล้ว?",
+      "chunks": [
+        "Do you know what time it is?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:7",
+      "legacyId": "F-6",
+      "position": 7,
+      "script": "Does this bus go to the city?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รถเมล์คันนี้เข้าเมืองไหม?",
+      "chunks": [
+        "Does this bus go",
+        "to the city?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:8",
+      "legacyId": "F-7",
+      "position": 8,
+      "script": "Is this seat free?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ที่ตรงนี้ว่างไหม?",
+      "chunks": [
+        "Is this seat free?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:9",
+      "legacyId": "F-8",
+      "position": 9,
+      "script": "Is it open?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันเปิดอยู่ไหม?",
+      "chunks": [
+        "Is it open?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:10",
+      "legacyId": "F-9",
+      "position": 10,
+      "script": "Is it far from here?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไกลจากที่นี่ไหม?",
+      "chunks": [
+        "Is it far from here?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:11",
+      "legacyId": "F-10",
+      "position": 11,
+      "script": "Where is the bathroom?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ห้องน้ำอยู่ที่ไหน?",
+      "chunks": [
+        "Where is the bathroom?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:12",
+      "legacyId": "F-11",
+      "position": 12,
+      "script": "Where is the nearest station?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สถานีที่ใกล้ที่สุดอยู่ที่ไหน?",
+      "chunks": [
+        "Where is the nearest station?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:13",
+      "legacyId": "F-12",
+      "position": 13,
+      "script": "Where is the exit?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทางออกอยู่ที่ไหน?",
+      "chunks": [
+        "Where is the exit?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:14",
+      "legacyId": "F-13",
+      "position": 14,
+      "script": "What is this?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นี่คืออะไร?",
+      "chunks": [
+        "What is this?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:15",
+      "legacyId": "F-14",
+      "position": 15,
+      "script": "What does this mean?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นี่หมายความว่าอะไร?",
+      "chunks": [
+        "What does this mean?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:16",
+      "legacyId": "F-15",
+      "position": 16,
+      "script": "What is the password?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รหัสผ่านคืออะไร?",
+      "chunks": [
+        "What is the password?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:17",
+      "legacyId": "F-16",
+      "position": 17,
+      "script": "How much is it?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ราคาเท่าไหร่?",
+      "chunks": [
+        "How much is it?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:18",
+      "legacyId": "F-17",
+      "position": 18,
+      "script": "How much does it cost?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันราคาเท่าไหร่?",
+      "chunks": [
+        "How much does it cost?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:19",
+      "legacyId": "F-18",
+      "position": 19,
+      "script": "How long does it take?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ใช้เวลานานแค่ไหน?",
+      "chunks": [
+        "How long does it take?"
+      ]
+    },
+    {
+      "id": "en:session-1:F:20",
+      "legacyId": "F-19",
+      "position": 20,
+      "script": "The bank is closed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ธนาคารปิดแล้ว",
+      "chunks": [
+        "The bank is closed."
+      ]
+    },
+    {
+      "id": "en:session-1:F:21",
+      "legacyId": "F-20",
+      "position": 21,
+      "script": "The store is open.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ร้านเปิดอยู่",
+      "chunks": [
+        "The store is open."
+      ]
+    },
+    {
+      "id": "en:session-1:F:22",
+      "legacyId": "F-21",
+      "position": 22,
+      "script": "It is on the right.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันอยู่ทางขวา",
+      "chunks": [
+        "It is",
+        "on the right."
+      ]
+    },
+    {
+      "id": "en:session-1:F:23",
+      "legacyId": "F-22",
+      "position": 23,
+      "script": "It is on the left.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันอยู่ทางซ้าย",
+      "chunks": [
+        "It is",
+        "on the left."
+      ]
+    },
+    {
+      "id": "en:session-1:F:24",
+      "legacyId": "F-23",
+      "position": 24,
+      "script": "It is next to the hotel.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันอยู่ติดกับโรงแรม",
+      "chunks": [
+        "It is next",
+        "to the hotel."
+      ]
+    }
+  ]
+}

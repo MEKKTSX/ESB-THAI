@@ -1,0 +1,127 @@
+{
+  "id": "U05-L08",
+  "number": 8,
+  "title": "ฉันชอบอาหารที่รสชาติจืด/เบาๆ หน่อย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L08-C071",
+      "legacyId": "U05-L08-C071",
+      "position": 1,
+      "script": "我喜欢清淡一点儿的食物。",
+      "pronunciation": "wǒ xiǎng qīng dàn yì diǎnr de shí wù.",
+      "phonetic": "หว่อ แฉี่ยง ชิง ต้าน อี้ เดี๋ยร์ เตอ สื้อ วู่.",
+      "translation": "ฉันชอบอาหารที่รสชาติจืด/เบาๆ หน่อย",
+      "chunks": [
+        "我喜欢清淡一点儿的食物。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L08-C072",
+      "legacyId": "U05-L08-C072",
+      "position": 2,
+      "script": "今天晚上我们出去吃大餐吧！",
+      "pronunciation": "jīn tiān wǎn shang wǒ men chū qù chī dà cān ba!",
+      "phonetic": "จิน เทียน หวั่น ส่าง หว่อ เมิน ชู ชวี่ ชือ ต้า ไช้ ปะ!",
+      "translation": "เย็นวันนี้พวกเราออกไปกินอาหารมื้อใหญ่กันเถอะ!",
+      "chunks": [
+        "今天晚上我们出去吃大餐吧！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L08-C073",
+      "legacyId": "U05-L08-C073",
+      "position": 3,
+      "script": "你点太多了，吃不完。",
+      "pronunciation": "nǐ diǎn tài duō le, chī bù wán.",
+      "phonetic": "หนี่ เตี่ยน ไท่ ตัว เลอ, ชือ ปู้ หวัน.",
+      "translation": "คุณสั่งเยอะเกินไปแล้ว กินไม่หมดหรอก",
+      "chunks": [
+        "你点太多了，吃不完。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L08-C074",
+      "legacyId": "U05-L08-C074",
+      "position": 4,
+      "script": "这个菜是怎么做的？",
+      "pronunciation": "zhè ge cài shì zěn me zuò de?",
+      "phonetic": "เจ้อ เกอ ไช้ สื้อ เจิ่น เมอ จั่ว เตอ?",
+      "translation": "กับข้าวจานนี้ทำอย่างไรหรอ",
+      "chunks": [
+        "这个菜是怎么做的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L08-C075",
+      "legacyId": "U05-L08-C075",
+      "position": 5,
+      "script": "我下午喝了茶，现在不困了。",
+      "pronunciation": "wǒ xià wǔ hē le chá, xiàn zài bú kùn le.",
+      "phonetic": "หว่อ เซี่ย อู่ เฮอ เลอ ฉา, เซี่ยน ไซ้ บู๋ คุ้น เลอ.",
+      "translation": "ช่วงบ่ายฉันดื่มชา ตอนนี้เลยไม่สะลึมสะลือแล้ว",
+      "chunks": [
+        "我下午喝了茶，现在不困了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L08-C076",
+      "legacyId": "U05-L08-C076",
+      "position": 6,
+      "script": "我想买瓶矿泉水。",
+      "pronunciation": "wǒ xiǎng mǎi píng kuàng quán shuǐ.",
+      "phonetic": "หว่อ แฉี่ยง หม่าย ผิง คว่าง ฉวาน สุ่ย.",
+      "translation": "ฉันอยากซื้อน้ำแร่สักขวด",
+      "chunks": [
+        "我想买瓶矿泉水。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L08-C077",
+      "legacyId": "U05-L08-C077",
+      "position": 7,
+      "script": "这家面包店的面包很香。",
+      "pronunciation": "zhè jiā miàn bāo diàn de miàn bāo hěn xiāng.",
+      "phonetic": "เจ้อ เจีย เมี้ยน เปา เตี้ยน เตอ เมี้ยน เปา เหิ่น เซียง.",
+      "translation": "ขนมปังของร้านขนมปังนี้หอมมากเลย",
+      "chunks": [
+        "这家面包店的面包很香。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L08-C078",
+      "legacyId": "U05-L08-C078",
+      "position": 8,
+      "script": "请问可以刷支付宝吗？",
+      "pronunciation": "qǐng wèn kě yǐ shuā zhī fù bǎo ma?",
+      "phonetic": "ฉิ่ง เวิน เขอ อี่ ซัว จื้อ ฟู่ เป๋า มะ?",
+      "translation": "ขอถามหน่อยครับ รูดจ่ายผ่านอาลีเพย์ได้ไหม",
+      "chunks": [
+        "请问可以刷支付宝吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L08-C079",
+      "legacyId": "U05-L08-C079",
+      "position": 9,
+      "script": "这汤里怎么有头发？",
+      "pronunciation": "zhè tāng lǐ zěn me yǒu tóu fa?",
+      "phonetic": "เจ้อ ทาง หลี่ เจิ่น เมอ โหย่ว โถ่ว ฟะ?",
+      "translation": "ในน้ำซุปนี้ทำไมมีเส้นผมได้ล่ะ",
+      "chunks": [
+        "这汤里怎么有头发？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L08-C080",
+      "legacyId": "U05-L08-C080",
+      "position": 10,
+      "script": "真抱歉，马上帮您换一碗。",
+      "pronunciation": "zhēn bào qiàn, mǎ shàng bāng nín huàn yì wǎn.",
+      "phonetic": "เจิน เป้า เจี้ยน, หม่า ส้าง ปัง หนิน ห้วน อี้ หวั่น.",
+      "translation": "ขอโทษจริงๆ ครับ จะรีบเปลี่ยนถ้วยใหม่ให้คุณทันที",
+      "chunks": [
+        "真抱歉，马上帮您换一碗。"
+      ]
+    }
+  ]
+}

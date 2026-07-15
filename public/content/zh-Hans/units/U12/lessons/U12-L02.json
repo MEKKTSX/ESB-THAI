@@ -1,0 +1,127 @@
+{
+  "id": "U12-L02",
+  "number": 2,
+  "title": "ฉันเรียนเอกภาษาจีน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L02-C011",
+      "legacyId": "U12-L02-C011",
+      "position": 1,
+      "script": "我学中文专业。",
+      "pronunciation": "wǒ xué zhōng wén zhuān yè.",
+      "phonetic": "หวั่ว เสวีย จง เวน จวน เย้",
+      "translation": "ฉันเรียนเอกภาษาจีน",
+      "chunks": [
+        "我学中文专业。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L02-C012",
+      "legacyId": "U12-L02-C012",
+      "position": 2,
+      "script": "主修工商管理。",
+      "pronunciation": "zhǔ xiū gōng shāng guǎn lǐ.",
+      "phonetic": "จู่ ซิว กง ชัง ก่วน หลี่",
+      "translation": "วิชาเอกการบริหารธุรกิจ",
+      "chunks": [
+        "主修工商管理。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L02-C013",
+      "legacyId": "U12-L02-C013",
+      "position": 3,
+      "script": "我对设计感兴趣。",
+      "pronunciation": "wǒ duì shè jì gǎn xìng qù.",
+      "phonetic": "หวั่ว ตุ้ย เซ่อ จี้ กั่น ซิ่ง ฉวี่",
+      "translation": "ฉันสนใจด้านการออกแบบ",
+      "chunks": [
+        "我对设计感兴趣。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L02-C014",
+      "legacyId": "U12-L02-C014",
+      "position": 4,
+      "script": "辅修经济学。",
+      "pronunciation": "fǔ xiū jīng jì xué.",
+      "phonetic": "ฝู่ ซิว จิง จี้ เสวีย",
+      "translation": "เรียนวิชาโทเศรษฐศาสตร์",
+      "chunks": [
+        "辅修经济学。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L02-C015",
+      "legacyId": "U12-L02-C015",
+      "position": 5,
+      "script": "这个专业很热门。",
+      "pronunciation": "zhè ge zhuān yè hěn rè mén.",
+      "phonetic": "เจ้อ เกอะ จวน เย้ หิ่น เร่อ เหมิน",
+      "translation": "สาขานี้ฮิตมาก",
+      "chunks": [
+        "这个专业很热门。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L02-C016",
+      "legacyId": "U12-L02-C016",
+      "position": 6,
+      "script": "毕业不好找工作。",
+      "pronunciation": "bì yè bù hǎo zhǎo gōng zuò.",
+      "phonetic": "ปี้ เย้ ปู้ ห่าว จ่าว กง ตัว",
+      "translation": "จบมาหางานยาก",
+      "chunks": [
+        "毕业不好找工作。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L02-C017",
+      "legacyId": "U12-L02-C017",
+      "position": 7,
+      "script": "跨专业考研。",
+      "pronunciation": "kuà zhuān yè kǎo yán.",
+      "phonetic": "คว้า จวน เย้ ข่าว แหยน",
+      "translation": "สอบป.โทข้ามสายวิชา",
+      "chunks": [
+        "跨专业考研。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L02-C018",
+      "legacyId": "U12-L02-C018",
+      "position": 8,
+      "script": "换了一个新方向。",
+      "pronunciation": "huàn le yí gè xīn fāng xiàng.",
+      "phonetic": "ฮ่วน เลอะ อี๋ เก้อ ซิน ฟาง เสี้ยง",
+      "translation": "เปลี่ยนแนวทางเรียนใหม่",
+      "chunks": [
+        "换了一个新方向。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L02-C019",
+      "legacyId": "U12-L02-C019",
+      "position": 9,
+      "script": "这个领域很有前景。",
+      "pronunciation": "zhè ge lǐng yù hěn yǒu qián jǐng.",
+      "phonetic": "เจ้อ เกอะ หลิ่ง ยวี่ หิ่น โหย่ว เฉียน จิ่ง",
+      "translation": "สายงานนี้มีอนาคตมาก",
+      "chunks": [
+        "这个领域很有前景。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L02-C020",
+      "legacyId": "U12-L02-C020",
+      "position": 10,
+      "script": "他是写代码的。",
+      "pronunciation": "tā shì xiě dài mǎ de.",
+      "phonetic": "ทา ซื่อ เสี่ย ไต้ม่า เตอะ",
+      "translation": "เขาเป็นคนเขียนโค้ด/โปรแกรมเมอร์",
+      "chunks": [
+        "他是写代码的。"
+      ]
+    }
+  ]
+}

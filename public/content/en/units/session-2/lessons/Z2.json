@@ -1,0 +1,395 @@
+{
+  "id": "Z2",
+  "number": 26,
+  "title": "Z. Mixed Daily Situations",
+  "chunks": [
+    {
+      "id": "en:session-2:Z2:1",
+      "legacyId": "Z2-0",
+      "position": 1,
+      "script": "To be honest, I don't really know.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เอาตรงๆ นะ ฉันไม่รู้จริงๆ",
+      "chunks": [
+        "To be honest,",
+        "I don't really know."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:2",
+      "legacyId": "Z2-1",
+      "position": 2,
+      "script": "Actually, I have a different opinion.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จริงๆ แล้วฉันมีความเห็นที่ต่างออกไป",
+      "chunks": [
+        "Actually,",
+        "I have a different opinion."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:3",
+      "legacyId": "Z2-2",
+      "position": 3,
+      "script": "Basically, it’s a simple process.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โดยพื้นฐานแล้ว มันเป็นขั้นตอนที่ง่ายๆ",
+      "chunks": [
+        "Basically,",
+        "it’s a simple process."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:4",
+      "legacyId": "Z2-3",
+      "position": 4,
+      "script": "Suddenly, the lights went out.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จู่ๆ ไฟก็ดับ",
+      "chunks": [
+        "Suddenly,",
+        "the lights went out."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:5",
+      "legacyId": "Z2-4",
+      "position": 5,
+      "script": "Fortunately, no one was hurt.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โชคดีที่ไม่มีใครบาดเจ็บ",
+      "chunks": [
+        "Fortunately,",
+        "no one was hurt."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:6",
+      "legacyId": "Z2-5",
+      "position": 6,
+      "script": "Unfortunately, I can’t make it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โชคร้ายที่ฉันไปไม่ได้",
+      "chunks": [
+        "Unfortunately,",
+        "I can’t make it."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:7",
+      "legacyId": "Z2-6",
+      "position": 7,
+      "script": "Eventually, we found the right way.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในที่สุดเราก็หาทางที่ถูกเจอ",
+      "chunks": [
+        "Eventually,",
+        "we found the right way."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:8",
+      "legacyId": "Z2-7",
+      "position": 8,
+      "script": "Recently, I’ve been very busy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วงนี้ฉันยุ่งมาก",
+      "chunks": [
+        "Recently,",
+        "I’ve been very busy."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:9",
+      "legacyId": "Z2-8",
+      "position": 9,
+      "script": "Currently, I am working on a new project.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปัจจุบันฉันกำลังทำโปรเจกต์ใหม่",
+      "chunks": [
+        "Currently,",
+        "I am working",
+        "on a new project."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:10",
+      "legacyId": "Z2-9",
+      "position": 10,
+      "script": "Generally, I wake up early.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โดยทั่วไปฉันตื่นเช้า",
+      "chunks": [
+        "Generally,",
+        "I wake up early."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:11",
+      "legacyId": "Z2-10",
+      "position": 11,
+      "script": "I managed to fix the car by myself.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันซ่อมรถด้วยตัวเองสำเร็จ",
+      "chunks": [
+        "I managed",
+        "to fix the car by myself."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:12",
+      "legacyId": "Z2-11",
+      "position": 12,
+      "script": "I prefer cooking to washing dishes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันชอบทำอาหารมากกว่าล้างจาน",
+      "chunks": [
+        "I prefer cooking",
+        "to washing dishes."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:13",
+      "legacyId": "Z2-12",
+      "position": 13,
+      "script": "It takes about 20 minutes to get there.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ใช้เวลาประมาณ 20 นาทีในการไปที่นั่น",
+      "chunks": [
+        "It takes",
+        "about 20 minutes",
+        "to get there."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:14",
+      "legacyId": "Z2-13",
+      "position": 14,
+      "script": "It took me two hours to finish the report.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันใช้เวลา 2 ชั่วโมงในการทำรายงานเสร็จ",
+      "chunks": [
+        "It took me two hours",
+        "to finish the report."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:15",
+      "legacyId": "Z2-14",
+      "position": 15,
+      "script": "It’s worth trying.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันคุ้มค่าที่จะลองนะ",
+      "chunks": [
+        "It’s worth trying."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:16",
+      "legacyId": "Z2-15",
+      "position": 16,
+      "script": "It’s not worth the money.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันไม่คุ้มเงินเลย",
+      "chunks": [
+        "It’s not worth the money."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:17",
+      "legacyId": "Z2-16",
+      "position": 17,
+      "script": "It’s no use worrying about it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กังวลไปก็เปล่าประโยชน์",
+      "chunks": [
+        "It’s no use worrying",
+        "about it."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:18",
+      "legacyId": "Z2-17",
+      "position": 18,
+      "script": "I’m looking forward to the weekend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตั้งตารอวันหยุดสุดสัปดาห์",
+      "chunks": [
+        "I’m looking forward",
+        "to the weekend."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:19",
+      "legacyId": "Z2-18",
+      "position": 19,
+      "script": "I’m interested in learning photography.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันสนใจเรียนถ่ายภาพ",
+      "chunks": [
+        "I’m interested",
+        "in learning photography."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:20",
+      "legacyId": "Z2-19",
+      "position": 20,
+      "script": "I’m good at solving problems.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันถนัดแก้ปัญหา",
+      "chunks": [
+        "I’m good",
+        "at solving problems."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:21",
+      "legacyId": "Z2-20",
+      "position": 21,
+      "script": "I’m bad at remembering names.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจำชื่อคนไม่เก่งเลย",
+      "chunks": [
+        "I’m bad",
+        "at remembering names."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:22",
+      "legacyId": "Z2-21",
+      "position": 22,
+      "script": "I’m afraid of heights.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกลัวความสูง",
+      "chunks": [
+        "I’m afraid of heights."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:23",
+      "legacyId": "Z2-22",
+      "position": 23,
+      "script": "I’m tired of waiting.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเบื่อที่จะรอแล้ว",
+      "chunks": [
+        "I’m tired of waiting."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:24",
+      "legacyId": "Z2-23",
+      "position": 24,
+      "script": "Are you familiar with this software?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณคุ้นเคยกับซอฟต์แวร์นี้ไหม?",
+      "chunks": [
+        "Are you familiar",
+        "with this software?"
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:25",
+      "legacyId": "Z2-24",
+      "position": 25,
+      "script": "Are you responsible for this project?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรับผิดชอบโปรเจกต์นี้ใช่ไหม?",
+      "chunks": [
+        "Are you responsible",
+        "for this project?"
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:26",
+      "legacyId": "Z2-25",
+      "position": 26,
+      "script": "Is it possible to change the date?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป็นไปได้ไหมที่จะเปลี่ยนวัน?",
+      "chunks": [
+        "Is it possible",
+        "to change the date?"
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:27",
+      "legacyId": "Z2-26",
+      "position": 27,
+      "script": "Is it necessary to print this?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จำเป็นต้องปรินต์ไหม?",
+      "chunks": [
+        "Is it necessary",
+        "to print this?"
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:28",
+      "legacyId": "Z2-27",
+      "position": 28,
+      "script": "Would you rather stay home or go out?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณอยากอยู่บ้านหรือออกไปข้างนอกมากกว่ากัน?",
+      "chunks": [
+        "Would you rather stay home",
+        "or go out?"
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:29",
+      "legacyId": "Z2-28",
+      "position": 29,
+      "script": "I’d rather go to the beach.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากไปทะเลมากกว่า",
+      "chunks": [
+        "I’d rather go",
+        "to the beach."
+      ]
+    },
+    {
+      "id": "en:session-2:Z2:30",
+      "legacyId": "Z2-29",
+      "position": 30,
+      "script": "Let's keep in touch.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แล้วติดต่อกันนะ",
+      "chunks": [
+        "Let's keep",
+        "in touch."
+      ]
+    }
+  ]
+}

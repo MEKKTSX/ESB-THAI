@@ -1,0 +1,127 @@
+{
+  "id": "U03-L04",
+  "number": 4,
+  "title": "ออกใบกำกับภาษีให้ฉันหน่อยได้ไหม",
+  "chunks": [
+    {
+      "id": "zh-Hans:U03-L04-C031",
+      "legacyId": "U03-L04-C031",
+      "position": 1,
+      "script": "可以给我开张发票吗？",
+      "pronunciation": "kě yǐ gěi wǒ kāi zhāng fā piào ma?",
+      "phonetic": "เขอ อี่ เก๋ย หว่อ ไค จาง ฟา เพี้ยว มะ?",
+      "translation": "ออกใบกำกับภาษีให้ฉันหน่อยได้ไหม",
+      "chunks": [
+        "可以给我开张发票吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L04-C032",
+      "legacyId": "U03-L04-C032",
+      "position": 2,
+      "script": "这里能刷卡吗？",
+      "pronunciation": "zhè lǐ néng shuā kǎ ma?",
+      "phonetic": "เจ้อ หลี่ เหนิง ซัว ข่า มะ?",
+      "translation": "ที่นี่รูดบัตรได้ไหม",
+      "chunks": [
+        "这里能刷卡吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L04-C033",
+      "legacyId": "U03-L04-C033",
+      "position": 3,
+      "script": "你是坐地铁来的吗？",
+      "pronunciation": "nǐ shì zuò dì tiě lái de ma?",
+      "phonetic": "หนี่ สื้อ จั่ว ตี้ เถี่ย ไหล เตอ มะ?",
+      "translation": "คุณนั่งรถไฟใต้ดินมาใช่ไหม",
+      "chunks": [
+        "你是坐地铁来的吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L04-C034",
+      "legacyId": "U03-L04-C034",
+      "position": 4,
+      "script": "这事情是真的吗？",
+      "pronunciation": "zhè shì qing shì zhēn de ma?",
+      "phonetic": "เจ้อ สื้อ ฉิง สื้อ เจิน เตอ มะ?",
+      "translation": "เรื่องนี้เป็นเรื่องจริงใช่ไหม",
+      "chunks": [
+        "这事情是真的吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L04-C035",
+      "legacyId": "U03-L04-C035",
+      "position": 5,
+      "script": "你看我说的对不对？",
+      "pronunciation": "nǐ kàn wǒ shuō de duì bú duì?",
+      "phonetic": "หนี่ ค่าน หว่อ ซัว เตอ ตุ้ย ปู๋ ตุ้ย?",
+      "translation": "คุณดูซิว่าฉันพูดถูกไหม",
+      "chunks": [
+        "你看我说的对不对？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L04-C036",
+      "legacyId": "U03-L04-C036",
+      "position": 6,
+      "script": "这样安排可以吗？",
+      "pronunciation": "zhè yàng ān pái kě yǐ ma?",
+      "phonetic": "เจ้อ ย่าง อัน ไผ เขอ อี่ มะ?",
+      "translation": "จัดแจงแบบนี้โอเคไหม / ได้ไหม",
+      "chunks": [
+        "这样安排可以吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L04-C037",
+      "legacyId": "U03-L04-C037",
+      "position": 7,
+      "script": "你今天怎么有空找我？",
+      "pronunciation": "nǐ jīn tiān zěn me yòng kòng zhǎo wǒ?",
+      "phonetic": "หนี่ จิน เทียน เจิ่น เมอ โหย่ว ค่ง เจ่า หว่อ?",
+      "translation": "วันนี้ทำไมคุณถึงมีเวลาว่างมาหาฉันล่ะ",
+      "chunks": [
+        "你今天怎么有空找我？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L04-C038",
+      "legacyId": "U03-L04-C038",
+      "position": 8,
+      "script": "最近忙什么呢？",
+      "pronunciation": "zuì jìn máng shén me ne?",
+      "phonetic": "จุ้ย จิ้น หมาง เซิ่น เมอ เนอ?",
+      "translation": "ช่วงนี้ยุ่งกับอะไรอยู่หรอ",
+      "chunks": [
+        "最近忙什么呢？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L04-C039",
+      "legacyId": "U03-L04-C039",
+      "position": 9,
+      "script": "你听说了那件事吗？",
+      "pronunciation": "nǐ tīng shuō le nà jiàn shì ma?",
+      "phonetic": "หนี่ ทิง ซัว เลอ น้า เจี้ยน สื้อ มะ?",
+      "translation": "คุณได้ยินเรื่องนั้นหรือยัง",
+      "chunks": [
+        "你听说了那件事吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L04-C040",
+      "legacyId": "U03-L04-C040",
+      "position": 10,
+      "script": "待会儿我们去哪儿聚聚？",
+      "pronunciation": "dāi huì r wǒ men qù nǎ r jù ju?",
+      "phonetic": "ไต ห้วยร์ หว่อ เมิน ชวี่ หน่าร์ จวี้ จวี่?",
+      "translation": "เดี๋ยวพวกเราจะไปแฮงเอาต์กันที่ไหนดี",
+      "chunks": [
+        "待会儿我们去哪儿聚聚？"
+      ]
+    }
+  ]
+}

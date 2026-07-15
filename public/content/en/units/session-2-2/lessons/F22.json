@@ -1,0 +1,204 @@
+{
+  "id": "F22",
+  "number": 6,
+  "title": "F. Describing Processes & Steps",
+  "chunks": [
+    {
+      "id": "en:session-2-2:F22:1",
+      "legacyId": "F22-0",
+      "position": 1,
+      "script": "First, you need to create an account.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อันดับแรก คุณต้องสร้างบัญชีก่อน",
+      "chunks": [
+        "First,",
+        "you need",
+        "to create an account."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:2",
+      "legacyId": "F22-1",
+      "position": 2,
+      "script": "Once you've done that, click on the settings icon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พอทำอันนั้นแล้ว ให้กดที่ไอคอน settings",
+      "chunks": [
+        "Once you've done",
+        "that, click",
+        "on the settings icon."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:3",
+      "legacyId": "F22-2",
+      "position": 3,
+      "script": "The next step is to fill in your personal details.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขั้นตอนต่อไปคือกรอกข้อมูลส่วนตัว",
+      "chunks": [
+        "The next step is",
+        "to fill",
+        "in your personal details."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:4",
+      "legacyId": "F22-3",
+      "position": 4,
+      "script": "After that, you'll receive a confirmation email.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หลังจากนั้น คุณจะได้รับอีเมลยืนยัน",
+      "chunks": [
+        "After",
+        "that, you'll receive a confirmation email."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:5",
+      "legacyId": "F22-4",
+      "position": 5,
+      "script": "Finally, click 'Submit' and you're done.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สุดท้าย กด 'Submit' แล้วก็เสร็จแล้ว",
+      "chunks": [
+        "Finally,",
+        "click 'Submit'",
+        "and you're done."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:6",
+      "legacyId": "F22-5",
+      "position": 6,
+      "script": "The whole process takes about 10 minutes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทั้งกระบวนการใช้เวลาประมาณ 10 นาที",
+      "chunks": [
+        "The whole process takes",
+        "about 10 minutes."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:7",
+      "legacyId": "F22-6",
+      "position": 7,
+      "script": "Before you start, make sure you have all the documents ready.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนเริ่ม ให้แน่ใจว่าเตรียมเอกสารทั้งหมดไว้ครบ",
+      "chunks": [
+        "Before you start,",
+        "make sure you have all the documents ready."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:8",
+      "legacyId": "F22-7",
+      "position": 8,
+      "script": "You can skip this step if you've done it before.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณข้ามขั้นตอนนี้ได้ถ้าเคยทำมาแล้ว",
+      "chunks": [
+        "You can skip this step if you've done it before."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:9",
+      "legacyId": "F22-8",
+      "position": 9,
+      "script": "Make sure to save your work at each step.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่าลืมเซฟงานในแต่ละขั้นตอนนะ",
+      "chunks": [
+        "Make sure",
+        "to save your work",
+        "at each step."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:10",
+      "legacyId": "F22-9",
+      "position": 10,
+      "script": "If something goes wrong, just start from the beginning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้ามีอะไรผิดพลาด ก็แค่เริ่มใหม่ตั้งแต่ต้น",
+      "chunks": [
+        "If something goes wrong,",
+        "just start from the beginning."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:11",
+      "legacyId": "F22-10",
+      "position": 11,
+      "script": "Repeat these steps until you get the result you want.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทำซ้ำขั้นตอนพวกนี้จนกว่าจะได้ผลลัพธ์ที่ต้องการ",
+      "chunks": [
+        "Repeat these steps until you get the result you want."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:12",
+      "legacyId": "F22-11",
+      "position": 12,
+      "script": "The process is quite straightforward once you get the hang of it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กระบวนการนี้ค่อนข้างตรงไปตรงมาพอจับทางได้แล้ว",
+      "chunks": [
+        "The process is quite straightforward once you get the hang of it."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:13",
+      "legacyId": "F22-12",
+      "position": 13,
+      "script": "Let me walk you through it step by step.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้ฉันพาคุณทำทีละขั้นตอนนะ",
+      "chunks": [
+        "Let me walk you through it step by step."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:14",
+      "legacyId": "F22-13",
+      "position": 14,
+      "script": "At this stage, you should see a pop-up window appear.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในขั้นตอนนี้ คุณควรจะเห็นหน้าต่าง pop-up ขึ้นมา",
+      "chunks": [
+        "At this stage,",
+        "you should see a pop-up window appear."
+      ]
+    },
+    {
+      "id": "en:session-2-2:F22:15",
+      "legacyId": "F22-14",
+      "position": 15,
+      "script": "Once everything is in order, submit the form.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พอทุกอย่างเรียบร้อยแล้ว ก็ยื่นฟอร์มได้เลย",
+      "chunks": [
+        "Once everything is",
+        "in order,",
+        "submit the form."
+      ]
+    }
+  ]
+}

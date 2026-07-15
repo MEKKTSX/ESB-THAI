@@ -1,0 +1,168 @@
+{
+  "id": "Q2",
+  "number": 17,
+  "title": "Q. Uncertainty & Speculation",
+  "chunks": [
+    {
+      "id": "en:session-2:Q2:1",
+      "legacyId": "Q2-0",
+      "position": 1,
+      "script": "It might rain later, so take an umbrella.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฝนอาจจะตก พกร่มไปด้วยนะ",
+      "chunks": [
+        "It might rain later,",
+        "so take an umbrella."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:2",
+      "legacyId": "Q2-1",
+      "position": 2,
+      "script": "He might be late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาอาจจะมาสาย",
+      "chunks": [
+        "He might be late."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:3",
+      "legacyId": "Q2-2",
+      "position": 3,
+      "script": "She might not come today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้เธออาจจะไม่มา",
+      "chunks": [
+        "She might not come today."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:4",
+      "legacyId": "Q2-3",
+      "position": 4,
+      "script": "It could be true.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันอาจจะเป็นเรื่องจริงก็ได้",
+      "chunks": [
+        "It could be true."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:5",
+      "legacyId": "Q2-4",
+      "position": 5,
+      "script": "It could be a misunderstanding.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันอาจจะเป็นความเข้าใจผิด",
+      "chunks": [
+        "It could be a misunderstanding."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:6",
+      "legacyId": "Q2-5",
+      "position": 6,
+      "script": "I’m not sure what to do.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่แน่ใจว่าจะทำยังไงดี",
+      "chunks": [
+        "I’m not sure what",
+        "to do."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:7",
+      "legacyId": "Q2-6",
+      "position": 7,
+      "script": "I have no idea where he is.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่รู้เลยว่าเขาอยู่ที่ไหน",
+      "chunks": [
+        "I have no idea",
+        "where he is."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:8",
+      "legacyId": "Q2-7",
+      "position": 8,
+      "script": "I doubt that it will happen.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันสงสัยว่ามันจะเกิดขึ้นจริงเหรอ (ไม่น่าเกิด)",
+      "chunks": [
+        "I doubt",
+        "that it will happen."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:9",
+      "legacyId": "Q2-8",
+      "position": 9,
+      "script": "It looks like it’s going to snow.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดูเหมือนหิมะกำลังจะตก",
+      "chunks": [
+        "It looks like it’s going",
+        "to snow."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:10",
+      "legacyId": "Q2-9",
+      "position": 10,
+      "script": "It sounds like a great idea.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฟังดูเป็นไอเดียที่เข้าท่ามาก",
+      "chunks": [
+        "It sounds like a great idea."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:11",
+      "legacyId": "Q2-10",
+      "position": 11,
+      "script": "It smells like something is burning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีกลิ่นเหมือนอะไรไหม้",
+      "chunks": [
+        "It smells like something is burning."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:12",
+      "legacyId": "Q2-11",
+      "position": 12,
+      "script": "It tastes a bit strange.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รสชาติมันแปลกๆ นิดหน่อย",
+      "chunks": [
+        "It tastes a bit strange."
+      ]
+    },
+    {
+      "id": "en:session-2:Q2:13",
+      "legacyId": "Q2-12",
+      "position": 13,
+      "script": "It seems impossible.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดูเหมือนจะเป็นไปไม่ได้เลย",
+      "chunks": [
+        "It seems impossible."
+      ]
+    }
+  ]
+}

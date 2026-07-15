@@ -1,0 +1,127 @@
+{
+  "id": "U08-L07",
+  "number": 7,
+  "title": "งั้นคุณรีบไปเตรียมตัวเถอะ เตรียมตัวกินข้าวได้เลย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L07-C061",
+      "legacyId": "U08-L07-C061",
+      "position": 1,
+      "script": "那你快去准备一下，准备开饭吧。",
+      "pronunciation": "nà nǐ kuài qù zhǔn bèi yí xià, zhǔn bèi kāi fàn ba.",
+      "phonetic": "น้า หนี่ คว้าย ชวี่ จวิ๋น เป้ย อี๋ เซี่ย, จวิ๋น เป้ย ไค ฟ้าน ปะ.",
+      "translation": "งั้นคุณรีบไปเตรียมตัวเถอะ เตรียมตัวกินข้าวได้เลย",
+      "chunks": [
+        "那你快去准备一下，准备开饭吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L07-C062",
+      "legacyId": "U08-L07-C062",
+      "position": 2,
+      "script": "好的，先不聊了，我去拿外卖。",
+      "pronunciation": "hǎo de, xiān bù liáo le, wǒ qù ná wài mài.",
+      "phonetic": "ห่าว เตอ, เซียน ปู้ เลี้ยว เลอ, หว่อ ชวี่ น๋า ไว้ ม้าย.",
+      "translation": "โอเค งั้นไม่คุยก่อนนะ ฉันไปเอาเดลิเวอรีละ",
+      "chunks": [
+        "好的，先不聊了，我去拿外卖。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L07-C063",
+      "legacyId": "U08-L07-C063",
+      "position": 3,
+      "script": "明天周末，你有什么打算吗？",
+      "pronunciation": "míng tiān zhōu mò, nǐ yǒu shén me dǎ suàn ma?",
+      "phonetic": "หมิง เทียน โจว ม่อ, หนี่ โหย่ว เซิ่น เมอ ต๋า ส้วน มะ？",
+      "translation": "พรุ่งนี้วันหยุดสุดสัปดาห์ คุณมีแผนจะทำอะไรไหม",
+      "chunks": [
+        "明天周末，你有什么打算吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L07-C064",
+      "legacyId": "U08-L07-C064",
+      "position": 4,
+      "script": "我想在家里打一整天游戏，哪儿也不去。",
+      "pronunciation": "wǒ xiǎng zài jiā lǐ dǎ yì zhěng tiān yóu xì, nǎr yě bú qù.",
+      "phonetic": "หว่อ แฉี่ยง ไซ้ เจีย หลี่ ต๋า อี๋ เจิ่ง เทียน โหย่ว ซี่, หน่าร์ เยี่ย ปู้ ชวี่.",
+      "translation": "ฉันอยากเล่นเกมอยู่บ้านทั้งวันเลย ไม่ไปไหนทั้งนั้น",
+      "chunks": [
+        "我想在家里打一整天游戏，哪儿也不去。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L07-C065",
+      "legacyId": "U08-L07-C065",
+      "position": 5,
+      "script": "那也挺惬意的，可以好好放松一下。",
+      "pronunciation": "nà yě tǐng qiè yì de, kě yǐ hǎo hǎo fàng sōng yí xià.",
+      "phonetic": "น้า เยี่ย ถิ่ง เชี่ย อี้ เตอ, เขอ อี่ ห่าว ห่าว ฟ้าง โซง อี๋ เซี่ย.",
+      "translation": "แบบนั้นก็ชิลดีนะ ได้ผ่อนคลายให้เต็มที่ไปเลย",
+      "chunks": [
+        "那也挺惬意的，可以好好放松一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L07-C066",
+      "legacyId": "U08-L07-C066",
+      "position": 6,
+      "script": "对啊，这周加班实在太累了。",
+      "pronunciation": "duì a, zhè zhōu jiā bān shí zài tài lèi le.",
+      "phonetic": "ตุ้ย อา, เจ้อ โจว เจีย ปาน สื้อ ไซ้ ไท่ เลุ่ย เลอ.",
+      "translation": "ใช่เลย สัปดาห์นี้อยู่โอทีเหนื่อยมากจริงๆ",
+      "chunks": [
+        "对啊，这周加班实在太累了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L07-C067",
+      "legacyId": "U08-L07-C067",
+      "position": 7,
+      "script": "下周我们有新项目，这几天多休息吧。",
+      "pronunciation": "xià zhōu wǒ men yǒu xīn xiàng mù, zhè jǐ tiān duō xiū xi ba.",
+      "phonetic": "เซี่ย โจว พวกเรา โหย่ว ซิน เสี้ยง มู่, เจ้อ จี๋ เทียน ตัว ซิว สิ ปะ.",
+      "translation": "สัปดาห์หน้าพวกเรามีโครงการใหม่ ช่วงสองสามวันนี้พักผ่อนเยอะ ๆ นะ",
+      "chunks": [
+        "下周我们有新项目，这几天多休息吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L07-C068",
+      "legacyId": "U08-L07-C068",
+      "position": 8,
+      "script": "知道了，你周末也玩得开心点儿。",
+      "pronunciation": "zhī dào le, nǐ zhōu mò yě wán de kāi xīn diǎnr.",
+      "phonetic": "จือ เต้า เลอ, หนี่ โจว ม่อ เยี่ย หวัน เตอ ไค ซิน เดี๋ยร์.",
+      "translation": "รับทราบแล้ว คุณเองก็ขอให้สนุกกับวันหยุดสุดสัปดาห์เช่นกันนะ",
+      "chunks": [
+        "知道了，你周末也玩得开心点儿。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L07-C069",
+      "legacyId": "U08-L07-C069",
+      "position": 9,
+      "script": "谢谢，周一公司见！",
+      "pronunciation": "xiè xie, zhōu yī gōng sī jiàn!",
+      "phonetic": "เซี่ย เสี่ย, โจว อี กง ซือ เจี้ยน!",
+      "translation": "ขอบคุณนะ วันจันทร์เจอกันที่บริษัท!",
+      "chunks": [
+        "谢谢，周一公司见！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L07-C070",
+      "legacyId": "U08-L07-C070",
+      "position": 10,
+      "script": "没问题，拜拜，周末愉快！",
+      "pronunciation": "méi wèn tí, bái bái, zhōu mò yú kuài!",
+      "phonetic": "เหมย แว่น ถี, บาย บาย, โจว ม่อ อวี่ คว้าย!",
+      "translation": "ไม่มีปัญหา บ๊ายบาย สุขสันต์วันหยุดสุดสัปดาห์นะ!",
+      "chunks": [
+        "没问题，拜拜，周末愉快！"
+      ]
+    }
+  ]
+}

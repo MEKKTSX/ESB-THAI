@@ -1,0 +1,127 @@
+{
+  "id": "U01-L04",
+  "number": 4,
+  "title": "ไม่ได้! / ไม่โอเค!",
+  "chunks": [
+    {
+      "id": "zh-Hans:U01-L04-C031",
+      "legacyId": "U01-L04-C031",
+      "position": 1,
+      "script": "不行！",
+      "pronunciation": "bù xíng!",
+      "phonetic": "ปู้ สิง!",
+      "translation": "ไม่ได้! / ไม่โอเค!",
+      "chunks": [
+        "不行！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L04-C032",
+      "legacyId": "U01-L04-C032",
+      "position": 2,
+      "script": "懂了吗？",
+      "pronunciation": "dǒng le ma?",
+      "phonetic": "ต๋ง เลอ มะ?",
+      "translation": "เข้าใจหรือยัง",
+      "chunks": [
+        "懂了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L04-C033",
+      "legacyId": "U01-L04-C033",
+      "position": 3,
+      "script": "听得懂吗？",
+      "pronunciation": "tīng de dǒng ma?",
+      "phonetic": "ทิง เตอ ต๋ง มะ?",
+      "translation": "ฟังเข้าใจไหม",
+      "chunks": [
+        "听得懂吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L04-C034",
+      "legacyId": "U01-L04-C034",
+      "position": 4,
+      "script": "我听不懂。",
+      "pronunciation": "wǒ tīng bù dǒng.",
+      "phonetic": "หว่อ ทิง ปู้ ต๋ง.",
+      "translation": "ฉันฟังไม่เข้าใจ / ฟังไม่รู้เรื่อง",
+      "chunks": [
+        "我听不懂。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L04-C035",
+      "legacyId": "U01-L04-C035",
+      "position": 5,
+      "script": "你知道吗？",
+      "pronunciation": "nǐ zhī dào ma?",
+      "phonetic": "หนี่ จือ เต้า มะ?",
+      "translation": "คุณรู้ไหม",
+      "chunks": [
+        "你知道吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L04-C036",
+      "legacyId": "U01-L04-C036",
+      "position": 6,
+      "script": "我不知道。",
+      "pronunciation": "wǒ bù zhī dào.",
+      "phonetic": "หว่อ ปู้ จือ เต้า.",
+      "translation": "ฉันไม่รู้",
+      "chunks": [
+        "我不知道。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L04-C037",
+      "legacyId": "U01-L04-C037",
+      "position": 7,
+      "script": "我不太清楚。",
+      "pronunciation": "wǒ bú tài qīng chu.",
+      "phonetic": "หว่อ บู๋ ไท่ ชิง ฉุ.",
+      "translation": "ฉันไม่ค่อยแน่ใจ / ไม่ค่อยรู้ชัดเจน",
+      "chunks": [
+        "我不太清楚。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L04-C038",
+      "legacyId": "U01-L04-C038",
+      "position": 8,
+      "script": "我想想。",
+      "pronunciation": "wǒ xiǎng xiang.",
+      "phonetic": "หว่อ แฉี่ยง เสียง.",
+      "translation": "ฉันขอคิดดูหน่อยนะ",
+      "chunks": [
+        "我想想。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L04-C039",
+      "legacyId": "U01-L04-C039",
+      "position": 9,
+      "script": "没看懂。",
+      "pronunciation": "méi kàn dǒng.",
+      "phonetic": "เหมย ค่าน ต๋ง.",
+      "translation": "ดูไม่เข้าใจ / อ่านไม่เข้าใจ",
+      "chunks": [
+        "没看懂。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L04-C040",
+      "legacyId": "U01-L04-C040",
+      "position": 10,
+      "script": "原来是这样！",
+      "pronunciation": "yuán lái shì zhè yàng!",
+      "phonetic": "หยวาน ไหล สื้อ เจ้อ ย่าง!",
+      "translation": "ที่แท้ก็เป็นแบบนี้นี่เอง!",
+      "chunks": [
+        "原来是这样！"
+      ]
+    }
+  ]
+}

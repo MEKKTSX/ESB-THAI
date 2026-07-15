@@ -1,0 +1,279 @@
+{
+  "id": "C22",
+  "number": 3,
+  "title": "C. Transition Phrases",
+  "chunks": [
+    {
+      "id": "en:session-2-2:C22:1",
+      "legacyId": "C22-0",
+      "position": 1,
+      "script": "Having said that, I do think there's some truth to it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แต่ที่พูดมาทั้งหมด ฉันก็ยังคิดว่ามันมีความจริงอยู่บ้าง",
+      "chunks": [
+        "Having said",
+        "that, I do think there's some truth",
+        "to it."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:2",
+      "legacyId": "C22-1",
+      "position": 2,
+      "script": "What I mean is that we need more time to prepare.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ที่หมายความว่าคือ เราต้องการเวลาเตรียมตัวมากกว่านี้",
+      "chunks": [
+        "What I mean is",
+        "that we need more time",
+        "to prepare."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:3",
+      "legacyId": "C22-2",
+      "position": 3,
+      "script": "To be more specific, the issue is with the third section.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดให้เจาะจงกว่านี้ ปัญหาอยู่ที่ส่วนที่สามนะ",
+      "chunks": [
+        "To be more specific,",
+        "the issue is",
+        "with the third section."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:4",
+      "legacyId": "C22-3",
+      "position": 4,
+      "script": "In other words, we have to start over.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดอีกอย่างก็คือ เราต้องเริ่มใหม่",
+      "chunks": [
+        "In other words,",
+        "we have",
+        "to start over."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:5",
+      "legacyId": "C22-4",
+      "position": 5,
+      "script": "That said, I'm still open to other ideas.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ที่พูดมาทั้งหมดนั้น ฉันก็ยังเปิดรับไอเดียอื่นๆ อยู่นะ",
+      "chunks": [
+        "That said,",
+        "I'm still open",
+        "to other ideas."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:6",
+      "legacyId": "C22-5",
+      "position": 6,
+      "script": "To put it simply, the plan didn't work.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดง่ายๆ ก็คือ แผนนั้นไม่ได้ผล",
+      "chunks": [
+        "To put it simply,",
+        "the plan didn't work."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:7",
+      "legacyId": "C22-6",
+      "position": 7,
+      "script": "What's more, we're also behind on the budget.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยิ่งกว่านั้น งบประมาณก็ยังล่าช้าอยู่ด้วย",
+      "chunks": [
+        "What's more,",
+        "we're also behind",
+        "on the budget."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:8",
+      "legacyId": "C22-7",
+      "position": 8,
+      "script": "On top of that, we have a deadline next week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นอกจากนั้นแล้ว เรายังมีดีดไลน์อาทิตย์หน้าด้วย",
+      "chunks": [
+        "On top of",
+        "that, we have a deadline next week."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:9",
+      "legacyId": "C22-8",
+      "position": 9,
+      "script": "At the same time, we can't ignore the other problems.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขณะเดียวกัน เราก็เพิกเฉยต่อปัญหาอื่นๆ ไม่ได้",
+      "chunks": [
+        "At the same time,",
+        "we can't ignore the other problems."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:10",
+      "legacyId": "C22-9",
+      "position": 10,
+      "script": "Having done that, let's move on to the next point.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พอทำอันนั้นแล้ว มาต่อประเด็นถัดไปกันเลย",
+      "chunks": [
+        "Having done",
+        "that, let's move",
+        "on",
+        "to the next point."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:11",
+      "legacyId": "C22-10",
+      "position": 11,
+      "script": "With that in mind, let's reconsider the approach.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โดยคำนึงถึงสิ่งนั้น มาทบทวนวิธีการใหม่กันดีกว่า",
+      "chunks": [
+        "With",
+        "that",
+        "in mind,",
+        "let's reconsider the approach."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:12",
+      "legacyId": "C22-11",
+      "position": 12,
+      "script": "All things considered, I think the first option is best.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พิจารณาทุกอย่างแล้ว ฉันคิดว่าตัวเลือกแรกดีที่สุด",
+      "chunks": [
+        "All things considered,",
+        "I think the first option is best."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:13",
+      "legacyId": "C22-12",
+      "position": 13,
+      "script": "That being said, we should still be careful.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงอย่างนั้น เราก็ยังต้องระวังอยู่ดี",
+      "chunks": [
+        "That being said,",
+        "we should still be careful."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:14",
+      "legacyId": "C22-13",
+      "position": 14,
+      "script": "To sum up, we need more resources and more time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สรุปก็คือ เราต้องการทรัพยากรและเวลามากกว่านี้",
+      "chunks": [
+        "To sum up,",
+        "we need more resources",
+        "and more time."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:15",
+      "legacyId": "C22-14",
+      "position": 15,
+      "script": "What I'm trying to say is that we need to communicate better.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ที่ฉันพยายามจะบอกคือ เราต้องสื่อสารกันให้ดีขึ้นกว่านี้",
+      "chunks": [
+        "What I'm trying",
+        "to say is",
+        "that we need",
+        "to communicate better."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:16",
+      "legacyId": "C22-15",
+      "position": 16,
+      "script": "To get back to the original point...",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กลับมาที่ประเด็นตั้งต้นก่อนนะ...",
+      "chunks": [
+        "To get back",
+        "to the original point..."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:17",
+      "legacyId": "C22-16",
+      "position": 17,
+      "script": "Building on what you just said...",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ต่อจากสิ่งที่คุณพูดมาเมื่อกี้...",
+      "chunks": [
+        "Building",
+        "on what you just said..."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:18",
+      "legacyId": "C22-17",
+      "position": 18,
+      "script": "As I was saying before the interruption...",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่างที่ฉันกำลังพูดอยู่ก่อนถูกขัด...",
+      "chunks": [
+        "As I was saying before the interruption..."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:19",
+      "legacyId": "C22-18",
+      "position": 19,
+      "script": "To wrap things up, here's the key takeaway.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนจบ นี่คือสิ่งสำคัญที่อยากฝากไว้",
+      "chunks": [
+        "To wrap things up,",
+        "here's the key takeaway."
+      ]
+    },
+    {
+      "id": "en:session-2-2:C22:20",
+      "legacyId": "C22-19",
+      "position": 20,
+      "script": "Apart from that, everything else seems fine.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นอกจากนั้นแล้ว ทุกอย่างดูโอเคดี",
+      "chunks": [
+        "Apart from",
+        "that, everything else seems fine."
+      ]
+    }
+  ]
+}

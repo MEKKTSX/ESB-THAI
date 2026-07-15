@@ -1,0 +1,127 @@
+{
+  "id": "U12-L09",
+  "number": 9,
+  "title": "จบแล้วอยากไปทำบริษัทต่างชาติ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L09-C081",
+      "legacyId": "U12-L09-C081",
+      "position": 1,
+      "script": "毕业想去外企。",
+      "pronunciation": "bì yè xiǎng qù wài qǐ.",
+      "phonetic": "ปี้ เย้ เสี่ยง ฉวี่ ไว้ ฉี่",
+      "translation": "จบแล้วอยากไปทำบริษัทต่างชาติ",
+      "chunks": [
+        "毕业想去外企。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L09-C082",
+      "legacyId": "U12-L09-C082",
+      "position": 2,
+      "script": "对金融行业感新趣。",
+      "pronunciation": "duì jīn róng háng yè gǎn xìng qù.",
+      "phonetic": "ตุ้ย จิน โหรง หัง เย้ กั่น ซิ่ง ฉวี่",
+      "translation": "สนใจในอุตสาหกรรมการเงิน",
+      "chunks": [
+        "对金融行业感新趣。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L09-C083",
+      "legacyId": "U12-L09-C083",
+      "position": 3,
+      "script": "想从事电商行业。",
+      "pronunciation": "xiǎng cóng shì diàn shāng háng yè.",
+      "phonetic": "เสี่ยง ฉง ซื่อ เตี้ยน ชัง หัง เย้",
+      "translation": "อยากทำงานในวงการอีคอมเมิร์ซ",
+      "chunks": [
+        "想从事电商行业。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L09-C084",
+      "legacyId": "U12-L09-C084",
+      "position": 4,
+      "script": "打算自己创业。",
+      "pronunciation": "dǎ suàn zì jǐ chuàng yè.",
+      "phonetic": "ต่า ส้วน จื้อ จี่ ชวั่ง เย้",
+      "translation": "วางแผนจะทำธุรกิจตัวเอง",
+      "chunks": [
+        "打算自己创业。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L09-C085",
+      "legacyId": "U12-L09-C085",
+      "position": 5,
+      "script": "想进电视台工作。",
+      "pronunciation": "xiǎng jìn diàn shì tái gōng zuò.",
+      "phonetic": "เสี่ยง จิ้น เตี้ยน ซื่อ ไถ กง จั้ว",
+      "translation": "อยากเข้าทำงานที่สถานีโทรทัศน์",
+      "chunks": [
+        "想进电视台工作。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L09-C086",
+      "legacyId": "U12-L09-C086",
+      "position": 6,
+      "script": "准备考公务员。",
+      "pronunciation": "zhǔn bèi kǎo gōng wù yuán.",
+      "phonetic": "จุ่น เป้ย ข่าว กง อู้ แหยน",
+      "translation": "เตรียมตัวสอบข้าราชการ",
+      "chunks": [
+        "准备考公务员。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L09-C087",
+      "legacyId": "U12-L09-C087",
+      "position": 7,
+      "script": "当老师稳定一些。",
+      "pronunciation": "dāng lǎo shī wěn dìng yì xiē.",
+      "phonetic": "ตัง เหล่า ซือ เหวิ่น ติ้ง อี้ เซีย",
+      "translation": "เป็นครูจะมั่นคงกว่าหน่อย",
+      "chunks": [
+        "当老师稳定一些。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L09-C088",
+      "legacyId": "U12-L09-C088",
+      "position": 8,
+      "script": "想跨国远程办公。",
+      "pronunciation": "xiǎng kuà guó yuǎn chéng bàn gōng.",
+      "phonetic": "เสี่ยง คว้า ก๋ว๋อ ย่วน เฉิง ปั้น กง",
+      "translation": "อยากทำงานรีโมทแบบข้ามประเทศ",
+      "chunks": [
+        "想跨国远程办公。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L09-C089",
+      "legacyId": "U12-L09-C089",
+      "position": 9,
+      "script": "还在考虑干哪行。",
+      "pronunciation": "hái zài kǎo lǜ gàn nǎ háng.",
+      "phonetic": "หาย ไจ้ ข่าว ลวี่ กั้น น้า หัง",
+      "translation": "ยังพิจารณาอยู่ว่าจะทำสายงานไหน",
+      "chunks": [
+        "还在考虑干哪行。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L09-C090",
+      "legacyId": "U12-L09-C090",
+      "position": 10,
+      "script": "我的目标是读博。",
+      "pronunciation": "wǒ de mù biāo shì dú bó.",
+      "phonetic": "หวั่ว เตอะ มู่ เปียว ซื่อ ตู๋ โป๋",
+      "translation": "เป้าหมายของฉันคือเรียนต่อป.เอก",
+      "chunks": [
+        "我的目标是读博。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U09-L08",
+  "number": 8,
+  "title": "ฉันรู้สึกว่าวันนี้เขาอารมณ์ไม่ค่อยดีเท่าไหร่",
+  "chunks": [
+    {
+      "id": "zh-Hans:U09-L08-C071",
+      "legacyId": "U09-L08-C071",
+      "position": 1,
+      "script": "我觉得他今天心情不太好。",
+      "pronunciation": "wǒ jué de tā jìn tiān xīn qíng bú tài hǎo.",
+      "phonetic": "หว่อ จว๋ะ เตอ ทา จิน เทียน ซิน ฉิง บู๋ ไท่ ห่าว.",
+      "translation": "ฉันรู้สึกว่าวันนี้เขาอารมณ์ไม่ค่อยดีเท่าไหร่",
+      "chunks": [
+        "我觉得他今天心情不太好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L08-C072",
+      "legacyId": "U09-L08-C072",
+      "position": 2,
+      "script": "我总觉得他话里有话。",
+      "pronunciation": "wǒ zǒng jué de tā huà lǐ yǒu huà.",
+      "phonetic": "หว่อ จ่ง จว๋ะ เตอ ทา หว้า หลี่ โหย่ว หว้า.",
+      "translation": "ฉันมักจะรู้สึกว่าคำพูดของเขามันมีนัยแอบแฝงอยู่",
+      "chunks": [
+        "我总觉得他话里有话。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L08-C073",
+      "legacyId": "U09-L08-C073",
+      "position": 3,
+      "script": "看他的表情，好像很满意的样子。",
+      "pronunciation": "kàn tā de biǎo qíng, hǎo xiàng hěn mǎn yì de yàng zi.",
+      "phonetic": "ค่าน ทา เตอ เปี่่ยว ฉิง, ห่าว เสี้ยง เหิ่น หมั่น อี้ เตอ ย่าง จิ.",
+      "translation": "ดูจากสีหน้าของเขาแล้ว เหมือนจะรู้สึกพึงพอใจมากเลยนะ",
+      "chunks": [
+        "看他的表情，好像很满意的样子。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L08-C074",
+      "legacyId": "U09-L08-C074",
+      "position": 4,
+      "script": "我总感觉这次的事情背后有人在操纵。",
+      "pronunciation": "wǒ zǒng gǎn jué zhè cì de shì qing bèi hòu yǒu rén zài cāo zòng.",
+      "phonetic": "หว่อ จ่ง ก๋ัน จว๋ะ เจ้อ ซี่ เตอ สื้อ ฉิง เปุ่ย โห่ว โหย่ว เหริน ไซ้ เชา จ้ง.",
+      "translation": "ฉันรู้สึกตะหงิดๆ ว่าเรื่องราวในครั้งนี้มันต้องมีคนคอยบงการอยู่เบื้องหลังแน่ๆ",
+      "chunks": [
+        "我总感觉这次的事情背后有人在操纵。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L08-C075",
+      "legacyId": "U09-L08-C075",
+      "position": 5,
+      "script": "我总觉得这件事情背后有蹊跷。",
+      "pronunciation": "wǒ zǒng jué de zhè jiàn shì bèi hòu yǒu qī qiāo.",
+      "phonetic": "หว่อ จ่ง จว๋ะ เตอ เจ้อ เจี้ยน สื้อ เปุ่ย โห่ว โหย่ว ชี เชียว.",
+      "translation": "ฉันมักจะรู้สึกว่าเรื่องนี้มันต้องมีเงื่อนงำอะไรซ่อนอยู่เบื้องหลังแน่ๆ",
+      "chunks": [
+        "我总觉得这件事情背后有蹊跷。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L08-C076",
+      "legacyId": "U09-L08-C076",
+      "position": 6,
+      "script": "感觉大家今天都怪怪的。",
+      "pronunciation": "gǎn jué dà jiā jìn tiān dōu guài guài de.",
+      "phonetic": "ก๋ัน จว๋ะ ต้า เจีย จิน เทียน โตว คว้าย คว้าย เตอ.",
+      "translation": "รู้สึกว่าวันนี้ทุกคนทำตัวแปลกๆ กันหมดเลย",
+      "chunks": [
+        "感觉大家今天都怪怪的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L08-C077",
+      "legacyId": "U09-L08-C077",
+      "position": 7,
+      "script": "我有种不祥的预感。",
+      "pronunciation": "wǒ yǒu zhǒng bù xiáng de yù gǎn.",
+      "phonetic": "หว่อ โหย่ว จง ปู้ เสีย ง เตอ ยวิ่น ก๋ัน.",
+      "translation": "ฉันลางสังหรณ์ใจไม่ค่อยดีเลย",
+      "chunks": [
+        "我有种不祥的预感。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L08-C078",
+      "legacyId": "U09-L08-C078",
+      "position": 8,
+      "script": "感觉这件事有些不对劲。",
+      "pronunciation": "gǎn jué zhè jiàn shì yǒu xiē bú duì jìn.",
+      "phonetic": "ก๋ัน จว๋ะ เจ้อ เจี้ยน สื้อ โหย่ว เซีย ปู๋ ตุ้ย จิ้น.",
+      "translation": "รู้สึกว่าเรื่องนี้มันมีอะไรบางอย่างไม่ชอบมาพากล",
+      "chunks": [
+        "感觉这件事有些不对劲。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L08-C079",
+      "legacyId": "U09-L08-C079",
+      "position": 9,
+      "script": "看样子今天是要下雨了。",
+      "pronunciation": "kàn yàng zi jìn tiān shì yào xià yǔ le.",
+      "phonetic": "ค่าน ย่าง จิ จิน เทียน สื้อ เย้า เซี่ย อวี่ เลอ.",
+      "translation": "ดูท่าทางวันนี้ฝนน่าจะตกแล้วล่ะ",
+      "chunks": [
+        "看样子今天是要下雨了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L08-C080",
+      "legacyId": "U09-L08-C080",
+      "position": 10,
+      "script": "感觉心情一下子好多了。",
+      "pronunciation": "gǎn jué xīn qíng yí xià zi hǎo duō le.",
+      "phonetic": "ก๋ัน จว๋ะ ซิน ฉิง อี๋ เซี่ย จิ ห่าว ตัว เลอ.",
+      "translation": "รู้สึกว่าอารมณ์ดีขึ้นตั้งเยอะในทันที",
+      "chunks": [
+        "感觉心情一下子好多了。"
+      ]
+    }
+  ]
+}

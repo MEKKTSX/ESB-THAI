@@ -1,0 +1,127 @@
+{
+  "id": "U03-L03",
+  "number": 3,
+  "title": "อันนี้ขายยังไง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U03-L03-C021",
+      "legacyId": "U03-L03-C021",
+      "position": 1,
+      "script": "这个怎么卖？",
+      "pronunciation": "zhè ge zěn me mài?",
+      "phonetic": "เจ้อ เกอ เจิ่น เมอ ม้าย?",
+      "translation": "อันนี้ขายยังไง",
+      "chunks": [
+        "这个怎么卖？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L03-C022",
+      "legacyId": "U03-L03-C022",
+      "position": 2,
+      "script": "去火车站怎么走？",
+      "pronunciation": "qù huǒ chē zhàn zěn me zǒu?",
+      "phonetic": "ชวี่ โห่ว เชอ จ้าน เจิ่น เมอ โจ่ว?",
+      "translation": "ไปสถานีรถไฟไปยังไง",
+      "chunks": [
+        "去火车站怎么走？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L03-C023",
+      "legacyId": "U03-L03-C023",
+      "position": 3,
+      "script": "这个字怎么写？",
+      "pronunciation": "zhè ge zì zěn me xiě?",
+      "phonetic": "เจ้อ เกอ จื้อ เจิ่น เมอ เสี่ย?",
+      "translation": "ตัวอักษรนี้เขียนยังไง",
+      "chunks": [
+        "这个字怎么写？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L03-C024",
+      "legacyId": "U03-L03-C024",
+      "position": 4,
+      "script": "这件事情该怎么办？",
+      "pronunciation": "zhè jiàn shì qing gāi zěn me bàn?",
+      "phonetic": "เจ้อ เจี้ยน สื้อ ฉิง ไก เจิ่น เมอ ป้าน?",
+      "translation": "เรื่องนี้ควรทำยังไงดี",
+      "chunks": [
+        "这件事情该怎么办？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L03-C025",
+      "legacyId": "U03-L03-C025",
+      "position": 5,
+      "script": "一共多少钱？",
+      "pronunciation": "yí gòng duō shǎo qián?",
+      "phonetic": "อี๋ ก้ง ตัว เส่า เฉียน?",
+      "translation": "ทั้งหมดราคาเท่าไหร่",
+      "chunks": [
+        "一共多少钱？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L03-C026",
+      "legacyId": "U03-L03-C026",
+      "position": 6,
+      "script": "你买了几件？",
+      "pronunciation": "nǐ mǎi le jǐ jiàn?",
+      "phonetic": "หนี่ หม่าย เลอ จี๋ เจี้ยน?",
+      "translation": "คุณซื้อกี่ตัว / กี่ชิ้น",
+      "chunks": [
+        "你买了几件？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L03-C027",
+      "legacyId": "U03-L03-C027",
+      "position": 7,
+      "script": "还要等多少分钟？",
+      "pronunciation": "hái yào děng duō shǎo fēn zhōng?",
+      "phonetic": "หาย เย้า เติ๋ง ตัว เส่า เฟิน จง?",
+      "translation": "ยังต้องรออีกกี่นาที",
+      "chunks": [
+        "还要等多少分钟？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L03-C028",
+      "legacyId": "U03-L03-C028",
+      "position": 8,
+      "script": "这双鞋多少码？",
+      "pronunciation": "zhè shuāng xié duō shǎo mǎ?",
+      "phonetic": "เจ้อ สวอง เสีย ตัว เส่า หม๋า?",
+      "translation": "รองเท้าคู่นี้ไซส์เท่าไหร่",
+      "chunks": [
+        "这双鞋多少码？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L03-C029",
+      "legacyId": "U03-L03-C029",
+      "position": 9,
+      "script": "可以帮我一个忙吗？",
+      "pronunciation": "kě yǐ bāng wǒ yí gè máng ma?",
+      "phonetic": "เขอ อี่ ปัง หว่อ อี๋ เก้อ หมาง มะ?",
+      "translation": "ช่วยอะไรฉันหน่อยได้ไหม",
+      "chunks": [
+        "可以帮我一个忙吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L03-C030",
+      "legacyId": "U03-L03-C030",
+      "position": 10,
+      "script": "明天一起吃饭，行吗？",
+      "pronunciation": "míng tiān yì qǐ chī fàn, xíng ma?",
+      "phonetic": "หมิง เทียน อี้ ฉี่ ชือ ฟ้าน, สิง มะ?",
+      "translation": "พรุ่งนี้ไปกินข้าวด้วยกัน ได้ไหม",
+      "chunks": [
+        "明天一起吃饭，行吗？"
+      ]
+    }
+  ]
+}

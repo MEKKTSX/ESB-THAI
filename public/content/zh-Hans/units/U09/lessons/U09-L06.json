@@ -1,0 +1,127 @@
+{
+  "id": "U09-L06",
+  "number": 6,
+  "title": "คุณสนใจอันนี้ไหม",
+  "chunks": [
+    {
+      "id": "zh-Hans:U09-L06-C051",
+      "legacyId": "U09-L06-C051",
+      "position": 1,
+      "script": "你对这个感兴趣吗？",
+      "pronunciation": "nǐ duì zhè ge gǎn xìng qù ma?",
+      "phonetic": "หนี่ ตุ้ย เจ้อ เกอ ก๋ัน ซิ่ง ชวี่ มะ?",
+      "translation": "คุณสนใจอันนี้ไหม",
+      "chunks": [
+        "你对这个感兴趣吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L06-C052",
+      "legacyId": "U09-L06-C052",
+      "position": 2,
+      "script": "我对他没兴趣。",
+      "pronunciation": "wǒ duì tā méi xìng qù.",
+      "phonetic": "หว่อ ตุ้ย ทา เหมย ซิ่ง ชวี่.",
+      "translation": "ฉันไม่สนใจในตัวเขาเลย",
+      "chunks": [
+        "我对他没兴趣。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L06-C053",
+      "legacyId": "U09-L06-C053",
+      "position": 3,
+      "script": "他对摄影产生了浓厚的兴趣。",
+      "pronunciation": "tā duì shè yǐng chǎn shēng le nóng hòu de xìng qù.",
+      "phonetic": "ทา ตุ้ย เซ่อ อิ่ง ฉั่น เซิง เลอ น้ง โห่ว เตอ ซิ่ง ชวี่.",
+      "translation": "เขาเกิดความสนใจอย่างแรงกล้าในการถ่ายภาพขึ้นมาแล้ว",
+      "chunks": [
+        "他对摄影产生了浓厚的兴趣。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L06-C054",
+      "legacyId": "U09-L06-C054",
+      "position": 4,
+      "script": "我对政治方面的事情一点都不感冒。",
+      "pronunciation": "wǒ duì zhèng zhì fāng miàn de shì qing yì diǎn dōu bù gǎn mào.",
+      "phonetic": "หว่อ ตุ้ย เจิ้ง จื้อ ฟาง เมี้ยน เตอ สื้อ ฉิง อี้ เตี่ยน โตว ปู้ ก๋ัน ม้าว.",
+      "translation": "ฉันไม่ได้อินหรือสนใจเรื่องราวเกี่ยวกับการเมืองเลยสักนิด",
+      "chunks": [
+        "我对政治方面的事情一点都不感冒。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L06-C055",
+      "legacyId": "U09-L06-C055",
+      "position": 5,
+      "script": "你对中国历史感兴趣吗？",
+      "pronunciation": "nǐ duì zhōng guó lì shǐ gǎn xìng qù ma?",
+      "phonetic": "หนี่ ตุ้ย จง ก๋ัว ลี่ สื่อ ก๋ัน ซิ่ง ชวี่ มะ?",
+      "translation": "คุณสนใจในประวัติศาสตร์จีนไหม",
+      "chunks": [
+        "你对中国历史感兴趣吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L06-C056",
+      "legacyId": "U09-L06-C056",
+      "position": 6,
+      "script": "我对这件事情一点儿都不在乎。",
+      "pronunciation": "wǒ duì zhè jiàn shì qing yì diǎnr dōu bú zài hu.",
+      "phonetic": "หว่อ ตุ้ย เจ้อ เจี้ยน สื้อ ฉิง อี้ เดี๋ยร์ โตว บู๋ ไซ้ หุ.",
+      "translation": "ฉันไม่ได้สนใจหรือแคร์เรื่องนี้เลยแม้แต่นิดเดียว",
+      "chunks": [
+        "我对这件事情一点儿都不在乎。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L06-C057",
+      "legacyId": "U09-L06-C057",
+      "position": 7,
+      "script": "我对流行音乐完全不感冒。",
+      "pronunciation": "wǒ duì liú xíng yīn yvè wán quán bù gǎn mào.",
+      "phonetic": "หว่อ ตุ้ย หลิว สิง อิน ยเว่ หวัน ฉวาน ปู้ ก๋ัน ม้าว.",
+      "translation": "ฉันไม่ได้อินหรือสนใจพวกเพลงป๊อปฮิตๆ เลยสักนิด",
+      "chunks": [
+        "我对流行音乐完全不感冒。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L06-C058",
+      "legacyId": "U09-L06-C058",
+      "position": 8,
+      "script": "无所谓，反正我也不是很在乎。",
+      "pronunciation": "wú suǒ wèi, fǎn zhèng wǒ yě bú shì hěn zài hu.",
+      "phonetic": "อู๋ สั่ว เว้ย, ฝั่น เจิ้ง หว่อ เยี่ย บู๋ สื้อ เหิ่น ไซ้ หุ.",
+      "translation": "ไม่สำคัญหรอก ยังไงซะฉันก็ไม่ได้แคร์อะไรมากมายอยู่แล้ว",
+      "chunks": [
+        "无所谓，反正我也不是很在乎。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L06-C059",
+      "legacyId": "U09-L06-C059",
+      "position": 9,
+      "script": "放松点，别把自己逼得太紧了。",
+      "pronunciation": "fàng sōng diǎn, bié bǎ zì jǐ bī de tài jǐn le.",
+      "phonetic": "ฟ้าง โซง เตี่ยน, แปี๋ย ป๋๋า จื้อ จี่ ปี เตอ ไท่ จิ่น เลอ.",
+      "translation": "ผ่อนคลายหน่อย อย่ากดดันตัวเองมากเกินไปเลย",
+      "chunks": [
+        "放松点，别把自己逼得太紧了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L06-C060",
+      "legacyId": "U09-L06-C060",
+      "position": 10,
+      "script": "他好像对一切都无所谓的样子。",
+      "pronunciation": "tā hǎo xiàng duì yí qiè dōu wú suǒ wèi de yàng zi.",
+      "phonetic": "ทา ห่าว เสี้ยง ตุ้ย อี๋ เชี่ย โตว อู๋ สั่ว เว้ย เตอ ย่าง จิ.",
+      "translation": "ดูเหมือนเขาจะทำตัวตามสบายกับทุกสิ่งทุกอย่างเลยนะ",
+      "chunks": [
+        "他好像对一切都无所谓的样子。"
+      ]
+    }
+  ]
+}

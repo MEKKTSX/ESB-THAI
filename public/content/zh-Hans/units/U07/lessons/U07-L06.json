@@ -1,0 +1,127 @@
+{
+  "id": "U07-L06",
+  "number": 6,
+  "title": "ฉันวางแผนจะอยู่ครึ่งปี จากนั้นค่อยกลับประเทศ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U07-L06-C051",
+      "legacyId": "U07-L06-C051",
+      "position": 1,
+      "script": "我打算住半年，然后回国。",
+      "pronunciation": "wǒ dǎ suàn zhù bàn nián, rán hòu huí guó.",
+      "phonetic": "หว่อ ต๋า ส้วน จู้ ป้าน เหนียน, รัน โห่ว หุย ก๋ัว.",
+      "translation": "ฉันวางแผนจะอยู่ครึ่งปี จากนั้นค่อยกลับประเทศ",
+      "chunks": [
+        "我打算住半年，然后回国。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L06-C052",
+      "legacyId": "U07-L06-C052",
+      "position": 2,
+      "script": "你通常周末几点睡觉？",
+      "pronunciation": "nǐ tōng cháng zhōu mò jǐ diǎn shuì jiào?",
+      "phonetic": "หนี่ ทง ฉาง โจว ม่อ จี๋ เตี่ยน ซุ่ย เจี้ยว?",
+      "translation": "ปกติช่วงวันหยุดสุดสัปดาห์คุณนอนกี่โมง",
+      "chunks": [
+        "你通常周末几点睡觉？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L06-C053",
+      "legacyId": "U07-L06-C053",
+      "position": 3,
+      "script": "我周末一般十二点以后才睡。",
+      "pronunciation": "wǒ zhōu mò yì bān shí èr diǎn yǐ hòu cái shuì.",
+      "phonetic": "หว่อ โจว ม่อ อี้ ปาน สื้อ เอ้อร์ เตี่ยน อี่ โห่ว ฉาย ซุ่ย.",
+      "translation": "วันหยุดสุดสัปดาห์ปกติฉันนอนหลังเที่ยงคืนถึงจะนอน",
+      "chunks": [
+        "我周末一般十二点以后才睡。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L06-C054",
+      "legacyId": "U07-L06-C054",
+      "position": 4,
+      "script": "明天早起有事，今天早点睡吧。",
+      "pronunciation": "míng tiān zǎo qǐ yǒu shì, jīn tiān zǎo diǎn shuì ba.",
+      "phonetic": "หมิง เทียน เจ๋า ฉี่ โหย่ว สื้อ, จิน เทียน เจ๋า เตี่ยน ซุ่ย ปะ.",
+      "translation": "พรุ่งนี้ต้องตื่นเช้ามีธุระ วันนี้รีบนอนเร็วหน่อยเถอะ",
+      "chunks": [
+        "明天早起有事，今天早点睡吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L06-C055",
+      "legacyId": "U07-L06-C055",
+      "position": 5,
+      "script": "这次考试的时间安排在什么时候？",
+      "pronunciation": "zhè cì kǎo shì de shí jiān ān pái zài shén me shí hou?",
+      "phonetic": "เจ้อ ซี่ เข่า สื้อ เตอ สือ เจียน อัน ไผ ไซ้ เซิ่น เมอ สือ โห่ว?",
+      "translation": "ตารางเวลาของการสอบครั้งนี้จัดไว้เมื่อไหร่",
+      "chunks": [
+        "这次考试的时间安排在什么时候？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L06-C056",
+      "legacyId": "U07-L06-C056",
+      "position": 6,
+      "script": "安排在下个星期五上午九点。",
+      "pronunciation": "ān pái zài xià gè xīng qī wǔ shàng wǔ jiǔ diǎn.",
+      "phonetic": "อัน ไผ ไซ้ เซี่ย เก้อ ซิง ชี อู่ ซ้าง อู่ จิ๋ว เตี่ยน.",
+      "translation": "จัดไว้เป็นวันศุกร์หน้าตอนเก้าโมงเช้า",
+      "chunks": [
+        "安排在下个星期五上午九点。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L06-C057",
+      "legacyId": "U07-L06-C057",
+      "position": 7,
+      "script": "你要提前一个刻钟到考场。",
+      "pronunciation": "nǐ yào tí qián yí gè kè zhōng dào kǎo chǎng.",
+      "phonetic": "หนี่ เย้า ถี เฉียน อี๋ เก้อ เค่อ จง ต้าว เข่า ฉ่าง.",
+      "translation": "คุณต้องไปถึงห้องสอบล่วงหน้าสิบห้านาที (หนึ่งเค่อ)",
+      "chunks": [
+        "你要提前一个刻钟到考场。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L06-C058",
+      "legacyId": "U07-L06-C058",
+      "position": 8,
+      "script": "知道了，我一定准时到。",
+      "pronunciation": "zhī dào le, wǒ yí dìng zhǔn shí dào.",
+      "phonetic": "จือ เต้า เลอ, หว่อ อี๋ ติ้ง จวิ๋น สือ ต้าว.",
+      "translation": "รับทราบแล้ว ฉันไปถึงตรงเวลาแน่นอน",
+      "chunks": [
+        "知道了，我一定准时到。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L06-C059",
+      "legacyId": "U07-L06-C059",
+      "position": 9,
+      "script": "我们还有多少时间准备？",
+      "pronunciation": "wǒ men hái yǒu duō shǎo shí jiān zhǔn bèi?",
+      "phonetic": "หว่อ เมิน หาย โหย่ว ตัว เส่า สือ เจียน จวิ๋น เป้ย?",
+      "translation": "พวกเรายังมีเวลาเหลือสำหรับเตรียมตัวอีกเท่าไหร่",
+      "chunks": [
+        "我们还有多少时间准备？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L06-C060",
+      "legacyId": "U07-L06-C060",
+      "position": 10,
+      "script": "大概只有三天时间了，时间很紧。",
+      "pronunciation": "dà gài zhǐ yǒu sān tiān shí jiān le, shí jiān hěn jǐn.",
+      "phonetic": "ต้า ก้าย จื่อ โหย่ว ซาน เทียน สือ เจียน เลอ, สือ เจียน เหิ่น จิ่น.",
+      "translation": "น่าจะเหลือเวลาแค่สามวันเท่านั้น เวลาค่อนข้างกระชั้นชิดมาก",
+      "chunks": [
+        "大概只有三天时间了，时间很紧。"
+      ]
+    }
+  ]
+}

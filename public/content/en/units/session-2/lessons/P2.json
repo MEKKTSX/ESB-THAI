@@ -1,0 +1,129 @@
+{
+  "id": "P2",
+  "number": 16,
+  "title": "P. Polite Requests (Mind/Wonder)",
+  "chunks": [
+    {
+      "id": "en:session-2:P2:1",
+      "legacyId": "P2-0",
+      "position": 1,
+      "script": "Do you mind if I sit here?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จะว่าอะไรไหมถ้าฉันนั่งตรงนี้?",
+      "chunks": [
+        "Do you mind if I sit here?"
+      ]
+    },
+    {
+      "id": "en:session-2:P2:2",
+      "legacyId": "P2-1",
+      "position": 2,
+      "script": "Do you mind if I open the window?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จะว่าอะไรไหมถ้าฉันเปิดหน้าต่าง?",
+      "chunks": [
+        "Do you mind if I open the window?"
+      ]
+    },
+    {
+      "id": "en:session-2:P2:3",
+      "legacyId": "P2-2",
+      "position": 3,
+      "script": "Do you mind helping me with this?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รบกวนช่วยฉันเรื่องนี้หน่อยได้ไหม?",
+      "chunks": [
+        "Do you mind helping me",
+        "with this?"
+      ]
+    },
+    {
+      "id": "en:session-2:P2:4",
+      "legacyId": "P2-3",
+      "position": 4,
+      "script": "Would you mind waiting a moment?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รบกวนรอสักครู่ได้ไหมครับ?",
+      "chunks": [
+        "Would you mind waiting a moment?"
+      ]
+    },
+    {
+      "id": "en:session-2:P2:5",
+      "legacyId": "P2-4",
+      "position": 5,
+      "script": "Would you mind keeping the noise down?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รบกวนช่วยเบาเสียงหน่อยได้ไหม?",
+      "chunks": [
+        "Would you mind keeping the noise down?"
+      ]
+    },
+    {
+      "id": "en:session-2:P2:6",
+      "legacyId": "P2-5",
+      "position": 6,
+      "script": "I don't mind waiting.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรอได้ ไม่เป็นไร",
+      "chunks": [
+        "I don't mind waiting."
+      ]
+    },
+    {
+      "id": "en:session-2:P2:7",
+      "legacyId": "P2-6",
+      "position": 7,
+      "script": "I don't mind walking.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเดินได้ ไม่ติดขัดอะไร",
+      "chunks": [
+        "I don't mind walking."
+      ]
+    },
+    {
+      "id": "en:session-2:P2:8",
+      "legacyId": "P2-7",
+      "position": 8,
+      "script": "I was wondering if you could help me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พอดีฉันอยากรู้ว่าคุณพอจะช่วยฉันได้ไหม",
+      "chunks": [
+        "I was wondering if you could help me."
+      ]
+    },
+    {
+      "id": "en:session-2:P2:9",
+      "legacyId": "P2-8",
+      "position": 9,
+      "script": "I was wondering if you are free tonight.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากรู้ว่าคืนนี้คุณว่างไหม",
+      "chunks": [
+        "I was wondering if you are free tonight."
+      ]
+    },
+    {
+      "id": "en:session-2:P2:10",
+      "legacyId": "P2-9",
+      "position": 10,
+      "script": "I was wondering where the bathroom is.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พอดีฉันอยากทราบว่าห้องน้ำไปทางไหน",
+      "chunks": [
+        "I was wondering",
+        "where the bathroom is."
+      ]
+    }
+  ]
+}

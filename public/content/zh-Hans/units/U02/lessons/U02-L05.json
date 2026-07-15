@@ -1,0 +1,127 @@
+{
+  "id": "U02-L05",
+  "number": 5,
+  "title": "คุณเกิดปีนักษัตรอะไร",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L05-C041",
+      "legacyId": "U02-L05-C041",
+      "position": 1,
+      "script": "你是生肖属什么的？",
+      "pronunciation": "nǐ shì shēng xiào shǔ shén me de?",
+      "phonetic": "หนี่ สื้อ เซิง เสี้ยว สู่ เซิ่น เมอ เตอ?",
+      "translation": "คุณเกิดปีนักษัตรอะไร",
+      "chunks": [
+        "你是生肖属什么的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L05-C042",
+      "legacyId": "U02-L05-C042",
+      "position": 2,
+      "script": "我属兔。",
+      "pronunciation": "wǒ shǔ tù.",
+      "phonetic": "หว่อ สู่ ทู่.",
+      "translation": "ฉันเกิดปีเถาะ (กระต่าย)",
+      "chunks": [
+        "我属兔。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L05-C043",
+      "legacyId": "U02-L05-C043",
+      "position": 3,
+      "script": "你的生日是几月几号？",
+      "pronunciation": "nǐ de shēng rì shì jǐ yuè jǐ hào?",
+      "phonetic": "หนี่ เตอ เซิง ยื้อ สื้อ จี๋ ยวี่เอ้ จี๋ ห้าว?",
+      "translation": "วันเกิดของคุณคือเดือนอะไรวันที่เท่าไหร่",
+      "chunks": [
+        "你的生日是几月几号？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L05-C044",
+      "legacyId": "U02-L05-C044",
+      "position": 4,
+      "script": "我的生日是八月五号。",
+      "pronunciation": "wǒ de shēng rì shì bā yè wǔ hào.",
+      "phonetic": "หว่อ เตอ เซิง ยื้อ สื้อ ปา ยวี่เอ้ อู่ ห้าว.",
+      "translation": "วันเกิดของฉันคือวันที่ห้าสิงหาคม",
+      "chunks": [
+        "我的生日是八月五号。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L05-C045",
+      "legacyId": "U02-L05-C045",
+      "position": 5,
+      "script": "你结婚了吗？",
+      "pronunciation": "nǐ jié hūn le ma?",
+      "phonetic": "หนี่ เจี๋ย หุน เลอ มะ?",
+      "translation": "คุณแต่งงานหรือยัง",
+      "chunks": [
+        "你结婚了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L05-C046",
+      "legacyId": "U02-L05-C046",
+      "position": 6,
+      "script": "我还是单身。",
+      "pronunciation": "wǒ hái shì dān shēn.",
+      "phonetic": "หว่อ หาย สื้อ ตาน เซิน.",
+      "translation": "ฉันยังเป็นโสดอยู่",
+      "chunks": [
+        "我还是单身。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L05-C047",
+      "legacyId": "U02-L05-C047",
+      "position": 7,
+      "script": "你有兄弟姐妹吗？",
+      "pronunciation": "nǐ yǒu xiōng dì jiě mèi ma?",
+      "phonetic": "หนี่ โหย่ว ซยง ตี้ เจี่ย เม่ย มะ?",
+      "translation": "คุณมีพี่น้องไหม",
+      "chunks": [
+        "你有兄弟姐妹吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L05-C048",
+      "legacyId": "U02-L05-C048",
+      "position": 8,
+      "script": "我有一个哥哥和一个妹妹。",
+      "pronunciation": "wǒ yǒu yí gè gē ge hé yí gè mèi mei.",
+      "phonetic": "หว่อ โหย่ว อี๋ เก้อ เกอ เกอะ เหอ อี๋ เก้อ เม่ย เม่ย.",
+      "translation": "ฉันมีพี่ชายหนึ่งคนและน้องสาวหนึ่งคน",
+      "chunks": [
+        "我有一个哥哥和一个妹妹。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L05-C049",
+      "legacyId": "U02-L05-C049",
+      "position": 9,
+      "script": "我是独生子。",
+      "pronunciation": "wǒ shì dú shēng zǐ.",
+      "phonetic": "หว่อ สื้อ ตู๋ เซิง จื่อ.",
+      "translation": "ฉันเป็นลูกโทน / ลูกคนเดียว (ผู้ชาย)",
+      "chunks": [
+        "我是独生子。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L05-C050",
+      "legacyId": "U02-L05-C050",
+      "position": 10,
+      "script": "我是独生女。",
+      "pronunciation": "wǒ shì dú shēng nǚ.",
+      "phonetic": "หว่อ สื้อ ตู๋ เซิง นวี่.",
+      "translation": "ฉันเป็นลูกโทน / ลูกคนเดียว (ผู้หญิง)",
+      "chunks": [
+        "我是独生女。"
+      ]
+    }
+  ]
+}

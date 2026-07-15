@@ -1,0 +1,199 @@
+{
+  "id": "N2",
+  "number": 14,
+  "title": "N. Feelings & Personal Growth",
+  "chunks": [
+    {
+      "id": "en:session-2:N2:1",
+      "legacyId": "N2-0",
+      "position": 1,
+      "script": "I realized that I made a mistake.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้ตัวว่าทำพลาดไปแล้ว",
+      "chunks": [
+        "I realized",
+        "that I made a mistake."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:2",
+      "legacyId": "N2-1",
+      "position": 2,
+      "script": "I realized that I left my phone at home.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งนึกได้ว่าลืมมือถือไว้ที่บ้าน",
+      "chunks": [
+        "I realized",
+        "that I left my phone",
+        "at home."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:3",
+      "legacyId": "N2-2",
+      "position": 3,
+      "script": "I found out that he was lying.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมารู้ทีหลังว่าเขาโกหก",
+      "chunks": [
+        "I found out",
+        "that he was lying."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:4",
+      "legacyId": "N2-3",
+      "position": 4,
+      "script": "I found out that the event was cancelled.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมารู้ว่างานถูกยกเลิก",
+      "chunks": [
+        "I found out",
+        "that the event was cancelled."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:5",
+      "legacyId": "N2-4",
+      "position": 5,
+      "script": "I was surprised to see her there.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันแปลกใจที่เห็นเธอที่นั่น",
+      "chunks": [
+        "I was surprised",
+        "to see her there."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:6",
+      "legacyId": "N2-5",
+      "position": 6,
+      "script": "I was disappointed with the result.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันผิดหวังกับผลลัพธ์",
+      "chunks": [
+        "I was disappointed",
+        "with the result."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:7",
+      "legacyId": "N2-6",
+      "position": 7,
+      "script": "I was excited about the trip.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตื่นเต้นกับทริปนี้มาก",
+      "chunks": [
+        "I was excited",
+        "about the trip."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:8",
+      "legacyId": "N2-7",
+      "position": 8,
+      "script": "I felt embarrassed when I fell down.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้สึกอายตอนที่หกล้ม",
+      "chunks": [
+        "I felt embarrassed",
+        "when I fell down."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:9",
+      "legacyId": "N2-8",
+      "position": 9,
+      "script": "I felt relieved when I passed the test.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้สึกโล่งอกตอนสอบผ่าน",
+      "chunks": [
+        "I felt relieved",
+        "when I passed the test."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:10",
+      "legacyId": "N2-9",
+      "position": 10,
+      "script": "I’m worried about the future.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกังวลเรื่องอนาคต",
+      "chunks": [
+        "I’m worried",
+        "about the future."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:11",
+      "legacyId": "N2-10",
+      "position": 11,
+      "script": "I’m proud of my achievements.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันภูมิใจในความสำเร็จของตัวเอง",
+      "chunks": [
+        "I’m proud of my achievements."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:12",
+      "legacyId": "N2-11",
+      "position": 12,
+      "script": "It makes me feel happy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันทำให้ฉันมีความสุข",
+      "chunks": [
+        "It makes me feel happy."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:13",
+      "legacyId": "N2-12",
+      "position": 13,
+      "script": "It makes me feel uncomfortable.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันทำให้ฉันรู้สึกอึดอัด",
+      "chunks": [
+        "It makes me feel uncomfortable."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:14",
+      "legacyId": "N2-13",
+      "position": 14,
+      "script": "It drives me crazy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันทำให้ฉันจะบ้าตาย",
+      "chunks": [
+        "It drives me crazy."
+      ]
+    },
+    {
+      "id": "en:session-2:N2:15",
+      "legacyId": "N2-14",
+      "position": 15,
+      "script": "It gets on my nerves.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันกวนประสาทฉันมาก",
+      "chunks": [
+        "It gets",
+        "on my nerves."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U08-L05",
+  "number": 5,
+  "title": "รูปที่คุณโพสต์ในโมเมนต์ (朋友圈) สวยมากเลย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L05-C041",
+      "legacyId": "U08-L05-C041",
+      "position": 1,
+      "script": "你朋友圈发的那张照片真好看。",
+      "pronunciation": "nǐ péng you quān fā de nà zhāng zhào piàn zhēn hǎo kàn.",
+      "phonetic": "หนี่ เผิง โย่ว ฉวาน ฟา เตอ น้า จาง จ้าว เพี้ยน เจิน ห่าว ค่าน.",
+      "translation": "รูปที่คุณโพสต์ในโมเมนต์ (朋友圈) สวยมากเลย",
+      "chunks": [
+        "你朋友圈发的那张照片真好看。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L05-C042",
+      "legacyId": "U08-L05-C042",
+      "position": 2,
+      "script": "我刚才在群里发了通知，你看一下。",
+      "pronunciation": "wǒ gāng cái zài qún lǐ fā le tōng zhī, nǐ kàn yí xià.",
+      "phonetic": "หว่อ กัง ฉาย ไซ้ ฉวิน หลี่ ฟา เลอ ทง จือ, หนี่ ค่าน อี๋ เซี่ย.",
+      "translation": "เมื่อกี้ฉันส่งแจ้งเตือนเข้าไปในกลุ่มแล้ว คุณดูหน่อยนะ",
+      "chunks": [
+        "我刚才在群里发了通知，你看一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L05-C043",
+      "legacyId": "U08-L05-C043",
+      "position": 3,
+      "script": "你有他的微信吗？推给我一下。",
+      "pronunciation": "nǐ yǒu tā de wēi xìn ma? tuī gěi wǒ yí xià.",
+      "phonetic": "หนี่ โหย่ว ทา เตอ แวย ซิ้น มะ？ ทุย เก๋ย หว่อ อี๋ เซี่ย.",
+      "translation": "คุณมีวีแชทของเขาไหม ช่วยแชร์ให้ฉันหน่อยสิ",
+      "chunks": [
+        "你有他的微信吗？推给我一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L05-C044",
+      "legacyId": "U08-L05-C044",
+      "position": 4,
+      "script": "我昨晚通宵看完了整部动画片。",
+      "pronunciation": "wǒ zuó wǎn tōng xiāo kàn wán le zhěng bù dòng huà piàn.",
+      "phonetic": "หว่อ จั๋ว หวั่น ทง เซียว ค่าน หวัน เลอ เจิ่ง ปู้ ต้ง หว้า เพี้ยน.",
+      "translation": "เมื่อคืนฉันโต้รุ่งดูอนิเมะจบไปทั้งเรื่องเลย",
+      "chunks": [
+        "我昨晚通宵看完了整部动画片。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L05-C045",
+      "legacyId": "U08-L05-C045",
+      "position": 5,
+      "script": "这首歌最近在网上特别火。",
+      "pronunciation": "zhè shǒu gē zuì jìn zài wǎng shàng tè bié huǒ.",
+      "phonetic": "เจ้อ โส่ว เกอ จุ้ย จิ้น ไซ้ หวั่ง ส่าง เท่อ เปี๋ย โห่ว.",
+      "translation": "เพลงนี้ช่วงนี้บนอินเทอร์เน็ตดังมากเป็นพิเศษเลย",
+      "chunks": [
+        "这首歌最近在网上特别火。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L05-C046",
+      "legacyId": "U08-L05-C046",
+      "position": 6,
+      "script": "戴上耳机，别吵到别人。",
+      "pronunciation": "dài shàng ěr jī, bié chǎo dào bié rén.",
+      "phonetic": "ต้าย ส่าง เอ่อร์ จี, แปี๋ย ฉ่าว ต้าว เปี๋ย เหริน.",
+      "translation": "ใส่หูฟังซะ อย่าไปเสียงดังรบกวนคนอื่น",
+      "chunks": [
+        "戴上耳机，别吵到别人。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L05-C047",
+      "legacyId": "U08-L05-C047",
+      "position": 7,
+      "script": "我每天在公园慢跑半个小时。",
+      "pronunciation": "wǒ mèi tiān zài gōng yuán màn pǎo bàn gè xiǎo shí.",
+      "phonetic": "หว่อ เหม่ย เทียน ไซ้ กง หยวาน ม่าน ผ่าว ป้าน เก้อ เสียว สื้อ.",
+      "translation": "ฉันวิ่งจ็อกกิ้งที่สวนสาธารณะครึ่งชั่วโมงทุกวัน",
+      "chunks": [
+        "我每天在公园慢跑半个小时。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L05-C048",
+      "legacyId": "U08-L05-C048",
+      "position": 8,
+      "script": "好久没运动了，身体都变差了。",
+      "pronunciation": "hǎo jiǔ méi yùn dòng le, shēn tǐ dōu biàn chà le.",
+      "phonetic": "ห่าว จิ่ว เหมย ยวิ่น ต้ง เลอ, เซิน ถี่ โตว เปี้ยน ช่า เลอ.",
+      "translation": "ไม่ได้ออกกำลังกายนานแล้ว ร่างกายแย่ลงตั้งเยอะ",
+      "chunks": [
+        "好久没运动了，身体都变差了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L05-C049",
+      "legacyId": "U08-L05-C049",
+      "position": 9,
+      "script": "今天天气很好，适合去打球。",
+      "pronunciation": "jīn tiān tiān qì hěn hǎo, shì hé qù dǎ qiú.",
+      "phonetic": "จิน เทียน เทียน จี้ เหิ่น ห่าว, สื้อ เหอ ชวี่ ต๋า ฉิว.",
+      "translation": "วันนี้อากาศดีมาก เหมาะแก่การไปเล่นกีฬา/ตีบอล",
+      "chunks": [
+        "今天天气很好，适合去打球。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L05-C050",
+      "legacyId": "U08-L05-C050",
+      "position": 10,
+      "script": "我今天七点起床，然后坐地铁去公司。",
+      "pronunciation": "wǒ jīn tiān qī diǎn qǐ chuáng, rán hòu zuò dì tiě qù gōng sī.",
+      "phonetic": "หว่อ จิน เทียน ชี เตี่ยน ฉี่ ฉวอง, รัน โห่ว จั่ว ตี้ เถี่ย ชวี่ กง ซือ.",
+      "translation": "วันนี้ฉันตื่นนอนตอนเจ็ดโมง จากนั้นนั่งรถไฟใต้ดินไปบริษัท",
+      "chunks": [
+        "我今天七点起床，然后坐地铁去公司。"
+      ]
+    }
+  ]
+}

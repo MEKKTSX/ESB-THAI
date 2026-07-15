@@ -1,0 +1,127 @@
+{
+  "id": "U05-L05",
+  "number": 5,
+  "title": "จ่ายผ่านวีแชทได้ไหม",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L05-C041",
+      "legacyId": "U05-L05-C041",
+      "position": 1,
+      "script": "可以微信支付吗？",
+      "pronunciation": "kě yǐ wēi xìn zhī fù ma?",
+      "phonetic": "เขอ อี่ แวย ซิ้น จื้อ ฟู่ มะ?",
+      "translation": "จ่ายผ่านวีแชทได้ไหม",
+      "chunks": [
+        "可以微信支付吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L05-C042",
+      "legacyId": "U05-L05-C042",
+      "position": 2,
+      "script": "我想换一下这个菜。",
+      "pronunciation": "wǒ xiǎng huàn yí xià zhè ge cài.",
+      "phonetic": "หว่อ แฉี่ยง ห้วน อี๋ เซี่ย เจ้อ เกอ ไช้.",
+      "translation": "ฉันขอเปลี่ยนกับข้าวจานนี้หน่อย",
+      "chunks": [
+        "我想换一下这个菜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L05-C043",
+      "legacyId": "U05-L05-C043",
+      "position": 3,
+      "script": "这里有免费的网络吗？",
+      "pronunciation": "zhè lǐ yǒu miǎn fèi de wǎng luò ma?",
+      "phonetic": "เจ้อ หลี่ โหย่ว เมี่ยน เฟ่ย เตอ หวั่ง ลั่ว มะ?",
+      "translation": "ที่นี่มีไวไฟฟรีไหม",
+      "chunks": [
+        "这里有免费的网络吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L05-C044",
+      "legacyId": "U05-L05-C044",
+      "position": 4,
+      "script": "请帮我打包这几个菜。",
+      "pronunciation": "qǐng bāng wǒ dǎ bāo zhè jǐ gè cài.",
+      "phonetic": "ฉิ่ง ปัง หว่อ ต๋า เปา เจ้อ จี๋ เก้อ ไช้.",
+      "translation": "กรุณาช่วยห่อกับข้าวไม่กี่จานนี้ให้หน่อย",
+      "chunks": [
+        "请帮我打包这几个菜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L05-C045",
+      "legacyId": "U05-L05-C045",
+      "position": 5,
+      "script": "我们各付各的吧。",
+      "pronunciation": "wǒ men gè fù gè de ba.",
+      "phonetic": "หว่อ เมิน เก้อ ฟู่ เก้อ เตอ ปะ.",
+      "translation": "พวกเราแชร์กันจ่าย (อเมริกันแชร์) เถอะ",
+      "chunks": [
+        "我们各付各的吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L05-C046",
+      "legacyId": "U05-L05-C046",
+      "position": 6,
+      "script": "今天我请客。",
+      "pronunciation": "jīn tiān wǒ qǐng kè.",
+      "phonetic": "จิน เทียน หว่อ ฉิ่ง เค่อ.",
+      "translation": "วันนี้ฉันเลี้ยงเอง",
+      "chunks": [
+        "今天我请客。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L05-C047",
+      "legacyId": "U05-L05-C047",
+      "position": 7,
+      "script": "这家店排队的人真多。",
+      "pronunciation": "zhè jiā 店 pái duì de rén zhēn duō.",
+      "phonetic": "เจ้อ เจีย เตี้ยน ไผ ตุ้ย เตอ เหริน เจิน ตัว.",
+      "translation": "ร้านนี้คนต่อคิวเยอะจริงๆ เลย",
+      "chunks": [
+        "这家店排队的人真多。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L05-C048",
+      "legacyId": "U05-L05-C048",
+      "position": 8,
+      "script": "你喝点儿什么酒吗？",
+      "pronunciation": "nǐ hē diǎnr shén me jiǔ ma?",
+      "phonetic": "หนี่ เฮอ เดี๋ยร์ เซิ่น เมอ จิ่ว มะ?",
+      "translation": "คุณจะดื่มเหล้า/เบียร์อะไรหน่อยไหม",
+      "chunks": [
+        "你喝点儿什么酒吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L05-C049",
+      "legacyId": "U05-L05-C049",
+      "position": 9,
+      "script": "我不喝酒，开车来的。",
+      "pronunciation": "wǒ bù hē jiǔ, kāi chē lái de.",
+      "phonetic": "หว่อ ปู้ เฮอ จิ่ว, ไค เชอ ไหล เตอ.",
+      "translation": "ฉันไม่ดื่มเหล้าครับ ขับรถมา",
+      "chunks": [
+        "我不喝酒，开车来的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L05-C050",
+      "legacyId": "U05-L05-C050",
+      "position": 10,
+      "script": "有白开水吗？",
+      "pronunciation": "yǒu bái kāi shuǐ ma?",
+      "phonetic": "โหย่ว ป๋าย ไค สุ่ย มะ?",
+      "translation": "มีน้ำเปล่า (ต้มสุก) ไหม",
+      "chunks": [
+        "有白开水吗？"
+      ]
+    }
+  ]
+}

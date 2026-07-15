@@ -1,0 +1,127 @@
+{
+  "id": "U13-L06",
+  "number": 6,
+  "title": "มือถือของฉันใกล้แบตหมดแล้ว เดี๋ยวค่อยกลับมาตอบคุณนะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U13-L06-C051",
+      "legacyId": "U13-L06-C051",
+      "position": 1,
+      "script": "我的手机快没电了，晚点再回你。",
+      "pronunciation": "wǒ de shǒu jī kuài méi diàn le, wǎn diǎn zài huí nǐ.",
+      "phonetic": "หว่อ เตอ โส่ว จี คว้าย เหมย เตี้ยน เลอ, หวั่น เตี่ยน ไซ้ หุย หนี่.",
+      "translation": "มือถือของฉันใกล้แบตหมดแล้ว เดี๋ยวค่อยกลับมาตอบคุณนะ",
+      "chunks": [
+        "我的手机快没电了，晚点再回你。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L06-C052",
+      "legacyId": "U13-L06-C052",
+      "position": 2,
+      "script": "你发的那个网站地址打不开啊。",
+      "pronunciation": "nǐ fā de nà gè wǎng zhàn dì zhǐ dǎ bù kāi a.",
+      "phonetic": "หนี่ ฟา เตอ น้า เก้อ หวั่ง จ้าน ตี้ จื่อ ต๋า ปู้ ไค อา.",
+      "translation": "ลิงก์เว็บที่อยู่อันนั้นที่คุณส่งมามันเปิดไม่ได้นะ",
+      "chunks": [
+        "你发的那个网站地址打不开啊。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L06-C053",
+      "legacyId": "U13-L06-C053",
+      "position": 3,
+      "script": "我现在不方便接电话，发微信吧。",
+      "pronunciation": "wǒ xiàn zài bù fāng biàn jiē diàn huà, fā wēi xìn ba.",
+      "phonetic": "หว่อ เซี่ยน ไซ้ ปู้ ฟาง เปี้ยน เจีย เตี้ยน หว้า, ฟา แวย ซิ้น ปะ.",
+      "translation": "ตอนนี้ฉันไม่สะดวกรับโทรศัพท์ ส่งวีแชทมาละกันนะ",
+      "chunks": [
+        "我现在不方便接电话，发微信吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L06-C054",
+      "legacyId": "U13-L06-C054",
+      "position": 4,
+      "script": "你发语音的话，我可以用微信的翻译功能。",
+      "pronunciation": "nǐ fā yǔ yīn de huà, wǒ kě yǐ yòng wēi xìn de fān yì gōng néng.",
+      "phonetic": "หนี่ ฟา อวี่ อิน เตอ หว้า, หว่อ เขอ อี่ ย่ง แวย ซิ้น เตอ ฟาน อี้ กง เหนิง.",
+      "translation": "ถ้าคุณส่งเสียงมา ฉันสามารถใช้ฟังก์ชันแปลภาษาของวีแชทได้นะ",
+      "chunks": [
+        "你发语音的话，我可以用微信的翻译功能。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L06-C055",
+      "legacyId": "U13-L06-C055",
+      "position": 5,
+      "script": "如果你不加拼音，我有很多字不认识。",
+      "pronunciation": "rú guǒ nǐ bù jiā pīn yīn, wǒ yǒu hěn duō zì bú rèn shi.",
+      "phonetic": "หรู ก๋ัว หนี่ ปู้ เจีย พิน อิน, หว่อ โหย่ว เห่น ตัว จื้อ บู๋ เริ่น สือ.",
+      "translation": "ถ้าคุณไม่ใส่พินอิน ฉันมีตัวอักษรจีนตั้งหลายตัวที่ไม่รู้จัก",
+      "chunks": [
+        "如果你不加拼音，我有很多字不认识。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L06-C056",
+      "legacyId": "U13-L06-C056",
+      "position": 6,
+      "script": "我不明白你发的这个网络缩写是什么。",
+      "pronunciation": "wǒ bù míng bai nǐ fā de zhè ge wǎng luò suō xiě shì shén me.",
+      "phonetic": "หว่อ ปู้ หมิง ป๋าย หนี่ ฟา เตอ เจ้อ เกอ หวั่ง ลั่ว ซัว เสี่ย สื้อ เซิ่น เมอ.",
+      "translation": "ฉันไม่เข้าใจว่าตัวย่อเน็ตที่คุณส่งมานี้มันคืออะไร",
+      "chunks": [
+        "我不明白你发的这个网络缩写是什么。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L06-C057",
+      "legacyId": "U13-L06-C057",
+      "position": 7,
+      "script": "很多中国年轻人平时喜欢刷B站。",
+      "pronunciation": "hěn duō zhōng guó nián qīng rén píng shí xǐ huan shuā B zhàn.",
+      "phonetic": "เหิ่น ตัว จง ก๋ัว เหนียน ชิง เหริน ผิง สือ สี่ หวน ซัว บีจ้าน.",
+      "translation": "วัยรุ่นจีนจำนวนมากปกติชอบเล่น Bilibili",
+      "chunks": [
+        "很多中国年轻人平时喜欢刷B站。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L06-C058",
+      "legacyId": "U13-L06-C058",
+      "position": 8,
+      "script": "你发在B站的视频，我已经投币了。",
+      "pronunciation": "nǐ fā zài B zhàn de shì pín, wǒ yǐ jīng tóu bì le.",
+      "phonetic": "หนี่ ฟา ไจ้ บีจ้าน เตอ สื้อ ผิน, หว่อ อี่ จิง โถว ปี้ เลอ.",
+      "translation": "คลิปที่คุณลงใน Bilibili ฉันกดให้เหรียญสนับสนุนแล้ว",
+      "chunks": [
+        "你发在B站的视频，我已经投币了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L06-C059",
+      "legacyId": "U13-L06-C059",
+      "position": 9,
+      "script": "这件事明天上班再说吧，拜拜！",
+      "pronunciation": "zhè jiàn shì míng tiān shàng bān zài shuō ba, bái bái!",
+      "phonetic": "เจ้อ เจี้ยน สื้อ หมิง เทียน ซ้าง ปาน ไซ้ ซัว ปะ, บาย บาย!",
+      "translation": "เรื่องนี้ไว้พรุ่งนี้ตอนไปทำงานค่อยว่ากัน บ๊ายบาย!",
+      "chunks": [
+        "这件事明天上班再说吧，拜拜！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L06-C060",
+      "legacyId": "U13-L06-C060",
+      "position": 10,
+      "script": "你在忙吗？微信发你文件了，查收一下。",
+      "pronunciation": "nǐ zài máng ma? wēi xìn fā nǐ wén jiàn le, chá shōu yí xià.",
+      "phonetic": "หนี่ ไซ้ หมาง มะ？ แวย ซิ้น ฟา หนี่ เน เจี้ยน เลอ, ฉา โซว อี๋ เซี่ย.",
+      "translation": "คุณยุ่งอยู่ไหม ส่งไฟล์เอกสารให้ทางวีแชทแล้วนะ ช่วยเช็กดูหน่อย",
+      "chunks": [
+        "你在忙吗？微信发你文件了，查收一下。"
+      ]
+    }
+  ]
+}

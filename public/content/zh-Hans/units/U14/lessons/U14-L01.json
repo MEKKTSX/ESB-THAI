@@ -1,0 +1,127 @@
+{
+  "id": "U14-L01",
+  "number": 1,
+  "title": "ขอถามหน่อย ฉันควรเรียกคุณว่าอะไรดีครับ/ค่ะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U14-L01-C001",
+      "legacyId": "U14-L01-C001",
+      "position": 1,
+      "script": "请问我该怎么称呼您？",
+      "pronunciation": "qǐng wèn wǒ gāi zěn me chēng hu nín?",
+      "phonetic": "ฉิ่ง เวิ่น หว่อ ไก เจิ่น เมอ เชิง หุ หนิน?",
+      "translation": "ขอถามหน่อย ฉันควรเรียกคุณว่าอะไรดีครับ/ค่ะ",
+      "chunks": [
+        "请问我该怎么称呼您？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L01-C002",
+      "legacyId": "U14-L01-C002",
+      "position": 2,
+      "script": "麻烦您了。",
+      "pronunciation": "má fan nín le.",
+      "phonetic": "หมา ฝ่าน หนิน เลอ.",
+      "translation": "รบกวนคุณด้วยนะคะ/ครับ",
+      "chunks": [
+        "麻烦您了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L01-C003",
+      "legacyId": "U14-L01-C003",
+      "position": 3,
+      "script": "以后请多指教。",
+      "pronunciation": "yǐ hòu qǐng duō zhǐ jiào.",
+      "phonetic": "อี่ โห่ว ฉิ่ง ตัว จื่อ เจี้ยว.",
+      "translation": "ต่อไปขอคำแนะนำด้วยนะครับ/ค่ะ",
+      "chunks": [
+        "以后请多指教。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L01-C004",
+      "legacyId": "U14-L01-C004",
+      "position": 4,
+      "script": "谢谢您的帮助。",
+      "pronunciation": "xiè xie nín de bāng zhù.",
+      "phonetic": "เซี่ย เสี่ย หนิน เตอ ปัง จู้.",
+      "translation": "ขอบคุณสำหรับความช่วยเหลือของคุณครับ/ค่ะ",
+      "chunks": [
+        "谢谢您的帮助。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L01-C005",
+      "legacyId": "U14-L01-C005",
+      "position": 5,
+      "script": "非常感谢！",
+      "pronunciation": "fēi cháng gǎn xiè!",
+      "phonetic": "เฟย ฉาง ก๋ัน เซี่ย!",
+      "translation": "ขอบคุณมากจริงๆ ครับ/ค่ะ",
+      "chunks": [
+        "非常感谢！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L01-C006",
+      "legacyId": "U14-L01-C006",
+      "position": 6,
+      "script": "不客气，这是我应该做的。",
+      "pronunciation": "bú kè qi, zhè shì wǒ yīng gāi zuò de.",
+      "phonetic": "ปู๋ เค่อ ฉิ, เจ้อ สื้อ หว่อ อิง ไก จั่ว เตอ.",
+      "translation": "ไม่เป็นไรครับ/ค่ะ มันเป็นสิ่งที่ฉันควรทำอยู่แล้ว",
+      "chunks": [
+        "不客气，这是我应该做的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L01-C007",
+      "legacyId": "U14-L01-C007",
+      "position": 7,
+      "script": "实在不好意思。",
+      "pronunciation": "shí zài bù hǎo yì si.",
+      "phonetic": "สื้อ ไซ้ ปู้ ห่าว อี้ สิ.",
+      "translation": "ขออภัยจริงๆ ครับ/ค่ะ / เกรงใจจริงๆ เลย",
+      "chunks": [
+        "实在不好意思。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L01-C008",
+      "legacyId": "U14-L01-C008",
+      "position": 8,
+      "script": "非常抱歉，让您久等了。",
+      "pronunciation": "fēi cháng bào qiàn, ràng nín jiǔ děng le.",
+      "phonetic": "เฟย ฉาง เป้า เจี้ยน, รั้ง หนิน จิ่ว เติ๋ง เลอ.",
+      "translation": "ต้องขออภัยด้วยจริงๆ ครับ/ค่ะ ที่ทำให้คุณต้องรอนาน",
+      "chunks": [
+        "非常抱歉，让您久等了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L01-C009",
+      "legacyId": "U14-L01-C009",
+      "position": 9,
+      "script": "没关系，不用放在心上。",
+      "pronunciation": "méi guān xi, bú yòng fàng zài xīn shàng.",
+      "phonetic": "เหมย กวน สิ, บู๋ ย่ง ฟ้าง ไซ้ ซิน ส่าง.",
+      "translation": "ไม่เป็นไรครับ/ค่ะ ไม่ต้องเก็บไปใส่ใจหรอกนะ",
+      "chunks": [
+        "没关系，不用放在心上。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L01-C010",
+      "legacyId": "U14-L01-C010",
+      "position": 10,
+      "script": "您现在方便说话吗？",
+      "pronunciation": "nín xiàn zài fāng biàn shuō huà ma?",
+      "phonetic": "หนิน เซี่ยน ไซ้ ฟาง เปี้ยน ซัว หว้า มะ?",
+      "translation": "ตอนนี้คุณสะดวกคุยสาย/พูดคุยไหมครับ/ค่ะ",
+      "chunks": [
+        "您现在方便说话吗？"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U13-L04",
+  "number": 4,
+  "title": "ฉันกำลังใช้คอมพิวเตอร์ตอบข้อความคุณอยู่",
+  "chunks": [
+    {
+      "id": "zh-Hans:U13-L04-C031",
+      "legacyId": "U13-L04-C031",
+      "position": 1,
+      "script": "我正在用电脑回你消息。",
+      "pronunciation": "wǒ zhèng zài yòng diàn nǎo huí nǐ xiāo xi.",
+      "phonetic": "หว่อ เจิ้ง ไซ้ ย่ง เตี้ยน แหน่ว หุย หนี่ เสียว สิ.",
+      "translation": "ฉันกำลังใช้คอมพิวเตอร์ตอบข้อความคุณอยู่",
+      "chunks": [
+        "我正在用电脑回你消息。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L04-C032",
+      "legacyId": "U13-L04-C032",
+      "position": 2,
+      "script": "你看一下我刚发你的推特链接。",
+      "pronunciation": "nǐ kàn yí xià wǒ gāng fā nǐ de tuī tè liàn jiē.",
+      "phonetic": "หนี่ ค่าน อี๋ เซี่ย หว่อ กัง ฟา หนี่ เตอ ทวิตเตอร์ เลี่ยน เจีย.",
+      "translation": "คุณลองดูลิงก์ทวิตเตอร์ที่ฉันเพิ่งส่งให้สิ",
+      "chunks": [
+        "你看一下我刚发你的推特链接。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L04-C033",
+      "legacyId": "U13-L04-C033",
+      "position": 3,
+      "script": "电话里说不清楚，还是发文字吧。",
+      "pronunciation": "diàn huà lǐ shuō bù qīng chu, hái shì fā wén zì ba.",
+      "phonetic": "เตี้ยน หว้า หลี่ ซัว ปู้ ชิง ฉุ, หาย สื้อ ฟา เน จื้อ ปะ.",
+      "translation": "คุยในโทรศัพท์ไม่เคลียร์ ส่งข้อความอักษรมาดีกว่า",
+      "chunks": [
+        "电话里说不清楚，还是发文字吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L04-C034",
+      "legacyId": "U13-L04-C034",
+      "position": 4,
+      "script": "我的中文语音发音可能不太标准。",
+      "pronunciation": "wǒ de zhōng wén yǔ yīn fā yīn kě néng bú tài biāo zhǔn.",
+      "phonetic": "หว่อ เตอ จง เหวิน อวี่ อิน ฟา อิน เข่อ เหนิง บู๋ ไท่ เปียว จวิ๋น.",
+      "translation": "การออกเสียงพูดจีนของฉันอาจจะไม่ค่อยมาตรฐานเท่าไหร่นะ",
+      "chunks": [
+        "我的中文语音发音可能不太标准。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L04-C035",
+      "legacyId": "U13-L04-C035",
+      "position": 5,
+      "script": "有拼音的话，我读起来容易多了。",
+      "pronunciation": "yǒu pīn yīn de huà, wǒ dú qǐ lái róng yì duō le.",
+      "phonetic": "โหย่ว พิน อิน เตอ หว้า, หว่อ ตู๋ ฉี่ ไหล รง อิ ตัว เลอ.",
+      "translation": "ถ้ามีพินอินนะ ฉันจะอ่านง่ายขึ้นเยอะเลย",
+      "chunks": [
+        "有拼音的话，我读起来容易多了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L04-C036",
+      "legacyId": "U13-L04-C036",
+      "position": 6,
+      "script": "这句话翻译成泰语是什么意思？",
+      "pronunciation": "zhè jù huà fān yì chéng tài yǔ shì shén me yì si?",
+      "phonetic": "เจ้อ จวี่ หว้า ฟาน อี้ เฉิง ไท่ อวี่ สื้อ เซิ่น เมอ อี้ สิ?",
+      "translation": "ประโยคนี้แปลเป็นภาษาไทยหมายความว่ายังไง",
+      "chunks": [
+        "这句话翻译成泰语是什么意思？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L04-C037",
+      "legacyId": "U13-L04-C037",
+      "position": 7,
+      "script": "小红书上有很多人分享旅游攻略。",
+      "pronunciation": "xiǎo hóng shū shàng yǒu hěn duō rén fēn xiǎng lǚ yóu gōng lüè.",
+      "phonetic": "เสียว หง ซู ส่าง โหย่ว เห่น ตัว เหริน เฟิน เสี่ยง ลวี่ โหย่ว กง ลวี่เอ้.",
+      "translation": "ในแอปเสี่ยวหงซู (Xiaohongshu) มีคนแชร์รีวิวแผนเที่ยวเยอะมาก",
+      "chunks": [
+        "小红书上有很多人分享旅游攻略。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L04-C038",
+      "legacyId": "U13-L04-C038",
+      "position": 8,
+      "script": "刚把合照发到小红书，快去互动。",
+      "pronunciation": "gāng bǎ hé zhào fā dào xiǎo hóng shū, kuài qù hù dòng.",
+      "phonetic": "กัง ป๋า เหอ จ้าว ฟา ต้าว เสียว หง ซู, คว้าย ชวี่ หู้ ต้ง.",
+      "translation": "เพิ่งโพสต์รูปคู่ลงเสี่ยวหงซู รีบไปมีปฏิสัมพันธ์กันหน่อย",
+      "chunks": [
+        "刚把合照发到小红书，快去互动。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L04-C039",
+      "legacyId": "U13-L04-C039",
+      "position": 9,
+      "script": "不聊了，我外卖到了，明天见！",
+      "pronunciation": "bù liáo le, wǒ wài mài dào le, míng tiān jiàn!",
+      "phonetic": "ปู้ เลี้ยว เลอ, หว่อ ไว้ ม้าย ต้าว เลอ, หมิง เทียน เจี้ยน!",
+      "translation": "ไม่คุยละ เดลิเวอรีของฉันมาถึงแล้ว เจอกันพรุ่งนี้!",
+      "chunks": [
+        "不聊了，我外卖到了，明天见！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L04-C040",
+      "legacyId": "U13-L04-C040",
+      "position": 10,
+      "script": "刚刚手机静音，没听见视频通话。",
+      "pronunciation": "gāng gāng shǒu jī jìng yīn, méi tīng jiàn shì pín tōng huà.",
+      "phonetic": "กัง กัง โส่ว จี จิ้ง อิน, เหมย ทิง เจี้ยน สื้อ ผิน ทง หว้า.",
+      "translation": "เมื่อกี้มือถือตั้งปิดเสียง ไม่ได้ยินเสียงคอลวิดีโอเลย",
+      "chunks": [
+        "刚刚手机静音，没听见视频通话。"
+      ]
+    }
+  ]
+}

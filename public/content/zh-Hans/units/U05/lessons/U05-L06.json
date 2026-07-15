@@ -1,0 +1,127 @@
+{
+  "id": "U05-L06",
+  "number": 6,
+  "title": "กรุณาหยิบทิชชู่มาให้ฉันเพิ่มอีกสองสามแผ่น",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L06-C051",
+      "legacyId": "U05-L06-C051",
+      "position": 1,
+      "script": "请给我多拿几张纸巾。",
+      "pronunciation": "qǐng gěi wǒ duō ná jǐ zhāng zhǐ jīn.",
+      "phonetic": "ฉิ่ง เก๋ย หว่อ ตัว น๋า จี๋ จาง จื้อ จิน.",
+      "translation": "กรุณาหยิบทิชชู่มาให้ฉันเพิ่มอีกสองสามแผ่น",
+      "chunks": [
+        "请给我多拿几张纸巾。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L06-C052",
+      "legacyId": "U05-L06-C052",
+      "position": 2,
+      "script": "这个菜非常地道！",
+      "pronunciation": "zhè ge cài fēi cháng dì dào!",
+      "phonetic": "เจ้อ เกอ ไช้ เฟย ฉาง ตี้ ต้าว!",
+      "translation": "กับข้าวจานนี้รสชาติต้นตำรับแท้ๆ เลย!",
+      "chunks": [
+        "这个菜非常地道！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L06-C053",
+      "legacyId": "U05-L06-C053",
+      "position": 3,
+      "script": "水果很新鲜。",
+      "pronunciation": "shuǐ guǒ hěn xīn xiān.",
+      "phonetic": "สุ่ย ก๋ัว เห่น ซิน เซียน.",
+      "translation": "ผลไม้สดมาก",
+      "chunks": [
+        "水果很新鲜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L06-C054",
+      "legacyId": "U05-L06-C054",
+      "position": 4,
+      "script": "你吃得惯中国菜吗？",
+      "pronunciation": "nǐ chī de guàn zhōng guó cài ma?",
+      "phonetic": "หนี่ ชือ เตอ ก้วน จง ก๋ัว ไช้ มะ?",
+      "translation": "คุณกินอาหารจีนคุ้นปากไหม / กินเป็นไหม",
+      "chunks": [
+        "你吃得惯中国菜吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L06-C055",
+      "legacyId": "U05-L06-C055",
+      "position": 5,
+      "script": "我已经习惯了。",
+      "pronunciation": "wǒ yǐ jīng xí guàn le.",
+      "phonetic": "หว่อ อี่ จิง สี่ ก้วน เลอ.",
+      "translation": "ฉันชินเรียบร้อยแล้ว",
+      "chunks": [
+        "我已经习惯了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L06-C056",
+      "legacyId": "U05-L06-C056",
+      "position": 6,
+      "script": "我想尝尝当地的小吃。",
+      "pronunciation": "wǒ xiǎng cháng chang dāng dì de xiǎo chī.",
+      "phonetic": "หว่อ แฉี่ยง ฉาง ฉาง ตัง ตี้ เตอ เสียว ชือ.",
+      "translation": "ฉันอยากลองชิมขนม/อาหารว่างพื้นเมืองดูหน่อย",
+      "chunks": [
+        "我想尝尝当地的小吃。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L06-C057",
+      "legacyId": "U05-L06-C057",
+      "position": 7,
+      "script": "这家餐厅的环境很好。",
+      "pronunciation": "zhè jiā cān tīng de huán jìng hěn hǎo.",
+      "phonetic": "เจ้อ เจีย ซาน ทิง เตอ หวั่น จิ้ง เหิ่น ห่าว.",
+      "translation": "บรรยากาศของร้านอาหารนี้ดีมากเลย",
+      "chunks": [
+        "这家餐厅的环境很好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L06-C058",
+      "legacyId": "U05-L06-C058",
+      "position": 8,
+      "script": "服务态度非常好。",
+      "pronunciation": "fú wù tài dù fēi cháng hǎo.",
+      "phonetic": "ฟู่ อู้ ท้าย ตู้ เฟย ฉาง ห่าว.",
+      "translation": "ทัศนคติการบริการดีมากจริงๆ",
+      "chunks": [
+        "服务态度非常好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L06-C059",
+      "legacyId": "U05-L06-C059",
+      "position": 9,
+      "script": "上菜有点儿慢。",
+      "pronunciation": "shàng cài yǒu diǎnr màn.",
+      "phonetic": "ซ้าง ไช้ โหย่ว เดี๋ยร์ ม่าน.",
+      "translation": "อาหารมาเสิร์ฟช้าไปนิดนึง",
+      "chunks": [
+        "上菜有点儿慢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L06-C060",
+      "legacyId": "U05-L06-C060",
+      "position": 10,
+      "script": "可以给我一个空碗吗？",
+      "pronunciation": "kě yǐ gěi wǒ yí gè kōng wǎn ma?",
+      "phonetic": "เขอ อี่ เก๋ย หว่อ อี๋ เก้อ คง หวั่น มะ?",
+      "translation": "ขอถ้วยเปล่าให้ฉันสักใบได้ไหม",
+      "chunks": [
+        "可以给我一个空碗吗？"
+      ]
+    }
+  ]
+}

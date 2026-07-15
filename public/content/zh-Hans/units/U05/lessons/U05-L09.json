@@ -1,0 +1,127 @@
+{
+  "id": "U05-L09",
+  "number": 9,
+  "title": "อาหารมื้อนี้กินแล้วสบายท้อง/ฟินจริงๆ เลย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L09-C081",
+      "legacyId": "U05-L09-C081",
+      "position": 1,
+      "script": "这顿饭吃得真舒服。",
+      "pronunciation": "zhè dùn fàn chī de zhēn shū fu.",
+      "phonetic": "เจ้อ ตุ้น ฟ้าน ชือ เตอ เจิน ซู ฟุ.",
+      "translation": "อาหารมื้อนี้กินแล้วสบายท้อง/ฟินจริงๆ เลย",
+      "chunks": [
+        "这顿饭吃得真舒服。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L09-C082",
+      "legacyId": "U05-L09-C082",
+      "position": 2,
+      "script": "下次再来这家店吃吧。",
+      "pronunciation": "xià cì zài lái zhè jiā diàn chī ba.",
+      "phonetic": "เซี่ย ซี่ ไซ้ ไหล เจ้อ เจีย เตี้ยน ชือ ปะ.",
+      "translation": "คราวหน้าค่อยมารับประทานที่ร้านนี้อีกนะ",
+      "chunks": [
+        "下次再来这家店吃吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L09-C083",
+      "legacyId": "U05-L09-C083",
+      "position": 3,
+      "script": "我不喜欢吃苦瓜，太苦了。",
+      "pronunciation": "wǒ bù xǐ huan chī kǔ guā, tài kǔ le.",
+      "phonetic": "หว่อ ปู้ สี่ หวน ชือ ขู่ กวา, ไท่ ขู่ เลอ.",
+      "translation": "ฉันไม่ชอบกินมะระ มันขมเกินไป",
+      "chunks": [
+        "我不喜欢吃苦瓜，太苦了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L09-C084",
+      "legacyId": "U05-L09-C084",
+      "position": 4,
+      "script": "小心中毒，洗干净再吃。",
+      "pronunciation": "xiǎo xīn zhòng dú, xǐ gān jìng zài chī.",
+      "phonetic": "เสียว ซิน จ้ง ตู๋, สี่ กาน จิ้ง ไซ้ ชือ.",
+      "translation": "ระวังอาหารเป็นพิษ ล้างให้สะอาดก่อนค่อยกินนะ",
+      "chunks": [
+        "小心中毒，洗干净再吃。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L09-C085",
+      "legacyId": "U05-L09-C085",
+      "position": 5,
+      "script": "你可以帮我打包那个蛋糕吗？",
+      "pronunciation": "nǐ kě yǐ bāng wǒ dǎ bāo nà gè dàn gāo ma?",
+      "phonetic": "หนี่ เขอ อี่ ปัง หว่อ ต๋า เปา น้า เก้อ ต้าน เกา มะ?",
+      "translation": "คุณช่วยห่อเค้กก้อนนั้นให้ฉันหน่อยได้ไหม",
+      "chunks": [
+        "你可以帮我打包那个蛋糕吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L09-C086",
+      "legacyId": "U05-L09-C086",
+      "position": 6,
+      "script": "我想喝点果汁，有橙汁吗？",
+      "pronunciation": "wǒ xiǎng hē diǎn guǒ zhī, yǒu chéng zhī ma?",
+      "phonetic": "หว่อ แฉี่ยง เฮอ เตี่ยน ก๋ัว จือ, โหย่ว เฉิง จือ มะ?",
+      "translation": "ฉันอยากดื่มน้ำผลไม้ มีน้ำส้มไหม",
+      "chunks": [
+        "我想喝点果汁，有橙汁吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L09-C087",
+      "legacyId": "U05-L09-C087",
+      "position": 7,
+      "script": "这个菜里放糖了吗？",
+      "pronunciation": "zhè ge cài lǐ fàng táng le ma?",
+      "phonetic": "เจ้อ เกอ ไช้ หลี่ ฟ้าง ถัง เลอ มะ?",
+      "translation": "กับข้าวจานนี้ใส่น้ำตาลไหม",
+      "chunks": [
+        "这个菜里放糖了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L09-C088",
+      "legacyId": "U05-L09-C088",
+      "position": 8,
+      "script": "因为减肥，我晚上只吃沙拉。",
+      "pronunciation": "yīn wèi jiǎn féi, wǒ wǎn shang zhǐ chī shā lā.",
+      "phonetic": "อิน เว่ย เจี่ยน เฝย, หว่อ หวั่น ส่าง จื่อ ชือ ซา ลา.",
+      "translation": "เพราะว่าลดน้ำหนัก ตอนเย็นฉันกินแค่สลัดเท่านั้น",
+      "chunks": [
+        "因为减肥，我晚上只吃沙拉。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L09-C089",
+      "legacyId": "U05-L09-C089",
+      "position": 9,
+      "script": "我最近在吃素。",
+      "pronunciation": "wǒ zuì jìn zài chī sù.",
+      "phonetic": "หว่อ จุ้ย จิ้น ไซ้ ชือ ซู่.",
+      "translation": "ช่วงนี้ฉันกำลังกินมังสวิรัติอยู่",
+      "chunks": [
+        "我最近在吃素。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L09-C090",
+      "legacyId": "U05-L09-C090",
+      "position": 10,
+      "script": "这咖啡太苦了，有奶精吗？",
+      "pronunciation": "zhè kā fēi tài kǔ le, yǒu nǎi jīng ma?",
+      "phonetic": "เจ้อ คา เฟย ไท่ ขู่ เลอ, โหย่ว ไน่ จิง มะ?",
+      "translation": "กาแฟนี่ขมเกินไป มีครีมเทียมไหม",
+      "chunks": [
+        "这咖啡太苦了，有奶精吗？"
+      ]
+    }
+  ]
+}

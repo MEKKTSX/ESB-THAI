@@ -1,0 +1,348 @@
+{
+  "id": "A",
+  "number": 1,
+  "title": "A. Greetings & General Small Talk",
+  "chunks": [
+    {
+      "id": "en:session-1:A:1",
+      "legacyId": "A-0",
+      "position": 1,
+      "script": "How are you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สบายดีไหม?",
+      "chunks": [
+        "How are you?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:2",
+      "legacyId": "A-1",
+      "position": 2,
+      "script": "How are you doing?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป็นไงบ้าง?",
+      "chunks": [
+        "How are you doing?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:3",
+      "legacyId": "A-2",
+      "position": 3,
+      "script": "How are you today?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้เป็นไงบ้าง?",
+      "chunks": [
+        "How are you today?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:4",
+      "legacyId": "A-3",
+      "position": 4,
+      "script": "How is it going?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ความเป็นอยู่เป็นไงบ้าง?",
+      "chunks": [
+        "How is it going?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:5",
+      "legacyId": "A-4",
+      "position": 5,
+      "script": "How is everything?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทุกอย่างเป็นไงบ้าง?",
+      "chunks": [
+        "How is everything?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:6",
+      "legacyId": "A-5",
+      "position": 6,
+      "script": "How's life?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ชีวิตเป็นไงบ้าง?",
+      "chunks": [
+        "How's life?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:7",
+      "legacyId": "A-6",
+      "position": 7,
+      "script": "What’s up?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ว่าไง / มีไรเปล่า?",
+      "chunks": [
+        "What’s up?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:8",
+      "legacyId": "A-7",
+      "position": 8,
+      "script": "What’s new?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีอะไรใหม่ๆ บ้างไหม?",
+      "chunks": [
+        "What’s new?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:9",
+      "legacyId": "A-8",
+      "position": 9,
+      "script": "What’s happening?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เกิดอะไรขึ้น / ทำไรอยู่?",
+      "chunks": [
+        "What’s happening?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:10",
+      "legacyId": "A-9",
+      "position": 10,
+      "script": "What are you up to?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทำอะไรอยู่บ้างช่วงนี้?",
+      "chunks": [
+        "What are you up",
+        "to?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:11",
+      "legacyId": "A-10",
+      "position": 11,
+      "script": "What are you doing right now?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนนี้ทำอะไรอยู่?",
+      "chunks": [
+        "What are you doing right now?"
+      ]
+    },
+    {
+      "id": "en:session-1:A:12",
+      "legacyId": "A-11",
+      "position": 12,
+      "script": "It’s good to see you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดีใจที่ได้เจอกันนะ",
+      "chunks": [
+        "It’s good",
+        "to see you."
+      ]
+    },
+    {
+      "id": "en:session-1:A:13",
+      "legacyId": "A-12",
+      "position": 13,
+      "script": "It’s nice to meet you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยินดีที่ได้รู้จัก",
+      "chunks": [
+        "It’s nice",
+        "to meet you."
+      ]
+    },
+    {
+      "id": "en:session-1:A:14",
+      "legacyId": "A-13",
+      "position": 14,
+      "script": "It’s been a long time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไม่ได้เจอกันนานเลยนะ",
+      "chunks": [
+        "It’s been a long time."
+      ]
+    },
+    {
+      "id": "en:session-1:A:15",
+      "legacyId": "A-14",
+      "position": 15,
+      "script": "I’m fine, thanks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันสบายดี ขอบใจนะ",
+      "chunks": [
+        "I’m fine,",
+        "thanks."
+      ]
+    },
+    {
+      "id": "en:session-1:A:16",
+      "legacyId": "A-15",
+      "position": 16,
+      "script": "I’m doing well.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันสบายดี",
+      "chunks": [
+        "I’m doing well."
+      ]
+    },
+    {
+      "id": "en:session-1:A:17",
+      "legacyId": "A-16",
+      "position": 17,
+      "script": "I’m pretty good.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก็ค่อนข้างดีนะ",
+      "chunks": [
+        "I’m pretty good."
+      ]
+    },
+    {
+      "id": "en:session-1:A:18",
+      "legacyId": "A-17",
+      "position": 18,
+      "script": "I’m doing okay.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันก็โอเคนะ",
+      "chunks": [
+        "I’m doing okay."
+      ]
+    },
+    {
+      "id": "en:session-1:A:19",
+      "legacyId": "A-18",
+      "position": 19,
+      "script": "I’m not bad.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก็ไม่แย่นะ",
+      "chunks": [
+        "I’m not bad."
+      ]
+    },
+    {
+      "id": "en:session-1:A:20",
+      "legacyId": "A-19",
+      "position": 20,
+      "script": "I’m a bit tired today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้ฉันเหนื่อยนิดหน่อย",
+      "chunks": [
+        "I’m a bit tired today."
+      ]
+    },
+    {
+      "id": "en:session-1:A:21",
+      "legacyId": "A-20",
+      "position": 21,
+      "script": "I’m so busy these days.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วงนี้ฉันยุ่งมาก",
+      "chunks": [
+        "I’m",
+        "so busy these days."
+      ]
+    },
+    {
+      "id": "en:session-1:A:22",
+      "legacyId": "A-21",
+      "position": 22,
+      "script": "Everything is fine.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทุกอย่างเรียบร้อยดี",
+      "chunks": [
+        "Everything is fine."
+      ]
+    },
+    {
+      "id": "en:session-1:A:23",
+      "legacyId": "A-22",
+      "position": 23,
+      "script": "Everything is great.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทุกอย่างโอเคมาก",
+      "chunks": [
+        "Everything is great."
+      ]
+    },
+    {
+      "id": "en:session-1:A:24",
+      "legacyId": "A-23",
+      "position": 24,
+      "script": "Same as usual.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก็เหมือนเดิมแหละ",
+      "chunks": [
+        "Same as usual."
+      ]
+    },
+    {
+      "id": "en:session-1:A:25",
+      "legacyId": "A-24",
+      "position": 25,
+      "script": "Can’t complain.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก็เรื่อยๆ (ไม่มีไรให้บ่น)",
+      "chunks": [
+        "Can’t complain."
+      ]
+    },
+    {
+      "id": "en:session-1:A:26",
+      "legacyId": "A-25",
+      "position": 26,
+      "script": "You look great.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณดูดีจัง",
+      "chunks": [
+        "You look great."
+      ]
+    },
+    {
+      "id": "en:session-1:A:27",
+      "legacyId": "A-26",
+      "position": 27,
+      "script": "You look tired.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณดูเหนื่อยๆ นะ",
+      "chunks": [
+        "You look tired."
+      ]
+    },
+    {
+      "id": "en:session-1:A:28",
+      "legacyId": "A-27",
+      "position": 28,
+      "script": "You look happy today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้คุณดูมีความสุขนะ",
+      "chunks": [
+        "You look happy today."
+      ]
+    }
+  ]
+}

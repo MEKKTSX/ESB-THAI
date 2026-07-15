@@ -1,0 +1,329 @@
+{
+  "id": "D",
+  "number": 4,
+  "title": "D. Friends & Social Life",
+  "chunks": [
+    {
+      "id": "en:session-1:D:1",
+      "legacyId": "D-0",
+      "position": 1,
+      "script": "Do you want to go out?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากออกไปข้างนอกไหม?",
+      "chunks": [
+        "Do you want",
+        "to go out?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:2",
+      "legacyId": "D-1",
+      "position": 2,
+      "script": "Do you want to join us?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากไปด้วยกันไหม?",
+      "chunks": [
+        "Do you want",
+        "to join us?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:3",
+      "legacyId": "D-2",
+      "position": 3,
+      "script": "Do you want to come over?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากแวะมาหาไหม?",
+      "chunks": [
+        "Do you want",
+        "to come over?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:4",
+      "legacyId": "D-3",
+      "position": 4,
+      "script": "Do you want to grab coffee?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไปดื่มกาแฟกันไหม?",
+      "chunks": [
+        "Do you want",
+        "to grab coffee?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:5",
+      "legacyId": "D-4",
+      "position": 5,
+      "script": "Do you have time?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีเวลาไหม?",
+      "chunks": [
+        "Do you have time?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:6",
+      "legacyId": "D-5",
+      "position": 6,
+      "script": "Do you have plans tonight?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คืนนี้มีแผนทำอะไรหรือยัง?",
+      "chunks": [
+        "Do you have plans tonight?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:7",
+      "legacyId": "D-6",
+      "position": 7,
+      "script": "Are you free this weekend?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สุดสัปดาห์นี้ว่างไหม?",
+      "chunks": [
+        "Are you free this weekend?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:8",
+      "legacyId": "D-7",
+      "position": 8,
+      "script": "Are you free later?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดี๋ยวว่างไหม (หลังจากนี้)?",
+      "chunks": [
+        "Are you free later?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:9",
+      "legacyId": "D-8",
+      "position": 9,
+      "script": "Are you ready to go?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พร้อมไปหรือยัง?",
+      "chunks": [
+        "Are you ready",
+        "to go?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:10",
+      "legacyId": "D-9",
+      "position": 10,
+      "script": "Can you make it?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณมาได้ไหม / สะดวกไหม?",
+      "chunks": [
+        "Can you make it?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:11",
+      "legacyId": "D-10",
+      "position": 11,
+      "script": "Let’s go.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไปกันเถอะ",
+      "chunks": [
+        "Let’s go."
+      ]
+    },
+    {
+      "id": "en:session-1:D:12",
+      "legacyId": "D-11",
+      "position": 12,
+      "script": "Let’s meet up.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มาเจอกันหน่อยไหม",
+      "chunks": [
+        "Let’s meet up."
+      ]
+    },
+    {
+      "id": "en:session-1:D:13",
+      "legacyId": "D-12",
+      "position": 13,
+      "script": "Let’s hang out.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไปเที่ยวเล่น/สังสรรค์กันเถอะ",
+      "chunks": [
+        "Let’s hang out."
+      ]
+    },
+    {
+      "id": "en:session-1:D:14",
+      "legacyId": "D-13",
+      "position": 14,
+      "script": "Let’s grab a drink.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไปหาอะไรดื่มกันเถอะ",
+      "chunks": [
+        "Let’s grab a drink."
+      ]
+    },
+    {
+      "id": "en:session-1:D:15",
+      "legacyId": "D-14",
+      "position": 15,
+      "script": "Let’s do something fun.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หาอะไรสนุกๆ ทำกันเถอะ",
+      "chunks": [
+        "Let’s do something fun."
+      ]
+    },
+    {
+      "id": "en:session-1:D:16",
+      "legacyId": "D-15",
+      "position": 16,
+      "script": "I’m free today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้ฉันว่าง",
+      "chunks": [
+        "I’m free today."
+      ]
+    },
+    {
+      "id": "en:session-1:D:17",
+      "legacyId": "D-16",
+      "position": 17,
+      "script": "I’m busy tonight.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คืนนี้ฉันไม่ว่าง",
+      "chunks": [
+        "I’m busy tonight."
+      ]
+    },
+    {
+      "id": "en:session-1:D:18",
+      "legacyId": "D-17",
+      "position": 18,
+      "script": "I’m hanging out with friends.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังสังสรรค์กับเพื่อน",
+      "chunks": [
+        "I’m hanging out",
+        "with friends."
+      ]
+    },
+    {
+      "id": "en:session-1:D:19",
+      "legacyId": "D-18",
+      "position": 19,
+      "script": "I’m waiting for a friend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังรอเพื่อนอยู่",
+      "chunks": [
+        "I’m waiting",
+        "for a friend."
+      ]
+    },
+    {
+      "id": "en:session-1:D:20",
+      "legacyId": "D-19",
+      "position": 20,
+      "script": "We are having a party.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเรากำลังมีปาร์ตี้กัน",
+      "chunks": [
+        "We are having a party."
+      ]
+    },
+    {
+      "id": "en:session-1:D:21",
+      "legacyId": "D-20",
+      "position": 21,
+      "script": "Where are you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณอยู่ที่ไหน?",
+      "chunks": [
+        "Where are you?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:22",
+      "legacyId": "D-21",
+      "position": 22,
+      "script": "Where are we going?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เรากำลังจะไปไหนกัน?",
+      "chunks": [
+        "Where are we going?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:23",
+      "legacyId": "D-22",
+      "position": 23,
+      "script": "Who are you with?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณอยู่กับใคร?",
+      "chunks": [
+        "Who are you",
+        "with?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:24",
+      "legacyId": "D-23",
+      "position": 24,
+      "script": "Who is coming?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ใครจะมาบ้าง?",
+      "chunks": [
+        "Who is coming?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:25",
+      "legacyId": "D-24",
+      "position": 25,
+      "script": "How about dinner?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไปกินมื้อเย็นกันไหม?",
+      "chunks": [
+        "How",
+        "about dinner?"
+      ]
+    },
+    {
+      "id": "en:session-1:D:26",
+      "legacyId": "D-25",
+      "position": 26,
+      "script": "How about a movie?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดูหนังกันไหม?",
+      "chunks": [
+        "How",
+        "about a movie?"
+      ]
+    }
+  ]
+}

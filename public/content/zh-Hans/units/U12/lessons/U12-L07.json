@@ -1,0 +1,127 @@
+{
+  "id": "U12-L07",
+  "number": 7,
+  "title": "โต้รุ่งอ่านหนังสือทุกวัน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L07-C061",
+      "legacyId": "U12-L07-C061",
+      "position": 1,
+      "script": "天天熬夜看书。",
+      "pronunciation": "tiān tiān áo yè kàn shū.",
+      "phonetic": "เทียน เทียน อ๋าว เย้ ข้าน ซู",
+      "translation": "โต้รุ่งอ่านหนังสือทุกวัน",
+      "chunks": [
+        "天天熬夜看书。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L07-C062",
+      "legacyId": "U12-L07-C062",
+      "position": 2,
+      "script": "忙得没时间吃饭。",
+      "pronunciation": "máng de méi shí jiān chī fàn.",
+      "phonetic": "ม๋าง เตอะ เหมย สือ เจียน ชือ ฟ้าน",
+      "translation": "ยุ่งจนไม่มีเวลากินข้าว",
+      "chunks": [
+        "忙得没时间吃饭。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L07-C063",
+      "legacyId": "U12-L07-C063",
+      "position": 3,
+      "script": "头发掉了很多。",
+      "pronunciation": "tóu fa diào le hěn duō.",
+      "phonetic": "โถว ฝะ เตี้ยว เลอะ หิ่น ตัว",
+      "translation": "ผมร่วงไปเยอะมาก",
+      "chunks": [
+        "头发掉了很多。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L07-C064",
+      "legacyId": "U12-L07-C064",
+      "position": 4,
+      "script": "快被论文逼疯了。",
+      "pronunciation": "kuài bèi lùn wén bī fēng le.",
+      "phonetic": "ไขว้ เป้ย ลุ่น เวน ปี เฟง เลอะ",
+      "translation": "ใกล้จะบ้าเพราะวิทยานิพนธ์แล้ว",
+      "chunks": [
+        "快被论文逼疯了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L07-C065",
+      "legacyId": "U12-L07-C065",
+      "position": 5,
+      "script": "一堆事等着我。",
+      "pronunciation": "yì duī shì děng zhe wǒ.",
+      "phonetic": "อี้ ดุย ซื่อ เติ่ง เจอะ หวั่ว",
+      "translation": "เรื่องเป็นกองรอกองอยู่",
+      "chunks": [
+        "一堆事等着我。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L07-C066",
+      "legacyId": "U12-L07-C066",
+      "position": 6,
+      "script": "整天待在实验室。",
+      "pronunciation": "zhěng tiān dāi zài shí yàn shì.",
+      "phonetic": "เจิ๋ง เทียน ไต ไจ้ สือ ยั้น ซื่อ",
+      "translation": "อยู่แต่ในห้องแล็บทั้งวัน",
+      "chunks": [
+        "整天待在实验室。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L07-C067",
+      "legacyId": "U12-L07-C067",
+      "position": 7,
+      "script": "实在学不动了。",
+      "pronunciation": "shí zài xué bú dòng le.",
+      "phonetic": "สือ ไจ้ เสวีย ปู๋ ต้ง เลอะ",
+      "translation": "เรียนไม่ไหวแล้วจริงๆ",
+      "chunks": [
+        "实在学不动了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L07-C068",
+      "legacyId": "U12-L07-C068",
+      "position": 8,
+      "script": "需要放松一下。",
+      "pronunciation": "xū yào fàng sōng yí xià.",
+      "phonetic": "ซู ย้าว ฟ้าง ซง อี๋ เซี่ย",
+      "translation": "ต้องผ่อนคลายสักหน่อยแล้ว",
+      "chunks": [
+        "需要放松一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L07-C069",
+      "legacyId": "U12-L07-C069",
+      "position": 9,
+      "script": "终于能喘口气了。",
+      "pronunciation": "zhōng yú néng chuǎn kǒu qì le.",
+      "phonetic": "จง ยวี่ เหนิง ฉ่วน โข่ว ชี่ เลอะ",
+      "translation": "ในที่สุดก็ได้หายใจหายคอบ้าง",
+      "chunks": [
+        "终于能喘口气了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L07-C070",
+      "legacyId": "U12-L07-C070",
+      "position": 10,
+      "script": "我想找个兼职。",
+      "pronunciation": "wǒ xiǎng zhǎo gè jiān zhí.",
+      "phonetic": "หวั่ว เสี่ยง จ่าว เก้อ เจียน จื๋อ",
+      "translation": "ฉันอยากหางานพาร์ตไทม์ทำ",
+      "chunks": [
+        "我想找个兼职。"
+      ]
+    }
+  ]
+}

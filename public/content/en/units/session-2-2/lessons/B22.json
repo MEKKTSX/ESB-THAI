@@ -1,0 +1,213 @@
+{
+  "id": "B22",
+  "number": 2,
+  "title": "B. Stalling & Buying Time",
+  "chunks": [
+    {
+      "id": "en:session-2-2:B22:1",
+      "legacyId": "B22-0",
+      "position": 1,
+      "script": "That's a really good question. Let me think for a moment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คำถามดีมากเลย ขอคิดสักครู่นะ",
+      "chunks": [
+        "That's a really good question.",
+        "Let me think",
+        "for a moment."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:2",
+      "legacyId": "B22-1",
+      "position": 2,
+      "script": "Let me think about that for a second.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้ฉันคิดดูก่อนแป๊บนึงนะ",
+      "chunks": [
+        "Let me think",
+        "about",
+        "that",
+        "for a second."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:3",
+      "legacyId": "B22-2",
+      "position": 3,
+      "script": "Hmm, that's an interesting point.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฮืม นั่นเป็นประเด็นที่น่าสนใจนะ",
+      "chunks": [
+        "Hmm,",
+        "that's an interesting point."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:4",
+      "legacyId": "B22-3",
+      "position": 4,
+      "script": "I'm not sure off the top of my head.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนนี้ยังนึกไม่ออกเลย",
+      "chunks": [
+        "I'm not sure off the top of my head."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:5",
+      "legacyId": "B22-4",
+      "position": 5,
+      "script": "I need a moment to collect my thoughts.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอเวลาสักครู่เพื่อจัดความคิดก่อนนะ",
+      "chunks": [
+        "I need a moment",
+        "to collect my thoughts."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:6",
+      "legacyId": "B22-5",
+      "position": 6,
+      "script": "That's something I'd have to look into.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นเป็นเรื่องที่ฉันต้องไปหาข้อมูลก่อน",
+      "chunks": [
+        "That's something I'd have",
+        "to look into."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:7",
+      "legacyId": "B22-6",
+      "position": 7,
+      "script": "Can I get back to you on that?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอตอบคุณทีหลังได้ไหม?",
+      "chunks": [
+        "Can I get back",
+        "to you",
+        "on",
+        "that?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:8",
+      "legacyId": "B22-7",
+      "position": 8,
+      "script": "I want to give you a proper answer, so let me check first.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากให้คำตอบที่ถูกต้อง ขอเช็คก่อนนะ",
+      "chunks": [
+        "I want",
+        "to give you a proper answer,",
+        "so let me check first."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:9",
+      "legacyId": "B22-8",
+      "position": 9,
+      "script": "Well, it's a bit complicated to explain.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เอ่อ มันค่อนข้างซับซ้อนนิดหน่อยที่จะอธิบาย",
+      "chunks": [
+        "Well,",
+        "it's a bit complicated",
+        "to explain."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:10",
+      "legacyId": "B22-9",
+      "position": 10,
+      "script": "To be honest, I haven't thought about that yet.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดตรงๆ นะ ฉันยังไม่ได้คิดถึงเรื่องนั้นเลย",
+      "chunks": [
+        "To be honest,",
+        "I haven't thought",
+        "about",
+        "that yet."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:11",
+      "legacyId": "B22-10",
+      "position": 11,
+      "script": "That's a fair point — I need to think it over.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นเป็นประเด็นที่สมเหตุสมผล ฉันต้องคิดทบทวนดูก่อน",
+      "chunks": [
+        "That's a fair point — I need",
+        "to think it over."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:12",
+      "legacyId": "B22-11",
+      "position": 12,
+      "script": "Let me rephrase that — I think I didn't say it clearly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้ฉันพูดใหม่นะ ฉันว่าพูดไม่ค่อยชัดเท่าไหร่",
+      "chunks": [
+        "Let me rephrase",
+        "that — I think I didn't say it clearly."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:13",
+      "legacyId": "B22-12",
+      "position": 13,
+      "script": "Could you give me a day or two to think about it?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้เวลาฉันคิดดูสักหนึ่งสองวันได้ไหม?",
+      "chunks": [
+        "Could you give me a day",
+        "or two",
+        "to think",
+        "about it?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:14",
+      "legacyId": "B22-13",
+      "position": 14,
+      "script": "I'll have to get back to you with a more detailed answer.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะตอบคุณพร้อมรายละเอียดที่ชัดกว่านี้ทีหลังนะ",
+      "chunks": [
+        "I'll have",
+        "to get back",
+        "to you",
+        "with a more detailed answer."
+      ]
+    },
+    {
+      "id": "en:session-2-2:B22:15",
+      "legacyId": "B22-14",
+      "position": 15,
+      "script": "I'm still thinking through all the options.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันยังคิดทบทวนตัวเลือกทั้งหมดอยู่เลย",
+      "chunks": [
+        "I'm still thinking through all the options."
+      ]
+    }
+  ]
+}

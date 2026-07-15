@@ -1,0 +1,127 @@
+{
+  "id": "U11-L03",
+  "number": 3,
+  "title": "พวกเราถึงจุดหมายปลายทางหรือยัง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U11-L03-C021",
+      "legacyId": "U11-L03-C021",
+      "position": 1,
+      "script": "我们到目的地了吗？",
+      "pronunciation": "wǒ men dào mù dì dì le ma?",
+      "phonetic": "หว่อ เมิน ต้าว มู่ ตี้ ตี้ เลอ มะ?",
+      "translation": "พวกเราถึงจุดหมายปลายทางหรือยัง",
+      "chunks": [
+        "我们到目的地了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L03-C022",
+      "legacyId": "U11-L03-C022",
+      "position": 2,
+      "script": "到了告诉。我一声，谢谢。",
+      "pronunciation": "dào le gào sù wǒ yì shēng, xiè xie.",
+      "phonetic": "ต้าว เลอ เค้า สุ หว่อ อี เซิง, เซี่ย เสี่ย.",
+      "translation": "ถึงแล้วบอกฉันคำนึงนะ ขอบคุณครับ/ค่ะ",
+      "chunks": [
+        "到了告诉。我一声，谢谢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L03-C023",
+      "legacyId": "U11-L03-C023",
+      "position": 3,
+      "script": "我该在哪一站下车？",
+      "pronunciation": "wǒ gāi zài nǎ yí zhàn xià chē?",
+      "phonetic": "หว่อ ไก ไซ้ หน่า อี๋ จ้าน เซี่ย เชอ?",
+      "translation": "ฉันควรจะต้องลงรถที่สถานีไหน",
+      "chunks": [
+        "我该在哪一站下车？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L03-C024",
+      "legacyId": "U11-L03-C024",
+      "position": 4,
+      "script": "不好意思，我迷路了。",
+      "pronunciation": "bù hǎo yì si, wǒ mí lù le.",
+      "phonetic": "ปู้ ห่าว อี้ สิ, หว่อ มี ลู่ เลอ.",
+      "translation": "ขอโทษทีค่ะ ฉันหลงทางแล้ว",
+      "chunks": [
+        "不好意思，我迷路了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L03-C025",
+      "legacyId": "U11-L03-C025",
+      "position": 5,
+      "script": "你能帮我看一下地图吗？",
+      "pronunciation": "nǐ néng bāng wǒ kàn yí xià dì tú ma?",
+      "phonetic": "หนี่ เหนิง ปัง หว่อ ค่าน อี๋ เซี่ย ตี้ ถู มะ?",
+      "translation": "คุณช่วยดูแผนที่ให้ฉันหน่อยได้ไหม",
+      "chunks": [
+        "你能帮我看一下地图吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L03-C026",
+      "legacyId": "U11-L03-C026",
+      "position": 6,
+      "script": "可以帮我指一下路吗？",
+      "pronunciation": "kě yǐ bāng wǒ zhǐ yí xià lù ma?",
+      "phonetic": "เขอ อี่ ปัง หว่อ จื่อ อี๋ เซี่ย ลู่ มะ?",
+      "translation": "ช่วยชี้ทางให้ฉันหน่อยได้ไหม",
+      "chunks": [
+        "可以帮我指一下路吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L03-C027",
+      "legacyId": "U11-L03-C027",
+      "position": 7,
+      "script": "请问去颐和园坐地铁哪条线？",
+      "pronunciation": "qǐng wèn qù yí hé yuán zuò dì tiě nǎ tiáo xiàn?",
+      "phonetic": "ฉิ่ง เวิน ชวี่ อี๋ เหอ หยวาน จั่ว ตี้ เถี่ย หน่า เถียว เสี้ยน?",
+      "translation": "ขอถามหน่อยครับ ไปพระราชวังฤดูร้อนนั่งรถไฟใต้ดินสายไหน",
+      "chunks": [
+        "请问去颐和园坐地铁哪条线？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L03-C028",
+      "legacyId": "U11-L03-C028",
+      "position": 8,
+      "script": "你要坐四号线，往安河桥北方向。",
+      "pronunciation": "nǐ yào zuò sì hào xiàn, wǎng ān hé qiáo běi fāng xiàng.",
+      "phonetic": "หนี่ เย้า จั่ว สื้อ ห้าว เสี้ยน, หวั่ง อัน เหอ เฉียว เปุ่ย ฟาง เสี้ยง.",
+      "translation": "คุณต้องนั่งสาย 4 ฝั่งที่ไปทางอันเหอเฉียวเป่ย",
+      "chunks": [
+        "你要坐四号线，往安河桥北方向。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L03-C029",
+      "legacyId": "U11-L03-C029",
+      "position": 9,
+      "script": "要在哪一站换乘十号线？",
+      "pronunciation": "yào zài nǎ yí zhàn huàn chéng shí hào xiàn?",
+      "phonetic": "เย้า ไซ้ หน่า อี๋ จ้าน ห้วน เฉิง สื้อ ห้าว เสี้ยน?",
+      "translation": "ต้องเปลี่ยนขบวนเป็นสาย 10 ที่สถานีไหน",
+      "chunks": [
+        "要在哪一站换乘十号线？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L03-C030",
+      "legacyId": "U11-L03-C030",
+      "position": 10,
+      "script": "在海淀黄庄站换乘，坐两站就到了。",
+      "pronunciation": "zài hǎi diàn huáng zhuāng zhàn huàn chéng, zuò liǎng zhàn jiù dào le.",
+      "phonetic": "ไซ้ ไห่ เตี้ยน หวาง จวอง จ้าน ห้วน เฉิง, จั่ว เหลี่ยง จ้าน จิ้ว ต้าว เลอ.",
+      "translation": "เปลี่ยนขบวนที่สถานีไห่เตี้ยนหวังจวง นั่งไปอีกสองสถานีก็ถึงแล้ว",
+      "chunks": [
+        "在海淀黄庄站换乘，坐两站就到了。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "id": "E",
+  "number": 5,
+  "title": "E. Feelings, Opinions & Preferences",
+  "chunks": [
+    {
+      "id": "en:session-1:E:1",
+      "legacyId": "E-0",
+      "position": 1,
+      "script": "I like it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันชอบนะ",
+      "chunks": [
+        "I like it."
+      ]
+    },
+    {
+      "id": "en:session-1:E:2",
+      "legacyId": "E-1",
+      "position": 2,
+      "script": "I really like it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันชอบมันมาก",
+      "chunks": [
+        "I really like it."
+      ]
+    },
+    {
+      "id": "en:session-1:E:3",
+      "legacyId": "E-2",
+      "position": 3,
+      "script": "I love this song.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรักเพลงนี้",
+      "chunks": [
+        "I love this song."
+      ]
+    },
+    {
+      "id": "en:session-1:E:4",
+      "legacyId": "E-3",
+      "position": 4,
+      "script": "I enjoy reading.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันสนุกกับการอ่าน",
+      "chunks": [
+        "I enjoy reading."
+      ]
+    },
+    {
+      "id": "en:session-1:E:5",
+      "legacyId": "E-4",
+      "position": 5,
+      "script": "I prefer tea.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันชอบชามากกว่า",
+      "chunks": [
+        "I prefer tea."
+      ]
+    },
+    {
+      "id": "en:session-1:E:6",
+      "legacyId": "E-5",
+      "position": 6,
+      "script": "I don't like it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ชอบเลย",
+      "chunks": [
+        "I don't like it."
+      ]
+    },
+    {
+      "id": "en:session-1:E:7",
+      "legacyId": "E-6",
+      "position": 7,
+      "script": "I hate waiting.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเกลียดการรอคอย",
+      "chunks": [
+        "I hate waiting."
+      ]
+    },
+    {
+      "id": "en:session-1:E:8",
+      "legacyId": "E-7",
+      "position": 8,
+      "script": "I don't care.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่แคร์ / ไม่สน",
+      "chunks": [
+        "I don't care."
+      ]
+    },
+    {
+      "id": "en:session-1:E:9",
+      "legacyId": "E-8",
+      "position": 9,
+      "script": "I don't mind.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ถือสา / ไม่ติดขัดอะไร",
+      "chunks": [
+        "I don't mind."
+      ]
+    },
+    {
+      "id": "en:session-1:E:10",
+      "legacyId": "E-9",
+      "position": 10,
+      "script": "It doesn't matter.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไม่สำคัญหรอก / ช่างเถอะ",
+      "chunks": [
+        "It doesn't matter."
+      ]
+    },
+    {
+      "id": "en:session-1:E:11",
+      "legacyId": "E-10",
+      "position": 11,
+      "script": "I feel happy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมีความสุข",
+      "chunks": [
+        "I feel happy."
+      ]
+    },
+    {
+      "id": "en:session-1:E:12",
+      "legacyId": "E-11",
+      "position": 12,
+      "script": "I feel sad.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเศร้า",
+      "chunks": [
+        "I feel sad."
+      ]
+    },
+    {
+      "id": "en:session-1:E:13",
+      "legacyId": "E-12",
+      "position": 13,
+      "script": "I feel tired.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้สึกเหนื่อย",
+      "chunks": [
+        "I feel tired."
+      ]
+    },
+    {
+      "id": "en:session-1:E:14",
+      "legacyId": "E-13",
+      "position": 14,
+      "script": "I feel sick.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้สึกป่วย",
+      "chunks": [
+        "I feel sick."
+      ]
+    },
+    {
+      "id": "en:session-1:E:15",
+      "legacyId": "E-14",
+      "position": 15,
+      "script": "I feel better now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้สึกดีขึ้นแล้ว",
+      "chunks": [
+        "I feel better now."
+      ]
+    },
+    {
+      "id": "en:session-1:E:16",
+      "legacyId": "E-15",
+      "position": 16,
+      "script": "I think so.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันก็คิดงั้นนะ",
+      "chunks": [
+        "I think",
+        "so."
+      ]
+    },
+    {
+      "id": "en:session-1:E:17",
+      "legacyId": "E-16",
+      "position": 17,
+      "script": "I don't think so.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่คิดงั้นนะ",
+      "chunks": [
+        "I don't think",
+        "so."
+      ]
+    },
+    {
+      "id": "en:session-1:E:18",
+      "legacyId": "E-17",
+      "position": 18,
+      "script": "I think it’s good.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันว่ามันก็ดีนะ",
+      "chunks": [
+        "I think it’s good."
+      ]
+    },
+    {
+      "id": "en:session-1:E:19",
+      "legacyId": "E-18",
+      "position": 19,
+      "script": "I think it’s too expensive.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันว่ามันแพงไป",
+      "chunks": [
+        "I think it’s too expensive."
+      ]
+    },
+    {
+      "id": "en:session-1:E:20",
+      "legacyId": "E-19",
+      "position": 20,
+      "script": "I believe you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเชื่อคุณ",
+      "chunks": [
+        "I believe you."
+      ]
+    },
+    {
+      "id": "en:session-1:E:21",
+      "legacyId": "E-20",
+      "position": 21,
+      "script": "I agree with you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเห็นด้วยกับคุณ",
+      "chunks": [
+        "I agree",
+        "with you."
+      ]
+    },
+    {
+      "id": "en:session-1:E:22",
+      "legacyId": "E-21",
+      "position": 22,
+      "script": "I totally agree.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเห็นด้วยสุดๆ",
+      "chunks": [
+        "I totally agree."
+      ]
+    },
+    {
+      "id": "en:session-1:E:23",
+      "legacyId": "E-22",
+      "position": 23,
+      "script": "I disagree.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เห็นด้วย",
+      "chunks": [
+        "I disagree."
+      ]
+    },
+    {
+      "id": "en:session-1:E:24",
+      "legacyId": "E-23",
+      "position": 24,
+      "script": "Do you like it?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณชอบไหม?",
+      "chunks": [
+        "Do you like it?"
+      ]
+    },
+    {
+      "id": "en:session-1:E:25",
+      "legacyId": "E-24",
+      "position": 25,
+      "script": "Do you think it’s okay?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณคิดว่ามันโอเคไหม?",
+      "chunks": [
+        "Do you think it’s okay?"
+      ]
+    },
+    {
+      "id": "en:session-1:E:26",
+      "legacyId": "E-25",
+      "position": 26,
+      "script": "What do you think?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณคิดว่าไง?",
+      "chunks": [
+        "What do you think?"
+      ]
+    },
+    {
+      "id": "en:session-1:E:27",
+      "legacyId": "E-26",
+      "position": 27,
+      "script": "What do you prefer?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณชอบอันไหนมากกว่า?",
+      "chunks": [
+        "What do you prefer?"
+      ]
+    },
+    {
+      "id": "en:session-1:E:28",
+      "legacyId": "E-27",
+      "position": 28,
+      "script": "How do you feel?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรู้สึกยังไง?",
+      "chunks": [
+        "How do you feel?"
+      ]
+    }
+  ]
+}

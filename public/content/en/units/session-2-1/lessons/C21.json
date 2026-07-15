@@ -1,0 +1,264 @@
+{
+  "id": "C21",
+  "number": 3,
+  "title": "C. Present Perfect Continuous",
+  "chunks": [
+    {
+      "id": "en:session-2-1:C21:1",
+      "legacyId": "C21-0",
+      "position": 1,
+      "script": "I've been waiting for you for 20 minutes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรอคุณมา 20 นาทีแล้วนะ",
+      "chunks": [
+        "I've been waiting",
+        "for you",
+        "for 20 minutes."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:2",
+      "legacyId": "C21-1",
+      "position": 2,
+      "script": "She's been studying English for two years.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอเรียนภาษาอังกฤษมาสองปีแล้ว",
+      "chunks": [
+        "She's been studying English",
+        "for two years."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:3",
+      "legacyId": "C21-2",
+      "position": 3,
+      "script": "He's been working on this project all week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาทำโปรเจกต์นี้มาทั้งอาทิตย์เลย",
+      "chunks": [
+        "He's been working",
+        "on this project all week."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:4",
+      "legacyId": "C21-3",
+      "position": 4,
+      "script": "I've been feeling really tired lately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วงนี้ฉันรู้สึกเหนื่อยตลอดเลย",
+      "chunks": [
+        "I've been feeling really tired lately."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:5",
+      "legacyId": "C21-4",
+      "position": 5,
+      "script": "They've been arguing since this morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาทะเลาะกันมาตั้งแต่เช้าแล้ว",
+      "chunks": [
+        "They've been arguing since this morning."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:6",
+      "legacyId": "C21-5",
+      "position": 6,
+      "script": "I've been trying to call you all day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันโทรหาคุณมาทั้งวันเลยนะ",
+      "chunks": [
+        "I've been trying",
+        "to call you all day."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:7",
+      "legacyId": "C21-6",
+      "position": 7,
+      "script": "She's been living in Bangkok for three years.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธออาศัยอยู่ในกรุงเทพมาสามปีแล้ว",
+      "chunks": [
+        "She's been living",
+        "in Bangkok",
+        "for three years."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:8",
+      "legacyId": "C21-7",
+      "position": 8,
+      "script": "It's been raining since last night.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฝนตกมาตั้งแต่เมื่อคืนเลย",
+      "chunks": [
+        "It's been raining since last night."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:9",
+      "legacyId": "C21-8",
+      "position": 9,
+      "script": "How long have you been learning Thai?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเรียนภาษาไทยมานานแค่ไหนแล้ว?",
+      "chunks": [
+        "How long have you been learning Thai?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:10",
+      "legacyId": "C21-9",
+      "position": 10,
+      "script": "I've been thinking about changing jobs.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันคิดเรื่องเปลี่ยนงานอยู่เลยช่วงนี้",
+      "chunks": [
+        "I've been thinking",
+        "about changing jobs."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:11",
+      "legacyId": "C21-10",
+      "position": 11,
+      "script": "He's been going to the gym every day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาไปยิมทุกวันมาสักพักแล้ว",
+      "chunks": [
+        "He's been going",
+        "to the gym every day."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:12",
+      "legacyId": "C21-11",
+      "position": 12,
+      "script": "We've been looking for a new apartment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เรากำลังหาอพาร์ตเมนต์ใหม่กันอยู่",
+      "chunks": [
+        "We've been looking",
+        "for a new apartment."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:13",
+      "legacyId": "C21-12",
+      "position": 13,
+      "script": "I haven't been sleeping well recently.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วงนี้ฉันนอนไม่ค่อยหลับเลย",
+      "chunks": [
+        "I haven't been sleeping well recently."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:14",
+      "legacyId": "C21-13",
+      "position": 14,
+      "script": "She hasn't been feeling well since Monday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอรู้สึกไม่สบายมาตั้งแต่วันจันทร์เลย",
+      "chunks": [
+        "She hasn't been feeling well since Monday."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:15",
+      "legacyId": "C21-14",
+      "position": 15,
+      "script": "They've been working together for five years.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาทำงานร่วมกันมาห้าปีแล้ว",
+      "chunks": [
+        "They've been working together",
+        "for five years."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:16",
+      "legacyId": "C21-15",
+      "position": 16,
+      "script": "I've been saving money to buy a new laptop.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเก็บเงินซื้อแล็ปท็อปใหม่อยู่",
+      "chunks": [
+        "I've been saving money",
+        "to buy a new laptop."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:17",
+      "legacyId": "C21-16",
+      "position": 17,
+      "script": "What have you been up to lately?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วงนี้ทำอะไรบ้างเหรอ?",
+      "chunks": [
+        "What have you been up",
+        "to lately?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:18",
+      "legacyId": "C21-17",
+      "position": 18,
+      "script": "I've been reading a really interesting book.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังอ่านหนังสือที่น่าสนใจมากอยู่",
+      "chunks": [
+        "I've been reading a really interesting book."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:19",
+      "legacyId": "C21-18",
+      "position": 19,
+      "script": "He's been complaining about the same thing for weeks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาบ่นเรื่องเดิมมาหลายอาทิตย์แล้ว",
+      "chunks": [
+        "He's been complaining",
+        "about the same thing",
+        "for weeks."
+      ]
+    },
+    {
+      "id": "en:session-2-1:C21:20",
+      "legacyId": "C21-19",
+      "position": 20,
+      "script": "I've been meaning to call you for ages.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตั้งใจจะโทรหาคุณมาสักพักแล้ว แต่ยังไม่ได้โทรซักที",
+      "chunks": [
+        "I've been meaning",
+        "to call you",
+        "for ages."
+      ]
+    }
+  ]
+}

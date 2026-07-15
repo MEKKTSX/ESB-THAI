@@ -1,0 +1,209 @@
+{
+  "id": "H22",
+  "number": 8,
+  "title": "H. Small Talk Extenders",
+  "chunks": [
+    {
+      "id": "en:session-2-2:H22:1",
+      "legacyId": "H22-0",
+      "position": 1,
+      "script": "Speaking of which, how did your interview go?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดถึงเรื่องนั้น สัมภาษณ์งานไปเป็นยังไงบ้าง?",
+      "chunks": [
+        "Speaking of",
+        "which, how did your interview go?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:2",
+      "legacyId": "H22-1",
+      "position": 2,
+      "script": "That reminds me — I've been meaning to ask you something.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นทำให้ฉันนึกขึ้นได้ ฉันอยากถามคุณเรื่องนึงมาสักพักแล้ว",
+      "chunks": [
+        "That reminds me — I've been meaning",
+        "to ask you something."
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:3",
+      "legacyId": "H22-2",
+      "position": 3,
+      "script": "Oh, I know exactly what you mean.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โอ้ ฉันเข้าใจที่คุณหมายถึงเป๊ะเลย",
+      "chunks": [
+        "Oh,",
+        "I know exactly what you mean."
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:4",
+      "legacyId": "H22-3",
+      "position": 4,
+      "script": "That's funny — the same thing happened to me last week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตลกดีนะ เรื่องเดียวกันเกิดกับฉันอาทิตย์ที่แล้วพอดี",
+      "chunks": [
+        "That's funny — the same thing happened",
+        "to me last week."
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:5",
+      "legacyId": "H22-4",
+      "position": 5,
+      "script": "Really? I had no idea. Tell me more.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จริงเหรอ? ฉันไม่รู้เลย เล่าให้ฟังเพิ่มสิ",
+      "chunks": [
+        "Really?",
+        "I had no idea.",
+        "Tell me more."
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:6",
+      "legacyId": "H22-5",
+      "position": 6,
+      "script": "I was just thinking the same thing!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งคิดเรื่องเดียวกันนั้นอยู่เลย!",
+      "chunks": [
+        "I was just thinking the same thing!"
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:7",
+      "legacyId": "H22-6",
+      "position": 7,
+      "script": "That's a coincidence — I was just talking about that.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป็นเรื่องบังเอิญมากเลย ฉันเพิ่งพูดถึงเรื่องนั้นอยู่พอดี",
+      "chunks": [
+        "That's a coincidence — I was just talking",
+        "about",
+        "that."
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:8",
+      "legacyId": "H22-7",
+      "position": 8,
+      "script": "By the way, have you tried the new café downtown?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อ้อ แวะถามหน่อย คุณเคยลองร้านกาแฟใหม่ในเมืองไหม?",
+      "chunks": [
+        "By the way,",
+        "have you tried the new café downtown?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:9",
+      "legacyId": "H22-8",
+      "position": 9,
+      "script": "Anyway, how have you been lately?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เอาล่ะ ช่วงนี้เป็นยังไงบ้าง?",
+      "chunks": [
+        "Anyway,",
+        "how have you been lately?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:10",
+      "legacyId": "H22-9",
+      "position": 10,
+      "script": "That said, I think everything will work out fine.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงอย่างนั้น ฉันก็คิดว่าทุกอย่างจะลงเอยด้วยดี",
+      "chunks": [
+        "That said,",
+        "I think everything will work out fine."
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:11",
+      "legacyId": "H22-10",
+      "position": 11,
+      "script": "I know right? It's been so busy lately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ใช่ไหมล่ะ ช่วงนี้ยุ่งมากเลย",
+      "chunks": [
+        "I know right?",
+        "It's been",
+        "so busy lately."
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:12",
+      "legacyId": "H22-11",
+      "position": 12,
+      "script": "On a different note, any plans for the weekend?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เปลี่ยนเรื่องหน่อยนะ สุดสัปดาห์มีแผนอะไรบ้าง?",
+      "chunks": [
+        "On a different note,",
+        "any plans",
+        "for the weekend?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:13",
+      "legacyId": "H22-12",
+      "position": 13,
+      "script": "Actually, now that I think about it, me too.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จริงๆ แล้ว พอคิดดูก็ ฉันก็เหมือนกันนะ",
+      "chunks": [
+        "Actually,",
+        "now",
+        "that I think",
+        "about it,",
+        "me too."
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:14",
+      "legacyId": "H22-13",
+      "position": 14,
+      "script": "I keep forgetting to ask — how's your family?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันลืมถามมาตลอด ครอบครัวเป็นยังไงบ้าง?",
+      "chunks": [
+        "I keep forgetting",
+        "to ask — how's your family?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:H22:15",
+      "legacyId": "H22-14",
+      "position": 15,
+      "script": "Time flies, doesn't it? I can't believe it's already December.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เวลามันผ่านเร็วมากนะ เชื่อไม่ได้เลยว่าเดือนธันวาแล้ว",
+      "chunks": [
+        "Time flies,",
+        "doesn't it?",
+        "I can't believe it's already December."
+      ]
+    }
+  ]
+}

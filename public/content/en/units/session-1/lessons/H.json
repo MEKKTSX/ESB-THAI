@@ -1,0 +1,257 @@
+{
+  "id": "H",
+  "number": 8,
+  "title": "H. Plans & Arrangements",
+  "chunks": [
+    {
+      "id": "en:session-1:H:1",
+      "legacyId": "H-0",
+      "position": 1,
+      "script": "What are you doing tomorrow?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พรุ่งนี้คุณจะทำอะไร?",
+      "chunks": [
+        "What are you doing tomorrow?"
+      ]
+    },
+    {
+      "id": "en:session-1:H:2",
+      "legacyId": "H-1",
+      "position": 2,
+      "script": "What are you doing this weekend?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สุดสัปดาห์นี้ทำอะไร?",
+      "chunks": [
+        "What are you doing this weekend?"
+      ]
+    },
+    {
+      "id": "en:session-1:H:3",
+      "legacyId": "H-2",
+      "position": 3,
+      "script": "Are you doing anything special?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีทำอะไรพิเศษไหม?",
+      "chunks": [
+        "Are you doing anything special?"
+      ]
+    },
+    {
+      "id": "en:session-1:H:4",
+      "legacyId": "H-3",
+      "position": 4,
+      "script": "I’m staying home today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้ฉันจะอยู่บ้าน",
+      "chunks": [
+        "I’m staying home today."
+      ]
+    },
+    {
+      "id": "en:session-1:H:5",
+      "legacyId": "H-4",
+      "position": 5,
+      "script": "I’m going shopping.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไปช้อปปิ้ง",
+      "chunks": [
+        "I’m going shopping."
+      ]
+    },
+    {
+      "id": "en:session-1:H:6",
+      "legacyId": "H-5",
+      "position": 6,
+      "script": "I’m meeting a friend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันนัดเพื่อนไว้",
+      "chunks": [
+        "I’m meeting a friend."
+      ]
+    },
+    {
+      "id": "en:session-1:H:7",
+      "legacyId": "H-6",
+      "position": 7,
+      "script": "I’m visiting my parents.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไปหาพ่อแม่",
+      "chunks": [
+        "I’m visiting my parents."
+      ]
+    },
+    {
+      "id": "en:session-1:H:8",
+      "legacyId": "H-7",
+      "position": 8,
+      "script": "I’m traveling to Japan.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังจะไปเที่ยวญี่ปุ่น",
+      "chunks": [
+        "I’m traveling",
+        "to Japan."
+      ]
+    },
+    {
+      "id": "en:session-1:H:9",
+      "legacyId": "H-8",
+      "position": 9,
+      "script": "I’m going to clean my room.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกะว่าจะทำความสะอาดห้อง",
+      "chunks": [
+        "I’m going",
+        "to clean my room."
+      ]
+    },
+    {
+      "id": "en:session-1:H:10",
+      "legacyId": "H-9",
+      "position": 10,
+      "script": "I’m going to cook dinner.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกะว่าจะทำมื้อเย็น",
+      "chunks": [
+        "I’m going",
+        "to cook dinner."
+      ]
+    },
+    {
+      "id": "en:session-1:H:11",
+      "legacyId": "H-10",
+      "position": 11,
+      "script": "I’m going to be late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันน่าจะไปสาย",
+      "chunks": [
+        "I’m going",
+        "to be late."
+      ]
+    },
+    {
+      "id": "en:session-1:H:12",
+      "legacyId": "H-11",
+      "position": 12,
+      "script": "I’m going to buy a new phone.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะซื้อโทรศัพท์ใหม่",
+      "chunks": [
+        "I’m going",
+        "to buy a new phone."
+      ]
+    },
+    {
+      "id": "en:session-1:H:13",
+      "legacyId": "H-12",
+      "position": 13,
+      "script": "We are leaving soon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเราจะไปเร็วๆ นี้แหละ",
+      "chunks": [
+        "We are leaving soon."
+      ]
+    },
+    {
+      "id": "en:session-1:H:14",
+      "legacyId": "H-13",
+      "position": 14,
+      "script": "We are moving house next week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราจะย้ายบ้านอาทิตย์หน้า",
+      "chunks": [
+        "We are moving house next week."
+      ]
+    },
+    {
+      "id": "en:session-1:H:15",
+      "legacyId": "H-14",
+      "position": 15,
+      "script": "We are planning a trip.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เรากำลังวางแผนเที่ยวกัน",
+      "chunks": [
+        "We are planning a trip."
+      ]
+    },
+    {
+      "id": "en:session-1:H:16",
+      "legacyId": "H-15",
+      "position": 16,
+      "script": "I plan to study abroad.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันวางแผนจะไปเรียนต่อนอก",
+      "chunks": [
+        "I plan",
+        "to study abroad."
+      ]
+    },
+    {
+      "id": "en:session-1:H:17",
+      "legacyId": "H-16",
+      "position": 17,
+      "script": "I want to go there.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากไปที่นั่น",
+      "chunks": [
+        "I want",
+        "to go there."
+      ]
+    },
+    {
+      "id": "en:session-1:H:18",
+      "legacyId": "H-17",
+      "position": 18,
+      "script": "I need to go now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องไปแล้ว",
+      "chunks": [
+        "I need",
+        "to go now."
+      ]
+    },
+    {
+      "id": "en:session-1:H:19",
+      "legacyId": "H-18",
+      "position": 19,
+      "script": "I have to go.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจำเป็นต้องไป",
+      "chunks": [
+        "I have",
+        "to go."
+      ]
+    },
+    {
+      "id": "en:session-1:H:20",
+      "legacyId": "H-19",
+      "position": 20,
+      "script": "I don't want to go.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่อยากไป",
+      "chunks": [
+        "I don't want",
+        "to go."
+      ]
+    }
+  ]
+}

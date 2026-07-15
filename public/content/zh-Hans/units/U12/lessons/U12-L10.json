@@ -1,0 +1,127 @@
+{
+  "id": "U12-L10",
+  "number": 10,
+  "title": "บรรลุอิสรภาพทางการเงิน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L10-C091",
+      "legacyId": "U12-L10-C091",
+      "position": 1,
+      "script": "实现财务自由。",
+      "pronunciation": "shí xiàn cái wù zì yóu.",
+      "phonetic": "สือ เสี้ยน ฉาย อู้ จื้อ โหยว",
+      "translation": "บรรลุอิสรภาพทางการเงิน",
+      "chunks": [
+        "实现财务自由。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L10-C092",
+      "legacyId": "U12-L10-C092",
+      "position": 2,
+      "script": "打算出国深造。",
+      "pronunciation": "dǎ suàn chū guó shēn zào.",
+      "phonetic": "ต่า ส้วน ชู ก๋ว๋อ เซิน จ้าว",
+      "translation": "วางแผนจะไปเรียนต่อต่างประเทศเพื่อพัฒนาตนเอง",
+      "chunks": [
+        "打算出国深造。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L10-C093",
+      "legacyId": "U12-L10-C093",
+      "position": 3,
+      "script": "想在上海买房。",
+      "pronunciation": "xiǎng zài shàng hǎi mǎi fáng.",
+      "phonetic": "เสี่ยง ไจ้ ซ่าง ไห่ หม่าย ฟาง",
+      "translation": "อยากซื้อบ้านที่เซี่ยงไฮ้",
+      "chunks": [
+        "想在上海买房。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L10-C094",
+      "legacyId": "U12-L10-C094",
+      "position": 4,
+      "script": "走一步看一步吧。",
+      "pronunciation": "zǒu yí bù kàn yí bù ba.",
+      "phonetic": "โฉ่ว อี๋ ปู้ ข้าน อี๋ ปู้ ปะ",
+      "translation": "ค่อยๆ ก้าวไปทีละขั้นแล้วกัน",
+      "chunks": [
+        "走一步看一步吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L10-C095",
+      "legacyId": "U12-L10-C095",
+      "position": 5,
+      "script": "希望能过上理想的生活。",
+      "pronunciation": "xī wàng néng guò shàng lǐ xiǎng de shēng huó.",
+      "phonetic": "ซี ว้าง เหนิง กว้าง ซ่าง หลี่ เสี่ยง เตอะ เซิง หวัว",
+      "translation": "หวังว่าจะได้ใช้ชีวิตในแบบที่ฝันไว้",
+      "chunks": [
+        "希望能过上理想的生活。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L10-C096",
+      "legacyId": "U12-L10-C096",
+      "position": 6,
+      "script": "要努力提升自己。",
+      "pronunciation": "yào nǔ lì tí shēng zì jǐ.",
+      "phonetic": "ย้าว นู่ ลี่ ถี เซิง จื้อ จี่",
+      "translation": "ต้องขยันพัฒนาตัวเอง",
+      "chunks": [
+        "要努力提升自己。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L10-C097",
+      "legacyId": "U12-L10-C097",
+      "position": 7,
+      "script": "不追求大富大贵。",
+      "pronunciation": "bù zhuī qiú dà fù dà guì.",
+      "phonetic": "ปู้ จุ้ย ฉิว ต้า ฟู่ ต้า กุ้ย",
+      "translation": "ไม่ได้โหยหาความร่ำรวยมหาศาล",
+      "chunks": [
+        "不追求大富大贵。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L10-C098",
+      "legacyId": "U12-L10-C098",
+      "position": 8,
+      "script": "三十岁前结婚。",
+      "pronunciation": "sān shí suì qián jié hūn.",
+      "phonetic": "ซาน สือ สุ่ย เฉียน เจี๋ย หุน",
+      "translation": "แต่งงานก่อนอายุสามสิบ",
+      "chunks": [
+        "三十岁前结婚。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L10-C099",
+      "legacyId": "U12-L10-C099",
+      "position": 9,
+      "script": "平平安安就好。",
+      "pronunciation": "píng píng ān ān jiù hǎo.",
+      "phonetic": "ผิง ผิง อัน อัน จิ้ว ห่าว",
+      "translation": "อยู่รอดปลอดภัยสงบสุขก็พอแล้ว",
+      "chunks": [
+        "平平安安就好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L10-C100",
+      "legacyId": "U12-L10-C100",
+      "position": 10,
+      "script": "在吗？",
+      "pronunciation": "zài ma?",
+      "phonetic": "ไซ้ มะ?",
+      "translation": "อยู่ไหม / ว่างคุยไหม",
+      "chunks": [
+        "在吗？"
+      ]
+    }
+  ]
+}

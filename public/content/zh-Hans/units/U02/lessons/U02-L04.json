@@ -1,0 +1,127 @@
+{
+  "id": "U02-L04",
+  "number": 4,
+  "title": "คุณอยู่ที่จีนมานานเท่าไหร่แล้ว",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L04-C031",
+      "legacyId": "U02-L04-C031",
+      "position": 1,
+      "script": "你在中国住了多久了？",
+      "pronunciation": "nǐ zài zhōng guó zhù le duō jiǔ le?",
+      "phonetic": "หนี่ ไซ้ จง ก๋ัว จู้ เลอ ตัว จิ่ว เลอ?",
+      "translation": "คุณอยู่ที่จีนมานานเท่าไหร่แล้ว",
+      "chunks": [
+        "你在中国住了多久了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L04-C032",
+      "legacyId": "U02-L04-C032",
+      "position": 2,
+      "script": "我来中国两个月了。",
+      "pronunciation": "wǒ lái zhōng guó liǎng gè yuè le.",
+      "phonetic": "หว่อ ไหล จง ก๋ัว เหลี่ยง เก้อ ยวี่เอ้ เลอ.",
+      "translation": "ฉันมาประเทศจีนได้สองเดือนแล้ว",
+      "chunks": [
+        "我来中国两个月了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L04-C033",
+      "legacyId": "U02-L04-C033",
+      "position": 3,
+      "script": "我的汉语还不太流利。",
+      "pronunciation": "wǒ de hàn yǔ hái bú tài liú lì.",
+      "phonetic": "หว่อ เตอ ฮั่น อวี่ หาย บู๋ ไท่ หลิว ลี่.",
+      "translation": "ภาษาจีนของฉันยังไม่ค่อยคล่องเท่าไหร่",
+      "chunks": [
+        "我的汉语还不太流利。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L04-C034",
+      "legacyId": "U02-L04-C034",
+      "position": 4,
+      "script": "我在自学中文。",
+      "pronunciation": "wǒ zài zì xué zhōng wén.",
+      "phonetic": "หว่อ ไซ้ จื้อ เสวี่ย จง เหวิน.",
+      "translation": "ฉันกำลังเรียนภาษาจีนด้วยตัวเองอยู่",
+      "chunks": [
+        "我在自学中文。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L04-C035",
+      "legacyId": "U02-L04-C035",
+      "position": 5,
+      "script": "你对中国文化感兴趣吗？",
+      "pronunciation": "nǐ duì zhōng guó wén huà gǎn xìng qù ma?",
+      "phonetic": "หนี่ ตุ้ย จง ก๋ัว เหวิน หว้า ก่าน ซิ่ง ชวี่ มะ?",
+      "translation": "คุณสนใจวัฒนธรรมจีนไหม",
+      "chunks": [
+        "你对中国文化感兴趣吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L04-C036",
+      "legacyId": "U02-L04-C036",
+      "position": 6,
+      "script": "我对中国历史很感兴趣。",
+      "pronunciation": "wǒ duì zhōng guó lì shǐ hěn gǎn xìng qù.",
+      "phonetic": "หว่อ ตุ้ย จง ก๋ัว ลี่ สื่อ เหิ่น ก่าน ซิ่ง ชวี่.",
+      "translation": "ฉันสนใจประวัติศาสตร์จีนมาก",
+      "chunks": [
+        "我对中国历史很感兴趣。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L04-C037",
+      "legacyId": "U02-L04-C037",
+      "position": 7,
+      "script": "我刚换了新工作。",
+      "pronunciation": "wǒ gāng huàn le xīn gōng zuò.",
+      "phonetic": "หว่อ กัง ห้วน เลอ ซิน กง จั้ว.",
+      "translation": "ฉันเพิ่งเปลี่ยนงานใหม่",
+      "chunks": [
+        "我刚换了新工作。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L04-C038",
+      "legacyId": "U02-L04-C038",
+      "position": 8,
+      "script": "我是大四的学生。",
+      "pronunciation": "wǒ shì dà sì de xué shēng.",
+      "phonetic": "หว่อ สื้อ ต้า สื้อ เตอ เสวี่ย เซิง.",
+      "translation": "ฉันเป็นนักศึกษาปีสี่",
+      "chunks": [
+        "我是大四的学生。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L04-C039",
+      "legacyId": "U02-L04-C039",
+      "position": 9,
+      "script": "我的兴趣爱好是看电影。",
+      "pronunciation": "wǒ de xìng qù ài hào shì kàn diàn yǐng.",
+      "phonetic": "หว่อ เตอ ซิ่ง ชวี่ อ้าย ห้าว สื้อ ค่าน เตี้ยน อิ่ง.",
+      "translation": "งานอดิเรกของฉันคือการดูหนัง",
+      "chunks": [
+        "我的兴趣爱好是看电影。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L04-C040",
+      "legacyId": "U02-L04-C040",
+      "position": 10,
+      "script": "有空一起喝咖啡吧。",
+      "pronunciation": "yǒu kòng yì qǐ hē kā fēi ba.",
+      "phonetic": "โหย่ว ค่ง อี้ ฉี่ เฮอ คา เฟย ปะ.",
+      "translation": "ว่างๆ ไปดื่มกาแฟด้วยกันนะ",
+      "chunks": [
+        "有空一起喝咖啡吧。"
+      ]
+    }
+  ]
+}

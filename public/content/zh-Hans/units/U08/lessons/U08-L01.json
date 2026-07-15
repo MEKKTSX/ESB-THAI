@@ -1,0 +1,127 @@
+{
+  "id": "U08-L01",
+  "number": 1,
+  "title": "คุณตื่นนอนกี่โมงทุกวัน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L01-C001",
+      "legacyId": "U08-L01-C001",
+      "position": 1,
+      "script": "你每天几点起床？",
+      "pronunciation": "nǐ měi tiān jǐ diǎn qǐ chuáng?",
+      "phonetic": "หนี่ เหม่ย เทียน จี๋ เตี่ยน ฉี่ ฉวอง?",
+      "translation": "คุณตื่นนอนกี่โมงทุกวัน",
+      "chunks": [
+        "你每天几点起床？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L01-C002",
+      "legacyId": "U08-L01-C002",
+      "position": 2,
+      "script": "我昨晚一点才睡觉。",
+      "pronunciation": "wǒ zuó wǎn yī diǎn cái shuì jiào.",
+      "phonetic": "หว่อ จั๋ว หวั่น อี เตี่ยน ฉาย ซุ่ย เจี้ยว.",
+      "translation": "เมื่อคืนฉันตั้งตีหนึ่งถึงจะนอน / เพิ่งได้นอนตอนตีหนึ่ง",
+      "chunks": [
+        "我昨晚一点才睡觉。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L01-C003",
+      "legacyId": "U08-L01-C003",
+      "position": 3,
+      "script": "我去洗个澡，马上就好。",
+      "pronunciation": "wǒ qù xǐ gè zǎo, mǎ shàng jiù hǎo.",
+      "phonetic": "หว่อ ชวี่ สี่ เก้อ เจ๋า, หม่า ส้าง จิ้ว ห่าว.",
+      "translation": "ฉันไปอาบน้ำแป๊บนึง เดี๋ยวก็เสร็จแล้ว",
+      "chunks": [
+        "我去洗个澡，马上就好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L01-C004",
+      "legacyId": "U08-L01-C004",
+      "position": 4,
+      "script": "你要穿哪件衣服？",
+      "pronunciation": "nǐ yào chuān nǎ jiàn yī fu?",
+      "phonetic": "หนี่ เย้า ชวน หน่า เจี้ยน อี ฟุ?",
+      "translation": "คุณจะใส่เสื้อตัวไหน",
+      "chunks": [
+        "你要穿哪件衣服？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L01-C005",
+      "legacyId": "U08-L01-C005",
+      "position": 5,
+      "script": "我们一起吃早餐吧。",
+      "pronunciation": "wǒ men yì qǐ chī zǎo cān ba.",
+      "phonetic": "หว่อ เมิน อี้ ฉี่ ชือ เจ๋า ซาน ปะ.",
+      "translation": "พวกเรากินอาหารเช้าด้วยกันเถอะ",
+      "chunks": [
+        "我们一起吃早餐吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L01-C006",
+      "legacyId": "U08-L01-C006",
+      "position": 6,
+      "script": "你今天几点去上班？",
+      "pronunciation": "nǐ jīn tiān jǐ diǎn qù shàng bān?",
+      "phonetic": "หนี่ จิน เทียน จี๋ เตี่ยน ชวี่ ซ้าง ปาน?",
+      "translation": "วันนี้คุณไปทำงานกี่โมง",
+      "chunks": [
+        "你今天几点去上班？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L01-C007",
+      "legacyId": "U08-L01-C007",
+      "position": 7,
+      "script": "我坐地铁去上学。",
+      "pronunciation": "wǒ zuò dì tiě qù shàng xué.",
+      "phonetic": "หว่อ จั่ว ตี้ เถี่ย ชวี่ ซ้าง เสวี่ย.",
+      "translation": "ฉันนั่งรถไฟใต้ดินไปเรียน",
+      "chunks": [
+        "我坐地铁去上学。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L01-C008",
+      "legacyId": "U08-L01-C008",
+      "position": 8,
+      "script": "我每天晚上学两个小时汉语。",
+      "pronunciation": "wǒ měi tiān wǎn shang xué liǎng gè xiǎo shí hàn yǔ.",
+      "phonetic": "หว่อ เหม่ย เทียน หวั่น ส่าง เสวี่ย เหลี่ยง เก้อ เสียว สื้อ ฮั่น อวี่.",
+      "translation": "ฉันเรียนภาษาจีนสองชั่วโมงทุกคืน",
+      "chunks": [
+        "我每天晚上学两个小时汉语。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L01-C009",
+      "legacyId": "U08-L01-C009",
+      "position": 9,
+      "script": "上班第一件事就是开电脑。",
+      "pronunciation": "shàng bān dì yī jiàn shì jiù shì kāi diàn nǎo.",
+      "phonetic": "ซ้าง ปาน ตี้ อี เจี้ยน สื้อ จิ้ว สื้อ ไค เตี้ยน แหน่ว.",
+      "translation": "ไปทำงานสิ่งแรกที่ทำก็คือเปิดคอมพิวเตอร์",
+      "chunks": [
+        "上班第一件事就是开电脑。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L01-C010",
+      "legacyId": "U08-L01-C010",
+      "position": 10,
+      "script": "我今天写了一整天代码。",
+      "pronunciation": "wǒ jīn tiān xiě le yì zhěng tiān dài mǎ.",
+      "phonetic": "หว่อ จิน เทียน เสี่ย เลอ อี๋ เจิ่ง เทียน ต้าย หม๋า.",
+      "translation": "วันนี้ฉันเขียนโค้ดมาทั้งวันเลย",
+      "chunks": [
+        "我今天写了一整天代码。"
+      ]
+    }
+  ]
+}

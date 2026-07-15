@@ -1,0 +1,68 @@
+{
+  "id": "U04",
+  "number": 4,
+  "title": "ตอบรับ แสดงความคิดเห็น และนัดหมาย",
+  "description": "ตอบโต้และตัดสินใจร่วมกัน",
+  "lessons": [
+    {
+      "id": "U04-L01",
+      "number": 1,
+      "title": "ใช่ครับ/ค่ะ",
+      "chunkCount": 10
+    },
+    {
+      "id": "U04-L02",
+      "number": 2,
+      "title": "ดี / โอเค",
+      "chunkCount": 10
+    },
+    {
+      "id": "U04-L03",
+      "number": 3,
+      "title": "ฉันเห็นด้วย",
+      "chunkCount": 10
+    },
+    {
+      "id": "U04-L04",
+      "number": 4,
+      "title": "ฉันไม่มั่นใจ / ไม่แน่ใจ",
+      "chunkCount": 10
+    },
+    {
+      "id": "U04-L05",
+      "number": 5,
+      "title": "ตามใจคุณเลย / แล้วแต่คุณเลย",
+      "chunkCount": 10
+    },
+    {
+      "id": "U04-L06",
+      "number": 6,
+      "title": "แน่นอน!",
+      "chunkCount": 10
+    },
+    {
+      "id": "U04-L07",
+      "number": 7,
+      "title": "งั้นก็ดีแล้ว",
+      "chunkCount": 10
+    },
+    {
+      "id": "U04-L08",
+      "number": 8,
+      "title": "ฉันไม่สนใจหรอก / ไม่แคร์",
+      "chunkCount": 10
+    },
+    {
+      "id": "U04-L09",
+      "number": 9,
+      "title": "คุณพูดมาคำไหนคำนั้น / คุณเป็นคนตัดสินเลย",
+      "chunkCount": 10
+    },
+    {
+      "id": "U04-L10",
+      "number": 10,
+      "title": "พอเถอะคุณ / ช่างคุณเถอะ",
+      "chunkCount": 10
+    }
+  ]
+}

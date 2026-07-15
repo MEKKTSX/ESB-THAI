@@ -1,0 +1,272 @@
+{
+  "id": "H2",
+  "number": 8,
+  "title": "H. Reasons, Causes & Effects",
+  "chunks": [
+    {
+      "id": "en:session-2:H2:1",
+      "legacyId": "H2-0",
+      "position": 1,
+      "script": "I stayed home because I was feeling sick.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยู่บ้านเพราะรู้สึกป่วย",
+      "chunks": [
+        "I stayed home",
+        "because I was feeling sick."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:2",
+      "legacyId": "H2-1",
+      "position": 2,
+      "script": "I like him because he is very funny.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันชอบเขาเพราะเขาตลกมาก",
+      "chunks": [
+        "I like him",
+        "because he is very funny."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:3",
+      "legacyId": "H2-2",
+      "position": 3,
+      "script": "I’m learning English because I want to travel.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเรียนภาษาอังกฤษเพราะอยากไปเที่ยว",
+      "chunks": [
+        "I’m learning English",
+        "because I want",
+        "to travel."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:4",
+      "legacyId": "H2-3",
+      "position": 4,
+      "script": "I quit my job because the salary was low.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันลาออกเพราะเงินเดือนน้อย",
+      "chunks": [
+        "I quit my job",
+        "because the salary was low."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:5",
+      "legacyId": "H2-4",
+      "position": 5,
+      "script": "I was late because my alarm didn’t go off.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมาสายเพราะนาฬิกาปลุกไม่ดัง",
+      "chunks": [
+        "I was late",
+        "because my alarm didn’t go off."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:6",
+      "legacyId": "H2-5",
+      "position": 6,
+      "script": "Since it’s raining, let’s take a taxi.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไหนๆ ฝนก็ตกแล้ว นั่งแท็กซี่กันเถอะ",
+      "chunks": [
+        "Since it’s raining,",
+        "let’s take a taxi."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:7",
+      "legacyId": "H2-6",
+      "position": 7,
+      "script": "Since you are here, can you help me?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไหนๆ คุณก็อยู่ที่นี่แล้ว ช่วยฉันหน่อยได้ไหม?",
+      "chunks": [
+        "Since you are here,",
+        "can you help me?"
+      ]
+    },
+    {
+      "id": "en:session-2:H2:8",
+      "legacyId": "H2-7",
+      "position": 8,
+      "script": "As I was tired, I went to bed early.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เนื่องจากฉันเหนื่อย ฉันเลยเข้านอนเร็ว",
+      "chunks": [
+        "As I was tired,",
+        "I went",
+        "to bed early."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:9",
+      "legacyId": "H2-8",
+      "position": 9,
+      "script": "The reason I’m calling is to apologize.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เหตุผลที่ฉันโทรมาคือจะขอโทษ",
+      "chunks": [
+        "The reason I’m calling is",
+        "to apologize."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:10",
+      "legacyId": "H2-9",
+      "position": 10,
+      "script": "The main reason is that I don’t have time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เหตุผลหลักคือฉันไม่มีเวลา",
+      "chunks": [
+        "The main reason is",
+        "that I don’t have time."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:11",
+      "legacyId": "H2-10",
+      "position": 11,
+      "script": "I was tired, so I went to bed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเหนื่อย ฉันก็เลยไปนอน",
+      "chunks": [
+        "I was tired,",
+        "so I went",
+        "to bed."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:12",
+      "legacyId": "H2-11",
+      "position": 12,
+      "script": "It was raining, so we cancelled the picnic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฝนตก เราก็เลยยกเลิกปิกนิก",
+      "chunks": [
+        "It was raining,",
+        "so we cancelled the picnic."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:13",
+      "legacyId": "H2-12",
+      "position": 13,
+      "script": "I didn’t study, so I failed the test.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ได้อ่านหนังสือ ก็เลยสอบตก",
+      "chunks": [
+        "I didn’t study,",
+        "so I failed the test."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:14",
+      "legacyId": "H2-13",
+      "position": 14,
+      "script": "The shop was closed, so I came back home.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ร้านปิด ฉันก็เลยกลับบ้าน",
+      "chunks": [
+        "The shop was closed,",
+        "so I came back home."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:15",
+      "legacyId": "H2-14",
+      "position": 15,
+      "script": "I want to be healthy, so I exercise daily.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากสุขภาพดี ก็เลยออกกำลังกายทุกวัน",
+      "chunks": [
+        "I want",
+        "to be healthy,",
+        "so I exercise daily."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:16",
+      "legacyId": "H2-15",
+      "position": 16,
+      "script": "I hate flying, that’s why I took the train.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเกลียดการนั่งเครื่องบิน นั่นคือเหตุผลที่ฉันนั่งรถไฟ",
+      "chunks": [
+        "I hate flying,",
+        "that’s why I took the train."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:17",
+      "legacyId": "H2-16",
+      "position": 17,
+      "script": "He lied to me, that’s why I’m angry.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาโกหกฉัน นั่นคือเหตุผลที่ฉันโกรธ",
+      "chunks": [
+        "He lied",
+        "to me,",
+        "that’s why I’m angry."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:18",
+      "legacyId": "H2-17",
+      "position": 18,
+      "script": "I need money, that’s why I’m working overtime.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันร้อนเงิน นั่นคือเหตุผลที่ฉันทำงานล่วงเวลา",
+      "chunks": [
+        "I need money,",
+        "that’s why I’m working overtime."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:19",
+      "legacyId": "H2-18",
+      "position": 19,
+      "script": "The traffic was bad; therefore, I was late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "การจราจรแย่มาก ด้วยเหตุนี้ฉันจึงมาสาย",
+      "chunks": [
+        "The traffic was bad; therefore,",
+        "I was late."
+      ]
+    },
+    {
+      "id": "en:session-2:H2:20",
+      "legacyId": "H2-19",
+      "position": 20,
+      "script": "He didn't answer; therefore, I left a message.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาไม่รับสาย ฉันจึงฝากข้อความไว้",
+      "chunks": [
+        "He didn't answer; therefore,",
+        "I left a message."
+      ]
+    }
+  ]
+}

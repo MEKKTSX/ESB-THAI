@@ -1,0 +1,136 @@
+{
+  "id": "X2",
+  "number": 24,
+  "title": "X. Relative Clauses",
+  "chunks": [
+    {
+      "id": "en:session-2:X2:1",
+      "legacyId": "X2-0",
+      "position": 1,
+      "script": "That’s the man who helped me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นคือคนที่ช่วยฉัน",
+      "chunks": [
+        "That’s the man",
+        "who helped me."
+      ]
+    },
+    {
+      "id": "en:session-2:X2:2",
+      "legacyId": "X2-1",
+      "position": 2,
+      "script": "That’s the woman who lives next door.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นคือผู้หญิงที่อยู่ข้างบ้าน",
+      "chunks": [
+        "That’s the woman",
+        "who lives next door."
+      ]
+    },
+    {
+      "id": "en:session-2:X2:3",
+      "legacyId": "X2-2",
+      "position": 3,
+      "script": "This is the book that I bought yesterday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นี่คือหนังสือที่ฉันซื้อเมื่อวาน",
+      "chunks": [
+        "This is the book",
+        "that I bought yesterday."
+      ]
+    },
+    {
+      "id": "en:session-2:X2:4",
+      "legacyId": "X2-3",
+      "position": 4,
+      "script": "This is the phone that I want.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นี่คือมือถือที่ฉันอยากได้",
+      "chunks": [
+        "This is the phone",
+        "that I want."
+      ]
+    },
+    {
+      "id": "en:session-2:X2:5",
+      "legacyId": "X2-4",
+      "position": 5,
+      "script": "Do you know the girl who is singing?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรู้จักผู้หญิงคนที่กำลังร้องเพลงไหม?",
+      "chunks": [
+        "Do you know the girl",
+        "who is singing?"
+      ]
+    },
+    {
+      "id": "en:session-2:X2:6",
+      "legacyId": "X2-5",
+      "position": 6,
+      "script": "Where is the file that I sent you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไฟล์ที่ฉันส่งให้คุณอยู่ที่ไหน?",
+      "chunks": [
+        "Where is the file",
+        "that I sent you?"
+      ]
+    },
+    {
+      "id": "en:session-2:X2:7",
+      "legacyId": "X2-6",
+      "position": 7,
+      "script": "Is this the hotel where we are staying?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นี่ใช่โรงแรมที่เราจะพักไหม?",
+      "chunks": [
+        "Is this the hotel",
+        "where we are staying?"
+      ]
+    },
+    {
+      "id": "en:session-2:X2:8",
+      "legacyId": "X2-7",
+      "position": 8,
+      "script": "That’s the reason why I’m late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นคือสาเหตุที่ฉันมาสาย",
+      "chunks": [
+        "That’s the reason why I’m late."
+      ]
+    },
+    {
+      "id": "en:session-2:X2:9",
+      "legacyId": "X2-8",
+      "position": 9,
+      "script": "He is someone who I can trust.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาคือคนที่ฉันไว้ใจได้",
+      "chunks": [
+        "He is someone",
+        "who I can trust."
+      ]
+    },
+    {
+      "id": "en:session-2:X2:10",
+      "legacyId": "X2-9",
+      "position": 10,
+      "script": "This is the best pizza that I’ve ever had.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นี่คือพิซซ่าที่อร่อยที่สุดที่ฉันเคยกิน",
+      "chunks": [
+        "This is the best pizza",
+        "that I’ve ever had."
+      ]
+    }
+  ]
+}

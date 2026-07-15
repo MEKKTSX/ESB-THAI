@@ -1,0 +1,127 @@
+{
+  "id": "U07-L07",
+  "number": 7,
+  "title": "งั้นพวกเราต้องรีบเร่งทำเวลาแล้วล่ะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U07-L07-C061",
+      "legacyId": "U07-L07-C061",
+      "position": 1,
+      "script": "那我们要抓紧时间了。",
+      "pronunciation": "nà wǒ men yào zhuā jǐn shí jiān le.",
+      "phonetic": "น้า หว่อ เมิน เย้า จว๋า จิ่น สือ เจียน เลอ.",
+      "translation": "งั้นพวกเราต้องรีบเร่งทำเวลาแล้วล่ะ",
+      "chunks": [
+        "那我们要抓紧时间了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L07-C062",
+      "legacyId": "U07-L07-C062",
+      "position": 2,
+      "script": "今天晚上你有临时的事吗？",
+      "pronunciation": "jīn tiān wǎn shang nǐ yǒu lín shí de shì ma?",
+      "phonetic": "จิน เทียน หวั่น ส่าง หนี่ โหย่ว หลิน สื้อ เตอ สื้อ มะ?",
+      "translation": "เย็นวันนี้คุณมีธุระด่วน/งานแทรกกะทันหันบ้างไหม",
+      "chunks": [
+        "今天晚上你有临时的事吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L07-C063",
+      "legacyId": "U07-L07-C063",
+      "position": 3,
+      "script": "没有啊，怎么了？想请我吃饭？",
+      "pronunciation": "méi yǒu a, zěn me le? xiǎng qǐng wǒ chī fàn?",
+      "phonetic": "เหมย โหย่ว อา, เจิ่น เมอ เลอ？ แฉี่ยง ฉิ่ง หว่อ ชือ ฟ้าน？",
+      "translation": "ไม่มีนะ มีอะไรหรอ อยากเลี้ยงข้าวฉันหรอ",
+      "chunks": [
+        "没有啊，怎么了？想请我吃饭？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L07-C064",
+      "legacyId": "U07-L07-C064",
+      "position": 4,
+      "script": "对啊，庆祝你找到了新工作！",
+      "pronunciation": "duì a, qìng zhù nǐ zhǎo dào le xīn gōng zuò!",
+      "phonetic": "ตุ้ย อา, ชิ่ง จู้ หนี่ เจ่า ต้าว เลอ ซิน กง จั้ว!",
+      "translation": "ใช่แล้ว เพื่อฉลองที่คุณได้งานใหม่ไง!",
+      "chunks": [
+        "对啊，庆祝你找到了新工作！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L07-C065",
+      "legacyId": "U07-L07-C065",
+      "position": 5,
+      "script": "那太好了，今晚七点，不见不散！",
+      "pronunciation": "nà tài hǎo le, jīn wǎn qī diǎn, bú jiàn bú sàn!",
+      "phonetic": "น้า ไท่ ห่าว เลอ, จิน หวั่น ชี เตี่ยน, ปู๋ เจี้ยน ปู๋ ส้วน!",
+      "translation": "ดีงามมากเลย งั้นเย็นนี้หนึ่งทุ่มตรง เจอแล้วห้ามชิ่งนะ!",
+      "chunks": [
+        "那太好了，今晚七点，不见不散！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L07-C066",
+      "legacyId": "U07-L07-C066",
+      "position": 6,
+      "script": "你通常每天工作多少个小时？",
+      "pronunciation": "nǐ tōng cháng měi tiān gōng zuò duō shǎo gè xiǎo shí?",
+      "phonetic": "หนี่ ทง ฉาง เหม่ย เทียน กง จั้ว ตัว เส่า เก้อ เสียว สื้อ?",
+      "translation": "ปกติแล้วในแต่ละวันคุณทำงานกี่ชั่วโมง",
+      "chunks": [
+        "你通常每天工作多少个小时？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L07-C067",
+      "legacyId": "U07-L07-C067",
+      "position": 7,
+      "script": "标准工作时间是八个小时。",
+      "pronunciation": "biāo zhǔn gōng zuò shí jiān shì bā gè xiǎo shí.",
+      "phonetic": "เปียว จวิ๋น กง จั้ว สือ เจียน สื้อ ปา เก้อ เสียว สื้อ.",
+      "translation": "เวลาทำงานมาตรฐานคือแปดชั่วโมง",
+      "chunks": [
+        "标准工作时间是八个小时。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L07-C068",
+      "legacyId": "U07-L07-C068",
+      "position": 8,
+      "script": "但是有时候需要经常加班。",
+      "pronunciation": "dàn shì yǒu shí hou xū yào jīng cháng jiā bān.",
+      "phonetic": "ต้าน สื้อ โหย่ว สือ โห่ว ซวี่ เย้า จิง ฉาง เจีย ปาน.",
+      "translation": "แต่ทว่าบางครั้งก็จำเป็นต้องอยู่โอทีบ่อยๆ",
+      "chunks": [
+        "但是有时候需要经常加班。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L07-C069",
+      "legacyId": "U07-L07-C069",
+      "position": 9,
+      "script": "那你一定要注意身体，别太累了。",
+      "pronunciation": "nà nǐ yí dìng yào zhù yì shēn tǐ, bié tài lèi le.",
+      "phonetic": "น้า หนี่ อี๋ ติ้ง เย้า จู้ อี้ เซิน ถี่, แปี๋ย ไท่ เลุ่ย เลอ.",
+      "translation": "งั้นคุณต้องดูแลรักษาร่างกายด้วยนะ อย่าให้เหนื่อยเกินไปล่ะ",
+      "chunks": [
+        "那你一定要注意身体，别太累了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L07-C070",
+      "legacyId": "U07-L07-C070",
+      "position": 10,
+      "script": "谢谢关心，我会的。",
+      "pronunciation": "xiè xie guān xīn, wǒ huì de.",
+      "phonetic": "เซี่ย เสี่ย กวน ซิน, หว่อ ฮุ่ย เตอ.",
+      "translation": "ขอบคุณที่ใส่ใจห่วงใย ฉันจะทำตามนะ",
+      "chunks": [
+        "谢谢关心，我会的。"
+      ]
+    }
+  ]
+}

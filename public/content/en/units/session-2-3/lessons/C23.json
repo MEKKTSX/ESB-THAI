@@ -1,0 +1,268 @@
+{
+  "id": "C23",
+  "number": 3,
+  "title": "C. สุขภาพ & คลินิก / โรงพยาบาล",
+  "chunks": [
+    {
+      "id": "en:session-2-3:C23:1",
+      "legacyId": "C23-0",
+      "position": 1,
+      "script": "I'd like to make an appointment with a doctor.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอนัดหมอหน่อยได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "I'd like",
+        "to make an appointment",
+        "with a doctor."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:2",
+      "legacyId": "C23-1",
+      "position": 2,
+      "script": "I've had a headache since yesterday morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันปวดหัวมาตั้งแต่เมื่อเช้าวาน",
+      "chunks": [
+        "I've had a headache since yesterday morning."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:3",
+      "legacyId": "C23-2",
+      "position": 3,
+      "script": "I have a sore throat and a slight fever.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเจ็บคอกับมีไข้เล็กน้อย",
+      "chunks": [
+        "I have a sore throat",
+        "and a slight fever."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:4",
+      "legacyId": "C23-3",
+      "position": 4,
+      "script": "I've been feeling dizzy and nauseous all day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้สึกวิงเวียนและคลื่นไส้ทั้งวันเลย",
+      "chunks": [
+        "I've been feeling dizzy",
+        "and nauseous all day."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:5",
+      "legacyId": "C23-4",
+      "position": 5,
+      "script": "I think I pulled a muscle in my back.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันคิดว่ากล้ามเนื้อหลังฉีก",
+      "chunks": [
+        "I think I pulled a muscle",
+        "in my back."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:6",
+      "legacyId": "C23-5",
+      "position": 6,
+      "script": "How long have you been experiencing these symptoms?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณมีอาการพวกนี้มานานแค่ไหนแล้วครับ/ค่ะ?",
+      "chunks": [
+        "How long have you been experiencing these symptoms?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:7",
+      "legacyId": "C23-6",
+      "position": 7,
+      "script": "I'm allergic to penicillin.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันแพ้ยาเพนิซิลิน",
+      "chunks": [
+        "I'm allergic",
+        "to penicillin."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:8",
+      "legacyId": "C23-7",
+      "position": 8,
+      "script": "Do I need a prescription for this medication?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยาชนิดนี้ต้องมีใบสั่งยาไหมครับ/ค่ะ?",
+      "chunks": [
+        "Do I need a prescription",
+        "for this medication?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:9",
+      "legacyId": "C23-8",
+      "position": 9,
+      "script": "How many times a day should I take this?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กินยานี้วันละกี่ครั้งครับ/ค่ะ?",
+      "chunks": [
+        "How many times a day should I take this?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:10",
+      "legacyId": "C23-9",
+      "position": 10,
+      "script": "Should I come back for a follow-up appointment?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ต้องนัดติดตามอาการอีกครั้งไหมครับ/ค่ะ?",
+      "chunks": [
+        "Should I come back",
+        "for a follow-up appointment?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:11",
+      "legacyId": "C23-10",
+      "position": 11,
+      "script": "I haven't been sleeping well for the past two weeks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันนอนไม่ค่อยหลับมาสองอาทิตย์แล้ว",
+      "chunks": [
+        "I haven't been sleeping well",
+        "for the past two weeks."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:12",
+      "legacyId": "C23-11",
+      "position": 12,
+      "script": "The pain started in my stomach and spread to my side.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ความเจ็บปวดเริ่มที่ท้องแล้วลามมาที่ข้าง",
+      "chunks": [
+        "The pain started",
+        "in my stomach",
+        "and spread",
+        "to my side."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:13",
+      "legacyId": "C23-12",
+      "position": 13,
+      "script": "I don't have a fever, but I feel exhausted.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่มีไข้ แต่รู้สึกอ่อนเพลียมาก",
+      "chunks": [
+        "I don't have a fever,",
+        "but I feel exhausted."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:14",
+      "legacyId": "C23-13",
+      "position": 14,
+      "script": "Is this serious, or will it go away on its own?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาการนี้น่าเป็นห่วงไหม หรือมันจะหายไปเองได้?",
+      "chunks": [
+        "Is this serious,",
+        "or will it go away",
+        "on its own?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:15",
+      "legacyId": "C23-14",
+      "position": 15,
+      "script": "The doctor said I need to rest for a few days.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หมอบอกว่าต้องพักสักสองสามวัน",
+      "chunks": [
+        "The doctor said I need",
+        "to rest",
+        "for a few days."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:16",
+      "legacyId": "C23-15",
+      "position": 16,
+      "script": "I'd like a refill on my prescription, please.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอรับยาเดิมต่อหน่อยได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "I'd like a refill",
+        "on my prescription,",
+        "please."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:17",
+      "legacyId": "C23-16",
+      "position": 17,
+      "script": "I've been under a lot of stress lately and I think it's affecting my health.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วงนี้เครียดมาก และรู้สึกว่ามันกระทบสุขภาพด้วย",
+      "chunks": [
+        "I've been under a lot of stress lately",
+        "and I think it's affecting my health."
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:18",
+      "legacyId": "C23-17",
+      "position": 18,
+      "script": "Where is the nearest pharmacy from here?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ร้านขายยาที่ใกล้ที่สุดอยู่ที่ไหนจากที่นี่ครับ/ค่ะ?",
+      "chunks": [
+        "Where is the nearest pharmacy from here?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:19",
+      "legacyId": "C23-18",
+      "position": 19,
+      "script": "Can I get this checked out without an appointment?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอตรวจได้เลยโดยไม่ต้องนัดล่วงหน้าได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Can I get this checked out without an appointment?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:C23:20",
+      "legacyId": "C23-19",
+      "position": 20,
+      "script": "I think I need to see a specialist.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันคิดว่าต้องไปหาหมอเฉพาะทาง",
+      "chunks": [
+        "I think I need",
+        "to see a specialist."
+      ]
+    }
+  ]
+}
