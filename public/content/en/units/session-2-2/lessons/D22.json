@@ -1,0 +1,269 @@
+{
+  "id": "D22",
+  "number": 4,
+  "title": "D. Making & Responding to Requests",
+  "chunks": [
+    {
+      "id": "en:session-2-2:D22:1",
+      "legacyId": "D22-0",
+      "position": 1,
+      "script": "Would it be possible to move the meeting to Thursday?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป็นไปได้ไหมที่จะเลื่อนการประชุมไปวันพฤหัสฯ?",
+      "chunks": [
+        "Would it be possible",
+        "to move the meeting",
+        "to Thursday?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:2",
+      "legacyId": "D22-1",
+      "position": 2,
+      "script": "Would it be okay if I took the afternoon off?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โอเคไหมถ้าฉันจะลาครึ่งวันบ่าย?",
+      "chunks": [
+        "Would it be okay if I took the afternoon off?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:3",
+      "legacyId": "D22-2",
+      "position": 3,
+      "script": "I'm afraid that won't be possible at the moment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษนะ ตอนนี้คงทำแบบนั้นไม่ได้",
+      "chunks": [
+        "I'm afraid",
+        "that won't be possible",
+        "at the moment."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:4",
+      "legacyId": "D22-3",
+      "position": 4,
+      "script": "I'm sorry, but I'm not able to help with that right now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษนะ ตอนนี้ฉันไม่สามารถช่วยเรื่องนั้นได้",
+      "chunks": [
+        "I'm sorry,",
+        "but I'm not able",
+        "to help",
+        "with",
+        "that right now."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:5",
+      "legacyId": "D22-4",
+      "position": 5,
+      "script": "Of course — I'd be happy to help.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แน่นอนเลย ยินดีช่วยอยู่แล้ว",
+      "chunks": [
+        "Of course — I'd be happy",
+        "to help."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:6",
+      "legacyId": "D22-5",
+      "position": 6,
+      "script": "Leave it to me — I'll take care of it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฝากฉันก็แล้วกัน ฉันจัดการให้",
+      "chunks": [
+        "Leave it",
+        "to me — I'll take care of it."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:7",
+      "legacyId": "D22-6",
+      "position": 7,
+      "script": "I'll see what I can do.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะลองดูว่าจะทำอะไรได้บ้าง",
+      "chunks": [
+        "I'll see what I can do."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:8",
+      "legacyId": "D22-7",
+      "position": 8,
+      "script": "Is it okay if I send it to you tomorrow instead?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โอเคไหมถ้าฉันจะส่งให้พรุ่งนี้แทน?",
+      "chunks": [
+        "Is it okay if I send it",
+        "to you tomorrow instead?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:9",
+      "legacyId": "D22-8",
+      "position": 9,
+      "script": "Would you mind taking a look at this for me?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รบกวนช่วยดูเรื่องนี้ให้ฉันหน่อยได้ไหม?",
+      "chunks": [
+        "Would you mind taking a look",
+        "at this",
+        "for me?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:10",
+      "legacyId": "D22-9",
+      "position": 10,
+      "script": "I was hoping you could cover for me next Monday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหวังว่าคุณจะช่วยรับหน้าที่แทนฉันได้วันจันทร์หน้า",
+      "chunks": [
+        "I was hoping you could cover",
+        "for me next Monday."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:11",
+      "legacyId": "D22-10",
+      "position": 11,
+      "script": "I'll do my best, but I can't promise anything.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะพยายามให้ดีที่สุด แต่ไม่การันตีได้นะ",
+      "chunks": [
+        "I'll do my best,",
+        "but I can't promise anything."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:12",
+      "legacyId": "D22-11",
+      "position": 12,
+      "script": "Could you possibly have it ready by Friday?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป็นไปได้ไหมที่จะเตรียมให้พร้อมภายในวันศุกร์?",
+      "chunks": [
+        "Could you possibly have it ready by Friday?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:13",
+      "legacyId": "D22-12",
+      "position": 13,
+      "script": "That should be fine — give me until end of day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "น่าจะโอเค ให้ถึงสิ้นวันก็แล้วกัน",
+      "chunks": [
+        "That should be fine — give me until end of day."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:14",
+      "legacyId": "D22-13",
+      "position": 14,
+      "script": "I'm not sure I can commit to that deadline.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่แน่ใจว่าจะรับกำหนดนั้นได้",
+      "chunks": [
+        "I'm not sure I can commit",
+        "to",
+        "that deadline."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:15",
+      "legacyId": "D22-14",
+      "position": 15,
+      "script": "I'd really appreciate your help on this.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันซาบซึ้งมากเลยถ้าคุณจะช่วยเรื่องนี้",
+      "chunks": [
+        "I'd really appreciate your help",
+        "on this."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:16",
+      "legacyId": "D22-15",
+      "position": 16,
+      "script": "Do you think you could handle this while I'm away?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คิดว่าคุณช่วยรับผิดชอบเรื่องนี้ตอนที่ฉันไม่อยู่ได้ไหม?",
+      "chunks": [
+        "Do you think you could handle this",
+        "while I'm away?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:17",
+      "legacyId": "D22-16",
+      "position": 17,
+      "script": "I'll need a bit more time than expected.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องการเวลามากกว่าที่คาดไว้นิดหน่อย",
+      "chunks": [
+        "I'll need a bit more time than expected."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:18",
+      "legacyId": "D22-17",
+      "position": 18,
+      "script": "No problem at all — consider it done.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไม่มีปัญหาเลย ทำให้เลย",
+      "chunks": [
+        "No problem",
+        "at all — consider it done."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:19",
+      "legacyId": "D22-18",
+      "position": 19,
+      "script": "I'm afraid I already have a commitment that day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษนะ วันนั้นฉันมีนัดไว้แล้ว",
+      "chunks": [
+        "I'm afraid I already have a commitment",
+        "that day."
+      ]
+    },
+    {
+      "id": "en:session-2-2:D22:20",
+      "legacyId": "D22-19",
+      "position": 20,
+      "script": "I'll get right on it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจัดการให้เดี๋ยวนี้เลย",
+      "chunks": [
+        "I'll get right",
+        "on it."
+      ]
+    }
+  ]
+}

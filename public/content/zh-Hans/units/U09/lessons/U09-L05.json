@@ -1,0 +1,127 @@
+{
+  "id": "U09-L05",
+  "number": 5,
+  "title": "ฉันค่อนข้างชอบที่นี่นะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U09-L05-C041",
+      "legacyId": "U09-L05-C041",
+      "position": 1,
+      "script": "我挺喜欢这里的。",
+      "pronunciation": "wǒ tǐng xǐ huan zhè lǐ de.",
+      "phonetic": "หว่อ ถิ่ง สี่ หวน เจ้อ หลี่ เตอ.",
+      "translation": "ฉันค่อนข้างชอบที่นี่นะ",
+      "chunks": [
+        "我挺喜欢这里的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L05-C042",
+      "legacyId": "U09-L05-C042",
+      "position": 2,
+      "script": "我不喜欢吃辣的。",
+      "pronunciation": "wǒ bù xǐ huan chī là de.",
+      "phonetic": "หว่อ ปู้ สี่ หวน ชือ ล้า เตอ.",
+      "translation": "ฉันไม่ชอบกินของเผ็ด",
+      "chunks": [
+        "我不喜欢吃辣的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L05-C043",
+      "legacyId": "U09-L05-C043",
+      "position": 3,
+      "script": "我这人就喜欢广交朋友。",
+      "pronunciation": "wǒ zhè rén jiù xǐ huan guǎng jiāo péng you.",
+      "phonetic": "หว่อ เจ้อ เหริน จิ้ว สี่ หวน กว๋าง เจียว เผิง โย่ว.",
+      "translation": "คนอย่างฉันเนี่ยชอบคบเพื่อนฝูงไปทั่วแหละ",
+      "chunks": [
+        "我这人就喜欢广交朋友。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L05-C044",
+      "legacyId": "U09-L05-C044",
+      "position": 4,
+      "script": "那种不负责任的人，我最讨厌了。",
+      "pronunciation": "nà zhǒng bù fù zé rèn de rén, wǒ zuì tǎo yàn le.",
+      "phonetic": "น้า จง ปู้ ฟู่ เจ๋อ เริ่น เตอ เหริน, หว่อ จุ้ย ถ่าว ยวี่อัน เลอ.",
+      "translation": "คนประเภทที่ไม่รับผิดชอบแบบนั้น ฉันเกลียดที่สุดเลย",
+      "chunks": [
+        "那种不负责任的人，我最讨厌了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L05-C045",
+      "legacyId": "U09-L05-C045",
+      "position": 5,
+      "script": "我特别喜欢中国菜的味道。",
+      "pronunciation": "wǒ tè bié xǐ huan zhōng guó cài de wèi dào.",
+      "phonetic": "หว่อ เท่อ เปี๋ย สี่ หวน จง ก๋ัว ไช้ เตอ เว่ย ต้าว.",
+      "translation": "ฉันชอบรสชาติของอาหารจีนมากเป็นพิเศษเลย",
+      "chunks": [
+        "我特别喜欢中国菜的味道。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L05-C046",
+      "legacyId": "U09-L05-C046",
+      "position": 6,
+      "script": "我不太喜欢人多的地方。",
+      "pronunciation": "wǒ bú tài xǐ huan rén duō de dì fang.",
+      "phonetic": "หว่อ บู๋ ไท่ สี่ หวน เหริน ตัว เตอ ตี้ ฝ่าง.",
+      "translation": "ฉันไม่ค่อยชอบสถานที่ที่คนเยอะๆ เท่าไหร่",
+      "chunks": [
+        "我不太喜欢人多的地方。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L05-C047",
+      "legacyId": "U09-L05-C047",
+      "position": 7,
+      "script": "这地方环境不错，我很中意。",
+      "pronunciation": "zhè dì fang huán jìng bú cuò, wǒ hěn zhòng yì.",
+      "phonetic": "เจ้อ ตี้ ฝ่าง หวั่น จิ้ง ปู๋ ฉั่ว, หว่อ เหิ่น จ้ง อี้.",
+      "translation": "สถานที่นี้บรรยากาศไม่เลว ฉันถูกใจมากเลย",
+      "chunks": [
+        "这地方环境不错，我很中意。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L05-C048",
+      "legacyId": "U09-L05-C048",
+      "position": 8,
+      "script": "我最讨厌下雨天出门了。",
+      "pronunciation": "wǒ zuì tǎo yàn xià yǔ tiān chū mén le.",
+      "phonetic": "หว่อ จุ้ย ถ่าว ยวี่อัน เซี่ย อวี่ เทียน ชู เหมิน เลอ.",
+      "translation": "ฉันเกลียดการออกจากบ้านในวันฝนตกที่สุดเลย",
+      "chunks": [
+        "我最讨厌下雨天出门了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L05-C049",
+      "legacyId": "U09-L05-C049",
+      "position": 9,
+      "script": "这电影的剧情太精彩了，极力推荐！",
+      "pronunciation": "zhè diàn yǐng de jù qíng tài jīng cǎi le, jí lì tuī jiàn!",
+      "phonetic": "เจ้อ เตี้ยน อิ่ง เตอ จวี่ ฉิง ไท่ จิง ฉ่าย เลอ, จี๋ ลี่ ทุย เจี้ยน!",
+      "translation": "เนื้อเรื่องของหนังเรื่องนี้ยอดเยี่ยมมาก แนะนำอย่างยิ่งเลย!",
+      "chunks": [
+        "这电影的剧情太精彩了，极力推荐！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L05-C050",
+      "legacyId": "U09-L05-C050",
+      "position": 10,
+      "script": "听听音乐，放松一下紧绷的神经吧。",
+      "pronunciation": "tīng tīng yīn yvè, fàng sōng yí xià jǐn bēng de shén jīng ba.",
+      "phonetic": "ทิง ทิง อิน ยเว่, ฟ้าง โซง อี๋ เซี่ย จิ่น เปิง เตอ เซิน จิง ปะ.",
+      "translation": "ลองฟังเพลงหน่อยเถอะ คลายเส้นประสาทที่ตึงเครียดลงบ้างนะ",
+      "chunks": [
+        "听听音乐，放松一下紧绷的神经吧。"
+      ]
+    }
+  ]
+}

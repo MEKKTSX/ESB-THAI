@@ -1,0 +1,127 @@
+{
+  "id": "U02-L01",
+  "number": 1,
+  "title": "คุณชื่ออะไรครับ/ค่ะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L01-C001",
+      "legacyId": "U02-L01-C001",
+      "position": 1,
+      "script": "你叫什么名字？",
+      "pronunciation": "nǐ jiào shén me míng zi?",
+      "phonetic": "หนี่ เจี้ยว เซิ่น เมอ หมิง สิ?",
+      "translation": "คุณชื่ออะไรครับ/ค่ะ",
+      "chunks": [
+        "你叫什么名字？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L01-C002",
+      "legacyId": "U02-L01-C002",
+      "position": 2,
+      "script": "我叫王小明。",
+      "pronunciation": "wǒ jiào wáng xiǎo míng.",
+      "phonetic": "หว่อ เจี้ยว หวาง เสียว หมิง.",
+      "translation": "ฉันชื่อหวังเสี่ยวหมิง",
+      "chunks": [
+        "我叫王小明。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L01-C003",
+      "legacyId": "U02-L01-C003",
+      "position": 3,
+      "script": "你多大了？",
+      "pronunciation": "nǐ duō dà le?",
+      "phonetic": "หนี่ ตัว ต้า เลอ?",
+      "translation": "คุณอายุเท่าไหร่แล้ว",
+      "chunks": [
+        "你多大了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L01-C004",
+      "legacyId": "U02-L01-C004",
+      "position": 4,
+      "script": "我今年二十五岁。",
+      "pronunciation": "wǒ jīn nián èr shí wǔ suì.",
+      "phonetic": "หว่อ จิน เหนียน เอ้อร์ สื้อ อู่ ซุ่ย.",
+      "translation": "ปีนี้ฉันอายุยี่สิบห้าปี",
+      "chunks": [
+        "我今年二十五岁。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L01-C005",
+      "legacyId": "U02-L01-C005",
+      "position": 5,
+      "script": "你是哪国人？",
+      "pronunciation": "nǐ shì nǎ guó rén?",
+      "phonetic": "หนี่ สื้อ หน่า ก๋ัว เหริน?",
+      "translation": "คุณเป็นคนประเทศไหน / สัญชาติอะไร",
+      "chunks": [
+        "你是哪国人？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L01-C006",
+      "legacyId": "U02-L01-C006",
+      "position": 6,
+      "script": "我是泰国人。",
+      "pronunciation": "wǒ shì tài guó rén.",
+      "phonetic": "หว่อ สื้อ ไท่ ก๋ัว เหริน.",
+      "translation": "ฉันเป็นคนไทย",
+      "chunks": [
+        "我是泰国人。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L01-C007",
+      "legacyId": "U02-L01-C007",
+      "position": 7,
+      "script": "你会说汉语吗？",
+      "pronunciation": "nǐ huì shuō hàn yǔ ma?",
+      "phonetic": "หนี่ ฮุ่ย ซัว ฮั่น อวี่ มะ?",
+      "translation": "คุณพูดภาษาจีนได้ไหม",
+      "chunks": [
+        "你会说汉语吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L01-C008",
+      "legacyId": "U02-L01-C008",
+      "position": 8,
+      "script": "我会说一点儿中文。",
+      "pronunciation": "wǒ huì shuō yì diǎnr zhōng wén.",
+      "phonetic": "หว่อ ฮุ่ย ซัว อี้ เดี๋ยร์ จง เหวิน.",
+      "translation": "ฉันพูดภาษาจีนได้นิดหน่อย",
+      "chunks": [
+        "我会说一点儿中文。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L01-C009",
+      "legacyId": "U02-L01-C009",
+      "position": 9,
+      "script": "你在哪儿上学？",
+      "pronunciation": "nǐ zài nǎr shàng xué?",
+      "phonetic": "หนี่ ไซ้ หน่าร์ ซ้าง เสวี่ย?",
+      "translation": "คุณเรียนอยู่ที่ไหน",
+      "chunks": [
+        "你在哪儿上学？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L01-C010",
+      "legacyId": "U02-L01-C010",
+      "position": 10,
+      "script": "我是大学生。",
+      "pronunciation": "wǒ shì dà xué shēng.",
+      "phonetic": "หว่อ สื้อ ต้า เสวี่ย เซิง.",
+      "translation": "ฉันเป็นนักศึกษา",
+      "chunks": [
+        "我是大学生。"
+      ]
+    }
+  ]
+}

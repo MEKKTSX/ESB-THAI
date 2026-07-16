@@ -1,0 +1,127 @@
+{
+  "id": "U12-L03",
+  "number": 3,
+  "title": "AI พัฒนาไปเร็วมาก",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L03-C021",
+      "legacyId": "U12-L03-C021",
+      "position": 1,
+      "script": "人工智能发展很快。",
+      "pronunciation": "rén gōng zhì néng fā zhǎn hěn kuài.",
+      "phonetic": "เหริน กง จี้ เหนิง ฟา จ่าน หิ่น ไขว้",
+      "translation": "AI พัฒนาไปเร็วมาก",
+      "chunks": [
+        "人工智能发展很快。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L03-C022",
+      "legacyId": "U12-L03-C022",
+      "position": 2,
+      "script": "数据分析很重要。",
+      "pronunciation": "shù jù fēn xī hěn zhòng yào.",
+      "phonetic": "ซู่ จวี่ เฟิน ซี หิ่น จ้ง ย้าว",
+      "translation": "การวิเคราะห์ข้อมูลสำคัญมาก",
+      "chunks": [
+        "数据分析很重要。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L03-C023",
+      "legacyId": "U12-L03-C023",
+      "position": 3,
+      "script": "正在学编程。",
+      "pronunciation": "zhèng zài xué biān chéng.",
+      "phonetic": "เจิ้ง ไจ้ เสวีย เปียน เฉิง",
+      "translation": "กำลังเรียนเขียนโปรแกรม",
+      "chunks": [
+        "正在学编程。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L03-C024",
+      "legacyId": "U12-L03-C024",
+      "position": 4,
+      "script": "跑个代码看看。",
+      "pronunciation": "pǎo gè dài mǎ kàn kan.",
+      "phonetic": "พ่าว เก้อ ไต้ม่า ข้าน ขั่น",
+      "translation": "ลองรันโค้ดดูหน่อย",
+      "chunks": [
+        "跑个代码看看。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L03-C025",
+      "legacyId": "U12-L03-C025",
+      "position": 5,
+      "script": "这个算法很复杂。",
+      "pronunciation": "zhè ge suàn fǎ hěn fù zá.",
+      "phonetic": "เจ้อ เกอะ ส้วน ฝ่า หิ่น ฟู่ จ๋า",
+      "translation": "อัลกอริทึมนี้ซับซ้อนมาก",
+      "chunks": [
+        "这个算法很复杂。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L03-C026",
+      "legacyId": "U12-L03-C026",
+      "position": 6,
+      "script": "系统出 bug 了。",
+      "pronunciation": "xì tǒng chū Bug le.",
+      "phonetic": "ซี่ ถ่ง ชู บั๊ก เลอะ",
+      "translation": "ระบบเกิดบั๊กแล้ว",
+      "chunks": [
+        "系统出 bug 了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L03-C027",
+      "legacyId": "U12-L03-C027",
+      "position": 7,
+      "script": "学大数据的出路多。",
+      "pronunciation": "xué dà shù jù de chū lù duō.",
+      "phonetic": "เสวีย ต้า ซู่ จวี่ เตอะ ชู ลู่ ตัว",
+      "translation": "เรียน Data Science มีทางเลือกงานเยอะ",
+      "chunks": [
+        "学大数据的出路多。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L03-C028",
+      "legacyId": "U12-L03-C028",
+      "position": 8,
+      "script": "自学 Python。",
+      "pronunciation": "zì xué Python.",
+      "phonetic": "จื้อ เสวีย ไพธอน",
+      "translation": "เรียน Python ด้วยตัวเอง",
+      "chunks": [
+        "自学 Python。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L03-C029",
+      "legacyId": "U12-L03-C029",
+      "position": 9,
+      "script": "模型训练好了。",
+      "pronunciation": "mó xíng xùn liàn hǎo le.",
+      "phonetic": "โหมว สิง ซวิ่น เลี่ยน ห่าว เลอะ",
+      "translation": "เทรนโมเดลเสร็จเรียบร้อยแล้ว",
+      "chunks": [
+        "模型训练好了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L03-C030",
+      "legacyId": "U12-L03-C030",
+      "position": 10,
+      "script": "今天有必修课。",
+      "pronunciation": "jīn tiān yǒu bì xiū kè.",
+      "phonetic": "จิน เทียน โหย่ว ปี้ ซิว เค่อ",
+      "translation": "วันนี้มีวิชาบังคับ",
+      "chunks": [
+        "今天有必修课。"
+      ]
+    }
+  ]
+}

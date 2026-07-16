@@ -1,0 +1,127 @@
+{
+  "id": "U07-L05",
+  "number": 5,
+  "title": "เวลาและสถานที่ช่วยส่งวีแชทมาให้ฉันหน่อยละกัน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U07-L05-C041",
+      "legacyId": "U07-L05-C041",
+      "position": 1,
+      "script": "时间地点你发微信给我吧。",
+      "pronunciation": "shí jiān dì diǎn nǐ fā wēi xìn gěi wǒ ba.",
+      "phonetic": "สือ เจียน ตี้ เตี่ยน หนี่ ฟา เวย ซิ้น เก๋ย หว่อ ปะ.",
+      "translation": "เวลาและสถานที่ช่วยส่งวีแชทมาให้ฉันหน่อยละกัน",
+      "chunks": [
+        "时间地点你发微信给我吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L05-C042",
+      "legacyId": "U07-L05-C042",
+      "position": 2,
+      "script": "到时候不见不散！",
+      "pronunciation": "dào shí hou bú jiàn bú sàn!",
+      "phonetic": "ต้าว สือ โห่ว ปู๋ เจี้ยน ปู๋ ส้วน!",
+      "translation": "ถึงเวลานั้นแล้วไม่เจอไม่เลิกรานะ (ต้องมารอจนเจอกัน)!",
+      "chunks": [
+        "到时候不见不散！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L05-C043",
+      "legacyId": "U07-L05-C043",
+      "position": 3,
+      "script": "我记错时间了，真是对不起。",
+      "pronunciation": "wǒ jì cuò shí jiān le, zhēn shì duì bu qǐ.",
+      "phonetic": "หว่อ จี้ ฉั่ว สือ เจียน เลอ, เจิน สื้อ ตุ้ย บุ ฉี่.",
+      "translation": "ฉันจำเวลาผิดไปจริงๆ ต้องขอโทษด้วยนะ",
+      "chunks": [
+        "我记错时间了，真是对不起。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L05-C044",
+      "legacyId": "U07-L05-C044",
+      "position": 4,
+      "script": "下次我们早点儿约。",
+      "pronunciation": "xià cì wǒ men zǎo diǎnr yuē.",
+      "phonetic": "เซี่ย ซี่ หว่อ เมิน เจ๋า เดี๋ยร์ ยเว่.",
+      "translation": "คราวหน้าพวกเรานัดเวลากันให้เร็วขึ้นหน่อยนะ",
+      "chunks": [
+        "下次我们早点儿约。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L05-C045",
+      "legacyId": "U07-L05-C045",
+      "position": 5,
+      "script": "今年年底我想请年假。",
+      "pronunciation": "jīn nián nián dǐ wǒ xiǎng qǐng nián jià.",
+      "phonetic": "จิน เหนียน เหนียน ตี่ หว่อ แฉี่ยง ฉิ่ง เหนียน เจี้ย.",
+      "translation": "ปลายปีนี้ฉันอยากจะขอลาพักร้อนประจำปี",
+      "chunks": [
+        "今年年底我想请年假。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L05-C046",
+      "legacyId": "U07-L05-C046",
+      "position": 6,
+      "script": "春节期间中国放假七天。",
+      "pronunciation": "chūn jié qī jiān zhōng guó fàng jià qī tiān.",
+      "phonetic": "ชุน เจี๋ย ชี เจียน จง ก๋ัว ฟ้าง เจี้ย ชี เทียน.",
+      "translation": "ในช่วงเทศกาลตรุษจีน ประเทศจีนหยุดยาวเจ็ดวัน",
+      "chunks": [
+        "春节期间中国放假七天。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L05-C047",
+      "legacyId": "U07-L05-C047",
+      "position": 7,
+      "script": "时间过得真快，一年又过去了。",
+      "pronunciation": "shí jiān guò de zhēn kuài, yì nián yòu guò qù le.",
+      "phonetic": "สือ เจียน กั้ว เตอ เจิน คว้าย, อี เหนียน โย่ว กั้ว ชวี่ เลอ.",
+      "translation": "เวลาผ่านไปเร็วมากจริงๆ อีกปีนึงผ่านไปแล้ว",
+      "chunks": [
+        "时间过得真快，一年又过去了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L05-C048",
+      "legacyId": "U07-L05-C048",
+      "position": 8,
+      "script": "你是什么时候到北京的？",
+      "pronunciation": "nǐ shì shén me shí hou dào běi jīng de?",
+      "phonetic": "หนี่ สื้อ เซิ่น เมอ สือ โห่ว ต้าว เป่ย จิง เตอ?",
+      "translation": "คุณมาถึงปักกิ่งตั้งแต่ตอนไหน",
+      "chunks": [
+        "你是什么时候到北京的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L05-C049",
+      "legacyId": "U07-L05-C049",
+      "position": 9,
+      "script": "我是上个月底来的。",
+      "pronunciation": "wǒ shì shàng gè yuè dǐ lái de.",
+      "phonetic": "หว่อ สื้อ ซ้าง เก้อ ยวี่เอ้ ตี่ ไหล เตอ.",
+      "translation": "ฉันมาตั้งแต่ปลายเดือนที่แล้ว",
+      "chunks": [
+        "我是上个月底来的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L05-C050",
+      "legacyId": "U07-L05-C050",
+      "position": 10,
+      "script": "你打算在中国住多久？",
+      "pronunciation": "nǐ dǎ suàn zài zhōng guó zhù duō jiǔ?",
+      "phonetic": "หนี่ ต๋า ส้วน ไซ้ จง ก๋ัว จู้ ตัว จิ่ว?",
+      "translation": "คุณวางแผนจะอยู่ที่ประเทศจีนนานเท่าไหร่",
+      "chunks": [
+        "你打算在中国住多久？"
+      ]
+    }
+  ]
+}

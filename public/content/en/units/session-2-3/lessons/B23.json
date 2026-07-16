@@ -1,0 +1,273 @@
+{
+  "id": "B23",
+  "number": 2,
+  "title": "B. คุยกับ Professor / TA ต่างชาติ",
+  "chunks": [
+    {
+      "id": "en:session-2-3:B23:1",
+      "legacyId": "B23-0",
+      "position": 1,
+      "script": "Excuse me, Professor — do you have a moment to talk?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษนะครับ/ค่ะ อาจารย์ — พอมีเวลาคุยนิดนึงไหมครับ/ค่ะ?",
+      "chunks": [
+        "Excuse me,",
+        "Professor — do you have a moment",
+        "to talk?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:2",
+      "legacyId": "B23-1",
+      "position": 2,
+      "script": "I'm a bit confused about the assignment instructions.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันงงเรื่องคำแนะนำของงานนิดหน่อยครับ/ค่ะ",
+      "chunks": [
+        "I'm a bit confused",
+        "about the assignment instructions."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:3",
+      "legacyId": "B23-2",
+      "position": 3,
+      "script": "Would it be okay to submit the assignment a day late?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โอเคไหมถ้าจะส่งงานช้าไปหนึ่งวัน?",
+      "chunks": [
+        "Would it be okay",
+        "to submit the assignment a day late?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:4",
+      "legacyId": "B23-3",
+      "position": 4,
+      "script": "I wanted to ask if we can work in pairs for this project.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากถามว่าโปรเจกต์นี้ทำเป็นคู่ได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "I wanted",
+        "to ask if we can work",
+        "in pairs",
+        "for this project."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:5",
+      "legacyId": "B23-4",
+      "position": 5,
+      "script": "I'm not sure I understood the feedback on my last assignment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่แน่ใจว่าเข้าใจ feedback งานที่แล้วถูกต้องไหม",
+      "chunks": [
+        "I'm not sure I understood the feedback",
+        "on my last assignment."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:6",
+      "legacyId": "B23-5",
+      "position": 6,
+      "script": "Could you explain the grading criteria in more detail?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยอธิบายเกณฑ์การให้คะแนนให้ละเอียดขึ้นหน่อยได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Could you explain the grading criteria",
+        "in more detail?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:7",
+      "legacyId": "B23-6",
+      "position": 7,
+      "script": "I'd like to discuss my thesis topic with you if possible.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากขอนัดคุยเรื่องหัวข้อวิทยานิพนธ์กับอาจารย์ถ้าเป็นไปได้ครับ/ค่ะ",
+      "chunks": [
+        "I'd like",
+        "to discuss my thesis topic",
+        "with you if possible."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:8",
+      "legacyId": "B23-7",
+      "position": 8,
+      "script": "I missed the last class due to a health issue — did I miss anything important?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันขาดเรียนครั้งที่แล้วเพราะไม่สบาย มีอะไรสำคัญที่พลาดไปไหมครับ/ค่ะ?",
+      "chunks": [
+        "I missed the last class due",
+        "to a health issue — did I miss anything important?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:9",
+      "legacyId": "B23-8",
+      "position": 9,
+      "script": "Is it okay to ask questions during the lecture?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถามคำถามระหว่างเรียนได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Is it okay",
+        "to ask questions during the lecture?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:10",
+      "legacyId": "B23-9",
+      "position": 10,
+      "script": "I'd appreciate any additional resources you could recommend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณมากเลยถ้าอาจารย์จะแนะนำแหล่งข้อมูลเพิ่มเติมให้",
+      "chunks": [
+        "I'd appreciate any additional resources you could recommend."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:11",
+      "legacyId": "B23-10",
+      "position": 11,
+      "script": "I've been struggling with this concept — could you walk me through it?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันสงสัยกับ concept นี้มาสักพักแล้ว อาจารย์พอจะอธิบายทีละขั้นได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "I've been struggling",
+        "with this concept — could you walk me through it?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:12",
+      "legacyId": "B23-11",
+      "position": 12,
+      "script": "When are your office hours this week?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สัปดาห์นี้ office hours ของอาจารย์อยู่ช่วงไหนครับ/ค่ะ?",
+      "chunks": [
+        "When are your office hours this week?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:13",
+      "legacyId": "B23-12",
+      "position": 13,
+      "script": "Thank you for your feedback — I'll revise it right away.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณสำหรับ feedback นะครับ/ค่ะ จะรีบแก้ให้เลย",
+      "chunks": [
+        "Thank you",
+        "for your feedback — I'll revise it right away."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:14",
+      "legacyId": "B23-13",
+      "position": 14,
+      "script": "I sent you an email last week but haven't heard back yet.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันส่งอีเมลให้อาจารย์อาทิตย์ที่แล้วแต่ยังไม่ได้รับการตอบกลับครับ/ค่ะ",
+      "chunks": [
+        "I sent you an email last week",
+        "but haven't heard back yet."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:15",
+      "legacyId": "B23-14",
+      "position": 15,
+      "script": "Could I have an extension on the deadline? I've been sick.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอเลื่อนกำหนดส่งได้ไหมครับ/ค่ะ? ฉันไม่สบายอยู่",
+      "chunks": [
+        "Could I have an extension",
+        "on the deadline?",
+        "I've been sick."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:16",
+      "legacyId": "B23-15",
+      "position": 16,
+      "script": "I find the material really challenging but also very interesting.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เนื้อหาท้าทายมากเลยครับ/ค่ะ แต่ก็น่าสนใจมากด้วย",
+      "chunks": [
+        "I find the material really challenging",
+        "but also very interesting."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:17",
+      "legacyId": "B23-16",
+      "position": 17,
+      "script": "I just wanted to say thank you for a great semester.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากบอกขอบคุณสำหรับเทอมที่ผ่านมานะครับ/ค่ะ",
+      "chunks": [
+        "I just wanted",
+        "to say thank you",
+        "for a great semester."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:18",
+      "legacyId": "B23-17",
+      "position": 18,
+      "script": "I'm applying for an internship and was wondering if you could write me a recommendation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังสมัครอินเทิร์นอยู่ อาจารย์พอจะเขียน recommendation letter ให้ได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "I'm applying",
+        "for an internship",
+        "and was wondering if you could write me a recommendation."
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:19",
+      "legacyId": "B23-18",
+      "position": 19,
+      "script": "Is this going to be on the exam?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เรื่องนี้จะออกข้อสอบไหมครับ/ค่ะ?",
+      "chunks": [
+        "Is this going",
+        "to be",
+        "on the exam?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:B23:20",
+      "legacyId": "B23-19",
+      "position": 20,
+      "script": "I'd like to take your elective next semester if there's still space.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากลงวิชาเลือกของอาจารย์เทอมหน้าถ้ายังมีที่ว่างอยู่ครับ/ค่ะ",
+      "chunks": [
+        "I'd like",
+        "to take your elective next semester if there's still space."
+      ]
+    }
+  ]
+}

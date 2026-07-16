@@ -1,0 +1,209 @@
+{
+  "id": "K21",
+  "number": 11,
+  "title": "K. Advanced Linking Words",
+  "chunks": [
+    {
+      "id": "en:session-2-1:K21:1",
+      "legacyId": "K21-0",
+      "position": 1,
+      "script": "Nevertheless, we decided to continue with the plan.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่างไรก็ตาม เราตัดสินใจดำเนินแผนต่อไป",
+      "chunks": [
+        "Nevertheless,",
+        "we decided",
+        "to continue",
+        "with the plan."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:2",
+      "legacyId": "K21-1",
+      "position": 2,
+      "script": "The weather was terrible; nevertheless, we had a great time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อากาศแย่มาก แต่อย่างไรก็ตาม เราก็สนุกกันดี",
+      "chunks": [
+        "The weather was terrible; nevertheless,",
+        "we had a great time."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:3",
+      "legacyId": "K21-2",
+      "position": 3,
+      "script": "Whereas I prefer coffee, my sister loves tea.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในขณะที่ฉันชอบกาแฟ น้องสาวกลับชอบชา",
+      "chunks": [
+        "Whereas I prefer coffee,",
+        "my sister loves tea."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:4",
+      "legacyId": "K21-3",
+      "position": 4,
+      "script": "Whereas city life is exciting, it can also be very stressful.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในขณะที่ชีวิตในเมืองน่าตื่นเต้น มันก็ทำให้เครียดได้เช่นกัน",
+      "chunks": [
+        "Whereas city life is exciting,",
+        "it can also be very stressful."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:5",
+      "legacyId": "K21-4",
+      "position": 5,
+      "script": "You can borrow my laptop, provided that you return it by tomorrow.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยืมแล็ปท็อปฉันไปได้ แต่ขอให้เอามาคืนภายในพรุ่งนี้นะ",
+      "chunks": [
+        "You can borrow my laptop,",
+        "provided",
+        "that you return it by tomorrow."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:6",
+      "legacyId": "K21-5",
+      "position": 6,
+      "script": "Provided that the weather is good, we'll go ahead with the plan.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าอากาศดี เราก็จะดำเนินแผนต่อไป",
+      "chunks": [
+        "Provided",
+        "that the weather is good,",
+        "we'll go ahead",
+        "with the plan."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:7",
+      "legacyId": "K21-6",
+      "position": 7,
+      "script": "In spite of being tired, she finished all her work.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทั้งที่เหนื่อย เธอก็ทำงานทั้งหมดจนเสร็จ",
+      "chunks": [
+        "In spite of being tired,",
+        "she finished all her work."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:8",
+      "legacyId": "K21-7",
+      "position": 8,
+      "script": "In spite of the rain, the outdoor event went really well.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้จะมีฝน งานกลางแจ้งก็จัดได้ดีมาก",
+      "chunks": [
+        "In spite of the rain,",
+        "the outdoor event went really well."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:9",
+      "legacyId": "K21-8",
+      "position": 9,
+      "script": "As long as you try your best, that's enough.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตราบใดที่ทำเต็มที่แล้ว ก็เพียงพอแล้ว",
+      "chunks": [
+        "As long as you try your best,",
+        "that's enough."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:10",
+      "legacyId": "K21-9",
+      "position": 10,
+      "script": "As long as I have my laptop, I can work from anywhere.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตราบใดที่ยังมีแล็ปท็อป ฉันทำงานจากที่ไหนก็ได้",
+      "chunks": [
+        "As long as I have my laptop,",
+        "I can work from anywhere."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:11",
+      "legacyId": "K21-10",
+      "position": 11,
+      "script": "Due to heavy traffic, the meeting started late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เนื่องจากรถติดหนัก การประชุมเลยเริ่มช้า",
+      "chunks": [
+        "Due",
+        "to heavy traffic,",
+        "the meeting started late."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:12",
+      "legacyId": "K21-11",
+      "position": 12,
+      "script": "The project failed due to a lack of proper planning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โปรเจกต์ล้มเหลวเพราะขาดการวางแผนที่ดี",
+      "chunks": [
+        "The project failed due",
+        "to a lack of proper planning."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:13",
+      "legacyId": "K21-12",
+      "position": 13,
+      "script": "I studied hard; as a result, I passed the exam.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอ่านหนังสือหนัก ส่งผลให้สอบผ่าน",
+      "chunks": [
+        "I studied hard; as a result,",
+        "I passed the exam."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:14",
+      "legacyId": "K21-13",
+      "position": 14,
+      "script": "In addition to studying, she also works part-time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นอกจากเรียนแล้ว เธอยังทำงานพาร์ทไทม์ด้วย",
+      "chunks": [
+        "In addition",
+        "to studying,",
+        "she also works part-time."
+      ]
+    },
+    {
+      "id": "en:session-2-1:K21:15",
+      "legacyId": "K21-14",
+      "position": 15,
+      "script": "I'll join you, as long as we don't stay too late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไปด้วย ขอแค่อย่าอยู่ดึกมากนะ",
+      "chunks": [
+        "I'll join you,",
+        "as long as we don't stay too late."
+      ]
+    }
+  ]
+}

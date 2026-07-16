@@ -1,0 +1,323 @@
+{
+  "id": "H21",
+  "number": 8,
+  "title": "H. Modal Verbs — Deduction & Past Speculation",
+  "chunks": [
+    {
+      "id": "en:session-2-1:H21:1",
+      "legacyId": "H21-0",
+      "position": 1,
+      "script": "You must be tired after such a long journey.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณต้องเหนื่อยมากแน่ๆ หลังเดินทางมาไกลขนาดนั้น",
+      "chunks": [
+        "You must be tired after such a long journey."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:2",
+      "legacyId": "H21-1",
+      "position": 2,
+      "script": "She must have forgotten about the meeting.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอคงลืมเรื่องประชุมไป",
+      "chunks": [
+        "She must have forgotten",
+        "about the meeting."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:3",
+      "legacyId": "H21-2",
+      "position": 3,
+      "script": "He must have worked really hard to pass.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาคงอุตส่าห์เรียนหนักมากถึงสอบผ่านได้",
+      "chunks": [
+        "He must have worked really hard",
+        "to pass."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:4",
+      "legacyId": "H21-3",
+      "position": 4,
+      "script": "They must have left already.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาคงออกไปแล้วแน่ๆ",
+      "chunks": [
+        "They must have left already."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:5",
+      "legacyId": "H21-4",
+      "position": 5,
+      "script": "That must have been really embarrassing for you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นคงอายมากเลยนะ",
+      "chunks": [
+        "That must have been really embarrassing",
+        "for you."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:6",
+      "legacyId": "H21-5",
+      "position": 6,
+      "script": "She can't have finished already — it's too fast.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอทำไม่มีทางเสร็จแล้วหรอก เร็วเกินไปมากเลย",
+      "chunks": [
+        "She can't have finished already — it's too fast."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:7",
+      "legacyId": "H21-6",
+      "position": 7,
+      "script": "He can't have known about this beforehand.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาไม่มีทางรู้เรื่องนี้มาก่อนหน้านี้แน่ๆ",
+      "chunks": [
+        "He can't have known",
+        "about this beforehand."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:8",
+      "legacyId": "H21-7",
+      "position": 8,
+      "script": "That can't have been easy for her at all.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นคงไม่ง่ายสำหรับเธอเลยแม้แต่น้อย",
+      "chunks": [
+        "That can't have been easy",
+        "for her",
+        "at all."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:9",
+      "legacyId": "H21-8",
+      "position": 9,
+      "script": "She might have missed the bus.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธออาจจะตกรถเมล์ก็ได้",
+      "chunks": [
+        "She might have missed the bus."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:10",
+      "legacyId": "H21-9",
+      "position": 10,
+      "script": "He could have told me earlier, but he didn't.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาน่าจะบอกฉันแต่เนิ่นๆ แต่ก็ไม่ได้บอก",
+      "chunks": [
+        "He could have told me earlier,",
+        "but he didn't."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:11",
+      "legacyId": "H21-10",
+      "position": 11,
+      "script": "I might have left it at the office.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอาจจะทิ้งมันไว้ที่ออฟฟิศก็ได้",
+      "chunks": [
+        "I might have left it",
+        "at the office."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:12",
+      "legacyId": "H21-11",
+      "position": 12,
+      "script": "They might not have received the email.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาอาจจะยังไม่ได้รับอีเมลก็ได้",
+      "chunks": [
+        "They might not have received the email."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:13",
+      "legacyId": "H21-12",
+      "position": 13,
+      "script": "I should have called ahead before going.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รู้งี้น่าจะโทรถามก่อนไปเนอะ",
+      "chunks": [
+        "I should have called ahead before going."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:14",
+      "legacyId": "H21-13",
+      "position": 14,
+      "script": "You should have told me sooner.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณควรบอกฉันให้เร็วกว่านี้นะ",
+      "chunks": [
+        "You should have told me sooner."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:15",
+      "legacyId": "H21-14",
+      "position": 15,
+      "script": "She should have been more careful.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอน่าจะระวังให้มากกว่านี้",
+      "chunks": [
+        "She should have been more careful."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:16",
+      "legacyId": "H21-15",
+      "position": 16,
+      "script": "I shouldn't have eaten so much last night.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อคืนไม่น่ากินเยอะขนาดนั้นเลย",
+      "chunks": [
+        "I shouldn't have eaten",
+        "so much last night."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:17",
+      "legacyId": "H21-16",
+      "position": 17,
+      "script": "We should have left earlier to avoid traffic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รู้งี้ออกเดินทางก่อนก็ไม่ต้องติดรถแล้ว",
+      "chunks": [
+        "We should have left earlier",
+        "to avoid traffic."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:18",
+      "legacyId": "H21-17",
+      "position": 18,
+      "script": "You needn't have worried — everything was fine.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไม่ต้องกังวลขนาดนั้นก็ได้นะ ทุกอย่างเรียบร้อยดี",
+      "chunks": [
+        "You needn't have worried — everything was fine."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:19",
+      "legacyId": "H21-18",
+      "position": 19,
+      "script": "She needn't have cooked so much food for us.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอไม่ต้องทำอาหารเยอะขนาดนั้นสำหรับพวกเราก็ได้",
+      "chunks": [
+        "She needn't have cooked",
+        "so much food",
+        "for us."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:20",
+      "legacyId": "H21-19",
+      "position": 20,
+      "script": "He must be at least 40 years old.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาต้องอายุอย่างน้อย 40 ปีแน่ๆ",
+      "chunks": [
+        "He must be",
+        "at least 40 years old."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:21",
+      "legacyId": "H21-20",
+      "position": 21,
+      "script": "That could be the reason why she's upset.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นอาจจะเป็นสาเหตุที่เธอหัวร้อนก็ได้",
+      "chunks": [
+        "That could be the reason why she's upset."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:22",
+      "legacyId": "H21-21",
+      "position": 22,
+      "script": "She may not have understood the instructions.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธออาจจะไม่เข้าใจคำแนะนำก็ได้",
+      "chunks": [
+        "She may not have understood the instructions."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:23",
+      "legacyId": "H21-22",
+      "position": 23,
+      "script": "They might have been stuck in traffic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาอาจจะติดรถอยู่ก็ได้",
+      "chunks": [
+        "They might have been stuck",
+        "in traffic."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:24",
+      "legacyId": "H21-23",
+      "position": 24,
+      "script": "He should have known better than that.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาน่าจะรู้ดีกว่านั้นนะ",
+      "chunks": [
+        "He should have known better than",
+        "that."
+      ]
+    },
+    {
+      "id": "en:session-2-1:H21:25",
+      "legacyId": "H21-24",
+      "position": 25,
+      "script": "You couldn't have come at a better time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณมาถูกเวลามากเลยนะ",
+      "chunks": [
+        "You couldn't have come",
+        "at a better time."
+      ]
+    }
+  ]
+}

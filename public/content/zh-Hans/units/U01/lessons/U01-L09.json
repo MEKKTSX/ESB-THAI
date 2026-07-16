@@ -1,0 +1,127 @@
+{
+  "id": "U01-L09",
+  "number": 9,
+  "title": "แล้วแต่เลย / ยังไงก็ได้",
+  "chunks": [
+    {
+      "id": "zh-Hans:U01-L09-C081",
+      "legacyId": "U01-L09-C081",
+      "position": 1,
+      "script": "随便吧。",
+      "pronunciation": "suí biàn ba.",
+      "phonetic": "สุ่ย เปี้ยน ปะ.",
+      "translation": "แล้วแต่เลย / ยังไงก็ได้",
+      "chunks": [
+        "随便吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L09-C082",
+      "legacyId": "U01-L09-C082",
+      "position": 2,
+      "script": "看情况吧。",
+      "pronunciation": "kàn qíng kuàng ba.",
+      "phonetic": "ค่าน ฉิง คว่าง ปะ.",
+      "translation": "ดูสถานการณ์ก่อนนะ / ดูตามความเหมาะสม",
+      "chunks": [
+        "看情况吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L09-C083",
+      "legacyId": "U01-L09-C083",
+      "position": 3,
+      "script": "别开玩笑了！",
+      "pronunciation": "bié kāi wán xiào le!",
+      "phonetic": "เปี๋ย ไค หวาน เสี้ยว เลอ!",
+      "translation": "อย่าล้อเล่นน่า! / อย่าพูดเป็นเล่นไป!",
+      "chunks": [
+        "别开玩笑了！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L09-C084",
+      "legacyId": "U01-L09-C084",
+      "position": 4,
+      "script": "你确定吗？",
+      "pronunciation": "nǐ què dìng ma?",
+      "phonetic": "หนี่ ชเว่ ติ้ง มะ?",
+      "translation": "คุณมั่นใจไหม / คุณแน่ใจไหม",
+      "chunks": [
+        "你确定吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L09-C085",
+      "legacyId": "U01-L09-C085",
+      "position": 5,
+      "script": "放心吧！",
+      "pronunciation": "fàng xīn ba!",
+      "phonetic": "ฟ้าง ซิน ปะ!",
+      "translation": "วางใจเถอะ! / ไม่ต้องห่วง!",
+      "chunks": [
+        "放心吧！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L09-C086",
+      "legacyId": "U01-L09-C086",
+      "position": 6,
+      "script": "糟了！",
+      "pronunciation": "zāo le!",
+      "phonetic": "เจาก เลอ!",
+      "translation": "ซวยแล้ว! / แย่แล้ว!",
+      "chunks": [
+        "糟了！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L09-C087",
+      "legacyId": "U01-L09-C087",
+      "position": 7,
+      "script": "天哪！",
+      "pronunciation": "tiān na!",
+      "phonetic": "เทียน นะ!",
+      "translation": "คุณพระช่วย! / โอ้มายก็อด!",
+      "chunks": [
+        "天哪！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L09-C088",
+      "legacyId": "U01-L09-C088",
+      "position": 8,
+      "script": "怎么了？",
+      "pronunciation": "zěn me le?",
+      "phonetic": "เจิ่น เมอ เลอ?",
+      "translation": "เกิดอะไรขึ้น? / เป็นอะไรไป?",
+      "chunks": [
+        "怎么了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L09-C089",
+      "legacyId": "U01-L09-C089",
+      "position": 9,
+      "script": "没事吧？",
+      "pronunciation": "méi shì ba?",
+      "phonetic": "เหมย สื้อ ปะ?",
+      "translation": "ไม่เป็นไรใช่ไหม? / โอเคไหม?",
+      "chunks": [
+        "没事吧？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L09-C090",
+      "legacyId": "U01-L09-C090",
+      "position": 10,
+      "script": "算了吧。",
+      "pronunciation": "suàn le ba.",
+      "phonetic": "ส้วน เลอ ปะ.",
+      "translation": "ช่างมันเถอะ / พอเถอะ",
+      "chunks": [
+        "算了吧。"
+      ]
+    }
+  ]
+}

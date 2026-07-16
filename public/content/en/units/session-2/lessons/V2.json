@@ -1,0 +1,134 @@
+{
+  "id": "V2",
+  "number": 22,
+  "title": "V. Giving Advice & Warnings",
+  "chunks": [
+    {
+      "id": "en:session-2:V2:1",
+      "legacyId": "V2-0",
+      "position": 1,
+      "script": "Make sure you lock the door.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่าลืมล็อคประตูนะ",
+      "chunks": [
+        "Make sure you lock the door."
+      ]
+    },
+    {
+      "id": "en:session-2:V2:2",
+      "legacyId": "V2-1",
+      "position": 2,
+      "script": "Make sure you don't forget your passport.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่าลืมพาสปอร์ตเชียวนะ",
+      "chunks": [
+        "Make sure you don't forget your passport."
+      ]
+    },
+    {
+      "id": "en:session-2:V2:3",
+      "legacyId": "V2-2",
+      "position": 3,
+      "script": "Watch out for the cars.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ระวังรถด้วย",
+      "chunks": [
+        "Watch out",
+        "for the cars."
+      ]
+    },
+    {
+      "id": "en:session-2:V2:4",
+      "legacyId": "V2-3",
+      "position": 4,
+      "script": "Be careful with that knife.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ระวังมีดเล่มนั้นด้วย",
+      "chunks": [
+        "Be careful",
+        "with",
+        "that knife."
+      ]
+    },
+    {
+      "id": "en:session-2:V2:5",
+      "legacyId": "V2-4",
+      "position": 5,
+      "script": "You’d better hurry up.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรีบหน่อยดีกว่านะ",
+      "chunks": [
+        "You’d better hurry up."
+      ]
+    },
+    {
+      "id": "en:session-2:V2:6",
+      "legacyId": "V2-5",
+      "position": 6,
+      "script": "You’d better not go there.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณอย่าไปที่นั่นเลยจะดีกว่า",
+      "chunks": [
+        "You’d better not go there."
+      ]
+    },
+    {
+      "id": "en:session-2:V2:7",
+      "legacyId": "V2-6",
+      "position": 7,
+      "script": "Whatever you do, don't press that button.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไม่ว่าจะทำอะไร ห้ามกดปุ่มนั้นนะ",
+      "chunks": [
+        "Whatever you do,",
+        "don't press",
+        "that button."
+      ]
+    },
+    {
+      "id": "en:session-2:V2:8",
+      "legacyId": "V2-7",
+      "position": 8,
+      "script": "Don't forget to call your mom.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่าลืมโทรหาแม่นะ",
+      "chunks": [
+        "Don't forget",
+        "to call your mom."
+      ]
+    },
+    {
+      "id": "en:session-2:V2:9",
+      "legacyId": "V2-8",
+      "position": 9,
+      "script": "Remember to turn off the oven.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่าลืมปิดเตาอบนะ",
+      "chunks": [
+        "Remember",
+        "to turn off the oven."
+      ]
+    },
+    {
+      "id": "en:session-2:V2:10",
+      "legacyId": "V2-9",
+      "position": 10,
+      "script": "Take care of yourself.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดูแลตัวเองด้วย",
+      "chunks": [
+        "Take care of yourself."
+      ]
+    }
+  ]
+}

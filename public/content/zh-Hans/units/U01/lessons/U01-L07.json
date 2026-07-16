@@ -1,0 +1,127 @@
+{
+  "id": "U01-L07",
+  "number": 7,
+  "title": "อันนี้ภาษาจีนพูดว่ายังไง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U01-L07-C061",
+      "legacyId": "U01-L07-C061",
+      "position": 1,
+      "script": "这个用汉语怎么说？",
+      "pronunciation": "zhè ge yòng hàn yǔ zěn me shuō?",
+      "phonetic": "เจ้อ เกอ ย่ง ฮั่น อวี่ เจิ่น เมอ ซัว?",
+      "translation": "อันนี้ภาษาจีนพูดว่ายังไง",
+      "chunks": [
+        "这个用汉语怎么说？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L07-C062",
+      "legacyId": "U01-L07-C062",
+      "position": 2,
+      "script": "...是什么意思？",
+      "pronunciation": "... shì shén me yì si?",
+      "phonetic": "... สื้อ เซิ่น เมอ อี้ สิ?",
+      "translation": "...หมายความว่ายังไง",
+      "chunks": [
+        "...是什么意思？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L07-C063",
+      "legacyId": "U01-L07-C063",
+      "position": 3,
+      "script": "那个叫什么？",
+      "pronunciation": "nà ge jiào shén me?",
+      "phonetic": "น้า เกอ เจี้ยว เซิ่น เมอ?",
+      "translation": "อันนั้นเรียกว่าอะไร",
+      "chunks": [
+        "那个叫什么？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L07-C064",
+      "legacyId": "U01-L07-C064",
+      "position": 4,
+      "script": "拼音怎么拼？",
+      "pronunciation": "pīn yīn zěn me pīn?",
+      "phonetic": "พิน อิน เจิ่น เมอ พิน?",
+      "translation": "พินอินสะกดยังไง",
+      "chunks": [
+        "拼音怎么拼？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L07-C065",
+      "legacyId": "U01-L07-C065",
+      "position": 5,
+      "script": "这个怎么用？",
+      "pronunciation": "zhè ge zěn me yòng?",
+      "phonetic": "เจ้อ เกอ เจิ่น เมอ ย่ง?",
+      "translation": "อันนี้ใช้งานยังไง",
+      "chunks": [
+        "这个怎么用？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L07-C066",
+      "legacyId": "U01-L07-C066",
+      "position": 6,
+      "script": "你是这个意思吗？",
+      "pronunciation": "nǐ shì zhè ge yì si ma?",
+      "phonetic": "หนี่ สื้อ เจ้อ เกอ อี้ สิ มะ?",
+      "translation": "คุณหมายความว่าแบบนี้ใช่ไหม",
+      "chunks": [
+        "你是这个意思吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L07-C067",
+      "legacyId": "U01-L07-C067",
+      "position": 7,
+      "script": "有什么区别？",
+      "pronunciation": "yǒu shén me qū bié?",
+      "phonetic": "โหย่ว เซิ่น เมอ ชวี เปี๋ย?",
+      "translation": "มีความแตกต่างกันตรงไหน / ต่างกันยังไง",
+      "chunks": [
+        "有什么区别？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L07-C068",
+      "legacyId": "U01-L07-C068",
+      "position": 8,
+      "script": "可以举个例子吗？",
+      "pronunciation": "kě yǐ jǔ gè lì zi ma?",
+      "phonetic": "เขอ อี่ จู่ เก้อ ลี่ จิ มะ?",
+      "translation": "ช่วยยกตัวอย่างหน่อยได้ไหม",
+      "chunks": [
+        "可以举个例子吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L07-C069",
+      "legacyId": "U01-L07-C069",
+      "position": 9,
+      "script": "我说明白了吗？",
+      "pronunciation": "wǒ shuō míng bai le ma?",
+      "phonetic": "หว่อ ซัว หมิง ป๋าย เลอ มะ?",
+      "translation": "ฉันอธิบายเข้าใจไหม / ฉันพูดชัดเจนไหม",
+      "chunks": [
+        "我说明白了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L07-C070",
+      "legacyId": "U01-L07-C070",
+      "position": 10,
+      "script": "我不是那个意思。",
+      "pronunciation": "wǒ bú shì nà ge yì si.",
+      "phonetic": "หว่อ บู๋ สื้อ น้า เกอ อี้ สิ.",
+      "translation": "ฉันไม่ได้หมายความว่าอย่างนั้น",
+      "chunks": [
+        "我不是那个意思。"
+      ]
+    }
+  ]
+}

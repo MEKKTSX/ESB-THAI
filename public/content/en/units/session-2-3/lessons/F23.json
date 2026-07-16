@@ -1,0 +1,211 @@
+{
+  "id": "F23",
+  "number": 6,
+  "title": "F. อธิบายวัฒนธรรม & อาหารไทยให้ต่างชาติ",
+  "chunks": [
+    {
+      "id": "en:session-2-3:F23:1",
+      "legacyId": "F23-0",
+      "position": 1,
+      "script": "Thai food is known for its balance of sweet, sour, salty, and spicy flavours.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาหารไทยโด่งดังเรื่องความสมดุลของรสหวาน เปรี้ยว เค็ม และเผ็ด",
+      "chunks": [
+        "Thai food is known",
+        "for its balance of sweet,",
+        "sour,",
+        "salty,",
+        "and spicy flavours."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:2",
+      "legacyId": "F23-1",
+      "position": 2,
+      "script": "Pad Thai is basically stir-fried noodles with egg, bean sprouts, and peanuts.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผัดไทยก็คือเส้นผัดกับไข่ ถั่วงอก และถั่วลิสง",
+      "chunks": [
+        "Pad Thai is basically stir-fried noodles",
+        "with egg,",
+        "bean sprouts,",
+        "and peanuts."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:3",
+      "legacyId": "F23-2",
+      "position": 3,
+      "script": "If you can't handle spice, just tell them 'mai pet' — it means 'not spicy'.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้ากินเผ็ดไม่ได้ บอกว่า 'ไม่เผ็ด' ได้เลย แปลว่าไม่เอาเผ็ด",
+      "chunks": [
+        "If you can't handle spice,",
+        "just tell them 'mai pet' — it means 'not spicy'."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:4",
+      "legacyId": "F23-3",
+      "position": 4,
+      "script": "Songkran is the Thai New Year — it's basically a huge water fight festival.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สงกรานต์คือวันปีใหม่ไทย โดยพื้นฐานแล้วมันคือเทศกาลสาดน้ำขนาดใหญ่",
+      "chunks": [
+        "Songkran is the Thai New Year — it's basically a huge water fight festival."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:5",
+      "legacyId": "F23-4",
+      "position": 5,
+      "script": "Wai is the traditional Thai greeting — you press your palms together and bow your head slightly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไหว้คือการทักทายแบบดั้งเดิมของไทย ประกบมือแล้วก้มหัวเล็กน้อย",
+      "chunks": [
+        "Wai is the traditional Thai greeting — you press your palms together",
+        "and bow your head slightly."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:6",
+      "legacyId": "F23-5",
+      "position": 6,
+      "script": "The temple is called 'Wat' in Thai — there are thousands of them across the country.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วัดในภาษาไทยเรียกว่า 'วัด' มีหลายพันแห่งทั่วประเทศ",
+      "chunks": [
+        "The temple is called 'Wat'",
+        "in Thai — there are thousands of them across the country."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:7",
+      "legacyId": "F23-6",
+      "position": 7,
+      "script": "Street food in Thailand is amazing and surprisingly cheap.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาหารข้างทางในไทยอร่อยมากและราคาถูกน่าประหลาดใจ",
+      "chunks": [
+        "Street food",
+        "in Thailand is amazing",
+        "and surprisingly cheap."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:8",
+      "legacyId": "F23-7",
+      "position": 8,
+      "script": "Som tam is a spicy papaya salad — it's one of the most popular Thai dishes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ส้มตำคือสลัดมะละกอเผ็ด เป็นหนึ่งในอาหารไทยที่ได้รับความนิยมมากที่สุด",
+      "chunks": [
+        "Som tam is a spicy papaya salad — it's one of the most popular Thai dishes."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:9",
+      "legacyId": "F23-8",
+      "position": 9,
+      "script": "Thai people eat rice with almost every meal — it's a staple here.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คนไทยกินข้าวแทบทุกมื้อ มันคืออาหารหลักที่นี่",
+      "chunks": [
+        "Thai people eat rice",
+        "with almost every meal — it's a staple here."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:10",
+      "legacyId": "F23-9",
+      "position": 10,
+      "script": "Loy Krathong is a lantern and floating festival held in November.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ลอยกระทงเป็นเทศกาลโคมลอยและกระทง จัดในเดือนพฤศจิกายน",
+      "chunks": [
+        "Loy Krathong is a lantern",
+        "and floating festival held",
+        "in November."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:11",
+      "legacyId": "F23-10",
+      "position": 11,
+      "script": "Thai people generally place a high value on respect and politeness.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คนไทยโดยทั่วไปให้ความสำคัญกับความเคารพและความสุภาพมาก",
+      "chunks": [
+        "Thai people generally place a high value",
+        "on respect",
+        "and politeness."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:12",
+      "legacyId": "F23-11",
+      "position": 12,
+      "script": "The Grand Palace is probably the most famous landmark in Bangkok.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พระบรมมหาราชวังน่าจะเป็น landmark ที่โด่งดังที่สุดในกรุงเทพ",
+      "chunks": [
+        "The Grand Palace is probably the most famous landmark",
+        "in Bangkok."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:13",
+      "legacyId": "F23-12",
+      "position": 13,
+      "script": "If you visit Thailand, make sure you try mango sticky rice — it's incredible.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้ามาเที่ยวไทย อย่าลืมลองข้าวเหนียวมะม่วงนะ มันอร่อยมากจริงๆ",
+      "chunks": [
+        "If you visit Thailand,",
+        "make sure you try mango sticky rice — it's incredible."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:14",
+      "legacyId": "F23-13",
+      "position": 14,
+      "script": "Thai script looks very different from English, but there are classes if you want to learn.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อักษรไทยดูแตกต่างจากภาษาอังกฤษมาก แต่มีคลาสเรียนถ้าอยากเรียน",
+      "chunks": [
+        "Thai script looks very different from English,",
+        "but there are classes if you want",
+        "to learn."
+      ]
+    },
+    {
+      "id": "en:session-2-3:F23:15",
+      "legacyId": "F23-14",
+      "position": 15,
+      "script": "Thailand has three main seasons: hot, rainy, and cool — there's no winter here.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไทยมีสามฤดูหลัก คือร้อน ฝน และเย็น ที่นี่ไม่มีหน้าหนาว",
+      "chunks": [
+        "Thailand has three main seasons:",
+        "hot,",
+        "rainy,",
+        "and cool — there's no winter here."
+      ]
+    }
+  ]
+}

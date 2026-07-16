@@ -1,0 +1,127 @@
+{
+  "id": "U06-L04",
+  "number": 4,
+  "title": "ลดราคาเสร็จแล้วเป็นเงินเท่าไหร่",
+  "chunks": [
+    {
+      "id": "zh-Hans:U06-L04-C031",
+      "legacyId": "U06-L04-C031",
+      "position": 1,
+      "script": "打完折是多少钱？",
+      "pronunciation": "dǎ wán zhé shì duō shǎo qián?",
+      "phonetic": "ต๋า หวัน เจ๋อ สื้อ ตัว เส่า เฉียน?",
+      "translation": "ลดราคาเสร็จแล้วเป็นเงินเท่าไหร่",
+      "chunks": [
+        "打完折是多少钱？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L04-C032",
+      "legacyId": "U06-L04-C032",
+      "position": 2,
+      "script": "这个有买一送一的活动吗？",
+      "pronunciation": "zhè gè yǒu mǎi yī sòng yī de huó dòng ma?",
+      "phonetic": "เจ้อ เก้อ โหย่ว หม่าย อี ส้ง อี เตอ หวอ ต้ง มะ?",
+      "translation": "อันนี้มีโปรโมชันซื้อหนึ่งแถมหนึ่งไหม",
+      "chunks": [
+        "这个有买一送一的活动吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L04-C033",
+      "legacyId": "U06-L04-C033",
+      "position": 3,
+      "script": "我要买这个作为礼物。",
+      "pronunciation": "wǒ yào mǎi zhè gè zuò wéi lǐ wù.",
+      "phonetic": "หว่อ เย้า หม่าย เจ้อ เก้อ จั้ว เย หลี่ วู่.",
+      "translation": "ฉันจะซื้ออันนี้เพื่อเป็นของขวัญ",
+      "chunks": [
+        "我要买这个作为礼物。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L04-C034",
+      "legacyId": "U06-L04-C034",
+      "position": 4,
+      "script": "可以帮我包装一下吗？",
+      "pronunciation": "kě yǐ bāng wǒ bāo zhuāng yí xià ma?",
+      "phonetic": "เขอ อี่ ปัง หว่อ เปา จวอง อี๋ เซี่ย มะ?",
+      "translation": "ช่วยห่อของขวัญให้หน่อยได้ไหม",
+      "chunks": [
+        "可以帮我包装一下吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L04-C035",
+      "legacyId": "U06-L04-C035",
+      "position": 5,
+      "script": "请在这里扫码付款。",
+      "pronunciation": "qǐng zài zhè lǐ sǎo mǎ fù kuǎn.",
+      "phonetic": "ฉิ่ง ไซ้ เจ้อ หลี่ ส๋าว หม๋า ฟู่ ขวั่น.",
+      "translation": "กรุณาสแกนคิวอาร์โค้ดจ่ายเงินตรงนี้ครับ/ค่ะ",
+      "chunks": [
+        "请在这里扫码付款。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L04-C036",
+      "legacyId": "U06-L04-C036",
+      "position": 6,
+      "script": "信号不好，扫不出来。",
+      "pronunciation": "xìn hào bù hǎo, sǎo bù chū lái.",
+      "phonetic": "ซิ้น ห้าว ปู้ ห่าว, ส๋าว ปู้ ชู ไหล.",
+      "translation": "สัญญาณไม่ดี สแกนไม่ขึ้นเลย",
+      "chunks": [
+        "信号不好，扫不出来。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L04-C037",
+      "legacyId": "U06-L04-C037",
+      "position": 7,
+      "script": "请给我换一个全新的。",
+      "pronunciation": "qǐng gěi wǒ huàn yí gè quán xīn de.",
+      "phonetic": "ฉิ่ง เก๋ย หว่อ ห้วน อี๋ เก้อ ฉวาน ซิน เตอ.",
+      "translation": "กรุณาเปลี่ยนอันใหม่เอี่ยมให้ฉันหน่อย",
+      "chunks": [
+        "请给我换一个全新的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L04-C038",
+      "legacyId": "U06-L04-C038",
+      "position": 8,
+      "script": "这双鞋已经断货了。",
+      "pronunciation": "zhè shuāng xié yǐ jīng duàn huò le.",
+      "phonetic": "เจ้อ สวอง เสีย อี่ จิง ต้วน หว้อ เลอ.",
+      "translation": "รองเท้ารุ่นนี้ของหมดสต็อกแล้ว",
+      "chunks": [
+        "这双鞋已经断货了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L04-C039",
+      "legacyId": "U06-L04-C039",
+      "position": 9,
+      "script": "还要买点别的吗？",
+      "pronunciation": "hái yào mǎi diǎn bié de ma?",
+      "phonetic": "หาย เย้า หม่าย เตี่ยน แปี๋ย เตอ มะ?",
+      "translation": "ยังต้องซื้ออย่างอื่นเพิ่มอีกไหม",
+      "chunks": [
+        "还要买点别的吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L04-C040",
+      "legacyId": "U06-L04-C040",
+      "position": 10,
+      "script": "就要这些，结账吧。",
+      "pronunciation": "jiù yào zhè xiē, jié zhàng ba.",
+      "phonetic": "จิ้ว เย้า เจ้อ เซีย, เจี๋ย จ้าง ปะ.",
+      "translation": "เอาแค่นี้แหละ คิดเงินเลย",
+      "chunks": [
+        "就要这些，结账吧。"
+      ]
+    }
+  ]
+}

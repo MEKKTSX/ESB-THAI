@@ -1,0 +1,391 @@
+{
+  "id": "E21",
+  "number": 5,
+  "title": "E. Phrasal Verbs (Essential Set)",
+  "chunks": [
+    {
+      "id": "en:session-2-1:E21:1",
+      "legacyId": "E21-0",
+      "position": 1,
+      "script": "I gave up trying to fix it myself.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันยอมแพ้แล้ว เลิกซ่อมด้วยตัวเองดีกว่า",
+      "chunks": [
+        "I gave up trying",
+        "to fix it myself."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:2",
+      "legacyId": "E21-1",
+      "position": 2,
+      "script": "Don't give up — you're almost there.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่ายอมแพ้นะ ใกล้ถึงแล้ว",
+      "chunks": [
+        "Don't give up — you're almost there."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:3",
+      "legacyId": "E21-2",
+      "position": 3,
+      "script": "I found out that the event was cancelled.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมารู้ทีหลังว่างานถูกยกเลิก",
+      "chunks": [
+        "I found out",
+        "that the event was cancelled."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:4",
+      "legacyId": "E21-3",
+      "position": 4,
+      "script": "How did you find out about this place?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรู้จักที่นี่ได้ยังไง?",
+      "chunks": [
+        "How did you find out",
+        "about this place?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:5",
+      "legacyId": "E21-4",
+      "position": 5,
+      "script": "I can't figure out how to use this app.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหาไม่เจอเลยว่าต้องใช้แอปนี้ยังไง",
+      "chunks": [
+        "I can't figure out how",
+        "to use this app."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:6",
+      "legacyId": "E21-5",
+      "position": 6,
+      "script": "Let me figure out the best route first.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้ฉันหาเส้นทางที่ดีที่สุดก่อนนะ",
+      "chunks": [
+        "Let me figure out the best route first."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:7",
+      "legacyId": "E21-6",
+      "position": 7,
+      "script": "I keep putting off going to the dentist.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเลื่อนการไปหาหมอฟันมาตลอดเลย",
+      "chunks": [
+        "I keep putting off going",
+        "to the dentist."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:8",
+      "legacyId": "E21-7",
+      "position": 8,
+      "script": "The meeting was put off until next week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "การประชุมถูกเลื่อนออกไปอาทิตย์หน้า",
+      "chunks": [
+        "The meeting was put off until next week."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:9",
+      "legacyId": "E21-8",
+      "position": 9,
+      "script": "We ran out of coffee this morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เช้านี้กาแฟหมดพอดีเลย",
+      "chunks": [
+        "We ran out of coffee this morning."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:10",
+      "legacyId": "E21-9",
+      "position": 10,
+      "script": "I'm running out of time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังจะหมดเวลาแล้ว",
+      "chunks": [
+        "I'm running out of time."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:11",
+      "legacyId": "E21-10",
+      "position": 11,
+      "script": "Let me look up the word for you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้ฉันค้นความหมายของคำนั้นให้หน่อย",
+      "chunks": [
+        "Let me look up the word",
+        "for you."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:12",
+      "legacyId": "E21-11",
+      "position": 12,
+      "script": "I looked up the address online.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันค้นที่อยู่ออนไลน์ไว้แล้ว",
+      "chunks": [
+        "I looked up the address online."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:13",
+      "legacyId": "E21-12",
+      "position": 13,
+      "script": "Can you turn off the lights when you leave?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยปิดไฟก่อนออกไปด้วยได้ไหม?",
+      "chunks": [
+        "Can you turn off the lights",
+        "when you leave?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:14",
+      "legacyId": "E21-13",
+      "position": 14,
+      "script": "Turn on the fan — it's so hot in here.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เปิดพัดลมหน่อยนะ ในนี้ร้อนมาก",
+      "chunks": [
+        "Turn",
+        "on the fan — it's",
+        "so hot",
+        "in here."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:15",
+      "legacyId": "E21-14",
+      "position": 15,
+      "script": "Can you pick me up at the airport?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มารับฉันที่สนามบินได้ไหม?",
+      "chunks": [
+        "Can you pick me up",
+        "at the airport?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:16",
+      "legacyId": "E21-15",
+      "position": 16,
+      "script": "I picked up some snacks on the way home.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันแวะซื้อขนมมาฝากตอนกลับบ้าน",
+      "chunks": [
+        "I picked up some snacks",
+        "on the way home."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:17",
+      "legacyId": "E21-16",
+      "position": 17,
+      "script": "Carry on — don't let me interrupt you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทำต่อไปเลยนะ ไม่ต้องหยุดเพราะฉัน",
+      "chunks": [
+        "Carry",
+        "on — don't let me interrupt you."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:18",
+      "legacyId": "E21-17",
+      "position": 18,
+      "script": "We carried on working despite the noise.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราทำงานต่อไปแม้จะมีเสียงดัง",
+      "chunks": [
+        "We carried",
+        "on working despite the noise."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:19",
+      "legacyId": "E21-18",
+      "position": 19,
+      "script": "I need to get rid of these old clothes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องจัดการเสื้อผ้าเก่าๆ พวกนี้ซักที",
+      "chunks": [
+        "I need",
+        "to get rid of these old clothes."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:20",
+      "legacyId": "E21-19",
+      "position": 20,
+      "script": "How do I get rid of this virus on my computer?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จะจัดการไวรัสในคอมตัวนี้ยังไงดี?",
+      "chunks": [
+        "How do I get rid of this virus",
+        "on my computer?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:21",
+      "legacyId": "E21-20",
+      "position": 21,
+      "script": "She brought up an interesting point in the meeting.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอหยิบยกประเด็นที่น่าสนใจขึ้นมาในที่ประชุม",
+      "chunks": [
+        "She brought up an interesting point",
+        "in the meeting."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:22",
+      "legacyId": "E21-21",
+      "position": 22,
+      "script": "Don't bring up that topic — it's sensitive.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่าพูดเรื่องนั้นนะ มันเป็นเรื่องอ่อนไหว",
+      "chunks": [
+        "Don't bring up",
+        "that topic — it's sensitive."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:23",
+      "legacyId": "E21-22",
+      "position": 23,
+      "script": "Can you come up with a better idea?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณคิดไอเดียที่ดีกว่านี้ออกไหม?",
+      "chunks": [
+        "Can you come up",
+        "with a better idea?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:24",
+      "legacyId": "E21-23",
+      "position": 24,
+      "script": "I couldn't come up with an excuse in time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันคิดข้ออ้างไม่ทันเลย",
+      "chunks": [
+        "I couldn't come up",
+        "with an excuse",
+        "in time."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:25",
+      "legacyId": "E21-24",
+      "position": 25,
+      "script": "Can you help me set up this new phone?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยฉันตั้งค่ามือถือเครื่องใหม่หน่อยได้ไหม?",
+      "chunks": [
+        "Can you help me set up this new phone?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:26",
+      "legacyId": "E21-25",
+      "position": 26,
+      "script": "We need to set up a meeting with the team.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราต้องนัดประชุมกับทีมก่อน",
+      "chunks": [
+        "We need",
+        "to set up a meeting",
+        "with the team."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:27",
+      "legacyId": "E21-26",
+      "position": 27,
+      "script": "I went through a really difficult time last year.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปีที่แล้วฉันผ่านช่วงเวลาที่ยากมากมาได้",
+      "chunks": [
+        "I went through a really difficult time last year."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:28",
+      "legacyId": "E21-27",
+      "position": 28,
+      "script": "Let me go through the plan one more time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้ฉันทบทวนแผนอีกสักรอบนะ",
+      "chunks": [
+        "Let me go through the plan one more time."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:29",
+      "legacyId": "E21-28",
+      "position": 29,
+      "script": "I'm looking forward to the holidays.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตั้งตารอวันหยุดมากเลย",
+      "chunks": [
+        "I'm looking forward",
+        "to the holidays."
+      ]
+    },
+    {
+      "id": "en:session-2-1:E21:30",
+      "legacyId": "E21-29",
+      "position": 30,
+      "script": "We should catch up sometime soon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราควรหาเวลานั่งคุยกันบ้างนะ",
+      "chunks": [
+        "We should catch up sometime soon."
+      ]
+    }
+  ]
+}

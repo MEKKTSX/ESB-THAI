@@ -1,0 +1,127 @@
+{
+  "id": "U06-L03",
+  "number": 3,
+  "title": "ฉันจ่ายเงินสดละกัน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U06-L03-C021",
+      "legacyId": "U06-L03-C021",
+      "position": 1,
+      "script": "我付现金吧。",
+      "pronunciation": "wǒ fù xiàn jīn ba.",
+      "phonetic": "หว่อ ฟู่ เสี้ยน จิน ปะ.",
+      "translation": "ฉันจ่ายเงินสดละกัน",
+      "chunks": [
+        "我付现金吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L03-C022",
+      "legacyId": "U06-L03-C022",
+      "position": 2,
+      "script": "请给我开张发票。",
+      "pronunciation": "qǐng gěi wǒ kāi zhāng fā piào.",
+      "phonetic": "ฉิ่ง เก๋ย หว่อ ไค จาง ฟา เพี้ยว.",
+      "translation": "กรุณาออกใบเสร็จ/ใบกำกับภาษีให้ฉันด้วย",
+      "chunks": [
+        "请给我开张发票。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L03-C023",
+      "legacyId": "U06-L03-C023",
+      "position": 3,
+      "script": "需要收据吗？",
+      "pronunciation": "xū yào shōu jù ma?",
+      "phonetic": "ซวี่ เย้า โซว จวี่ มะ?",
+      "translation": "ต้องการบิลเงินสด/ใบเสร็จไหม",
+      "chunks": [
+        "需要收据吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L03-C024",
+      "legacyId": "U06-L03-C024",
+      "position": 4,
+      "script": "请帮我拿个袋子。",
+      "pronunciation": "qǐng bāng wǒ ná gè dài zi.",
+      "phonetic": "ฉิ่ง ปัง หว่อ น๋า เก้อ ต้าย จิ.",
+      "translation": "กรุณาหยิบถุงให้ฉันใบหนึ่ง",
+      "chunks": [
+        "请帮我拿个袋子。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L03-C025",
+      "legacyId": "U06-L03-C025",
+      "position": 5,
+      "script": "这个袋子要收费吗？",
+      "pronunciation": "zhè gè dài zi yào shōu fèi ma?",
+      "phonetic": "เจ้อ เก้อ ต้าย จิ เย้า โซว เฟ่ย มะ?",
+      "translation": "ถุงใบนี้ต้องคิดเงินเพิ่มไหม",
+      "chunks": [
+        "这个袋子要收费吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L03-C026",
+      "legacyId": "U06-L03-C026",
+      "position": 6,
+      "script": "尺寸不合适，可以换吗？",
+      "pronunciation": "chǐ cùn bù hé shì, kě yǐ huàn ma?",
+      "phonetic": "ฉื่อ ชวิ่น ปู้ เหอ สื้อ, เขอ อี่ ห้วน มะ?",
+      "translation": "ไซส์ไม่พอดี เปลี่ยนได้ไหม",
+      "chunks": [
+        "尺寸不合适，可以换吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L03-C027",
+      "legacyId": "U06-L03-C027",
+      "position": 7,
+      "script": "这件有质量问题，我想退货。",
+      "pronunciation": "zhè jiàn yǒu zhì liàng wèn tí, wǒ xiǎng tuì huò.",
+      "phonetic": "เจ้อ เจี้ยน โหย่ว จื้อ เลี้ยง เวิ่น ถี, หว่อ แฉี่ยง ทุ่ย หว้อ.",
+      "translation": "ตัวนี้มีปัญหาเรื่องคุณภาพ ฉันอยากคืนสินค้า",
+      "chunks": [
+        "这件有质量问题，我想退货。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L03-C028",
+      "legacyId": "U06-L03-C028",
+      "position": 8,
+      "script": "退款什么时候能到账？",
+      "pronunciation": "tuì kuǎn shén me shí hou néng dào zhàng?",
+      "phonetic": "ทุ่ย ขวั่น เซิ่น เมอ สือ โห่ว เหนิง ต้าว จ้าง?",
+      "translation": "เงินคืนจะเข้าบัญชีตอนไหน",
+      "chunks": [
+        "退款什么时候能到账？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L03-C029",
+      "legacyId": "U06-L03-C029",
+      "position": 9,
+      "script": "试衣间在哪儿？",
+      "pronunciation": "shì yī jiān zài nǎr?",
+      "phonetic": "สื้อ อี เจียน ไซ้ หน่าร์?",
+      "translation": "ห้องลองเสื้ออยู่ที่ไหน",
+      "chunks": [
+        "试衣间在哪儿？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L03-C030",
+      "legacyId": "U06-L03-C030",
+      "position": 10,
+      "script": "我觉得这个颜色不太适合我。",
+      "pronunciation": "wǒ jué de zhè ge yán sè bú tài shì hé wǒ.",
+      "phonetic": "หว่อ จว๋ะ เตอ เจ้อ เกอ แหยน เซ่อ บู๋ ไท่ สื้อ เหอ หว่อ.",
+      "translation": "ฉันรู้สึกว่าสีนี้ไม่ค่อยเหมาะกับฉันเท่าไหร่",
+      "chunks": [
+        "我觉得这个颜色不太适合我。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U15-L01",
+  "number": 1,
+  "title": "ฉันเรียนจีนมาไม่นาน ยังพูดไม่ค่อยคล่อง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U15-L01-C001",
+      "legacyId": "U15-L01-C001",
+      "position": 1,
+      "script": "我学中文不久，说得不太流利。",
+      "pronunciation": "wǒ xué zhōng wén bù jiǔ, shuō de bú tài liú lì.",
+      "phonetic": "หว่อ เสวี่ย จง เหวิน ปู้ จิ่ว, ซัว เตอ บู๋ ไท่ หลิว ลี่.",
+      "translation": "ฉันเรียนจีนมาไม่นาน ยังพูดไม่ค่อยคล่อง",
+      "chunks": [
+        "我学中文不久，说得不太流利。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U15-L01-C002",
+      "legacyId": "U15-L01-C002",
+      "position": 2,
+      "script": "今天我有很多工作要处理。",
+      "pronunciation": "jīn tiān wǒ yǒu hěn duō gōng zuò yào chǔ lǐ.",
+      "phonetic": "จิน เทียน หว่อ โหย่ว เห่น ตัว กง จั้ว เย้า ฉู่ หลี่.",
+      "translation": "วันนี้ฉันมีงานต้องจัดการเยอะมาก",
+      "chunks": [
+        "今天我有很多工作要处理。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U15-L01-C003",
+      "legacyId": "U15-L01-C003",
+      "position": 3,
+      "script": "昨天我买了一本中文书。",
+      "pronunciation": "zuó tiān wǒ mǎi le yì běn zhōng wén shū.",
+      "phonetic": "จั๋ว เทียน หว่อ หม่าย เลอ อี้ เปิ่น จง เหวิน ซู.",
+      "translation": "เมื่อวานฉันซื้อหนังสือภาษาจีนมาเล่มนึง",
+      "chunks": [
+        "昨天我买了一本中文书。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U15-L01-C004",
+      "legacyId": "U15-L01-C004",
+      "position": 4,
+      "script": "明天晚饭我想去吃火锅。",
+      "pronunciation": "míng tiān wǎn fàn wǒ xiǎng qù chī huǒ guō.",
+      "phonetic": "หมิง เทียน หวั่น ฟ้าน หว่อ แฉี่ยง ชวี่ ชือ โห่ว กัว.",
+      "translation": "มื้อเย็นพรุ่งนี้ฉันอยากไปกินหม้อไฟ",
+      "chunks": [
+        "明天晚饭我想去吃火锅。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U15-L01-C005",
+      "legacyId": "U15-L01-C005",
+      "position": 5,
+      "script": "我每天早上六点半准时起床。",
+      "pronunciation": "wǒ měi tiān zǎo shang liù diǎn bàn zhǔn shí qǐ chuáng.",
+      "phonetic": "หว่อ เหม่ย เทียน เจ๋า ส่าง ลิ่ว เตี่ยน ป้าน จวิ๋น สือ ฉี่ ฉวอง.",
+      "translation": "ทุกเช้าฉันตื่นนอนตอนหกโมงครึ่งตรงเวลา",
+      "chunks": [
+        "我每天早上六点半准时起床。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U15-L01-C006",
+      "legacyId": "U15-L01-C006",
+      "position": 6,
+      "script": "起初我觉得很难，后来就习惯了。",
+      "pronunciation": "qǐ chū wǒ jué de hěn nán, hòu lái jiù xí guàn le.",
+      "phonetic": "ฉี่ ชู หว่อ จว๋ะ เตอ เห่น นาน, โห่ว ไหล จิ้ว สี่ ก้วน เลอ.",
+      "translation": "ตอนแรกฉันรู้สึกว่ายาก หลังจากนั้นก็ชินแล้ว",
+      "chunks": [
+        "起初我觉得很难，后来就习惯了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U15-L01-C007",
+      "legacyId": "U15-L01-C007",
+      "position": 7,
+      "script": "虽然工作很忙，但我过得很充实。",
+      "pronunciation": "suī rán gōng zuò hěn máng, dàn wǒ guò de hěn chōng shí.",
+      "phonetic": "ซุย ราน กง จั้ว เห่น หมาง, ต้าน หว่อ กั้ว เตอ เห่น โซง สื้อ.",
+      "translation": "ถึงแม้ว่างานจะยุ่งมาก แต่ฉันก็ใช้ชีวิตได้อย่างคุ้มค่า",
+      "chunks": [
+        "虽然工作很忙，但我过得很充实。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U15-L01-C008",
+      "legacyId": "U15-L01-C008",
+      "position": 8,
+      "script": "如果有空，我们一起去喝咖啡吧。",
+      "pronunciation": "rú guǒ yǒu kòng, wǒ men yì qǐ qù hē kā fēi ba.",
+      "phonetic": "หรู ก๋ัว โหย่ว ค่ง, หว่อ เมิน อี้ ฉี่ ชวี่ เฮอ คา เฟย ปะ.",
+      "translation": "ถ้ามีเวลาว่าง พวกเราไปดื่มกาแฟด้วยกันนะ",
+      "chunks": [
+        "如果有空，我们一起去喝咖啡吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U15-L01-C009",
+      "legacyId": "U15-L01-C009",
+      "position": 9,
+      "script": "我特别喜欢中国传统文化。",
+      "pronunciation": "wǒ tè bié xǐ huan zhōng guó chuán tǒng wén huà.",
+      "phonetic": "หว่อ เท่อ เปี๋ย สี่ หวน จง ก๋ัว ฉวาน ถ่ง เน หว้า.",
+      "translation": "สิ่งที่ฉันชอบเป็นพิเศษคือวัฒนธรรมดั้งเดิมของจีน",
+      "chunks": [
+        "我特别喜欢中国传统文化。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U15-L01-C010",
+      "legacyId": "U15-L01-C010",
+      "position": 10,
+      "script": "我的短期计划是去北京旅游。",
+      "pronunciation": "wǒ de duǎn qī jì huà shì qù běi jīng lǚ yóu.",
+      "phonetic": "หว่อ เตอ ต๋ัน ชี จี้ หว้า สื้อ ชวี่ เป่ย จิง ลวี่ โหย่ว.",
+      "translation": "เป้าหมายระยะสั้นของฉันคือไปเที่ยวปักกิ่ง",
+      "chunks": [
+        "我的短期计划是去北京旅游。"
+      ]
+    }
+  ]
+}

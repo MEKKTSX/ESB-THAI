@@ -1,0 +1,127 @@
+{
+  "id": "U08-L02",
+  "number": 2,
+  "title": "อย่ามัวแต่เล่นมือถือเลย เดี๋ยวตาจะเจ็บเอานะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L02-C011",
+      "legacyId": "U08-L02-C011",
+      "position": 1,
+      "script": "别老是玩手机，眼睛会疼的。",
+      "pronunciation": "bié lǎo shi wán shǒu jī, yǎn jing huì téng de.",
+      "phonetic": "เปี๋ย เหล่า สิ หวัน โส่ว จี, แหย่น จิง ฮุ่ย เถิง เตอ.",
+      "translation": "อย่ามัวแต่เล่นมือถือเลย เดี๋ยวตาจะเจ็บเอานะ",
+      "chunks": [
+        "别老是玩手机，眼睛会疼的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L02-C012",
+      "legacyId": "U08-L02-C012",
+      "position": 2,
+      "script": "你平时刷抖音吗？",
+      "pronunciation": "nǐ píng shí shuā dǒu yīn ma?",
+      "phonetic": "หนี่ ผิง สื้อ ซัว โต่ว อิน มะ?",
+      "translation": "ปกติคุณเล่นติ๊กต็อก (Douyin) ไหม",
+      "chunks": [
+        "你平时刷抖音吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L02-C013",
+      "legacyId": "U08-L02-C013",
+      "position": 3,
+      "script": "有空的时候我喜欢看动漫。",
+      "pronunciation": "yǒu kòng de shí hou wǒ xǐ huan kàn dòng màn.",
+      "phonetic": "โหย่ว ค่ง เตอ สือ โห่ว หว่อ สี่ หวน ค่าน ต้ง ม่าน.",
+      "translation": "เวลาว่างฉันชอบดูอนิเมะ",
+      "chunks": [
+        "有空的时候我喜欢看动漫。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L02-C014",
+      "legacyId": "U08-L02-C014",
+      "position": 4,
+      "script": "你喜欢听什么类型的音乐？",
+      "pronunciation": "nǐ xǐ huan tīng shén me lèi xíng de yīn yuè?",
+      "phonetic": "หนี่ สี่ หวน ทิง เซิ่น เมอ เลุ่ย สิง เตอ อิน ยเว่?",
+      "translation": "คุณชอบฟังเพลงแนวไหน",
+      "chunks": [
+        "你喜欢听什么类型的音乐？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L02-C015",
+      "legacyId": "U08-L02-C015",
+      "position": 5,
+      "script": "我下班后去健身房健身。",
+      "pronunciation": "wǒ xià bān hòu qù jiàn shēn fáng jiàn shēn.",
+      "phonetic": "หว่อ เซี่ย ปาน โห่ว ชวี่ เจี้ยน เซิน ฝาง เจี้ยน เซิน.",
+      "translation": "หลังเลิกงานฉันไปออกกำลังกายที่ฟิตเนส",
+      "chunks": [
+        "我下班后去健身房健身。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L02-C016",
+      "legacyId": "U08-L02-C016",
+      "position": 6,
+      "script": "你多久跑一次步？",
+      "pronunciation": "nǐ duō jiǔ pǎo yí cì bù?",
+      "phonetic": "หนี่ ตัว จิ่ว ผ่าว อี๋ ซี่ ปู้?",
+      "translation": "คุณวิ่งจ็อกกิ้งบ่อยแค่ไหน / กี่วันครั้ง",
+      "chunks": [
+        "你多久跑一次步？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L02-C017",
+      "legacyId": "U08-L02-C017",
+      "position": 7,
+      "script": "今天累死了，我想早点儿歇着。",
+      "pronunciation": "wǒ jīn tiān lèi sǐ le, wǒ xiǎng zǎo diǎnr xiē zhe.",
+      "phonetic": "หว่อ จิน เทียน เลุ่ย สื่อ เลอ, หว่อ แฉี่ยง เจ๋า เดี๋ยร์ เซีย เจอะ.",
+      "translation": "วันนี้เหนื่อยจะตายอยู่แล้ว ฉันอยากรีบพักผ่อนเร็วหน่อย",
+      "chunks": [
+        "今天累死了，我想早点儿歇着。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L02-C018",
+      "legacyId": "U08-L02-C018",
+      "position": 8,
+      "script": "你周末一般做什么？",
+      "pronunciation": "nǐ zhōu mò yì bān zuò shén me?",
+      "phonetic": "หนี่ โจว ม่อ อี้ ปาน จั้ว เสิน เมอ?",
+      "translation": "ปกติสุดสัปดาห์คุณทำอะไร",
+      "chunks": [
+        "你周末一般做什么？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L02-C019",
+      "legacyId": "U08-L02-C019",
+      "position": 9,
+      "script": "我喜欢在周末睡懒觉。",
+      "pronunciation": "wǒ xǐ huan zài zhōu mò shuì lǎn jiào.",
+      "phonetic": "หว่อ สี่ หวน ไซ้ โจว ม่อ ซุ่ย หลั่น เจี้ยว.",
+      "translation": "ฉันชอบนอนตื่นสายในวันหยุดสุดสัปดาห์",
+      "chunks": [
+        "我喜欢在周末睡懒觉。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L02-C020",
+      "legacyId": "U08-L02-C020",
+      "position": 10,
+      "script": "每天做家务真让人头疼。",
+      "pronunciation": "měi tiān zuò jiā wù zhēn ràng rén tóu téng.",
+      "phonetic": "เหม่ย เทียน จั่ว เจีย วู่ เจิน รั้ง เหริน โถ่ว เถิง.",
+      "translation": "ทำงานบ้านทุกวันเนี่ยชวนให้ปวดหัวจริง ๆ",
+      "chunks": [
+        "每天做家务真让人头疼。"
+      ]
+    }
+  ]
+}

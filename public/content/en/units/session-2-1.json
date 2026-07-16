@@ -1,0 +1,74 @@
+{
+  "id": "session-2-1",
+  "number": 3,
+  "title": "Session 2.1: Grammar Gaps",
+  "description": "English sentence practice",
+  "lessons": [
+    {
+      "id": "A21",
+      "number": 1,
+      "title": "A. Passive Voice",
+      "chunkCount": 30
+    },
+    {
+      "id": "B21",
+      "number": 2,
+      "title": "B. Reported Speech",
+      "chunkCount": 30
+    },
+    {
+      "id": "C21",
+      "number": 3,
+      "title": "C. Present Perfect Continuous",
+      "chunkCount": 20
+    },
+    {
+      "id": "D21",
+      "number": 4,
+      "title": "D. Past Perfect (had done)",
+      "chunkCount": 20
+    },
+    {
+      "id": "E21",
+      "number": 5,
+      "title": "E. Phrasal Verbs (Essential Set)",
+      "chunkCount": 30
+    },
+    {
+      "id": "F21",
+      "number": 6,
+      "title": "F. Causative — have/get something done",
+      "chunkCount": 15
+    },
+    {
+      "id": "G21",
+      "number": 7,
+      "title": "G. Wish / If Only / Would Rather",
+      "chunkCount": 20
+    },
+    {
+      "id": "H21",
+      "number": 8,
+      "title": "H. Modal Verbs — Deduction & Past Speculation",
+      "chunkCount": 25
+    },
+    {
+      "id": "I21",
+      "number": 9,
+      "title": "I. So / Such / Too / Enough",
+      "chunkCount": 20
+    },
+    {
+      "id": "J21",
+      "number": 10,
+      "title": "J. Tag Questions & Indirect Questions (Extended)",
+      "chunkCount": 15
+    },
+    {
+      "id": "K21",
+      "number": 11,
+      "title": "K. Advanced Linking Words",
+      "chunkCount": 15
+    }
+  ]
+}

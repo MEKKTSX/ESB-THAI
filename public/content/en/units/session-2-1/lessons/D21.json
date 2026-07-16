@@ -1,0 +1,264 @@
+{
+  "id": "D21",
+  "number": 4,
+  "title": "D. Past Perfect (had done)",
+  "chunks": [
+    {
+      "id": "en:session-2-1:D21:1",
+      "legacyId": "D21-0",
+      "position": 1,
+      "script": "By the time I arrived, the movie had already started.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กว่าฉันจะไปถึง หนังก็เริ่มไปแล้ว",
+      "chunks": [
+        "By the time I arrived,",
+        "the movie had already started."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:2",
+      "legacyId": "D21-1",
+      "position": 2,
+      "script": "She had already left when I called.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอกลับไปแล้วตอนที่ฉันโทรหา",
+      "chunks": [
+        "She had already left",
+        "when I called."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:3",
+      "legacyId": "D21-2",
+      "position": 3,
+      "script": "I had never eaten sushi before I went to Japan.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนไปญี่ปุ่น ฉันไม่เคยกินซูชิมาก่อนเลย",
+      "chunks": [
+        "I had never eaten sushi before I went",
+        "to Japan."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:4",
+      "legacyId": "D21-3",
+      "position": 4,
+      "script": "He had finished all his work before the deadline.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาทำงานทั้งหมดเสร็จก่อนกำหนดเลย",
+      "chunks": [
+        "He had finished all his work before the deadline."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:5",
+      "legacyId": "D21-4",
+      "position": 5,
+      "script": "I was exhausted because I hadn't slept the night before.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเหนื่อยมากเพราะไม่ได้นอนมาคืนก่อน",
+      "chunks": [
+        "I was exhausted",
+        "because I hadn't slept the night before."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:6",
+      "legacyId": "D21-5",
+      "position": 6,
+      "script": "They had been waiting for two hours when he finally arrived.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขารอมาสองชั่วโมงกว่าเขาจะมาถึง",
+      "chunks": [
+        "They had been waiting",
+        "for two hours",
+        "when he finally arrived."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:7",
+      "legacyId": "D21-6",
+      "position": 7,
+      "script": "I realized I had left my keys at home.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันนึกขึ้นได้ว่าลืมกุญแจทิ้งไว้ที่บ้าน",
+      "chunks": [
+        "I realized I had left my keys",
+        "at home."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:8",
+      "legacyId": "D21-7",
+      "position": 8,
+      "script": "She had never driven on the highway before.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอไม่เคยขับรถบนทางด่วนมาก่อนเลย",
+      "chunks": [
+        "She had never driven",
+        "on the highway before."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:9",
+      "legacyId": "D21-8",
+      "position": 9,
+      "script": "By the time we got there, they had sold out.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กว่าเราจะไปถึง สินค้าก็หมดไปแล้ว",
+      "chunks": [
+        "By the time we got there,",
+        "they had sold out."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:10",
+      "legacyId": "D21-9",
+      "position": 10,
+      "script": "I hadn't heard the news until you told me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่รู้ข่าวนั้นเลยจนกว่าคุณจะบอก",
+      "chunks": [
+        "I hadn't heard the news until you told me."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:11",
+      "legacyId": "D21-10",
+      "position": 11,
+      "script": "He had studied hard for the exam but still failed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาอ่านหนังสือหนักมาก แต่ก็ยังสอบตก",
+      "chunks": [
+        "He had studied hard",
+        "for the exam",
+        "but still failed."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:12",
+      "legacyId": "D21-11",
+      "position": 12,
+      "script": "I had just finished eating when they arrived.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งกินข้าวเสร็จตอนที่พวกเขามาถึง",
+      "chunks": [
+        "I had just finished eating",
+        "when they arrived."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:13",
+      "legacyId": "D21-12",
+      "position": 13,
+      "script": "She was upset because someone had taken her seat.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอหัวร้อนเพราะมีคนมานั่งที่ของเธอ",
+      "chunks": [
+        "She was upset",
+        "because someone had taken her seat."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:14",
+      "legacyId": "D21-13",
+      "position": 14,
+      "script": "I knew I had made a mistake.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้ว่าตัวเองทำพลาดไปแล้ว",
+      "chunks": [
+        "I knew I had made a mistake."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:15",
+      "legacyId": "D21-14",
+      "position": 15,
+      "script": "The restaurant had closed by the time we arrived.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ร้านอาหารปิดไปแล้วกว่าพวกเราจะถึง",
+      "chunks": [
+        "The restaurant had closed by the time we arrived."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:16",
+      "legacyId": "D21-15",
+      "position": 16,
+      "script": "He said he had already seen that movie twice.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาบอกว่าดูหนังเรื่องนั้นไปสองรอบแล้ว",
+      "chunks": [
+        "He said he had already seen",
+        "that movie twice."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:17",
+      "legacyId": "D21-16",
+      "position": 17,
+      "script": "I had forgotten to save the file before the computer crashed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันลืมเซฟไฟล์ก่อนคอมจะแฮงค์",
+      "chunks": [
+        "I had forgotten",
+        "to save the file before the computer crashed."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:18",
+      "legacyId": "D21-17",
+      "position": 18,
+      "script": "She felt relieved because she had passed the test.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอรู้สึกโล่งอกเพราะสอบผ่านแล้ว",
+      "chunks": [
+        "She felt relieved",
+        "because she had passed the test."
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:19",
+      "legacyId": "D21-18",
+      "position": 19,
+      "script": "Had you ever been to Thailand before last year?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนปีที่แล้วคุณเคยมาเที่ยวไทยไหม?",
+      "chunks": [
+        "Had you ever been",
+        "to Thailand before last year?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:D21:20",
+      "legacyId": "D21-19",
+      "position": 20,
+      "script": "I wished I had taken the other road.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเสียดายที่ไม่ได้ไปอีกเส้นทางนึง",
+      "chunks": [
+        "I wished I had taken the other road."
+      ]
+    }
+  ]
+}

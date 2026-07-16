@@ -1,0 +1,127 @@
+{
+  "id": "U01-L05",
+  "number": 5,
+  "title": "กรุณาพูดอีกรอบครับ/ค่ะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U01-L05-C041",
+      "legacyId": "U01-L05-C041",
+      "position": 1,
+      "script": "请再说一遍。",
+      "pronunciation": "qǐng zài shuō yí biàn.",
+      "phonetic": "ฉิ่ง ไซ้ ซัว อี๋ เปี้ยน.",
+      "translation": "กรุณาพูดอีกรอบครับ/ค่ะ",
+      "chunks": [
+        "请再说一遍。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L05-C042",
+      "legacyId": "U01-L05-C042",
+      "position": 2,
+      "script": "什么意思？",
+      "pronunciation": "shén me yì si?",
+      "phonetic": "เซิ่น เมอ อี้ สิ?",
+      "translation": "หมายความว่ายังไง",
+      "chunks": [
+        "什么意思？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L05-C043",
+      "legacyId": "U01-L05-C043",
+      "position": 3,
+      "script": "请说慢一点儿。",
+      "pronunciation": "qǐng shuō màn yì diǎnr.",
+      "phonetic": "ฉิ่ง ซัว ม่าน อี้ เดี๋ยร์.",
+      "translation": "กรุณาพูดช้าลงหน่อยครับ/ค่ะ",
+      "chunks": [
+        "请说慢一点儿。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L05-C044",
+      "legacyId": "U01-L05-C044",
+      "position": 4,
+      "script": "这个字怎么读？",
+      "pronunciation": "zhè ge zì zěn me dú?",
+      "phonetic": "เจ้อ เกอ จื้อ เจิ่น เมอ ตู๋?",
+      "translation": "ตัวอักษรนี้อ่านยังไง",
+      "chunks": [
+        "这个字怎么读？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L05-C045",
+      "legacyId": "U01-L05-C045",
+      "position": 5,
+      "script": "大声一点儿。",
+      "pronunciation": "dà shēng yì diǎnr.",
+      "phonetic": "ต้า เซิง อี้ เดี๋ยร์.",
+      "translation": "ดังขึ้นอีกนิดนึง",
+      "chunks": [
+        "大声一点儿。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L05-C046",
+      "legacyId": "U01-L05-C046",
+      "position": 6,
+      "script": "写在这里吧。",
+      "pronunciation": "xiě zài zhè lǐ ba.",
+      "phonetic": "เสี่ย ไซ้ เจ้อ หลี่ ปะ.",
+      "translation": "เขียนตรงนี้เลยครับ/ค่ะ",
+      "chunks": [
+        "写在这里吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L05-C047",
+      "legacyId": "U01-L05-C047",
+      "position": 7,
+      "script": "我的汉语不好。",
+      "pronunciation": "wǒ de hàn yǔ bù hǎo.",
+      "phonetic": "หว่อ เตอ ฮั่น อวี่ ปู้ ห่าว.",
+      "translation": "ภาษาจีนของฉันไม่ดี",
+      "chunks": [
+        "我的汉语不好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L05-C048",
+      "legacyId": "U01-L05-C048",
+      "position": 8,
+      "script": "我只会说一点点。",
+      "pronunciation": "wǒ zhǐ huì shuō yì diǎndiǎn.",
+      "phonetic": "หว่อ จื่อ ฮุ่ย ซัว อี้ เตี่ยนเตียน.",
+      "translation": "ฉันพูดได้แค่ นิดๆ หน่อยๆ เท่านั้น",
+      "chunks": [
+        "我只会说一点点。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L05-C049",
+      "legacyId": "U01-L05-C049",
+      "position": 9,
+      "script": "我听力不太好。",
+      "pronunciation": "wǒ tīng lì bú tài hǎo.",
+      "phonetic": "หว่อ ทิง ลี่ บู๋ ไท่ ห่าว.",
+      "translation": "การฟังของฉันไม่ค่อยดีเท่าไหร่",
+      "chunks": [
+        "我听力不太好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L05-C050",
+      "legacyId": "U01-L05-C050",
+      "position": 10,
+      "script": "请用英语说。",
+      "pronunciation": "qǐng yòng yīng yǔ shuō.",
+      "phonetic": "ฉิ่ง ย่ง อิง อวี่ ซัว.",
+      "translation": "กรุณาพูดด้วยภาษาอังกฤษ",
+      "chunks": [
+        "请用英语说。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "id": "F2",
+  "number": 6,
+  "title": "F. Predictions & Promises (Will)",
+  "chunks": [
+    {
+      "id": "en:session-2:F2:1",
+      "legacyId": "F2-0",
+      "position": 1,
+      "script": "I’ll call you when I get home.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงบ้านแล้วเดี๋ยวฉันโทรหา",
+      "chunks": [
+        "I’ll call you",
+        "when I get home."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:2",
+      "legacyId": "F2-1",
+      "position": 2,
+      "script": "I’ll text you the address.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดี๋ยวฉันส่งที่อยู่ไปให้",
+      "chunks": [
+        "I’ll text you the address."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:3",
+      "legacyId": "F2-2",
+      "position": 3,
+      "script": "I’ll help you with your homework.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดี๋ยวฉันช่วยทำการบ้าน",
+      "chunks": [
+        "I’ll help you",
+        "with your homework."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:4",
+      "legacyId": "F2-3",
+      "position": 4,
+      "script": "I’ll pay for lunch today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มื้อเที่ยงวันนี้ฉันเลี้ยงเอง",
+      "chunks": [
+        "I’ll pay",
+        "for lunch today."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:5",
+      "legacyId": "F2-4",
+      "position": 5,
+      "script": "I’ll be back in five minutes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดี๋ยวฉันกลับมาใน 5 นาที",
+      "chunks": [
+        "I’ll be back",
+        "in five minutes."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:6",
+      "legacyId": "F2-5",
+      "position": 6,
+      "script": "I’ll do my best.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะพยายามให้ดีที่สุด",
+      "chunks": [
+        "I’ll do my best."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:7",
+      "legacyId": "F2-6",
+      "position": 7,
+      "script": "I won’t tell anyone your secret.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไม่บอกความลับคุณกับใคร",
+      "chunks": [
+        "I won’t tell anyone your secret."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:8",
+      "legacyId": "F2-7",
+      "position": 8,
+      "script": "I won’t be late, I promise.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันสัญญาว่าจะไม่สาย",
+      "chunks": [
+        "I won’t be late,",
+        "I promise."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:9",
+      "legacyId": "F2-8",
+      "position": 9,
+      "script": "I won’t forget to buy milk.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไม่ลืมซื้อนม",
+      "chunks": [
+        "I won’t forget",
+        "to buy milk."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:10",
+      "legacyId": "F2-9",
+      "position": 10,
+      "script": "I won’t let you down.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไม่ทำให้คุณผิดหวัง",
+      "chunks": [
+        "I won’t let you down."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:11",
+      "legacyId": "F2-10",
+      "position": 11,
+      "script": "I think it will rain tomorrow.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันคิดว่าพรุ่งนี้ฝนน่าจะตก",
+      "chunks": [
+        "I think it will rain tomorrow."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:12",
+      "legacyId": "F2-11",
+      "position": 12,
+      "script": "I think he will like the gift.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันว่าเขาน่าจะชอบของขวัญนะ",
+      "chunks": [
+        "I think he will like the gift."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:13",
+      "legacyId": "F2-12",
+      "position": 13,
+      "script": "I think we will win the game.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันว่าเราชนะเกมนี้แน่",
+      "chunks": [
+        "I think we will win the game."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:14",
+      "legacyId": "F2-13",
+      "position": 14,
+      "script": "I don’t think it will be a problem.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่คิดว่ามันจะเป็นปัญหานะ",
+      "chunks": [
+        "I don’t think it will be a problem."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:15",
+      "legacyId": "F2-14",
+      "position": 15,
+      "script": "Maybe I’ll go to the cinema later.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "บางทีเดี๋ยวฉันอาจจะไปดูหนัง",
+      "chunks": [
+        "Maybe I’ll go",
+        "to the cinema later."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:16",
+      "legacyId": "F2-15",
+      "position": 16,
+      "script": "Maybe I’ll stay in tonight.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คืนนี้ฉันอาจจะอยู่ห้องเฉยๆ",
+      "chunks": [
+        "Maybe I’ll stay",
+        "in tonight."
+      ]
+    },
+    {
+      "id": "en:session-2:F2:17",
+      "legacyId": "F2-16",
+      "position": 17,
+      "script": "Do you think it will work?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณคิดว่ามันจะได้ผลไหม?",
+      "chunks": [
+        "Do you think it will work?"
+      ]
+    },
+    {
+      "id": "en:session-2:F2:18",
+      "legacyId": "F2-17",
+      "position": 18,
+      "script": "Do you think she will say yes?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณคิดว่าเธอจะตอบตกลงไหม?",
+      "chunks": [
+        "Do you think she will say yes?"
+      ]
+    },
+    {
+      "id": "en:session-2:F2:19",
+      "legacyId": "F2-18",
+      "position": 19,
+      "script": "Where will you be in ten years?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อีก 10 ปีคุณจะอยู่ที่ไหน?",
+      "chunks": [
+        "Where will you be",
+        "in ten years?"
+      ]
+    },
+    {
+      "id": "en:session-2:F2:20",
+      "legacyId": "F2-19",
+      "position": 20,
+      "script": "It will probably be expensive.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันน่าจะราคาแพงอยู่นะ",
+      "chunks": [
+        "It will probably be expensive."
+      ]
+    }
+  ]
+}

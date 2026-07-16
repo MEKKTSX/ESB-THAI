@@ -1,0 +1,127 @@
+{
+  "id": "U13-L01",
+  "number": 1,
+  "title": "ขอโทษทีนะ เพิ่งเห็นข้อความ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U13-L01-C001",
+      "legacyId": "U13-L01-C001",
+      "position": 1,
+      "script": "不好意思，刚看到消息。",
+      "pronunciation": "bù hǎo yì si, gāng kàn dào xiāo xi.",
+      "phonetic": "ปู้ ห่าว อี้ สิ, กัง ค่าน ต้าว เสียว สิ.",
+      "translation": "ขอโทษทีนะ เพิ่งเห็นข้อความ",
+      "chunks": [
+        "不好意思，刚看到消息。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L01-C002",
+      "legacyId": "U13-L01-C002",
+      "position": 2,
+      "script": "我发你一张照片。",
+      "pronunciation": "wǒ fā nǐ yì zhāng zhào piàn.",
+      "phonetic": "หว่อ ฟา หนี่ อี้ จาง จ้าว เพี้ยน.",
+      "translation": "ฉันส่งรูปให้คุณรูปนึงนะ",
+      "chunks": [
+        "我发你一张照片。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L01-C003",
+      "legacyId": "U13-L01-C003",
+      "position": 3,
+      "script": "现在方便语音吗？",
+      "pronunciation": "xiàn zài fāng biàn yǔ yīn ma?",
+      "phonetic": "เซี่ยน ไซ้ ฟาง เปี้ยน อวี่ อิน มะ?",
+      "translation": "ตอนนี้สะดวกคุยเสียง/คอลสายไหม",
+      "chunks": [
+        "现在方便语音吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L01-C004",
+      "legacyId": "U13-L01-C004",
+      "position": 4,
+      "script": "我打中文很慢。",
+      "pronunciation": "wǒ dǎ zhōng wén hěn màn.",
+      "phonetic": "หว่อ ต๋า จง เหวิน เหิ่น ม่าน.",
+      "translation": "ฉันพิมพ์ภาษาจีนช้ามาก",
+      "chunks": [
+        "我打中文很慢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L01-C005",
+      "legacyId": "U13-L01-C005",
+      "position": 5,
+      "script": "可以发拼音给我吗？",
+      "pronunciation": "kě yǐ fā pīn yīn gěi wǒ ma?",
+      "phonetic": "เขอ อี่ ฟา พิน อิน เก๋ย หว่อ มะ?",
+      "translation": "ส่งพินอินให้ฉันหน่อยได้ไหม",
+      "chunks": [
+        "可以发拼音给我吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L01-C006",
+      "legacyId": "U13-L01-C006",
+      "position": 6,
+      "script": "这个网络词是什么意思？",
+      "pronunciation": "zhè ge wǎng luò cí shì shén me yì si?",
+      "phonetic": "เจ้อ เกอ หวั่ง ลั่ว ฉือ สื้อ เซิ่น เมอ อี้ สิ?",
+      "translation": "คำสแลงเน็ตคำนี้หมายความว่ายังไง",
+      "chunks": [
+        "这个网络词是什么意思？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L01-C007",
+      "legacyId": "U13-L01-C007",
+      "position": 7,
+      "script": "你平时用什么社交软件？",
+      "pronunciation": "nǐ píng shí yòng shén me shè jiāo ruǎn jiàn?",
+      "phonetic": "หนี่ ผิง สื้อ ย่ง เซิ่น เมอ เซ่อ เจียว ร่วน เจี้ยน?",
+      "translation": "ปกติคุณใช้แอปโซเชียลอะไร",
+      "chunks": [
+        "你平时用什么社交软件？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L01-C008",
+      "legacyId": "U13-L01-C008",
+      "position": 8,
+      "script": "记得给我点赞、评论。",
+      "pronunciation": "jì de gěi wǒ diǎn zàn, píng lùn.",
+      "phonetic": "จี้ เตอ เก๋ย หว่อ เตี่ยน ซ้าน, ผิง ลุ่น.",
+      "translation": "อย่าลืมกดไลก์ คอมเมนต์ให้ฉันด้วยนะ",
+      "chunks": [
+        "记得给我点赞、评论。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L01-C009",
+      "legacyId": "U13-L01-C009",
+      "position": 9,
+      "script": "我有事 点 忙，晚点聊。",
+      "pronunciation": "wǒ yǒu shì diǎn máng, wǎn diǎn liáo.",
+      "phonetic": "หว่อ โหย่ว สื้อ เตี่ยน หมาง, หวั่น เตี่ยน เลี้ยว.",
+      "translation": "ฉันมีธุระยุ่งนิดหน่อย ไว้ค่อยคุยกันนะ",
+      "chunks": [
+        "我有事 点 忙，晚点聊。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L01-C010",
+      "legacyId": "U13-L01-C010",
+      "position": 10,
+      "script": "嗨，最近怎么样？",
+      "pronunciation": "hāi, zuì jìn zěn me yàng?",
+      "phonetic": "ไฮ, จุ้ย จิ้น เจิ่น เมอ ย่าง?",
+      "translation": "ไฮ ช่วงนี้เป็นยังไงบ้าง",
+      "chunks": [
+        "嗨，最近怎么样？"
+      ]
+    }
+  ]
+}

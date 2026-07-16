@@ -1,0 +1,267 @@
+{
+  "id": "G2",
+  "number": 7,
+  "title": "G. Conditions & Possibilities",
+  "chunks": [
+    {
+      "id": "en:session-2:G2:1",
+      "legacyId": "G2-0",
+      "position": 1,
+      "script": "If I have time, I’ll help you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันมีเวลา ฉันจะช่วยนะ",
+      "chunks": [
+        "If I have time,",
+        "I’ll help you."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:2",
+      "legacyId": "G2-1",
+      "position": 2,
+      "script": "If I see him, I’ll tell him you said hello.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าเจอเขา ฉันจะบอกว่าคุณฝากทักทาย",
+      "chunks": [
+        "If I see him,",
+        "I’ll tell him you said hello."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:3",
+      "legacyId": "G2-2",
+      "position": 3,
+      "script": "If it rains, we’ll stay inside.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฝนตก เราจะอยู่ข้างใน",
+      "chunks": [
+        "If it rains,",
+        "we’ll stay inside."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:4",
+      "legacyId": "G2-3",
+      "position": 4,
+      "script": "If I miss the bus, I’ll take a taxi.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าตกรถเมล์ ฉันจะนั่งแท็กซี่ไป",
+      "chunks": [
+        "If I miss the bus,",
+        "I’ll take a taxi."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:5",
+      "legacyId": "G2-4",
+      "position": 5,
+      "script": "If you work hard, you’ll succeed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าคุณขยัน คุณจะประสบความสำเร็จ",
+      "chunks": [
+        "If you work hard,",
+        "you’ll succeed."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:6",
+      "legacyId": "G2-5",
+      "position": 6,
+      "script": "If you don’t hurry, you’ll be late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าไม่รีบ เดี๋ยวจะสายนะ",
+      "chunks": [
+        "If you don’t hurry,",
+        "you’ll be late."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:7",
+      "legacyId": "G2-6",
+      "position": 7,
+      "script": "If you don’t study, you won’t pass the exam.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าไม่ดูหนังสือ คุณจะสอบไม่ผ่าน",
+      "chunks": [
+        "If you don’t study,",
+        "you won’t pass the exam."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:8",
+      "legacyId": "G2-7",
+      "position": 8,
+      "script": "If the weather is nice, we’ll go to the beach.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าอากาศดี เราจะไปชายหาดกัน",
+      "chunks": [
+        "If the weather is nice,",
+        "we’ll go",
+        "to the beach."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:9",
+      "legacyId": "G2-8",
+      "position": 9,
+      "script": "If I get the job, I’ll be so happy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าได้งานนี้ ฉันจะดีใจมาก",
+      "chunks": [
+        "If I get the job,",
+        "I’ll be",
+        "so happy."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:10",
+      "legacyId": "G2-9",
+      "position": 10,
+      "script": "If I find your keys, I’ll let you know.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าเจอกุญแจ เดี๋ยวฉันบอกนะ",
+      "chunks": [
+        "If I find your keys,",
+        "I’ll let you know."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:11",
+      "legacyId": "G2-10",
+      "position": 11,
+      "script": "If you heat ice, it melts.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้านำน้ำแข็งไปให้ความร้อน มันจะละลาย",
+      "chunks": [
+        "If you heat ice,",
+        "it melts."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:12",
+      "legacyId": "G2-11",
+      "position": 12,
+      "script": "If I drink coffee at night, I can’t sleep.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันดื่มกาแฟตอนกลางคืน ฉันจะนอนไม่หลับ",
+      "chunks": [
+        "If I drink coffee",
+        "at night,",
+        "I can’t sleep."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:13",
+      "legacyId": "G2-12",
+      "position": 13,
+      "script": "If I am late, my boss gets angry.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันมาสาย เจ้านายจะโกรธ",
+      "chunks": [
+        "If I am late,",
+        "my boss gets angry."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:14",
+      "legacyId": "G2-13",
+      "position": 14,
+      "script": "If you need anything, just call me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าต้องการอะไร โทรหาฉันได้เลย",
+      "chunks": [
+        "If you need anything,",
+        "just call me."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:15",
+      "legacyId": "G2-14",
+      "position": 15,
+      "script": "If you have any questions, please ask.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้ามีคำถาม ถามได้เลยครับ",
+      "chunks": [
+        "If you have any questions,",
+        "please ask."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:16",
+      "legacyId": "G2-15",
+      "position": 16,
+      "script": "What will you do if it rains?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฝนตกคุณจะทำยังไง?",
+      "chunks": [
+        "What will you do if it rains?"
+      ]
+    },
+    {
+      "id": "en:session-2:G2:17",
+      "legacyId": "G2-16",
+      "position": 17,
+      "script": "What will you do if you lose your job?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าตกงานคุณจะทำยังไง?",
+      "chunks": [
+        "What will you do if you lose your job?"
+      ]
+    },
+    {
+      "id": "en:session-2:G2:18",
+      "legacyId": "G2-17",
+      "position": 18,
+      "script": "Where will you go if the hotel is full?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าโรงแรมเต็ม คุณจะไปที่ไหน?",
+      "chunks": [
+        "Where will you go if the hotel is full?"
+      ]
+    },
+    {
+      "id": "en:session-2:G2:19",
+      "legacyId": "G2-18",
+      "position": 19,
+      "script": "I’ll go to the party unless I’m too tired.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไปงานปาร์ตี้ เว้นแต่ว่าฉันจะเหนื่อยเกินไป",
+      "chunks": [
+        "I’ll go",
+        "to the party unless I’m too tired."
+      ]
+    },
+    {
+      "id": "en:session-2:G2:20",
+      "legacyId": "G2-19",
+      "position": 20,
+      "script": "I won’t buy it unless it’s on sale.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไม่ซื้อถ้มมันไม่ลดราคา",
+      "chunks": [
+        "I won’t buy it unless it’s",
+        "on sale."
+      ]
+    }
+  ]
+}

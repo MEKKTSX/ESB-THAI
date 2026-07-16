@@ -1,0 +1,127 @@
+{
+  "id": "U10-L01",
+  "number": 1,
+  "title": "วันนี้เป็นยังไงบ้าง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U10-L01-C001",
+      "legacyId": "U10-L01-C001",
+      "position": 1,
+      "script": "今天怎么样？",
+      "pronunciation": "jīn tiān zěn me yàng?",
+      "phonetic": "จิน เทียน เจิ่น เมอ ย่าง?",
+      "translation": "วันนี้เป็นยังไงบ้าง",
+      "chunks": [
+        "今天怎么样？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L01-C002",
+      "legacyId": "U10-L01-C002",
+      "position": 2,
+      "script": "最近工作忙吗？",
+      "pronunciation": "zuì jìn gōng zuò máng ma?",
+      "phonetic": "จุ้ย จิ้น กง จั้ว หมาง มะ?",
+      "translation": "ช่วงนี้งานยุ่งไหม",
+      "chunks": [
+        "最近工作忙吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L01-C003",
+      "legacyId": "U10-L01-C003",
+      "position": 3,
+      "script": "你吃饭了吗？",
+      "pronunciation": "nǐ chī fàn le ma?",
+      "phonetic": "หนี่ ชือ ฟ่าน เลอ มะ?",
+      "translation": "คุณกินข้าวหรือยัง",
+      "chunks": [
+        "你吃饭了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L01-C004",
+      "legacyId": "U10-L01-C004",
+      "position": 4,
+      "script": "你在干嘛呢？",
+      "pronunciation": "nǐ zài gàn má ne?",
+      "phonetic": "หนี่ ไซ้ ก้าน หมา เนอ?",
+      "translation": "ทำอะไรอยู่หรอเนี่ย",
+      "chunks": [
+        "你在干嘛呢？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L01-C005",
+      "legacyId": "U10-L01-C005",
+      "position": 5,
+      "script": "等一下你有空吗？",
+      "pronunciation": "děng yí xià nǐ yǒu kòng ma?",
+      "phonetic": "เติ๋ง อี๋ เซี่ย หนี่ โหย่ว ค่ง มะ?",
+      "translation": "เดี๋ยวคุณว่างไหม",
+      "chunks": [
+        "等一下你有空吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L01-C006",
+      "legacyId": "U10-L01-C006",
+      "position": 6,
+      "script": "这几天你忙不忙？",
+      "pronunciation": "zhè jǐ tiān nǐ máng bù máng?",
+      "phonetic": "เจ้อ จี๋ เทียน หนี่ หมาง ปู้ หมาง?",
+      "translation": "ช่วงสองสามวันนี้คุณยุ่งไหม",
+      "chunks": [
+        "这几天你忙不忙？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L01-C007",
+      "legacyId": "U10-L01-C007",
+      "position": 7,
+      "script": "好久没见了！",
+      "pronunciation": "hǎo jiǔ méi jiàn le!",
+      "phonetic": "ห่าว จิ่ว เหมย เจี้ยน เลอ!",
+      "translation": "ไม่ได้เจอกันตั้งนานเลย",
+      "chunks": [
+        "好久没见了！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L01-C008",
+      "legacyId": "U10-L01-C008",
+      "position": 8,
+      "script": "我挺想你的。",
+      "pronunciation": "wǒ tǐng xiǎng nǐ de.",
+      "phonetic": "หว่อ ถิ่ง แฉี่ยง หนี่ เตอ.",
+      "translation": "ฉันคิดถึงคุณจังเลย",
+      "chunks": [
+        "我挺想你的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L01-C009",
+      "legacyId": "U10-L01-C009",
+      "position": 9,
+      "script": "今天聊得很开心。",
+      "pronunciation": "jīn tiān liáo de hěn kāi xīn.",
+      "phonetic": "จิน เทียน เลี้ยว เตอ เห่น ไค ซิน.",
+      "translation": "วันนี้คุยสนุกมากเลย",
+      "chunks": [
+        "今天聊得很开心。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L01-C010",
+      "legacyId": "U10-L01-C010",
+      "position": 10,
+      "script": "没事，不用放在心上。",
+      "pronunciation": "méi shì, bú yòng fàng zài xīn shàng.",
+      "phonetic": "เหมย สื้อ, บู๋ ย่ง ฟ้าง ไซ้ ซิน ส่าง.",
+      "translation": "ไม่เป็นไรหรอก ไม่ต้องเก็บไปคิดมากนะ",
+      "chunks": [
+        "没事，不用放在心上。"
+      ]
+    }
+  ]
+}

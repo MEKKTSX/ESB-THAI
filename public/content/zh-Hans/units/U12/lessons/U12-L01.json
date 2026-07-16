@@ -1,0 +1,127 @@
+{
+  "id": "U12-L01",
+  "number": 1,
+  "title": "เขาเรียนอยู่ปริญญาตรี",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L01-C001",
+      "legacyId": "U12-L01-C001",
+      "position": 1,
+      "script": "他在读本科。",
+      "pronunciation": "tā zài dú běn kē.",
+      "phonetic": "ทา ไจ้ ตู๋ เปิ่น เคอ",
+      "translation": "เขาเรียนอยู่ปริญญาตรี",
+      "chunks": [
+        "他在读本科。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L01-C002",
+      "legacyId": "U12-L01-C002",
+      "position": 2,
+      "script": "你在哪个学校？",
+      "pronunciation": "nǐ zài nǎ ge xué xiào?",
+      "phonetic": "หนี่ ไจ้ น้า เกอะ เสวีย เสี้ยว",
+      "translation": "เธอเรียนอยู่โรงเรียน/มหาลัยไหน",
+      "chunks": [
+        "你在哪个学校？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L01-C003",
+      "legacyId": "U12-L01-C003",
+      "position": 3,
+      "script": "我刚大一。",
+      "pronunciation": "wǒ gāng dà yī.",
+      "phonetic": "หวั่ว กัง ต้า อี",
+      "translation": "ฉันเพิ่งอยู่ปีหนึ่ง",
+      "chunks": [
+        "我刚大一。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L01-C004",
+      "legacyId": "U12-L01-C004",
+      "position": 4,
+      "script": "他是研一的学生。",
+      "pronunciation": "tā shì yán yī de xué sheng.",
+      "phonetic": "ทา ซื่อ แหยน อี เตอะ เสวีย เซิง",
+      "translation": "เขาเป็นนักศึกษาป.โทปีหนึ่ง",
+      "chunks": [
+        "他是研一的学生。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L01-C005",
+      "legacyId": "U12-L01-C005",
+      "position": 5,
+      "script": "我是来留学的。",
+      "pronunciation": "wǒ shì lái liú xué de.",
+      "phonetic": "หวั่ว ซื่อ ไหล หลิว เสวีย เตอะ",
+      "translation": "ฉันมาเรียนต่อต่างประเทศ",
+      "chunks": [
+        "我是来留学的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L01-C006",
+      "legacyId": "U12-L01-C006",
+      "position": 6,
+      "script": "今年毕业。",
+      "pronunciation": "jīn nián bì yè.",
+      "phonetic": "จิน เหนียน ปี้ เย้",
+      "translation": "เรียนจบปีนี้",
+      "chunks": [
+        "今年毕业。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L01-C007",
+      "legacyId": "U12-L01-C007",
+      "position": 7,
+      "script": "拿到了录取通知书。",
+      "pronunciation": "ná dào le lù qǔ tōng zhī shū.",
+      "phonetic": "หนา เต้า เลอะ ลู่ ฉวี่ ทง จือ ซู",
+      "translation": "ได้รับใบตอบรับเข้าเรียนแล้ว",
+      "chunks": [
+        "拿到了录取通知书。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L01-C008",
+      "legacyId": "U12-L01-C008",
+      "position": 8,
+      "script": "学费有点贵。",
+      "pronunciation": "xué fèi yǒu diǎn guì.",
+      "phonetic": "เสวีย เฟ้ย โหย่ว เติ๋ยน กุ้ย",
+      "translation": "ค่าเทอมแพงนิดหน่อย",
+      "chunks": [
+        "学费有点贵。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L01-C009",
+      "legacyId": "U12-L01-C009",
+      "position": 9,
+      "script": "他申请了奖学金。",
+      "pronunciation": "tā shēn qǐng le jiǎng xué jīn.",
+      "phonetic": "ทา เซิน ฉิ่ง เลอะ เจี่ยง เสวีย จิน",
+      "translation": "เขาขอทุนการศึกษาไว้",
+      "chunks": [
+        "他申请了奖学金。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L01-C010",
+      "legacyId": "U12-L01-C010",
+      "position": 10,
+      "script": "你是什么专业的？",
+      "pronunciation": "nǐ shì shén me zhuān yè de?",
+      "phonetic": "หนี่ ซื่อ เสิน เมอะ จวน เย้ เตอะ",
+      "translation": "คุณเรียนสาขาอะไร",
+      "chunks": [
+        "你是什么专业的？"
+      ]
+    }
+  ]
+}

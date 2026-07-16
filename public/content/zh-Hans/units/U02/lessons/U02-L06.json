@@ -1,0 +1,127 @@
+{
+  "id": "U02-L06",
+  "number": 6,
+  "title": "คุณพักอยู่ที่ไหน / อาศัยอยู่ที่ไหน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L06-C051",
+      "legacyId": "U02-L06-C051",
+      "position": 1,
+      "script": "你住在哪儿？",
+      "pronunciation": "nǐ zhù zài nǎr?",
+      "phonetic": "หนี่ จู้ ไซ้ หน่าร์?",
+      "translation": "คุณพักอยู่ที่ไหน / อาศัยอยู่ที่ไหน",
+      "chunks": [
+        "你住在哪儿？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L06-C052",
+      "legacyId": "U02-L06-C052",
+      "position": 2,
+      "script": "我住在曼谷。",
+      "pronunciation": "wǒ zhù zài màn gǔ.",
+      "phonetic": "หว่อ จู้ ไซ้ ม่าน กู่.",
+      "translation": "ฉันอาศัยอยู่ที่กรุงเทพฯ",
+      "chunks": [
+        "我住在曼谷。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L06-C053",
+      "legacyId": "U02-L06-C053",
+      "position": 3,
+      "script": "你来泰国多久了？",
+      "pronunciation": "nǐ lái tài guó duō jiǔ le?",
+      "phonetic": "หนี่ ไหล ไท่ ก๋ัว ตัว จิ่ว เลอ?",
+      "translation": "คุณมาเมืองไทยนานเท่าไหร่แล้ว",
+      "chunks": [
+        "你来泰国多久了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L06-C054",
+      "legacyId": "U02-L06-C054",
+      "position": 4,
+      "script": "我刚到泰国三天。",
+      "pronunciation": "wǒ gāng dào tài guó sān tiān.",
+      "phonetic": "หว่อ กัง ต้าว ไท่ ก๋ัว ซาน เทียน.",
+      "translation": "ฉันเพิ่งมาถึงเมืองไทยได้สามวัน",
+      "chunks": [
+        "我刚到泰国三天。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L06-C055",
+      "legacyId": "U02-L06-C055",
+      "position": 5,
+      "script": "你在哪儿学汉语？",
+      "pronunciation": "nǐ zài nǎr xué hàn yǔ?",
+      "phonetic": "หนี่ ไซ้ หน่าร์ เสวี่ย ฮั่น อวี่?",
+      "translation": "คุณเรียนภาษาจีนที่ไหน",
+      "chunks": [
+        "你在哪儿学汉语？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L06-C056",
+      "legacyId": "U02-L06-C056",
+      "position": 6,
+      "script": "我在大学里学汉语。",
+      "pronunciation": "wǒ zài dà xué lǐ xué hàn yǔ.",
+      "phonetic": "หว่อ ไซ้ ต้า เสวี่ย หลี่ เสวี่ย ฮั่น อวี่.",
+      "translation": "ฉันเรียนภาษาจีนในมหาวิทยาลัย",
+      "chunks": [
+        "我在大学里学汉语。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L06-C057",
+      "legacyId": "U02-L06-C057",
+      "position": 7,
+      "script": "你觉得汉语难吗？",
+      "pronunciation": "nǐ jué de hàn yǔ nán ma?",
+      "phonetic": "หนี่ จว๋ะ เตอ ฮั่น อวี่ นาน มะ?",
+      "translation": "คุณรู้สึกว่าภาษาจีนยากไหม",
+      "chunks": [
+        "你觉得汉语难吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L06-C058",
+      "legacyId": "U02-L06-C058",
+      "position": 8,
+      "script": "我觉得发音有点儿难。",
+      "pronunciation": "wǒ jué de fā yīn yǒu diǎnr nán.",
+      "phonetic": "หว่อ จว๋ะ เตอ ฟา อิน โหย่ว เดี๋ยร์ นาน.",
+      "translation": "ฉันรู้สึกว่าการออกเสียงยากนิดหน่อย",
+      "chunks": [
+        "我觉得发音有点儿难。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L06-C059",
+      "legacyId": "U02-L06-C059",
+      "position": 9,
+      "script": "汉字太难写了。",
+      "pronunciation": "hàn zì tài nán xiě le.",
+      "phonetic": "ฮั่น จื้อ ไท่ นาน เสี่ย เลอ.",
+      "translation": "ตัวอักษรจีนเขียนยากเกินไป",
+      "chunks": [
+        "汉字太难写了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L06-C060",
+      "legacyId": "U02-L06-C060",
+      "position": 10,
+      "script": "请多指教。",
+      "pronunciation": "qǐng duō zhǐ jiào.",
+      "phonetic": "ฉิ่ง ตัว จื่อ เจี้ยว.",
+      "translation": "ขอคำแนะนำด้วยนะครับ/ค่ะ",
+      "chunks": [
+        "请多指教。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "id": "G22",
+  "number": 7,
+  "title": "G. Giving & Responding to News",
+  "chunks": [
+    {
+      "id": "en:session-2-2:G22:1",
+      "legacyId": "G22-0",
+      "position": 1,
+      "script": "I have some good news — I got the job!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมีข่าวดีนะ ฉันได้งานแล้ว!",
+      "chunks": [
+        "I have some good news — I got the job!"
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:2",
+      "legacyId": "G22-1",
+      "position": 2,
+      "script": "Oh, that's such a relief to hear!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โอ้ โล่งอกมากเลยที่ได้ยินแบบนี้!",
+      "chunks": [
+        "Oh,",
+        "that's such a relief",
+        "to hear!"
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:3",
+      "legacyId": "G22-2",
+      "position": 3,
+      "script": "I'm so happy for you — you deserve it!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดีใจให้มากเลยนะ คุณสมควรได้รับ!",
+      "chunks": [
+        "I'm",
+        "so happy",
+        "for you — you deserve it!"
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:4",
+      "legacyId": "G22-3",
+      "position": 4,
+      "script": "I'm sorry to hear that — are you okay?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เสียใจที่ได้ยินนะ คุณโอเคไหม?",
+      "chunks": [
+        "I'm sorry",
+        "to hear",
+        "that — are you okay?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:5",
+      "legacyId": "G22-4",
+      "position": 5,
+      "script": "That's terrible news — I hope things get better soon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ข่าวร้ายมากเลย หวังว่าทุกอย่างจะดีขึ้นเร็วๆ นี้นะ",
+      "chunks": [
+        "That's terrible news — I hope things get better soon."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:6",
+      "legacyId": "G22-5",
+      "position": 6,
+      "script": "That's amazing — congratulations!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยอดเยี่ยมมากเลย ขอแสดงความยินดีด้วย!",
+      "chunks": [
+        "That's amazing — congratulations!"
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:7",
+      "legacyId": "G22-6",
+      "position": 7,
+      "script": "I can't believe it — that's incredible!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เชื่อไม่ได้เลย สุดยอดมาก!",
+      "chunks": [
+        "I can't believe it — that's incredible!"
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:8",
+      "legacyId": "G22-7",
+      "position": 8,
+      "script": "Oh no, that's really unfortunate.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โอ้ไม่ นั่นโชคร้ายจริงๆ เลยนะ",
+      "chunks": [
+        "Oh no,",
+        "that's really unfortunate."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:9",
+      "legacyId": "G22-8",
+      "position": 9,
+      "script": "What a surprise — I didn't see that coming.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "น่าประหลาดใจมาก ฉันไม่ทันนึกเลย",
+      "chunks": [
+        "What a surprise — I didn't see",
+        "that coming."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:10",
+      "legacyId": "G22-9",
+      "position": 10,
+      "script": "That must be really hard for you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นคงลำบากมากสำหรับคุณเลยนะ",
+      "chunks": [
+        "That must be really hard",
+        "for you."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:11",
+      "legacyId": "G22-10",
+      "position": 11,
+      "script": "I'm glad things worked out in the end.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดีใจที่ทุกอย่างลงเอยได้ดี",
+      "chunks": [
+        "I'm glad things worked out",
+        "in the end."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:12",
+      "legacyId": "G22-11",
+      "position": 12,
+      "script": "Did you hear about what happened to Arm?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ได้ยินเรื่องที่เกิดกับอาร์มไหม?",
+      "chunks": [
+        "Did you hear",
+        "about what happened",
+        "to Arm?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:13",
+      "legacyId": "G22-12",
+      "position": 13,
+      "script": "Guess what — I'm moving to a new place!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดาอะไรสิ ฉันกำลังจะย้ายที่อยู่ใหม่!",
+      "chunks": [
+        "Guess what — I'm moving",
+        "to a new place!"
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:14",
+      "legacyId": "G22-13",
+      "position": 14,
+      "script": "You're not going to believe this, but I passed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณคงไม่เชื่อหรอก แต่ฉันผ่านมาได้",
+      "chunks": [
+        "You're not going",
+        "to believe this,",
+        "but I passed."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:15",
+      "legacyId": "G22-14",
+      "position": 15,
+      "script": "I have some bad news — the event's been cancelled.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีข่าวร้ายนิดนึง งานถูกยกเลิกแล้ว",
+      "chunks": [
+        "I have some bad news — the event's been cancelled."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:16",
+      "legacyId": "G22-15",
+      "position": 16,
+      "script": "How did it go? I've been waiting to hear!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป็นยังไงบ้าง? ฉันรอฟังอยู่เลย!",
+      "chunks": [
+        "How did it go?",
+        "I've been waiting",
+        "to hear!"
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:17",
+      "legacyId": "G22-16",
+      "position": 17,
+      "script": "That's the best news I've heard all week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นเป็นข่าวดีที่สุดที่ได้ยินทั้งสัปดาห์เลย",
+      "chunks": [
+        "That's the best news I've heard all week."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:18",
+      "legacyId": "G22-17",
+      "position": 18,
+      "script": "I'm not sure how to feel about that, honestly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จริงๆ แล้วฉันยังไม่รู้จะรู้สึกยังไงกับเรื่องนั้นเลย",
+      "chunks": [
+        "I'm not sure how",
+        "to feel",
+        "about",
+        "that, honestly."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:19",
+      "legacyId": "G22-18",
+      "position": 19,
+      "script": "Wow, that came out of nowhere.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ว้าว นั่นมาแบบไม่มีลางบอกเหตุเลยนะ",
+      "chunks": [
+        "Wow,",
+        "that came out of nowhere."
+      ]
+    },
+    {
+      "id": "en:session-2-2:G22:20",
+      "legacyId": "G22-19",
+      "position": 20,
+      "script": "That's so exciting — tell me everything!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตื่นเต้นมากเลย เล่าให้ฟังทั้งหมดเลยสิ!",
+      "chunks": [
+        "That's",
+        "so exciting — tell me everything!"
+      ]
+    }
+  ]
+}

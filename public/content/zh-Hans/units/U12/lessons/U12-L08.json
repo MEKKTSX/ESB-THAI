@@ -1,0 +1,127 @@
+{
+  "id": "U12-L08",
+  "number": 8,
+  "title": "เป็นพนักงานเสิร์ฟที่ร้านอาหาร",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L08-C071",
+      "legacyId": "U12-L08-C071",
+      "position": 1,
+      "script": "在餐厅当服务员。",
+      "pronunciation": "zài cān tīng dāng fú wù yuán.",
+      "phonetic": "ไจ้ ชาน ทิง ตัง ฝู อู้ แหยน",
+      "translation": "เป็นพนักงานเสิร์ฟที่ร้านอาหาร",
+      "chunks": [
+        "在餐厅当服务员。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L08-C072",
+      "legacyId": "U12-L08-C072",
+      "position": 2,
+      "script": "时薪是多少？",
+      "pronunciation": "shí xīn shì duō shǎo?",
+      "phonetic": "สือ ซิน ซื่อ ตัว เส่า",
+      "translation": "ค่าจ้างรายชั่วโมงเท่าไหร่",
+      "chunks": [
+        "时薪是多少？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L08-C073",
+      "legacyId": "U12-L08-C073",
+      "position": 3,
+      "script": "兼职做家教。",
+      "pronunciation": "jiān zhí zuò jiā jiào.",
+      "phonetic": "เจียน จื๋อ จั้ว เจีย เจี้ยว",
+      "translation": "ทำพาร์ตไทม์เป็นครูสอนพิเศษ",
+      "chunks": [
+        "兼职做家教。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L08-C074",
+      "legacyId": "U12-L08-C074",
+      "position": 4,
+      "script": "赚点零花钱。",
+      "pronunciation": "zhuàn diǎn líng huā qián.",
+      "phonetic": "จ้วน เติ๋ยน หลิง ฮวา เฉียน",
+      "translation": "หาเงินค่าขนมนิดหน่อย",
+      "chunks": [
+        "赚点零花钱。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L08-C075",
+      "legacyId": "U12-L08-C075",
+      "position": 5,
+      "script": "可以积累经验。",
+      "pronunciation": "kě yǐ jī lěi jīng yàn.",
+      "phonetic": "เข่อ อี่ จี เล่ย จิง ยั้น",
+      "translation": "สามารถสะสมประสบการณ์ได้",
+      "chunks": [
+        "可以积累经验。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L08-C076",
+      "legacyId": "U12-L08-C076",
+      "position": 6,
+      "script": "兼职太影响学习了。",
+      "pronunciation": "jiān zhí tài yǐng xiǎng xué xí le.",
+      "phonetic": "เจียน จื๋อ ท้าย อิ่ง เสี่ยง เสวีย ซี เลอะ",
+      "translation": "งานพาร์ตไทม์กระทบการเรียนเกินไป",
+      "chunks": [
+        "兼职太影响学习了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L08-C077",
+      "legacyId": "U12-L08-C077",
+      "position": 7,
+      "script": "做自媒体赚了点钱。",
+      "pronunciation": "zuò zì méi tǐ zhuàn le diǎn qián.",
+      "phonetic": "จั้ว จื้อ เหมย ถี่ จ้วน เลอะ เติ๋ยน เฉียน",
+      "translation": "ทำสื่อโซเชียลของตัวเองได้เงินนิดหน่อย",
+      "chunks": [
+        "做自媒体赚了点钱。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L08-C078",
+      "legacyId": "U12-L08-C078",
+      "position": 8,
+      "script": "老板他人很好。",
+      "pronunciation": "lǎo bǎn tā rén hěn hǎo.",
+      "phonetic": "เถ้า ปั่น ทา เหริน หิ่น ห่าว",
+      "translation": "เถ้าแก่เขาเป็นคนดีมาก",
+      "chunks": [
+        "老板他人很好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L08-C079",
+      "legacyId": "U12-L08-C079",
+      "position": 9,
+      "script": "工作挺辛苦的。",
+      "pronunciation": "gōng zuò tǐng xīn kǔ de.",
+      "phonetic": "กง จั้ว ถิ่ง ซิน ขู่ เตอะ",
+      "translation": "ทำงานค่อนข้างเหนื่อยเลย",
+      "chunks": [
+        "工作挺辛苦的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L08-C080",
+      "legacyId": "U12-L08-C080",
+      "position": 10,
+      "script": "我想进大厂。",
+      "pronunciation": "wǒ xiǎng jìn dà chǎng.",
+      "phonetic": "หวั่ว เสี่ยง จิ้น ต้า ฉ่าง",
+      "translation": "ฉันอยากเข้าทำงานบริษัทเทคโนโลยีรายใหญ่",
+      "chunks": [
+        "我想进大厂。"
+      ]
+    }
+  ]
+}

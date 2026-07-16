@@ -1,0 +1,200 @@
+{
+  "id": "H23",
+  "number": 8,
+  "title": "H. การเงิน & ธนาคาร",
+  "chunks": [
+    {
+      "id": "en:session-2-3:H23:1",
+      "legacyId": "H23-0",
+      "position": 1,
+      "script": "I'd like to open a savings account.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอเปิดบัญชีออมทรัพย์หน่อยได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "I'd like",
+        "to open a savings account."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:2",
+      "legacyId": "H23-1",
+      "position": 2,
+      "script": "I need to transfer money to another account.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องโอนเงินไปยังบัญชีอื่น",
+      "chunks": [
+        "I need",
+        "to transfer money",
+        "to another account."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:3",
+      "legacyId": "H23-2",
+      "position": 3,
+      "script": "My card was declined — I'm not sure why.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "บัตรของฉันถูกปฏิเสธ ไม่รู้ว่าเพราะอะไร",
+      "chunks": [
+        "My card was declined — I'm not sure why."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:4",
+      "legacyId": "H23-3",
+      "position": 4,
+      "script": "I think there's an unauthorized charge on my account.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันคิดว่ามีการเรียกเก็บเงินที่ไม่ได้รับอนุญาตในบัญชีของฉัน",
+      "chunks": [
+        "I think there's an unauthorized charge",
+        "on my account."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:5",
+      "legacyId": "H23-4",
+      "position": 5,
+      "script": "Could you tell me what the current exchange rate is?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยบอกอัตราแลกเปลี่ยนปัจจุบันได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Could you tell me what the current exchange rate is?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:6",
+      "legacyId": "H23-5",
+      "position": 6,
+      "script": "I need to set up automatic bill payments.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องตั้งค่าชำระบิลอัตโนมัติ",
+      "chunks": [
+        "I need",
+        "to set up automatic bill payments."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:7",
+      "legacyId": "H23-6",
+      "position": 7,
+      "script": "What are the fees for international transfers?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ค่าธรรมเนียมสำหรับการโอนเงินระหว่างประเทศเป็นเท่าไหร่?",
+      "chunks": [
+        "What are the fees",
+        "for international transfers?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:8",
+      "legacyId": "H23-7",
+      "position": 8,
+      "script": "I'd like to dispute a charge on my statement.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องการโต้แย้งรายการเรียกเก็บในใบแจ้งยอด",
+      "chunks": [
+        "I'd like",
+        "to dispute a charge",
+        "on my statement."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:9",
+      "legacyId": "H23-8",
+      "position": 9,
+      "script": "My card was lost — I need to report it immediately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "บัตรของฉันหาย ต้องรายงานทันทีเลย",
+      "chunks": [
+        "My card was lost — I need",
+        "to report it immediately."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:10",
+      "legacyId": "H23-9",
+      "position": 10,
+      "script": "I've been saving a portion of my salary every month.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเก็บเงินส่วนหนึ่งจากเงินเดือนทุกเดือน",
+      "chunks": [
+        "I've been saving a portion of my salary every month."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:11",
+      "legacyId": "H23-10",
+      "position": 11,
+      "script": "I'm trying to manage my expenses better this year.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปีนี้ฉันพยายามจัดการค่าใช้จ่ายให้ดีขึ้น",
+      "chunks": [
+        "I'm trying",
+        "to manage my expenses better this year."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:12",
+      "legacyId": "H23-11",
+      "position": 12,
+      "script": "Can I check my balance online?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เช็คยอดเงินออนไลน์ได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Can I check my balance online?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:13",
+      "legacyId": "H23-12",
+      "position": 13,
+      "script": "I'd like to apply for a student loan.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องการสมัครสินเชื่อนักศึกษา",
+      "chunks": [
+        "I'd like",
+        "to apply",
+        "for a student loan."
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:14",
+      "legacyId": "H23-13",
+      "position": 14,
+      "script": "How long does an international transfer usually take?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "การโอนเงินระหว่างประเทศปกติใช้เวลานานแค่ไหน?",
+      "chunks": [
+        "How long does an international transfer usually take?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:H23:15",
+      "legacyId": "H23-14",
+      "position": 15,
+      "script": "I'm trying to build an emergency fund.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังพยายามสร้างกองทุนฉุกเฉิน",
+      "chunks": [
+        "I'm trying",
+        "to build an emergency fund."
+      ]
+    }
+  ]
+}

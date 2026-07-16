@@ -1,0 +1,127 @@
+{
+  "id": "U03-L08",
+  "number": 8,
+  "title": "คุณได้พกเงินสดมาไหม",
+  "chunks": [
+    {
+      "id": "zh-Hans:U03-L08-C071",
+      "legacyId": "U03-L08-C071",
+      "position": 1,
+      "script": "你有带现金吗？",
+      "pronunciation": "nǐ yǒu dài xiàn jīn ma?",
+      "phonetic": "หนี่ โหย่ว ต้าย เสี้ยน จิน มะ?",
+      "translation": "คุณได้พกเงินสดมาไหม",
+      "chunks": [
+        "你有带现金吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L08-C072",
+      "legacyId": "U03-L08-C072",
+      "position": 2,
+      "script": "你最近是不是换工作了？",
+      "pronunciation": "nǐ zuì jìn shì bú shì huàn gōng zuò le?",
+      "phonetic": "หนี่ จุ้ย จิ้น สื้อ ปู๋ สื้อ ห้วน กง จั้ว เลอ?",
+      "translation": "ช่วงนี้คุณเพิ่งเปลี่ยนงานใช่ไหม",
+      "chunks": [
+        "你最近是不是换工作了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L08-C073",
+      "legacyId": "U03-L08-C073",
+      "position": 3,
+      "script": "你听说今天开会取消了吗？",
+      "pronunciation": "nǐ tīng shuō jīn tiān kāi huì qǔ xiāo le ma?",
+      "phonetic": "หนี่ ทิง ซัว จิน เทียน ไค หุ่ย ชวี่ เซียว มะ?",
+      "translation": "คุณได้ยินไหมว่าวันนี้ประชุมยกเลิกไปแล้ว",
+      "chunks": [
+        "你听说今天开会取消了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L08-C074",
+      "legacyId": "U03-L08-C074",
+      "position": 4,
+      "script": "这个周末你有什么好去处吗？",
+      "pronunciation": "zhè ge zhōu mò nǐ yǒu shén me hǎo qù chù ma?",
+      "phonetic": "เจ้อ เกอ โจว ม่อ หนี่ โหย่ว เซิ่น เมอ ห่าว ชวี่ ชู่ มะ?",
+      "translation": "สุดสัปดาห์นี้คุณมีสถานที่น่าไปแนะนำบ้างไหม",
+      "chunks": [
+        "这个周末你有什么好去处吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L08-C075",
+      "legacyId": "U03-L08-C075",
+      "position": 5,
+      "script": "你喝咖啡喜欢加糖吗？",
+      "pronunciation": "nǐ hē kā fēi xǐ huan jiā táng ma?",
+      "phonetic": "หนี่ เฮอ คา เฟย สี่ หวน เจีย ถัง มะ?",
+      "translation": "คุณดื่มกาแฟชอบใส่น้ำตาลไหม",
+      "chunks": [
+        "你喝咖啡喜欢加糖吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L08-C076",
+      "legacyId": "U03-L08-C076",
+      "position": 6,
+      "script": "你的手机电量还够吗？",
+      "pronunciation": "nǐ de shǒu jī diàn liàng hái gòu ma?",
+      "phonetic": "หนี่ เตอ โส่ว จี เตี้ยน เลี้ยง หาย ก้าว มะ?",
+      "translation": "แบตเตอรี่โทรศัพท์ของคุณยังพอไหม",
+      "chunks": [
+        "你的手机电量还够吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L08-C077",
+      "legacyId": "U03-L08-C077",
+      "position": 7,
+      "script": "我们怎么分工比较好？",
+      "pronunciation": "wǒ men zěn me fēn gōng bǐ jiào hǎo?",
+      "phonetic": "หว่อ เมิน เจิ่น เมอ เฟิน กง ปี่ เจี้ยว ห่าว?",
+      "translation": "พวกเราแบ่งงานกันยังไงดีนะ",
+      "chunks": [
+        "我们怎么分工比较好？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L08-C078",
+      "legacyId": "U03-L08-C078",
+      "position": 8,
+      "script": "你觉得这个项目靠谱吗？",
+      "pronunciation": "nǐ jué de zhè ge xiàng mù kào pǔ ma?",
+      "phonetic": "หนี่ จว๋ะ เตอ เจ้อ เกอ เสี้ยง มู่ ค้าว ผู่ มะ?",
+      "translation": "คุณรู้สึกว่าโครงการนี้ดูน่าเชื่อถือไหม / ไปได้สวยไหม",
+      "chunks": [
+        "你觉得这个项目靠谱吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L08-C079",
+      "legacyId": "U03-L08-C079",
+      "position": 9,
+      "script": "这份资料你要打印几份？",
+      "pronunciation": "zhè fèn zī liào nǐ yào dǎ yìn jǐ fèn?",
+      "phonetic": "เจ้อ เฟิ้น จือ เลี้ยว หนี่ เย้า ต๋า ยิ้น จี๋ เฟิ้น?",
+      "translation": "เอกสารชุดนี้คุณต้องการพิมพ์กี่ชุด",
+      "chunks": [
+        "这份资料你要打印几份？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L08-C080",
+      "legacyId": "U03-L08-C080",
+      "position": 10,
+      "script": "离这里最近的地铁站是哪一个？",
+      "pronunciation": "lí zhè lǐ zuì jìn de dì tiě zhàn shì nǎ yí gè?",
+      "phonetic": "หลี เจ้อ หลี่ จุ้ย จิ้น เตอ ตี้ เถี่ย จ้าน สื้อ หน่า อี๋ เก้อ?",
+      "translation": "สถานีรถไฟใต้ดินที่ใกล้ที่สุดจากที่นี่คือสถานีไหน",
+      "chunks": [
+        "离这里最近的地铁站是哪一个？"
+      ]
+    }
+  ]
+}

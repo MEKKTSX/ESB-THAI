@@ -1,0 +1,274 @@
+{
+  "id": "G",
+  "number": 7,
+  "title": "G. Offers, Requests & Permission",
+  "chunks": [
+    {
+      "id": "en:session-1:G:1",
+      "legacyId": "G-0",
+      "position": 1,
+      "script": "Can I help you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้ฉันช่วยไหม?",
+      "chunks": [
+        "Can I help you?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:2",
+      "legacyId": "G-1",
+      "position": 2,
+      "script": "Can I ask a question?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอถามอะไรหน่อยได้ไหม?",
+      "chunks": [
+        "Can I ask a question?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:3",
+      "legacyId": "G-2",
+      "position": 3,
+      "script": "Can I use your phone?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอยืมโทรศัพท์หน่อยได้ไหม?",
+      "chunks": [
+        "Can I use your phone?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:4",
+      "legacyId": "G-3",
+      "position": 4,
+      "script": "Can I sit here?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอนั่งตรงนี้ได้ไหม?",
+      "chunks": [
+        "Can I sit here?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:5",
+      "legacyId": "G-4",
+      "position": 5,
+      "script": "Can I get a glass of water?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอน้ำสักแก้วได้ไหม?",
+      "chunks": [
+        "Can I get a glass of water?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:6",
+      "legacyId": "G-5",
+      "position": 6,
+      "script": "Can I have the bill, please?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เช็คบิลด้วยครับ/ค่ะ",
+      "chunks": [
+        "Can I have the bill,",
+        "please?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:7",
+      "legacyId": "G-6",
+      "position": 7,
+      "script": "Can you help me?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยฉันหน่อยได้ไหม?",
+      "chunks": [
+        "Can you help me?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:8",
+      "legacyId": "G-7",
+      "position": 8,
+      "script": "Can you repeat that?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยพูดอีกทีได้ไหม?",
+      "chunks": [
+        "Can you repeat",
+        "that?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:9",
+      "legacyId": "G-8",
+      "position": 9,
+      "script": "Can you speak slower?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดช้าลงหน่อยได้ไหม?",
+      "chunks": [
+        "Can you speak slower?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:10",
+      "legacyId": "G-9",
+      "position": 10,
+      "script": "Can you open the window?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยเปิดหน้าต่างหน่อยได้ไหม?",
+      "chunks": [
+        "Can you open the window?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:11",
+      "legacyId": "G-10",
+      "position": 11,
+      "script": "Can you explain this?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยอธิบายอันนี้หน่อยได้ไหม?",
+      "chunks": [
+        "Can you explain this?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:12",
+      "legacyId": "G-11",
+      "position": 12,
+      "script": "Could you do me a favor?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยอะไรฉันสักอย่างได้ไหม?",
+      "chunks": [
+        "Could you do me a favor?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:13",
+      "legacyId": "G-12",
+      "position": 13,
+      "script": "Do you need anything?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ต้องการอะไรไหม?",
+      "chunks": [
+        "Do you need anything?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:14",
+      "legacyId": "G-13",
+      "position": 14,
+      "script": "Do you need help?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ต้องการความช่วยเหลือไหม?",
+      "chunks": [
+        "Do you need help?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:15",
+      "legacyId": "G-14",
+      "position": 15,
+      "script": "Do you want some water?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เอาน้ำหน่อยไหม?",
+      "chunks": [
+        "Do you want some water?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:16",
+      "legacyId": "G-15",
+      "position": 16,
+      "script": "Would you like to come?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากมาด้วยกันไหม?",
+      "chunks": [
+        "Would you like",
+        "to come?"
+      ]
+    },
+    {
+      "id": "en:session-1:G:17",
+      "legacyId": "G-16",
+      "position": 17,
+      "script": "I can do it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันทำได้",
+      "chunks": [
+        "I can do it."
+      ]
+    },
+    {
+      "id": "en:session-1:G:18",
+      "legacyId": "G-17",
+      "position": 18,
+      "script": "I can’t do it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันทำไม่ได้",
+      "chunks": [
+        "I can’t do it."
+      ]
+    },
+    {
+      "id": "en:session-1:G:19",
+      "legacyId": "G-18",
+      "position": 19,
+      "script": "I can’t find my keys.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหากุญแจไม่เจอ",
+      "chunks": [
+        "I can’t find my keys."
+      ]
+    },
+    {
+      "id": "en:session-1:G:20",
+      "legacyId": "G-19",
+      "position": 20,
+      "script": "I can’t hear you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ได้ยินคุณ",
+      "chunks": [
+        "I can’t hear you."
+      ]
+    },
+    {
+      "id": "en:session-1:G:21",
+      "legacyId": "G-20",
+      "position": 21,
+      "script": "You can park here.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณจอดรถตรงนี้ได้",
+      "chunks": [
+        "You can park here."
+      ]
+    },
+    {
+      "id": "en:session-1:G:22",
+      "legacyId": "G-21",
+      "position": 22,
+      "script": "You can’t smoke here.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ห้ามสูบบุหรี่ตรงนี้",
+      "chunks": [
+        "You can’t smoke here."
+      ]
+    }
+  ]
+}

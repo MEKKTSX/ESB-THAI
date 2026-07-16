@@ -1,0 +1,127 @@
+{
+  "id": "U13-L05",
+  "number": 5,
+  "title": "เมื่อกี้เน็ตหลุด ตอนนี้กลับมาเชื่อมต่อใหม่ได้แล้ว",
+  "chunks": [
+    {
+      "id": "zh-Hans:U13-L05-C041",
+      "legacyId": "U13-L05-C041",
+      "position": 1,
+      "script": "刚才网络断了，现在重新连上了。",
+      "pronunciation": "gāng caí wǎng luò duàn le, xiàn zài chóng xīn lián shàng le.",
+      "phonetic": "กัง ฉาย หวั่ง ลั่ว ต้วน เลอ, เซี่ยน ไซ้ ฉง ซิน เหลียน ส่าง เลอ.",
+      "translation": "เมื่อกี้เน็ตหลุด ตอนนี้กลับมาเชื่อมต่อใหม่ได้แล้ว",
+      "chunks": [
+        "刚才网络断了，现在重新连上了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L05-C042",
+      "legacyId": "U13-L05-C042",
+      "position": 2,
+      "script": "你发的那个视频真搞笑，转发给我。",
+      "pronunciation": "nǐ fā de nà gè shì pín zhēn gǎo xiào, zhuǎn fā gěi wǒ.",
+      "phonetic": "หนี่ ฟา เตอ น้า เก้อ สื้อ ผิน เจน ก๋าว เสี้ยว, จ่วน ฟา เก๋ย หว่อ.",
+      "translation": "คลิปที่คุณส่งมานั่นตลกจริงๆ แชร์ต่อให้ฉันหน่อยสิ",
+      "chunks": [
+        "你发的那个视频真搞笑，转发给我。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L05-C043",
+      "legacyId": "U13-L05-C043",
+      "position": 3,
+      "script": "可以语音吗？打字太累了。",
+      "pronunciation": "kě yǐ yǔ yīn ma? dǎ zì tài lèi le.",
+      "phonetic": "เขอ อี่ อวี่ อิน มะ？ ต๋า จื้อ ไท่ เลุ่ย เลอ.",
+      "translation": "คอลคุยเสียงได้ไหม พิมพ์อักษรเหนื่อยเกินไปแล้ว",
+      "chunks": [
+        "可以语音吗？打字太累了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L05-C044",
+      "legacyId": "U13-L05-C044",
+      "position": 4,
+      "script": "我想练习汉字，所以想发文字聊天。",
+      "pronunciation": "wǒ xiǎng liàn xí hàn zì, suǒ yǐ xiǎng fā wén zì liáo tiān.",
+      "phonetic": "หว่อ แฉี่ยง เลี่ยน ซี่ ฮั่น จื้อ, สั่ว อี่ แฉี่ยง ฟา เน จื้อ เลี้ยว เทียน.",
+      "translation": "ฉันอยากฝึกฝนตัวจีน ก็เลยอยากพิมพ์ส่งข้อความคุยกัน",
+      "chunks": [
+        "我想练习汉字，所以想发文字聊天。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L05-C045",
+      "legacyId": "U13-L05-C045",
+      "position": 5,
+      "script": "如果可以的话，请加拼音，谢谢。",
+      "pronunciation": "rú guǒ kě yǐ de huà, qǐng jiā pīn yīn, xiè xie.",
+      "phonetic": "หรู ก๋ัว เขอ อี่ เตอ หว้า, ฉิ่ง เจีย พิน อิน, เซี่ย เสี่ย.",
+      "translation": "ถ้าเป็นไปได้ ช่วยใส่พินอินให้หน่อยนะ ขอบคุณ",
+      "chunks": [
+        "如果可以的话，请加拼音，谢谢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L05-C046",
+      "legacyId": "U13-L05-C046",
+      "position": 6,
+      "script": "这个词用中文怎么解释，我查不到。",
+      "pronunciation": "zhè ge cí yòng zhōng wén zěn me jiě shì, wǒ chá bú dào.",
+      "phonetic": "เจ้อ เกอ ฉือ ย่ง จง เหวิน เจิ่น เมอ เจี่ย สื้อ, หว่อ ฉา ปู๋ ต้าว.",
+      "translation": "คำนี้ใช้ภาษาจีนอธิบายยังไงหรอ ฉันค้นหาไม่เจอเลย",
+      "chunks": [
+        "这个词用中文怎么解释，我查不到。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L05-C047",
+      "legacyId": "U13-L05-C047",
+      "position": 7,
+      "script": "泰国人平时都用脸书和蓝色软件聊天。",
+      "pronunciation": "tài guó rén píng shí dōu yòng liǎn shū hé lán sè ruǎn jiàn liáo tiān.",
+      "phonetic": "ไท่ ก๋ัว เหริน ผิง สื้อ โตว ย่ง เลี่ยน ซู เหอ ลาน เซ่อ ร่วน เจี้ยน เลี้ยว เทียน.",
+      "translation": "คนไทยปกติใช้เฟซบุ๊กและแอปสีฟ้าคุยแชตกัน",
+      "chunks": [
+        "泰国人平时都用脸书和蓝色软件聊天。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L05-C048",
+      "legacyId": "U13-L05-C048",
+      "position": 8,
+      "script": "你的微博账号是多少？我关注你。",
+      "pronunciation": "nǐ de wēi bó zhàng hào shì duō shǎo? wǒ guān zhù nǐ.",
+      "phonetic": "หนี่ เตอ แวย โบ๋ จ้าง ห้าว สื้อ ตัว เส่า？ หว่อ กวาน จู้ หนี่.",
+      "translation": "บัญชีเวยป๋อ (Weibo) ของคุณคืออะไร ฉันจะกดติดตามคุณ",
+      "chunks": [
+        "你的微博账号是多少？我关注你。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L05-C049",
+      "legacyId": "U13-L05-C049",
+      "position": 9,
+      "script": "你忙吧，我不打扰了，改天聊。",
+      "pronunciation": "nǐ máng ba, wǒ bù dǎ rǎo le, gǎi tiān liáo.",
+      "phonetic": "หนี่ หมาง ปะ, หว่อ ปู้ ต๋า หร่าว เลอ, ต๋าย เทียน เลี้ยว.",
+      "translation": "คุณยุ่งเถอะ ฉันไม่รบกวนแล้ว ไว้คุยกันวันหลัง",
+      "chunks": [
+        "你忙吧，我不打扰了，改天聊。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U13-L05-C050",
+      "legacyId": "U13-L05-C050",
+      "position": 10,
+      "script": "不好意思，我在看电影，没看到微信。",
+      "pronunciation": "bù hǎo yì si, wǒ zài kàn diàn yǐng, méi kàn dào wēi xìn.",
+      "phonetic": "ปู้ ห่าว อี้ สิ, หว่อ ไซ้ ค่าน เตี้ยน อิ่ง, เหมย ค่าน ต้าว แวย ซิ้น.",
+      "translation": "ขอโทษทีนะ ฉันกำลังดูหนังอยู่ เลยไม่ได้เห็นวีแชท",
+      "chunks": [
+        "不好意思，我在看电影，没看到微信。"
+      ]
+    }
+  ]
+}

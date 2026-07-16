@@ -1,0 +1,127 @@
+{
+  "id": "U04-L06",
+  "number": 6,
+  "title": "แน่นอน!",
+  "chunks": [
+    {
+      "id": "zh-Hans:U04-L06-C051",
+      "legacyId": "U04-L06-C051",
+      "position": 1,
+      "script": "当然！",
+      "pronunciation": "dāng rán!",
+      "phonetic": "ตัง หราน!",
+      "translation": "แน่นอน!",
+      "chunks": [
+        "当然！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L06-C052",
+      "legacyId": "U04-L06-C052",
+      "position": 2,
+      "script": "活该！",
+      "pronunciation": "huó gāi!",
+      "phonetic": "หวั่ว ไก!",
+      "translation": "สมน้ำหน้า! / สมควรแล้ว!",
+      "chunks": [
+        "活该！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L06-C053",
+      "legacyId": "U04-L06-C053",
+      "position": 3,
+      "script": "算了。",
+      "pronunciation": "suàn le.",
+      "phonetic": "ส้วน เลอ.",
+      "translation": "ช่างมันเถอะ / พอเถอะ",
+      "chunks": [
+        "算了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L06-C054",
+      "legacyId": "U04-L06-C054",
+      "position": 4,
+      "script": "加油！",
+      "pronunciation": "jiā yóu!",
+      "phonetic": "เจีย โหย่ว!",
+      "translation": "สู้ๆ!",
+      "chunks": [
+        "加油！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L06-C055",
+      "legacyId": "U04-L06-C055",
+      "position": 5,
+      "script": "放心。",
+      "pronunciation": "fàng xīn.",
+      "phonetic": "ฟ้าง ซิน.",
+      "translation": "วางใจเถอะ / ไม่ต้องห่วง",
+      "chunks": [
+        "放心。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L06-C056",
+      "legacyId": "U04-L06-C056",
+      "position": 6,
+      "script": "闭嘴！",
+      "pronunciation": "bì zuǐ!",
+      "phonetic": "ปี้ จุ่ย!",
+      "translation": "หุบปาก!",
+      "chunks": [
+        "闭嘴！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L06-C057",
+      "legacyId": "U04-L06-C057",
+      "position": 7,
+      "script": "快点！",
+      "pronunciation": "kuài diǎn!",
+      "phonetic": "คว้าย เตี่ยน!",
+      "translation": "เร็วหน่อย!",
+      "chunks": [
+        "快点！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L06-C058",
+      "legacyId": "U04-L06-C058",
+      "position": 8,
+      "script": "慢点。",
+      "pronunciation": "màn diǎn.",
+      "phonetic": "ม่าน เตี่ยน.",
+      "translation": "ช้าหน่อย",
+      "chunks": [
+        "慢点。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L06-C059",
+      "legacyId": "U04-L06-C059",
+      "position": 9,
+      "script": "小心！",
+      "pronunciation": "xiǎo xīn!",
+      "phonetic": "เสียว ซิน!",
+      "translation": "ระวัง!",
+      "chunks": [
+        "小心！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L06-C060",
+      "legacyId": "U04-L06-C060",
+      "position": 10,
+      "script": "厉害！",
+      "pronunciation": "lì hai!",
+      "phonetic": "ลี่ ไฮ!",
+      "translation": "สุดยอด! / เก่งมาก!",
+      "chunks": [
+        "厉害！"
+      ]
+    }
+  ]
+}

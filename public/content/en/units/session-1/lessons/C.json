@@ -1,0 +1,340 @@
+{
+  "id": "C",
+  "number": 3,
+  "title": "C. Study & Work",
+  "chunks": [
+    {
+      "id": "en:session-1:C:1",
+      "legacyId": "C-0",
+      "position": 1,
+      "script": "I work in an office.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันทำงานในออฟฟิศ",
+      "chunks": [
+        "I work",
+        "in an office."
+      ]
+    },
+    {
+      "id": "en:session-1:C:2",
+      "legacyId": "C-1",
+      "position": 2,
+      "script": "I work for a big company.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันทำงานบริษัทใหญ่",
+      "chunks": [
+        "I work",
+        "for a big company."
+      ]
+    },
+    {
+      "id": "en:session-1:C:3",
+      "legacyId": "C-2",
+      "position": 3,
+      "script": "I work from home today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้ฉันทำงานที่บ้าน",
+      "chunks": [
+        "I work from home today."
+      ]
+    },
+    {
+      "id": "en:session-1:C:4",
+      "legacyId": "C-3",
+      "position": 4,
+      "script": "I'm working right now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนนี้ฉันทำงานอยู่",
+      "chunks": [
+        "I'm working right now."
+      ]
+    },
+    {
+      "id": "en:session-1:C:5",
+      "legacyId": "C-4",
+      "position": 5,
+      "script": "I'm busy with work.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันยุ่งเรื่องงานอยู่",
+      "chunks": [
+        "I'm busy",
+        "with work."
+      ]
+    },
+    {
+      "id": "en:session-1:C:6",
+      "legacyId": "C-5",
+      "position": 6,
+      "script": "I'm in a meeting.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันติดประชุมอยู่",
+      "chunks": [
+        "I'm",
+        "in a meeting."
+      ]
+    },
+    {
+      "id": "en:session-1:C:7",
+      "legacyId": "C-6",
+      "position": 7,
+      "script": "I have a meeting at 10.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมีประชุมตอน 10 โมง",
+      "chunks": [
+        "I have a meeting",
+        "at 10."
+      ]
+    },
+    {
+      "id": "en:session-1:C:8",
+      "legacyId": "C-7",
+      "position": 8,
+      "script": "I have a lot of work to do.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมีงานต้องทำเยอะมาก",
+      "chunks": [
+        "I have a lot of work",
+        "to do."
+      ]
+    },
+    {
+      "id": "en:session-1:C:9",
+      "legacyId": "C-8",
+      "position": 9,
+      "script": "I study English every day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเรียนภาษาอังกฤษทุกวัน",
+      "chunks": [
+        "I study English every day."
+      ]
+    },
+    {
+      "id": "en:session-1:C:10",
+      "legacyId": "C-9",
+      "position": 10,
+      "script": "I'm studying for a test.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังติวสอบอยู่",
+      "chunks": [
+        "I'm studying",
+        "for a test."
+      ]
+    },
+    {
+      "id": "en:session-1:C:11",
+      "legacyId": "C-10",
+      "position": 11,
+      "script": "I'm learning Spanish.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังเรียนภาษาสเปน",
+      "chunks": [
+        "I'm learning Spanish."
+      ]
+    },
+    {
+      "id": "en:session-1:C:12",
+      "legacyId": "C-11",
+      "position": 12,
+      "script": "It’s very difficult.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันยากมาก",
+      "chunks": [
+        "It’s very difficult."
+      ]
+    },
+    {
+      "id": "en:session-1:C:13",
+      "legacyId": "C-12",
+      "position": 13,
+      "script": "It’s not easy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันไม่ง่ายเลย",
+      "chunks": [
+        "It’s not easy."
+      ]
+    },
+    {
+      "id": "en:session-1:C:14",
+      "legacyId": "C-13",
+      "position": 14,
+      "script": "It takes a long time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันใช้เวลานาน",
+      "chunks": [
+        "It takes a long time."
+      ]
+    },
+    {
+      "id": "en:session-1:C:15",
+      "legacyId": "C-14",
+      "position": 15,
+      "script": "My boss is nice.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หัวหน้าฉันนิสัยดี",
+      "chunks": [
+        "My boss is nice."
+      ]
+    },
+    {
+      "id": "en:session-1:C:16",
+      "legacyId": "C-15",
+      "position": 16,
+      "script": "My colleagues are friendly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อนร่วมงานเป็นกันเอง",
+      "chunks": [
+        "My colleagues are friendly."
+      ]
+    },
+    {
+      "id": "en:session-1:C:17",
+      "legacyId": "C-16",
+      "position": 17,
+      "script": "Do you work today?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้ทำงานไหม?",
+      "chunks": [
+        "Do you work today?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:18",
+      "legacyId": "C-17",
+      "position": 18,
+      "script": "Do you like your job?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณชอบงานของคุณไหม?",
+      "chunks": [
+        "Do you like your job?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:19",
+      "legacyId": "C-18",
+      "position": 19,
+      "script": "Do you have a lot of homework?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "การบ้านเยอะไหม?",
+      "chunks": [
+        "Do you have a lot of homework?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:20",
+      "legacyId": "C-19",
+      "position": 20,
+      "script": "What do you do?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณทำงานอะไร?",
+      "chunks": [
+        "What do you do?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:21",
+      "legacyId": "C-20",
+      "position": 21,
+      "script": "What do you do for a living?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณทำอาชีพอะไร?",
+      "chunks": [
+        "What do you do",
+        "for a living?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:22",
+      "legacyId": "C-21",
+      "position": 22,
+      "script": "Where do you work?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณทำงานที่ไหน?",
+      "chunks": [
+        "Where do you work?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:23",
+      "legacyId": "C-22",
+      "position": 23,
+      "script": "Which school do you go to?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเรียนโรงเรียนไหน?",
+      "chunks": [
+        "Which school do you go",
+        "to?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:24",
+      "legacyId": "C-23",
+      "position": 24,
+      "script": "Are you busy?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยุ่งอยู่ไหม?",
+      "chunks": [
+        "Are you busy?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:25",
+      "legacyId": "C-24",
+      "position": 25,
+      "script": "Are you still working?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยังทำงานอยู่เหรอ?",
+      "chunks": [
+        "Are you still working?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:26",
+      "legacyId": "C-25",
+      "position": 26,
+      "script": "When does the meeting start?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ประชุมเริ่มกี่โมง?",
+      "chunks": [
+        "When does the meeting start?"
+      ]
+    },
+    {
+      "id": "en:session-1:C:27",
+      "legacyId": "C-26",
+      "position": 27,
+      "script": "When does the class finish?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เลิกเรียนกี่โมง?",
+      "chunks": [
+        "When does the class finish?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,383 @@
+{
+  "id": "B21",
+  "number": 2,
+  "title": "B. Reported Speech",
+  "chunks": [
+    {
+      "id": "en:session-2-1:B21:1",
+      "legacyId": "B21-0",
+      "position": 1,
+      "script": "She said she was tired.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอบอกว่าเธอเหนื่อย",
+      "chunks": [
+        "She said she was tired."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:2",
+      "legacyId": "B21-1",
+      "position": 2,
+      "script": "He said he would call me later.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาบอกว่าจะโทรหาฉันทีหลัง",
+      "chunks": [
+        "He said he would call me later."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:3",
+      "legacyId": "B21-2",
+      "position": 3,
+      "script": "They said they had already eaten.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาบอกว่ากินข้าวไปแล้ว",
+      "chunks": [
+        "They said they had already eaten."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:4",
+      "legacyId": "B21-3",
+      "position": 4,
+      "script": "She said she didn't understand the question.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอบอกว่าไม่เข้าใจคำถาม",
+      "chunks": [
+        "She said she didn't understand the question."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:5",
+      "legacyId": "B21-4",
+      "position": 5,
+      "script": "He said he was working from home that day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาบอกว่าวันนั้นทำงานอยู่ที่บ้าน",
+      "chunks": [
+        "He said he was working from home",
+        "that day."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:6",
+      "legacyId": "B21-5",
+      "position": 6,
+      "script": "She said she had never been to Japan.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอบอกว่าไม่เคยไปญี่ปุ่นเลย",
+      "chunks": [
+        "She said she had never been",
+        "to Japan."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:7",
+      "legacyId": "B21-6",
+      "position": 7,
+      "script": "He said the meeting had been cancelled.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาบอกว่าการประชุมถูกยกเลิกแล้ว",
+      "chunks": [
+        "He said the meeting had been cancelled."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:8",
+      "legacyId": "B21-7",
+      "position": 8,
+      "script": "She said she would finish the report by Monday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอบอกว่าจะทำรายงานเสร็จภายในวันจันทร์",
+      "chunks": [
+        "She said she would finish the report by Monday."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:9",
+      "legacyId": "B21-8",
+      "position": 9,
+      "script": "They said they couldn't come to the party.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาบอกว่าไม่ได้มางานปาร์ตี้",
+      "chunks": [
+        "They said they couldn't come",
+        "to the party."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:10",
+      "legacyId": "B21-9",
+      "position": 10,
+      "script": "He said he might be late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาบอกว่าอาจจะมาสาย",
+      "chunks": [
+        "He said he might be late."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:11",
+      "legacyId": "B21-10",
+      "position": 11,
+      "script": "The doctor told me to get more rest.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หมอบอกให้ฉันพักผ่อนให้มากขึ้น",
+      "chunks": [
+        "The doctor told me",
+        "to get more rest."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:12",
+      "legacyId": "B21-11",
+      "position": 12,
+      "script": "My boss told me to send the report immediately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หัวหน้าบอกให้ฉันส่งรายงานทันที",
+      "chunks": [
+        "My boss told me",
+        "to send the report immediately."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:13",
+      "legacyId": "B21-12",
+      "position": 13,
+      "script": "She told me not to worry about it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอบอกให้ฉันไม่ต้องกังวล",
+      "chunks": [
+        "She told me not",
+        "to worry",
+        "about it."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:14",
+      "legacyId": "B21-13",
+      "position": 14,
+      "script": "The teacher told us to submit our work by Friday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาจารย์บอกให้เราส่งงานภายในวันศุกร์",
+      "chunks": [
+        "The teacher told us",
+        "to submit our work by Friday."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:15",
+      "legacyId": "B21-14",
+      "position": 15,
+      "script": "He told her to take a deep breath.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาบอกให้เธอหายใจลึกๆ",
+      "chunks": [
+        "He told her",
+        "to take a deep breath."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:16",
+      "legacyId": "B21-15",
+      "position": 16,
+      "script": "They told me not to open the door.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาบอกให้ฉันอย่าเปิดประตู",
+      "chunks": [
+        "They told me not",
+        "to open the door."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:17",
+      "legacyId": "B21-16",
+      "position": 17,
+      "script": "She asked if I was free on Saturday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอถามว่าวันเสาร์ฉันว่างไหม",
+      "chunks": [
+        "She asked if I was free",
+        "on Saturday."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:18",
+      "legacyId": "B21-17",
+      "position": 18,
+      "script": "He asked whether I had seen the email.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาถามว่าฉันเห็นอีเมลนั้นหรือยัง",
+      "chunks": [
+        "He asked whether I had seen the email."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:19",
+      "legacyId": "B21-18",
+      "position": 19,
+      "script": "They asked if we wanted to join them.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาถามว่าเราอยากไปด้วยกันไหม",
+      "chunks": [
+        "They asked if we wanted",
+        "to join them."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:20",
+      "legacyId": "B21-19",
+      "position": 20,
+      "script": "She asked me if I knew the answer.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอถามว่าฉันรู้คำตอบไหม",
+      "chunks": [
+        "She asked me if I knew the answer."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:21",
+      "legacyId": "B21-20",
+      "position": 21,
+      "script": "He asked whether the shop was still open.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาถามว่าร้านยังเปิดอยู่ไหม",
+      "chunks": [
+        "He asked whether the shop was still open."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:22",
+      "legacyId": "B21-21",
+      "position": 22,
+      "script": "She asked me where I had been.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอถามว่าฉันไปไหนมา",
+      "chunks": [
+        "She asked me",
+        "where I had been."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:23",
+      "legacyId": "B21-22",
+      "position": 23,
+      "script": "He asked what time the flight arrived.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาถามว่าเที่ยวบินถึงกี่โมง",
+      "chunks": [
+        "He asked what time the flight arrived."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:24",
+      "legacyId": "B21-23",
+      "position": 24,
+      "script": "They asked why I was late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาถามว่าทำไมฉันถึงมาสาย",
+      "chunks": [
+        "They asked why I was late."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:25",
+      "legacyId": "B21-24",
+      "position": 25,
+      "script": "She asked how much it cost.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอถามว่ามันราคาเท่าไหร่",
+      "chunks": [
+        "She asked how much it cost."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:26",
+      "legacyId": "B21-25",
+      "position": 26,
+      "script": "He asked which bus I took.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาถามว่าฉันนั่งรถสายไหน",
+      "chunks": [
+        "He asked",
+        "which bus I took."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:27",
+      "legacyId": "B21-26",
+      "position": 27,
+      "script": "My friend told me that the food there was amazing.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อนบอกว่าอาหารที่นั่นอร่อยมาก",
+      "chunks": [
+        "My friend told me",
+        "that the food there was amazing."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:28",
+      "legacyId": "B21-27",
+      "position": 28,
+      "script": "She said she had been waiting for over an hour.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอบอกว่ารอมาเกินชั่วโมงแล้ว",
+      "chunks": [
+        "She said she had been waiting",
+        "for over an hour."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:29",
+      "legacyId": "B21-28",
+      "position": 29,
+      "script": "He told me he had already paid the bill.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาบอกว่าจ่ายบิลไปแล้ว",
+      "chunks": [
+        "He told me he had already paid the bill."
+      ]
+    },
+    {
+      "id": "en:session-2-1:B21:30",
+      "legacyId": "B21-29",
+      "position": 30,
+      "script": "They asked me if I could help them move.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาถามว่าฉันช่วยขนของได้ไหม",
+      "chunks": [
+        "They asked me if I could help them move."
+      ]
+    }
+  ]
+}

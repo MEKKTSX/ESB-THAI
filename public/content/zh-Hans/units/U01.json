@@ -1,0 +1,68 @@
+{
+  "id": "U01",
+  "number": 1,
+  "title": "ทักทายและประโยคเอาตัวรอด",
+  "description": "เริ่มต้นพูดจีนในสถานการณ์ทั่วไป",
+  "lessons": [
+    {
+      "id": "U01-L01",
+      "number": 1,
+      "title": "สวัสดีครับ/ค่ะ",
+      "chunkCount": 10
+    },
+    {
+      "id": "U01-L02",
+      "number": 2,
+      "title": "ขอบคุณคุณนะ",
+      "chunkCount": 10
+    },
+    {
+      "id": "U01-L03",
+      "number": 3,
+      "title": "ขอสอบถามหน่อยครับ/ค่ะ...",
+      "chunkCount": 10
+    },
+    {
+      "id": "U01-L04",
+      "number": 4,
+      "title": "ไม่ได้! / ไม่โอเค!",
+      "chunkCount": 10
+    },
+    {
+      "id": "U01-L05",
+      "number": 5,
+      "title": "กรุณาพูดอีกรอบครับ/ค่ะ",
+      "chunkCount": 10
+    },
+    {
+      "id": "U01-L06",
+      "number": 6,
+      "title": "ช่วยหน่อยได้ไหม",
+      "chunkCount": 10
+    },
+    {
+      "id": "U01-L07",
+      "number": 7,
+      "title": "อันนี้ภาษาจีนพูดว่ายังไง",
+      "chunkCount": 10
+    },
+    {
+      "id": "U01-L08",
+      "number": 8,
+      "title": "ห้องน้ำอยู่ที่ไหน",
+      "chunkCount": 10
+    },
+    {
+      "id": "U01-L09",
+      "number": 9,
+      "title": "แล้วแต่เลย / ยังไงก็ได้",
+      "chunkCount": 10
+    },
+    {
+      "id": "U01-L10",
+      "number": 10,
+      "title": "อย่าฝันไปเลย!",
+      "chunkCount": 10
+    }
+  ]
+}

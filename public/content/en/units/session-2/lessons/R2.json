@@ -1,0 +1,157 @@
+{
+  "id": "R2",
+  "number": 18,
+  "title": "R. Common \"Get\" Phrases",
+  "chunks": [
+    {
+      "id": "en:session-2:R2:1",
+      "legacyId": "R2-0",
+      "position": 1,
+      "script": "I need to get ready for work.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องเตรียมตัวไปทำงาน",
+      "chunks": [
+        "I need",
+        "to get ready",
+        "for work."
+      ]
+    },
+    {
+      "id": "en:session-2:R2:2",
+      "legacyId": "R2-1",
+      "position": 2,
+      "script": "I get along well with my colleagues.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเข้ากับเพื่อนร่วมงานได้ดี",
+      "chunks": [
+        "I get along well",
+        "with my colleagues."
+      ]
+    },
+    {
+      "id": "en:session-2:R2:3",
+      "legacyId": "R2-2",
+      "position": 3,
+      "script": "I need to get rid of these old clothes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องกำจัดเสื้อผ้าเก่าพวกนี้",
+      "chunks": [
+        "I need",
+        "to get rid of these old clothes."
+      ]
+    },
+    {
+      "id": "en:session-2:R2:4",
+      "legacyId": "R2-3",
+      "position": 4,
+      "script": "I hope you get better soon.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอให้หายไวๆ นะ",
+      "chunks": [
+        "I hope you get better soon."
+      ]
+    },
+    {
+      "id": "en:session-2:R2:5",
+      "legacyId": "R2-4",
+      "position": 5,
+      "script": "It’s getting dark.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เริ่มมืดแล้ว",
+      "chunks": [
+        "It’s getting dark."
+      ]
+    },
+    {
+      "id": "en:session-2:R2:6",
+      "legacyId": "R2-5",
+      "position": 6,
+      "script": "It’s getting late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เริ่มดึกแล้ว",
+      "chunks": [
+        "It’s getting late."
+      ]
+    },
+    {
+      "id": "en:session-2:R2:7",
+      "legacyId": "R2-6",
+      "position": 7,
+      "script": "I’m getting used to the weather here.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเริ่มชินกับอากาศที่นี่แล้ว",
+      "chunks": [
+        "I’m getting used",
+        "to the weather here."
+      ]
+    },
+    {
+      "id": "en:session-2:R2:8",
+      "legacyId": "R2-7",
+      "position": 8,
+      "script": "I’m getting tired of this situation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเริ่มเบื่อกับสถานการณ์นี้แล้ว",
+      "chunks": [
+        "I’m getting tired of this situation."
+      ]
+    },
+    {
+      "id": "en:session-2:R2:9",
+      "legacyId": "R2-8",
+      "position": 9,
+      "script": "Did you get my message?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ได้รับข้อความฉันไหม?",
+      "chunks": [
+        "Did you get my message?"
+      ]
+    },
+    {
+      "id": "en:session-2:R2:10",
+      "legacyId": "R2-9",
+      "position": 10,
+      "script": "How do I get to the airport?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไปสนามบินได้ยังไง?",
+      "chunks": [
+        "How do I get",
+        "to the airport?"
+      ]
+    },
+    {
+      "id": "en:session-2:R2:11",
+      "legacyId": "R2-10",
+      "position": 11,
+      "script": "I don’t get it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เข้าใจ",
+      "chunks": [
+        "I don’t get it."
+      ]
+    },
+    {
+      "id": "en:session-2:R2:12",
+      "legacyId": "R2-11",
+      "position": 12,
+      "script": "Let’s get started.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มาเริ่มกันเถอะ",
+      "chunks": [
+        "Let’s get started."
+      ]
+    }
+  ]
+}

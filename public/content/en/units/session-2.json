@@ -1,0 +1,164 @@
+{
+  "id": "session-2",
+  "number": 2,
+  "title": "Session 2: Grammar & Patterns",
+  "description": "English sentence practice",
+  "lessons": [
+    {
+      "id": "A2",
+      "number": 1,
+      "title": "A. Past Experiences & Narratives",
+      "chunkCount": 35
+    },
+    {
+      "id": "B2",
+      "number": 2,
+      "title": "B. Continuous Actions in the Past",
+      "chunkCount": 20
+    },
+    {
+      "id": "C2",
+      "number": 3,
+      "title": "C. Life Experiences (Present Perfect)",
+      "chunkCount": 35
+    },
+    {
+      "id": "D2",
+      "number": 4,
+      "title": "D. Past Habits & Changes (Used to)",
+      "chunkCount": 20
+    },
+    {
+      "id": "E2",
+      "number": 5,
+      "title": "E. Future Plans & Intentions",
+      "chunkCount": 20
+    },
+    {
+      "id": "F2",
+      "number": 6,
+      "title": "F. Predictions & Promises (Will)",
+      "chunkCount": 20
+    },
+    {
+      "id": "G2",
+      "number": 7,
+      "title": "G. Conditions & Possibilities",
+      "chunkCount": 20
+    },
+    {
+      "id": "H2",
+      "number": 8,
+      "title": "H. Reasons, Causes & Effects",
+      "chunkCount": 20
+    },
+    {
+      "id": "I2",
+      "number": 9,
+      "title": "I. Contrasts & Concessions",
+      "chunkCount": 20
+    },
+    {
+      "id": "J2",
+      "number": 10,
+      "title": "J. Opinions, Agreements & Disagreements",
+      "chunkCount": 20
+    },
+    {
+      "id": "K2",
+      "number": 11,
+      "title": "K. Time Relationships",
+      "chunkCount": 20
+    },
+    {
+      "id": "L2",
+      "number": 12,
+      "title": "L. Problems & Suggestions",
+      "chunkCount": 20
+    },
+    {
+      "id": "M2",
+      "number": 13,
+      "title": "M. Work, Study & Formal Communication",
+      "chunkCount": 15
+    },
+    {
+      "id": "N2",
+      "number": 14,
+      "title": "N. Feelings & Personal Growth",
+      "chunkCount": 15
+    },
+    {
+      "id": "O2",
+      "number": 15,
+      "title": "O. Technology & Online Life",
+      "chunkCount": 15
+    },
+    {
+      "id": "P2",
+      "number": 16,
+      "title": "P. Polite Requests (Mind/Wonder)",
+      "chunkCount": 10
+    },
+    {
+      "id": "Q2",
+      "number": 17,
+      "title": "Q. Uncertainty & Speculation",
+      "chunkCount": 13
+    },
+    {
+      "id": "R2",
+      "number": 18,
+      "title": "R. Common \"Get\" Phrases",
+      "chunkCount": 12
+    },
+    {
+      "id": "S2",
+      "number": 19,
+      "title": "S. Quantity & Degree",
+      "chunkCount": 10
+    },
+    {
+      "id": "T2",
+      "number": 20,
+      "title": "T. Tag Questions",
+      "chunkCount": 10
+    },
+    {
+      "id": "U2",
+      "number": 21,
+      "title": "U. Indirect Questions",
+      "chunkCount": 10
+    },
+    {
+      "id": "V2",
+      "number": 22,
+      "title": "V. Giving Advice & Warnings",
+      "chunkCount": 10
+    },
+    {
+      "id": "W2",
+      "number": 23,
+      "title": "W. Regrets (Simple Wish)",
+      "chunkCount": 10
+    },
+    {
+      "id": "X2",
+      "number": 24,
+      "title": "X. Relative Clauses",
+      "chunkCount": 10
+    },
+    {
+      "id": "Y2",
+      "number": 25,
+      "title": "Y. Expressing Purpose",
+      "chunkCount": 10
+    },
+    {
+      "id": "Z2",
+      "number": 26,
+      "title": "Z. Mixed Daily Situations",
+      "chunkCount": 30
+    }
+  ]
+}

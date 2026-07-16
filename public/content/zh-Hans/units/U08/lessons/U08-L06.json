@@ -1,0 +1,127 @@
+{
+  "id": "U08-L06",
+  "number": 6,
+  "title": "การประชุมตอนกลางวันดำเนินไปด้วยดี งานก็เสร็จตรงเวลาด้วย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L06-C051",
+      "legacyId": "U08-L06-C051",
+      "position": 1,
+      "script": "白天的会议开得很顺利，工作也按时完成了。",
+      "pronunciation": "bái tiān de huì yì kāi de hěn shùn lì, gōng zuò yě àn shí wán chéng le.",
+      "phonetic": "ป๋าย เทียน เตอ หุ่ย อี้ ไค เตอ เหิ่น สวิ่น ลี่, กง จั้ว เยี่ย อัน สือ หวัน เฉิง เลอ.",
+      "translation": "การประชุมตอนกลางวันดำเนินไปด้วยดี งานก็เสร็จตรงเวลาด้วย",
+      "chunks": [
+        "白天的会议开得很顺利，工作也按时完成了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L06-C052",
+      "legacyId": "U08-L06-C052",
+      "position": 2,
+      "script": "晚上下班后，我和朋友一起去吃了火锅。",
+      "pronunciation": "wǎn shang xià bān hòu, wǒ hé péng you yì qǐ qù chī le huǒ guō.",
+      "phonetic": "หวั่น ส่าง เซี่ย ปาน โห่ว, หว่อ เหอ เผิง โย่ว อี้ ฉี่ ชวี่ ชือ เลอ โห่ว กัว.",
+      "translation": "หลังจากเลิกงานตอนเย็น ฉันกับเพื่อนไปกินหม้อไฟด้วยกันมา",
+      "chunks": [
+        "晚上下班后，我和朋友一起去吃了火锅。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L06-C053",
+      "legacyId": "U08-L06-C053",
+      "position": 3,
+      "script": "回家后，我洗了个热水澡，感觉舒服多了。",
+      "pronunciation": "huí jiā hòu, wǒ xǐ le gè rè shuǐ zǎo, gǎn jué shū fu duō le.",
+      "phonetic": "หุย เจีย โห่ว, หว่อ สี่ เลอ เก้อ เร่อ สุ่ย เจ๋า, ก๋ัน จว๋ะ ซู ฟุ ตัว เลอ.",
+      "translation": "พอกลับถึงบ้าน ฉันอาบน้ำอุ่นไป รู้สึกสบายขึ้นเยอะเลย",
+      "chunks": [
+        "回家后，我洗了个热水澡，感觉舒服多了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L06-C054",
+      "legacyId": "U08-L06-C054",
+      "position": 4,
+      "script": "现在准备躺在床上刷一会儿视频就睡觉。",
+      "pronunciation": "xiàn zài zhǔn bèi tǎng zài chuáng shàng shuā yí huì r jiù shuì jiào.",
+      "phonetic": "เซี่ยน ไซ้ จวิ๋น เป้ย ถั่ง ไซ้ ฉวอง ส่าง ซัว อี๋ ห้วยร์ จิ้ว ซุ่ย เจี้ยว.",
+      "translation": "ตอนนี้เตรียมตัวนอนไถดูคลิปบนเตียงสักแป๊บก็จะนอนแล้ว",
+      "chunks": [
+        "现在准备躺在床上刷一会儿视频就睡觉。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L06-C055",
+      "legacyId": "U08-L06-C055",
+      "position": 5,
+      "script": "你今天过得怎么样？忙不忙？",
+      "pronunciation": "nǐ jīn tiān guò de zěn me yàng? máng bù máng?",
+      "phonetic": "หนี่ จิน เทียน กั้ว เตอ เจิ่น เมอ ย่าง？ หมาง ปู้ หมาง？",
+      "translation": "วันนี้คุณใช้ชีวิตเป็นยังไงบ้าง ยุ่งไหม",
+      "chunks": [
+        "你今天过得怎么样？忙不忙？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L06-C056",
+      "legacyId": "U08-L06-C056",
+      "position": 6,
+      "script": "我今天一天都在开会，头都大了。",
+      "pronunciation": "wǒ jīn tiān yì tiān dōu zài kāi huì, tóu dōu dà le.",
+      "phonetic": "หว่อ จิน เทียน อี้ เทียน โตว ไซ้ ไค หุ่ย, โถ่ว โตว ต้า เลอ.",
+      "translation": "วันนี้ฉันประชุมทั้งวันเลย ปวดหัวจะตายอยู่แล้ว",
+      "chunks": [
+        "我今天一天都在开会，头都大了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L06-C057",
+      "legacyId": "U08-L06-C057",
+      "position": 7,
+      "script": "那你晚上得好好犒劳一下自己，吃点好吃的。",
+      "pronunciation": "nǐ nà wǎn shang děi hǎo hǎo kào lao yí xià zì jǐ, chī diǎn hǎo chī de.",
+      "phonetic": "หนี่ น้า หวั่น ส่าง เต่ย ห่าว ห่าว ค้าว เหลา อี๋ เซี่ย จื้อ จี่, ชือ เตี่ยน ห่าว ชือ เตอ.",
+      "translation": "งั้นตอนเย็นคุณต้องให้รางวัลตัวเองดี ๆ นะ หาของอร่อย ๆ กินซะ",
+      "chunks": [
+        "那你晚上得好好犒劳一下自己，吃点好吃的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L06-C058",
+      "legacyId": "U08-L06-C058",
+      "position": 8,
+      "script": "我也是这么想的，已经点了一份外卖。",
+      "pronunciation": "wǒ yě shì zhè me xiǎng de, yǐ jīng diǎn le yí fèn wài mài.",
+      "phonetic": "หว่อ เยี่ย สื้อ เจ้อ เมอ แฉี่ยง เตอ, อี่ จิง เตี่ยน เลอ อี๋ เฟิ้น ไว้ ม้าย.",
+      "translation": "ฉันก็คิดแบบนี้เหมือนกัน สั่งเดลิเวอรีไปชุดนึงเรียบร้อยแล้ว",
+      "chunks": [
+        "我也是这么想的，已经点了一份外卖。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L06-C059",
+      "legacyId": "U08-L06-C059",
+      "position": 9,
+      "script": "外卖大概什么时候能到？",
+      "pronunciation": "wài mài dà gài shén me shí hou néng dào?",
+      "phonetic": "ไว้ ม้าย ต้า ก้าย เซิ่น เมอ สือ โห่ว เหนิง ต้าว？",
+      "translation": "เดลิเวอรีน่าจะมาถึงประมาณตอนไหน",
+      "chunks": [
+        "外卖大概什么时候能到？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L06-C060",
+      "legacyId": "U08-L06-C060",
+      "position": 10,
+      "script": "骑手显示还有十分钟，我已经饿扁了。",
+      "pronunciation": "qí shǒu xiǎn shì hái yǒu shí fēn zhōng, wǒ yǐ jīng è biǎn le.",
+      "phonetic": "ฉี โส่ว เสียน สื้อ หาย โหย่ว สื้อ เฟิน จง, หว่อ อี่ จิง เอ้อ เปี่ยน เลอ.",
+      "translation": "ไรเดอร์แสดงว่าเหลืออีกสิบนาที ฉันหิวจนพุงยุบหมดแล้ว",
+      "chunks": [
+        "骑手显示还有十分钟，我已经饿扁了。"
+      ]
+    }
+  ]
+}

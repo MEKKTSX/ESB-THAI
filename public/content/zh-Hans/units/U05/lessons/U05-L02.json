@@ -1,0 +1,127 @@
+{
+  "id": "U05-L02",
+  "number": 2,
+  "title": "ฉันเอาข้าวผัดจานนึง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L02-C011",
+      "legacyId": "U05-L02-C011",
+      "position": 1,
+      "script": "我要一份炒饭。",
+      "pronunciation": "wǒ yào yí fèn chǎo fàn.",
+      "phonetic": "หว่อ เย้า อี๋ เฟิ้น ฉ่าว ฟ้าน.",
+      "translation": "ฉันเอาข้าวผัดจานนึง",
+      "chunks": [
+        "我要一份炒饭。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L02-C012",
+      "legacyId": "U05-L02-C012",
+      "position": 2,
+      "script": "还要加点别的吗？",
+      "pronunciation": "hái yào jiā diǎn bié de ma?",
+      "phonetic": "หาย เย้า เจีย เตี่ยน แปี๋ย เตอ มะ?",
+      "translation": "ยังต้องการเพิ่มอย่างอื่นอีกไหม",
+      "chunks": [
+        "还要加点别的吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L02-C013",
+      "legacyId": "U05-L02-C013",
+      "position": 3,
+      "script": "我想点一杯冰咖啡。",
+      "pronunciation": "wǒ xiǎng diǎn yì bēi bīng kā fēi.",
+      "phonetic": "หว่อ แฉี่ยง เตี่ยน อี้ เปย บิง คา เฟย.",
+      "translation": "ฉันขอสั่งกาแฟเย็นแก้วนึง",
+      "chunks": [
+        "我想点一杯冰咖啡。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L02-C014",
+      "legacyId": "U05-L02-C014",
+      "position": 4,
+      "script": "请去冰，谢谢。",
+      "pronunciation": "qǐng qù bīng, xiè xie.",
+      "phonetic": "ฉิ่ง ชวี่ บิง, เซี่ย เสี่ย.",
+      "translation": "กรุณาไม่ใส่น้ำแข็ง (เอาแบบเย็นแต่ไม่มีน้ำแข็ง) ขอบคุณครับ/ค่ะ",
+      "chunks": [
+        "请去冰，谢谢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L02-C015",
+      "legacyId": "U05-L02-C015",
+      "position": 5,
+      "script": "这个菜太辣了。",
+      "pronunciation": "zhè ge cài tài là le.",
+      "phonetic": "เจ้อ เกอ ไช้ ไท่ ล้า เลอ.",
+      "translation": "กับข้าวจานนี้เผ็ดเกินไป",
+      "chunks": [
+        "这个菜太辣了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L02-C016",
+      "legacyId": "U05-L02-C016",
+      "position": 6,
+      "script": "味道很不错！",
+      "pronunciation": "wèi dào hěn bú cuò!",
+      "phonetic": "เว่ย ต้าว เหิ่น ปู๋ ฉั่ว!",
+      "translation": "รสชาติใช้ได้เลย! / อร่อยมาก!",
+      "chunks": [
+        "味道很不错！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L02-C017",
+      "legacyId": "U05-L02-C017",
+      "position": 7,
+      "script": "请给我看一下菜单。",
+      "pronunciation": "qǐng gěi wǒ kàn yí xià cài dān.",
+      "phonetic": "ฉิ่ง เก๋ย หว่อ ค่าน อี๋ เซี่ย ไช้ ตาน.",
+      "translation": "ขอฉันดูเมนูหน่อยครับ/ค่ะ",
+      "chunks": [
+        "请给我看一下菜单。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L02-C018",
+      "legacyId": "U05-L02-C018",
+      "position": 8,
+      "script": "你们有什么特色菜推荐吗？",
+      "pronunciation": "nǐ men yǒu shén me tè sè cài tuī jiàn ma?",
+      "phonetic": "หนี่ เมิน โหย่ว เซิ่น เมอ เท่อ เซ่อ ไช้ ทุย เจี้ยน มะ?",
+      "translation": "พวกคุณมีเมนูแนะนำที่เป็นเอกลักษณ์ของร้านไหม",
+      "chunks": [
+        "你们有什么特色菜推荐吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L02-C019",
+      "legacyId": "U05-L02-C019",
+      "position": 9,
+      "script": "在这里吃还是打包？",
+      "pronunciation": "zài zhè lǐ chī hái shì dǎ bāo?",
+      "phonetic": "ไซ้ เจ้อ หลี่ ชือ หาย สื้อ ต๋า เปา?",
+      "translation": "กินที่นี่หรือห่อกลับบ้านครับ/ค่ะ",
+      "chunks": [
+        "在这里吃还是打包？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L02-C020",
+      "legacyId": "U05-L02-C020",
+      "position": 10,
+      "script": "买单，一共多少钱？",
+      "pronunciation": "mǎi dān, yí gòng duō shǎo qián?",
+      "phonetic": "หม่าย ตาน, อี๋ ก้ง ตัว เส่า เฉียน?",
+      "translation": "เช็กบิลด้วย ทั้งหมดราคาเท่าไหร่",
+      "chunks": [
+        "买单，一共多少钱？"
+      ]
+    }
+  ]
+}

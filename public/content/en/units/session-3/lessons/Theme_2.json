@@ -1,0 +1,1137 @@
+{
+  "id": "Theme_2",
+  "number": 2,
+  "title": "2. Reading Comprehension (News, Documents & Social Media)",
+  "chunks": [
+    {
+      "id": "en:session-3:Theme_2:1",
+      "legacyId": "Theme_2-0",
+      "position": 1,
+      "script": "According to the latest financial report, the company's revenue has significantly increased this quarter.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตามรายงานทางการเงินล่าสุด รายได้ของบริษัทเพิ่มขึ้นอย่างมีนัยสำคัญในไตรมาสนี้",
+      "chunks": [
+        "According",
+        "to the latest financial report,",
+        "the company's revenue has significantly increased this quarter."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:2",
+      "legacyId": "Theme_2-1",
+      "position": 2,
+      "script": "According to recent scientific studies, getting enough sleep is crucial for long-term brain health.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตามการศึกษาทางวิทยาศาสตร์เมื่อเร็วๆ นี้ การนอนหลับให้เพียงพอเป็นสิ่งสำคัญต่อสุขภาพสมองในระยะยาว",
+      "chunks": [
+        "According",
+        "to recent scientific studies,",
+        "getting enough sleep is crucial",
+        "for long-term brain health."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:3",
+      "legacyId": "Theme_2-2",
+      "position": 3,
+      "script": "According to the official announcement, the new environmental policy will be implemented starting next month.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตามประกาศอย่างเป็นทางการ นโยบายด้านสิ่งแวดล้อมฉบับใหม่จะถูกนำมาบังคับใช้เริ่มตั้งแต่เดือนหน้า",
+      "chunks": [
+        "According",
+        "to the official announcement,",
+        "the new environmental policy will be implemented starting next month."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:4",
+      "legacyId": "Theme_2-3",
+      "position": 4,
+      "script": "According to local news sources, the unexpectedly heavy rainfall has caused severe flooding in the northern region.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตามแหล่งข่าวท้องถิ่น ฝนที่ตกลงมาอย่างหนักผิดคาดได้ก่อให้เกิดน้ำท่วมรุนแรงในภูมิภาคตอนเหนือ",
+      "chunks": [
+        "According",
+        "to local news sources,",
+        "the unexpectedly heavy rainfall has caused severe flooding",
+        "in the northern region."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:5",
+      "legacyId": "Theme_2-4",
+      "position": 5,
+      "script": "It has been reported that the tech giant is planning to lay off thousands of employees globally.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีรายงานว่ายักษ์ใหญ่ด้านเทคโนโลยีกำลังวางแผนที่จะเลิกจ้างพนักงานหลายพันคนทั่วโลก",
+      "chunks": [
+        "It has been reported",
+        "that the tech giant is planning",
+        "to lay off thousands of employees globally."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:6",
+      "legacyId": "Theme_2-5",
+      "position": 6,
+      "script": "It has been reported that the global average temperature reached a new record high last year.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีรายงานว่าอุณหภูมิเฉลี่ยทั่วโลกพุ่งแตะสถิติสูงสุดใหม่เมื่อปีที่แล้ว",
+      "chunks": [
+        "It has been reported",
+        "that the global average temperature reached a new record high last year."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:7",
+      "legacyId": "Theme_2-6",
+      "position": 7,
+      "script": "It has been reported that a new strain of the computer virus is spreading rapidly across global networks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีรายงานว่าไวรัสคอมพิวเตอร์สายพันธุ์ใหม่กำลังแพร่กระจายอย่างรวดเร็วผ่านเครือข่ายทั่วโลก",
+      "chunks": [
+        "It has been reported",
+        "that a new strain of the computer virus is spreading rapidly across global networks."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:8",
+      "legacyId": "Theme_2-7",
+      "position": 8,
+      "script": "It has been reported that the central bank will likely raise interest rates to successfully combat inflation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีรายงานว่าธนาคารกลางมีแนวโน้มที่จะปรับขึ้นอัตราดอกเบี้ยเพื่อต่อสู้กับภาวะเงินเฟ้อให้สำเร็จ",
+      "chunks": [
+        "It has been reported",
+        "that the central bank will likely raise interest rates",
+        "to successfully combat inflation."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:9",
+      "legacyId": "Theme_2-8",
+      "position": 9,
+      "script": "Despite the fact that the economy is slowly recovering, many small businesses are still struggling to survive.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้จะมีข้อเท็จจริงว่าเศรษฐกิจกำลังค่อยๆ ฟื้นตัว แต่ธุรกิจขนาดเล็กหลายแห่งก็ยังคงดิ้นรนเพื่อความอยู่รอด",
+      "chunks": [
+        "Despite the fact",
+        "that the economy is slowly recovering,",
+        "many small businesses are still struggling",
+        "to survive."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:10",
+      "legacyId": "Theme_2-9",
+      "position": 10,
+      "script": "Despite the fact that renewable energy is becoming cheaper, fossil fuels still dominate the global market.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้จะมีความจริงที่ว่าพลังงานหมุนเวียนกำลังมีราคาถูกลง แต่เชื้อเพลิงฟอสซิลก็ยังคงครองตลาดโลกอยู่ดี",
+      "chunks": [
+        "Despite the fact",
+        "that renewable energy is becoming cheaper,",
+        "fossil fuels still dominate the global market."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:11",
+      "legacyId": "Theme_2-10",
+      "position": 11,
+      "script": "Despite the fact that the product received negative reviews online, its sales continued to grow steadily.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทั้งๆ ที่ผลิตภัณฑ์นี้ได้รับรีวิวในแง่ลบบนอินเทอร์เน็ต แต่ยอดขายของมันก็ยังคงเติบโตอย่างต่อเนื่อง",
+      "chunks": [
+        "Despite the fact",
+        "that the product received negative reviews online,",
+        "its sales continued",
+        "to grow steadily."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:12",
+      "legacyId": "Theme_2-11",
+      "position": 12,
+      "script": "Despite the fact that the deadline was generously extended, several teams failed to submit their proposals on time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้ว่าจะมีการขยายเวลาเดดไลน์ให้อย่างใจดีแล้วก็ตาม แต่หลายทีมก็ยังไม่สามารถส่งข้อเสนอได้ทันเวลา",
+      "chunks": [
+        "Despite the fact",
+        "that the deadline was generously extended,",
+        "several teams failed",
+        "to submit their proposals",
+        "on time."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:13",
+      "legacyId": "Theme_2-12",
+      "position": 13,
+      "script": "The recent study clearly indicates that remote work can significantly improve employee productivity and overall job satisfaction.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "การศึกษาล่าสุดชี้ให้เห็นอย่างชัดเจนว่าการทำงานทางไกลสามารถเพิ่มประสิทธิภาพและช่วยให้พนักงานพึงพอใจในงานโดยรวมได้",
+      "chunks": [
+        "The recent study clearly indicates",
+        "that remote work can significantly improve employee productivity",
+        "and overall job satisfaction."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:14",
+      "legacyId": "Theme_2-13",
+      "position": 14,
+      "script": "The consumer data indicates that younger generations are investing heavily in sustainable and eco-friendly brands.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ข้อมูลผู้บริโภคบ่งชี้ว่าคนรุ่นใหม่กำลังลงทุนอย่างหนักกับแบรนด์ที่ยั่งยืนและเป็นมิตรต่อสิ่งแวดล้อม",
+      "chunks": [
+        "The consumer data indicates",
+        "that younger generations are investing heavily",
+        "in sustainable",
+        "and eco-friendly brands."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:15",
+      "legacyId": "Theme_2-14",
+      "position": 15,
+      "script": "The annual government report indicates that consumer spending has slowed down due to rising daily living costs.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รายงานประจำปีของรัฐบาลชี้ให้เห็นว่าการใช้จ่ายของผู้บริโภคชะลอตัวลงเนื่องจากค่าครองชีพรายวันที่สูงขึ้น",
+      "chunks": [
+        "The annual government report indicates",
+        "that consumer spending has slowed down due",
+        "to rising daily living costs."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:16",
+      "legacyId": "Theme_2-15",
+      "position": 16,
+      "script": "The initial medical research indicates that this new medication is highly effective in treating the chronic disease.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "งานวิจัยทางการแพทย์เบื้องต้นระบุว่ายาตัวใหม่นี้มีประสิทธิภาพสูงมากในการรักษาโรคเรื้อรัง",
+      "chunks": [
+        "The initial medical research indicates",
+        "that this new medication is highly effective",
+        "in treating the chronic disease."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:17",
+      "legacyId": "Theme_2-16",
+      "position": 17,
+      "script": "In order to drastically reduce carbon emissions, the government is heavily subsidizing the production of electric vehicles.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อที่จะลดการปล่อยก๊าซคาร์บอนลงอย่างจริงจัง รัฐบาลกำลังอุดหนุนเงินทุนอย่างหนักในการผลิตรถยนต์ไฟฟ้า",
+      "chunks": [
+        "In order",
+        "to drastically reduce carbon emissions,",
+        "the government is heavily subsidizing the production of electric vehicles."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:18",
+      "legacyId": "Theme_2-17",
+      "position": 18,
+      "script": "In order to safely access the secure database, all corporate employees are required to update their passwords monthly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อความปลอดภัยในการเข้าถึงฐานข้อมูล พนักงานบริษัททุกคนจำเป็นต้องอัปเดตรหัสผ่านของตนเองทุกเดือน",
+      "chunks": [
+        "In order",
+        "to safely access the secure database,",
+        "all corporate employees are required",
+        "to update their passwords monthly."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:19",
+      "legacyId": "Theme_2-18",
+      "position": 19,
+      "script": "In order to attract more international tourists this year, the city has completely renovated its major historical landmarks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อดึงดูดนักท่องเที่ยวต่างชาติให้มากขึ้นในปีนี้ ทางเมืองได้บูรณะสถานที่สำคัญทางประวัติศาสตร์หลักๆ ใหม่ทั้งหมด",
+      "chunks": [
+        "In order",
+        "to attract more international tourists this year,",
+        "the city has completely renovated its major historical landmarks."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:20",
+      "legacyId": "Theme_2-19",
+      "position": 20,
+      "script": "In order to stay highly competitive in the modern market, the corporation must continuously innovate its core products.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพื่อรักษาขีดความสามารถในการแข่งขันระดับสูงในตลาดยุคใหม่ องค์กรจะต้องสร้างสรรค์นวัตกรรมในผลิตภัณฑ์หลักอย่างต่อเนื่อง",
+      "chunks": [
+        "In order",
+        "to stay highly competitive",
+        "in the modern market,",
+        "the corporation must continuously innovate its core products."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:21",
+      "legacyId": "Theme_2-20",
+      "position": 21,
+      "script": "There is a growing public concern that artificial intelligence might eventually replace millions of administrative jobs.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีความกังวลเพิ่มขึ้นในหมู่ประชาชนว่าในท้ายที่สุดปัญญาประดิษฐ์อาจเข้ามาแทนที่งานธุรการหลายล้านตำแหน่ง",
+      "chunks": [
+        "There is a growing public concern",
+        "that artificial intelligence might eventually replace millions of administrative jobs."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:22",
+      "legacyId": "Theme_2-21",
+      "position": 22,
+      "script": "There is a growing concern that the current lack of affordable housing will lead to a severe social crisis.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีความกังวลเพิ่มขึ้นว่าการขาดแคลนที่อยู่อาศัยราคาจับต้องได้ในปัจจุบันจะนำไปสู่วิกฤตการณ์ทางสังคมที่รุนแรง",
+      "chunks": [
+        "There is a growing concern",
+        "that the current lack of affordable housing will lead",
+        "to a severe social crisis."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:23",
+      "legacyId": "Theme_2-22",
+      "position": 23,
+      "script": "There is a growing concern among parents that excessive use of social media negatively impacts teenagers' mental health.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีความกังวลเพิ่มขึ้นในหมู่ผู้ปกครองว่าการใช้โซเชียลมีเดียมากเกินไปส่งผลเสียต่อสุขภาพจิตของวัยรุ่น",
+      "chunks": [
+        "There is a growing concern among parents",
+        "that excessive use of social media negatively impacts teenagers' mental health."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:24",
+      "legacyId": "Theme_2-23",
+      "position": 24,
+      "script": "There is a growing concern that global supply chains will inevitably face further severe disruptions later this year.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เริ่มมีความกังวลกันมากขึ้นว่าห่วงโซ่อุปทานระดับโลกจะเผชิญกับการหยุดชะงักอย่างรุนแรงอีกระลอกในช่วงปลายปีนี้อย่างหลีกเลี่ยงไม่ได้",
+      "chunks": [
+        "There is a growing concern",
+        "that global supply chains will inevitably face further severe disruptions later this year."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:25",
+      "legacyId": "Theme_2-24",
+      "position": 25,
+      "script": "It is highly recommended that international passengers arrive at the airport at least three hours before their scheduled departure.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอแนะนำเป็นอย่างยิ่งให้ผู้โดยสารระหว่างประเทศมาถึงสนามบินอย่างน้อยสามชั่วโมงก่อนเวลาออกเดินทางตามกำหนดการ",
+      "chunks": [
+        "It is highly recommended",
+        "that international passengers arrive",
+        "at the airport",
+        "at least three hours before their scheduled departure."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:26",
+      "legacyId": "Theme_2-25",
+      "position": 26,
+      "script": "It is highly recommended that users enable two-factor authentication to better protect their online personal accounts.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอแนะนำอย่างยิ่งให้ผู้ใช้เปิดใช้งานการยืนยันตัวตนแบบสองขั้นตอนเพื่อปกป้องบัญชีส่วนตัวออนไลน์ให้ดียิ่งขึ้น",
+      "chunks": [
+        "It is highly recommended",
+        "that users enable two-factor authentication",
+        "to better protect their online personal accounts."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:27",
+      "legacyId": "Theme_2-26",
+      "position": 27,
+      "script": "It is highly recommended that amateur investors diversify their portfolios to minimize potential long-term financial risks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แนะนำเป็นอย่างยิ่งว่านักลงทุนมือใหม่ควรกระจายพอร์ตการลงทุนเพื่อลดความเสี่ยงทางการเงินที่อาจเกิดขึ้นในระยะยาว",
+      "chunks": [
+        "It is highly recommended",
+        "that amateur investors diversify their portfolios",
+        "to minimize potential long-term financial risks."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:28",
+      "legacyId": "Theme_2-27",
+      "position": 28,
+      "script": "It is highly recommended that you consult a certified medical professional before starting this rigorous exercise program.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอแนะนำอย่างยิ่งให้คุณปรึกษาแพทย์ผู้เชี่ยวชาญที่มีใบรับรองก่อนเริ่มโปรแกรมการออกกำลังกายที่เข้มงวดนี้",
+      "chunks": [
+        "It is highly recommended",
+        "that you consult a certified medical professional before starting this rigorous exercise program."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:29",
+      "legacyId": "Theme_2-28",
+      "position": 29,
+      "script": "As a result of the unexpected economic downturn, the promising startup was forced to cancel its rapid expansion plans.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผลจากภาวะเศรษฐกิจตกต่ำที่ไม่มีใครคาดคิด สตาร์ทอัพดาวรุ่งจึงถูกบีบให้ต้องยกเลิกแผนการขยายธุรกิจอย่างรวดเร็ว",
+      "chunks": [
+        "As a result of the unexpected economic downturn,",
+        "the promising startup was forced",
+        "to cancel its rapid expansion plans."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:30",
+      "legacyId": "Theme_2-29",
+      "position": 30,
+      "script": "As a result of the newly implemented strict regulations, factories must severely restrict their chemical waste disposal processes.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อันเป็นผลมาจากกฎระเบียบที่เข้มงวดซึ่งเพิ่งประกาศใช้ โรงงานต่างๆ ต้องจำกัดกระบวนการทิ้งขยะเคมีอย่างเข้มงวด",
+      "chunks": [
+        "As a result of the newly implemented strict regulations,",
+        "factories must severely restrict their chemical waste disposal processes."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:31",
+      "legacyId": "Theme_2-30",
+      "position": 31,
+      "script": "As a result of the prolonged summer drought, agricultural yields in the northern region have dropped by thirty percent.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผลจากภัยแล้งในฤดูร้อนที่ยาวนาน ผลผลิตทางการเกษตรในพื้นที่ภาคเหนือจึงลดลงถึงสามสิบเปอร์เซ็นต์",
+      "chunks": [
+        "As a result of the prolonged summer drought,",
+        "agricultural yields",
+        "in the northern region have dropped by thirty percent."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:32",
+      "legacyId": "Theme_2-31",
+      "position": 32,
+      "script": "As a result of the massive online social media campaign, the local charity managed to raise millions of dollars.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จากผลลัพธ์ของแคมเปญโซเชียลมีเดียออนไลน์ขนาดใหญ่ องค์กรการกุศลท้องถิ่นสามารถระดมทุนได้หลายล้านดอลลาร์",
+      "chunks": [
+        "As a result of the massive online social media campaign,",
+        "the local charity managed",
+        "to raise millions of dollars."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:33",
+      "legacyId": "Theme_2-32",
+      "position": 33,
+      "script": "Unless immediate preventative action is taken, the endangered animal species will likely face total extinction within a decade.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เว้นเสียแต่ว่าจะมีการดำเนินการป้องกันในทันที สัตว์ป่าใกล้สูญพันธุ์สายพันธุ์นี้มีแนวโน้มที่จะสูญพันธุ์ทั้งหมดภายในหนึ่งทศวรรษ",
+      "chunks": [
+        "Unless immediate preventative action is taken,",
+        "the endangered animal species will likely face total extinction within a decade."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:34",
+      "legacyId": "Theme_2-33",
+      "position": 34,
+      "script": "Unless immediate action is taken by the authorities, the structural damage to the old bridge could lead to a catastrophic collapse.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากเจ้าหน้าที่ไม่ดำเนินการแก้ไขโดยด่วน ความเสียหายทางโครงสร้างของสะพานเก่าอาจนำไปสู่การพังทลายครั้งใหญ่ได้",
+      "chunks": [
+        "Unless immediate action is taken by the authorities,",
+        "the structural damage",
+        "to the old bridge could lead",
+        "to a catastrophic collapse."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:35",
+      "legacyId": "Theme_2-34",
+      "position": 35,
+      "script": "Unless immediate economic action is taken, the ongoing inflation will severely damage the purchasing power of the middle class.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เว้นแต่จะมีการใช้มาตรการทางเศรษฐกิจโดยด่วน ภาวะเงินเฟ้อที่ดำเนินอยู่จะทำลายกำลังซื้อของชนชั้นกลางอย่างรุนแรง",
+      "chunks": [
+        "Unless immediate economic action is taken,",
+        "the ongoing inflation will severely damage the purchasing power of the middle class."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:36",
+      "legacyId": "Theme_2-35",
+      "position": 36,
+      "script": "Unless immediate action is taken to resolve the ongoing wage dispute, the factory workers will go on a nationwide strike.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากไม่มีการดำเนินการเร่งด่วนเพื่อแก้ไขข้อพิพาทเรื่องค่าจ้างที่ดำเนินอยู่ คนงานโรงงานจะทำการประท้วงหยุดงานทั่วประเทศ",
+      "chunks": [
+        "Unless immediate action is taken",
+        "to resolve the ongoing wage dispute,",
+        "the factory workers will go",
+        "on a nationwide strike."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:37",
+      "legacyId": "Theme_2-36",
+      "position": 37,
+      "script": "Researchers have recently discovered that certain specific types of bacteria can safely and naturally break down ocean plastics.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นักวิจัยค้นพบเมื่อไม่นานมานี้ว่าแบคทีเรียเฉพาะบางชนิดสามารถย่อยสลายพลาสติกในมหาสมุทรได้อย่างปลอดภัยและเป็นธรรมชาติ",
+      "chunks": [
+        "Researchers have recently discovered",
+        "that certain specific types of bacteria can safely",
+        "and naturally break down ocean plastics."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:38",
+      "legacyId": "Theme_2-37",
+      "position": 38,
+      "script": "Researchers have consistently discovered that regular meditation can physically alter the brain's structure to significantly reduce daily stress.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นักวิจัยค้นพบอย่างต่อเนื่องว่าการทำสมาธิเป็นประจำสามารถปรับเปลี่ยนโครงสร้างของสมองทางกายภาพเพื่อลดความเครียดในแต่ละวันได้อย่างมีนัยสำคัญ",
+      "chunks": [
+        "Researchers have consistently discovered",
+        "that regular meditation can physically alter the brain's structure",
+        "to significantly reduce daily stress."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:39",
+      "legacyId": "Theme_2-38",
+      "position": 39,
+      "script": "Researchers have discovered a brand new exoplanet that potentially contains liquid water and a fully breathable atmosphere.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นักวิจัยได้ค้นพบดาวเคราะห์นอกระบบดวงใหม่ล่าสุดที่อาจมีน้ำในสถานะของเหลวและชั้นบรรยากาศที่สามารถหายใจได้เต็มที่",
+      "chunks": [
+        "Researchers have discovered a brand new exoplanet",
+        "that potentially contains liquid water",
+        "and a fully breathable atmosphere."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:40",
+      "legacyId": "Theme_2-39",
+      "position": 40,
+      "script": "Researchers have discovered that the ancient civilization collapsed primarily due to prolonged environmental changes rather than foreign invasions.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นักวิจัยค้นพบว่าอารยธรรมโบราณล่มสลายลงโดยมีสาเหตุหลักมาจากการเปลี่ยนแปลงของสภาพแวดล้อมที่ยืดเยื้อ ไม่ใช่จากการรุกรานของต่างชาติ",
+      "chunks": [
+        "Researchers have discovered",
+        "that the ancient civilization collapsed primarily due",
+        "to prolonged environmental changes rather than foreign invasions."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:41",
+      "legacyId": "Theme_2-40",
+      "position": 41,
+      "script": "While it is true that modern technology makes our lives easier, it also creates unprecedented and dangerous privacy concerns.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้จะเป็นความจริงที่เทคโนโลยีสมัยใหม่ทำให้ชีวิตเราง่ายขึ้น แต่มันก็สร้างความกังวลด้านความเป็นส่วนตัวที่อันตรายและไม่เคยเกิดขึ้นมาก่อนด้วย",
+      "chunks": [
+        "While it is true",
+        "that modern technology makes our lives easier,",
+        "it also creates unprecedented",
+        "and dangerous privacy concerns."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:42",
+      "legacyId": "Theme_2-41",
+      "position": 42,
+      "script": "While it is true that the stock market is highly volatile, it objectively remains the best vehicle for building long-term wealth.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้จะจริงอยู่ที่ตลาดหุ้นมีความผันผวนสูงมาก แต่มันก็ยังคงเป็นเครื่องมือที่ดีที่สุดในการสร้างความมั่งคั่งระยะยาวอย่างเป็นรูปธรรม",
+      "chunks": [
+        "While it is true",
+        "that the stock market is highly volatile,",
+        "it objectively remains the best vehicle",
+        "for building long-term wealth."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:43",
+      "legacyId": "Theme_2-42",
+      "position": 43,
+      "script": "While it is true that fast food is incredibly convenient, its long-term health consequences are undeniably severe and costly.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้ฟาสต์ฟู้ดจะสะดวกสบายสุดๆ ก็ตาม แต่ผลกระทบด้านสุขภาพในระยะยาวของมันก็รุนแรงและต้องจ่ายราคาแพงอย่างปฏิเสธไม่ได้",
+      "chunks": [
+        "While it is true",
+        "that fast food is incredibly convenient,",
+        "its long-term health consequences are undeniably severe",
+        "and costly."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:44",
+      "legacyId": "Theme_2-43",
+      "position": 44,
+      "script": "While it is true that remote online learning offers flexibility, many younger students severely miss the traditional classroom interaction.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้การเรียนออนไลน์ทางไกลจะให้ความยืดหยุ่น แต่เด็กนักเรียนอายุน้อยหลายคนก็ยังคงโหยหาการปฏิสัมพันธ์ในห้องเรียนแบบดั้งเดิมอย่างมาก",
+      "chunks": [
+        "While it is true",
+        "that remote online learning offers flexibility,",
+        "many younger students severely miss the traditional classroom interaction."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:45",
+      "legacyId": "Theme_2-44",
+      "position": 45,
+      "script": "Furthermore, the executive committee noted that the newly proposed budget does not account for unexpected future maintenance costs.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นอกจากนี้ คณะกรรมการบริหารยังตั้งข้อสังเกตว่างบประมาณที่เสนอมาใหม่ไม่ได้เผื่อค่าบำรุงรักษาในอนาคตที่อาจเกิดขึ้นโดยไม่คาดคิด",
+      "chunks": [
+        "Furthermore,",
+        "the executive committee noted",
+        "that the newly proposed budget does not account",
+        "for unexpected future maintenance costs."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:46",
+      "legacyId": "Theme_2-45",
+      "position": 46,
+      "script": "Furthermore, the reviewing committee noted that there is a significant lack of cultural diversity within the current executive board.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยิ่งไปกว่านั้น คณะกรรมการพิจารณาได้ชี้ให้เห็นว่ามีความบกพร่องด้านความหลากหลายทางวัฒนธรรมอย่างมีนัยสำคัญในบอร์ดบริหารชุดปัจจุบัน",
+      "chunks": [
+        "Furthermore,",
+        "the reviewing committee noted",
+        "that there is a significant lack of cultural diversity within the current executive board."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:47",
+      "legacyId": "Theme_2-46",
+      "position": 47,
+      "script": "Furthermore, the committee noted that the current traditional marketing strategy has completely failed to reach the younger demographic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยิ่งไปกว่านั้น คณะกรรมการตั้งข้อสังเกตว่ากลยุทธ์การตลาดแบบดั้งเดิมในปัจจุบันล้มเหลวในการเข้าถึงกลุ่มประชากรวัยรุ่นอย่างสิ้นเชิง",
+      "chunks": [
+        "Furthermore,",
+        "the committee noted",
+        "that the current traditional marketing strategy has completely failed",
+        "to reach the younger demographic."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:48",
+      "legacyId": "Theme_2-47",
+      "position": 48,
+      "script": "Furthermore, the financial committee noted that immediate structural reforms are absolutely necessary to prevent any further catastrophic financial losses.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นอกจากนี้ คณะกรรมการการเงินได้ชี้แจงว่าการปฏิรูปโครงสร้างอย่างเร่งด่วนเป็นสิ่งจำเป็นอย่างยิ่งเพื่อป้องกันความสูญเสียทางการเงินที่ร้ายแรงไปกว่านี้",
+      "chunks": [
+        "Furthermore,",
+        "the financial committee noted",
+        "that immediate structural reforms are absolutely necessary",
+        "to prevent any further catastrophic financial losses."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:49",
+      "legacyId": "Theme_2-48",
+      "position": 49,
+      "script": "Those who argue against the new progressive tax policy claim that it will unfairly burden hard-working middle-income families.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กลุ่มคนที่โต้แย้งนโยบายภาษีก้าวหน้าฉบับใหม่อ้างว่ามันจะสร้างภาระที่ไม่เป็นธรรมให้กับครอบครัวชนชั้นกลางที่ทำงานหนัก",
+      "chunks": [
+        "Those",
+        "who argue against the new progressive tax policy claim",
+        "that it will unfairly burden hard-working middle-income families."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:50",
+      "legacyId": "Theme_2-49",
+      "position": 50,
+      "script": "Those who argue against mandatory school uniforms believe that students should have the ultimate freedom to express themselves individually.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผู้ที่ต่อต้านการบังคับใส่เครื่องแบบนักเรียนเชื่อว่านักเรียนควรมีอิสระขั้นสูงสุดในการแสดงออกถึงความเป็นตัวตนของแต่ละคน",
+      "chunks": [
+        "Those",
+        "who argue against mandatory school uniforms believe",
+        "that students should have the ultimate freedom",
+        "to express themselves individually."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:51",
+      "legacyId": "Theme_2-50",
+      "position": 51,
+      "script": "Those who argue against nuclear power quickly point out the catastrophic long-term risks associated with radioactive waste disposal.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "บรรดาผู้ที่คัดค้านพลังงานนิวเคลียร์มักจะรีบชี้ให้เห็นถึงความเสี่ยงระยะยาวอันเลวร้ายที่เกี่ยวข้องกับการกำจัดกากกัมมันตรังสี",
+      "chunks": [
+        "Those",
+        "who argue against nuclear power quickly point out the catastrophic long-term risks associated",
+        "with radioactive waste disposal."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:52",
+      "legacyId": "Theme_2-51",
+      "position": 52,
+      "script": "Those who argue against strict internet censorship heavily emphasize the fundamental and universal human right to free speech.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กลุ่มคนที่ต่อต้านการเซ็นเซอร์อินเทอร์เน็ตอย่างเข้มงวดให้ความสำคัญอย่างมากกับสิทธิมนุษยชนขั้นพื้นฐานและสากลในด้านเสรีภาพในการพูด",
+      "chunks": [
+        "Those",
+        "who argue against strict internet censorship heavily emphasize the fundamental",
+        "and universal human right",
+        "to free speech."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:53",
+      "legacyId": "Theme_2-52",
+      "position": 53,
+      "script": "It remains to be seen whether the newly appointed CEO can successfully turn the struggling software company around.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยังคงต้องรอดูกันต่อไปว่าซีอีโอที่เพิ่งได้รับแต่งตั้งใหม่จะสามารถกอบกู้สถานการณ์ของบริษัทซอฟต์แวร์ที่กำลังย่ำแย่ได้สำเร็จหรือไม่",
+      "chunks": [
+        "It remains",
+        "to be seen whether the newly appointed CEO can successfully turn the struggling software company around."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:54",
+      "legacyId": "Theme_2-53",
+      "position": 54,
+      "script": "It remains to be seen whether the experimental medical vaccine will provide long-lasting immunity against the mutated virus.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยังต้องรอดูกันต่อไปว่าวัคซีนทางการแพทย์ที่อยู่ในการทดลองจะให้ภูมิคุ้มกันระยะยาวต่อต้านไวรัสกลายพันธุ์ได้หรือไม่",
+      "chunks": [
+        "It remains",
+        "to be seen whether the experimental medical vaccine will provide long-lasting immunity against the mutated virus."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:55",
+      "legacyId": "Theme_2-54",
+      "position": 55,
+      "script": "It remains to be seen whether these bold governmental environmental policies will actually produce any measurable positive results.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คงต้องรอดูกันต่อไปว่านโยบายสิ่งแวดล้อมที่กล้าหาญของรัฐบาลเหล่านี้จะสร้างผลลัพธ์เชิงบวกที่วัดผลได้จริงหรือไม่",
+      "chunks": [
+        "It remains",
+        "to be seen whether these bold governmental environmental policies will actually produce any measurable positive results."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:56",
+      "legacyId": "Theme_2-55",
+      "position": 56,
+      "script": "It remains to be seen whether the general public will peacefully accept the highly controversial changes to the national healthcare system.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยังต้องรอดูกันต่อไปว่าประชาชนทั่วไปจะยอมรับการเปลี่ยนแปลงที่เป็นที่ถกเถียงอย่างมากในระบบสาธารณสุขแห่งชาติอย่างสันติหรือไม่",
+      "chunks": [
+        "It remains",
+        "to be seen whether the general public will peacefully accept the highly controversial changes",
+        "to the national healthcare system."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:57",
+      "legacyId": "Theme_2-56",
+      "position": 57,
+      "script": "Consequently, many loyal consumers have completely stopped buying everyday products from brands with well-known poor environmental records.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผลลัพธ์ที่ตามมาคือ ผู้บริโภคที่เคยภักดีจำนวนมากได้หยุดซื้อสินค้าในชีวิตประจำวันจากแบรนด์ที่มีประวัติแย่ๆ ด้านสิ่งแวดล้อมอย่างสิ้นเชิง",
+      "chunks": [
+        "Consequently,",
+        "many loyal consumers have completely stopped buying everyday products from brands",
+        "with well-known poor environmental records."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:58",
+      "legacyId": "Theme_2-57",
+      "position": 58,
+      "script": "Consequently, many local consumers have strategically shifted their grocery shopping habits towards more affordable, locally sourced organic alternatives.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผลที่ตามมาก็คือ ผู้บริโภคในท้องถิ่นจำนวนมากได้ปรับเปลี่ยนพฤติกรรมการซื้อของชำอย่างมีกลยุทธ์ไปสู่ตัวเลือกออร์แกนิกในท้องถิ่นที่ราคาถูกกว่า",
+      "chunks": [
+        "Consequently,",
+        "many local consumers have strategically shifted their grocery shopping habits towards more affordable,",
+        "locally sourced organic alternatives."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:59",
+      "legacyId": "Theme_2-58",
+      "position": 59,
+      "script": "Consequently, many furious consumers have permanently canceled their online streaming subscriptions due to the recent unjustified price increases.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผลคือ ผู้บริโภคที่โกรธจัดจำนวนมากได้ยกเลิกการเป็นสมาชิกสตรีมมิ่งออนไลน์อย่างถาวรเนื่องจากการขึ้นราคาแบบไร้เหตุผลเมื่อเร็วๆ นี้",
+      "chunks": [
+        "Consequently,",
+        "many furious consumers have permanently canceled their online streaming subscriptions due",
+        "to the recent unjustified price increases."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:60",
+      "legacyId": "Theme_2-59",
+      "position": 60,
+      "script": "Consequently, many users have aggressively demanded greater legal transparency regarding how their sensitive personal data is being utilized.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ส่งผลให้ผู้ใช้จำนวนมากออกมาเรียกร้องอย่างแข็งกร้าวให้มีความโปร่งใสทางกฎหมายที่มากขึ้นเกี่ยวกับการนำข้อมูลส่วนบุคคลที่ละเอียดอ่อนของพวกเขาไปใช้งาน",
+      "chunks": [
+        "Consequently,",
+        "many users have aggressively demanded greater legal transparency regarding how their sensitive personal data is being utilized."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:61",
+      "legacyId": "Theme_2-60",
+      "position": 61,
+      "script": "Prior to the global introduction of smartphones, people traveling abroad relied heavily on cumbersome physical maps and printed travel guides.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนที่จะมีการนำสมาร์ทโฟนมาใช้ทั่วโลก ผู้คนที่เดินทางไปต่างประเทศต้องพึ่งพาแผนที่กระดาษเทอะทะและคู่มือท่องเที่ยวแบบตีพิมพ์เป็นหลัก",
+      "chunks": [
+        "Prior",
+        "to the global introduction of smartphones,",
+        "people traveling abroad relied heavily",
+        "on cumbersome physical maps",
+        "and printed travel guides."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:62",
+      "legacyId": "Theme_2-61",
+      "position": 62,
+      "script": "Prior to the strict introduction of modern labor laws, factory workers often endured extremely hazardous and unfair working conditions.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนที่จะมีการนำกฎหมายแรงงานสมัยใหม่มาบังคับใช้อย่างเข้มงวด คนงานในโรงงานมักจะต้องทนกับสภาพการทำงานที่อันตรายและไม่เป็นธรรมอย่างยิ่ง",
+      "chunks": [
+        "Prior",
+        "to the strict introduction of modern labor laws,",
+        "factory workers often endured extremely hazardous",
+        "and unfair working conditions."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:63",
+      "legacyId": "Theme_2-62",
+      "position": 63,
+      "script": "Prior to the complete introduction of the new software system, all complicated accounting records were processed manually by tired clerks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนจะมีการนำระบบซอฟต์แวร์ใหม่มาใช้อย่างเต็มรูปแบบ บันทึกทางบัญชีที่ซับซ้อนทั้งหมดถูกจัดการด้วยมือโดยเสมียนที่เหน็ดเหนื่อย",
+      "chunks": [
+        "Prior",
+        "to the complete introduction of the new software system,",
+        "all complicated accounting records were processed manually by tired clerks."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:64",
+      "legacyId": "Theme_2-63",
+      "position": 64,
+      "script": "Prior to the introduction of widespread vaccination programs, many easily preventable diseases caused devastatingly high mortality rates globally.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ก่อนการเริ่มโครงการฉีดวัคซีนอย่างแพร่หลาย โรคที่ป้องกันได้ง่ายหลายโรคได้ก่อให้เกิดอัตราการเสียชีวิตที่สูงจนน่าตกใจไปทั่วโลก",
+      "chunks": [
+        "Prior",
+        "to the introduction of widespread vaccination programs,",
+        "many easily preventable diseases caused devastatingly high mortality rates globally."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:65",
+      "legacyId": "Theme_2-64",
+      "position": 65,
+      "script": "Provided that the unpredictable weather conditions remain generally favorable, the massive construction project will be safely completed by late November.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากสภาพอากาศที่คาดเดาไม่ได้ยังคงเอื้ออำนวยโดยทั่วไป โครงการก่อสร้างขนาดใหญ่นี้จะแล้วเสร็จอย่างปลอดภัยภายในปลายเดือนพฤศจิกายน",
+      "chunks": [
+        "Provided",
+        "that the unpredictable weather conditions remain generally favorable,",
+        "the massive construction project will be safely completed by late November."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:66",
+      "legacyId": "Theme_2-65",
+      "position": 66,
+      "script": "Provided that the necessary funding is officially approved by the board, the eager research team will begin the clinical trials immediately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในกรณีที่เงินทุนที่จำเป็นได้รับการอนุมัติอย่างเป็นทางการจากคณะกรรมการ ทีมวิจัยที่กระตือรือร้นจะเริ่มการทดลองทางคลินิกทันที",
+      "chunks": [
+        "Provided",
+        "that the necessary funding is officially approved by the board,",
+        "the eager research team will begin the clinical trials immediately."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:67",
+      "legacyId": "Theme_2-66",
+      "position": 67,
+      "script": "Provided that all established safety protocols are strictly followed, the chemical laboratory is a completely secure and hazard-free working environment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากมีการปฏิบัติตามกฎระเบียบด้านความปลอดภัยที่กำหนดไว้อย่างเคร่งครัด ห้องปฏิบัติการเคมีก็ถือเป็นสภาพแวดล้อมการทำงานที่ปลอดภัยและไร้อันตรายอย่างสมบูรณ์",
+      "chunks": [
+        "Provided",
+        "that all established safety protocols are strictly followed,",
+        "the chemical laboratory is a completely secure",
+        "and hazard-free working environment."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:68",
+      "legacyId": "Theme_2-67",
+      "position": 68,
+      "script": "Provided that the international borders finally remain open, the devastated tourism sector is heavily expected to recover significantly this calendar year.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หากพรมแดนระหว่างประเทศยังคงเปิดอยู่ตามเดิม ภาคการท่องเที่ยวที่บอบช้ำก็ถูกคาดหวังอย่างมากว่าจะฟื้นตัวได้อย่างเป็นกอบเป็นกำในปีปฏิทินนี้",
+      "chunks": [
+        "Provided",
+        "that the international borders finally remain open,",
+        "the devastated tourism sector is heavily expected",
+        "to recover significantly this calendar year."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:69",
+      "legacyId": "Theme_2-68",
+      "position": 69,
+      "script": "Not only did the successful company report record-breaking profits, but it also surprisingly announced a massive strategic expansion into Asia.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "บริษัทที่ประสบความสำเร็จแห่งนี้ไม่เพียงแต่จะรายงานผลกำไรที่พุ่งทำลายสถิติเท่านั้น แต่มันยังสร้างความประหลาดใจด้วยการประกาศแผนขยายธุรกิจเชิงกลยุทธ์ครั้งใหญ่เข้าสู่เอเชียอีกด้วย",
+      "chunks": [
+        "Not only did the successful company report record-breaking profits,",
+        "but it also surprisingly announced a massive strategic expansion into Asia."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:70",
+      "legacyId": "Theme_2-69",
+      "position": 70,
+      "script": "Not only did the brutal hurricane completely destroy thousands of homes, but it also severely crippled the city's essential electrical infrastructure.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พายุเฮอริเคนที่รุนแรงไม่เพียงแต่ทำลายบ้านเรือนหลายพันหลังจนย่อยยับ แต่ยังสร้างความเสียหายอย่างหนักต่อโครงสร้างพื้นฐานทางไฟฟ้าที่จำเป็นของเมืองด้วย",
+      "chunks": [
+        "Not only did the brutal hurricane completely destroy thousands of homes,",
+        "but it also severely crippled the city's essential electrical infrastructure."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:71",
+      "legacyId": "Theme_2-70",
+      "position": 71,
+      "script": "Not only did the progressive new legislation successfully increase the national minimum wage, but it also provided considerably better healthcare benefits.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กฎหมายใหม่ที่ก้าวหน้าไม่เพียงแต่สามารถเพิ่มค่าแรงขั้นต่ำระดับชาติได้สำเร็จ แต่มันยังมอบสวัสดิการด้านการดูแลสุขภาพที่ดีขึ้นอย่างมากด้วย",
+      "chunks": [
+        "Not only did the progressive new legislation successfully increase the national minimum wage,",
+        "but it also provided considerably better healthcare benefits."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:72",
+      "legacyId": "Theme_2-71",
+      "position": 72,
+      "script": "Not only did the controversial documentary win several prestigious international awards, but it also sparked a long-overdue nationwide conversation about systemic poverty.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สารคดีที่เป็นที่ถกเถียงเรื่องนี้ไม่เพียงแต่คว้ารางวัลระดับนานาชาติอันทรงเกียรติไปหลายรางวัล แต่มันยังจุดประกายการพูดคุยระดับชาติเกี่ยวกับความยากจนเชิงระบบที่ควรจะเกิดขึ้นมาตั้งนานแล้วด้วย",
+      "chunks": [
+        "Not only did the controversial documentary win several prestigious international awards,",
+        "but it also sparked a long-overdue nationwide conversation",
+        "about systemic poverty."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:73",
+      "legacyId": "Theme_2-72",
+      "position": 73,
+      "script": "The fundamental difference between the two main political parties essentially lies in their vastly contrasting approaches to national economic policies.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ความแตกต่างพื้นฐานระหว่างสองพรรคการเมืองหลักนั้น โดยเนื้อแท้แล้วอยู่ที่แนวทางในการจัดการนโยบายเศรษฐกิจของชาติที่แตกต่างกันอย่างสิ้นเชิง",
+      "chunks": [
+        "The fundamental difference between the two main political parties essentially lies",
+        "in their vastly contrasting approaches",
+        "to national economic policies."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:74",
+      "legacyId": "Theme_2-73",
+      "position": 74,
+      "script": "The fundamental difference between a traditional established bank and a modern cryptocurrency exchange is basically the technological level of decentralization.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ความแตกต่างพื้นฐานระหว่างธนาคารแบบดั้งเดิมที่ก่อตั้งมานานกับกระดานเทรดคริปโตสมัยใหม่ ก็คือระดับของการกระจายศูนย์ทางเทคโนโลยี",
+      "chunks": [
+        "The fundamental difference between a traditional established bank",
+        "and a modern cryptocurrency exchange is basically the technological level of decentralization."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:75",
+      "legacyId": "Theme_2-74",
+      "position": 75,
+      "script": "The fundamental difference between these two expensive marketing strategies is simply the specific target audience they are actively trying to reach.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ความแตกต่างพื้นฐานระหว่างกลยุทธ์การตลาดราคาแพงสองแบบนี้ก็แค่กลุ่มเป้าหมายเฉพาะที่พวกเขากำลังพยายามเข้าถึงเท่านั้นเอง",
+      "chunks": [
+        "The fundamental difference between these two expensive marketing strategies is simply the specific target audience they are actively trying",
+        "to reach."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:76",
+      "legacyId": "Theme_2-75",
+      "position": 76,
+      "script": "The fundamental difference between viral infections and bacterial infections ultimately determines the specific type of medical treatment that is required.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ความแตกต่างพื้นฐานระหว่างการติดเชื้อไวรัสและการติดเชื้อแบคทีเรีย จะเป็นตัวกำหนดประเภทของการรักษาทางการแพทย์เฉพาะทางที่จำเป็นในท้ายที่สุด",
+      "chunks": [
+        "The fundamental difference between viral infections",
+        "and bacterial infections ultimately determines the specific type of medical treatment",
+        "that is required."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:77",
+      "legacyId": "Theme_2-76",
+      "position": 77,
+      "script": "Ultimately, the long-term success of the new digital educational program depends almost entirely on the unwavering dedication of the teachers involved.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ท้ายที่สุดแล้ว ความสำเร็จในระยะยาวของโปรแกรมการศึกษาดิจิทัลรูปแบบใหม่แทบจะขึ้นอยู่กับความทุ่มเทอย่างแน่วแน่ของคุณครูที่เกี่ยวข้องทั้งหมด",
+      "chunks": [
+        "Ultimately,",
+        "the long-term success of the new digital educational program depends almost entirely",
+        "on the unwavering dedication of the teachers involved."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:78",
+      "legacyId": "Theme_2-77",
+      "position": 78,
+      "script": "Ultimately, the financial success of any new tech startup business usually requires a perfect combination of an innovative product and excellent market timing.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ท้ายที่สุดแล้ว ความสำเร็จทางการเงินของธุรกิจสตาร์ทอัพด้านเทคโนโลยีรายใหม่ๆ มักจะต้องอาศัยส่วนผสมที่ลงตัวระหว่างนวัตกรรมของตัวผลิตภัณฑ์และจังหวะเวลาของตลาดที่ยอดเยี่ยม",
+      "chunks": [
+        "Ultimately,",
+        "the financial success of any new tech startup business usually requires a perfect combination of an innovative product",
+        "and excellent market timing."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:79",
+      "legacyId": "Theme_2-78",
+      "position": 79,
+      "script": "Ultimately, the true success of the complex global environmental treaty heavily relies on the strict and transparent cooperation of all participating sovereign nations.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในท้ายที่สุด ความสำเร็จที่แท้จริงของสนธิสัญญาสิ่งแวดล้อมโลกอันซับซ้อนนี้ จำเป็นต้องพึ่งพาความร่วมมือที่โปร่งใสและเคร่งครัดจากชาติอธิปไตยที่เข้าร่วมทุกประเทศอย่างมาก",
+      "chunks": [
+        "Ultimately,",
+        "the true success of the complex global environmental treaty heavily relies",
+        "on the strict",
+        "and transparent cooperation of all participating sovereign nations."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_2:80",
+      "legacyId": "Theme_2-79",
+      "position": 80,
+      "script": "Ultimately, the historical success of this incredibly complex diplomatic mission will predictably shape the political and economic landscape for many decades to come.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ท้ายที่สุด ความสำเร็จครั้งประวัติศาสตร์ของภารกิจทางการทูตที่ซับซ้อนอย่างเหลือเชื่อนี้ จะเป็นตัวกำหนดภูมิทัศน์ทางการเมืองและเศรษฐกิจไปอีกหลายทศวรรษข้างหน้าอย่างที่คาดเดาได้",
+      "chunks": [
+        "Ultimately,",
+        "the historical success of this incredibly complex diplomatic mission will predictably shape the political",
+        "and economic landscape",
+        "for many decades",
+        "to come."
+      ]
+    }
+  ]
+}

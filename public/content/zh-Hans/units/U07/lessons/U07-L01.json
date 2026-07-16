@@ -1,0 +1,127 @@
+{
+  "id": "U07-L01",
+  "number": 1,
+  "title": "วันนี้คือวันที่เท่าไหร่",
+  "chunks": [
+    {
+      "id": "zh-Hans:U07-L01-C001",
+      "legacyId": "U07-L01-C001",
+      "position": 1,
+      "script": "今天是几号？",
+      "pronunciation": "jīn tiān shì jǐ hào?",
+      "phonetic": "จิน เทียน สื้อ จี๋ ห้าว?",
+      "translation": "วันนี้คือวันที่เท่าไหร่",
+      "chunks": [
+        "今天是几号？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L01-C002",
+      "legacyId": "U07-L01-C002",
+      "position": 2,
+      "script": "明天你有什么安排？",
+      "pronunciation": "míng tiān nǐ yǒu shén me ān pái?",
+      "phonetic": "หมิง เทียน หนี่ โหย่ว เซิ่น เมอ อัน ไผ?",
+      "translation": "พรุ่งนี้คุณมีแผนงานหรือตารางเวลาอะไรไหม",
+      "chunks": [
+        "明天你有什么安排？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L01-C003",
+      "legacyId": "U07-L01-C003",
+      "position": 3,
+      "script": "我昨天见到他了。",
+      "pronunciation": "wǒ zuó tiān jiàn dào tā le.",
+      "phonetic": "หว่อ จั๋ว เทียน เจี้ยน ต้าว ทา เลอ.",
+      "translation": "เมื่อวันก่อนฉันเจอเขามาแล้ว",
+      "chunks": [
+        "我昨天见到他了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L01-C004",
+      "legacyId": "U07-L01-C004",
+      "position": 4,
+      "script": "我们明天上午开会。",
+      "pronunciation": "wǒ men míng tiān shàng wǔ kāi huì.",
+      "phonetic": "หว่อ เมิน หมิง เทียน ซ้าง อู่ ไค หุ่ย.",
+      "translation": "พวกเราประชุมพรุ่งนี้เช้า",
+      "chunks": [
+        "我们明天上午开会。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L01-C005",
+      "legacyId": "U07-L01-C005",
+      "position": 5,
+      "script": "今天下午你要去哪儿？",
+      "pronunciation": "jīn tiān xià wǔ nǐ yào qù nǎr?",
+      "phonetic": "จิน เทียน เซี่ย อู่ หนี่ เย้า ชวี่ หน่าร์?",
+      "translation": "ช่วงบ่ายวันนี้คุณจะไปไหน",
+      "chunks": [
+        "今天下午你要去哪儿？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L01-C006",
+      "legacyId": "U07-L01-C006",
+      "position": 6,
+      "script": "你晚上一般几点到家？",
+      "pronunciation": "nǐ wǎn shang yì bān jǐ diǎn dào jiā?",
+      "phonetic": "หนี่ หวั่น ส่าง อี้ ปาน จี๋ เตี่ยน ต้าว เจีย?",
+      "translation": "ปกติตอนเย็น/ตอนกลางคืนคุณถึงบ้านกี่โมง",
+      "chunks": [
+        "你晚上一般几点到家？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L01-C007",
+      "legacyId": "U07-L01-C007",
+      "position": 7,
+      "script": "现在已经几点了？",
+      "pronunciation": "xiàn zài yǐ jīng jǐ diǎn le?",
+      "phonetic": "เซี่ยน ไจ้ อี่ จิง จี๋ เตี่ยน เลอ?",
+      "translation": "ตอนนี้กี่โมงแล้วนะ",
+      "chunks": [
+        "现在已经几点了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L01-C008",
+      "legacyId": "U07-L01-C008",
+      "position": 8,
+      "script": "电影几点开始？",
+      "pronunciation": "diàn yǐng jǐ diǎn kāi shǐ?",
+      "phonetic": "เตี้ยน อิ่ง จี๋ เตี่ยน ไค สื่อ?",
+      "translation": "ภาพยนตร์เริ่มฉายกี่โมง",
+      "chunks": [
+        "电影几点开始？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L01-C009",
+      "legacyId": "U07-L01-C009",
+      "position": 9,
+      "script": "快点，要迟到了！",
+      "pronunciation": "kuài diǎn, yào chí dào le!",
+      "phonetic": "คว้าย เตี่ยน, เย้า ฉี ต้าว เลอ!",
+      "translation": "เร็วหน่อย จะสายแล้วนะ!",
+      "chunks": [
+        "快点，要迟到了！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L01-C010",
+      "legacyId": "U07-L01-C010",
+      "position": 10,
+      "script": "别着急，还来得及。",
+      "pronunciation": "bié zháo jí, hái lái de jí.",
+      "phonetic": "เปี๋ย เจ๋า จี๋, หาย ไหล เตอ จี๋.",
+      "translation": "ไม่ต้องรีบร้อน ยังทันอยู่",
+      "chunks": [
+        "别着急，还来得及。"
+      ]
+    }
+  ]
+}

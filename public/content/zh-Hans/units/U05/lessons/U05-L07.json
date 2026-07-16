@@ -1,0 +1,127 @@
+{
+  "id": "U05-L07",
+  "number": 7,
+  "title": "น้ำซุปนี้ร้อนลวกปากเกินไป",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L07-C061",
+      "legacyId": "U05-L07-C061",
+      "position": 1,
+      "script": "这个汤太烫了。",
+      "pronunciation": "zhè ge tāng tài tàng le.",
+      "phonetic": "เจ้อ เกอ ทาง ไท่ ท้าง เลอ.",
+      "translation": "น้ำซุปนี้ร้อนลวกปากเกินไป",
+      "chunks": [
+        "这个汤太烫了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L07-C062",
+      "legacyId": "U05-L07-C062",
+      "position": 2,
+      "script": "帮我催一下菜，谢谢。",
+      "pronunciation": "bāng wǒ cuī yí xià cài, xiè xie.",
+      "phonetic": "ปัง หว่อ ชุย อี๋ เซี่ย ไช้, เซี่ย เสี่ย.",
+      "translation": "ช่วยตามอาหารให้ฉันหน่อย ขอบคุณครับ/ค่ะ",
+      "chunks": [
+        "帮我催一下菜，谢谢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L07-C063",
+      "legacyId": "U05-L07-C063",
+      "position": 3,
+      "script": "这个可以免费续杯吗？",
+      "pronunciation": "kě yǐ miǎn fèi xù bēi ma?",
+      "phonetic": "เขอ อี่ เมี่ยน เฟ่ย ซวี่ เปย มะ?",
+      "translation": "อันนี้เติมน้ำ (รีฟิล) ฟรีไหม",
+      "chunks": [
+        "这个可以免费续杯吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L07-C064",
+      "legacyId": "U05-L07-C064",
+      "position": 4,
+      "script": "我想喝点儿热的东西。",
+      "pronunciation": "wǒ xiǎng hē diǎnr rè de dōng xi.",
+      "phonetic": "หว่อ แฉี่ยง เฮอ เดี๋ยร์ เร่อ เตอ ตง สิ.",
+      "translation": "ฉันอยากดื่มอะไรอุ่นๆ หน่อย",
+      "chunks": [
+        "我想喝点儿热的东西。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L07-C065",
+      "legacyId": "U05-L07-C065",
+      "position": 5,
+      "script": "今天的海鲜很肥美。",
+      "pronunciation": "jīn tiān de hǎi xiān hěn féi měi.",
+      "phonetic": "จิน เทียน เตอ ไห่ เซียน เหิ่น เฟย เหม่ย.",
+      "translation": "อาหารทะเลวันนี้เนื้อแน่นน่ากินมาก",
+      "chunks": [
+        "今天的海鲜很肥美。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L07-C066",
+      "legacyId": "U05-L07-C066",
+      "position": 6,
+      "script": "我不喜欢吃太甜的宵夜。",
+      "pronunciation": "wǒ bù xǐ huan chī tài tián de xiāo yè.",
+      "phonetic": "หว่อ ปู้ สี่ หวน ชือ ไท่ เถียน เตอ เซียว เย่.",
+      "translation": "ฉันไม่ชอบกินของกินเล่นตอนดึกที่หวานเกินไป",
+      "chunks": [
+        "我不喜欢吃太甜的宵夜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L07-C067",
+      "legacyId": "U05-L07-C067",
+      "position": 7,
+      "script": "这个甜点太腻了。",
+      "pronunciation": "zhè ge tián diǎn tài nì le.",
+      "phonetic": "เจ้อ เกอ เถียน เตี่ยน ไท่ นี่ เลอ.",
+      "translation": "ขนมหวานนี้เลี่ยนเกินไปแล้ว",
+      "chunks": [
+        "这个甜点太腻了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L07-C068",
+      "legacyId": "U05-L07-C068",
+      "position": 8,
+      "script": "请给我拿一杯冰水。",
+      "pronunciation": "qǐng gěi wǒ ná yì bēi bīng shuǐ.",
+      "phonetic": "ฉิ่ง เก๋ย หว่อ น๋า อี้ เปย บิง สุ่ย.",
+      "translation": "กรุณาหยิบน้ำเย็นให้ฉันแก้วนึง",
+      "chunks": [
+        "请给我拿一杯冰水。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L07-C069",
+      "legacyId": "U05-L07-C069",
+      "position": 9,
+      "script": "你吃早餐了吗？",
+      "pronunciation": "nǐ chī zǎo cān le ma?",
+      "phonetic": "หนี่ ชือ เจ๋า ซาน เลอ มะ?",
+      "translation": "คุณกินอาหารเช้าหรือยัง",
+      "chunks": [
+        "你吃早餐了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L07-C070",
+      "legacyId": "U05-L07-C070",
+      "position": 10,
+      "script": "这里的川菜很正宗。",
+      "pronunciation": "zhè lǐ de chuān cài hěn zhèng zōng.",
+      "phonetic": "เจ้อ หลี่ เตอ ชวน ไช้ เหิ่น เจิ้ง จง.",
+      "translation": "อาหารเสฉวนของที่นี่รสชาติแท้ดั้งเดิมมาก",
+      "chunks": [
+        "这里的川菜很正宗。"
+      ]
+    }
+  ]
+}

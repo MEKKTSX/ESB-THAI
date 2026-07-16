@@ -1,0 +1,127 @@
+{
+  "id": "U03-L05",
+  "number": 5,
+  "title": "คุณอยากกินอาหารจีนหรืออาหารฝรั่ง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U03-L05-C041",
+      "legacyId": "U03-L05-C041",
+      "position": 1,
+      "script": "你想吃中餐还是西餐？",
+      "pronunciation": "nǐ xiǎng chī zhōng cān hái shì xī cān?",
+      "phonetic": "หนี่ แฉี่ยง ชือ จง ซาน หาย สื้อ ซี ซาน?",
+      "translation": "คุณอยากกินอาหารจีนหรืออาหารฝรั่ง",
+      "chunks": [
+        "你想吃中餐还是西餐？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L05-C042",
+      "legacyId": "U03-L05-C042",
+      "position": 2,
+      "script": "你下午有什么安排吗？",
+      "pronunciation": "nǐ xià wǔ yǒu shén me ān pái ma?",
+      "phonetic": "หนี่ เซี่ย อู่ โหย่ว เซิ่น เมอ อัน ไผ มะ?",
+      "translation": "ช่วงบ่ายคุณมีแผนจะทำอะไรไหม",
+      "chunks": [
+        "你下午有什么安排吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L05-C043",
+      "legacyId": "U03-L05-C043",
+      "position": 3,
+      "script": "你有看到我的钥匙吗？",
+      "pronunciation": "nǐ yǒu kàn dào wǒ de yào shi ma?",
+      "phonetic": "หนี่ โหย่ว ค่าน ต้าว หว่อ เตอ เย้า สิ มะ?",
+      "translation": "คุณเห็นกุญแจของฉันบ้างไหม",
+      "chunks": [
+        "你有看到我的钥匙吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L05-C044",
+      "legacyId": "U03-L05-C044",
+      "position": 4,
+      "script": "你觉得这个颜色怎么样？",
+      "pronunciation": "nǐ jué de zhè ge yán sè zěn me yàng?",
+      "phonetic": "หนี่ จว๋ะ เตอ เจ้อ เกอ แหยน เซ่อ เจิ่น เมอ ย่าง?",
+      "translation": "คุณคิดว่าสีนี้เป็นยังไงบ้าง",
+      "chunks": [
+        "你觉得这个颜色怎么样？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L05-C045",
+      "legacyId": "U03-L05-C045",
+      "position": 5,
+      "script": "还要加点别的东西吗？",
+      "pronunciation": "hái yào jiā diǎn bié de dōng xi ma?",
+      "phonetic": "หาย เย้า เจีย เตี่ยน เปี๋ย เตอ ตง สิ มะ?",
+      "translation": "ยังต้องเพิ่มของอย่างอื่นอีกไหม",
+      "chunks": [
+        "还要加点别的东西吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L05-C046",
+      "legacyId": "U03-L05-C046",
+      "position": 6,
+      "script": "我们现在可以开会了吗？",
+      "pronunciation": "wǒ men xiàn zài kě yǐ kāi huì le ma?",
+      "phonetic": "หว่อ เมิน เซี่ยน ไซ้ เขอ อี่ ไค หุ่ย เลอ มะ?",
+      "translation": "พวกเราเริ่มประชุมตอนนี้เลยได้ไหม",
+      "chunks": [
+        "我们现在可以开会了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L05-C047",
+      "legacyId": "U03-L05-C047",
+      "position": 7,
+      "script": "你觉得谁去比较合适？",
+      "pronunciation": "nǐ jué de shéi qù bǐ jiào hé shì?",
+      "phonetic": "หนี่ จว๋ะ เตอ เษ่ย ชวี่ ปี่ เจี้ยว เหอ สื้อ?",
+      "translation": "คุณคิดว่าใครไปจะเหมาะสมกว่ากัน",
+      "chunks": [
+        "你觉得谁去比较合适？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L05-C048",
+      "legacyId": "U03-L05-C048",
+      "position": 8,
+      "script": "明天天气会下雨吗？",
+      "pronunciation": "míng tiān tiān qì huì xià yǔ ma?",
+      "phonetic": "หมิง เทียน เทียน จี้ ฮุ่ย เซี่ย อวี่ มะ?",
+      "translation": "พรุ่งนี้ฝนจะตกไหม",
+      "chunks": [
+        "明天天气会下雨吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L05-C049",
+      "legacyId": "U03-L05-C049",
+      "position": 9,
+      "script": "你现在感觉好点了吗？",
+      "pronunciation": "nǐ xiàn zài gǎn jué hǎo diǎnr le ma?",
+      "phonetic": "หนี่ เซี่ยน ไซ้ ก๋ัน จว๋ะ ห่าว เดี๋ยร์ เลอ มะ?",
+      "translation": "ตอนนี้คุณรู้สึกดีขึ้นบ้างหรือยัง",
+      "chunks": [
+        "你现在感觉好点了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L05-C050",
+      "legacyId": "U03-L05-C050",
+      "position": 10,
+      "script": "今天的晚饭合你胃口吗？",
+      "pronunciation": "jīn tiān de wǎn fàn hé nǐ wèi kǒu ma?",
+      "phonetic": "จิน เทียน เตอ หวั่น ฟ้าน เหอ หนี่ เว่ย โข่ว มะ?",
+      "translation": "อาหารเย็นวันนี้ถูกปากคุณไหม",
+      "chunks": [
+        "今天的晚饭合你胃口吗？"
+      ]
+    }
+  ]
+}

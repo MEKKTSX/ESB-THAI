@@ -1,0 +1,127 @@
+{
+  "id": "U05-L01",
+  "number": 1,
+  "title": "ฉันหิวแล้ว",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L01-C001",
+      "legacyId": "U05-L01-C001",
+      "position": 1,
+      "script": "我饿了。",
+      "pronunciation": "wǒ è le.",
+      "phonetic": "หว่อ เอ้อ เลอ.",
+      "translation": "ฉันหิวแล้ว",
+      "chunks": [
+        "我饿了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L01-C002",
+      "legacyId": "U05-L01-C002",
+      "position": 2,
+      "script": "我吃饱了。",
+      "pronunciation": "wǒ chī bǎo le.",
+      "phonetic": "หว่อ ชือ เป๋า เลอ.",
+      "translation": "ฉันอิ่มแล้ว",
+      "chunks": [
+        "我吃饱了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L01-C003",
+      "legacyId": "U05-L01-C003",
+      "position": 3,
+      "script": "我有点儿渴。",
+      "pronunciation": "wǒ yǒu diǎnr kě.",
+      "phonetic": "หว่อ โหย่ว เดี๋ยร์ เข่อ.",
+      "translation": "ฉันค่อนข้างกระหายน้ำ / หิวน้ำนิดหน่อย",
+      "chunks": [
+        "我有点儿渴。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L01-C004",
+      "legacyId": "U05-L01-C004",
+      "position": 4,
+      "script": "你想吃点儿什么？",
+      "pronunciation": "nǐ xiǎng chī diǎnr shén me?",
+      "phonetic": "หนี่ แฉี่ยง ชือ เดี๋ยร์ เซิ่น เมอ?",
+      "translation": "คุณอยากกินอะไรหน่อยไหม",
+      "chunks": [
+        "你想吃点儿什么？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L01-C005",
+      "legacyId": "U05-L01-C005",
+      "position": 5,
+      "script": "我想喝杯冷水。",
+      "pronunciation": "wǒ xiǎng hē bēi lěng shuǐ.",
+      "phonetic": "หว่อ แฉี่ยง เฮอ เปย เลิ่ง สุ่ย.",
+      "translation": "ฉันอยากดื่มน้ำเย็นสักแก้ว",
+      "chunks": [
+        "我想喝杯冷水。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L01-C006",
+      "legacyId": "U05-L01-C006",
+      "position": 6,
+      "script": "我们一起去吃晚饭吧。",
+      "pronunciation": "wǒ men yì qǐ qù chī wǎn fàn ba.",
+      "phonetic": "หว่อ เมิน อี้ ฉี่ ชวี่ ชือ หวั่น ฟ้าน ปะ.",
+      "translation": "พวกเราไปกินข้าวเย็นด้วยกันเถอะ",
+      "chunks": [
+        "我们一起去吃晚饭吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L01-C007",
+      "legacyId": "U05-L01-C007",
+      "position": 7,
+      "script": "附近有什么好吃的地方？",
+      "pronunciation": "fù jìn yǒu shén me hǎo chī de dì fang?",
+      "phonetic": "ฟู่ จิ้น โหย่ว เซิ่น เมอ ห่าว ชือ เตอ ตี้ ฝ่าง?",
+      "translation": "แถวนี้มีร้านไหนอร่อยๆ บ้าง",
+      "chunks": [
+        "附近有什么好吃的地方？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L01-C008",
+      "legacyId": "U05-L01-C008",
+      "position": 8,
+      "script": "你吃过饭了吗？",
+      "pronunciation": "nǐ chī guò fàn le ma?",
+      "phonetic": "หนี่ ชือ กั้ว ฟ้าน เลอ มะ?",
+      "translation": "คุณกินข้าวหรือยัง",
+      "chunks": [
+        "你吃过饭了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L01-C009",
+      "legacyId": "U05-L01-C009",
+      "position": 9,
+      "script": "我还没吃呢。",
+      "pronunciation": "wǒ hái méi chī ne.",
+      "phonetic": "หว่อ หาย เหมย ชือ เนอ.",
+      "translation": "ฉันยังไม่ได้กินเลย",
+      "chunks": [
+        "我还没吃呢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L01-C010",
+      "legacyId": "U05-L01-C010",
+      "position": 10,
+      "script": "服务员，点菜！",
+      "pronunciation": "fú wù yuán, diǎn cài!",
+      "phonetic": "ฟู่ อู้ หยวาน, เตี่ยน ไช้!",
+      "translation": "บริกรครับ/ค่ะ สั่งอาหารหน่อย!",
+      "chunks": [
+        "服务员，点菜！"
+      ]
+    }
+  ]
+}

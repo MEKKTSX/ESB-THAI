@@ -1,0 +1,203 @@
+{
+  "id": "M2",
+  "number": 13,
+  "title": "M. Work, Study & Formal Communication",
+  "chunks": [
+    {
+      "id": "en:session-2:M2:1",
+      "legacyId": "M2-0",
+      "position": 1,
+      "script": "I would like to make an appointment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องการขอนัดหมาย",
+      "chunks": [
+        "I would like",
+        "to make an appointment."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:2",
+      "legacyId": "M2-1",
+      "position": 2,
+      "script": "I would like to ask about the job opening.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากสอบถามเรื่องตำแหน่งงานว่าง",
+      "chunks": [
+        "I would like",
+        "to ask",
+        "about the job opening."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:3",
+      "legacyId": "M2-2",
+      "position": 3,
+      "script": "I would like to complain about the service.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องการร้องเรียนเรื่องการบริการ",
+      "chunks": [
+        "I would like",
+        "to complain",
+        "about the service."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:4",
+      "legacyId": "M2-3",
+      "position": 4,
+      "script": "Could you please send me the details?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รบกวนส่งรายละเอียดให้ฉันหน่อยได้ไหม?",
+      "chunks": [
+        "Could you please send me the details?"
+      ]
+    },
+    {
+      "id": "en:session-2:M2:5",
+      "legacyId": "M2-4",
+      "position": 5,
+      "script": "Could you please confirm the meeting time?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รบกวนช่วยยืนยันเวลานัดหมายได้ไหม?",
+      "chunks": [
+        "Could you please confirm the meeting time?"
+      ]
+    },
+    {
+      "id": "en:session-2:M2:6",
+      "legacyId": "M2-5",
+      "position": 6,
+      "script": "Could you let me know if you are available?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยแจ้งให้ทราบหน่อยได้ไหมถ้าคุณว่าง?",
+      "chunks": [
+        "Could you let me know if you are available?"
+      ]
+    },
+    {
+      "id": "en:session-2:M2:7",
+      "legacyId": "M2-6",
+      "position": 7,
+      "script": "I am writing to inform you that I will be away.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเขียนมาเพื่อแจ้งว่าฉันจะไม่อยู่",
+      "chunks": [
+        "I am writing",
+        "to inform you",
+        "that I will be away."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:8",
+      "legacyId": "M2-7",
+      "position": 8,
+      "script": "I am interested in applying for this position.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันสนใจสมัครงานตำแหน่งนี้",
+      "chunks": [
+        "I am interested",
+        "in applying",
+        "for this position."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:9",
+      "legacyId": "M2-8",
+      "position": 9,
+      "script": "I look forward to hearing from you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหวังว่าจะได้รับการติดต่อกลับจากคุณ",
+      "chunks": [
+        "I look forward",
+        "to hearing from you."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:10",
+      "legacyId": "M2-9",
+      "position": 10,
+      "script": "I look forward to meeting you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตั้งตารอที่จะได้พบคุณ",
+      "chunks": [
+        "I look forward",
+        "to meeting you."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:11",
+      "legacyId": "M2-10",
+      "position": 11,
+      "script": "Thank you for your patience.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณที่อดทนรอ",
+      "chunks": [
+        "Thank you",
+        "for your patience."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:12",
+      "legacyId": "M2-11",
+      "position": 12,
+      "script": "Thank you for your cooperation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณสำหรับความร่วมมือ",
+      "chunks": [
+        "Thank you",
+        "for your cooperation."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:13",
+      "legacyId": "M2-12",
+      "position": 13,
+      "script": "Please find the attached file.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โปรดดูไฟล์ที่แนบมา",
+      "chunks": [
+        "Please find the attached file."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:14",
+      "legacyId": "M2-13",
+      "position": 14,
+      "script": "Please do not hesitate to contact me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อย่าลังเลที่จะติดต่อฉัน",
+      "chunks": [
+        "Please do not hesitate",
+        "to contact me."
+      ]
+    },
+    {
+      "id": "en:session-2:M2:15",
+      "legacyId": "M2-14",
+      "position": 15,
+      "script": "According to the report, sales are up.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อ้างอิงจากรายงาน ยอดขายเพิ่มขึ้น",
+      "chunks": [
+        "According",
+        "to the report,",
+        "sales are up."
+      ]
+    }
+  ]
+}

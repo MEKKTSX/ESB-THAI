@@ -1,0 +1,127 @@
+{
+  "id": "U01-L10",
+  "number": 10,
+  "title": "อย่าฝันไปเลย!",
+  "chunks": [
+    {
+      "id": "zh-Hans:U01-L10-C091",
+      "legacyId": "U01-L10-C091",
+      "position": 1,
+      "script": "别做梦了！",
+      "pronunciation": "bié zuò mèng le!",
+      "phonetic": "เปี๋ย จั้ว เมิ่ง เลอ!",
+      "translation": "อย่าฝันไปเลย!",
+      "chunks": [
+        "别做梦了！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L10-C092",
+      "legacyId": "U01-L10-C092",
+      "position": 2,
+      "script": "想得美！",
+      "pronunciation": "xiǎng de měi!",
+      "phonetic": "แฉี่ยง เตอ เหม่ย!",
+      "translation": "คิดสวยไปเถอะ! / ฝันหวานไปละ!",
+      "chunks": [
+        "想得美！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L10-C093",
+      "legacyId": "U01-L10-C093",
+      "position": 3,
+      "script": "怎么可能？",
+      "pronunciation": "zěn me kě néng?",
+      "phonetic": "เจิ่น เมอ เข่อ เหนิง?",
+      "translation": "เป็นไปได้ยังไง? / จะเป็นไปได้ไง?",
+      "chunks": [
+        "怎么可能？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L10-C094",
+      "legacyId": "U01-L10-C094",
+      "position": 4,
+      "script": "真不敢相信！",
+      "pronunciation": "zhēn bù gǎn xiāng xìn!",
+      "phonetic": "เจิน ปู้ ก๋ัน เซียง ซิ้น!",
+      "translation": "ไม่อยากจะเชื่อเลยจริงๆ!",
+      "chunks": [
+        "真不敢相信！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L10-C095",
+      "legacyId": "U01-L10-C095",
+      "position": 5,
+      "script": "开玩笑吧？",
+      "pronunciation": "kāi wán xiào ba?",
+      "phonetic": "ไค หวาน เสี้ยว ปะ?",
+      "translation": "ล้อเล่นหรือเปล่าเนี่ย?",
+      "chunks": [
+        "开玩笑吧？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L10-C096",
+      "legacyId": "U01-L10-C096",
+      "position": 6,
+      "script": "太棒了！",
+      "pronunciation": "tài bàng le!",
+      "phonetic": "ไท่ ป้าง เลอ!",
+      "translation": "ยอดเยี่ยมมาก! / สุดยอดไปเลย!",
+      "chunks": [
+        "太棒了！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L10-C097",
+      "legacyId": "U01-L10-C097",
+      "position": 7,
+      "script": "太可惜了。",
+      "pronunciation": "tài kě xī le.",
+      "phonetic": "ไท่ เข่อ ซี เลอ.",
+      "translation": "น่าเสียดายจังเลย",
+      "chunks": [
+        "太可惜了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L10-C098",
+      "legacyId": "U01-L10-C098",
+      "position": 8,
+      "script": "气死我了！",
+      "pronunciation": "qì sǐ wǒ le!",
+      "phonetic": "ชี้ สื่อ หว่อ เลอ!",
+      "translation": "โมโหจะตายอยู่แล้ว! / โกรธสุดๆ!",
+      "chunks": [
+        "气死我了！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L10-C099",
+      "legacyId": "U01-L10-C099",
+      "position": 9,
+      "script": "无所谓。",
+      "pronunciation": "wú suǒ wèi.",
+      "phonetic": "อู๋ สั่ว เว้ย.",
+      "translation": "ไม่สำคัญหรอก / ยังไงก็ได้ / ไม่แคร์",
+      "chunks": [
+        "无所谓。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U01-L10-C100",
+      "legacyId": "U01-L10-C100",
+      "position": 10,
+      "script": "看你的了！",
+      "pronunciation": "kàn nǐ de le!",
+      "phonetic": "ค่าน หนี่ เตอ เลอ!",
+      "translation": "ขึ้นอยู่กับคุณแล้วนะ! / ตาคุณแล้ว!",
+      "chunks": [
+        "看你的了！"
+      ]
+    }
+  ]
+}

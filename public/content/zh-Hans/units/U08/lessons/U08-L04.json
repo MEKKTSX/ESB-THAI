@@ -1,0 +1,127 @@
+{
+  "id": "U08-L04",
+  "number": 4,
+  "title": "คุณอยู่หอพักที่โรงเรียนหรือกลับไปนอนที่บ้าน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L04-C031",
+      "legacyId": "U08-L04-C031",
+      "position": 1,
+      "script": "你在学校住宿舍还是回家住？",
+      "pronunciation": "nǐ zài xué xiào zhù sù shè hái shì huí jiā zhù?",
+      "phonetic": "หนี่ ไซ้ เสวี่ย เสี้ยว จู้ ซู่ เซ่อ หาย สื้อ หุย เจีย จู้?",
+      "translation": "คุณอยู่หอพักที่โรงเรียนหรือกลับไปนอนที่บ้าน",
+      "chunks": [
+        "你在学校住宿舍还是回家住？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L04-C032",
+      "legacyId": "U08-L04-C032",
+      "position": 2,
+      "script": "我每天通勤要花两个小时。",
+      "pronunciation": "wǒ mèi tiān tōng qín yào huā liǎng gè xiǎo shí.",
+      "phonetic": "หว่อ เหม่ย เทียน ทง ฉิน เย้า ฮวา เหลี่ยง เก้อ เสียว สื้อ.",
+      "translation": "ฉันใช้เวลาเดินทางไปกลับที่ทำงานตั้งสองชั่วโมงทุกวัน",
+      "chunks": [
+        "我每天通勤要花两个小时。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L04-C033",
+      "legacyId": "U08-L04-C033",
+      "position": 3,
+      "script": "今天工作太多了，必须加班。",
+      "pronunciation": "jīn tiān gōng zuò tài duō le, bì xū jiā bān.",
+      "phonetic": "จิน เทียน กง จั้ว ไท่ ตัว เลอ, ปี้ ซวี่ เจีย ปาน.",
+      "translation": "วันนี้งานเยอะเกินไปแล้ว จำเป็นต้องอยู่โอที",
+      "chunks": [
+        "今天工作太多了，必须加班。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L04-C034",
+      "legacyId": "U08-L04-C034",
+      "position": 4,
+      "script": "总算下班了，累了一整天。",
+      "pronunciation": "zǒng suàn xià bān le, lèi le yì zhěng tiān.",
+      "phonetic": "จ่ง ส้วน เซี่ย ปาน เลอ, เลุ่ย เลอ อี๋ เจิ่ง เทียน.",
+      "translation": "ในที่สุดก็เลิกงานสักที เหนื่อยมาทั้งวันแล้ว",
+      "chunks": [
+        "总算下班了，累了一整天。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L04-C035",
+      "legacyId": "U08-L04-C035",
+      "position": 5,
+      "script": "你每天怎么背中文单字？",
+      "pronunciation": "nǐ měi tiān zěn me bèi zhōng wén dān zì?",
+      "phonetic": "หนี่ เหม่ย เทียน เจิ่น เมอ เปุ้ย จง เหวิน ตาน จื้อ?",
+      "translation": "ทุกวันคุณท่องศัพท์ภาษาจีนยังไง",
+      "chunks": [
+        "你每天怎么背中文单字？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L04-C036",
+      "legacyId": "U08-L04-C036",
+      "position": 6,
+      "script": "我用SRS软件复习生词。",
+      "pronunciation": "wǒ yòng S R S ruǎn jiàn fù xí shēng cí.",
+      "phonetic": "หว่อ ย่ง เอสอาร์เอส ร่วน เจี้ยน ฟู่ ซี่ เซิง ฉือ.",
+      "translation": "ฉันใช้แอป SRS ทบทวนคำศัพท์ใหม่",
+      "chunks": [
+        "我用SRS软件复习生词。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L04-C037",
+      "legacyId": "U08-L04-C037",
+      "position": 7,
+      "script": "看中文电视剧对练听力很有帮助。",
+      "pronunciation": "kàn zhōng wén diàn shì jù duì liàn tīng lì hěn yǒu bāng zhù.",
+      "phonetic": "ค่าน จง เหวิน เตี้ยน สื้อ จวี่ ตุ้ย เลี่ยน ทิง ลี่ เหิ่น โหย่ว ปัง จู้.",
+      "translation": "การดูซีรีส์จีนช่วยฝึกการฟังได้เยอะมากเลย",
+      "chunks": [
+        "看中文电视剧对练听力很有帮助。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L04-C038",
+      "legacyId": "U08-L04-C038",
+      "position": 8,
+      "script": "这台电脑配置很高，运行得很快。",
+      "pronunciation": "zhè tái diàn nǎo pèi zhì hěn gāo, yùnxíng de hěn kuài.",
+      "phonetic": "เจ้อ ไถ เตี้ยน แหน่ว เผุ่ย จื้อ เหิ่น เกา, ยวิ่น ขิง เตอ เหิ่น คว้าย.",
+      "translation": "คอมพิวเตอร์เครื่องนี้สเปกสูงมาก รันเร็วสุด ๆ",
+      "chunks": [
+        "这台电脑配置很高，运行得很快。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L04-C039",
+      "legacyId": "U08-L04-C039",
+      "position": 9,
+      "script": "我的电脑死机了，代码没保存！",
+      "pronunciation": "wǒ de diàn nǎo sǐ jī le, dài mǎ méi bǎo cún!",
+      "phonetic": "หว่อ เตอ เตี้ยน แหน่ว สื่อ จี เลอ, ต้าย หม๋า เหมย เป่า ฉุน!",
+      "translation": "คอมพิวเตอร์ของฉันค้างไปแล้ว โค้ดยังไม่ได้เซฟเลย!",
+      "chunks": [
+        "我的电脑死机了，代码没保存！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L04-C040",
+      "legacyId": "U08-L04-C040",
+      "position": 10,
+      "script": "别一直看电脑，去外面走走。",
+      "pronunciation": "bié yì zhí kàn diàn nǎo, qù wài mian zǒu zǒu.",
+      "phonetic": "เปี๋ย อี้ จื๋อ ค่าน เตี้ยน แหน่ว, ชวี่ ไว้ เมียน โจ่ว โจ่ว.",
+      "translation": "อย่าจ้องคอมตลอดเลย ออกไปเดินเล่นข้างนอกบ้างเถอะ",
+      "chunks": [
+        "别一直看电脑，去外面走走。"
+      ]
+    }
+  ]
+}

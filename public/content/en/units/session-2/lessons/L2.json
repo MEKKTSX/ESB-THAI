@@ -1,0 +1,259 @@
+{
+  "id": "L2",
+  "number": 12,
+  "title": "L. Problems & Suggestions",
+  "chunks": [
+    {
+      "id": "en:session-2:L2:1",
+      "legacyId": "L2-0",
+      "position": 1,
+      "script": "I have a problem with my internet connection.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมีปัญหากับสัญญาณอินเทอร์เน็ต",
+      "chunks": [
+        "I have a problem",
+        "with my internet connection."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:2",
+      "legacyId": "L2-1",
+      "position": 2,
+      "script": "There is something wrong with the air conditioner.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แอร์มีปัญหาบางอย่าง",
+      "chunks": [
+        "There is something wrong",
+        "with the air conditioner."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:3",
+      "legacyId": "L2-2",
+      "position": 3,
+      "script": "I’m having trouble finding the location.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังหาตำแหน่งไม่เจอ",
+      "chunks": [
+        "I’m having trouble finding the location."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:4",
+      "legacyId": "L2-3",
+      "position": 4,
+      "script": "I’m having trouble understanding this grammar.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันงงกับไวยากรณ์เรื่องนี้มาก",
+      "chunks": [
+        "I’m having trouble understanding this grammar."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:5",
+      "legacyId": "L2-4",
+      "position": 5,
+      "script": "It seems like the server is down.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดูเหมือนว่าเซิร์ฟเวอร์จะล่ม",
+      "chunks": [
+        "It seems like the server is down."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:6",
+      "legacyId": "L2-5",
+      "position": 6,
+      "script": "The battery keeps dying.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แบตเตอรี่หมดเร็วมาก/ดับตลอด",
+      "chunks": [
+        "The battery keeps dying."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:7",
+      "legacyId": "L2-6",
+      "position": 7,
+      "script": "The car broke down on the highway.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รถเสียบนทางด่วน",
+      "chunks": [
+        "The car broke down",
+        "on the highway."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:8",
+      "legacyId": "L2-7",
+      "position": 8,
+      "script": "I ran out of gas.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "น้ำมันรถหมด",
+      "chunks": [
+        "I ran out of gas."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:9",
+      "legacyId": "L2-8",
+      "position": 9,
+      "script": "I ran out of money.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เงินฉันหมดแล้ว",
+      "chunks": [
+        "I ran out of money."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:10",
+      "legacyId": "L2-9",
+      "position": 10,
+      "script": "I ran out of patience.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหมดความอดทนแล้ว",
+      "chunks": [
+        "I ran out of patience."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:11",
+      "legacyId": "L2-10",
+      "position": 11,
+      "script": "You should see a doctor.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณควรไปหาหมอนะ",
+      "chunks": [
+        "You should see a doctor."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:12",
+      "legacyId": "L2-11",
+      "position": 12,
+      "script": "You shouldn't smoke so much.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณไม่ควรสูบบุหรี่เยอะขนาดนั้น",
+      "chunks": [
+        "You shouldn't smoke",
+        "so much."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:13",
+      "legacyId": "L2-12",
+      "position": 13,
+      "script": "You should probably call him back.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณน่าจะโทรกลับหาเขานะ",
+      "chunks": [
+        "You should probably call him back."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:14",
+      "legacyId": "L2-13",
+      "position": 14,
+      "script": "Why don't you try restarting the computer?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทำไมไม่ลองรีสตาร์ทคอมดูล่ะ?",
+      "chunks": [
+        "Why don't you try restarting the computer?"
+      ]
+    },
+    {
+      "id": "en:session-2:L2:15",
+      "legacyId": "L2-14",
+      "position": 15,
+      "script": "Why don't we take a break?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทำไมเราไม่พักกันหน่อยล่ะ?",
+      "chunks": [
+        "Why don't we take a break?"
+      ]
+    },
+    {
+      "id": "en:session-2:L2:16",
+      "legacyId": "L2-15",
+      "position": 16,
+      "script": "How about going to the cinema?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไปดูหนังกันไหม?",
+      "chunks": [
+        "How",
+        "about going",
+        "to the cinema?"
+      ]
+    },
+    {
+      "id": "en:session-2:L2:17",
+      "legacyId": "L2-16",
+      "position": 17,
+      "script": "How about asking for help?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ลองขอความช่วยเหลือดูไหม?",
+      "chunks": [
+        "How",
+        "about asking",
+        "for help?"
+      ]
+    },
+    {
+      "id": "en:session-2:L2:18",
+      "legacyId": "L2-17",
+      "position": 18,
+      "script": "If I were you, I would apologize.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันเป็นคุณ ฉันจะขอโทษ",
+      "chunks": [
+        "If I were you,",
+        "I would apologize."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:19",
+      "legacyId": "L2-18",
+      "position": 19,
+      "script": "If I were you, I wouldn't do that.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันเป็นคุณ ฉันจะไม่ทำแบบนั้น",
+      "chunks": [
+        "If I were you,",
+        "I wouldn't do",
+        "that."
+      ]
+    },
+    {
+      "id": "en:session-2:L2:20",
+      "legacyId": "L2-19",
+      "position": 20,
+      "script": "I suggest that we wait a bit longer.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันแนะนำว่าเรารออีกหน่อยดีกว่า",
+      "chunks": [
+        "I suggest",
+        "that we wait a bit longer."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U09-L10",
+  "number": 10,
+  "title": "คุณคิดว่ายังไงบ้าง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U09-L10-C091",
+      "legacyId": "U09-L10-C091",
+      "position": 1,
+      "script": "你觉得怎么样？",
+      "pronunciation": "nǐ jué de zěn me yàng?",
+      "phonetic": "หนี่ จว๋ะ เตอ เจิ่น เมอ ย่าง?",
+      "translation": "คุณคิดว่ายังไงบ้าง",
+      "chunks": [
+        "你觉得怎么样？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L10-C092",
+      "legacyId": "U09-L10-C092",
+      "position": 2,
+      "script": "对于这个安排，你有什么看法？",
+      "pronunciation": "duì yú zhè gè ān pái, nǐ yǒu shén me kàn fǎ?",
+      "phonetic": "ตุ้ย อวี่ เจ้อ เก้อ อัน ไผ, หนี่ โหย่ว เซิ่น เมอ ค่าน ฝ่า?",
+      "translation": "สำหรับการจัดแจงตารางแบบนี้ คุณมีความคิดเห็นอย่างไร",
+      "chunks": [
+        "对于这个安排，你有什么看法？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L10-C093",
+      "legacyId": "U09-L10-C093",
+      "position": 3,
+      "script": "我觉得这个方案非常有可行性。",
+      "pronunciation": "wǒ jué de zhè gè fāng àn fēi cháng yǒu kě xíng xìng.",
+      "phonetic": "หว่อ จว๋ะ เตอ เจ้อ เก้อ ฟาง อัน เฟย ฉาง โหย่ว เข่อ สิง ซิ่ง.",
+      "translation": "ฉันรู้สึกว่าแผนงานนี้มันมีความเป็นไปได้และใช้งานได้จริงมากๆ",
+      "chunks": [
+        "我觉得这个方案非常有可行性。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L10-C094",
+      "legacyId": "U09-L10-C094",
+      "position": 4,
+      "script": "你觉得这个颜色好看不好看？",
+      "pronunciation": "nǐ jué de zhè gè yán sè hǎo kàn bù hǎo kàn?",
+      "phonetic": "หนี่ จว๋ะ เตอ เจ้อ เก้อ แหยน เซ่อ ห่าว ค่าน ปู้ ห่าว ค่าน?",
+      "translation": "คุณคิดว่าสีนี้ดูสวยหรือเปล่า",
+      "chunks": [
+        "你觉得这个颜色好看不好看？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L10-C095",
+      "legacyId": "U09-L10-C095",
+      "position": 5,
+      "script": "如果你是我的话，你会怎么办？",
+      "pronunciation": "rú guǒ nǐ shì wǒ de huà, nǐ huì zěn me bàn?",
+      "phonetic": "หรู ก๋ัว หนี่ สื้อ หว่อ เตอ หว้า, หนี่ ฮุ่ย เจิ่น เมอ ป้าน?",
+      "translation": "ถ้าเกิดว่าคุณเป็นฉัน คุณจะจัดการยังไงดี",
+      "chunks": [
+        "如果你是我的话，你会怎么办？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L10-C096",
+      "legacyId": "U09-L10-C096",
+      "position": 6,
+      "script": "他的建议确实很中肯，值得参考。",
+      "pronunciation": "tā de jiàn yì què shí hěn zhòng kěn, zhí dé cān kǎo.",
+      "phonetic": "ทา เตอ เจี้ยน อี้ ชเว่ สื้อ เห่น จ้ง ขิ่น, จื๋อ เตอ ซาน เข่า.",
+      "translation": "คำแนะนำของเขาค่อนข้างตรงประเด็นดีมากจริงๆ ควรค่าแก่การอ้างอิง",
+      "chunks": [
+        "他的建议确实很中肯，值得参考。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L10-C097",
+      "legacyId": "U09-L10-C097",
+      "position": 7,
+      "script": "我想听听大家的真实想法。",
+      "pronunciation": "wǒ xiǎng tīng tīng dà jiā de zhēn shí xiǎng fǎ.",
+      "phonetic": "หว่อ แฉี่ยง ทิง ทิง ต้า เจีย เตอ เจิน สื้อ แฉี่ยง ฝ่า.",
+      "translation": "ฉันอยากจะรับฟังความคิดเห็นที่แท้จริงของทุกคนหน่อย",
+      "chunks": [
+        "我想听听大家的真实想法。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L10-C098",
+      "legacyId": "U09-L10-C098",
+      "position": 8,
+      "script": "对这个问题，大家看法不太一致。",
+      "pronunciation": "duì zhè gè wèn tí, dà jiā kàn fǎ bú tài yí zhì.",
+      "phonetic": "ตุ้ย เจ้อ เก้อ แวิ่น ถี, ต้า เจีย ค่าน ฝ่า บู๋ ไท่ อี๋ จื้อ.",
+      "translation": "ต่อคำถามข้อนี้ ทุกคนต่างมีความคิดเห็นที่ไม่ค่อยตรงกันเท่าไหร่",
+      "chunks": [
+        "对这个问题，大家看法不太一致。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L10-C099",
+      "legacyId": "U09-L10-C099",
+      "position": 9,
+      "script": "大家还有什么补充的意见吗？",
+      "pronunciation": "dà jiā hái yǒu shén me bǔ chōng de yì jiàn ma?",
+      "phonetic": "ต้า เจีย หาย โหย่ว เซิ่น เมอ ปู่ โซง เตอ อี้ เจี้ยน มะ?",
+      "translation": "ทุกคนยังมีความคิดเห็นเพิ่มเติมอะไรอีกไหม",
+      "chunks": [
+        "大家还有什么补充的意见吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L10-C100",
+      "legacyId": "U09-L10-C100",
+      "position": 10,
+      "script": "既然大家意见都一致，那就这么办吧。",
+      "pronunciation": "jì rán dà jiā yì jiàn dōu yí zhì, nà jiù zhè me bàn ba.",
+      "phonetic": "จี้ ราน ต้า เจีย อี้ เจี้ยน โตว อี๋ จื้อ, น้า จิ้ว เจ้อ เมอ ป้าน ปะ.",
+      "translation": "ในเมื่อความเห็นของทุกคนตรงกันแล้ว งั้นก็ตกลงจัดการตามนี้เถอะ",
+      "chunks": [
+        "既然大家意见都一致，那就这么办吧。"
+      ]
+    }
+  ]
+}

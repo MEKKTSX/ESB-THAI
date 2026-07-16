@@ -1,0 +1,127 @@
+{
+  "id": "U14-L02",
+  "number": 2,
+  "title": "ขอรบกวนหน่อยครับ/ค่ะ ไม่ทราบว่าห้องน้ำไปทางไหน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U14-L02-C011",
+      "legacyId": "U14-L02-C011",
+      "position": 1,
+      "script": "打扰一下，请问洗手间在哪儿？",
+      "pronunciation": "dǎ rǎo yí xià, qǐng wèn xǐ shǒu jiān zài nǎr?",
+      "phonetic": "ตา หร่าว อี๋ เซี่ย, ฉิ่ง เวิน สี่ โส่ว เจียน ไซ้ หน่าร์?",
+      "translation": "ขอรบกวนหน่อยครับ/ค่ะ ไม่ทราบว่าห้องน้ำไปทางไหน",
+      "chunks": [
+        "打扰一下，请问洗手间在哪儿？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L02-C012",
+      "legacyId": "U14-L02-C012",
+      "position": 2,
+      "script": "能不能占用您几分钟时间？",
+      "pronunciation": "néng bu néng zhàn yòng nín jǐ fēn zhōng shí jiān?",
+      "phonetic": "เหนิง บุ เหนิง จ้าน ย่ง หนิน จี๋ เฟิน จง สือ เจียน?",
+      "translation": "ขออนุญาตใช้เวลาของคุณสักสองสามนาทีได้ไหมครับ/ค่ะ",
+      "chunks": [
+        "能不能占用您几分钟时间？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L02-C013",
+      "legacyId": "U14-L02-C013",
+      "position": 3,
+      "script": "请问您对这个有什么意见吗？",
+      "pronunciation": "qǐng wèn nín duì zhè ge yǒu shén me yì jiàn ma?",
+      "phonetic": "ฉิ่ง เวิน หนิน ตุ้ย เจ้อ เกอ โหย่ว เซิ่น เมอ อี้ เจี้ยน มะ?",
+      "translation": "ไม่ทราบว่าคุณมีความคิดเห็นอย่างไรเกี่ยวกับเรื่องนี้ไหมครับ/ค่ะ",
+      "chunks": [
+        "请问您对这个有什么意见吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L02-C014",
+      "legacyId": "U14-L02-C014",
+      "position": 4,
+      "script": "如果方便的话，请联系我。",
+      "pronunciation": "rú guǒ fāng biàn de huà, qǐng lián xì wǒ.",
+      "phonetic": "หรู ก๋ัว ฟาง เปี้ยน เตอ หว้า, ฉิ่ง เหลียน ซี่ หว่อ.",
+      "translation": "หากสะดวก รบกวนติดต่อฉันด้วยนะคะ/ครับ",
+      "chunks": [
+        "如果方便的话，请联系我。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L02-C015",
+      "legacyId": "U14-L02-C015",
+      "position": 5,
+      "script": "麻烦您帮我看一下这份资料。",
+      "pronunciation": "má fan nín bāng wǒ kàn yí xià zhè fèn zī liào.",
+      "phonetic": "หมา ฝ่าน หนิน ปัง หว่อ ค่าน อี๋ เซี่ย เจ้อ เฟิ้น จือ เลี้ยว.",
+      "translation": "รบกวนคุณช่วยตรวจดูเอกสารชุดนี้ให้ฉันหน่อยครับ/ค่ะ",
+      "chunks": [
+        "麻烦您帮我看一下这份资料。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L02-C016",
+      "legacyId": "U14-L02-C016",
+      "position": 6,
+      "script": "能否请您帮个忙？",
+      "pronunciation": "néng fǒu qǐng nín bāng gè máng?",
+      "phonetic": "เหนิง โฝ่ว ฉิ่ง หนิน ปัง เก้อ หมาง?",
+      "translation": "จะขอความกรุณาให้คุณช่วยอะไรหน่อยได้ไหมครับ/ค่ะ",
+      "chunks": [
+        "能否请您帮个忙？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L02-C017",
+      "legacyId": "U14-L02-C017",
+      "position": 7,
+      "script": "非常感谢您抽空来参加会议。",
+      "pronunciation": "fēi cháng gǎn xiè nín chōu kòng lái cān jiā huì yì.",
+      "phonetic": "เฟย ฉาง ก๋ัน เซี่ย หนิน โชว ค่ง ไหล ซาน เจีย หุ่ย อี้.",
+      "translation": "ขอบคุณมากจริงๆ ครับ/ค่ะ ที่สละเวลามาเข้าร่วมการประชุม",
+      "chunks": [
+        "非常感谢您抽空来参加会议。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L02-C018",
+      "legacyId": "U14-L02-C018",
+      "position": 8,
+      "script": "给您添麻烦了，实在对不起。",
+      "pronunciation": "gěi nín tiān má fan le, shí zài duì bu qǐ.",
+      "phonetic": "เก๋ย หนิน เทียน หมา ฝ่าน เลอ, สื้อ ไซ้ ตุ้ย บุ ฉี่.",
+      "translation": "สร้างความรบกวนให้คุณแล้ว ต้องขออภัยจริงๆ ครับ/ค่ะ",
+      "chunks": [
+        "给您添麻烦了，实在对不起。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L02-C019",
+      "legacyId": "U14-L02-C019",
+      "position": 9,
+      "script": "请您再稍微等一下，马上就好。",
+      "pronunciation": "qǐng nín zài shāo wēi děng yí xià, mǎ shàng jiù hǎo.",
+      "phonetic": "ฉิ่ง หนิน ไซ้ เซา เวย เติ๋ง อี๋ เซี่ย, หม่า ส้าง จิ้ว ห่าว.",
+      "translation": "กรุณารอสักครู่นะครับ/ค่ะ อีกเดี๋ยวก็เสร็จแล้ว",
+      "chunks": [
+        "请您再稍微等一下，马上就好。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U14-L02-C020",
+      "legacyId": "U14-L02-C020",
+      "position": 10,
+      "script": "请问您怎么称呼那位负责人？",
+      "pronunciation": "qǐng wèn nín zěn me chēng hu nà wèi fù zé rén?",
+      "phonetic": "ฉิ่ง เวิน หนิน เจิ่น เมอ เชิง หุ น้า เว่ย ฟู่ เจ๋อ เหริน?",
+      "translation": "ขอสอบถามหน่อยครับ/ค่ะ จะให้เรียกผู้รับผิดชอบท่านนั้นว่าอย่างไรดี",
+      "chunks": [
+        "请问您怎么称呼那位负责人？"
+      ]
+    }
+  ]
+}

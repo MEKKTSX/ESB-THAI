@@ -1,0 +1,127 @@
+{
+  "id": "U04-L09",
+  "number": 9,
+  "title": "คุณพูดมาคำไหนคำนั้น / คุณเป็นคนตัดสินเลย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U04-L09-C081",
+      "legacyId": "U04-L09-C081",
+      "position": 1,
+      "script": "你说了算。",
+      "pronunciation": "nǐ shuō le suàn.",
+      "phonetic": "หนี่ ซัว เลอ ส้วน.",
+      "translation": "คุณพูดมาคำไหนคำนั้น / คุณเป็นคนตัดสินเลย",
+      "chunks": [
+        "你说了算。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L09-C082",
+      "legacyId": "U04-L09-C082",
+      "position": 2,
+      "script": "看你的便。",
+      "pronunciation": "kàn nǐ de biàn.",
+      "phonetic": "ค่าน หนี่ เตอ เปี้ยน.",
+      "translation": "เอาที่สะดวกสำหรับคุณเลย",
+      "chunks": [
+        "看你的便。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L09-C083",
+      "legacyId": "U04-L09-C083",
+      "position": 3,
+      "script": "差不多吧。",
+      "pronunciation": "chà bù duō ba.",
+      "phonetic": "ชา ปู้ ตัว ปะ.",
+      "translation": "ประมาณนั้นแหละ / ใกล้เคียงกันแหละ",
+      "chunks": [
+        "差不多吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L09-C084",
+      "legacyId": "U04-L09-C084",
+      "position": 4,
+      "script": "我不管了。",
+      "pronunciation": "wǒ bù guǎn le.",
+      "phonetic": "หว่อ ปู้ ก๋ัน เลอ.",
+      "translation": "ฉันไม่สนใจแล้ว / ไม่ยุ่งแล้ว",
+      "chunks": [
+        "我不管了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L09-C085",
+      "legacyId": "U04-L09-C085",
+      "position": 5,
+      "script": "没那回事。",
+      "pronunciation": "méi nà huí shì.",
+      "phonetic": "เหมย น้า หุย สื้อ.",
+      "translation": "ไม่มีเรื่องแบบนั้นหรอก / ไม่ใช่แบบนั้นหรอก",
+      "chunks": [
+        "没那回事。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L09-C086",
+      "legacyId": "U04-L09-C086",
+      "position": 6,
+      "script": "谁知道呢。",
+      "pronunciation": "shéi zhī dào ne.",
+      "phonetic": "เษ่ย จือ เต้า เนอ.",
+      "translation": "ใครจะไปรู้ล่ะ",
+      "chunks": [
+        "谁知道呢。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L09-C087",
+      "legacyId": "U04-L09-C087",
+      "position": 7,
+      "script": "看运气吧。",
+      "pronunciation": "kàn yùn qi ba.",
+      "phonetic": "ค่าน ยวิ่น ฉิ ปะ.",
+      "translation": "ดูที่ดวงแล้วกันนะ",
+      "chunks": [
+        "看运气吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L09-C088",
+      "legacyId": "U04-L09-C088",
+      "position": 8,
+      "script": "我想也是。",
+      "pronunciation": "wǒ xiǎng yě shì.",
+      "phonetic": "หว่อ แฉี่ยง เยี่ย สื้อ.",
+      "translation": "ฉันคิดว่าน่าจะเป็นอย่างนั้นเหมือนกัน",
+      "chunks": [
+        "我想也是。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L09-C089",
+      "legacyId": "U04-L09-C089",
+      "position": 9,
+      "script": "绝对不会。",
+      "pronunciation": "jué duì bú huì.",
+      "phonetic": "จว๋ะ ตุ้ย ปู๋ ฮุ่ย.",
+      "translation": "เด็ดขาดว่าไม่มีทาง / เป็นไปไม่ได้แน่นอน",
+      "chunks": [
+        "绝对不会。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L09-C090",
+      "legacyId": "U04-L09-C090",
+      "position": 10,
+      "script": "那可不一定。",
+      "pronunciation": "nà kě bù yí dìng.",
+      "phonetic": "น้า เข่อ ปู้ อี๋ ติ้ง.",
+      "translation": "นั่นมันก็ไม่แน่เสมอไปหรอกนะ",
+      "chunks": [
+        "那可不一定。"
+      ]
+    }
+  ]
+}

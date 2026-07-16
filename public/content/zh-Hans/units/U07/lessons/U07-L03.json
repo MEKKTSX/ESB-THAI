@@ -1,0 +1,127 @@
+{
+  "id": "U07-L03",
+  "number": 3,
+  "title": "เดือนหน้าคุณมีเวลาว่างออกมาเที่ยวเล่นไหม",
+  "chunks": [
+    {
+      "id": "zh-Hans:U07-L03-C021",
+      "legacyId": "U07-L03-C021",
+      "position": 1,
+      "script": "下个月你有空出来玩吗？",
+      "pronunciation": "xià gè yuè nǐ yǒu kòng chū lái wán ma?",
+      "phonetic": "เซี่ย เก้อ ยวี่เอ้ หนี่ โหย่ว ค่ง ชู ไหล หวัน มะ?",
+      "translation": "เดือนหน้าคุณมีเวลาว่างออกมาเที่ยวเล่นไหม",
+      "chunks": [
+        "下个月你有空出来玩吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L03-C022",
+      "legacyId": "U07-L03-C022",
+      "position": 2,
+      "script": "周末你打算干什么？",
+      "pronunciation": "zhōu mò nǐ dǎ suàn gàn shén me?",
+      "phonetic": "โจว ม่อ หนี่ ต๋า ส้วน ก้าน เซิ่น เมอ?",
+      "translation": "วันหยุดสุดสัปดาห์คุณวางแผนจะทำอะไร",
+      "chunks": [
+        "周末你打算干什么？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L03-C023",
+      "legacyId": "U07-L03-C023",
+      "position": 3,
+      "script": "我打算在家好好休息。",
+      "pronunciation": "wǒ dǎ suàn zài jiā hǎo hǎo xiū xi.",
+      "phonetic": "หว่อ ต๋า ส้วน ไซ้ เจีย ห่าว ห่าว ซิว สิ.",
+      "translation": "ฉันวางแผนจะพักผ่อนให้เต็มที่อยู่ที่บ้าน",
+      "chunks": [
+        "我打算在家好好休息。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L03-C024",
+      "legacyId": "U07-L03-C024",
+      "position": 4,
+      "script": "这个项目下周一必须交。",
+      "pronunciation": "zhè gè xiàng mù xià zhōu yī bì xū jiāo.",
+      "phonetic": "เจ้อ เก้อ เสี้ยง มู่ เซี่ย โจว อี ปี้ ซวี่ เจียว.",
+      "translation": "โครงการนี้จำเป็นต้องส่งวันจันทร์หน้า",
+      "chunks": [
+        "这个项目下周一必须交。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L03-C025",
+      "legacyId": "U07-L03-C025",
+      "position": 5,
+      "script": "你一般几点起。床？",
+      "pronunciation": "nǐ yì bān jǐ diǎn qǐ chuáng?",
+      "phonetic": "หนี่ อี้ ปาน จี๋ เตี่ยน ฉี่ ฉวอง?",
+      "translation": "ปกติคุณตื่นนอนกี่โมง",
+      "chunks": [
+        "你一般几点起。床？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L03-C026",
+      "legacyId": "U07-L03-C026",
+      "position": 6,
+      "script": "你今天怎么这么早？",
+      "pronunciation": "nǐ jìn tiān zěn me zhè me zǎo?",
+      "phonetic": "หนี่ จิน เทียน เจิ่น เมอ เจ้อ เมอ เจ๋า?",
+      "translation": "วันนี้ทำไมคุณถึงมาเช้าขนาดนี้",
+      "chunks": [
+        "你今天怎么这么早？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L03-C027",
+      "legacyId": "U07-L03-C027",
+      "position": 7,
+      "script": "不好意思，我路上堵车了。",
+      "pronunciation": "bù hǎo yì si, wǒ lù shang dǔ chē le.",
+      "phonetic": "ปู้ ห่าว อี้ สิ, หว่อ ลู่ ส่าง ตู่ เชอ เลอ.",
+      "translation": "ขอโทษจริงๆ พอดีบนถนนรถติดมาก",
+      "chunks": [
+        "不好意思，我路上堵车了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L03-C028",
+      "legacyId": "U07-L03-C028",
+      "position": 8,
+      "script": "那我们老地方见！",
+      "pronunciation": "nà wǒ men lǎo dì fang jiàn!",
+      "phonetic": "น้า หว่อ เมิน เหล่า ตี้ ฝ่าง เจี้ยน!",
+      "translation": "งั้นพวกเราเจอกันที่เก่าเวลาเดิมนะ!",
+      "chunks": [
+        "那我们老地方见！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L03-C029",
+      "legacyId": "U07-L03-C029",
+      "position": 9,
+      "script": "今天星期几？",
+      "pronunciation": "jīn tiān xīng qī jǐ?",
+      "phonetic": "จิน เทียน ซิง ชี จี๋?",
+      "translation": "วันนี้คือวันอะไร (ในสัปดาห์)",
+      "chunks": [
+        "今天星期几？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L03-C030",
+      "legacyId": "U07-L03-C030",
+      "position": 10,
+      "script": "后天你有空吗？",
+      "pronunciation": "hòu tiān nǐ yǒu kòng ma?",
+      "phonetic": "โห่ว เทียน หนี่ โหย่ว ค่ง มะ?",
+      "translation": "วันมะรืนนี้คุณว่างไหม",
+      "chunks": [
+        "后天你有空吗？"
+      ]
+    }
+  ]
+}

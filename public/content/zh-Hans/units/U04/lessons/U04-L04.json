@@ -1,0 +1,127 @@
+{
+  "id": "U04-L04",
+  "number": 4,
+  "title": "ฉันไม่มั่นใจ / ไม่แน่ใจ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U04-L04-C031",
+      "legacyId": "U04-L04-C031",
+      "position": 1,
+      "script": "我不确定。",
+      "pronunciation": "wǒ bú què dìng.",
+      "phonetic": "หว่อ บู๋ ชเว่ ติ้ง.",
+      "translation": "ฉันไม่มั่นใจ / ไม่แน่ใจ",
+      "chunks": [
+        "我不确定。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L04-C032",
+      "legacyId": "U04-L04-C032",
+      "position": 2,
+      "script": "有可能。",
+      "pronunciation": "yǒu kě néng.",
+      "phonetic": "โหย่ว เข่อ เหนิง.",
+      "translation": "เป็นไปได้",
+      "chunks": [
+        "有可能。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L04-C033",
+      "legacyId": "U04-L04-C033",
+      "position": 3,
+      "script": "也许吧。",
+      "pronunciation": "yě xǔ ba.",
+      "phonetic": "เยี่ย สู่ ปะ.",
+      "translation": "อาจจะนะ",
+      "chunks": [
+        "也许吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L04-C034",
+      "legacyId": "U04-L04-C034",
+      "position": 4,
+      "script": "不好说。",
+      "pronunciation": "bù hǎo shuō.",
+      "phonetic": "ปู้ ห่าว ซัว.",
+      "translation": "พูดยาก / บอกยาก",
+      "chunks": [
+        "不好说。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L04-C035",
+      "legacyId": "U04-L04-C035",
+      "position": 5,
+      "script": "看情况。",
+      "pronunciation": "kàn qíng kuàng.",
+      "phonetic": "ค่าน ฉิง คว่าง.",
+      "translation": "ดูสถานการณ์ก่อน",
+      "chunks": [
+        "看情况。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L04-C036",
+      "legacyId": "U04-L04-C036",
+      "position": 6,
+      "script": "很难说。",
+      "pronunciation": "hěn nán shuō.",
+      "phonetic": "เหิ่น นาน ซัว.",
+      "translation": "พูดคุยยาก / บอกยากจริงๆ",
+      "chunks": [
+        "很难说。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L04-C037",
+      "legacyId": "U04-L04-C037",
+      "position": 7,
+      "script": "我考虑一下。",
+      "pronunciation": "wǒ kǎo lǜ yí xià.",
+      "phonetic": "หว่อ เข่า ลวี่ อี๋ เซี่ย.",
+      "translation": "ฉันขอพิจารณาดูหน่อย",
+      "chunks": [
+        "我考虑一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L04-C038",
+      "legacyId": "U04-L04-C038",
+      "position": 8,
+      "script": "我想想再告诉你。",
+      "pronunciation": "wǒ xiǎng xiang zài gào sù nǐ.",
+      "phonetic": "หว่อ แฉี่ยง เสียง ไซ้ เค้า สุ หนี่.",
+      "translation": "ฉันขอคิดดูก่อนแล้วค่อยบอกคุณนะ",
+      "chunks": [
+        "我想想再告诉你。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L04-C039",
+      "legacyId": "U04-L04-C039",
+      "position": 9,
+      "script": "让我查一下。",
+      "pronunciation": "ràng wǒ chá yí xià.",
+      "phonetic": "รั้ง หว่อ ฉา อี๋ เซี่ย.",
+      "translation": "ให้ฉันเช็กดูหน่อยนะ",
+      "chunks": [
+        "让我查一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L04-C040",
+      "legacyId": "U04-L04-C040",
+      "position": 10,
+      "script": "等等再说吧。",
+      "pronunciation": "děng děng zài shuō ba.",
+      "phonetic": "เติ๋ง เติ๋ง ไซ้ ซัว ปะ.",
+      "translation": "ไว้ค่อยว่ากันทีหลังเถอะ",
+      "chunks": [
+        "等等再说吧。"
+      ]
+    }
+  ]
+}

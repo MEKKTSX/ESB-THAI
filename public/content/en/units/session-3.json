@@ -1,0 +1,38 @@
+{
+  "id": "session-3",
+  "number": 6,
+  "title": "Session 3: Advanced Scenarios & Professional Life",
+  "description": "English sentence practice",
+  "lessons": [
+    {
+      "id": "Theme_1",
+      "number": 1,
+      "title": "1. Daily Life & Complex Scenarios",
+      "chunkCount": 80
+    },
+    {
+      "id": "Theme_2",
+      "number": 2,
+      "title": "2. Reading Comprehension (News, Documents & Social Media)",
+      "chunkCount": 80
+    },
+    {
+      "id": "Theme_3",
+      "number": 3,
+      "title": "3. AI Engineering & Data Science",
+      "chunkCount": 80
+    },
+    {
+      "id": "Theme_4",
+      "number": 4,
+      "title": "4. Professional Presentation & Public Speaking",
+      "chunkCount": 80
+    },
+    {
+      "id": "Theme_5",
+      "number": 5,
+      "title": "5. Formal Workplace Communication",
+      "chunkCount": 80
+    }
+  ]
+}

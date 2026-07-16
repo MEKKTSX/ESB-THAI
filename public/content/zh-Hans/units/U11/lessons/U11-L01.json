@@ -1,0 +1,127 @@
+{
+  "id": "U11-L01",
+  "number": 1,
+  "title": "มาพยายามด้วยกันนะ พรุ่งนี้พยายามอย่าสาย ราตรีสวัสดิ์นะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U11-L01-C001",
+      "legacyId": "U11-L01-C001",
+      "position": 1,
+      "script": "一起努力，明天争取不迟到，晚安啦！",
+      "pronunciation": "yì qǐ nǔ lì, míng tiān zhēng qǔ bù chí dào, wǎn ān la!",
+      "phonetic": "อี้ ฉี่ นู่ ลี่, หมิง เทียน เจิ้ง ฉวี่ ปู้ ฉี ต้าว, หวั่น อัน ละ!",
+      "translation": "มาพยายามด้วยกันนะ พรุ่งนี้พยายามอย่าสาย ราตรีสวัสดิ์นะ",
+      "chunks": [
+        "一起努力，明天争取不迟到，晚安啦！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L01-C002",
+      "legacyId": "U11-L01-C002",
+      "position": 2,
+      "script": "请问，这里是什么地方？",
+      "pronunciation": "qǐng wèn, zhè lǐ shì shén me dì fang?",
+      "phonetic": "ฉิ่ง เวิน, เจ้อ หลี่ สื้อ เซิ่น เมอ ตี้ ฝ่าง?",
+      "translation": "ขอถามหน่อยครับ/ค่ะ ที่นี่คือที่ไหน",
+      "chunks": [
+        "请问，这里是什么地方？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L01-C003",
+      "legacyId": "U11-L01-C003",
+      "position": 3,
+      "script": "不好意思，这附近是哪儿？",
+      "pronunciation": "bù hǎo yì si, zhè fù jìn shì nǎr?",
+      "phonetic": "ปู้ ห่าว อี้ สิ, เจ้อ ฟู่ จิ้น สื้อ หน่าร์?",
+      "translation": "ขอโทษนะคะ แถวนี้คือที่ไหนหรอ",
+      "chunks": [
+        "不好意思，这附近是哪儿？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L01-C004",
+      "legacyId": "U11-L01-C004",
+      "position": 4,
+      "script": "我想去天安门广场。",
+      "pronunciation": "wǒ xiǎng qù tiān ān mén guǎng chǎng.",
+      "phonetic": "หว่อ แฉี่ยง ชวี่ เทียน อัน เหมิน กว๋าง ฉ่าง.",
+      "translation": "ฉันอยากไปจัตุรัสเทียนอันเหมิน",
+      "chunks": [
+        "我想去天安门广场。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L01-C005",
+      "legacyId": "U11-L01-C005",
+      "position": 5,
+      "script": "我要去这个地址，你看一下。",
+      "pronunciation": "wǒ yào qù zhè ge dì zhǐ, nǐ kàn yí xià.",
+      "phonetic": "หว่อ เย้า ชวี่ เจ้อ เกอ ตี้ จื่อ, หนี่ ค่าน อี๋ เซี่ย.",
+      "translation": "ฉันจะไปตามที่อยู่นี้ คุณช่วยดูหน่อยสิ",
+      "chunks": [
+        "我要去这个地址，你看一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L01-C006",
+      "legacyId": "U11-L01-C006",
+      "position": 6,
+      "script": "去故宫怎么走？",
+      "pronunciation": "qù gù gōng zěn me zǒu?",
+      "phonetic": "ชวี่ กู้ กง เจิ่น เมอ โจ่ว?",
+      "translation": "ไปพระราชวังต้องห้ามไปยังไง",
+      "chunks": [
+        "去故宫怎么走？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L01-C007",
+      "legacyId": "U11-L01-C007",
+      "position": 7,
+      "script": "请问到机场该怎么坐车？",
+      "pronunciation": "qǐng wèn dào jī chǎng gāi zěn me zuò chē?",
+      "phonetic": "ฉิ่ง เวิน ต้าว จี ฉ่าง ไก เจิ่น เมอ จั่ว เชอ?",
+      "translation": "ขอถามหน่อยครับ/ค่ะ ไปสนามบินต้องนั่งรถยังไง",
+      "chunks": [
+        "请问到机场该怎么坐车？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L01-C008",
+      "legacyId": "U11-L01-C008",
+      "position": 8,
+      "script": "离这里远不远？",
+      "pronunciation": "lí zhè lǐ yuǎn bù yuǎn?",
+      "phonetic": "หลี เจ้อ หลี่ หยวาน ปู้ หยวาน?",
+      "translation": "จากที่นี่ไกลไหม",
+      "chunks": [
+        "离这里远不远？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L01-C009",
+      "legacyId": "U11-L01-C009",
+      "position": 9,
+      "script": "这附近有厕所吗？近不近？",
+      "pronunciation": "zhè fù jìn yǒu cè suǒ ma? jìn bú jìn?",
+      "phonetic": "เจ้อ ฟู่ จิ้น โหย่ว แช้ สั่ว มะ？ จิ้น ปู๋ จิ้น？",
+      "translation": "แถวนี้มีห้องน้ำไหม ใกล้หรือเปล่า",
+      "chunks": [
+        "这附近有厕所吗？近不近？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U11-L01-C010",
+      "legacyId": "U11-L01-C010",
+      "position": 10,
+      "script": "走路可以到吗？",
+      "pronunciation": "zǒu lù kě yǐ dào ma?",
+      "phonetic": "โจ่ว ลู่ เขอ อี่ ต้าว มะ?",
+      "translation": "เดินไปได้ไหม / เดินไปถึงไหม",
+      "chunks": [
+        "走路可以到吗？"
+      ]
+    }
+  ]
+}

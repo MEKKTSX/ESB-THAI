@@ -1,0 +1,127 @@
+{
+  "id": "U04-L08",
+  "number": 8,
+  "title": "ฉันไม่สนใจหรอก / ไม่แคร์",
+  "chunks": [
+    {
+      "id": "zh-Hans:U04-L08-C071",
+      "legacyId": "U04-L08-C071",
+      "position": 1,
+      "script": "我不在乎。",
+      "pronunciation": "wǒ bú zài hu.",
+      "phonetic": "หว่อ บู๋ ไซ้ หุ.",
+      "translation": "ฉันไม่สนใจหรอก / ไม่แคร์",
+      "chunks": [
+        "我不在乎。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L08-C072",
+      "legacyId": "U04-L08-C072",
+      "position": 2,
+      "script": "这可不行。",
+      "pronunciation": "zhè kě bù xíng.",
+      "phonetic": "เจ้อ เข่อ ปู้ สิง.",
+      "translation": "แบบนี้ไม่ได้นะ",
+      "chunks": [
+        "这可不行。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L08-C073",
+      "legacyId": "U04-L08-C073",
+      "position": 3,
+      "script": "你想多了。",
+      "pronunciation": "nǐ xiǎng duō le.",
+      "phonetic": "หนี่ แฉี่ยง ตัว เลอ.",
+      "translation": "คุณคิดมากไปเองแล้ว",
+      "chunks": [
+        "你想多了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L08-C074",
+      "legacyId": "U04-L08-C074",
+      "position": 4,
+      "script": "太假了吧。",
+      "pronunciation": "tài jiǎ le ba.",
+      "phonetic": "ไท่ เจี่ย เลอ ปะ.",
+      "translation": "ปลอมเกินไปมั้ง / ดูไม่จริงเลย",
+      "chunks": [
+        "太假了吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L08-C075",
+      "legacyId": "U04-L08-C075",
+      "position": 5,
+      "script": "这很难说。",
+      "pronunciation": "zhè hěn nán shuō.",
+      "phonetic": "เจ้อ เหิ่น นาน ซัว.",
+      "translation": "อันนี้พูดคุยยากจริงๆ",
+      "chunks": [
+        "这很难说。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L08-C076",
+      "legacyId": "U04-L08-C076",
+      "position": 6,
+      "script": "言之有理。",
+      "pronunciation": "yán zhī yǒu lǐ.",
+      "phonetic": "แหยน จือ โหย่ว หลี่.",
+      "translation": "พูดจามีเหตุผล / มีน้ำหนัก",
+      "chunks": [
+        "言之有理。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L08-C077",
+      "legacyId": "U04-L08-C077",
+      "position": 7,
+      "script": "毫无疑问。",
+      "pronunciation": "háo wú yí wèn.",
+      "phonetic": "หาว อู๋ อี๋ เวิ่น.",
+      "translation": "ไม่มีข้อสงสัยเลย / แน่นอนที่สุด",
+      "chunks": [
+        "毫无疑问。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L08-C078",
+      "legacyId": "U04-L08-C078",
+      "position": 8,
+      "script": "那不一定。",
+      "pronunciation": "nà bù yí dìng.",
+      "phonetic": "น้า ปู้ อี๋ ติ้ง.",
+      "translation": "นั่นไม่แน่หรอก / ไม่เสมอไป",
+      "chunks": [
+        "那不一定。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L08-C079",
+      "legacyId": "U04-L08-C079",
+      "position": 9,
+      "script": "我明白了。",
+      "pronunciation": "wǒ míng bai le.",
+      "phonetic": "หว่อ หมิง ป๋าย เลอ.",
+      "translation": "ฉันเข้าใจแล้ว",
+      "chunks": [
+        "我明白了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L08-C080",
+      "legacyId": "U04-L08-C080",
+      "position": 10,
+      "script": "我知道了。",
+      "pronunciation": "wǒ zhī dào le.",
+      "phonetic": "หว่อ จือ เต้า เลอ.",
+      "translation": "ฉันรู้แล้ว / รับทราบแล้ว",
+      "chunks": [
+        "我知道了。"
+      ]
+    }
+  ]
+}

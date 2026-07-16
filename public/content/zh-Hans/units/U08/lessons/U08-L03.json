@@ -1,0 +1,127 @@
+{
+  "id": "U08-L03",
+  "number": 3,
+  "title": "คุณตั้งนาฬิกาปลุกพรุ่งนี้เช้าเจ็ดโมงหรือยัง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U08-L03-C021",
+      "legacyId": "U08-L03-C021",
+      "position": 1,
+      "script": "你定明早七点的闹钟了吗？",
+      "pronunciation": "nǐ dìng míng zǎo qī diǎn de nào zhōng le ma?",
+      "phonetic": "หนี่ ติ้ง หมิง เจ๋า ชี เตี่ยน เตอ น้าว จง เลอ มะ?",
+      "translation": "คุณตั้งนาฬิกาปลุกพรุ่งนี้เช้าเจ็ดโมงหรือยัง",
+      "chunks": [
+        "你定明早七点的闹钟了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L03-C022",
+      "legacyId": "U08-L03-C022",
+      "position": 2,
+      "script": "我的闹钟响了三次我都没醒。",
+      "pronunciation": "wǒ de nào zhōng xiǎng le sān cì wǒ dōu méi xǐng.",
+      "phonetic": "หว่อ เตอ น้าว จง แฉี่ยง เลอ ซาน ซี่ หว่อ โตว เหมย สิ่ง.",
+      "translation": "นาฬิกาปลุกของฉันดังสามรอบแล้วฉันยังไม่ตื่นเลย",
+      "chunks": [
+        "我的闹钟响了三次我都没醒。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L03-C023",
+      "legacyId": "U08-L03-C023",
+      "position": 3,
+      "script": "早上洗澡让我觉得很有精神。",
+      "pronunciation": "zǎo shang xǐ zǎo ràng wǒ jué de hěn yǒu jīng shén.",
+      "phonetic": "เจ๋า ส่าง สี่ เจ๋า รั้ง หว่อ จว๋ะ เตอ เหิ่น โหย่ว จิง เซิน.",
+      "translation": "อาบน้ำตอนเช้าทำให้ฉันรู้สึกกระปรี้กระเปร่ามาก",
+      "chunks": [
+        "早上洗澡让我觉得很有精神。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L03-C024",
+      "legacyId": "U08-L03-C024",
+      "position": 4,
+      "script": "你出门前一般化不化妆？",
+      "pronunciation": "nǐ chū mén qián yì bān huà bú huà zhuāng?",
+      "phonetic": "หนี่ ชู เหมิน เฉียน อี้ ปาน หว้า ปู๋ หว้า จวอง?",
+      "translation": "ปกติก่อนออกจากบ้านคุณแต่งหน้าหรือเปล่า",
+      "chunks": [
+        "你出门前一般化不化妆？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L03-C025",
+      "legacyId": "U08-L03-C025",
+      "position": 5,
+      "script": "换好衣服我们就走吧。",
+      "pronunciation": "huàn hǎo yī fu wǒ men jiù zǒu ba.",
+      "phonetic": "ห้วน ห่าว อี ฟุ หว่อ เมิน จิ้ว โจ่ว ปะ.",
+      "translation": "เปลี่ยนเสื้อผ้าเสร็จแล้วพวกเราก็ไปกันเถอะ",
+      "chunks": [
+        "换好衣服我们就走吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L03-C026",
+      "legacyId": "U08-L03-C026",
+      "position": 6,
+      "script": "我来不及吃早饭了，得赶快走。",
+      "pronunciation": "wǒ lái bu jí chī zǎo fàn le, děi gǎn kuài zǒu.",
+      "phonetic": "หว่อ ไหล บุ จี๋ ชือ เจ๋า ฟ้าน เลอ, เต่ย ก๋ัน คว้าย โจ่ว.",
+      "translation": "ฉันกินข้าวเช้าไม่ทันแล้ว ต้องรีบไปด่วนเลย",
+      "chunks": [
+        "我来不及吃早饭了，得赶快走。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L03-C027",
+      "legacyId": "U08-L03-C027",
+      "position": 7,
+      "script": "你通常午饭吃什么？",
+      "pronunciation": "nǐ tōng cháng wǔ fàn chī shén me?",
+      "phonetic": "หนี่ ทง ฉาง อู่ ฟ้าน ชือ เซิ่น เมอ?",
+      "translation": "ปกติมื้อเที่ยงคุณกินอะไร",
+      "chunks": [
+        "你通常午饭吃什么？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L03-C028",
+      "legacyId": "U08-L03-C028",
+      "position": 8,
+      "script": "我们在公司的食堂吃午饭。",
+      "pronunciation": "wǒ men zài gōng sī de shí táng chī wǔ fàn.",
+      "phonetic": "หว่อ เมิน ไซ้ กง ซือ เตอ สือ ถัง ชือ อู่ ฟ้าน.",
+      "translation": "พวกเรากินข้าวเที่ยงที่โรงอาหารของบริษัท",
+      "chunks": [
+        "我们在公司的食堂吃午饭。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L03-C029",
+      "legacyId": "U08-L03-C029",
+      "position": 9,
+      "script": "午休时间有一个小时。",
+      "pronunciation": "wǔ xiū shí jiān yǒu yí gè xiǎo shí.",
+      "phonetic": "อู่ ซิว สือ เจียน โหย่ว อี๋ เก้อ เสียว สื้อ.",
+      "translation": "เวลาพักเที่ยงมีหนึ่งชั่วโมง",
+      "chunks": [
+        "午休时间有一个小时。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U08-L03-C030",
+      "legacyId": "U08-L03-C030",
+      "position": 10,
+      "script": "我午饭后喜欢趴在桌上睡一会儿。",
+      "pronunciation": "wǒ wǔ fàn hòu xǐ huan pā zài zhuō shàng shuì yí huì r.",
+      "phonetic": "หว่อ อู่ ฟ้าน โห่ว สี่ หวน พา ไซ้ จวอ ส่าง ซุ่ย อี๋ ห้วยร์.",
+      "translation": "หลังมื้อเที่ยงฉันชอบฟุบนอนบนโต๊ะสักแป๊บนึง",
+      "chunks": [
+        "我午饭后喜欢趴在桌上睡一会儿。"
+      ]
+    }
+  ]
+}

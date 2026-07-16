@@ -1,0 +1,127 @@
+{
+  "id": "U02-L03",
+  "number": 3,
+  "title": "ฉันขอแนะนำตัวหน่อยนะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L03-C021",
+      "legacyId": "U02-L03-C021",
+      "position": 1,
+      "script": "我来自我介绍一下。",
+      "pronunciation": "wǒ lái zì wǒ jiè shào yí xià.",
+      "phonetic": "หว่อ ไหล จื้อ หว่อ เจี้ย เซ่า อี๋ เซี่ย.",
+      "translation": "ฉันขอแนะนำตัวหน่อยนะ",
+      "chunks": [
+        "我来自我介绍一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L03-C022",
+      "legacyId": "U02-L03-C022",
+      "position": 2,
+      "script": "请多关照。",
+      "pronunciation": "qǐng duō guān zhào.",
+      "phonetic": "ฉิ่ง ตัว กวน จ้าว.",
+      "translation": "ขอฝากเนื้อฝากตัวด้วยนะ",
+      "chunks": [
+        "请多关照。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L03-C023",
+      "legacyId": "U02-L03-C023",
+      "position": 3,
+      "script": "请问您怎么称呼？",
+      "pronunciation": "qǐng wèn nín zěn me chēng hu?",
+      "phonetic": "ฉิ่ง เวิน หนิน เจิ่น เมอ เชิง หุ?",
+      "translation": "ขอสอบถามหน่อยครับ/ค่ะ จะให้ฉันเรียกคุณว่าอย่างไรดี",
+      "chunks": [
+        "请问您怎么称呼？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L03-C024",
+      "legacyId": "U02-L03-C024",
+      "position": 4,
+      "script": "叫我小张就可以了。",
+      "pronunciation": "jiào wǒ xiǎo zhāng jiù kě yǐ le.",
+      "phonetic": "เจี้ยว หว่อ เสียว จาง จิ้ว เขอ อี่ เลอ.",
+      "translation": "เรียกฉันว่าเสี่ยวจางก็ได้",
+      "chunks": [
+        "叫我小张就可以了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L03-C025",
+      "legacyId": "U02-L03-C025",
+      "position": 5,
+      "script": "你在哪家公司上班？",
+      "pronunciation": "nǐ zài nǎ jiā gōng sī shàng bān?",
+      "phonetic": "หนี่ ไซ้ หน่า เจีย กง ซือ ซ้าง ปาน?",
+      "translation": "คุณทำงานอยู่ที่บริษัทไหน",
+      "chunks": [
+        "你在哪家公司上班？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L03-C026",
+      "legacyId": "U02-L03-C026",
+      "position": 6,
+      "script": "我是做外贸的。",
+      "pronunciation": "wǒ shì zuò wài mào de.",
+      "phonetic": "หว่อ สื้อ จั่ว ไว้ ม้าว เตอ.",
+      "translation": "ฉันทำธุรกิจการค้าต่างประเทศ",
+      "chunks": [
+        "我是做外贸的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L03-C027",
+      "legacyId": "U02-L03-C027",
+      "position": 7,
+      "script": "我刚毕业不久。",
+      "pronunciation": "wǒ gāng bì yè bù jiǔ.",
+      "phonetic": "หว่อ กัง ปี้ เย่ ปู้ จิ่ว.",
+      "translation": "ฉันเพิ่งเรียนจบมาไม่นาน",
+      "chunks": [
+        "我刚毕业不久。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L03-C028",
+      "legacyId": "U02-L03-C028",
+      "position": 8,
+      "script": "你老家是哪里的？",
+      "pronunciation": "nǐ lǎo jiā shì nǎ lǐ de?",
+      "phonetic": "หนี่ เหล่า เจีย สื้อ หน่า หลี่ เตอ?",
+      "translation": "บ้านเกิดของคุณอยู่ที่ไหน",
+      "chunks": [
+        "你老家是哪里的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L03-C029",
+      "legacyId": "U02-L03-C029",
+      "position": 9,
+      "script": "我是清迈人。",
+      "pronunciation": "wǒ shì qīng mài rèn.",
+      "phonetic": "หว่อ สื้อ ชิง ม้าย เหริน.",
+      "translation": "ฉันเป็นคนเชียงใหม่",
+      "chunks": [
+        "我是清迈人。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L03-C030",
+      "legacyId": "U02-L03-C030",
+      "position": 10,
+      "script": "大家好，很高兴在这里见到大家。",
+      "pronunciation": "dà jiā hǎo, hěn gāo xìng zài zhè lǐ jiàn dào dà jiā.",
+      "phonetic": "ต้า เจีย ห่าว, เหิ่น เกา ซิ่ง ไซ้ เจ้อ หลี่ เจี้ยน ต้าว ต้า เจีย.",
+      "translation": "สวัสดีทุกคน ยินดีมากที่ได้เจอทุกคนที่นี่",
+      "chunks": [
+        "大家好，很高兴在这里见到大家。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "id": "I22",
+  "number": 9,
+  "title": "I. Apologizing & Explaining",
+  "chunks": [
+    {
+      "id": "en:session-2-2:I22:1",
+      "legacyId": "I22-0",
+      "position": 1,
+      "script": "I'm really sorry for the late reply.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษมากนะที่ตอบกลับช้า",
+      "chunks": [
+        "I'm really sorry",
+        "for the late reply."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:2",
+      "legacyId": "I22-1",
+      "position": 2,
+      "script": "I apologize for any inconvenience this may have caused.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขออภัยสำหรับความไม่สะดวกที่เกิดขึ้น",
+      "chunks": [
+        "I apologize",
+        "for any inconvenience this may have caused."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:3",
+      "legacyId": "I22-2",
+      "position": 3,
+      "script": "I'm sorry — that was completely my fault.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษนะ นั่นเป็นความผิดฉันล้วนๆ",
+      "chunks": [
+        "I'm sorry —",
+        "that was completely my fault."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:4",
+      "legacyId": "I22-3",
+      "position": 4,
+      "script": "Please accept my sincere apologies.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอให้รับคำขอโทษอย่างจริงใจจากฉันด้วยนะ",
+      "chunks": [
+        "Please accept my sincere apologies."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:5",
+      "legacyId": "I22-4",
+      "position": 5,
+      "script": "I owe you an apology — I shouldn't have done that.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องขอโทษคุณ ไม่น่าทำแบบนั้นเลย",
+      "chunks": [
+        "I owe you an apology — I shouldn't have done",
+        "that."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:6",
+      "legacyId": "I22-5",
+      "position": 6,
+      "script": "I didn't mean to upset you — I'm truly sorry.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ได้ตั้งใจให้คุณหงุดหงิด ขอโทษจริงๆ นะ",
+      "chunks": [
+        "I didn't mean",
+        "to upset you — I'm truly sorry."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:7",
+      "legacyId": "I22-6",
+      "position": 7,
+      "script": "I should have let you know sooner — my mistake.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันน่าจะแจ้งคุณก่อนหน้านี้ ผิดฉันเอง",
+      "chunks": [
+        "I should have let you know sooner — my mistake."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:8",
+      "legacyId": "I22-7",
+      "position": 8,
+      "script": "I take full responsibility for what happened.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรับผิดชอบในสิ่งที่เกิดขึ้นทั้งหมด",
+      "chunks": [
+        "I take full responsibility",
+        "for what happened."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:9",
+      "legacyId": "I22-8",
+      "position": 9,
+      "script": "It won't happen again — I'll make sure of it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จะไม่เกิดขึ้นอีกแล้ว ฉันจะดูแลให้ดี",
+      "chunks": [
+        "It won't happen again — I'll make sure of it."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:10",
+      "legacyId": "I22-9",
+      "position": 10,
+      "script": "The reason I didn't respond was because I was in a meeting.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สาเหตุที่ฉันไม่ได้ตอบเพราะกำลังประชุมอยู่",
+      "chunks": [
+        "The reason I didn't respond was",
+        "because I was",
+        "in a meeting."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:11",
+      "legacyId": "I22-10",
+      "position": 11,
+      "script": "I had a family emergency — I'm sorry for the short notice.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีเรื่องฉุกเฉินในครอบครัว ขอโทษที่แจ้งกะทันหัน",
+      "chunks": [
+        "I had a family emergency — I'm sorry",
+        "for the short notice."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:12",
+      "legacyId": "I22-11",
+      "position": 12,
+      "script": "I was under the impression that someone else was handling it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเข้าใจว่ามีคนอื่นดูแลอยู่แล้ว",
+      "chunks": [
+        "I was under the impression",
+        "that someone else was handling it."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:13",
+      "legacyId": "I22-12",
+      "position": 13,
+      "script": "I know this isn't ideal, and I'm working on fixing it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้ว่ามันไม่ดีเลย และกำลังหาทางแก้อยู่",
+      "chunks": [
+        "I know this isn't ideal,",
+        "and I'm working",
+        "on fixing it."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:14",
+      "legacyId": "I22-13",
+      "position": 14,
+      "script": "I appreciate your patience while we sort this out.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณที่อดทนรอขณะที่เราจัดการเรื่องนี้",
+      "chunks": [
+        "I appreciate your patience",
+        "while we sort this out."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:15",
+      "legacyId": "I22-14",
+      "position": 15,
+      "script": "There seems to have been a miscommunication somewhere.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดูเหมือนจะมีการสื่อสารผิดพลาดเกิดขึ้นที่ไหนซักที่",
+      "chunks": [
+        "There seems",
+        "to have been a miscommunication somewhere."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:16",
+      "legacyId": "I22-15",
+      "position": 16,
+      "script": "I'm sorry for the confusion — let me clear this up.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษที่ทำให้งง มาทำให้กระจ่างกันเลยนะ",
+      "chunks": [
+        "I'm sorry",
+        "for the confusion — let me clear this up."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:17",
+      "legacyId": "I22-16",
+      "position": 17,
+      "script": "I realize now that I misunderstood the situation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนนี้ฉันรู้แล้วว่าฉันเข้าใจสถานการณ์ผิด",
+      "chunks": [
+        "I realize now",
+        "that I misunderstood the situation."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:18",
+      "legacyId": "I22-17",
+      "position": 18,
+      "script": "I should have double-checked before sending that.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "น่าจะเช็คซ้ำก่อนส่งเรื่องนั้น",
+      "chunks": [
+        "I should have double-checked before sending",
+        "that."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:19",
+      "legacyId": "I22-18",
+      "position": 19,
+      "script": "I'm sorry for taking up so much of your time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษที่ใช้เวลาของคุณไปมากนะ",
+      "chunks": [
+        "I'm sorry",
+        "for taking up",
+        "so much of your time."
+      ]
+    },
+    {
+      "id": "en:session-2-2:I22:20",
+      "legacyId": "I22-19",
+      "position": 20,
+      "script": "No hard feelings — it was a misunderstanding on my part.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไม่ได้โกรธกันนะ มันเป็นความเข้าใจผิดของฉันเอง",
+      "chunks": [
+        "No hard feelings — it was a misunderstanding",
+        "on my part."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "id": "E22",
+  "number": 5,
+  "title": "E. Agreeing & Disagreeing Politely",
+  "chunks": [
+    {
+      "id": "en:session-2-2:E22:1",
+      "legacyId": "E22-0",
+      "position": 1,
+      "script": "I completely see your point.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเข้าใจมุมมองของคุณได้เลย",
+      "chunks": [
+        "I completely see your point."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:2",
+      "legacyId": "E22-1",
+      "position": 2,
+      "script": "I think you make a valid point.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันว่าคุณพูดถูกนะ มีเหตุผลดี",
+      "chunks": [
+        "I think you make a valid point."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:3",
+      "legacyId": "E22-2",
+      "position": 3,
+      "script": "I couldn't agree more.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เห็นด้วยสุดๆ เลย",
+      "chunks": [
+        "I couldn't agree more."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:4",
+      "legacyId": "E22-3",
+      "position": 4,
+      "script": "That's exactly how I feel about it too.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นคือสิ่งที่ฉันรู้สึกด้วยเหมือนกัน",
+      "chunks": [
+        "That's exactly how I feel",
+        "about it too."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:5",
+      "legacyId": "E22-4",
+      "position": 5,
+      "script": "You're absolutely right about that.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณพูดถูกสุดๆ เรื่องนั้นเลย",
+      "chunks": [
+        "You're absolutely right",
+        "about",
+        "that."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:6",
+      "legacyId": "E22-5",
+      "position": 6,
+      "script": "I see where you're coming from, but I'm not so sure.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเข้าใจว่าคุณมาจากมุมไหน แต่ฉันไม่แน่ใจนัก",
+      "chunks": [
+        "I see",
+        "where you're coming from,",
+        "but I'm not",
+        "so sure."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:7",
+      "legacyId": "E22-6",
+      "position": 7,
+      "script": "I see your point, but have you considered the other side?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเข้าใจประเด็นคุณ แต่คุณคิดถึงอีกด้านบ้างไหม?",
+      "chunks": [
+        "I see your point,",
+        "but have you considered the other side?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:8",
+      "legacyId": "E22-7",
+      "position": 8,
+      "script": "I'm not sure I agree with that entirely.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่แน่ใจว่าเห็นด้วยกับเรื่องนั้นทั้งหมดนะ",
+      "chunks": [
+        "I'm not sure I agree",
+        "with",
+        "that entirely."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:9",
+      "legacyId": "E22-8",
+      "position": 9,
+      "script": "With respect, I think that's not quite right.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดตรงๆ นะ ฉันคิดว่าเรื่องนั้นไม่ค่อยถูกต้อง",
+      "chunks": [
+        "With respect,",
+        "I think that's not quite right."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:10",
+      "legacyId": "E22-9",
+      "position": 10,
+      "script": "I'm afraid I have to disagree on this one.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เกรงว่าฉันต้องขอค้านเรื่องนี้นะ",
+      "chunks": [
+        "I'm afraid I have",
+        "to disagree",
+        "on this one."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:11",
+      "legacyId": "E22-10",
+      "position": 11,
+      "script": "That's one way to look at it, but...",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นเป็นมุมมองหนึ่ง แต่...",
+      "chunks": [
+        "That's one way",
+        "to look",
+        "at it,",
+        "but..."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:12",
+      "legacyId": "E22-11",
+      "position": 12,
+      "script": "I can see why you think that, but personally I feel differently.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเข้าใจว่าทำไมคุณถึงคิดแบบนั้น แต่ฉันรู้สึกต่างออกไป",
+      "chunks": [
+        "I can see why you think",
+        "that,",
+        "but personally I feel differently."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:13",
+      "legacyId": "E22-12",
+      "position": 13,
+      "script": "You raise a fair point — I hadn't thought of it that way.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณหยิบยกประเด็นที่ดีขึ้นมา ฉันยังไม่เคยคิดแบบนั้นเลย",
+      "chunks": [
+        "You raise a fair point — I hadn't thought of it",
+        "that way."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:14",
+      "legacyId": "E22-13",
+      "position": 14,
+      "script": "I agree in principle, but I think the details need work.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เห็นด้วยในหลักการ แต่คิดว่ารายละเอียดยังต้องปรับ",
+      "chunks": [
+        "I agree",
+        "in principle,",
+        "but I think the details need work."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:15",
+      "legacyId": "E22-14",
+      "position": 15,
+      "script": "We'll just have to agree to disagree on this.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เรื่องนี้คงต้องยอมรับว่าเห็นไม่ตรงกัน",
+      "chunks": [
+        "We'll just have",
+        "to agree",
+        "to disagree",
+        "on this."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:16",
+      "legacyId": "E22-15",
+      "position": 16,
+      "script": "I think we're actually saying the same thing.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันว่าเราพูดถึงสิ่งเดียวกันอยู่นะ",
+      "chunks": [
+        "I think we're actually saying the same thing."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:17",
+      "legacyId": "E22-16",
+      "position": 17,
+      "script": "That's a fair point, and I hadn't considered that.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นั่นเป็นประเด็นที่สมเหตุสมผล และฉันยังไม่ได้คิดถึงตรงนั้น",
+      "chunks": [
+        "That's a fair point,",
+        "and I hadn't considered",
+        "that."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:18",
+      "legacyId": "E22-17",
+      "position": 18,
+      "script": "I understand your concern, but I still think we should proceed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเข้าใจความกังวลของคุณ แต่ฉันยังคิดว่าเราควรดำเนินการต่อ",
+      "chunks": [
+        "I understand your concern,",
+        "but I still think we should proceed."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:19",
+      "legacyId": "E22-18",
+      "position": 19,
+      "script": "You make a good point, but I'm not 100% convinced.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณพูดถูกนะ แต่ฉันยังไม่ค่อยแน่ใจ 100%",
+      "chunks": [
+        "You make a good point,",
+        "but I'm not 100% convinced."
+      ]
+    },
+    {
+      "id": "en:session-2-2:E22:20",
+      "legacyId": "E22-19",
+      "position": 20,
+      "script": "I partly agree, but there's more to it than that.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเห็นด้วยบางส่วน แต่มันมีมากกว่านั้น",
+      "chunks": [
+        "I partly agree,",
+        "but there's more",
+        "to it than",
+        "that."
+      ]
+    }
+  ]
+}

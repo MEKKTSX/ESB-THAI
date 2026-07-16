@@ -1,0 +1,127 @@
+{
+  "id": "U03-L09",
+  "number": 9,
+  "title": "คุณอยากจะไปพร้อมกับพวกเราด้วยกันไหม",
+  "chunks": [
+    {
+      "id": "zh-Hans:U03-L09-C081",
+      "legacyId": "U03-L09-C081",
+      "position": 1,
+      "script": "你想不想和我们一块儿去？",
+      "pronunciation": "nǐ xiǎng bù xiǎng hé wǒ men yí kuàir qù?",
+      "phonetic": "หนี่ แฉี่ยง ปู้ แฉี่ยง เหอ หว่อ เมิน อี๋ คว้ายร์ ชวี่?",
+      "translation": "คุณอยากจะไปพร้อมกับพวกเราด้วยกันไหม",
+      "chunks": [
+        "你想不想和我们一块儿去？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L09-C082",
+      "legacyId": "U03-L09-C082",
+      "position": 2,
+      "script": "你觉得他今天的心情怎么样？",
+      "pronunciation": "nǐ jué de tā jīn tiān de xīn qíng zěn me yàng?",
+      "phonetic": "หนี่ จว๋ะ เตอ ทา จิน เทียน เตอ ซิน ฉิง เจิ่น เมอ ย่าง?",
+      "translation": "คุณคิดว่าวันนี้อารมณ์ของเขาเป็นยังไงบ้าง",
+      "chunks": [
+        "你觉得他今天的心情怎么样？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L09-C083",
+      "legacyId": "U03-L09-C083",
+      "position": 3,
+      "script": "你知道在哪里可以买到门票吗？",
+      "pronunciation": "nǐ zhī dào zài nǎ lǐ kě yǐ mǎi dào mén piào ma?",
+      "phonetic": "หนี่ จือ เต้า ไซ้ หน่า หลี่ เขอ อี่ หม่าย ต้าว เหมิน เพี้ยว มะ?",
+      "translation": "คุณรู้ไหมว่าซื้อตั๋วเข้าชมได้ที่ไหน",
+      "chunks": [
+        "你知道在哪里可以买到门票吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L09-C084",
+      "legacyId": "U03-L09-C084",
+      "position": 4,
+      "script": "你的行李收拾好了没有？",
+      "pronunciation": "nǐ de xíng li shōu shi hǎo le méi yǒu?",
+      "phonetic": "หนี่ เตอ สิง ลิ โซว สิ ห่าว เลอ เหมย โหย่ว?",
+      "translation": "กระเป๋าเดินทางของคุณจัดเสร็จเรียบร้อยหรือยัง",
+      "chunks": [
+        "你的行李收拾好了没有？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L09-C085",
+      "legacyId": "U03-L09-C085",
+      "position": 5,
+      "script": "你今天穿得这么正式，是要去面试吗？",
+      "pronunciation": "nǐ jīn tiān chuān de zhè me zhèng shì, shì yào qù miàn shì ma?",
+      "phonetic": "หนี่ จิน เทียน ชวน เตอ เจ้อ เมอ เจิ้ง สื้อ, สื้อ เย้า ชวี่ เมี้ยน สื้อ มะ?",
+      "translation": "วันนี้คุณแต่งตัวเป็นทางการขนาดนี้ จะไปสัมภาษณ์งานหรอ",
+      "chunks": [
+        "你今天穿得这么正式，是要去面试吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L09-C086",
+      "legacyId": "U03-L09-C086",
+      "position": 6,
+      "script": "今天的菜做咸了，是不是？",
+      "pronunciation": "jīn tiān de cài zuò xián le, shì bú shì?",
+      "phonetic": "จิน เทียน เตอ ไช้ จั่ว เสียน เลอ, สื้อ ปู๋ สื้อ?",
+      "translation": "กับข้าววันนี้ทำเค็มไปหน่อย ใช่ไหม",
+      "chunks": [
+        "今天的菜做咸了，是不是？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L09-C087",
+      "legacyId": "U03-L09-C087",
+      "position": 7,
+      "script": "你决定好去哪家学校了吗？",
+      "pronunciation": "nǐ jué dìng hǎo qù nǎ jiā xué xiào le ma?",
+      "phonetic": "หนี่ จว๋ะ ติ้ง ห่าว ชวี่ หน่า เจีย เสวี่ย เสี้ยว มะ?",
+      "translation": "คุณตัดสินใจเลือกโรงเรียน/มหาวิทยาลัยไหนได้หรือยัง",
+      "chunks": [
+        "你决定好去哪家学校了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L09-C088",
+      "legacyId": "U03-L09-C088",
+      "position": 8,
+      "script": "你对这个方案还有意见吗？",
+      "pronunciation": "nǐ duì zhè ge fāng àn hái yǒu yì jiàn ma?",
+      "phonetic": "หนี่ ตุ้ย เจ้อ เกอ ฟาง อัน หาย โหย่ว อี้ เจี้ยน มะ?",
+      "translation": "คุณยังมีความคิดเห็นเพิ่มเติมเกี่ยวกับแผนงานนี้ไหม",
+      "chunks": [
+        "你对这个方案还有意见吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L09-C089",
+      "legacyId": "U03-L09-C089",
+      "position": 9,
+      "script": "这个快递大概几天能到？",
+      "pronunciation": "zhè ge kuài dì dà gài jǐ tiān néng dào?",
+      "phonetic": "เจ้อ เกอ คว้าย ตี้ ต้า ก้าย จี๋ เทียน เหนิง ต้าว?",
+      "translation": "พัสดุนี้ปกติใช้เวลาประมาณกี่วันถึง",
+      "chunks": [
+        "这个快递大概几天能到？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L09-C090",
+      "legacyId": "U03-L09-C090",
+      "position": 10,
+      "script": "你能不能帮我照张相？",
+      "pronunciation": "nǐ néng bù néng bāng wǒ zhào zhāng xiàng?",
+      "phonetic": "หนี่ เหนิง ปู้ เหนิง ปัง หว่อ จ้าว จาง เสี้ยง?",
+      "translation": "คุณช่วยถ่ายรูปให้ฉันหน่อยได้ไหม",
+      "chunks": [
+        "你能不能帮我照张相？"
+      ]
+    }
+  ]
+}

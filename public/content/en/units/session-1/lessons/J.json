@@ -1,0 +1,273 @@
+{
+  "id": "J",
+  "number": 10,
+  "title": "J. Problems & Complaints",
+  "chunks": [
+    {
+      "id": "en:session-1:J:1",
+      "legacyId": "J-0",
+      "position": 1,
+      "script": "I have a problem.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมีปัญหา",
+      "chunks": [
+        "I have a problem."
+      ]
+    },
+    {
+      "id": "en:session-1:J:2",
+      "legacyId": "J-1",
+      "position": 2,
+      "script": "I have a headache.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันปวดหัว",
+      "chunks": [
+        "I have a headache."
+      ]
+    },
+    {
+      "id": "en:session-1:J:3",
+      "legacyId": "J-2",
+      "position": 3,
+      "script": "I have a cold.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเป็นหวัด",
+      "chunks": [
+        "I have a cold."
+      ]
+    },
+    {
+      "id": "en:session-1:J:4",
+      "legacyId": "J-3",
+      "position": 4,
+      "script": "I’m lost.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหลงทาง",
+      "chunks": [
+        "I’m lost."
+      ]
+    },
+    {
+      "id": "en:session-1:J:5",
+      "legacyId": "J-4",
+      "position": 5,
+      "script": "I’m confused.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันงง / สับสน",
+      "chunks": [
+        "I’m confused."
+      ]
+    },
+    {
+      "id": "en:session-1:J:6",
+      "legacyId": "J-5",
+      "position": 6,
+      "script": "I’m so stressed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเครียดมาก",
+      "chunks": [
+        "I’m",
+        "so stressed."
+      ]
+    },
+    {
+      "id": "en:session-1:J:7",
+      "legacyId": "J-6",
+      "position": 7,
+      "script": "It doesn't work.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันใช้งานไม่ได้",
+      "chunks": [
+        "It doesn't work."
+      ]
+    },
+    {
+      "id": "en:session-1:J:8",
+      "legacyId": "J-7",
+      "position": 8,
+      "script": "It’s broken.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันพัง / แตก",
+      "chunks": [
+        "It’s broken."
+      ]
+    },
+    {
+      "id": "en:session-1:J:9",
+      "legacyId": "J-8",
+      "position": 9,
+      "script": "It’s too loud.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เสียงดังเกินไป",
+      "chunks": [
+        "It’s too loud."
+      ]
+    },
+    {
+      "id": "en:session-1:J:10",
+      "legacyId": "J-9",
+      "position": 10,
+      "script": "It’s too cold in here.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในนี้หนาวเกินไป",
+      "chunks": [
+        "It’s too cold",
+        "in here."
+      ]
+    },
+    {
+      "id": "en:session-1:J:11",
+      "legacyId": "J-10",
+      "position": 11,
+      "script": "It’s too expensive.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันแพงเกินไป",
+      "chunks": [
+        "It’s too expensive."
+      ]
+    },
+    {
+      "id": "en:session-1:J:12",
+      "legacyId": "J-11",
+      "position": 12,
+      "script": "It’s really annoying.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันน่ารำคาญจริงๆ",
+      "chunks": [
+        "It’s really annoying."
+      ]
+    },
+    {
+      "id": "en:session-1:J:13",
+      "legacyId": "J-12",
+      "position": 13,
+      "script": "There is a mistake.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีความผิดพลาดเกิดขึ้น",
+      "chunks": [
+        "There is a mistake."
+      ]
+    },
+    {
+      "id": "en:session-1:J:14",
+      "legacyId": "J-13",
+      "position": 14,
+      "script": "There is no internet.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เน็ตใช้ไม่ได้ / ไม่มีเน็ต",
+      "chunks": [
+        "There is no internet."
+      ]
+    },
+    {
+      "id": "en:session-1:J:15",
+      "legacyId": "J-14",
+      "position": 15,
+      "script": "The traffic is terrible.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "การจราจรแย่มาก (รถติด)",
+      "chunks": [
+        "The traffic is terrible."
+      ]
+    },
+    {
+      "id": "en:session-1:J:16",
+      "legacyId": "J-15",
+      "position": 16,
+      "script": "This is not what I ordered.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นี่ไม่ใช่ที่ฉันสั่งไป",
+      "chunks": [
+        "This is not what I ordered."
+      ]
+    },
+    {
+      "id": "en:session-1:J:17",
+      "legacyId": "J-16",
+      "position": 17,
+      "script": "This is taking too long.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "นี่มันใช้เวลานานเกินไปแล้ว",
+      "chunks": [
+        "This is taking too long."
+      ]
+    },
+    {
+      "id": "en:session-1:J:18",
+      "legacyId": "J-17",
+      "position": 18,
+      "script": "Something is wrong.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มีบางอย่างผิดปกติ",
+      "chunks": [
+        "Something is wrong."
+      ]
+    },
+    {
+      "id": "en:session-1:J:19",
+      "legacyId": "J-18",
+      "position": 19,
+      "script": "I don't have enough money.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมีเงินไม่พอ",
+      "chunks": [
+        "I don't have enough money."
+      ]
+    },
+    {
+      "id": "en:session-1:J:20",
+      "legacyId": "J-19",
+      "position": 20,
+      "script": "I don't have time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่มีเวลา",
+      "chunks": [
+        "I don't have time."
+      ]
+    },
+    {
+      "id": "en:session-1:J:21",
+      "legacyId": "J-20",
+      "position": 21,
+      "script": "I can't find my wallet.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหากระเป๋าตังค์ไม่เจอ",
+      "chunks": [
+        "I can't find my wallet."
+      ]
+    },
+    {
+      "id": "en:session-1:J:22",
+      "legacyId": "J-21",
+      "position": 22,
+      "script": "I'm running late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังจะไปสายแล้ว",
+      "chunks": [
+        "I'm running late."
+      ]
+    }
+  ]
+}

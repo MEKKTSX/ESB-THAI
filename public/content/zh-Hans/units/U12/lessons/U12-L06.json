@@ -1,0 +1,127 @@
+{
+  "id": "U12-L06",
+  "number": 6,
+  "title": "วันนี้เลิกเรียนเร็วมาก",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L06-C051",
+      "legacyId": "U12-L06-C051",
+      "position": 1,
+      "script": "今天下课很早。",
+      "pronunciation": "jīn tiān xià kè hěn zǎo.",
+      "phonetic": "จิน เทียน เซี่ย เค่อ หิ่น จ่าว",
+      "translation": "วันนี้เลิกเรียนเร็วมาก",
+      "chunks": [
+        "今天下课很早。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L06-C052",
+      "legacyId": "U12-L06-C052",
+      "position": 2,
+      "script": "下周开始期末考。",
+      "pronunciation": "xià zhōu kāi shǐ qī mò kǎo.",
+      "phonetic": "เซี่ย โจว ไค สื่อ ชี มั่ว ข่าว",
+      "translation": "สัปดาห์หน้าเริ่มสอบปลายภาค",
+      "chunks": [
+        "下周开始期末考。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L06-C053",
+      "legacyId": "U12-L06-C053",
+      "position": 3,
+      "script": "别忘了签到。",
+      "pronunciation": "bié wàng le qiān dào.",
+      "phonetic": "เปี๋ย ว้าง เลอะ เชียน เต้า",
+      "translation": "อย่าลืมลงชื่อเข้าเรียนนะ",
+      "chunks": [
+        "别忘了签到。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L06-C054",
+      "legacyId": "U12-L06-C054",
+      "position": 4,
+      "script": "他在图书馆复习。",
+      "pronunciation": "tā zài tú shū guǎn fù xí.",
+      "phonetic": "ทา ไจ้ ถู ซู ก่วน ฟู่ ซี",
+      "translation": "เขาติวหนังสืออยู่ที่ห้องสมุด",
+      "chunks": [
+        "他在图书馆复习。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L06-C055",
+      "legacyId": "U12-L06-C055",
+      "position": 5,
+      "script": "这次考试很难。",
+      "pronunciation": "zhè cì kǎo shì hěn nán.",
+      "phonetic": "เจ้อ ซื่อ ข่าว ซื่อ หิ่น นาน",
+      "translation": "สอบรอบนี้ยากมาก",
+      "chunks": [
+        "这次考试很难。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L06-C056",
+      "legacyId": "U12-L06-C056",
+      "position": 6,
+      "script": "及格就行。",
+      "pronunciation": "jí gé jiù xíng.",
+      "phonetic": "จี๋ เก๋อ จิ้ว สิง",
+      "translation": "แค่สอบผ่านก็พอแล้ว",
+      "chunks": [
+        "及格就行。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L06-C057",
+      "legacyId": "U12-L06-C057",
+      "position": 7,
+      "script": "差点儿挂科。",
+      "pronunciation": "chà diǎnr guà kē.",
+      "phonetic": "ช้า เติ๋ยน กว้าง เคอ",
+      "translation": "เกือบจะสอบตกแล้ว",
+      "chunks": [
+        "差点儿挂科。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L06-C058",
+      "legacyId": "U12-L06-C058",
+      "position": 8,
+      "script": "考了满分。",
+      "pronunciation": "kǎo le mǎn fēn.",
+      "phonetic": "ข่าว เลอะ หม่าน เฟิน",
+      "translation": "สอบได้คะแนนเต็ม",
+      "chunks": [
+        "考了满分。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L06-C059",
+      "legacyId": "U12-L06-C059",
+      "position": 9,
+      "script": "试卷发下来了。",
+      "pronunciation": "shì juàn fā xià lái le.",
+      "phonetic": "ซื่อ จ้วน ฟา เซี่ย ไหล เลอะ",
+      "translation": "กระดาษข้อสอบแจกมาแล้ว",
+      "chunks": [
+        "试卷发下来了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L06-C060",
+      "legacyId": "U12-L06-C060",
+      "position": 10,
+      "script": "最近学业压力大。",
+      "pronunciation": "zuì jìn xué yè yā lì dà.",
+      "phonetic": "จุ้ย จิ้น เสวีย เย้ ยา ลี่ ต้า",
+      "translation": "ช่วงนี้ความกดดันเรื่องการเรียนสูงมาก",
+      "chunks": [
+        "最近学业压力大。"
+      ]
+    }
+  ]
+}

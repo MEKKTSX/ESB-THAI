@@ -1,0 +1,127 @@
+{
+  "id": "U07-L02",
+  "number": 2,
+  "title": "กรุณารอตรงนี้สักครู่นะครับ/ค่ะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U07-L02-C011",
+      "legacyId": "U07-L02-C011",
+      "position": 1,
+      "script": "请在这里等一下。",
+      "pronunciation": "qǐng zài zhè lǐ děng yí xià.",
+      "phonetic": "ฉิ่ง ไซ้ เจ้อ หลี่ เติ๋ง อี๋ เซี่ย.",
+      "translation": "กรุณารอตรงนี้สักครู่นะครับ/ค่ะ",
+      "chunks": [
+        "请在这里等一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L02-C012",
+      "legacyId": "U07-L02-C012",
+      "position": 2,
+      "script": "还要等多久？",
+      "pronunciation": "hái yào děng duō jiǔ?",
+      "phonetic": "หาย เย้า เติ๋ง ตัว จิ่ว?",
+      "translation": "ยังต้องรออีกนานแค่ไหน",
+      "chunks": [
+        "还要等多久？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L02-C013",
+      "legacyId": "U07-L02-C013",
+      "position": 3,
+      "script": "明天你放假吗？",
+      "pronunciation": "míng tiān nǐ fàng jià ma?",
+      "phonetic": "หมิง เทียน หนี่ ฟ้าง เจี้ย มะ?",
+      "translation": "พรุ่งนี้คุณหยุดงาน/หยุดเรียนไหม",
+      "chunks": [
+        "明天你放假吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L02-C014",
+      "legacyId": "U07-L02-C014",
+      "position": 4,
+      "script": "你什么时候有空？",
+      "pronunciation": "nǐ shén me shí hou yǒu kòng?",
+      "phonetic": "เซิ่น เมอ สือ โห่ว โหย่ว ค่ง?",
+      "translation": "คุณว่างเมื่อไหร่ / ตอนไหน",
+      "chunks": [
+        "你什么时候有空？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L02-C015",
+      "legacyId": "U07-L02-C015",
+      "position": 5,
+      "script": "我今天特别忙，没空。",
+      "pronunciation": "wǒ jīn tiān tè bié máng, méi kòng.",
+      "phonetic": "หว่อ จิน เทียน เท่อ เปี๋ย หมาง, เหมย ค่ง.",
+      "translation": "วันนี้ฉันยุ่งเป็นพิเศษ ไม่มีเวลาว่างเลย",
+      "chunks": [
+        "我今天特别忙，没空。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L02-C016",
+      "legacyId": "U07-L02-C016",
+      "position": 6,
+      "script": "我们今天晚上见个面吧。",
+      "pronunciation": "wǒ men jīn tiān wǎn shang jiàn gè miàn ba.",
+      "phonetic": "หว่อ เมิน จิน เทียน หวั่น ส่าง เจี้ยน เก้อ เมี้ยน ปะ.",
+      "translation": "พวกเรานัดเจอกันเย็นวันนี้หน่อยสิ",
+      "chunks": [
+        "我们今天晚上见个面吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L02-C017",
+      "legacyId": "U07-L02-C017",
+      "position": 7,
+      "script": "在哪儿见比较方便？",
+      "pronunciation": "zài nǎr jiàn bǐ jiào fāng biàn?",
+      "phonetic": "ไซ้ หน่าร์ เจี้ยน ปี่ เจี้ยว ฟาง เปี้ยน?",
+      "translation": "นัดเจอที่ไหนจะค่อนข้างสะดวกกว่า",
+      "chunks": [
+        "在哪儿见比较方便？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L02-C018",
+      "legacyId": "U07-L02-C018",
+      "position": 8,
+      "script": "不好意思，我想改个时间。",
+      "pronunciation": "bù hǎo yì si, wǒ xiǎng gǎi gè shí jiān.",
+      "phonetic": "ปู้ ห่าว อี้ สิ, หว่อ แฉี่ยง ต๋าย เก้อ สือ เจียน.",
+      "translation": "ขอโทษทีนะ ฉันอยากจะขอเปลี่ยนเวลาหน่อย",
+      "chunks": [
+        "不好意思，我想改个时间。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L02-C019",
+      "legacyId": "U07-L02-C019",
+      "position": 9,
+      "script": "我们可以把时间推迟到明天吗？",
+      "pronunciation": "wǒ men kě yǐ bǎ shí jiān tuī chí dào míng tiān ma?",
+      "phonetic": "หว่อ เมิน เขอ อี่ ป๋า สือ เจียน ทุย ฉี ต้าว หมิง เทียน มะ?",
+      "translation": "พวกเราสามารถเลื่อนเวลาออกไปเป็นพรุ่งนี้ได้ไหม",
+      "chunks": [
+        "我们可以把时间推迟到明天吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U07-L02-C020",
+      "legacyId": "U07-L02-C020",
+      "position": 10,
+      "script": "下周我们要去中国出差。",
+      "pronunciation": "xià zhōu wǒ men yào qù zhōng guó chū chāi.",
+      "phonetic": "เซี่ย โจว หว่อ เมิน เย้า ชวี่ จง ก๋ัว ชู ไช.",
+      "translation": "สัปดาห์หน้าพวกเราจะต้องไปทำงาน (출장) ที่ประเทศจีน",
+      "chunks": [
+        "下周我们要去中国出差。"
+      ]
+    }
+  ]
+}

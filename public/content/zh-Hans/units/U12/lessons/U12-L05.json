@@ -1,0 +1,127 @@
+{
+  "id": "U12-L05",
+  "number": 5,
+  "title": "ส่งรายงานสัปดาห์หน้า",
+  "chunks": [
+    {
+      "id": "zh-Hans:U12-L05-C041",
+      "legacyId": "U12-L05-C041",
+      "position": 1,
+      "script": "下周交报告。",
+      "pronunciation": "xià zhōu jiāo bào gào.",
+      "phonetic": "เซี่ย โจว เจียว ป้าว เก้า",
+      "translation": "ส่งรายงานสัปดาห์หน้า",
+      "chunks": [
+        "下周交报告。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L05-C042",
+      "legacyId": "U12-L05-C042",
+      "position": 2,
+      "script": "我们是一组的。",
+      "pronunciation": "wǒ men shì yì zǔ de.",
+      "phonetic": "หวั่ว เมิน ซื่อ อี้ จู่ เตอะ",
+      "translation": "พวกเราอยู่กลุ่มเดียวกัน",
+      "chunks": [
+        "我们是一组的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L05-C043",
+      "legacyId": "U12-L05-C043",
+      "position": 3,
+      "script": "期末要做做汇报。",
+      "pronunciation": "qī mò yào zuò huì bào.",
+      "phonetic": "ชี มั่ว ย้าว จั้ว ฮุ่ย ป้าว",
+      "translation": "ปลายภาคต้องพรีเซนต์งาน",
+      "chunks": [
+        "期末要做做汇报。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L05-C044",
+      "legacyId": "U12-L05-C044",
+      "position": 4,
+      "script": "分工合作吧。",
+      "pronunciation": "fēn gōng hé zuò ba.",
+      "phonetic": "เฟิน กง เหอ จั้ว ปะ",
+      "translation": "แบ่งงานกันทำเถอะ",
+      "chunks": [
+        "分工合作吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L05-C045",
+      "legacyId": "U12-L05-C045",
+      "position": 5,
+      "script": "还要做 PPT。",
+      "pronunciation": "hái yào zuò P P T.",
+      "phonetic": "หาย ย้าว จั้ว พีพีที",
+      "translation": "ยังต้องทำสไลด์พรีเซนต์อีก",
+      "chunks": [
+        "还要做 PPT。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L05-C046",
+      "legacyId": "U12-L05-C046",
+      "position": 6,
+      "script": "我的项目卡住了。",
+      "pronunciation": "wǒ de xiàng mù qiǎ zhù le.",
+      "phonetic": "หวั่ว เตอะ เสี้ยง มู่ ฉี่ จู้ เลอะ",
+      "translation": "โปรเจกต์ของฉันติดขัดไปต่อไม่ได้",
+      "chunks": [
+        "我的项目卡住了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L05-C047",
+      "legacyId": "U12-L05-C047",
+      "position": 7,
+      "script": "查了很多文献。",
+      "pronunciation": "chá le hěn duō wén xiàn.",
+      "phonetic": "ฉา เลอะ หิ่น ตัว เวน เสี้ยน",
+      "translation": "ค้นคว้าเอกสารอ้างอิงเยอะมาก",
+      "chunks": [
+        "查了很多文献。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L05-C048",
+      "legacyId": "U12-L05-C048",
+      "position": 8,
+      "script": "小组会议几点开始？",
+      "pronunciation": "xiǎo zǔ huì yì jǐ diǎn kāi shǐ?",
+      "phonetic": "เสียว จู่ ฮุ่ย อี้ จี๋ เติ๋ยน ไค สื่อ",
+      "translation": "ประชุมกลุ่มเริ่มกี่โมง",
+      "chunks": [
+        "小组会议几点开始？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L05-C049",
+      "legacyId": "U12-L05-C049",
+      "position": 9,
+      "script": "他没出多少力。",
+      "pronunciation": "tā méi chū duō shǎo lì.",
+      "phonetic": "ทา เหมย ชู ตัว เส่า ลี่",
+      "translation": "เขาไม่ค่อยช่วยงานเลย",
+      "chunks": [
+        "他没出多少力。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U12-L05-C050",
+      "legacyId": "U12-L05-C050",
+      "position": 10,
+      "script": "早八有课。",
+      "pronunciation": "zǎo bā yǒu kè.",
+      "phonetic": "จ่าว ปา โหย่ว เค่อ",
+      "translation": "มีเรียนตอนแปดโมงเช้า",
+      "chunks": [
+        "早八有课。"
+      ]
+    }
+  ]
+}

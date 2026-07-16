@@ -1,0 +1,127 @@
+{
+  "id": "U02-L08",
+  "number": 8,
+  "title": "ฉันวางแผนจะไปเรียนต่อที่ประเทศจีน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L08-C071",
+      "legacyId": "U02-L08-C071",
+      "position": 1,
+      "script": "我打算去中国留学。",
+      "pronunciation": "wǒ dǎ suàn qù zhōng guó liú xué.",
+      "phonetic": "หว่อ ต๋า ส้วน ชวี่ จง ก๋ัว หลิว เสวี่ย.",
+      "translation": "ฉันวางแผนจะไปเรียนต่อที่ประเทศจีน",
+      "chunks": [
+        "我打算去中国留学。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L08-C072",
+      "legacyId": "U02-L08-C072",
+      "position": 2,
+      "script": "我喜欢中国菜。",
+      "pronunciation": "wǒ xǐ huan zhōng guó cài.",
+      "phonetic": "หว่อ สี่ หวน จง ก๋ัว ไช้.",
+      "translation": "ฉันชอบอาหารจีน",
+      "chunks": [
+        "我喜欢中国菜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L08-C073",
+      "legacyId": "U02-L08-C073",
+      "position": 3,
+      "script": "你在中国哪个城市？",
+      "pronunciation": "nǐ zài zhōng guó nǎ gè chéng shì?",
+      "phonetic": "หนี่ ไซ้ จง ก๋ัว หน่า เก้อ เฉิง สื้อ?",
+      "translation": "คุณอยู่เมืองไหนของประเทศจีน",
+      "chunks": [
+        "你在中国哪个城市？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L08-C074",
+      "legacyId": "U02-L08-C074",
+      "position": 4,
+      "script": "我住在北京。",
+      "pronunciation": "wǒ zhù zài běi jīng.",
+      "phonetic": "หว่อ จู้ ไซ้ เป่ย จิง.",
+      "translation": "ฉันอาศัยอยู่ที่ปักกิ่ง",
+      "chunks": [
+        "我住在北京。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L08-C075",
+      "legacyId": "U02-L08-C075",
+      "position": 5,
+      "script": "你经常去中国吗？",
+      "pronunciation": "nǐ jīng cháng qù zhōng guó ma?",
+      "phonetic": "หนี่ จิง ฉาง ชวี่ จง ก๋ัว มะ?",
+      "translation": "คุณไปประเทศจีนบ่อยไหม",
+      "chunks": [
+        "你经常去中国吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L08-C076",
+      "legacyId": "U02-L08-C076",
+      "position": 6,
+      "script": "我每年去一次中国。",
+      "pronunciation": "wǒ měi nián qù yí cì zhōng guó.",
+      "phonetic": "หว่อ เหม่ย เหนียน ชวี่ อี๋ ซี่ จง ก๋ัว.",
+      "translation": "ฉันไปประเทศจีนปีละครั้ง",
+      "chunks": [
+        "我每年去一次中国。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L08-C077",
+      "legacyId": "U02-L08-C077",
+      "position": 7,
+      "script": "我想提高我的口语水平。",
+      "pronunciation": "wǒ xiǎng tí gāo wǒ de kǒu yǔ shuǐ píng.",
+      "phonetic": "หว่อ แฉี่ยง ถี เกา หว่อ เตอ โข่ว อวี่ สุ่ย ผิง.",
+      "translation": "ฉันอยากจะพัฒนา ระดับการพูดของฉัน",
+      "chunks": [
+        "我想提高我的口语水平。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L08-C078",
+      "legacyId": "U02-L08-C078",
+      "position": 8,
+      "script": "我们可以做朋友吗？",
+      "pronunciation": "wǒ men kě yǐ zuò péng you ma?",
+      "phonetic": "หว่อ เมิน เขอ อี่ จั่ว เผิง โย่ว มะ?",
+      "translation": "พวกเราเป็นเพื่อนกันได้ไหม",
+      "chunks": [
+        "我们可以做朋友吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L08-C079",
+      "legacyId": "U02-L08-C079",
+      "position": 9,
+      "script": "加个微信吧。",
+      "pronunciation": "jiā gè wēi xìn ba.",
+      "phonetic": "เจีย เก้อ เวย ซิ้น ปะ.",
+      "translation": "แอดวีแชทกันหน่อยสิ",
+      "chunks": [
+        "加个微信吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L08-C080",
+      "legacyId": "U02-L08-C080",
+      "position": 10,
+      "script": "以后多联系。",
+      "pronunciation": "yǐ hòu duō lián xì.",
+      "phonetic": "อี่ โห่ว ตัว เหลียน ซี่.",
+      "translation": "วันหลังติดต่อกันบ่อยๆ นะ",
+      "chunks": [
+        "以后多联系。"
+      ]
+    }
+  ]
+}

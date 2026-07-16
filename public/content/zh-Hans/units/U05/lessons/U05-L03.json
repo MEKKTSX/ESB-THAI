@@ -1,0 +1,127 @@
+{
+  "id": "U05-L03",
+  "number": 3,
+  "title": "ฉันกินอาหารทะเลไม่ได้",
+  "chunks": [
+    {
+      "id": "zh-Hans:U05-L03-C021",
+      "legacyId": "U05-L03-C021",
+      "position": 1,
+      "script": "我不能吃海鲜。",
+      "pronunciation": "wǒ bù néng chī hǎi xiān.",
+      "phonetic": "หว่อ ปู้ เหนิง ชือ ไห่ เซียน.",
+      "translation": "ฉันกินอาหารทะเลไม่ได้",
+      "chunks": [
+        "我不能吃海鲜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L03-C022",
+      "legacyId": "U05-L03-C022",
+      "position": 2,
+      "script": "我对花生过敏。",
+      "pronunciation": "wǒ duì huā shēng guò mǐn.",
+      "phonetic": "หว่อ ตุ้ย ฮวา เซิง กั้ว หมิ่น.",
+      "translation": "ฉันแพ้ถั่วลิสง",
+      "chunks": [
+        "我对花生过敏。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L03-C023",
+      "legacyId": "U05-L03-C023",
+      "position": 3,
+      "script": "请不要放味精。",
+      "pronunciation": "qǐng bú yào fàng wèi jīng.",
+      "phonetic": "ฉิ่ง ปู๋ เย้า ฟ้าง เว่ย จิง.",
+      "translation": "กรุณาอย่าใส่ผงชูรส",
+      "chunks": [
+        "请不要放味精。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L03-C024",
+      "legacyId": "U05-L03-C024",
+      "position": 4,
+      "script": "我不吃牛肉。",
+      "pronunciation": "wǒ bù chī niú ròu.",
+      "phonetic": "หว่อ ปู้ ชือ หนิว โย่ว.",
+      "translation": "ฉันไม่กินเนื้อวัว",
+      "chunks": [
+        "我不吃牛肉。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L03-C025",
+      "legacyId": "U05-L03-C025",
+      "position": 5,
+      "script": "这个要等多久？",
+      "pronunciation": "zhè ge yào děng duō jiǔ?",
+      "phonetic": "เจ้อ เกอ เย้า เติ๋ง ตัว จิ่ว?",
+      "translation": "จานนี้ต้องรอนานเท่าไหร่",
+      "chunks": [
+        "这个要等多久？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L03-C026",
+      "legacyId": "U05-L03-C026",
+      "position": 6,
+      "script": "请少放点儿盐。",
+      "pronunciation": "qǐng shǎo fàng diǎnr yán.",
+      "phonetic": "ฉิ่ง เส่า ฟ้าง เดี๋ยร์ แหยน.",
+      "translation": "กรุณาใส่เกลือน้อยหน่อยนะ",
+      "chunks": [
+        "请少放点儿盐。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L03-C027",
+      "legacyId": "U05-L03-C027",
+      "position": 7,
+      "script": "我想喝杯热茶。",
+      "pronunciation": "wǒ xiǎng hē bēi rè chá.",
+      "phonetic": "หว่อ แฉี่ยง เฮอ เปย เร่อ ฉา.",
+      "translation": "ฉันอยากดื่มชาเขียวร้อนสักแก้ว",
+      "chunks": [
+        "我想喝杯热茶。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L03-C028",
+      "legacyId": "U05-L03-C028",
+      "position": 8,
+      "script": "可以给我加点儿水吗？",
+      "pronunciation": "kě yǐ gěi wǒ jiā diǎnr shuǐ ma?",
+      "phonetic": "เขอ อี่ เก๋ย หว่อ เจีย เดี๋ยร์ สุ่ย มะ?",
+      "translation": "ช่วยเติมน้ำให้ฉันหน่อยได้ไหม",
+      "chunks": [
+        "可以给我加点儿水吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L03-C029",
+      "legacyId": "U05-L03-C029",
+      "position": 9,
+      "script": "这个菜有点儿甜。",
+      "pronunciation": "zhè ge cài yǒu diǎnr tián.",
+      "phonetic": "เจ้อ เกอ ไช้ โหย่ว เดี๋ยร์ เถียน.",
+      "translation": "กับข้าวจานนี้หวานไปนิดนึง",
+      "chunks": [
+        "这个菜有点儿甜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U05-L03-C030",
+      "legacyId": "U05-L03-C030",
+      "position": 10,
+      "script": "有素食菜单吗？",
+      "pronunciation": "yǒu sù shí cài dān ma?",
+      "phonetic": "โหย่ว ซู่ สื้อ ไช้ ตาน มะ?",
+      "translation": "มีเมนูอาหารมังสวิรัติไหม",
+      "chunks": [
+        "有素食菜单吗？"
+      ]
+    }
+  ]
+}

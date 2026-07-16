@@ -1,0 +1,68 @@
+{
+  "id": "session-2-2",
+  "number": 4,
+  "title": "Session 2.2: Output & Fluency Patterns",
+  "description": "English sentence practice",
+  "lessons": [
+    {
+      "id": "A22",
+      "number": 1,
+      "title": "A. Clarifying & Confirming",
+      "chunkCount": 20
+    },
+    {
+      "id": "B22",
+      "number": 2,
+      "title": "B. Stalling & Buying Time",
+      "chunkCount": 15
+    },
+    {
+      "id": "C22",
+      "number": 3,
+      "title": "C. Transition Phrases",
+      "chunkCount": 20
+    },
+    {
+      "id": "D22",
+      "number": 4,
+      "title": "D. Making & Responding to Requests",
+      "chunkCount": 20
+    },
+    {
+      "id": "E22",
+      "number": 5,
+      "title": "E. Agreeing & Disagreeing Politely",
+      "chunkCount": 20
+    },
+    {
+      "id": "F22",
+      "number": 6,
+      "title": "F. Describing Processes & Steps",
+      "chunkCount": 15
+    },
+    {
+      "id": "G22",
+      "number": 7,
+      "title": "G. Giving & Responding to News",
+      "chunkCount": 20
+    },
+    {
+      "id": "H22",
+      "number": 8,
+      "title": "H. Small Talk Extenders",
+      "chunkCount": 15
+    },
+    {
+      "id": "I22",
+      "number": 9,
+      "title": "I. Apologizing & Explaining",
+      "chunkCount": 20
+    },
+    {
+      "id": "J22",
+      "number": 10,
+      "title": "J. Ending Conversations Naturally",
+      "chunkCount": 15
+    }
+  ]
+}

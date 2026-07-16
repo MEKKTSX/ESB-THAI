@@ -1,0 +1,198 @@
+{
+  "id": "O2",
+  "number": 15,
+  "title": "O. Technology & Online Life",
+  "chunks": [
+    {
+      "id": "en:session-2:O2:1",
+      "legacyId": "O2-0",
+      "position": 1,
+      "script": "My computer crashed while I was saving the file.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คอมฉันค้างตอนกำลังเซฟไฟล์",
+      "chunks": [
+        "My computer crashed",
+        "while I was saving the file."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:2",
+      "legacyId": "O2-1",
+      "position": 2,
+      "script": "I accidentally deleted the photos.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเผลอลบรูปไปโดยไม่ได้ตั้งใจ",
+      "chunks": [
+        "I accidentally deleted the photos."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:3",
+      "legacyId": "O2-2",
+      "position": 3,
+      "script": "I can’t log in because I forgot my password.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเข้าสู่ระบบไม่ได้เพราะลืมรหัส",
+      "chunks": [
+        "I can’t log",
+        "in",
+        "because I forgot my password."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:4",
+      "legacyId": "O2-3",
+      "position": 4,
+      "script": "You need to update the software to fix the bug.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณต้องอัปเดตซอฟต์แวร์เพื่อแก้บั๊ก",
+      "chunks": [
+        "You need",
+        "to update the software",
+        "to fix the bug."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:5",
+      "legacyId": "O2-4",
+      "position": 5,
+      "script": "Have you backed up your data?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณสำรองข้อมูลหรือยัง?",
+      "chunks": [
+        "Have you backed up your data?"
+      ]
+    },
+    {
+      "id": "en:session-2:O2:6",
+      "legacyId": "O2-5",
+      "position": 6,
+      "script": "The Wi-Fi signal is very weak in this room.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สัญญาณไวไฟในห้องนี้อ่อนมาก",
+      "chunks": [
+        "The Wi-Fi signal is very weak",
+        "in this room."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:7",
+      "legacyId": "O2-6",
+      "position": 7,
+      "script": "I spend too much time scrolling through social media.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันใช้เวลาไถโซเชียลมากเกินไป",
+      "chunks": [
+        "I spend too much time scrolling through social media."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:8",
+      "legacyId": "O2-7",
+      "position": 8,
+      "script": "I saw your post on Facebook yesterday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเห็นโพสต์เฟซบุ๊กคุณเมื่อวาน",
+      "chunks": [
+        "I saw your post",
+        "on Facebook yesterday."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:9",
+      "legacyId": "O2-8",
+      "position": 9,
+      "script": "Did you see the video that went viral?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเห็นวิดีโอที่เป็นไวรัลไหม?",
+      "chunks": [
+        "Did you see the video",
+        "that went viral?"
+      ]
+    },
+    {
+      "id": "en:session-2:O2:10",
+      "legacyId": "O2-9",
+      "position": 10,
+      "script": "I usually shop online because it’s convenient.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปกติฉันช้อปออนไลน์เพราะมันสะดวก",
+      "chunks": [
+        "I usually shop online",
+        "because it’s convenient."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:11",
+      "legacyId": "O2-10",
+      "position": 11,
+      "script": "I downloaded the app, but it doesn't work.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันโหลดแอปมาแล้ว แต่มันใช้ไม่ได้",
+      "chunks": [
+        "I downloaded the app,",
+        "but it doesn't work."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:12",
+      "legacyId": "O2-11",
+      "position": 12,
+      "script": "I unsubscribed from the newsletter.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกดยกเลิกรับข่าวสารทางอีเมลแล้ว",
+      "chunks": [
+        "I unsubscribed from the newsletter."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:13",
+      "legacyId": "O2-12",
+      "position": 13,
+      "script": "Please mute your microphone during the call.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยปิดไมค์ระหว่างโทรด้วยครับ",
+      "chunks": [
+        "Please mute your microphone during the call."
+      ]
+    },
+    {
+      "id": "en:session-2:O2:14",
+      "legacyId": "O2-13",
+      "position": 14,
+      "script": "Can you share your screen with us?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยแชร์หน้าจอให้ดูหน่อยได้ไหม?",
+      "chunks": [
+        "Can you share your screen",
+        "with us?"
+      ]
+    },
+    {
+      "id": "en:session-2:O2:15",
+      "legacyId": "O2-14",
+      "position": 15,
+      "script": "The video is buffering.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วิดีโอมันกำลังหมุนติ้วๆ (โหลดไม่ทัน)",
+      "chunks": [
+        "The video is buffering."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U09-L04",
+  "number": 4,
+  "title": "ภาษาจีนไม่ค่อยยากเท่าไหร่",
+  "chunks": [
+    {
+      "id": "zh-Hans:U09-L04-C031",
+      "legacyId": "U09-L04-C031",
+      "position": 1,
+      "script": "汉语不太难。",
+      "pronunciation": "hàn yǔ bú tai nán.",
+      "phonetic": "ฮั่น อวี่ บู๋ ไท่ นาน.",
+      "translation": "ภาษาจีนไม่ค่อยยากเท่าไหร่",
+      "chunks": [
+        "汉语不太难。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L04-C032",
+      "legacyId": "U09-L04-C032",
+      "position": 2,
+      "script": "这道题很简单。",
+      "pronunciation": "zhè dào tí hěn jiǎn dān.",
+      "phonetic": "เจ้อ ต้าว ถี เห่น เจี่ยน ตาน.",
+      "translation": "โจทย์ข้อนี้ง่ายมาก",
+      "chunks": [
+        "这道题很简单。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L04-C033",
+      "legacyId": "U09-L04-C033",
+      "position": 3,
+      "script": "对我来说，写汉字是最难的。",
+      "pronunciation": "duì wǒ lái shuō, xiě hàn zì shì zuì nán de.",
+      "phonetic": "ตุ้ย หว่อ ไหล ซัว, เสี่ย ฮั่น จื้อ สื้อ จุ้ย นาน เตอ.",
+      "translation": "สำหรับฉันแล้ว การเขียนตัวอักษรจีนเป็นสิ่งที่ยากที่สุด",
+      "chunks": [
+        "对我来说，写汉字是最难的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L04-C034",
+      "legacyId": "U09-L04-C034",
+      "position": 4,
+      "script": "只要掌握了方法，其实挺容易的。",
+      "pronunciation": "zhǐ yào zhǎng wò le fāng fǎ, qí shí tǐng róng yì de.",
+      "phonetic": "จื่อ เย้า จั่ง ว้อ เลอ ฟาง ฝ่า, ฉี สื้อ ถิ่ง รง อิ เตอ.",
+      "translation": "ขอแค่จับเคล็ดลับวิธีได้ จริงๆ มันก็ง่ายทีเดียวนะ",
+      "chunks": [
+        "只要掌握了方法，其实挺容易的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L04-C035",
+      "legacyId": "U09-L04-C035",
+      "position": 5,
+      "script": "汉字真难写，但我不会放弃。",
+      "pronunciation": "hàn zì zhēn nán xiě, dàn wǒ bú huì fàng qì.",
+      "phonetic": "ฮั่น จื้อ เจิน นาน เสี่ย, ต้าน หว่อ บู๋ ฮุ่ย ฟ้าง ชี่.",
+      "translation": "ตัวอักษรจีนยากจริงๆ แต่ฉันไม่ถอดใจหรอก",
+      "chunks": [
+        "汉字真难写，但我不会放弃。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L04-C036",
+      "legacyId": "U09-L04-C036",
+      "position": 6,
+      "script": "没想到这道题这么容易。",
+      "pronunciation": "méi xiǎng dào zhè dào tí zhè me róng yì.",
+      "phonetic": "เหมย แฉี่ยง ต้าว เจ้อ ต้าว ถี เจ้อ เมอ รง อิ.",
+      "translation": "คิดไม่ถึงเลยว่าโจทย์ข้อนี้จะง่ายขนาดนี้",
+      "chunks": [
+        "没想到这道题这么容易。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L04-C037",
+      "legacyId": "U09-L04-C037",
+      "position": 7,
+      "script": "高级数学对我来说简直就是天书。",
+      "pronunciation": "gāo jí shù xué duì wǒ lái shuō jiǎn zhí jiù shì tiān shū.",
+      "phonetic": "เกา จี้ สู่ เสวี่ย ตุ้ย หว่อ ไหล ซัว เจี่ยน จื๋อ จิ้ว สื้อ เทียน ซู.",
+      "translation": "คณิตศาสตร์ระดับสูงสำหรับฉันเนี่ย มันเหมือนคัมภีร์เทวดาอ่านไม่รู้เรื่องเลย",
+      "chunks": [
+        "高级数学对我来说简直就是天书。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L04-C038",
+      "legacyId": "U09-L04-C038",
+      "position": 8,
+      "script": "这软件用起来挺死板的，一点都不灵活。",
+      "pronunciation": "zhè ruǎn jiàn yòng qǐ lái tǐng sǐ bǎn de, yì diǎn dōu bù líng huó.",
+      "phonetic": "เจ้อ ร่วน เจี้ยน ย่ง ฉี่ ไหล ถิ่ง สื่อ ป่าน เตอ, อี้ เตี่ยน โตว ปู้ หลิง หวอ.",
+      "translation": "แอปนี้ระบบมันค่อนข้างทื่อตายตัว ไม่มีความยืดหยุ่นเลยสักนิด",
+      "chunks": [
+        "这软件用起来挺死板的，一点都不灵活。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L04-C039",
+      "legacyId": "U09-L04-C039",
+      "position": 9,
+      "script": "这个软件操作起来非常简单省事。",
+      "pronunciation": "zhè gè ruǎn jiàn cāo zuò qǐ lái fēi cháng jiǎn dān shěng shì.",
+      "phonetic": "เจ้อ เก้อ ร่วน เจี้ยน เชา จั้ว ฉี่ ไหล เฟย ฉาง เจี่ยน ตาน สึ่ง สื้อ.",
+      "translation": "แอปพลิเคชันนี้ใช้งานง่ายและประหยัดเวลามาก",
+      "chunks": [
+        "这个软件操作起来非常简单省事。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L04-C040",
+      "legacyId": "U09-L04-C040",
+      "position": 10,
+      "script": "只要多练习，听力就会变容易。",
+      "pronunciation": "zhǐ yào duō liàn xí, tīng lì jiù huì biàn róng yì.",
+      "phonetic": "จื่อ เย้า ตัว เลี่ยน ซี่, ทิง ลี่ จิ้ว ฮุ่ย เปี้ยน รง อิ.",
+      "translation": "ขอแค่ฝึกฝนเยอะๆ การฟังก็จะง่ายขึ้นเอง",
+      "chunks": [
+        "只要多练习，听力就会变容易。"
+      ]
+    }
+  ]
+}

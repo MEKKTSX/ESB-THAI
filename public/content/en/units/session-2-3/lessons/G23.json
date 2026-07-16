@@ -1,0 +1,283 @@
+{
+  "id": "G23",
+  "number": 7,
+  "title": "G. LinkedIn / Email สมัครงาน & Cover Letter",
+  "chunks": [
+    {
+      "id": "en:session-2-3:G23:1",
+      "legacyId": "G23-0",
+      "position": 1,
+      "script": "I am writing to express my interest in the junior data scientist position.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉัน/ผมเขียนมาเพื่อแสดงความสนใจในตำแหน่ง junior data scientist",
+      "chunks": [
+        "I am writing",
+        "to express my interest",
+        "in the junior data scientist position."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:2",
+      "legacyId": "G23-1",
+      "position": 2,
+      "script": "I believe my skills and experience make me a strong candidate for this role.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เชื่อว่าทักษะและประสบการณ์ของดิฉัน/ผมทำให้เป็นผู้สมัครที่เหมาะสมสำหรับตำแหน่งนี้",
+      "chunks": [
+        "I believe my skills",
+        "and experience make me a strong candidate",
+        "for this role."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:3",
+      "legacyId": "G23-2",
+      "position": 3,
+      "script": "I have hands-on experience with Python, data analysis, and machine learning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉัน/ผมมีประสบการณ์ลงมือทำจริงด้าน Python, data analysis และ machine learning",
+      "chunks": [
+        "I have hands-on experience",
+        "with Python,",
+        "data analysis,",
+        "and machine learning."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:4",
+      "legacyId": "G23-3",
+      "position": 4,
+      "script": "I am a highly motivated and detail-oriented individual.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉัน/ผมเป็นคนที่มีแรงจูงใจสูงและใส่ใจในรายละเอียด",
+      "chunks": [
+        "I am a highly motivated",
+        "and detail-oriented individual."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:5",
+      "legacyId": "G23-4",
+      "position": 5,
+      "script": "I am currently pursuing a degree in AI engineering and data science.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปัจจุบันกำลังศึกษาระดับปริญญาด้านวิศวกรรม AI และดาต้าซายน์อยู่",
+      "chunks": [
+        "I am currently pursuing a degree",
+        "in AI engineering",
+        "and data science."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:6",
+      "legacyId": "G23-5",
+      "position": 6,
+      "script": "I would welcome the opportunity to discuss how I can contribute to your team.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยินดีมากถ้าจะมีโอกาสได้คุยว่าจะช่วยอะไรทีมของคุณได้บ้าง",
+      "chunks": [
+        "I would welcome the opportunity",
+        "to discuss how I can contribute",
+        "to your team."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:7",
+      "legacyId": "G23-6",
+      "position": 7,
+      "script": "Please find my CV and portfolio attached to this email.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โปรดดู CV และ portfolio ของดิฉัน/ผมที่แนบมากับอีเมลนี้",
+      "chunks": [
+        "Please find my CV",
+        "and portfolio attached",
+        "to this email."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:8",
+      "legacyId": "G23-7",
+      "position": 8,
+      "script": "I look forward to the possibility of working with your team.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หวังเป็นอย่างยิ่งว่าจะมีโอกาสได้ทำงานร่วมกับทีมของคุณ",
+      "chunks": [
+        "I look forward",
+        "to the possibility of working",
+        "with your team."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:9",
+      "legacyId": "G23-8",
+      "position": 9,
+      "script": "I am available for an interview at your earliest convenience.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉัน/ผมพร้อมสำหรับการสัมภาษณ์เมื่อคุณสะดวก",
+      "chunks": [
+        "I am available",
+        "for an interview",
+        "at your earliest convenience."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:10",
+      "legacyId": "G23-9",
+      "position": 10,
+      "script": "Thank you for considering my application.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอบคุณที่พิจารณาการสมัครของดิฉัน/ผม",
+      "chunks": [
+        "Thank you",
+        "for considering my application."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:11",
+      "legacyId": "G23-10",
+      "position": 11,
+      "script": "I wanted to follow up on my application submitted last week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากติดตามผลใบสมัครที่ส่งไปอาทิตย์ที่แล้วครับ/ค่ะ",
+      "chunks": [
+        "I wanted",
+        "to follow up",
+        "on my application submitted last week."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:12",
+      "legacyId": "G23-11",
+      "position": 12,
+      "script": "Could you let me know the status of my application?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยแจ้งสถานะของใบสมัครของดิฉัน/ผมได้ไหมครับ/ค่ะ?",
+      "chunks": [
+        "Could you let me know the status of my application?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:13",
+      "legacyId": "G23-12",
+      "position": 13,
+      "script": "I have attached my updated resume as requested.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉัน/ผมแนบ resume ที่อัปเดตแล้วมาตามที่ขอไว้",
+      "chunks": [
+        "I have attached my updated resume as requested."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:14",
+      "legacyId": "G23-13",
+      "position": 14,
+      "script": "I am excited about the opportunity to grow with your company.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตื่นเต้นมากกับโอกาสที่จะเติบโตไปพร้อมกับบริษัทของคุณ",
+      "chunks": [
+        "I am excited",
+        "about the opportunity",
+        "to grow",
+        "with your company."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:15",
+      "legacyId": "G23-14",
+      "position": 15,
+      "script": "My long-term goal is to contribute to impactful AI projects in the healthcare sector.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป้าหมายระยะยาวของดิฉัน/ผมคือการมีส่วนร่วมในโปรเจกต์ AI ที่สร้างผลกระทบในด้านสาธารณสุข",
+      "chunks": [
+        "My long-term goal is",
+        "to contribute",
+        "to impactful AI projects",
+        "in the healthcare sector."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:16",
+      "legacyId": "G23-15",
+      "position": 16,
+      "script": "I am a quick learner and I thrive in fast-paced environments.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉัน/ผมเรียนรู้ได้เร็วและทำงานได้ดีในสภาพแวดล้อมที่เร็วและมีความท้าทาย",
+      "chunks": [
+        "I am a quick learner",
+        "and I thrive",
+        "in fast-paced environments."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:17",
+      "legacyId": "G23-16",
+      "position": 17,
+      "script": "I have experience leading a team of four on a six-month data project.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดิฉัน/ผมมีประสบการณ์นำทีมสี่คนในโปรเจกต์ข้อมูลระยะหกเดือน",
+      "chunks": [
+        "I have experience leading a team of four",
+        "on a six-month data project."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:18",
+      "legacyId": "G23-17",
+      "position": 18,
+      "script": "I would love to learn more about the role and the team culture.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยากรู้เพิ่มเติมเกี่ยวกับตำแหน่งนี้และวัฒนธรรมของทีม",
+      "chunks": [
+        "I would love",
+        "to learn more",
+        "about the role",
+        "and the team culture."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:19",
+      "legacyId": "G23-18",
+      "position": 19,
+      "script": "My strongest skills are in Python programming and data visualization.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทักษะที่แข็งแกร่งที่สุดของดิฉัน/ผมคือการเขียนโปรแกรม Python และ data visualization",
+      "chunks": [
+        "My strongest skills are",
+        "in Python programming",
+        "and data visualization."
+      ]
+    },
+    {
+      "id": "en:session-2-3:G23:20",
+      "legacyId": "G23-19",
+      "position": 20,
+      "script": "I look forward to hearing from you regarding next steps.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หวังว่าจะได้รับการติดต่อเรื่องขั้นตอนต่อไปจากคุณ",
+      "chunks": [
+        "I look forward",
+        "to hearing from you regarding next steps."
+      ]
+    }
+  ]
+}

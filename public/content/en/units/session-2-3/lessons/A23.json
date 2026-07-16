@@ -1,0 +1,276 @@
+{
+  "id": "A23",
+  "number": 1,
+  "title": "A. AI & Data Science — อธิบายงานให้คนอื่นฟัง",
+  "chunks": [
+    {
+      "id": "en:session-2-3:A23:1",
+      "legacyId": "A23-0",
+      "position": 1,
+      "script": "I'm studying AI engineering and data science at university.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเรียนวิศวกรรม AI กับดาต้าซายน์อยู่ที่มหาวิทยาลัย",
+      "chunks": [
+        "I'm studying AI engineering",
+        "and data science",
+        "at university."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:2",
+      "legacyId": "A23-1",
+      "position": 2,
+      "script": "Basically, machine learning is teaching computers to learn from data.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โดยพื้นฐานแล้ว machine learning ก็คือการสอนคอมพิวเตอร์ให้เรียนรู้จากข้อมูล",
+      "chunks": [
+        "Basically,",
+        "machine learning is teaching computers",
+        "to learn from data."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:3",
+      "legacyId": "A23-2",
+      "position": 3,
+      "script": "The model I built can predict outcomes based on historical data.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โมเดลที่ฉันสร้างสามารถพยากรณ์ผลลัพธ์จากข้อมูลในอดีตได้",
+      "chunks": [
+        "The model I built can predict outcomes based",
+        "on historical data."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:4",
+      "legacyId": "A23-3",
+      "position": 4,
+      "script": "I'm currently working on a project that uses deep learning for image classification.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนนี้ฉันทำโปรเจกต์ที่ใช้ deep learning สำหรับแยกประเภทรูปภาพอยู่",
+      "chunks": [
+        "I'm currently working",
+        "on a project",
+        "that uses deep learning",
+        "for image classification."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:5",
+      "legacyId": "A23-4",
+      "position": 5,
+      "script": "To put it simply, overfitting means the model memorized the training data too well.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดง่ายๆ ก็คือ overfitting หมายความว่าโมเดลจำข้อมูลเทรนได้ดีเกินไป",
+      "chunks": [
+        "To put it simply,",
+        "overfitting means the model memorized the training data too well."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:6",
+      "legacyId": "A23-5",
+      "position": 6,
+      "script": "I used Python and scikit-learn to build the classification model.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันใช้ Python กับ scikit-learn ในการสร้างโมเดลจำแนกประเภท",
+      "chunks": [
+        "I used Python",
+        "and scikit-learn",
+        "to build the classification model."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:7",
+      "legacyId": "A23-6",
+      "position": 7,
+      "script": "The accuracy of the model is around 92 percent on the test set.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ความแม่นยำของโมเดลอยู่ที่ประมาณ 92 เปอร์เซ็นต์บน test set",
+      "chunks": [
+        "The accuracy of the model is around 92 percent",
+        "on the test set."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:8",
+      "legacyId": "A23-7",
+      "position": 8,
+      "script": "I'm still learning, but I find this field really fascinating.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันยังคงเรียนรู้อยู่ แต่รู้สึกว่าสาขานี้น่าสนใจมากจริงๆ",
+      "chunks": [
+        "I'm still learning,",
+        "but I find this field really fascinating."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:9",
+      "legacyId": "A23-8",
+      "position": 9,
+      "script": "Could you explain what you mean by neural network?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยอธิบายหน่อยได้ไหมว่า neural network หมายความว่าอะไร?",
+      "chunks": [
+        "Could you explain what you mean by neural network?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:10",
+      "legacyId": "A23-9",
+      "position": 10,
+      "script": "I'm preparing a presentation on the applications of NLP in healthcare.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังเตรียม presentation เรื่องการประยุกต์ใช้ NLP ในการแพทย์อยู่",
+      "chunks": [
+        "I'm preparing a presentation",
+        "on the applications of NLP",
+        "in healthcare."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:11",
+      "legacyId": "A23-10",
+      "position": 11,
+      "script": "My thesis focuses on using computer vision to detect abnormalities in medical images.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วิทยานิพนธ์ของฉันเน้นการใช้ computer vision ตรวจหาความผิดปกติในภาพทางการแพทย์",
+      "chunks": [
+        "My thesis focuses",
+        "on using computer vision",
+        "to detect abnormalities",
+        "in medical images."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:12",
+      "legacyId": "A23-11",
+      "position": 12,
+      "script": "I'm looking for an internship in AI or data analytics.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังหาอินเทิร์นในสาย AI หรือ data analytics อยู่",
+      "chunks": [
+        "I'm looking",
+        "for an internship",
+        "in AI",
+        "or data analytics."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:13",
+      "legacyId": "A23-12",
+      "position": 13,
+      "script": "The biggest challenge was cleaning and preprocessing the dataset.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ความท้าทายที่ใหญ่ที่สุดคือการทำความสะอาดและเตรียมข้อมูล",
+      "chunks": [
+        "The biggest challenge was cleaning",
+        "and preprocessing the dataset."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:14",
+      "legacyId": "A23-13",
+      "position": 14,
+      "script": "I presented my project and got some really useful feedback.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉัน present โปรเจกต์ไปและได้รับ feedback ที่มีประโยชน์มากๆ",
+      "chunks": [
+        "I presented my project",
+        "and got some really useful feedback."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:15",
+      "legacyId": "A23-14",
+      "position": 15,
+      "script": "Have you heard of large language models like GPT?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเคยได้ยินเรื่อง large language models อย่าง GPT ไหม?",
+      "chunks": [
+        "Have you heard of large language models like GPT?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:16",
+      "legacyId": "A23-15",
+      "position": 16,
+      "script": "The results suggest that the second approach performs significantly better.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผลลัพธ์บ่งชี้ว่าแนวทางที่สองให้ประสิทธิภาพดีกว่าอย่างมีนัยสำคัญ",
+      "chunks": [
+        "The results suggest",
+        "that the second approach performs significantly better."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:17",
+      "legacyId": "A23-16",
+      "position": 17,
+      "script": "I need to evaluate the model using cross-validation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องประเมินโมเดลด้วย cross-validation",
+      "chunks": [
+        "I need",
+        "to evaluate the model using cross-validation."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:18",
+      "legacyId": "A23-17",
+      "position": 18,
+      "script": "Can you help me understand how to interpret this confusion matrix?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยฉันเข้าใจวิธีอ่าน confusion matrix นี้ได้ไหม?",
+      "chunks": [
+        "Can you help me understand how",
+        "to interpret this confusion matrix?"
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:19",
+      "legacyId": "A23-18",
+      "position": 19,
+      "script": "I think the problem might be related to imbalanced data.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันคิดว่าปัญหาอาจเกี่ยวกับข้อมูลที่ไม่สมดุล",
+      "chunks": [
+        "I think the problem might be related",
+        "to imbalanced data."
+      ]
+    },
+    {
+      "id": "en:session-2-3:A23:20",
+      "legacyId": "A23-19",
+      "position": 20,
+      "script": "My goal is to eventually work on medical AI applications.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป้าหมายของฉันคือได้ทำงานด้าน medical AI ในอนาคต",
+      "chunks": [
+        "My goal is",
+        "to eventually work",
+        "on medical AI applications."
+      ]
+    }
+  ]
+}

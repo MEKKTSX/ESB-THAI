@@ -1,0 +1,343 @@
+{
+  "id": "K",
+  "number": 11,
+  "title": "K. Reactions & Exclamations",
+  "chunks": [
+    {
+      "id": "en:session-1:K:1",
+      "legacyId": "K-0",
+      "position": 1,
+      "script": "That’s great!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ยอดเยี่ยมไปเลย!",
+      "chunks": [
+        "That’s great!"
+      ]
+    },
+    {
+      "id": "en:session-1:K:2",
+      "legacyId": "K-1",
+      "position": 2,
+      "script": "That’s good news.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ข่าวดีเลยนะนั่น",
+      "chunks": [
+        "That’s good news."
+      ]
+    },
+    {
+      "id": "en:session-1:K:3",
+      "legacyId": "K-2",
+      "position": 3,
+      "script": "That’s awesome.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เจ๋งไปเลย",
+      "chunks": [
+        "That’s awesome."
+      ]
+    },
+    {
+      "id": "en:session-1:K:4",
+      "legacyId": "K-3",
+      "position": 4,
+      "script": "That’s interesting.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "น่าสนใจแฮะ",
+      "chunks": [
+        "That’s interesting."
+      ]
+    },
+    {
+      "id": "en:session-1:K:5",
+      "legacyId": "K-4",
+      "position": 5,
+      "script": "That’s nice.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดีจังเลย",
+      "chunks": [
+        "That’s nice."
+      ]
+    },
+    {
+      "id": "en:session-1:K:6",
+      "legacyId": "K-5",
+      "position": 6,
+      "script": "That’s funny.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตลกจัง",
+      "chunks": [
+        "That’s funny."
+      ]
+    },
+    {
+      "id": "en:session-1:K:7",
+      "legacyId": "K-6",
+      "position": 7,
+      "script": "That’s weird.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แปลกจัง",
+      "chunks": [
+        "That’s weird."
+      ]
+    },
+    {
+      "id": "en:session-1:K:8",
+      "legacyId": "K-7",
+      "position": 8,
+      "script": "That’s too bad.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แย่จังเลย",
+      "chunks": [
+        "That’s too bad."
+      ]
+    },
+    {
+      "id": "en:session-1:K:9",
+      "legacyId": "K-8",
+      "position": 9,
+      "script": "That’s terrible.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เลวร้ายมาก",
+      "chunks": [
+        "That’s terrible."
+      ]
+    },
+    {
+      "id": "en:session-1:K:10",
+      "legacyId": "K-9",
+      "position": 10,
+      "script": "That’s crazy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "บ้าไปแล้ว",
+      "chunks": [
+        "That’s crazy."
+      ]
+    },
+    {
+      "id": "en:session-1:K:11",
+      "legacyId": "K-10",
+      "position": 11,
+      "script": "That’s impossible.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป็นไปไม่ได้น่า",
+      "chunks": [
+        "That’s impossible."
+      ]
+    },
+    {
+      "id": "en:session-1:K:12",
+      "legacyId": "K-11",
+      "position": 12,
+      "script": "That’s right.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถูกต้องเลย",
+      "chunks": [
+        "That’s right."
+      ]
+    },
+    {
+      "id": "en:session-1:K:13",
+      "legacyId": "K-12",
+      "position": 13,
+      "script": "That’s wrong.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผิดแล้วล่ะ",
+      "chunks": [
+        "That’s wrong."
+      ]
+    },
+    {
+      "id": "en:session-1:K:14",
+      "legacyId": "K-13",
+      "position": 14,
+      "script": "That’s enough.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พอได้แล้ว",
+      "chunks": [
+        "That’s enough."
+      ]
+    },
+    {
+      "id": "en:session-1:K:15",
+      "legacyId": "K-14",
+      "position": 15,
+      "script": "No way!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไม่มีทาง! / ไม่จริงน่า!",
+      "chunks": [
+        "No way!"
+      ]
+    },
+    {
+      "id": "en:session-1:K:16",
+      "legacyId": "K-15",
+      "position": 16,
+      "script": "Oh my god.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณพระช่วย / พระเจ้าช่วย",
+      "chunks": [
+        "Oh my god."
+      ]
+    },
+    {
+      "id": "en:session-1:K:17",
+      "legacyId": "K-16",
+      "position": 17,
+      "script": "Are you serious?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดจริงดิ? / เอาจริงเหรอ?",
+      "chunks": [
+        "Are you serious?"
+      ]
+    },
+    {
+      "id": "en:session-1:K:18",
+      "legacyId": "K-17",
+      "position": 18,
+      "script": "Are you kidding me?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ล้อเล่นป่ะเนี่ย?",
+      "chunks": [
+        "Are you kidding me?"
+      ]
+    },
+    {
+      "id": "en:session-1:K:19",
+      "legacyId": "K-18",
+      "position": 19,
+      "script": "Really?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จริงเหรอ?",
+      "chunks": [
+        "Really?"
+      ]
+    },
+    {
+      "id": "en:session-1:K:20",
+      "legacyId": "K-19",
+      "position": 20,
+      "script": "Exactly!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เป๊ะเลย / ใช่เลย!",
+      "chunks": [
+        "Exactly!"
+      ]
+    },
+    {
+      "id": "en:session-1:K:21",
+      "legacyId": "K-20",
+      "position": 21,
+      "script": "Absolutely!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แน่นอนที่สุด / ชัวร์ป้าบ",
+      "chunks": [
+        "Absolutely!"
+      ]
+    },
+    {
+      "id": "en:session-1:K:22",
+      "legacyId": "K-21",
+      "position": 22,
+      "script": "Definitely.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แน่นอน",
+      "chunks": [
+        "Definitely."
+      ]
+    },
+    {
+      "id": "en:session-1:K:23",
+      "legacyId": "K-22",
+      "position": 23,
+      "script": "Sounds good.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฟังดูดีนะ",
+      "chunks": [
+        "Sounds good."
+      ]
+    },
+    {
+      "id": "en:session-1:K:24",
+      "legacyId": "K-23",
+      "position": 24,
+      "script": "Sounds like a plan.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เอาตามแผนนี้เลย (ตกลง)",
+      "chunks": [
+        "Sounds like a plan."
+      ]
+    },
+    {
+      "id": "en:session-1:K:25",
+      "legacyId": "K-24",
+      "position": 25,
+      "script": "Good luck!",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โชคดีนะ!",
+      "chunks": [
+        "Good luck!"
+      ]
+    },
+    {
+      "id": "en:session-1:K:26",
+      "legacyId": "K-25",
+      "position": 26,
+      "script": "Take care.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดูแลตัวเองนะ",
+      "chunks": [
+        "Take care."
+      ]
+    },
+    {
+      "id": "en:session-1:K:27",
+      "legacyId": "K-26",
+      "position": 27,
+      "script": "Don't worry.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไม่ต้องกังวลนะ",
+      "chunks": [
+        "Don't worry."
+      ]
+    },
+    {
+      "id": "en:session-1:K:28",
+      "legacyId": "K-27",
+      "position": 28,
+      "script": "Never mind.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่างมันเถอะ / ไม่เป็นไร",
+      "chunks": [
+        "Never mind."
+      ]
+    }
+  ]
+}

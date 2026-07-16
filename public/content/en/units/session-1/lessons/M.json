@@ -1,0 +1,187 @@
+{
+  "id": "M",
+  "number": 13,
+  "title": "M. Bonus Series: \"I am\" & \"It is\"",
+  "chunks": [
+    {
+      "id": "en:session-1:M:1",
+      "legacyId": "M-0",
+      "position": 1,
+      "script": "I’m hungry.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหิว",
+      "chunks": [
+        "I’m hungry."
+      ]
+    },
+    {
+      "id": "en:session-1:M:2",
+      "legacyId": "M-1",
+      "position": 2,
+      "script": "I’m thirsty.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกระหายน้ำ/หิวน้ำ",
+      "chunks": [
+        "I’m thirsty."
+      ]
+    },
+    {
+      "id": "en:session-1:M:3",
+      "legacyId": "M-2",
+      "position": 3,
+      "script": "I’m full.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอิ่มแล้ว",
+      "chunks": [
+        "I’m full."
+      ]
+    },
+    {
+      "id": "en:session-1:M:4",
+      "legacyId": "M-3",
+      "position": 4,
+      "script": "I’m nervous.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันประหม่า / ตื่นเต้น(กลัว)",
+      "chunks": [
+        "I’m nervous."
+      ]
+    },
+    {
+      "id": "en:session-1:M:5",
+      "legacyId": "M-4",
+      "position": 5,
+      "script": "I’m excited.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตื่นเต้น (ดีใจ)",
+      "chunks": [
+        "I’m excited."
+      ]
+    },
+    {
+      "id": "en:session-1:M:6",
+      "legacyId": "M-5",
+      "position": 6,
+      "script": "I’m bored.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเบื่อ",
+      "chunks": [
+        "I’m bored."
+      ]
+    },
+    {
+      "id": "en:session-1:M:7",
+      "legacyId": "M-6",
+      "position": 7,
+      "script": "I’m ready.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันพร้อมแล้ว",
+      "chunks": [
+        "I’m ready."
+      ]
+    },
+    {
+      "id": "en:session-1:M:8",
+      "legacyId": "M-7",
+      "position": 8,
+      "script": "I’m sure.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมั่นใจ",
+      "chunks": [
+        "I’m sure."
+      ]
+    },
+    {
+      "id": "en:session-1:M:9",
+      "legacyId": "M-8",
+      "position": 9,
+      "script": "I’m not sure.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่แน่ใจ",
+      "chunks": [
+        "I’m not sure."
+      ]
+    },
+    {
+      "id": "en:session-1:M:10",
+      "legacyId": "M-9",
+      "position": 10,
+      "script": "It’s sunny today.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "วันนี้แดดจ้า",
+      "chunks": [
+        "It’s sunny today."
+      ]
+    },
+    {
+      "id": "en:session-1:M:11",
+      "legacyId": "M-10",
+      "position": 11,
+      "script": "It’s raining right now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนนี้ฝนตกอยู่",
+      "chunks": [
+        "It’s raining right now."
+      ]
+    },
+    {
+      "id": "en:session-1:M:12",
+      "legacyId": "M-11",
+      "position": 12,
+      "script": "It’s windy outside.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ข้างนอกลมแรง",
+      "chunks": [
+        "It’s windy outside."
+      ]
+    },
+    {
+      "id": "en:session-1:M:13",
+      "legacyId": "M-12",
+      "position": 13,
+      "script": "It’s getting dark.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เริ่มมืดแล้ว",
+      "chunks": [
+        "It’s getting dark."
+      ]
+    },
+    {
+      "id": "en:session-1:M:14",
+      "legacyId": "M-13",
+      "position": 14,
+      "script": "It’s getting late.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เริ่มดึกแล้ว / สายแล้ว",
+      "chunks": [
+        "It’s getting late."
+      ]
+    },
+    {
+      "id": "en:session-1:M:15",
+      "legacyId": "M-14",
+      "position": 15,
+      "script": "It’s almost time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เกือบถึงเวลาแล้ว",
+      "chunks": [
+        "It’s almost time."
+      ]
+    }
+  ]
+}

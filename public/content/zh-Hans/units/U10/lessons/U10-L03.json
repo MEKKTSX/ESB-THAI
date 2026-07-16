@@ -1,0 +1,127 @@
+{
+  "id": "U10-L03",
+  "number": 3,
+  "title": "ไปร้านอาหารเสฉวนใต้ตึกนั้นเป็นยังไงบ้าง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U10-L03-C021",
+      "legacyId": "U10-L03-C021",
+      "position": 1,
+      "script": "去楼下那家川菜馆怎么样？",
+      "pronunciation": "qù lóu xià nà jiā chuān cài guǎn zěn me yàng?",
+      "phonetic": "ชวี่ โหล่ว เซี่ย น้า เจีย ชวน ไช้ กวั่น เจิ่น เมอ ย่าง?",
+      "translation": "ไปร้านอาหารเสฉวนใต้ตึกนั้นเป็นยังไงบ้าง",
+      "chunks": [
+        "去楼下那家川菜馆怎么样？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L03-C022",
+      "legacyId": "U10-L03-C022",
+      "position": 2,
+      "script": "走着，现在就出发，正好我也想吃点辣的。",
+      "pronunciation": "zǒu zhe, xiàn zài jiù chū fā, zhèng hǎo wǒ yě xiǎng chī diǎn là de.",
+      "phonetic": "โจ่ว เจอะ, เซี่ยน ไซ้ จิ้ว ชู ฟา, เจิ้ง ห่าว หว่อ เยี่ย แฉี่ยง ชือ เตี่ยน ล้า เตอ.",
+      "translation": "ไปกันเลย ออกเดินทางตอนนี้แหละ ประจวบเหมาะฉันเองก็อยากกินอะไรเผ็ดๆ อยู่พอดี",
+      "chunks": [
+        "走着，现在就出发，正好我也想吃点辣的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L03-C023",
+      "legacyId": "U10-L03-C023",
+      "position": 3,
+      "script": "你在干嘛呢？发微信都不回。",
+      "pronunciation": "nǐ zài gàn má ne? fā wēi xìn dōu bù huí.",
+      "phonetic": "หนี่ ไซ้ ก้าน หมา เนอ？ ฟา เวย ซิ้น โตว ปู้ หุย.",
+      "translation": "ทำอะไรอยู่เนี่ย ทักวีแชทไปก็ไม่ตอบ",
+      "chunks": [
+        "你在干嘛呢？发微信都不回。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L03-C024",
+      "legacyId": "U10-L03-C024",
+      "position": 4,
+      "script": "刚才在开会，手机调静音了，没看到。",
+      "pronunciation": "gāng cái zài kāi huì, shǒu jī tiáo jìng yīn le, méi kàn dào.",
+      "phonetic": "กัง ฉาย ไซ้ ไค หุ่ย, โส่ว จี เถียว จิ้ง อิน เลอ, เหมย ค่าน ต้าว.",
+      "translation": "เมื่อกี้ประชุมอยู่ ตั้งสั่นปิดเสียงโทรศัพท์ไว้ เลยไม่เห็น",
+      "chunks": [
+        "刚才在开会，手机调静音了，没看到。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L03-C025",
+      "legacyId": "U10-L03-C025",
+      "position": 5,
+      "script": "这样啊，我还以为你失踪了呢，晚上有安排吗？",
+      "pronunciation": "zhè yàng a, wǒ hái yǐ wéi nǐ shī zōng le ne, wǎn shang yǒu ān pái ma?",
+      "phonetic": "เจ้อ ย่าง อา, หว่อ หาย อี่ เหวย หนี่ สือ จง เลอ เนอ, หวั่น ส่าง โหย่ว อัน ไผ มะ?",
+      "translation": "อ๋อ อย่างนี้นี่เอง ฉันนึกว่าคุณหายไปแล้วซะอีก เย็นนี้มีนัดไหม",
+      "chunks": [
+        "这样啊，我还以为你失踪了呢，晚上有安排吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L03-C026",
+      "legacyId": "U10-L03-C026",
+      "position": 6,
+      "script": "没有安排，打算回家睡觉，你要找我？",
+      "pronunciation": "méi yǒu ān pái, dǎ suàn huí jiā shuì jiào, nǐ yào zhǎo wǒ?",
+      "phonetic": "เหมย โหย่ว อัน ไผ, ต๋า ส้วน หุย เจีย ซุ่ย เจี้ยว, หนี่ เย้า เจ่า หว่อ?",
+      "translation": "ไม่มีนัดนะ วางแผนจะกลับบ้านไปนอน คุณจะนัดฉันหรอ",
+      "chunks": [
+        "没有安排，打算回家睡觉，你要找我？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L03-C027",
+      "legacyId": "U10-L03-C027",
+      "position": 7,
+      "script": "等一下下班了，一起去逛街好吗？",
+      "pronunciation": "děng yí xià xià bān le, yì qǐ qù guàng jiē hǎo ma?",
+      "phonetic": "เติ๋ง อี๋ เซี่ย เซี่ย ปาน เลอ, อี้ ฉี่ ชวี่ คว่าง เจีย ห่าว มะ?",
+      "translation": "เดี๋ยวเลิกงานแล้ว ไปเดินเล่นช็อปปิ้งด้วยกันไหม",
+      "chunks": [
+        "等一下下班了，一起去逛街好吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L03-C028",
+      "legacyId": "U10-L03-C028",
+      "position": 8,
+      "script": "今天不行，我约了医生看牙，改天吧。",
+      "pronunciation": "jīn tiān bù xíng, wǒ yuē le yī shēng kàn yá, gǎi tiān ba.",
+      "phonetic": "จิน เทียน ปู้ สิง, หว่อ ยเว่ เลอ อี เซิง ค่าน หยา, ต๋าย เทียน ปะ.",
+      "translation": "วันนี้ไม่ได้อ่ะ ฉันนัดหมอทำฟันไว้ วันหลังละกันนะ",
+      "chunks": [
+        "今天不行，我约了医生看牙，改天吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L03-C029",
+      "legacyId": "U10-L03-C029",
+      "position": 9,
+      "script": "好吧，那祝你一切顺利，下次再约。",
+      "pronunciation": "hǎo ba, nà zhù nǐ yí qiè shùn lì, xià cì zài yuē.",
+      "phonetic": "ห่าว ปะ, น้า จู้ หนี่ อี๋ เชี่ย สวิ่น ลี่, เซี่ย ซี่ ไซ้ ยเว่.",
+      "translation": "โอเค งั้นขอให้ทุกอย่างราบรื่นนะ คราวหน้าค่อยนัดกันใหม่",
+      "chunks": [
+        "好吧，那祝你一切顺利，下次再约。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L03-C030",
+      "legacyId": "U10-L03-C030",
+      "position": 10,
+      "script": "谢啦，下周我有空，到时候发微信联系。",
+      "pronunciation": "xiè la, xià zhōu wǒ yǒu kòng, dào shí hou fā wēi xìn lián xì.",
+      "phonetic": "เซี่ย ละ, เซี่ย โจว หว่อ โหย่ว ค่ง, ต้าว สือ โห่ว ฟา เวย ซิ้น เหลียน ซี่.",
+      "translation": "ขอบใจจ้า สัปดาห์หน้าฉันว่าง ถึงเวลานั้นทักวีแชทหากันนะ",
+      "chunks": [
+        "谢啦，下周我有空，到时候发微信联系。"
+      ]
+    }
+  ]
+}

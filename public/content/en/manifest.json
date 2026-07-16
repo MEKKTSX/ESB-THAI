@@ -1,0 +1,491 @@
+{
+  "languageId": "en",
+  "units": [
+    {
+      "id": "session-1",
+      "number": 1,
+      "title": "Session 1: Basic Conversations",
+      "description": "English sentence practice",
+      "lessons": [
+        {
+          "id": "A",
+          "number": 1,
+          "title": "A. Greetings & General Small Talk",
+          "chunkCount": 28
+        },
+        {
+          "id": "B",
+          "number": 2,
+          "title": "B. Daily Routines & Habits",
+          "chunkCount": 30
+        },
+        {
+          "id": "C",
+          "number": 3,
+          "title": "C. Study & Work",
+          "chunkCount": 27
+        },
+        {
+          "id": "D",
+          "number": 4,
+          "title": "D. Friends & Social Life",
+          "chunkCount": 26
+        },
+        {
+          "id": "E",
+          "number": 5,
+          "title": "E. Feelings, Opinions & Preferences",
+          "chunkCount": 28
+        },
+        {
+          "id": "F",
+          "number": 6,
+          "title": "F. Asking for & Giving Information",
+          "chunkCount": 24
+        },
+        {
+          "id": "G",
+          "number": 7,
+          "title": "G. Offers, Requests & Permission",
+          "chunkCount": 22
+        },
+        {
+          "id": "H",
+          "number": 8,
+          "title": "H. Plans & Arrangements",
+          "chunkCount": 20
+        },
+        {
+          "id": "I",
+          "number": 9,
+          "title": "I. Online, Phone & Chat",
+          "chunkCount": 19
+        },
+        {
+          "id": "J",
+          "number": 10,
+          "title": "J. Problems & Complaints",
+          "chunkCount": 22
+        },
+        {
+          "id": "K",
+          "number": 11,
+          "title": "K. Reactions & Exclamations",
+          "chunkCount": 28
+        },
+        {
+          "id": "L",
+          "number": 12,
+          "title": "L. University Life, Technology & AI",
+          "chunkCount": 26
+        },
+        {
+          "id": "M",
+          "number": 13,
+          "title": "M. Bonus Series: \"I am\" & \"It is\"",
+          "chunkCount": 15
+        }
+      ]
+    },
+    {
+      "id": "session-2",
+      "number": 2,
+      "title": "Session 2: Grammar & Patterns",
+      "description": "English sentence practice",
+      "lessons": [
+        {
+          "id": "A2",
+          "number": 1,
+          "title": "A. Past Experiences & Narratives",
+          "chunkCount": 35
+        },
+        {
+          "id": "B2",
+          "number": 2,
+          "title": "B. Continuous Actions in the Past",
+          "chunkCount": 20
+        },
+        {
+          "id": "C2",
+          "number": 3,
+          "title": "C. Life Experiences (Present Perfect)",
+          "chunkCount": 35
+        },
+        {
+          "id": "D2",
+          "number": 4,
+          "title": "D. Past Habits & Changes (Used to)",
+          "chunkCount": 20
+        },
+        {
+          "id": "E2",
+          "number": 5,
+          "title": "E. Future Plans & Intentions",
+          "chunkCount": 20
+        },
+        {
+          "id": "F2",
+          "number": 6,
+          "title": "F. Predictions & Promises (Will)",
+          "chunkCount": 20
+        },
+        {
+          "id": "G2",
+          "number": 7,
+          "title": "G. Conditions & Possibilities",
+          "chunkCount": 20
+        },
+        {
+          "id": "H2",
+          "number": 8,
+          "title": "H. Reasons, Causes & Effects",
+          "chunkCount": 20
+        },
+        {
+          "id": "I2",
+          "number": 9,
+          "title": "I. Contrasts & Concessions",
+          "chunkCount": 20
+        },
+        {
+          "id": "J2",
+          "number": 10,
+          "title": "J. Opinions, Agreements & Disagreements",
+          "chunkCount": 20
+        },
+        {
+          "id": "K2",
+          "number": 11,
+          "title": "K. Time Relationships",
+          "chunkCount": 20
+        },
+        {
+          "id": "L2",
+          "number": 12,
+          "title": "L. Problems & Suggestions",
+          "chunkCount": 20
+        },
+        {
+          "id": "M2",
+          "number": 13,
+          "title": "M. Work, Study & Formal Communication",
+          "chunkCount": 15
+        },
+        {
+          "id": "N2",
+          "number": 14,
+          "title": "N. Feelings & Personal Growth",
+          "chunkCount": 15
+        },
+        {
+          "id": "O2",
+          "number": 15,
+          "title": "O. Technology & Online Life",
+          "chunkCount": 15
+        },
+        {
+          "id": "P2",
+          "number": 16,
+          "title": "P. Polite Requests (Mind/Wonder)",
+          "chunkCount": 10
+        },
+        {
+          "id": "Q2",
+          "number": 17,
+          "title": "Q. Uncertainty & Speculation",
+          "chunkCount": 13
+        },
+        {
+          "id": "R2",
+          "number": 18,
+          "title": "R. Common \"Get\" Phrases",
+          "chunkCount": 12
+        },
+        {
+          "id": "S2",
+          "number": 19,
+          "title": "S. Quantity & Degree",
+          "chunkCount": 10
+        },
+        {
+          "id": "T2",
+          "number": 20,
+          "title": "T. Tag Questions",
+          "chunkCount": 10
+        },
+        {
+          "id": "U2",
+          "number": 21,
+          "title": "U. Indirect Questions",
+          "chunkCount": 10
+        },
+        {
+          "id": "V2",
+          "number": 22,
+          "title": "V. Giving Advice & Warnings",
+          "chunkCount": 10
+        },
+        {
+          "id": "W2",
+          "number": 23,
+          "title": "W. Regrets (Simple Wish)",
+          "chunkCount": 10
+        },
+        {
+          "id": "X2",
+          "number": 24,
+          "title": "X. Relative Clauses",
+          "chunkCount": 10
+        },
+        {
+          "id": "Y2",
+          "number": 25,
+          "title": "Y. Expressing Purpose",
+          "chunkCount": 10
+        },
+        {
+          "id": "Z2",
+          "number": 26,
+          "title": "Z. Mixed Daily Situations",
+          "chunkCount": 30
+        }
+      ]
+    },
+    {
+      "id": "session-2-1",
+      "number": 3,
+      "title": "Session 2.1: Grammar Gaps",
+      "description": "English sentence practice",
+      "lessons": [
+        {
+          "id": "A21",
+          "number": 1,
+          "title": "A. Passive Voice",
+          "chunkCount": 30
+        },
+        {
+          "id": "B21",
+          "number": 2,
+          "title": "B. Reported Speech",
+          "chunkCount": 30
+        },
+        {
+          "id": "C21",
+          "number": 3,
+          "title": "C. Present Perfect Continuous",
+          "chunkCount": 20
+        },
+        {
+          "id": "D21",
+          "number": 4,
+          "title": "D. Past Perfect (had done)",
+          "chunkCount": 20
+        },
+        {
+          "id": "E21",
+          "number": 5,
+          "title": "E. Phrasal Verbs (Essential Set)",
+          "chunkCount": 30
+        },
+        {
+          "id": "F21",
+          "number": 6,
+          "title": "F. Causative — have/get something done",
+          "chunkCount": 15
+        },
+        {
+          "id": "G21",
+          "number": 7,
+          "title": "G. Wish / If Only / Would Rather",
+          "chunkCount": 20
+        },
+        {
+          "id": "H21",
+          "number": 8,
+          "title": "H. Modal Verbs — Deduction & Past Speculation",
+          "chunkCount": 25
+        },
+        {
+          "id": "I21",
+          "number": 9,
+          "title": "I. So / Such / Too / Enough",
+          "chunkCount": 20
+        },
+        {
+          "id": "J21",
+          "number": 10,
+          "title": "J. Tag Questions & Indirect Questions (Extended)",
+          "chunkCount": 15
+        },
+        {
+          "id": "K21",
+          "number": 11,
+          "title": "K. Advanced Linking Words",
+          "chunkCount": 15
+        }
+      ]
+    },
+    {
+      "id": "session-2-2",
+      "number": 4,
+      "title": "Session 2.2: Output & Fluency Patterns",
+      "description": "English sentence practice",
+      "lessons": [
+        {
+          "id": "A22",
+          "number": 1,
+          "title": "A. Clarifying & Confirming",
+          "chunkCount": 20
+        },
+        {
+          "id": "B22",
+          "number": 2,
+          "title": "B. Stalling & Buying Time",
+          "chunkCount": 15
+        },
+        {
+          "id": "C22",
+          "number": 3,
+          "title": "C. Transition Phrases",
+          "chunkCount": 20
+        },
+        {
+          "id": "D22",
+          "number": 4,
+          "title": "D. Making & Responding to Requests",
+          "chunkCount": 20
+        },
+        {
+          "id": "E22",
+          "number": 5,
+          "title": "E. Agreeing & Disagreeing Politely",
+          "chunkCount": 20
+        },
+        {
+          "id": "F22",
+          "number": 6,
+          "title": "F. Describing Processes & Steps",
+          "chunkCount": 15
+        },
+        {
+          "id": "G22",
+          "number": 7,
+          "title": "G. Giving & Responding to News",
+          "chunkCount": 20
+        },
+        {
+          "id": "H22",
+          "number": 8,
+          "title": "H. Small Talk Extenders",
+          "chunkCount": 15
+        },
+        {
+          "id": "I22",
+          "number": 9,
+          "title": "I. Apologizing & Explaining",
+          "chunkCount": 20
+        },
+        {
+          "id": "J22",
+          "number": 10,
+          "title": "J. Ending Conversations Naturally",
+          "chunkCount": 15
+        }
+      ]
+    },
+    {
+      "id": "session-2-3",
+      "number": 5,
+      "title": "Session 2.3: Thai Context & Personal Scenarios",
+      "description": "English sentence practice",
+      "lessons": [
+        {
+          "id": "A23",
+          "number": 1,
+          "title": "A. AI & Data Science — อธิบายงานให้คนอื่นฟัง",
+          "chunkCount": 20
+        },
+        {
+          "id": "B23",
+          "number": 2,
+          "title": "B. คุยกับ Professor / TA ต่างชาติ",
+          "chunkCount": 20
+        },
+        {
+          "id": "C23",
+          "number": 3,
+          "title": "C. สุขภาพ & คลินิก / โรงพยาบาล",
+          "chunkCount": 20
+        },
+        {
+          "id": "D23",
+          "number": 4,
+          "title": "D. ร้านอาหาร & สั่งอาหาร",
+          "chunkCount": 15
+        },
+        {
+          "id": "E23",
+          "number": 5,
+          "title": "E. ช้อปปิ้ง & ต่อรอง",
+          "chunkCount": 15
+        },
+        {
+          "id": "F23",
+          "number": 6,
+          "title": "F. อธิบายวัฒนธรรม & อาหารไทยให้ต่างชาติ",
+          "chunkCount": 15
+        },
+        {
+          "id": "G23",
+          "number": 7,
+          "title": "G. LinkedIn / Email สมัครงาน & Cover Letter",
+          "chunkCount": 20
+        },
+        {
+          "id": "H23",
+          "number": 8,
+          "title": "H. การเงิน & ธนาคาร",
+          "chunkCount": 15
+        }
+      ]
+    },
+    {
+      "id": "session-3",
+      "number": 6,
+      "title": "Session 3: Advanced Scenarios & Professional Life",
+      "description": "English sentence practice",
+      "lessons": [
+        {
+          "id": "Theme_1",
+          "number": 1,
+          "title": "1. Daily Life & Complex Scenarios",
+          "chunkCount": 80
+        },
+        {
+          "id": "Theme_2",
+          "number": 2,
+          "title": "2. Reading Comprehension (News, Documents & Social Media)",
+          "chunkCount": 80
+        },
+        {
+          "id": "Theme_3",
+          "number": 3,
+          "title": "3. AI Engineering & Data Science",
+          "chunkCount": 80
+        },
+        {
+          "id": "Theme_4",
+          "number": 4,
+          "title": "4. Professional Presentation & Public Speaking",
+          "chunkCount": 80
+        },
+        {
+          "id": "Theme_5",
+          "number": 5,
+          "title": "5. Formal Workplace Communication",
+          "chunkCount": 80
+        }
+      ]
+    }
+  ]
+}

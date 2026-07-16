@@ -1,0 +1,127 @@
+{
+  "id": "U09-L07",
+  "number": 7,
+  "title": "ฉันคิดว่าน่าจะได้นะ",
+  "chunks": [
+    {
+      "id": "zh-Hans:U09-L07-C061",
+      "legacyId": "U09-L07-C061",
+      "position": 1,
+      "script": "我觉得应该可以。",
+      "pronunciation": "wǒ jué de yīng gāi kě yǐ.",
+      "phonetic": "หว่อ จว๋ะ เตอ อิง ไก เขอ อี่.",
+      "translation": "ฉันคิดว่าน่าจะได้นะ",
+      "chunks": [
+        "我觉得应该可以。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L07-C062",
+      "legacyId": "U09-L07-C062",
+      "position": 2,
+      "script": "我认为我们应该马上出发。",
+      "pronunciation": "wǒ rèn wéi wǒ men yīng gāi mǎ shàng chū fā.",
+      "phonetic": "หว่อ เริ่น เย หว่อ เมิน อิง ไก หม่า ส้าง ชู ฟา.",
+      "translation": "ฉันคิดว่าพวกเราควรจะออกเดินทางทันที",
+      "chunks": [
+        "我认为我们应该马上出发。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L07-C063",
+      "legacyId": "U09-L07-C063",
+      "position": 3,
+      "script": "依我看，这件事没那么简单。",
+      "pronunciation": "yī wǒ kàn, zhè jiàn shì méi nà me jiǎn dān.",
+      "phonetic": "อี หว่อ ค่าน, เจ้อ เจี้ยน สื้อ เหมย น้า เมอ เจี่ยน ตาน.",
+      "translation": "ในมุมมองของฉัน เรื่องนี้มันไม่ได้ง่ายดายขนาดนั้นหรอก",
+      "chunks": [
+        "依我看，这件事没那么简单。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L07-C064",
+      "legacyId": "U09-L07-C064",
+      "position": 4,
+      "script": "在我看来，脚踏实地才是成功的关键。",
+      "pronunciation": "zài wǒ kàn lái, jiǎo tà shí dì cái shì chéng gōng de guān jiàn.",
+      "phonetic": "ไซ้ หว่อ ค่าน ไหล, เจี่ยว ท้า สื้อ ตี้ ฉาย สื้อ เฉิง กง เตอ กวน เจี้ยน.",
+      "translation": "ในสายตาของฉัน การลงมือทำอย่างจริงจังต่างหากที่เป็นหัวใจของความสำเร็จ",
+      "chunks": [
+        "在我看来，脚踏实地才是成功的关键。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L07-C065",
+      "legacyId": "U09-L07-C065",
+      "position": 5,
+      "script": "据我所知，他并不是那个意思。",
+      "pronunciation": "jù wǒ suǒ zhī, tā bìng bú shì nà ge yì si.",
+      "phonetic": "จวี่ หว่อ สั่ว จือ, ทา ปิ้ง บู๋ สื้อ น้า เกอ อี้ สิ.",
+      "translation": "เท่าที่ฉันรู้ เขาไม่ได้หมายความว่าอย่างนั้นหรอกนะ",
+      "chunks": [
+        "据我所知，他并不是那个意思。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L07-C066",
+      "legacyId": "U09-L07-C066",
+      "position": 6,
+      "script": "在我看来，健康才是第一位的。",
+      "pronunciation": "zài wǒ kàn lái, jiàn kāng cái shì dì yī wèi de.",
+      "phonetic": "ไซ้ หว่อ ค่าน ไหล, เจี้ยน คาง ฉาย สื้อ ตี่ อี เว่ย เตอ.",
+      "translation": "ในสายตาของฉัน สุขภาพร่างกายต่างหากที่เป็นสิ่งสำคัญอันดับแรก",
+      "chunks": [
+        "在我看来，健康才是第一位的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L07-C067",
+      "legacyId": "U09-L07-C067",
+      "position": 7,
+      "script": "我总觉得这件事没有表面那么简单。",
+      "pronunciation": "wǒ zǒng jué de zhè jiàn shì méi yǒu biǎo miàn nà me jiǎn dān.",
+      "phonetic": "หว่อ จ่ง จว๋ะ เตอ เจ้อ เจี้ยน สื้อ เหมย โหย่ว เปี่่ยว เมี้ยน น้า เมอ เจี่ยน ตาน.",
+      "translation": "ฉันมักจะรู้สึกว่าเรื่องนี้มันไม่ได้ง่ายเหมือนที่เห็นภายนอกหรอกนะ",
+      "chunks": [
+        "我总觉得这件事没有表面那么简单。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L07-C068",
+      "legacyId": "U09-L07-C068",
+      "position": 8,
+      "script": "依我之见，我们需要重新考虑一下。",
+      "pronunciation": "yī wǒ zhī jiàn, wǒ men xū yào chóng xīn kǎo lǜ yí xià.",
+      "phonetic": "อี หว่อ จือ เจี้ยน, หว่อ เมิน ซวี่ เย้า ฉง ซิน เข่า ลวี่ อี๋ เซี่ย.",
+      "translation": "ตามความเห็นของฉัน พวกเราจำเป็นต้องทบทวนใหม่อีกสักรอบ",
+      "chunks": [
+        "依我之见，我们需要重新考虑一下。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L07-C069",
+      "legacyId": "U09-L07-C069",
+      "position": 9,
+      "script": "我坚持我的看法不会改变。",
+      "pronunciation": "wǒ jiān chí wǒ de kàn fǎ bú huì gǎi biàn.",
+      "phonetic": "หว่อ เจียน ฉี หว่อ เตอ ค่าน ฝ่า บู๋ ฮุ่ย ต๋าย เปี้ยน.",
+      "translation": "ฉันยังยืนยันความคิดเห็นของฉันโดยไม่เปลี่ยนแปลง",
+      "chunks": [
+        "我坚持我的看法不会改变。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L07-C070",
+      "legacyId": "U09-L07-C070",
+      "position": 10,
+      "script": "大家都赞同他的意见。",
+      "pronunciation": "dà jiā dōu zàn tóng tā de yì jiàn.",
+      "phonetic": "ต้า เจีย โตว ซั่น ถง ทา เตอ อี้ เจี้ยน.",
+      "translation": "ทุกคนต่างเห็นพ้องต้องกันกับความคิดเห็นของเขา",
+      "chunks": [
+        "大家都赞同他的意见。"
+      ]
+    }
+  ]
+}

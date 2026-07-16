@@ -1,0 +1,127 @@
+{
+  "id": "U02-L07",
+  "number": 7,
+  "title": "คุณทำงานอยู่ในวงการไหน / ทำมาหากินด้านไหน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U02-L07-C061",
+      "legacyId": "U02-L07-C061",
+      "position": 1,
+      "script": "你是做哪一行的？",
+      "pronunciation": "nǐ shì zuò nǎ yì háng de?",
+      "phonetic": "หนี่ สื้อ จั่ว หน่า อี้ หาง เตอ?",
+      "translation": "คุณทำงานอยู่ในวงการไหน / ทำมาหากินด้านไหน",
+      "chunks": [
+        "你是做哪一行的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L07-C062",
+      "legacyId": "U02-L07-C062",
+      "position": 2,
+      "script": "我是做IT的。",
+      "pronunciation": "wǒ shì zuò I T de.",
+      "phonetic": "หว่อ สื้อ จั่ว ไอที เตอ.",
+      "translation": "ฉันทำงานด้านไอที",
+      "chunks": [
+        "我是做IT的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L07-C063",
+      "legacyId": "U02-L07-C063",
+      "position": 3,
+      "script": "我在一家外企工作。",
+      "pronunciation": "wǒ zài yì jiā wài qǐ gōng zuò.",
+      "phonetic": "หว่อ ไซ้ อี๋ เจีย ไว้ ฉี่ กง จั้ว.",
+      "translation": "ฉันทำงานอยู่ที่บริษัทต่างชาติแห่งหนึ่ง",
+      "chunks": [
+        "我在一家外企工作。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L07-C064",
+      "legacyId": "U02-L07-C064",
+      "position": 4,
+      "script": "你工作几年了？",
+      "pronunciation": "nǐ gōng zuò jǐ nián le?",
+      "phonetic": "หนี่ กง จั้ว จี๋ เหนียน เลอ?",
+      "translation": "คุณทำงานมาตอนนี้กี่ปีแล้ว",
+      "chunks": [
+        "你工作几年了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L07-C065",
+      "legacyId": "U02-L07-C065",
+      "position": 5,
+      "script": "我工作三年了。",
+      "pronunciation": "wǒ gōng zuò sān nián le.",
+      "phonetic": "หว่อ กง จั้ว ซาน เหนียน เลอ.",
+      "translation": "ฉันทำงานมาสามปีแล้ว",
+      "chunks": [
+        "我工作三年了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L07-C066",
+      "legacyId": "U02-L07-C066",
+      "position": 6,
+      "script": "我是自由职业者。",
+      "pronunciation": "wǒ shì zì yóu zhí yè zhě.",
+      "phonetic": "หว่อ สื้อ จื้อ โหย่ว จื๋อ เย่ เจ่อ.",
+      "translation": "ฉันทำอาชีพอิสระ / ฟรีแลนซ์",
+      "chunks": [
+        "我是自由职业者。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L07-C067",
+      "legacyId": "U02-L07-C067",
+      "position": 7,
+      "script": "我自己做生意。",
+      "pronunciation": "wǒ zì jǐ zuò shēng yi.",
+      "phonetic": "หว่อ จื้อ จี่ จั่ว เซิง อิ.",
+      "translation": "ฉันทำธุรกิจส่วนตัว",
+      "chunks": [
+        "我自己做生意。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L07-C068",
+      "legacyId": "U02-L07-C068",
+      "position": 8,
+      "script": "你学中文多久了？",
+      "pronunciation": "nǐ xué zhōng wén duō jiǔ le?",
+      "phonetic": "หนี่ เสวี่ย จง เหวิน ตัว จิ่ว เลอ?",
+      "translation": "คุณเรียนภาษาจีนมานานเท่าไหร่แล้ว",
+      "chunks": [
+        "你学中文多久了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L07-C069",
+      "legacyId": "U02-L07-C069",
+      "position": 9,
+      "script": "我学了半年了。",
+      "pronunciation": "wǒ xué le bàn nián le.",
+      "phonetic": "หว่อ เสวี่ย เลอ ป้าน เหนียน เลอ.",
+      "translation": "ฉันเรียนมาครึ่งปีแล้ว",
+      "chunks": [
+        "我学了半年了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U02-L07-C070",
+      "legacyId": "U02-L07-C070",
+      "position": 10,
+      "script": "学中文很有意思。",
+      "pronunciation": "xué zhōng wén hěn yǒu yì si.",
+      "phonetic": "เสวี่ย จง เหวิน เหิ่น โหย่ว อี้ สิ.",
+      "translation": "เรียนภาษาจีนน่าสนุกมาก / น่าสนใจมาก",
+      "chunks": [
+        "学中文很有意思。"
+      ]
+    }
+  ]
+}

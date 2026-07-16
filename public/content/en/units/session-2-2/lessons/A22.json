@@ -1,0 +1,283 @@
+{
+  "id": "A22",
+  "number": 1,
+  "title": "A. Clarifying & Confirming",
+  "chunks": [
+    {
+      "id": "en:session-2-2:A22:1",
+      "legacyId": "A22-0",
+      "position": 1,
+      "script": "Just to confirm, the meeting is at 3 p.m., right?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอยืนยันอีกทีนะ ประชุม 3 โมงเย็นใช่ไหม?",
+      "chunks": [
+        "Just",
+        "to confirm,",
+        "the meeting is",
+        "at 3 p.m.,",
+        "right?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:2",
+      "legacyId": "A22-1",
+      "position": 2,
+      "script": "So what you're saying is that the deadline is tomorrow?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "งั้นที่คุณพูดคือดีดไลน์คือพรุ่งนี้ใช่ไหม?",
+      "chunks": [
+        "So what you're saying is",
+        "that the deadline is tomorrow?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:3",
+      "legacyId": "A22-2",
+      "position": 3,
+      "script": "Let me make sure I understand — you want me to redo the whole thing?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอให้แน่ใจก่อนนะ คุณอยากให้ฉันทำทั้งหมดใหม่ใช่เปล่า?",
+      "chunks": [
+        "Let me make sure I understand — you want me",
+        "to redo the whole thing?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:4",
+      "legacyId": "A22-3",
+      "position": 4,
+      "script": "Can you clarify what you mean by that?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยอธิบายให้ชัดขึ้นหน่อยได้ไหมว่าหมายความว่าอะไร?",
+      "chunks": [
+        "Can you clarify what you mean by",
+        "that?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:5",
+      "legacyId": "A22-4",
+      "position": 5,
+      "script": "Do you mean the first version or the updated one?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หมายถึงเวอร์ชันแรกหรือที่อัปเดตแล้ว?",
+      "chunks": [
+        "Do you mean the first version",
+        "or the updated one?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:6",
+      "legacyId": "A22-5",
+      "position": 6,
+      "script": "So if I understand correctly, we need to start over?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "งั้นถ้าฉันเข้าใจถูก เราต้องเริ่มใหม่ตั้งแต่ต้น?",
+      "chunks": [
+        "So if I understand correctly,",
+        "we need",
+        "to start over?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:7",
+      "legacyId": "A22-6",
+      "position": 7,
+      "script": "Sorry, could you say that again? I didn't quite catch it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โทษทีนะ ช่วยพูดอีกทีได้ไหม ฉันจับไม่ทัน",
+      "chunks": [
+        "Sorry,",
+        "could you say",
+        "that again?",
+        "I didn't quite catch it."
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:8",
+      "legacyId": "A22-7",
+      "position": 8,
+      "script": "Are you saying you want it by Friday or Monday?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณหมายถึงอยากได้ภายในวันศุกร์หรือวันจันทร์?",
+      "chunks": [
+        "Are you saying you want it by Friday",
+        "or Monday?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:9",
+      "legacyId": "A22-8",
+      "position": 9,
+      "script": "To be clear, I'm not able to commit to that timeline.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พูดตรงๆ นะ ฉันไม่สามารถการันตีกำหนดนั้นได้",
+      "chunks": [
+        "To be clear,",
+        "I'm not able",
+        "to commit",
+        "to",
+        "that timeline."
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:10",
+      "legacyId": "A22-9",
+      "position": 10,
+      "script": "Just to be sure, is this the final version?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอให้ชัวร์ก่อนนะ นี่คือเวอร์ชันสุดท้ายแล้วใช่ไหม?",
+      "chunks": [
+        "Just",
+        "to be sure,",
+        "is this the final version?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:11",
+      "legacyId": "A22-10",
+      "position": 11,
+      "script": "I want to make sure we're on the same page.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากให้แน่ใจว่าเราเข้าใจตรงกันนะ",
+      "chunks": [
+        "I want",
+        "to make sure we're",
+        "on the same page."
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:12",
+      "legacyId": "A22-11",
+      "position": 12,
+      "script": "When you say 'soon', what exactly do you mean?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ที่บอกว่า 'เร็วๆ นี้' หมายความว่าเมื่อไหร่กันแน่?",
+      "chunks": [
+        "When you say 'soon',",
+        "what exactly do you mean?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:13",
+      "legacyId": "A22-12",
+      "position": 13,
+      "script": "Can you give me an example of what you mean?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยยกตัวอย่างของที่คุณหมายถึงได้ไหม?",
+      "chunks": [
+        "Can you give me an example of what you mean?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:14",
+      "legacyId": "A22-13",
+      "position": 14,
+      "script": "So the next step is to submit the form, correct?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "งั้นขั้นตอนถัดไปคือยื่นฟอร์มใช่ไหม?",
+      "chunks": [
+        "So the next step is",
+        "to submit the form,",
+        "correct?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:15",
+      "legacyId": "A22-14",
+      "position": 15,
+      "script": "I just want to double-check before I go ahead.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันแค่อยากเช็คอีกรอบก่อนดำเนินการต่อ",
+      "chunks": [
+        "I just want",
+        "to double-check before I go ahead."
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:16",
+      "legacyId": "A22-15",
+      "position": 16,
+      "script": "Did you say Monday or Tuesday? I want to make sure.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณบอกว่าวันจันทร์หรืออังคาร? อยากให้ชัวร์",
+      "chunks": [
+        "Did you say Monday",
+        "or Tuesday?",
+        "I want",
+        "to make sure."
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:17",
+      "legacyId": "A22-16",
+      "position": 17,
+      "script": "Let me repeat that back to you to make sure I got it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ให้ฉันทวนกลับไปหน่อยนะ เพื่อให้แน่ใจว่าเข้าใจถูก",
+      "chunks": [
+        "Let me repeat",
+        "that back",
+        "to you",
+        "to make sure I got it."
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:18",
+      "legacyId": "A22-17",
+      "position": 18,
+      "script": "Could you be a bit more specific about what you need?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วยพูดให้เจาะจงขึ้นหน่อยได้ไหมว่าต้องการอะไร?",
+      "chunks": [
+        "Could you be a bit more specific",
+        "about what you need?"
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:19",
+      "legacyId": "A22-18",
+      "position": 19,
+      "script": "Sorry to ask again, but I want to be absolutely sure.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอโทษที่ถามซ้ำนะ แต่อยากให้ชัวร์แบบ 100%",
+      "chunks": [
+        "Sorry",
+        "to ask again,",
+        "but I want",
+        "to be absolutely sure."
+      ]
+    },
+    {
+      "id": "en:session-2-2:A22:20",
+      "legacyId": "A22-19",
+      "position": 20,
+      "script": "I think we might have a misunderstanding here.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันว่าเราอาจเข้าใจกันผิดอยู่นะ",
+      "chunks": [
+        "I think we might have a misunderstanding here."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1146 @@
+{
+  "id": "Theme_1",
+  "number": 1,
+  "title": "1. Daily Life & Complex Scenarios",
+  "chunks": [
+    {
+      "id": "en:session-3:Theme_1:1",
+      "legacyId": "Theme_1-0",
+      "position": 1,
+      "script": "I was riding my Forza 350 to the university when it suddenly started raining heavily.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังขี่ฟอร์ซ่า 350 ไปมหาลัยตอนที่จู่ๆ ฝนก็ตกลงมาอย่างหนัก",
+      "chunks": [
+        "I was riding my Forza 350",
+        "to the university",
+        "when it suddenly started raining heavily."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:2",
+      "legacyId": "Theme_1-1",
+      "position": 2,
+      "script": "I was checking my stock portfolio on my phone when the professor walked into the room.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังเช็คพอร์ตหุ้นในมือถืออยู่ตอนที่อาจารย์เดินเข้ามาในห้อง",
+      "chunks": [
+        "I was checking my stock portfolio",
+        "on my phone",
+        "when the professor walked into the room."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:3",
+      "legacyId": "Theme_1-2",
+      "position": 3,
+      "script": "I was cooking a simple chicken basil dish when I realized I had run out of garlic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังทำผัดกะเพราไก่ง่ายๆ ตอนที่นึกขึ้นได้ว่ากระเทียมหมดแล้ว",
+      "chunks": [
+        "I was cooking a simple chicken basil dish",
+        "when I realized I had run out of garlic."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:4",
+      "legacyId": "Theme_1-3",
+      "position": 4,
+      "script": "I have already finished my data science assignment, so I can totally relax tonight.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันทำการบ้านวิชาดาต้าซายน์เสร็จเรียบร้อยแล้ว คืนนี้เลยพักผ่อนได้เต็มที่",
+      "chunks": [
+        "I have already finished my data science assignment,",
+        "so I can totally relax tonight."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:5",
+      "legacyId": "Theme_1-4",
+      "position": 5,
+      "script": "I have just checked the latest TSLA stock price, and it actually looks quite promising.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งเช็คราคาหุ้นเทสล่าล่าสุดมา และมันดูมีแนวโน้มที่ดีทีเดียว",
+      "chunks": [
+        "I have just checked the latest TSLA stock price,",
+        "and it actually looks quite promising."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:6",
+      "legacyId": "Theme_1-5",
+      "position": 6,
+      "script": "I have never tried riding my motorcycle all the way back to my hometown in Sukhothai.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เคยลองขี่มอเตอร์ไซค์รวดเดียวกลับบ้านเกิดที่สุโขทัยเลย",
+      "chunks": [
+        "I have never tried riding my motorcycle all the way back",
+        "to my hometown",
+        "in Sukhothai."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:7",
+      "legacyId": "Theme_1-6",
+      "position": 7,
+      "script": "I used to hate waking up early, but now I really enjoy my morning routine.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อก่อนฉันเกลียดการตื่นเช้ามาก แต่เดี๋ยวนี้ฉันชอบกิจวัตรยามเช้าของตัวเองนะ",
+      "chunks": [
+        "I used",
+        "to hate waking up early,",
+        "but now I really enjoy my morning routine."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:8",
+      "legacyId": "Theme_1-7",
+      "position": 8,
+      "script": "I used to spend my money on games, but now I invest a lot of it in the stock market.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยเอาเงินไปเปย์เกม แต่ตอนนี้ฉันเอาไปลงทุนในตลาดหุ้นเยอะมาก",
+      "chunks": [
+        "I used",
+        "to spend my money",
+        "on games,",
+        "but now I invest a lot of it",
+        "in the stock market."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:9",
+      "legacyId": "Theme_1-8",
+      "position": 9,
+      "script": "I used to think cooking was too difficult, but now I make simple meals almost every day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อก่อนฉันคิดว่าการทำอาหารมันยากไป แต่เดี๋ยวนี้ฉันทำมื้อกินเองง่ายๆ แทบทุกวัน",
+      "chunks": [
+        "I used",
+        "to think cooking was too difficult,",
+        "but now I make simple meals almost every day."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:10",
+      "legacyId": "Theme_1-9",
+      "position": 10,
+      "script": "I am going to wash my Forza this weekend because it is incredibly dirty right now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สุดสัปดาห์นี้ฉันจะล้างรถฟอร์ซ่าสักหน่อย เพราะตอนนี้มันสกปรกสุดๆ",
+      "chunks": [
+        "I am going",
+        "to wash my Forza this weekend",
+        "because it is incredibly dirty right now."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:11",
+      "legacyId": "Theme_1-10",
+      "position": 11,
+      "script": "I am going to try a new Panang curry recipe that I found on YouTube last night.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะลองทำพะแนงสูตรใหม่ที่ไปเจอในยูทูปเมื่อคืนนี้",
+      "chunks": [
+        "I am going",
+        "to try a new Panang curry recipe",
+        "that I found",
+        "on YouTube last night."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:12",
+      "legacyId": "Theme_1-11",
+      "position": 12,
+      "script": "I am going to organize my study schedule properly so I don't feel overwhelmed next week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะจัดตารางอ่านหนังสือให้ดีๆ สัปดาห์หน้าจะได้ไม่รู้สึกหนักเกินไป",
+      "chunks": [
+        "I am going",
+        "to organize my study schedule properly",
+        "so I don't feel overwhelmed next week."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:13",
+      "legacyId": "Theme_1-12",
+      "position": 13,
+      "script": "I will probably stay home and study calculus if the weather is really bad tomorrow.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันน่าจะอยู่บ้านอ่านแคลคูลัสถ้าพรุ่งนี้อากาศแย่มากๆ",
+      "chunks": [
+        "I will probably stay home",
+        "and study calculus if the weather is really bad tomorrow."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:14",
+      "legacyId": "Theme_1-13",
+      "position": 14,
+      "script": "I will probably buy some groceries later to meal prep for the busy weekdays.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดี๋ยวฉันน่าจะไปซื้อของสดมาทำอาหารเตรียมไว้สำหรับวันธรรมดาที่ยุ่งๆ",
+      "chunks": [
+        "I will probably buy some groceries later",
+        "to meal prep",
+        "for the busy weekdays."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:15",
+      "legacyId": "Theme_1-14",
+      "position": 15,
+      "script": "I will probably take a long nap after I finally finish my coding project.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันคงจะนอนงีบยาวๆ หลังจากทำโปรเจกต์เขียนโค้ดเสร็จสักที",
+      "chunks": [
+        "I will probably take a long nap after I finally finish my coding project."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:16",
+      "legacyId": "Theme_1-15",
+      "position": 16,
+      "script": "If the traffic is too heavy, I will definitely take my motorcycle instead of driving a car.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้ารถติดหนักมาก ฉันจะขี่มอเตอร์ไซค์ไปแทนการขับรถยนต์แน่นอน",
+      "chunks": [
+        "If the traffic is too heavy,",
+        "I will definitely take my motorcycle instead of driving a car."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:17",
+      "legacyId": "Theme_1-16",
+      "position": 17,
+      "script": "If I have enough free time this evening, I will read more about space exploration companies.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าเย็นนี้มีเวลาว่างพอ ฉันจะไปหาอ่านเรื่องบริษัทสำรวจอวกาศเพิ่ม",
+      "chunks": [
+        "If I have enough free time this evening,",
+        "I will read more",
+        "about space exploration companies."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:18",
+      "legacyId": "Theme_1-17",
+      "position": 18,
+      "script": "If the market crashes again, I will see it as a great opportunity to buy more shares.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าตลาดหุ้นตกหนักอีก ฉันจะมองว่ามันเป็นโอกาสทองในการช้อนซื้อหุ้นเพิ่ม",
+      "chunks": [
+        "If the market crashes again,",
+        "I will see it as a great opportunity",
+        "to buy more shares."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:19",
+      "legacyId": "Theme_1-18",
+      "position": 19,
+      "script": "If I had more capital to invest, I would definitely buy more shares of high-growth tech stocks.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันมีเงินทุนมากกว่านี้ ฉันจะซื้อหุ้นเทคที่เติบโตสูงเพิ่มแน่นอน",
+      "chunks": [
+        "If I had more capital",
+        "to invest,",
+        "I would definitely buy more shares of high-growth tech stocks."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:20",
+      "legacyId": "Theme_1-19",
+      "position": 20,
+      "script": "If I lived closer to Bangkok University, I wouldn't have to wake up so early every day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันอยู่ใกล้มหาวิทยาลัยกรุงเทพมากกว่านี้ ฉันคงไม่ต้องตื่นเช้าขนาดนี้ทุกวัน",
+      "chunks": [
+        "If I lived closer",
+        "to Bangkok University,",
+        "I wouldn't have",
+        "to wake up",
+        "so early every day."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:21",
+      "legacyId": "Theme_1-20",
+      "position": 21,
+      "script": "If I wasn't so stubborn, I would probably ask for help with my assignments more often.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันไม่เป็นคนดื้อขนาดนี้ ฉันคงเอ่ยปากขอให้คนช่วยทำการบ้านบ่อยกว่านี้แล้ว",
+      "chunks": [
+        "If I wasn't",
+        "so stubborn,",
+        "I would probably ask",
+        "for help",
+        "with my assignments more often."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:22",
+      "legacyId": "Theme_1-21",
+      "position": 22,
+      "script": "I decided to stay in my room all day because I needed to catch up on my sleep.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตัดสินใจหมกตัวอยู่ในห้องทั้งวันเพราะต้องการนอนชดเชย",
+      "chunks": [
+        "I decided",
+        "to stay",
+        "in my room all day",
+        "because I needed",
+        "to catch up",
+        "on my sleep."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:23",
+      "legacyId": "Theme_1-22",
+      "position": 23,
+      "script": "I prefer cooking my own meals because it is much healthier and saves me a lot of money.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันชอบทำอาหารกินเองมากกว่าเพราะมันดีต่อสุขภาพและประหยัดเงินไปได้เยอะ",
+      "chunks": [
+        "I prefer cooking my own meals",
+        "because it is much healthier",
+        "and saves me a lot of money."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:24",
+      "legacyId": "Theme_1-23",
+      "position": 24,
+      "script": "I always double-check my work because I am very diligent when it comes to my studies.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเช็คงานตัวเองซ้ำเสมอเพราะฉันเป็นคนจริงจังมากเวลาเป็นเรื่องเรียน",
+      "chunks": [
+        "I always double-check my work",
+        "because I am very diligent",
+        "when it comes",
+        "to my studies."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:25",
+      "legacyId": "Theme_1-24",
+      "position": 25,
+      "script": "Even though I was completely exhausted, I forced myself to finish the reading assignment.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้ว่าฉันจะเหนื่อยสายตัวแทบขาด แต่ฉันก็ฝืนทำสั่งงานการอ่านจนเสร็จ",
+      "chunks": [
+        "Even though I was completely exhausted,",
+        "I forced myself",
+        "to finish the reading assignment."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:26",
+      "legacyId": "Theme_1-25",
+      "position": 26,
+      "script": "Even though it was raining heavily, I still rode my motorcycle to the university anyway.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้ฝนจะตกหนัก แต่ฉันก็ยังขี่มอเตอร์ไซค์ไปมหาลัยอยู่ดี",
+      "chunks": [
+        "Even though it was raining heavily,",
+        "I still rode my motorcycle",
+        "to the university anyway."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:27",
+      "legacyId": "Theme_1-26",
+      "position": 27,
+      "script": "Even though my friends wanted to go out, I stayed home to monitor my investment portfolio.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงเพื่อนๆ จะอยากออกไปเที่ยว แต่ฉันก็เลือกอยู่บ้านเพื่อเฝ้าพอร์ตลงทุนของตัวเอง",
+      "chunks": [
+        "Even though my friends wanted",
+        "to go out,",
+        "I stayed home",
+        "to monitor my investment portfolio."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:28",
+      "legacyId": "Theme_1-27",
+      "position": 28,
+      "script": "While I was waiting for the water to boil, I checked my emails and social media messages.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ระหว่างที่รอน้ำเดือด ฉันก็เช็คอีเมลกับข้อความในโซเชียลไปด้วย",
+      "chunks": [
+        "While I was waiting",
+        "for the water",
+        "to boil,",
+        "I checked my emails",
+        "and social media messages."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:29",
+      "legacyId": "Theme_1-28",
+      "position": 29,
+      "script": "While I was riding back to Khlong Nueng, I thought about my plans for the upcoming weekend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตอนที่กำลังขี่รถกลับคลองหนึ่ง ฉันก็คิดเรื่องแผนเที่ยวของสุดสัปดาห์นี้ไปด้วย",
+      "chunks": [
+        "While I was riding back",
+        "to Khlong Nueng,",
+        "I thought",
+        "about my plans",
+        "for the upcoming weekend."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:30",
+      "legacyId": "Theme_1-29",
+      "position": 30,
+      "script": "While I was cleaning my apartment, I listened to a podcast about machine learning trends.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ระหว่างที่ทำความสะอาดห้อง ฉันก็ฟังพอดแคสต์เกี่ยวกับเทรนด์แมชชีนเลิร์นนิงไปด้วย",
+      "chunks": [
+        "While I was cleaning my apartment,",
+        "I listened",
+        "to a podcast",
+        "about machine learning trends."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:31",
+      "legacyId": "Theme_1-30",
+      "position": 31,
+      "script": "As soon as I woke up this morning, I immediately checked the pre-market stock prices.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทันทีที่ตื่นนอนเมื่อเช้า ฉันก็เช็คราคาหุ้นก่อนเปิดตลาดทันที",
+      "chunks": [
+        "As soon as I woke up this morning,",
+        "I immediately checked the pre-market stock prices."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:32",
+      "legacyId": "Theme_1-31",
+      "position": 32,
+      "script": "As soon as the lecture finished, I packed my bag and headed straight to the cafeteria.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พอเลิกเรียนปุ๊บ ฉันก็เก็บกระเป๋าแล้วมุ่งหน้าไปโรงอาหารทันที",
+      "chunks": [
+        "As soon as the lecture finished,",
+        "I packed my bag",
+        "and headed straight",
+        "to the cafeteria."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:33",
+      "legacyId": "Theme_1-32",
+      "position": 33,
+      "script": "As soon as I get my monthly allowance, I usually transfer a portion to my investment account.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทันทีที่ได้เงินเดือน ฉันมักจะโอนส่วนหนึ่งเข้าบัญชีลงทุนเลย",
+      "chunks": [
+        "As soon as I get my monthly allowance,",
+        "I usually transfer a portion",
+        "to my investment account."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:34",
+      "legacyId": "Theme_1-33",
+      "position": 34,
+      "script": "I won't sell my shares in that tech company unless the fundamentals drastically change.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไม่ขายหุ้นบริษัทเทคนั้นเด็ดขาด เว้นแต่ว่าปัจจัยพื้นฐานมันจะเปลี่ยนไปอย่างสิ้นเชิง",
+      "chunks": [
+        "I won't sell my shares",
+        "in",
+        "that tech company unless the fundamentals drastically change."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:35",
+      "legacyId": "Theme_1-34",
+      "position": 35,
+      "script": "I won't go out for dinner tonight unless my friends agree to eat somewhere nearby.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คืนนี้ฉันจะไม่ออกไปกินข้าวนอกบ้าน เว้นแต่เพื่อนจะยอมกินร้านแถวๆ นี้",
+      "chunks": [
+        "I won't go out",
+        "for dinner tonight unless my friends agree",
+        "to eat somewhere nearby."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:36",
+      "legacyId": "Theme_1-35",
+      "position": 36,
+      "script": "I won't start learning a new programming language unless it is strictly required for my coursework.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไม่เริ่มเรียนภาษาโปรแกรมใหม่หรอก เว้นแต่ว่ามันจะจำเป็นสำหรับวิชาเรียนจริงๆ",
+      "chunks": [
+        "I won't start learning a new programming language unless it is strictly required",
+        "for my coursework."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:37",
+      "legacyId": "Theme_1-36",
+      "position": 37,
+      "script": "After I finish cooking my dinner, I always make sure to clean the kitchen immediately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หลังจากทำมื้อเย็นเสร็จ ฉันจะจัดการทำความสะอาดครัวทันทีเสมอ",
+      "chunks": [
+        "After I finish cooking my dinner,",
+        "I always make sure",
+        "to clean the kitchen immediately."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:38",
+      "legacyId": "Theme_1-37",
+      "position": 38,
+      "script": "After I complete my bachelor's degree, I strongly plan to work as a machine learning engineer.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หลังจากเรียนจบป.ตรี ฉันวางแผนแน่วแน่ว่าจะทำงานเป็นวิศวกรแมชชีนเลิร์นนิง",
+      "chunks": [
+        "After I complete my bachelor's degree,",
+        "I strongly plan",
+        "to work as a machine learning engineer."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:39",
+      "legacyId": "Theme_1-38",
+      "position": 39,
+      "script": "After I reviewed the calculus chapter twice, I finally understood how the complex formulas work.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หลังจากทบทวนบทแคลคูลัสไปสองรอบ ในที่สุดฉันก็เข้าใจว่าสูตรยากๆ พวกนี้มันทำงานยังไง",
+      "chunks": [
+        "After I reviewed the calculus chapter twice,",
+        "I finally understood how the complex formulas work."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:40",
+      "legacyId": "Theme_1-39",
+      "position": 40,
+      "script": "I suddenly realized that I had left my motorcycle keys on the kitchen counter this morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งนึกขึ้นได้ว่าเมื่อเช้าลืมกุญแจมอเตอร์ไซค์ทิ้งไว้บนเคาน์เตอร์ครัว",
+      "chunks": [
+        "I suddenly realized",
+        "that I had left my motorcycle keys",
+        "on the kitchen counter this morning."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:41",
+      "legacyId": "Theme_1-40",
+      "position": 41,
+      "script": "I suddenly realized that I hadn't eaten anything healthy for the past three consecutive days.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "จู่ๆ ฉันก็ตระหนักได้ว่าตัวเองไม่ได้กินอะไรที่มีประโยชน์เลยมาสามวันติดแล้ว",
+      "chunks": [
+        "I suddenly realized",
+        "that I hadn't eaten anything healthy",
+        "for the past three consecutive days."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:42",
+      "legacyId": "Theme_1-41",
+      "position": 42,
+      "script": "I suddenly realized that my stubbornness was actually preventing me from learning a much faster method.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งตระหนักได้ว่าความดื้อรั้นของตัวเองกำลังขวางไม่ให้ฉันเรียนรู้วิธีที่เร็วกว่าตั้งเยอะ",
+      "chunks": [
+        "I suddenly realized",
+        "that my stubbornness was actually preventing me from learning a much faster method."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:43",
+      "legacyId": "Theme_1-42",
+      "position": 43,
+      "script": "The main reason why I ride a motorcycle is that it helps me avoid the terrible traffic.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เหตุผลหลักที่ฉันขี่มอเตอร์ไซค์ก็คือมันช่วยให้ฉันหนีรถติดนรกแตกได้",
+      "chunks": [
+        "The main reason why I ride a motorcycle is",
+        "that it helps me avoid the terrible traffic."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:44",
+      "legacyId": "Theme_1-43",
+      "position": 44,
+      "script": "The main reason why I invest in space exploration is that I deeply believe in its long-term potential.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เหตุผลหลักที่ฉันลงทุนในธุรกิจอวกาศคือฉันเชื่อมั่นในศักยภาพระยะยาวของมันมากๆ",
+      "chunks": [
+        "The main reason why I invest",
+        "in space exploration is",
+        "that I deeply believe",
+        "in its long-term potential."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:45",
+      "legacyId": "Theme_1-44",
+      "position": 45,
+      "script": "The main reason why I study so hard is that I want to secure a great job after graduation.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เหตุผลหลักที่ฉันตั้งใจเรียนขนาดนี้ก็เพราะอยากได้งานดีๆ ทำหลังเรียนจบ",
+      "chunks": [
+        "The main reason why I study",
+        "so hard is",
+        "that I want",
+        "to secure a great job after graduation."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:46",
+      "legacyId": "Theme_1-45",
+      "position": 46,
+      "script": "I have been following Nont Tanont's music career closely for almost seven years now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันติดตามผลงานเพลงของนนท์ ธนนท์มาอย่างใกล้ชิดเกือบจะเจ็ดปีแล้ว",
+      "chunks": [
+        "I have been following Nont Tanont's music career closely",
+        "for almost seven years now."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:47",
+      "legacyId": "Theme_1-46",
+      "position": 47,
+      "script": "I have been trying to clear up my acne by maintaining a strict skincare routine for months.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันพยายามรักษาสิวด้วยการทำสกินแคร์รูทีนอย่างเคร่งครัดมาหลายเดือนแล้ว",
+      "chunks": [
+        "I have been trying",
+        "to clear up my acne by maintaining a strict skincare routine",
+        "for months."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:48",
+      "legacyId": "Theme_1-47",
+      "position": 48,
+      "script": "I have been working on this difficult coding problem since early this morning without taking a break.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันนั่งแก้ปัญหาโค้ดยากๆ อันนี้มาตั้งแต่เช้าตรู่โดยยังไม่ได้พักเลย",
+      "chunks": [
+        "I have been working",
+        "on this difficult coding problem since early this morning without taking a break."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:49",
+      "legacyId": "Theme_1-48",
+      "position": 49,
+      "script": "If I had known the mid-term exam was going to be this hard, I would have studied much more.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้าฉันรู้ว่าข้อสอบมิดเทอมจะยากขนาดนี้ ฉันคงจะอ่านหนังสือให้หนักกว่านี้เยอะ",
+      "chunks": [
+        "If I had known the mid-term exam was going",
+        "to be this hard,",
+        "I would have studied much more."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:50",
+      "legacyId": "Theme_1-49",
+      "position": 50,
+      "script": "If I had known that the stock would drop heavily today, I would have waited to buy it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้ารู้ว่าวันนี้หุ้นจะร่วงหนัก ฉันคงจะรอค่อยซื้อทีหลัง",
+      "chunks": [
+        "If I had known",
+        "that the stock would drop heavily today,",
+        "I would have waited",
+        "to buy it."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:51",
+      "legacyId": "Theme_1-50",
+      "position": 51,
+      "script": "If I had known you were coming over to my place, I would have cooked a larger portion of food.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถ้ารู้ว่าคุณจะแวะมาหาที่ห้อง ฉันคงทำอาหารเผื่อไว้เยอะกว่านี้แล้ว",
+      "chunks": [
+        "If I had known you were coming over",
+        "to my place,",
+        "I would have cooked a larger portion of food."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:52",
+      "legacyId": "Theme_1-51",
+      "position": 52,
+      "script": "I was told that the new skincare product works perfectly for acne-prone skin types.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันได้ยินมาว่าผลิตภัณฑ์สกินแคร์ตัวใหม่มันเวิร์คมากสำหรับคนผิวเป็นสิวง่าย",
+      "chunks": [
+        "I was told",
+        "that the new skincare product works perfectly",
+        "for acne-prone skin types."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:53",
+      "legacyId": "Theme_1-52",
+      "position": 53,
+      "script": "I was told that the upcoming group presentation will account for thirty percent of our final grade.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันได้รับแจ้งมาว่าพรีเซนต์งานกลุ่มรอบหน้าจะมีสัดส่วนถึง 30 เปอร์เซ็นต์ของเกรดรวม",
+      "chunks": [
+        "I was told",
+        "that the upcoming group presentation will account",
+        "for thirty percent of our final grade."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:54",
+      "legacyId": "Theme_1-53",
+      "position": 54,
+      "script": "I was told that riding a motorcycle in the city requires a lot of patience and situational awareness.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันโดนเตือนมาตลอดว่าการขี่มอเตอร์ไซค์ในเมืองต้องใช้ความอดทนและการระวังตัวสูงมาก",
+      "chunks": [
+        "I was told",
+        "that riding a motorcycle",
+        "in the city requires a lot of patience",
+        "and situational awareness."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:55",
+      "legacyId": "Theme_1-54",
+      "position": 55,
+      "script": "I really enjoy playing video games; however, I rarely have the spare time to play them lately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันชอบเล่นเกมมากๆ นะ แต่อย่างไรก็ตาม ช่วงนี้ฉันแทบไม่มีเวลาว่างให้เล่นเลย",
+      "chunks": [
+        "I really enjoy playing video games; however,",
+        "I rarely have the spare time",
+        "to play them lately."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:56",
+      "legacyId": "Theme_1-55",
+      "position": 56,
+      "script": "I want to buy a new racing helmet; however, the one I like is currently out of my budget.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากซื้อหมวกกันน็อคใบใหม่ แต่ใบที่ชอบตอนนี้ราคามันเกินงบไปหน่อย",
+      "chunks": [
+        "I want",
+        "to buy a new racing helmet; however,",
+        "the one I like is currently out of my budget."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:57",
+      "legacyId": "Theme_1-56",
+      "position": 57,
+      "script": "I am usually very open to feedback; however, I can be a bit stubborn when I am confident about something.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปกติฉันเปิดรับความคิดเห็นนะ แต่อีกมุมนึงฉันก็แอบดื้อเวลาที่ฉันมั่นใจอะไรสักอย่างมากๆ",
+      "chunks": [
+        "I am usually very open",
+        "to feedback; however,",
+        "I can be a bit stubborn",
+        "when I am confident",
+        "about something."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:58",
+      "legacyId": "Theme_1-57",
+      "position": 58,
+      "script": "In my opinion, learning how to manage your own finances is just as important as getting a university degree.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในความเห็นฉัน การเรียนรู้วิธีจัดการเงินตัวเองสำคัญพอๆ กับการได้ใบปริญญาเลย",
+      "chunks": [
+        "In my opinion,",
+        "learning how",
+        "to manage your own finances is just as important as getting a university degree."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:59",
+      "legacyId": "Theme_1-58",
+      "position": 59,
+      "script": "In my opinion, cooking at home is the best way to ensure you are consuming high-quality ingredients.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในความเห็นฉัน การทำอาหารกินเองที่บ้านคือวิธีที่ดีที่สุดในการรับประกันว่าเราได้กินของดีๆ",
+      "chunks": [
+        "In my opinion,",
+        "cooking",
+        "at home is the best way",
+        "to ensure you are consuming high-quality ingredients."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:60",
+      "legacyId": "Theme_1-59",
+      "position": 60,
+      "script": "In my opinion, artificial intelligence will completely change the way we approach complex everyday problems.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในความเห็นฉัน ปัญญาประดิษฐ์จะเข้ามาเปลี่ยนวิธีที่เรารับมือกับปัญหาซับซ้อนในชีวิตประจำวันไปอย่างสิ้นเชิง",
+      "chunks": [
+        "In my opinion,",
+        "artificial intelligence will completely change the way we approach complex everyday problems."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:61",
+      "legacyId": "Theme_1-60",
+      "position": 61,
+      "script": "I try to finish all my university assignments on Friday so that I can fully relax over the weekend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันพยายามเคลียร์งานมหาลัยให้เสร็จวันศุกร์ จะได้พักผ่อนช่วงเสาร์อาทิตย์แบบร้อยเปอร์เซ็นต์",
+      "chunks": [
+        "I try",
+        "to finish all my university assignments",
+        "on Friday",
+        "so",
+        "that I can fully relax over the weekend."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:62",
+      "legacyId": "Theme_1-61",
+      "position": 62,
+      "script": "I am actively researching different tech companies so that I can make highly informed investment decisions.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังรีเสิร์ชบริษัทเทคหลายๆ แห่งอย่างจริงจัง เพื่อที่จะได้ตัดสินใจลงทุนแบบมีข้อมูลซัพพอร์ต",
+      "chunks": [
+        "I am actively researching different tech companies",
+        "so",
+        "that I can make highly informed investment decisions."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:63",
+      "legacyId": "Theme_1-62",
+      "position": 63,
+      "script": "I always wear complete protective gear so that I can stay completely safe while riding my motorcycle.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันใส่เซ็ตป้องกันแบบจัดเต็มเสมอ เพื่อความปลอดภัยขั้นสุดเวลาขี่มอเตอร์ไซค์",
+      "chunks": [
+        "I always wear complete protective gear",
+        "so",
+        "that I can stay completely safe",
+        "while riding my motorcycle."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:64",
+      "legacyId": "Theme_1-63",
+      "position": 64,
+      "script": "I will bring my heavy laptop to the university in case we need to work on the group project together.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะแบกแล็ปท็อปไปมหาลัยด้วย เผื่อว่าพวกเราต้องปั่นงานกลุ่มด้วยกัน",
+      "chunks": [
+        "I will bring my heavy laptop",
+        "to the university",
+        "in case we need",
+        "to work",
+        "on the group project together."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:65",
+      "legacyId": "Theme_1-64",
+      "position": 65,
+      "script": "I will keep some extra cash hidden in my wallet in case there is an unexpected emergency on the road.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะซ่อนเงินสดสำรองไว้ในกระเป๋าตังค์ เผื่อเกิดเหตุฉุกเฉินไม่คาดฝันตอนอยู่บนถนน",
+      "chunks": [
+        "I will keep some extra cash hidden",
+        "in my wallet",
+        "in case there is an unexpected emergency",
+        "on the road."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:66",
+      "legacyId": "Theme_1-65",
+      "position": 66,
+      "script": "I will buy some extra chicken breast and eggs in case I don't have time to go to the market later.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะซื้ออกไก่กับไข่ตุนไว้เผื่อว่าเดี๋ยวจะไม่มีเวลาไปตลาด",
+      "chunks": [
+        "I will buy some extra chicken breast",
+        "and eggs",
+        "in case I don't have time",
+        "to go",
+        "to the market later."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:67",
+      "legacyId": "Theme_1-66",
+      "position": 67,
+      "script": "Ever since I started studying data science, I have become much more analytical in my daily life decisions.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตั้งแต่เริ่มเรียนดาต้าซายน์ ฉันก็กลายเป็นคนที่มีเหตุมีผลในการตัดสินใจเรื่องต่างๆ มากขึ้น",
+      "chunks": [
+        "Ever since I started studying data science,",
+        "I have become much more analytical",
+        "in my daily life decisions."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:68",
+      "legacyId": "Theme_1-67",
+      "position": 68,
+      "script": "Ever since I bought my Forza 350, my daily commute to the campus has become significantly faster.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตั้งแต่ซื้อฟอร์ซ่า 350 มา การเดินทางไปมหาลัยทุกวันของฉันก็เร็วขึ้นแบบเห็นได้ชัด",
+      "chunks": [
+        "Ever since I bought my Forza 350,",
+        "my daily commute",
+        "to the campus has become significantly faster."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:69",
+      "legacyId": "Theme_1-68",
+      "position": 69,
+      "script": "Ever since I strictly followed my new skincare routine, my skin texture has improved a lot.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตั้งแต่ฉันทำสกินแคร์รูทีนใหม่อย่างเคร่งครัด สภาพผิวฉันก็ดีขึ้นเยอะมาก",
+      "chunks": [
+        "Ever since I strictly followed my new skincare routine,",
+        "my skin texture has improved a lot."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:70",
+      "legacyId": "Theme_1-69",
+      "position": 70,
+      "script": "I won't stop working on this machine learning algorithm until it runs perfectly without any bugs.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไม่หยุดแก้อัลกอริทึมตัวนี้จนกว่ามันจะรันได้สมบูรณ์แบบไร้บั๊ก",
+      "chunks": [
+        "I won't stop working",
+        "on this machine learning algorithm until it runs perfectly without any bugs."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:71",
+      "legacyId": "Theme_1-70",
+      "position": 71,
+      "script": "I won't buy any new video games until I completely finish the ones I already purchased last month.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไม่ซื้อเกมใหม่เพิ่มจนกว่าจะเล่นเกมที่ซื้อมาเมื่อเดือนที่แล้วจบหมด",
+      "chunks": [
+        "I won't buy any new video games until I completely finish the ones I already purchased last month."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:72",
+      "legacyId": "Theme_1-71",
+      "position": 72,
+      "script": "I won't leave the university library until I have completed at least two tough chapters of my textbook.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะไม่ออกจากห้องสมุดมหาลัยจนกว่าจะอ่านหนังสือบทหินๆ จบอย่างน้อยสองบท",
+      "chunks": [
+        "I won't leave the university library until I have completed",
+        "at least two tough chapters of my textbook."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:73",
+      "legacyId": "Theme_1-72",
+      "position": 73,
+      "script": "Despite feeling a bit sick this morning, I forced myself to attend the important morning lecture.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ทั้งที่รู้สึกป่วยนิดหน่อยเมื่อเช้า ฉันก็ยังฝืนตัวเองไปเข้าเลคเชอร์คาบสำคัญจนได้",
+      "chunks": [
+        "Despite feeling a bit sick this morning,",
+        "I forced myself",
+        "to attend the important morning lecture."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:74",
+      "legacyId": "Theme_1-73",
+      "position": 74,
+      "script": "Despite the extreme market volatility, I firmly continue to hold my shares in space exploration companies.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แม้ว่าตลาดจะผันผวนสุดๆ แต่ฉันก็ยังยืนหยัดถือหุ้นบริษัทอวกาศต่อไป",
+      "chunks": [
+        "Despite the extreme market volatility,",
+        "I firmly continue",
+        "to hold my shares",
+        "in space exploration companies."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:75",
+      "legacyId": "Theme_1-74",
+      "position": 75,
+      "script": "Despite my very demanding study schedule, I always try to find some time to relax and play games.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงตารางเรียนจะโหดแค่ไหน ฉันก็พยายามหาเวลาพักผ่อนเล่นเกมอยู่เสมอ",
+      "chunks": [
+        "Despite my very demanding study schedule,",
+        "I always try",
+        "to find some time",
+        "to relax",
+        "and play games."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:76",
+      "legacyId": "Theme_1-75",
+      "position": 76,
+      "script": "I need to figure out a smart way to balance my university studies with my personal stock investments.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องหาวิธีฉลาดๆ ในการบาลานซ์เรื่องเรียนมหาลัยกับการลงทุนหุ้นส่วนตัวให้ได้",
+      "chunks": [
+        "I need",
+        "to figure out a smart way",
+        "to balance my university studies",
+        "with my personal stock investments."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:77",
+      "legacyId": "Theme_1-76",
+      "position": 77,
+      "script": "I need to figure out why my computer keeps showing that annoying hardware error every time I boot it up.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องหาสาเหตุให้ได้ว่าทำไมคอมฉันถึงชอบขึ้นเออเรอร์ฮาร์ดแวร์น่ารำคาญนั่นทุกครั้งที่เปิดเครื่อง",
+      "chunks": [
+        "I need",
+        "to figure out why my computer keeps showing",
+        "that annoying hardware error every time I boot it up."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:78",
+      "legacyId": "Theme_1-77",
+      "position": 78,
+      "script": "I need to figure out a better structure to organize my massive study notes for the upcoming final exams.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องหาระบบจัดระเบียบช็อตโน้ตกองโตของฉันใหม่เพื่อเตรียมตัวสอบไฟนอลที่กำลังจะมาถึง",
+      "chunks": [
+        "I need",
+        "to figure out a better structure",
+        "to organize my massive study notes",
+        "for the upcoming final exams."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:79",
+      "legacyId": "Theme_1-78",
+      "position": 79,
+      "script": "I strongly wish I didn't have to worry so much about keeping my GPA high this difficult semester.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหวังจริงๆ ว่าตัวเองจะไม่ต้องมานั่งกังวลเรื่องการรักษาเกรดให้สูงในเทอมที่แสนยากนี้",
+      "chunks": [
+        "I strongly wish I didn't have",
+        "to worry",
+        "so much",
+        "about keeping my GPA high this difficult semester."
+      ]
+    },
+    {
+      "id": "en:session-3:Theme_1:80",
+      "legacyId": "Theme_1-79",
+      "position": 80,
+      "script": "I wish the traffic in Pathum Thani wasn't so dangerously unpredictable during the evening rush hours.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันหวังว่าการจราจรในปทุมธานีจะไม่คาดเดายากจนอันตรายขนาดนี้ในช่วงชั่วโมงเร่งด่วนตอนเย็น",
+      "chunks": [
+        "I wish the traffic",
+        "in Pathum Thani wasn't",
+        "so dangerously unpredictable during the evening rush hours."
+      ]
+    }
+  ]
+}

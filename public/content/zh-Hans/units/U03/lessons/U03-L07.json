@@ -1,0 +1,127 @@
+{
+  "id": "U03-L07",
+  "number": 7,
+  "title": "แถวนี้จอดรถได้ที่ไหนบ้าง",
+  "chunks": [
+    {
+      "id": "zh-Hans:U03-L07-C061",
+      "legacyId": "U03-L07-C061",
+      "position": 1,
+      "script": "这附近哪里可以停车？",
+      "pronunciation": "zhè fù jìn nǎ lǐ kě yǐ tíng chē?",
+      "phonetic": "เจ้อ ฟู่ จิ้น หน่า หลี่ เขอ อี่ ถิง เชอ?",
+      "translation": "แถวนี้จอดรถได้ที่ไหนบ้าง",
+      "chunks": [
+        "这附近哪里可以停车？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L07-C062",
+      "legacyId": "U03-L07-C062",
+      "position": 2,
+      "script": "你是怎么找到我这里的？",
+      "pronunciation": "nǐ shì zěn me zhǎo dào wǒ zhè lǐ de?",
+      "phonetic": "หนี่ สื้อ เจิ่น เมอ เจ่า ต้าว หว่อ เจ้อ หลี่ เตอ?",
+      "translation": "คุณหาทางมาถึงที่นี่ของฉันได้อย่างไร",
+      "chunks": [
+        "你是怎么找到我这里的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L07-C063",
+      "legacyId": "U03-L07-C063",
+      "position": 3,
+      "script": "你觉得我们接下来该怎么办？",
+      "pronunciation": "nǐ jué de wǒ men jiē xià lái gāi zěn me bàn?",
+      "phonetic": "หนี่ จว๋ะ เตอ หว่อ เมิน เจีย เซี่ย ไหล ไก เจิ่น เมอ ป้าน?",
+      "translation": "คุณคิดว่าพวกเราควรทำยังไงต่อไปดี",
+      "chunks": [
+        "你觉得我们接下来该怎么办？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L07-C064",
+      "legacyId": "U03-L07-C064",
+      "position": 4,
+      "script": "这件衣服打完折多少钱？",
+      "pronunciation": "zhè jiàn yī fu dǎ wán zhé duō shǎo qián?",
+      "phonetic": "เจ้อ เจี้ยน อี ฟุ ต๋า หวัน เจ๋อ ตัว เส่า เฉียน?",
+      "translation": "เสื้อตัวนี้ลดราคาเสร็จแล้วเท่าไหร่",
+      "chunks": [
+        "这件衣服打完折多少钱？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L07-C065",
+      "legacyId": "U03-L07-C065",
+      "position": 5,
+      "script": "你每个月的房租是多少？",
+      "pronunciation": "nǐ měi gè yuè de fáng zū shì duō shǎo?",
+      "phonetic": "หนี่ เหม่ย เก้อ ยวี่เอ้ เตอ ฝาง จู สื้อ ตัว เส่า?",
+      "translation": "ค่าเช่าบ้านของคุณแต่ละเดือนคือเท่าไหร่",
+      "chunks": [
+        "你每个月的房租是多少？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L07-C066",
+      "legacyId": "U03-L07-C066",
+      "position": 6,
+      "script": "你打算去中国旅游几天？",
+      "pronunciation": "nǐ dǎ suàn qù zhōng guó lǚ yóu jǐ tiān?",
+      "phonetic": "หนี่ ต๋า ส้วน ชวี่ จง ก๋ัว ลวี่ โหย่ว จี๋ เทียน?",
+      "translation": "คุณวางแผนจะไปเที่ยวจีนกี่วัน",
+      "chunks": [
+        "你打算去中国旅游几天？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L07-C067",
+      "legacyId": "U03-L07-C067",
+      "position": 7,
+      "script": "这样写合不合适？",
+      "pronunciation": "zhè yàng xiě hé bù hé shì?",
+      "phonetic": "เจ้อ ย่าง เสี่ย เหอ ปู้ เหอ สื้อ?",
+      "translation": "เขียนแบบนี้เหมาะสมหรือเปล่า",
+      "chunks": [
+        "这样写合不合适？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L07-C068",
+      "legacyId": "U03-L07-C068",
+      "position": 8,
+      "script": "明天下午三点去接你，行不行？",
+      "pronunciation": "míng tiān xià wǔ sān diǎn qù jiē nǐ, xíng bù xíng?",
+      "phonetic": "หมิง เทียน เซี่ย อู่ ซาน เตี่ยน ชวี่ เจีย หนี่, สิง ปู้ สิง?",
+      "translation": "พรุ่งนี้บ่ายสามโมงไปรับคุณ ได้ไหม",
+      "chunks": [
+        "明天下午三点去接你，行不行？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L07-C069",
+      "legacyId": "U03-L07-C069",
+      "position": 9,
+      "script": "你会不会觉得太麻烦他了？",
+      "pronunciation": "nǐ huì bú huì jué de tài má fan tā le?",
+      "phonetic": "หนี่ ฮุ่ย ปู๋ ฮุ่ย จว๋ะ เตอ ไท่ หมา ฝ่าน ทา เลอ?",
+      "translation": "คุณจะรู้สึกเกรงใจหรือรบกวนเขาเกินไปไหม",
+      "chunks": [
+        "你会不会觉得太麻烦他了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L07-C070",
+      "legacyId": "U03-L07-C070",
+      "position": 10,
+      "script": "我们是不是走错路了？",
+      "pronunciation": "wǒ men shì bú shì zǒu cuò lù le?",
+      "phonetic": "หว่อ เมิน สื้อ ปู๋ สื้อ โจ่ว ฉั่ว ลู่ เลอ?",
+      "translation": "พวกเราเดินหลงทาง / เดินผิดทางแล้วใช่ไหม",
+      "chunks": [
+        "我们是不是走错路了？"
+      ]
+    }
+  ]
+}

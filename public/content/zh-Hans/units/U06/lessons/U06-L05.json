@@ -1,0 +1,127 @@
+{
+  "id": "U06-L05",
+  "number": 5,
+  "title": "ต่อคิวจ่ายเงินที่ตรงไหน",
+  "chunks": [
+    {
+      "id": "zh-Hans:U06-L05-C041",
+      "legacyId": "U06-L05-C041",
+      "position": 1,
+      "script": "在哪里排队结账？",
+      "pronunciation": "zài nǎ lǐ pái duì jié zhàng?",
+      "phonetic": "ไซ้ หน่า หลี่ ไผ ตุ้ย เจี๋ย จ้าง?",
+      "translation": "ต่อคิวจ่ายเงินที่ตรงไหน",
+      "chunks": [
+        "在哪里排队结账？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L05-C042",
+      "legacyId": "U06-L05-C042",
+      "position": 2,
+      "script": "有小一点儿的袋子吗？",
+      "pronunciation": "yǒu xiǎo yì diǎnr de dài zi ma?",
+      "phonetic": "โหย่ว เสียว อี้ เดี๋ยร์ เตอ ต้าย จิ มะ?",
+      "translation": "มีถุงใบเล็กกว่านี้หน่อยไหม",
+      "chunks": [
+        "有小一点儿的袋子吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L05-C043",
+      "legacyId": "U06-L05-C043",
+      "position": 3,
+      "script": "这个款式很流行。",
+      "pronunciation": "zhè gè kuǎn shì hěn liú xíng.",
+      "phonetic": "เจ้อ เก้อ ขวั่น สื้อ เห่น หลิว สิง.",
+      "translation": "แบบนี้/ดีไซน์นี้กำลังฮิตมากเลย",
+      "chunks": [
+        "这个款式很流行。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L05-C044",
+      "legacyId": "U06-L05-C044",
+      "position": 4,
+      "script": "质量怎么样？",
+      "pronunciation": "zhè liàng zěn me yàng?",
+      "phonetic": "จื้อ เลี้ยง เจิ่น เมอ ย่าง?",
+      "translation": "คุณภาพเป็นยังไงบ้าง",
+      "chunks": [
+        "质量怎么样？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L05-C045",
+      "legacyId": "U06-L05-C045",
+      "position": 5,
+      "script": "纯棉的，不容易变性。",
+      "pronunciation": "chún mián de, bù róng yì biàn xíng.",
+      "phonetic": "ฉวาน เหมียน เตอ, ปู้ รง อิ เปี้ยน สิง.",
+      "translation": "ผ้าฝ้ายแท้ ไม่ย้วยง่าย",
+      "chunks": [
+        "纯棉的，不容易变性。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L05-C046",
+      "legacyId": "U06-L05-C046",
+      "position": 6,
+      "script": "这个需要手洗吗？",
+      "pronunciation": "zhè gè xū yào shǒu xǐ ma?",
+      "phonetic": "เจ้อ เก้อ ซวี่ เย้า โส่ว สี่ มะ?",
+      "translation": "ตัวนี้จำเป็นต้องซักมือไหม",
+      "chunks": [
+        "这个需要手洗吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L05-C047",
+      "legacyId": "U06-L05-C047",
+      "position": 7,
+      "script": "打八折是什么意思？",
+      "pronunciation": "dǎ bā zhé shì shén me yì si?",
+      "phonetic": "ต๋า ปา เจ๋อ สื้อ เซิ่น เมอ อี้ สิ?",
+      "translation": "ลด 20% หมายความว่ายังไง (จ่าย 80%)",
+      "chunks": [
+        "打八折是什么意思？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L05-C048",
+      "legacyId": "U06-L05-C048",
+      "position": 8,
+      "script": "价格可以再商量吗？",
+      "pronunciation": "jià gé kě yǐ zài shāng liang ma?",
+      "phonetic": "เจี้ย เก๋อ เขอ อี่ ไซ้ ซาง เหลี่ยง มะ?",
+      "translation": "ราคายังพอคุยกันได้อีกไหม",
+      "chunks": [
+        "价格可以再商量吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L05-C049",
+      "legacyId": "U06-L05-C049",
+      "position": 9,
+      "script": "算你便宜点，八十块吧。",
+      "pronunciation": "suàn nǐ pián yi diǎn, bā shí kuài ba.",
+      "phonetic": "ส้วน หนี่ เผียน อิ เตี่ยน, ปา สื้อ คว้าย ปะ.",
+      "translation": "คิดให้คุณถูกหน่อยละกัน แปดสิบหยวนแล้วกัน",
+      "chunks": [
+        "算你便宜点，八十块吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U06-L05-C050",
+      "legacyId": "U06-L05-C050",
+      "position": 10,
+      "script": "不能再便宜了，这已经是最低价了。",
+      "pronunciation": "bù néng zài pián yi le, zhè yǐ jīng shì zuì dī jià le.",
+      "phonetic": "ปู้ เหนิง ไซ้ เผียน อิ เลอ, เจ้อ อี่ จิง สื้อ จุ้ย ตี เจี้ย เลอ.",
+      "translation": "ลดไม่ได้อีกแล้ว นี่คือราคาต่ำสุดแล้ว",
+      "chunks": [
+        "不能再便宜了，这已经是最低价了。"
+      ]
+    }
+  ]
+}

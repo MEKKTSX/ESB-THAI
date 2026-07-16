@@ -1,0 +1,127 @@
+{
+  "id": "U10-L02",
+  "number": 2,
+  "title": "วันนี้คุณดูอารมณ์ดีนะเนี่ย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U10-L02-C011",
+      "legacyId": "U10-L02-C011",
+      "position": 1,
+      "script": "你今天看起来心情不错啊。",
+      "pronunciation": "nǐ jīn tiān kàn qǐ lái xīn qíng bú cuò a.",
+      "phonetic": "หนี่ จิน เทียน ค่าน ฉี่ ไหล ซิน ฉิง ปู๋ ฉั่ว อา.",
+      "translation": "วันนี้คุณดูอารมณ์ดีนะเนี่ย",
+      "chunks": [
+        "你今天看起来心情不错啊。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L02-C012",
+      "legacyId": "U10-L02-C012",
+      "position": 2,
+      "script": "还行吧，主要是工作挺顺利的。",
+      "pronunciation": "hái xíng ba, zhǔ yào shì gōng zuò tǐng shùn lì de.",
+      "phonetic": "หาย สิง ปะ, จู่ เย้า สื้อ กง จั้ว ถิ่ง สวิ่น ลี่ เตอ.",
+      "translation": "ก็โอเคนะ หลักๆ เป็นเพราะงานค่อนข้างราบรื่นดี",
+      "chunks": [
+        "还行吧，主要是工作挺顺利的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L02-C013",
+      "legacyId": "U10-L02-C013",
+      "position": 3,
+      "script": "那太好了，晚上去喝一杯庆祝一下？",
+      "pronunciation": "nà tài hǎo le, wǎn shang qù hē yì bēi qìng zhù yí xià?",
+      "phonetic": "น้า ไท่ ห่าว เลอ, หวั่น ส่าง ชวี่ เฮอ อี้ เปย ชิ่ง จู้ อี๋ เซี่ย?",
+      "translation": "ดีจัง เย็นนี้ไปดื่มสักแก้วฉลองหน่อยไหม",
+      "chunks": [
+        "那太好了，晚上去喝一杯庆祝一下？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L02-C014",
+      "legacyId": "U10-L02-C014",
+      "position": 4,
+      "script": "行啊，下班后老地方见。",
+      "pronunciation": "xíng a, xià bān hòu lǎo dì fang jiàn.",
+      "phonetic": "สิง อา, เซี่ย ปาน โห่ว เหล่า ตี้ ฝ่าง เจี้ยน.",
+      "translation": "ได้สิ หลังเลิกงานเจอกันที่เก่านะ",
+      "chunks": [
+        "行啊，下班后老地方见。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L02-C015",
+      "legacyId": "U10-L02-C015",
+      "position": 5,
+      "script": "最近好吗？听你声音有点累。",
+      "pronunciation": "zuì jìn hǎo ma? tīng nǐ shēng yīn yǒu diǎn lèi.",
+      "phonetic": "จุ้ย จิ้น ห่าว มะ？ ทิง หนี่ เซิง อิน โหย่ว เตี่ยน เลุ่ย.",
+      "translation": "ช่วงนี้สบายดีไหม ฟังจากเสียงดูเหนื่อยๆ นะ",
+      "chunks": [
+        "最近好吗？听你声音有点累。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L02-C016",
+      "legacyId": "U10-L02-C016",
+      "position": 6,
+      "script": "别提了，这周天天加班，快累瘫了。",
+      "pronunciation": "bié tí le, zhè zhōu tiān tiān jiā bān, kuài lèi tān le.",
+      "phonetic": "เปี๋ย ถี เลอ, เจ้อ โจว เทียน เทียน เจีย ปาน, คว้าย เลุ่ย ทาน เลอ.",
+      "translation": "อย่าพูดถึงมันเลย สัปดาห์นี้อยู่โอทีทุกวัน เหนื่อยร่างพังแล้วเนี่ย",
+      "chunks": [
+        "别提了，这周天天加班，快累瘫了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L02-C017",
+      "legacyId": "U10-L02-C017",
+      "position": 7,
+      "script": "那周末出来放松一下，请你吃大餐。",
+      "pronunciation": "nà zhōu mò chū lái fàng sōng yí xià, qǐng nǐ chī dà cān.",
+      "phonetic": "น้า โจว ม่อ ชู ไหล ฟ้าง โซง อี๋ เซี่ย, ฉิ่ง หนี่ ชือ ต้า ไช้.",
+      "translation": "งั้นวันหยุดออกมาผ่อนคลายหน่อย เดี๋ยวเลี้ยงมื้อใหญ่",
+      "chunks": [
+        "那周末出来放松一下，请你吃大餐。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L02-C018",
+      "legacyId": "U10-L02-C018",
+      "position": 8,
+      "script": "哈哈，一言为定，那我要吃火锅。",
+      "pronunciation": "hā hā, yì yán wéi dìng, nà wǒ yào chī huǒ guō.",
+      "phonetic": "ฮา ฮา, อี้ แหยน เย ติ้ง, น้า หว่อ เย้า ชือ โห่ว กัว.",
+      "translation": "555 พูดแล้วไม่คืนคำนะ งั้นฉันจะกินหม้อไฟ",
+      "chunks": [
+        "哈哈，一言为定，那我要吃火锅。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L02-C019",
+      "legacyId": "U10-L02-C019",
+      "position": 9,
+      "script": "你吃晚饭了吗？没吃一起吃吧。",
+      "pronunciation": "nǐ chī wǎn fàn le ma? méi chī yì qǐ chī ba.",
+      "phonetic": "หนี่ ชือ หวั่น ฟ้าน เลอ มะ？ เหมย ชือ อี้ ฉี่ ชือ ปะ.",
+      "translation": "กินข้าวเย็นหรือยัง ถ้ายังไม่กินก็มากินด้วยกันสิ",
+      "chunks": [
+        "你吃晚饭了吗？没吃一起吃吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U10-L02-C020",
+      "legacyId": "U10-L02-C020",
+      "position": 10,
+      "script": "我刚好准备点外卖，你想去哪儿吃？",
+      "pronunciation": "wǒ gāng hǎo zhǔn bèi diǎn wài mài, nǐ xiǎng qù nǎr chī?",
+      "phonetic": "หว่อ กัง ห่าว จวิ๋น เป้ย เตี่ยน ไว้ ม้าย, หนี่ แฉี่ยง ชวี่ หน่าร์ ชือ?",
+      "translation": "กำลังจะกดสั่งเดลิเวอรีพอดีเลย คุณอยากไปกินที่ไหนล่ะ",
+      "chunks": [
+        "我刚好准备点外卖，你想去哪儿吃？"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "id": "C2",
+  "number": 3,
+  "title": "C. Life Experiences (Present Perfect)",
+  "chunks": [
+    {
+      "id": "en:session-2:C2:1",
+      "legacyId": "C2-0",
+      "position": 1,
+      "script": "I have finished my homework.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันทำการบ้านเสร็จแล้ว",
+      "chunks": [
+        "I have finished my homework."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:2",
+      "legacyId": "C2-1",
+      "position": 2,
+      "script": "I have seen that movie three times.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันดูหนังเรื่องนั้นมา 3 รอบแล้ว",
+      "chunks": [
+        "I have seen",
+        "that movie three times."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:3",
+      "legacyId": "C2-2",
+      "position": 3,
+      "script": "I have been to Paris twice.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยไปปารีสมา 2 ครั้ง",
+      "chunks": [
+        "I have been",
+        "to Paris twice."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:4",
+      "legacyId": "C2-3",
+      "position": 4,
+      "script": "I have lost my keys again.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันทำกุญแจหายอีกแล้ว",
+      "chunks": [
+        "I have lost my keys again."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:5",
+      "legacyId": "C2-4",
+      "position": 5,
+      "script": "I have forgotten his name.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันลืมชื่อเขาไปแล้ว",
+      "chunks": [
+        "I have forgotten his name."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:6",
+      "legacyId": "C2-5",
+      "position": 6,
+      "script": "I have read that book already.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอ่านหนังสือนั้นแล้ว",
+      "chunks": [
+        "I have read",
+        "that book already."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:7",
+      "legacyId": "C2-6",
+      "position": 7,
+      "script": "I have decided to quit my job.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันตัดสินใจลาออกจากงานแล้ว",
+      "chunks": [
+        "I have decided",
+        "to quit my job."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:8",
+      "legacyId": "C2-7",
+      "position": 8,
+      "script": "I have heard a lot about you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันได้ยินเรื่องของคุณมาเยอะมาก",
+      "chunks": [
+        "I have heard a lot",
+        "about you."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:9",
+      "legacyId": "C2-8",
+      "position": 9,
+      "script": "I have known her for ten years.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรู้จักเธอมา 10 ปีแล้ว",
+      "chunks": [
+        "I have known her",
+        "for ten years."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:10",
+      "legacyId": "C2-9",
+      "position": 10,
+      "script": "I have lived here since 2015.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยู่ที่นี่มาตั้งแต่ปี 2015",
+      "chunks": [
+        "I have lived here since 2015."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:11",
+      "legacyId": "C2-10",
+      "position": 11,
+      "script": "I’ve just arrived at the station.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งมาถึงสถานี",
+      "chunks": [
+        "I’ve just arrived",
+        "at the station."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:12",
+      "legacyId": "C2-11",
+      "position": 12,
+      "script": "I’ve just sent you the file.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งส่งไฟล์ให้คุณ",
+      "chunks": [
+        "I’ve just sent you the file."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:13",
+      "legacyId": "C2-12",
+      "position": 13,
+      "script": "I’ve just finished eating.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งกินข้าวเสร็จ",
+      "chunks": [
+        "I’ve just finished eating."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:14",
+      "legacyId": "C2-13",
+      "position": 14,
+      "script": "I’ve just realized something important.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเพิ่งนึกเรื่องสำคัญออก",
+      "chunks": [
+        "I’ve just realized something important."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:15",
+      "legacyId": "C2-14",
+      "position": 15,
+      "script": "I’ve never eaten sushi before.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เคยทานซูชิมาก่อน",
+      "chunks": [
+        "I’ve never eaten sushi before."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:16",
+      "legacyId": "C2-15",
+      "position": 16,
+      "script": "I’ve never been to South America.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เคยไปอเมริกาใต้",
+      "chunks": [
+        "I’ve never been",
+        "to South America."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:17",
+      "legacyId": "C2-16",
+      "position": 17,
+      "script": "I’ve never met him in person.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เคยเจอเขาตัวเป็นๆ",
+      "chunks": [
+        "I’ve never met him",
+        "in person."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:18",
+      "legacyId": "C2-17",
+      "position": 18,
+      "script": "I’ve never tried skydiving.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เคยลองกระโดดร่ม",
+      "chunks": [
+        "I’ve never tried skydiving."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:19",
+      "legacyId": "C2-18",
+      "position": 19,
+      "script": "I’ve never heard of that band.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เคยได้ยินชื่อวงนั้นมาก่อน",
+      "chunks": [
+        "I’ve never heard of",
+        "that band."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:20",
+      "legacyId": "C2-19",
+      "position": 20,
+      "script": "I haven't seen you for ages.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไม่ได้เจอกันนานมากเลยนะ",
+      "chunks": [
+        "I haven't seen you",
+        "for ages."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:21",
+      "legacyId": "C2-20",
+      "position": 21,
+      "script": "I haven't finished it yet.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันยังทำไม่เสร็จเลย",
+      "chunks": [
+        "I haven't finished it yet."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:22",
+      "legacyId": "C2-21",
+      "position": 22,
+      "script": "I haven't decided where to go.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันยังไม่ได้ตัดสินใจว่าจะไปไหน",
+      "chunks": [
+        "I haven't decided",
+        "where",
+        "to go."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:23",
+      "legacyId": "C2-22",
+      "position": 23,
+      "script": "I haven't received the package.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันยังไม่ได้รับพัสดุเลย",
+      "chunks": [
+        "I haven't received the package."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:24",
+      "legacyId": "C2-23",
+      "position": 24,
+      "script": "I haven't had time to do it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันยังไม่มีเวลาทำมันเลย",
+      "chunks": [
+        "I haven't had time",
+        "to do it."
+      ]
+    },
+    {
+      "id": "en:session-2:C2:25",
+      "legacyId": "C2-24",
+      "position": 25,
+      "script": "Have you ever been to Thailand?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเคยไปประเทศไทยไหม?",
+      "chunks": [
+        "Have you ever been",
+        "to Thailand?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:26",
+      "legacyId": "C2-25",
+      "position": 26,
+      "script": "Have you ever tried Korean food?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเคยลองอาหารเกาหลีไหม?",
+      "chunks": [
+        "Have you ever tried Korean food?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:27",
+      "legacyId": "C2-26",
+      "position": 27,
+      "script": "Have you ever lost your wallet?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเคยทำกระเป๋าตังค์หายไหม?",
+      "chunks": [
+        "Have you ever lost your wallet?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:28",
+      "legacyId": "C2-27",
+      "position": 28,
+      "script": "Have you ever broken a bone?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเคยกระดูกหักไหม?",
+      "chunks": [
+        "Have you ever broken a bone?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:29",
+      "legacyId": "C2-28",
+      "position": 29,
+      "script": "Have you seen the new Spider-Man movie?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณดูสไปเดอร์แมนภาคใหม่หรือยัง?",
+      "chunks": [
+        "Have you seen the new Spider-Man movie?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:30",
+      "legacyId": "C2-29",
+      "position": 30,
+      "script": "Have you finished your work yet?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณทำงานเสร็จหรือยัง?",
+      "chunks": [
+        "Have you finished your work yet?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:31",
+      "legacyId": "C2-30",
+      "position": 31,
+      "script": "Have you found a new apartment yet?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณหาอะพาร์ตเมนต์ใหม่ได้หรือยัง?",
+      "chunks": [
+        "Have you found a new apartment yet?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:32",
+      "legacyId": "C2-31",
+      "position": 32,
+      "script": "Have you heard from him recently?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ช่วงนี้ได้ข่าวจากเขาบ้างไหม?",
+      "chunks": [
+        "Have you heard from him recently?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:33",
+      "legacyId": "C2-32",
+      "position": 33,
+      "script": "How long have you lived here?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณอยู่ที่นี่มานานแค่ไหนแล้ว?",
+      "chunks": [
+        "How long have you lived here?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:34",
+      "legacyId": "C2-33",
+      "position": 34,
+      "script": "How long have you worked for this company?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณทำงานบริษัทนี้มานานเท่าไหร่แล้ว?",
+      "chunks": [
+        "How long have you worked",
+        "for this company?"
+      ]
+    },
+    {
+      "id": "en:session-2:C2:35",
+      "legacyId": "C2-34",
+      "position": 35,
+      "script": "How long have you been waiting?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณรอมานานแค่ไหนแล้ว?",
+      "chunks": [
+        "How long have you been waiting?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U09-L01",
+  "number": 1,
+  "title": "ฉันดีใจมากเลย!",
+  "chunks": [
+    {
+      "id": "zh-Hans:U09-L01-C001",
+      "legacyId": "U09-L01-C001",
+      "position": 1,
+      "script": "我太高兴了！",
+      "pronunciation": "wǒ tài gāo xìng le!",
+      "phonetic": "หว่อ ไท่ เกา ซิ่ง เลอ!",
+      "translation": "ฉันดีใจมากเลย!",
+      "chunks": [
+        "我太高兴了！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L01-C002",
+      "legacyId": "U09-L01-C002",
+      "position": 2,
+      "script": "你别伤心了。",
+      "pronunciation": "nǐ bié shāng xīn le.",
+      "phonetic": "หนี่ เปี๋ย ซาง ซิน เลอ.",
+      "translation": "คุณอย่าเสียใจไปเลยนะ",
+      "chunks": [
+        "你别伤心了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L01-C003",
+      "legacyId": "U09-L01-C003",
+      "position": 3,
+      "script": "听到นี้，我很伤心。",
+      "pronunciation": "tīng dào zhè ge xiāo xi, wǒ hěn shāng xīn.",
+      "phonetic": "ทิง ต้าว เจ้อ เกอ เสียว สิ, หว่อ เหิ่น ซาง ซิน.",
+      "translation": "พอได้ยินข่าวนี้ ฉันเสียใจมากเลย",
+      "chunks": [
+        "听到นี้，我很伤心。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L01-C004",
+      "legacyId": "U09-L01-C004",
+      "position": 4,
+      "script": "看她哭得那么伤心，真可怜。",
+      "pronunciation": "kàn tā kū de nà me shāng xīn, zhēn kě lián.",
+      "phonetic": "ค่าน ทา คู เตอ น้า เมอ ซาง ซิน, เจิน เข่อ เหลียน.",
+      "translation": "เห็นเธอร้องไห้เสียใจขนาดนั้น น่าสงสารจริงๆ",
+      "chunks": [
+        "看她哭得那么伤心，真可怜。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L01-C005",
+      "legacyId": "U09-L01-C005",
+      "position": 5,
+      "script": "听到好消息，大家都乐坯了。",
+      "pronunciation": "tīng dào hǎo xiāo xi, dà jiā dōu lè huài le.",
+      "phonetic": "ทิง ต้าว ห่าว เสียว สิ, ต้า เจีย โตว เล่อ คล้าย เลอ.",
+      "translation": "พอได้ยินข่าวดี ทุกคนดีใจกันยกใหญ่เลย",
+      "chunks": [
+        "听到好消息，大家都乐坯了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L01-C006",
+      "legacyId": "U09-L01-C006",
+      "position": 6,
+      "script": "他沮丧地低下了头，什么也没说。",
+      "pronunciation": "tā jǔ sàng de dī xià le tóu, shén me yě méi shuō.",
+      "phonetic": "ทา จู่ ส้าง เตอ ตี เซี่ย เลอ โถ่ว, เซิ่น เมอ เยี่ย เหมย ซัว.",
+      "translation": "เขาซึมเศร้าคอตก ไม่พูดอะไรเลยสักคำ",
+      "chunks": [
+        "他沮丧地低下了头，什么也没说。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L01-C007",
+      "legacyId": "U09-L01-C007",
+      "position": 7,
+      "script": "这次考试拿了第一名，他整个人都飘了。",
+      "pronunciation": "zhè cì kǎo shì ná le dì yī míng, tā zhěng gè rén dōu piāo le.",
+      "phonetic": "เจ้อ ซี่ เข่า สื้อ น๋า เลอ ตี่ อี หมิง, ทา เจิ่ง เก้อ เหริน โตว เพียว เลอ.",
+      "translation": "สอบครั้งนี้ได้ที่หนึ่ง ตัวเขาเนี่ยลอยจนกู่ไม่กลับแล้ว",
+      "chunks": [
+        "这次考试拿了第一名，他整个人都飘了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L01-C008",
+      "legacyId": "U09-L01-C008",
+      "position": 8,
+      "script": "看你垂头丧气的，发生什么事了？",
+      "pronunciation": "kàn nǐ chuí tóu sàng qì de, fā shēng shén me shì le?",
+      "phonetic": "ค่าน หนี่ ฉุย โถ่ว ส้าง ชี่ เตอ, ฟา เซิง เซิ่น เมอ สื้อ เลอ?",
+      "translation": "เห็นคุณหน้าเศร้าคอตกขนาดนี้ เกิดเรื่องอะไรขึ้นหรือเปล่า",
+      "chunks": [
+        "看你垂头丧气的，发生什么事了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L01-C009",
+      "legacyId": "U09-L01-C009",
+      "position": 9,
+      "script": "别难过了，一切都会好起来的。",
+      "pronunciation": "bié nán guò le, yí qiè dōu huì hǎo qǐ lái de.",
+      "phonetic": "เปี๋ย นาน กั้ว เลอ, อี๋ เชี่ย โตว ฮุ่ย ห่าว ฉี่ ไหล เตอ.",
+      "translation": "อย่าเสียใจไปเลย ทุกอย่างมันจะดีขึ้นเองแหละ",
+      "chunks": [
+        "别难过了，一切都会好起来的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L01-C010",
+      "legacyId": "U09-L01-C010",
+      "position": 10,
+      "script": "这个周末过得真开心！",
+      "pronunciation": "zhè ge zhōu mò guò de zhēn kāi xīn!",
+      "phonetic": "เจ้อ เกอ โจว ม่อ กั้ว เตอ เจิน ไค ซิน!",
+      "translation": "สุดสัปดาห์นี้ใช้เวลาได้อย่างมีความสุขจริงๆ!",
+      "chunks": [
+        "这个周末过得真开心！"
+      ]
+    }
+  ]
+}

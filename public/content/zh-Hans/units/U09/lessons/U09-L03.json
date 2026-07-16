@@ -1,0 +1,127 @@
+{
+  "id": "U09-L03",
+  "number": 3,
+  "title": "อันนี้สนุกมากเลย!",
+  "chunks": [
+    {
+      "id": "zh-Hans:U09-L03-C021",
+      "legacyId": "U09-L03-C021",
+      "position": 1,
+      "script": "这个特别好玩！",
+      "pronunciation": "zhè ge tè bié hǎo wán!",
+      "phonetic": "เจ้อ เกอ เท่อ เปี๋ย ห่าว หวัน!",
+      "translation": "อันนี้สนุกมากเลย!",
+      "chunks": [
+        "这个特别好玩！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L03-C022",
+      "legacyId": "U09-L03-C022",
+      "position": 2,
+      "script": "太无聊了。",
+      "pronunciation": "tài wú liáo le.",
+      "phonetic": "ไท่ อู๋ เลี้ยว เลอ.",
+      "translation": "น่าเบื่อมากเลย / เซ็งมาก",
+      "chunks": [
+        "太无聊了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L03-C023",
+      "legacyId": "U09-L03-C023",
+      "position": 3,
+      "script": "每天重复同样的工作，太枯燥了。",
+      "pronunciation": "měi tiān chóng fù tóng yàng de gōng zuò, tài kū zào le.",
+      "phonetic": "เหม่ย เทียน ฉง ฟู่ ถง ย่าง เตอ กง จั้ว, ไท่ คู เค้า เลอ.",
+      "translation": "ต้องทำแต่งานเดิมๆ ซ้ำๆ ทุกวัน มันน่าเบื่อเกินไปแล้ว",
+      "chunks": [
+        "每天重复同样的工作，太枯燥了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L03-C024",
+      "legacyId": "U09-L03-C024",
+      "position": 4,
+      "script": "这部电影的剧情非常有意思。",
+      "pronunciation": "zhè bù diàn yǐng de jù qíng fēi cháng yǒu yì si.",
+      "phonetic": "เจ้อ ปู้ เตี้ยน อิ่ง เตอ จวี่ ฉิง เฟย ฉาง โหย่ว อี้ สิ.",
+      "translation": "เนื้อเรื่องของภาพยนตร์เรื่องนี้สนุกน่าสนใจมากจริงๆ",
+      "chunks": [
+        "这部电影的剧情非常有意思。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L03-C025",
+      "legacyId": "U09-L03-C025",
+      "position": 5,
+      "script": "昨晚看的那部电视剧很有趣！",
+      "pronunciation": "zuó wǎn kàn de nà bù diàn shì jù hěn yǒu qù!",
+      "phonetic": "จั๋ว หวั่น ค่าน เตอ น้า ปู้ เตี้ยน สื้อ จวี่ เหิ่น โหย่ว ชวี่!",
+      "translation": "ซีรีส์เมื่อคืนเรื่องนั้นสนุกน่าสนใจมากเลย!",
+      "chunks": [
+        "昨晚看的那部电视剧很有趣！"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L03-C026",
+      "legacyId": "U09-L03-C026",
+      "position": 6,
+      "script": "我觉得这个会议太枯燥了。",
+      "pronunciation": "wǒ jué de zhè ge huì yì tài kū zào le.",
+      "phonetic": "หว่อ จว๋ะ เตอ เจ้อ เกอ หุ่ย อี้ ไท่ คู เค้า เลอ.",
+      "translation": "ฉันรู้สึกว่าการประชุมนี้มันน่าเบื่อเกินไป",
+      "chunks": [
+        "我觉得这个会议太枯燥了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L03-C027",
+      "legacyId": "U09-L03-C027",
+      "position": 7,
+      "script": "นี้设计得太巧妙了，越玩越上瘾。",
+      "pronunciation": "zhè ge yóu xì shè jì de tài qiǎo miào le, yuè wán yuè shàng yǐn.",
+      "phonetic": "เจ้อ เกอ โหย่ว ซี่ เซ่อ จี้ เตอ ไท่ เฉี่ยว เมี้ยว เลอ, ยวี่เอ้ หวัน ยวี่เอ้ ส้าง ยิ่น.",
+      "translation": "เกมนี้ดีไซน์ออกมาได้เจ๋งมาก ยิ่งเล่นก็ยิ่งเสพติดหยุดไม่ได้",
+      "chunks": [
+        "นี้设计得太巧妙了，越玩越上瘾。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L03-C028",
+      "legacyId": "U09-L03-C028",
+      "position": 8,
+      "script": "整天坐着看报纸，日子过得真乏味。",
+      "pronunciation": "zhěng tiān zuò zhe kàn bào zhǐ, rì zi guò de zhēn fá wèi.",
+      "phonetic": "เจิ่ง เทียน จั่ว เจอะ ค่าน เป้า จื้อ, ยื้อ จิ กั้ว เตอ เจิน ฝา เว่ย.",
+      "translation": "นั่งอ่านหนังสือพิมพ์อยู่ได้ทั้งวัน ชีวิตช่างจืดชืดไร้รสชาติสิ้นดี",
+      "chunks": [
+        "整天坐着看报纸，日子过得真乏味。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L03-C029",
+      "legacyId": "U09-L03-C029",
+      "position": 9,
+      "script": "天天复习，我都快看吐了。",
+      "pronunciation": "tiān tiān fù xí, wǒ dōu kuài kàn tù le.",
+      "phonetic": "เทียน เทียน ฟู่ ซี่, หว่อ โตว คว้าย ค่าน ทู่ เลอ.",
+      "translation": "ทบทวนบทเรียนทุกวัน ฉันจะอ่านจนเอียนจะอ้วกอยู่แล้ว",
+      "chunks": [
+        "天天复习，我都快看吐了。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U09-L03-C030",
+      "legacyId": "U09-L03-C030",
+      "position": 10,
+      "script": "这种无聊的话题，我懒得参与。",
+      "pronunciation": "zhè zhǒng wú liáo de huà tí, wǒ lǎn de cān yù.",
+      "phonetic": "เจ้อ จง อู๋ เลี้ยว เตอ หว้า ถี, หว่อ หลั่น เตอ ซาน อวี่.",
+      "translation": "ประเด็นที่น่าเบื่อแบบนี้ ฉันขี้เกียจจะเข้าไปร่วมคุยด้วยหรอก",
+      "chunks": [
+        "这种无聊的话题，我懒得参与。"
+      ]
+    }
+  ]
+}

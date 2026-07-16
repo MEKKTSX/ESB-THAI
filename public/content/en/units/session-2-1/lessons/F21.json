@@ -1,0 +1,193 @@
+{
+  "id": "F21",
+  "number": 6,
+  "title": "F. Causative — have/get something done",
+  "chunks": [
+    {
+      "id": "en:session-2-1:F21:1",
+      "legacyId": "F21-0",
+      "position": 1,
+      "script": "I need to get my hair cut.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องไปตัดผมซักที",
+      "chunks": [
+        "I need",
+        "to get my hair cut."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:2",
+      "legacyId": "F21-1",
+      "position": 2,
+      "script": "She had her car repaired at the garage.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอเอารถไปซ่อมที่อู่",
+      "chunks": [
+        "She had her car repaired",
+        "at the garage."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:3",
+      "legacyId": "F21-2",
+      "position": 3,
+      "script": "I'm going to get my phone screen fixed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันจะเอาจอมือถือไปซ่อม",
+      "chunks": [
+        "I'm going",
+        "to get my phone screen fixed."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:4",
+      "legacyId": "F21-3",
+      "position": 4,
+      "script": "We had the air conditioner serviced last month.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดือนที่แล้วเราเรียกช่างมาเช็คแอร์",
+      "chunks": [
+        "We had the air conditioner serviced last month."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:5",
+      "legacyId": "F21-4",
+      "position": 5,
+      "script": "I need to get my eyes checked.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องไปตรวจสายตาซักที",
+      "chunks": [
+        "I need",
+        "to get my eyes checked."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:6",
+      "legacyId": "F21-5",
+      "position": 6,
+      "script": "She got her dress altered before the party.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอเอาชุดไปแก้ก่อนงานปาร์ตี้",
+      "chunks": [
+        "She got her dress altered before the party."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:7",
+      "legacyId": "F21-6",
+      "position": 7,
+      "script": "I had my laptop cleaned by a technician.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันให้ช่างทำความสะอาดแล็ปท็อปให้",
+      "chunks": [
+        "I had my laptop cleaned by a technician."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:8",
+      "legacyId": "F21-7",
+      "position": 8,
+      "script": "We're getting the apartment repainted next month.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดือนหน้าเราจะให้เขาทาสีอพาร์ตเมนต์ใหม่",
+      "chunks": [
+        "We're getting the apartment repainted next month."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:9",
+      "legacyId": "F21-8",
+      "position": 9,
+      "script": "I got my documents translated professionally.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันให้มืออาชีพแปลเอกสารให้",
+      "chunks": [
+        "I got my documents translated professionally."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:10",
+      "legacyId": "F21-9",
+      "position": 10,
+      "script": "She had her photo taken by a professional photographer.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอให้ช่างภาพมืออาชีพถ่ายรูปให้",
+      "chunks": [
+        "She had her photo taken by a professional photographer."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:11",
+      "legacyId": "F21-10",
+      "position": 11,
+      "script": "You should get that mole checked by a doctor.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณควรให้หมอตรวจไฝนั้นนะ",
+      "chunks": [
+        "You should get",
+        "that mole checked by a doctor."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:12",
+      "legacyId": "F21-11",
+      "position": 12,
+      "script": "He got his passport renewed last week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาทิตย์ที่แล้วเขาต่ออายุพาสปอร์ต",
+      "chunks": [
+        "He got his passport renewed last week."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:13",
+      "legacyId": "F21-12",
+      "position": 13,
+      "script": "I need to have this package delivered by tomorrow.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันต้องให้ส่งพัสดุนี้ถึงภายในพรุ่งนี้",
+      "chunks": [
+        "I need",
+        "to have this package delivered by tomorrow."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:14",
+      "legacyId": "F21-13",
+      "position": 14,
+      "script": "She had her nails done before the interview.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอไปทำเล็บก่อนสัมภาษณ์งาน",
+      "chunks": [
+        "She had her nails done before the interview."
+      ]
+    },
+    {
+      "id": "en:session-2-1:F21:15",
+      "legacyId": "F21-14",
+      "position": 15,
+      "script": "We had our house cleaned before the guests arrived.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราให้คนมาทำความสะอาดบ้านก่อนแขกมา",
+      "chunks": [
+        "We had our house cleaned before the guests arrived."
+      ]
+    }
+  ]
+}

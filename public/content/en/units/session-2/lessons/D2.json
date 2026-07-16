@@ -1,0 +1,276 @@
+{
+  "id": "D2",
+  "number": 4,
+  "title": "D. Past Habits & Changes (Used to)",
+  "chunks": [
+    {
+      "id": "en:session-2:D2:1",
+      "legacyId": "D2-0",
+      "position": 1,
+      "script": "I used to smoke, but I quit last year.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยสูบบุหรี่ แต่เลิกไปเมื่อปีที่แล้ว",
+      "chunks": [
+        "I used",
+        "to smoke,",
+        "but I quit last year."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:2",
+      "legacyId": "D2-1",
+      "position": 2,
+      "script": "I used to live in a small village.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยอยู่ในหมู่บ้านเล็กๆ",
+      "chunks": [
+        "I used",
+        "to live",
+        "in a small village."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:3",
+      "legacyId": "D2-2",
+      "position": 3,
+      "script": "I used to have long hair.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยไว้ผมยาว",
+      "chunks": [
+        "I used",
+        "to have long hair."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:4",
+      "legacyId": "D2-3",
+      "position": 4,
+      "script": "I used to play football every weekend.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยเตะบอลทุกสุดสัปดาห์",
+      "chunks": [
+        "I used",
+        "to play football every weekend."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:5",
+      "legacyId": "D2-4",
+      "position": 5,
+      "script": "I used to hate coffee, but now I love it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยเกลียดกาแฟ แต่ตอนนี้ชอบมาก",
+      "chunks": [
+        "I used",
+        "to hate coffee,",
+        "but now I love it."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:6",
+      "legacyId": "D2-5",
+      "position": 6,
+      "script": "I used to work in a restaurant.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยทำงานร้านอาหาร",
+      "chunks": [
+        "I used",
+        "to work",
+        "in a restaurant."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:7",
+      "legacyId": "D2-6",
+      "position": 7,
+      "script": "I used to be very shy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยเป็นคนขี้อายมาก",
+      "chunks": [
+        "I used",
+        "to be very shy."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:8",
+      "legacyId": "D2-7",
+      "position": 8,
+      "script": "I used to go to the gym every day.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยไปยิมทุกวัน",
+      "chunks": [
+        "I used",
+        "to go",
+        "to the gym every day."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:9",
+      "legacyId": "D2-8",
+      "position": 9,
+      "script": "I used to wake up early, but now I sleep in.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยตื่นเช้า แต่เดี๋ยวนี้ตื่นสาย",
+      "chunks": [
+        "I used",
+        "to wake up early,",
+        "but now I sleep",
+        "in."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:10",
+      "legacyId": "D2-9",
+      "position": 10,
+      "script": "We used to be close friends.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราเคยเป็นเพื่อนสนิทกัน",
+      "chunks": [
+        "We used",
+        "to be close friends."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:11",
+      "legacyId": "D2-10",
+      "position": 11,
+      "script": "I didn't use to like vegetables.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยไม่ชอบผัก",
+      "chunks": [
+        "I didn't use",
+        "to like vegetables."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:12",
+      "legacyId": "D2-11",
+      "position": 12,
+      "script": "I didn't use to exercise much.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเคยไม่ค่อยออกกำลังกาย",
+      "chunks": [
+        "I didn't use",
+        "to exercise much."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:13",
+      "legacyId": "D2-12",
+      "position": 13,
+      "script": "I didn't use to worry about money.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่เคยต้องกังวลเรื่องเงิน (แต่ตอนนี้กังวล)",
+      "chunks": [
+        "I didn't use",
+        "to worry",
+        "about money."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:14",
+      "legacyId": "D2-13",
+      "position": 14,
+      "script": "Did you use to have a dog?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเคยเลี้ยงหมาไหม?",
+      "chunks": [
+        "Did you use",
+        "to have a dog?"
+      ]
+    },
+    {
+      "id": "en:session-2:D2:15",
+      "legacyId": "D2-14",
+      "position": 15,
+      "script": "Did you use to live near here?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเคยอยู่แถวนี้หรือเปล่า?",
+      "chunks": [
+        "Did you use",
+        "to live near here?"
+      ]
+    },
+    {
+      "id": "en:session-2:D2:16",
+      "legacyId": "D2-15",
+      "position": 16,
+      "script": "Did you use to play video games?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อก่อนคุณเล่นเกมไหม?",
+      "chunks": [
+        "Did you use",
+        "to play video games?"
+      ]
+    },
+    {
+      "id": "en:session-2:D2:17",
+      "legacyId": "D2-16",
+      "position": 17,
+      "script": "Where did you use to go for holidays?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อก่อนคุณชอบไปเที่ยวไหนช่วงวันหยุด?",
+      "chunks": [
+        "Where did you use",
+        "to go",
+        "for holidays?"
+      ]
+    },
+    {
+      "id": "en:session-2:D2:18",
+      "legacyId": "D2-17",
+      "position": 18,
+      "script": "What did you use to do after school?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เมื่อก่อนหลังเลิกเรียนคุณทำอะไร?",
+      "chunks": [
+        "What did you use",
+        "to do after school?"
+      ]
+    },
+    {
+      "id": "en:session-2:D2:19",
+      "legacyId": "D2-18",
+      "position": 19,
+      "script": "It’s not like it used to be.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันไม่เหมือนเมื่อก่อนแล้ว",
+      "chunks": [
+        "It’s not like it used",
+        "to be."
+      ]
+    },
+    {
+      "id": "en:session-2:D2:20",
+      "legacyId": "D2-19",
+      "position": 20,
+      "script": "I’m not as fit as I used to be.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ฟิตเหมือนเมื่อก่อนแล้ว",
+      "chunks": [
+        "I’m not as fit as I used",
+        "to be."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+{
+  "id": "I2",
+  "number": 9,
+  "title": "I. Contrasts & Concessions",
+  "chunks": [
+    {
+      "id": "en:session-2:I2:1",
+      "legacyId": "I2-0",
+      "position": 1,
+      "script": "Although it was raining, we went out.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้ฝนจะตก เราก็ออกไปข้างนอก",
+      "chunks": [
+        "Although it was raining,",
+        "we went out."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:2",
+      "legacyId": "I2-1",
+      "position": 2,
+      "script": "Although he is old, he is very active.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงเขาจะแก่ แต่เขากระฉับกระเฉงมาก",
+      "chunks": [
+        "Although he is old,",
+        "he is very active."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:3",
+      "legacyId": "I2-2",
+      "position": 3,
+      "script": "Although I studied hard, I failed.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงฉันจะเรียนหนัก แต่ก็สอบตก",
+      "chunks": [
+        "Although I studied hard,",
+        "I failed."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:4",
+      "legacyId": "I2-3",
+      "position": 4,
+      "script": "Even though I was tired, I kept working.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงแม้ฉันจะเหนื่อย แต่ฉันก็ทำต่อไป",
+      "chunks": [
+        "Even though I was tired,",
+        "I kept working."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:5",
+      "legacyId": "I2-4",
+      "position": 5,
+      "script": "Even though it’s expensive, I want to buy it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงมันจะแพง แต่ฉันก็อยากได้",
+      "chunks": [
+        "Even though it’s expensive,",
+        "I want",
+        "to buy it."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:6",
+      "legacyId": "I2-5",
+      "position": 6,
+      "script": "Even though I like her, I can’t live with her.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ถึงฉันจะชอบเธอ แต่ฉันอยู่กับเธอไม่ได้",
+      "chunks": [
+        "Even though I like her,",
+        "I can’t live",
+        "with her."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:7",
+      "legacyId": "I2-6",
+      "position": 7,
+      "script": "I enjoyed the party, although I didn’t know anyone.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันสนุกกับงานปาร์ตี้ ถึงแม้จะไม่รู้จักใครเลย",
+      "chunks": [
+        "I enjoyed the party,",
+        "although I didn’t know anyone."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:8",
+      "legacyId": "I2-7",
+      "position": 8,
+      "script": "I bought the car, even though it was used.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันซื้อรถคันนั้น ถึงแม้มันจะเป็นรถมือสอง",
+      "chunks": [
+        "I bought the car,",
+        "even though it was used."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:9",
+      "legacyId": "I2-8",
+      "position": 9,
+      "script": "She is very nice, though she can be strict.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอนิสัยดีนะ ถึงแม้จะเข้มงวดไปบ้าง",
+      "chunks": [
+        "She is very nice,",
+        "though she can be strict."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:10",
+      "legacyId": "I2-9",
+      "position": 10,
+      "script": "It was a good movie, though it was a bit long.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "หนังดีนะ ถึงจะยาวไปหน่อย",
+      "chunks": [
+        "It was a good movie,",
+        "though it was a bit long."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:11",
+      "legacyId": "I2-10",
+      "position": 11,
+      "script": "I wanted to go, but I was too busy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันอยากไปนะ แต่ยุ่งมาก",
+      "chunks": [
+        "I wanted",
+        "to go,",
+        "but I was too busy."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:12",
+      "legacyId": "I2-11",
+      "position": 12,
+      "script": "The food was good, but the service was slow.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาหารอร่อย แต่บริการช้า",
+      "chunks": [
+        "The food was good,",
+        "but the service was slow."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:13",
+      "legacyId": "I2-12",
+      "position": 13,
+      "script": "I like this phone; however, it is too big.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันชอบมือถือเครื่องนี้นะ แต่อย่างไรก็ตาม มันใหญ่ไป",
+      "chunks": [
+        "I like this phone; however,",
+        "it is too big."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:14",
+      "legacyId": "I2-13",
+      "position": 14,
+      "script": "He is very smart; however, he is lazy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาฉลาดมาก แต่ติดที่ขี้เกียจ",
+      "chunks": [
+        "He is very smart; however,",
+        "he is lazy."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:15",
+      "legacyId": "I2-14",
+      "position": 15,
+      "script": "I love the city. On the other hand, it’s very noisy.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรักในตัวเมืองนะ แต่อีกมุมหนึ่ง มันเสียงดังมาก",
+      "chunks": [
+        "I love the city.",
+        "On the other hand,",
+        "it’s very noisy."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:16",
+      "legacyId": "I2-15",
+      "position": 16,
+      "script": "Driving is fast. On the other hand, parking is difficult.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขับรถมันเร็ว แต่อีกมุมหนึ่งหาที่จอดยาก",
+      "chunks": [
+        "Driving is fast.",
+        "On the other hand,",
+        "parking is difficult."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:17",
+      "legacyId": "I2-16",
+      "position": 17,
+      "script": "Living alone is free. On the other hand, it’s lonely.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อยู่คนเดียวมันอิสระ แต่อีกมุมหนึ่งมันก็เหงา",
+      "chunks": [
+        "Living alone is free.",
+        "On the other hand,",
+        "it’s lonely."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:18",
+      "legacyId": "I2-17",
+      "position": 18,
+      "script": "While I like coffee, I prefer tea in the morning.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในขณะที่ฉันชอบกาแฟ แต่ตอนเช้าฉันชอบชามากกว่า",
+      "chunks": [
+        "While I like coffee,",
+        "I prefer tea",
+        "in the morning."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:19",
+      "legacyId": "I2-18",
+      "position": 19,
+      "script": "While London is exciting, it is also expensive.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ในขณะที่ลอนดอนน่าตื่นตาตื่นใจ มันก็แพงด้วย",
+      "chunks": [
+        "While London is exciting,",
+        "it is also expensive."
+      ]
+    },
+    {
+      "id": "en:session-2:I2:20",
+      "legacyId": "I2-19",
+      "position": 20,
+      "script": "Unlike my brother, I am very quiet.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ต่างจากพี่ชายของฉัน ฉันเป็นคนเงียบๆ",
+      "chunks": [
+        "Unlike my brother,",
+        "I am very quiet."
+      ]
+    }
+  ]
+}

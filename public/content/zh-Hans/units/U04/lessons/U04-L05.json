@@ -1,0 +1,127 @@
+{
+  "id": "U04-L05",
+  "number": 5,
+  "title": "ตามใจคุณเลย / แล้วแต่คุณเลย",
+  "chunks": [
+    {
+      "id": "zh-Hans:U04-L05-C041",
+      "legacyId": "U04-L05-C041",
+      "position": 1,
+      "script": "随你便。",
+      "pronunciation": "suí nǐ biàn.",
+      "phonetic": "สุ่ย หนี่ เปี้ยน.",
+      "translation": "ตามใจคุณเลย / แล้วแต่คุณเลย",
+      "chunks": [
+        "随你便。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L05-C042",
+      "legacyId": "U04-L05-C042",
+      "position": 2,
+      "script": "都可以。",
+      "pronunciation": "dōu kě yǐ.",
+      "phonetic": "โตว เขอ อี่.",
+      "translation": "ได้หมดเลย / ยังไงก็ได้",
+      "chunks": [
+        "都可以。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L05-C043",
+      "legacyId": "U04-L05-C043",
+      "position": 3,
+      "script": "没什么大不了的。",
+      "pronunciation": "méi shén me dà bù liǎo de.",
+      "phonetic": "เหมย เสิน เมอ ต้า ปู้ เหลี่ยว เตอ.",
+      "translation": "ไม่ใช่เรื่องใหญ่อะไรหรอก",
+      "chunks": [
+        "没什么大不了的。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L05-C044",
+      "legacyId": "U04-L05-C044",
+      "position": 4,
+      "script": "你看着办吧。",
+      "pronunciation": "nǐ kàn zhe bàn ba.",
+      "phonetic": "หนี่ ค่าน เจอะ ป้าน ปะ.",
+      "translation": "คุณดูแลจัดการตามสมควรเลย",
+      "chunks": [
+        "你看着办吧。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L05-C045",
+      "legacyId": "U04-L05-C045",
+      "position": 5,
+      "script": "由你决定。",
+      "pronunciation": "yóu nǐ jué dìng.",
+      "phonetic": "โหย่ว หนี่ จว๋ะ ติ้ง.",
+      "translation": "ให้คุณเป็นคนตัดสินใจเลย",
+      "chunks": [
+        "由你决定。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L05-C046",
+      "legacyId": "U04-L05-C046",
+      "position": 6,
+      "script": "我也是。",
+      "pronunciation": "wǒ yě shì.",
+      "phonetic": "หว่อ เยี่ย สื้อ.",
+      "translation": "ฉันก็เหมือนกัน",
+      "chunks": [
+        "我也是。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L05-C047",
+      "legacyId": "U04-L05-C047",
+      "position": 7,
+      "script": "我也有同感。",
+      "pronunciation": "wǒ yě yǒu tóng gǎn.",
+      "phonetic": "หว่อ เยี่ย โหย่ว ถง ก๋ัน.",
+      "translation": "ฉันก็มีความรู้สึกแบบเดียวกัน",
+      "chunks": [
+        "我也有同感。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L05-C048",
+      "legacyId": "U04-L05-C048",
+      "position": 8,
+      "script": "我都一样。",
+      "pronunciation": "wǒ dōu yí yàng.",
+      "phonetic": "หว่อ โตว อี๋ ย่าง.",
+      "translation": "สำหรับฉันก็เหมือนกันหมด",
+      "chunks": [
+        "我都一样。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L05-C049",
+      "legacyId": "U04-L05-C049",
+      "position": 9,
+      "script": "算我一个。",
+      "pronunciation": "suàn wǒ yí gè.",
+      "phonetic": "ส้วน หว่อ อี๋ เก้อ.",
+      "translation": "นับฉันด้วยคนนึง",
+      "chunks": [
+        "算我一个。"
+      ]
+    },
+    {
+      "id": "zh-Hans:U04-L05-C050",
+      "legacyId": "U04-L05-C050",
+      "position": 10,
+      "script": "我也这么想。",
+      "pronunciation": "wǒ yě zhè me xiǎng.",
+      "phonetic": "หว่อ เยี่ย เจ้อ เมอ แฉี่ยง.",
+      "translation": "ฉันก็คิดแบบนี้เหมือนกัน",
+      "chunks": [
+        "我也这么想。"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,127 @@
+{
+  "id": "U03-L10",
+  "number": 10,
+  "title": "ขอโทษนะ ที่นี่สามารถแลกเงินตราต่างประเทศได้ไหม",
+  "chunks": [
+    {
+      "id": "zh-Hans:U03-L10-C091",
+      "legacyId": "U03-L10-C091",
+      "position": 1,
+      "script": "请问，这里可以换外币吗？",
+      "pronunciation": "qǐng wèn, zhè lǐ kě yǐ huàn wài bì ma?",
+      "phonetic": "ฉิ่ง เวิน, เจ้อ หลี่ เขอ อี่ ห้วน ไว้ ปี้ มะ?",
+      "translation": "ขอโทษนะ ที่นี่สามารถแลกเงินตราต่างประเทศได้ไหม",
+      "chunks": [
+        "请问，这里可以换外币吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L10-C092",
+      "legacyId": "U03-L10-C092",
+      "position": 2,
+      "script": "你一般都是怎么缓解压力的？",
+      "pronunciation": "nǐ yì bān dōu shì zěn me huǎn jiě yā lì de?",
+      "phonetic": "หนี่ อี้ ปาน โตว สื้อ เจิ่น เมอ หวั่น เจี่ย ยา ลี่ เตอ?",
+      "translation": "ปกติคุณมีวิธีคลายเครียดยังไงบ้าง",
+      "chunks": [
+        "你一般都是怎么缓解压力的？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L10-C093",
+      "legacyId": "U03-L10-C093",
+      "position": 3,
+      "script": "你觉得这个价格划算不划算？",
+      "pronunciation": "nǐ jué de zhè ge jià gé huá suàn bù huá suàn?",
+      "phonetic": "หนี่ จว๋ะ เตอ เจ้อ เกอ เจี้ย เก๋อ หวา ส้วน ปู้ หวา ส้วน?",
+      "translation": "คุณรู้สึกว่าราคานี้คุ้มค่าไหม",
+      "chunks": [
+        "你觉得这个价格划算不划算？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L10-C094",
+      "legacyId": "U03-L10-C094",
+      "position": 4,
+      "script": "要不要我开车去接你？",
+      "pronunciation": "yào bú yào wǒ kāi chē qù jiē nǐ?",
+      "phonetic": "เย้า ปู๋ เย้า หว่อ ไค เชอ ชวี่ เจีย หนี่?",
+      "translation": "จะให้ฉันขับรถไปรับคุณไหม",
+      "chunks": [
+        "要不要我开车去接你？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L10-C095",
+      "legacyId": "U03-L10-C095",
+      "position": 5,
+      "script": "你订好去北京的机票了吗？",
+      "pronunciation": "nǐ dìng hǎo qù běi jīng de jī piào le ma?",
+      "phonetic": "หนี่ ติ้ง ห่าว ชวี่ เป่ย จิง เตอ จี เพี้ยว มะ?",
+      "translation": "คุณจองตั๋วเครื่องบินไปปักกิ่งเรียบร้อยหรือยัง",
+      "chunks": [
+        "你订好去北京的机票了吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L10-C096",
+      "legacyId": "U03-L10-C096",
+      "position": 6,
+      "script": "我们是不是该出发了，不然要迟到了？",
+      "pronunciation": "wǒ men shì bú shì gāi chū fā le, bù rán yào chí dào le?",
+      "phonetic": "หว่อ เมิน สื้อ ปู๋ สื้อ ไก ชู ฟา เลอ, ปู้ หราน เย้า ฉี ต้าว เลอ?",
+      "translation": "พวกเราควรออกเดินทางได้แล้วใช่ไหม ไม่ใช่นั้นจะสายนะ",
+      "chunks": [
+        "我们是不是该出发了，不然要迟到了？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L10-C097",
+      "legacyId": "U03-L10-C097",
+      "position": 7,
+      "script": "你对未来的生活有什么打算？",
+      "pronunciation": "nǐ duì wèi lái de shēng huó yǒu shén me dǎ suàn?",
+      "phonetic": "หนี่ ตุ้ย เว่ย ไหล เตอ เซิง หวอ โหย่ว เซิ่น เมอ ต๋า ส้วน?",
+      "translation": "คุณมีการวางแผนยังไงเกี่ยวกับการใช้ชีวิตในอนาคต",
+      "chunks": [
+        "你对未来的生活有什么打算？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L10-C098",
+      "legacyId": "U03-L10-C098",
+      "position": 8,
+      "script": "你觉得这部电影的结局怎么样？",
+      "pronunciation": "nǐ jué de zhè bù diàn yǐng de jié jú zěn me yàng?",
+      "phonetic": "หนี่ จว๋ะ เตอ เจ้อ ปู้ เตี้ยน อิ่ง เตอ เจี๋ย จวี่ เจิ่น เมอ ย่าง?",
+      "translation": "คุณคิดว่าตอนจบของภาพยนตร์เรื่องนี้เป็นยังไงบ้าง",
+      "chunks": [
+        "你觉得这部电影的结局怎么样？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L10-C099",
+      "legacyId": "U03-L10-C099",
+      "position": 9,
+      "script": "这么晚了，你一个人回家安全吗？",
+      "pronunciation": "zhè me wǎn le, nǐ yí gè rén huí jiā ān quán ma?",
+      "phonetic": "เจ้อ เมอ หวั่น เลอ, หนี่ อี๋ เก้อ เหริน หุย เจีย อัน ฉวาน มะ?",
+      "translation": "ดึกขนาดนี้ คุณกลับบ้านคนเดียวปลอดภัยไหม",
+      "chunks": [
+        "这么晚了，你一个人回家安全吗？"
+      ]
+    },
+    {
+      "id": "zh-Hans:U03-L10-C100",
+      "legacyId": "U03-L10-C100",
+      "position": 10,
+      "script": "要不我们先去喝杯咖啡，等雨停了再走？",
+      "pronunciation": "yào bù wǒ men xiān qù hē bēi kā fēi, děng yǔ tíng le zài zǒu?",
+      "phonetic": "เย้า ปู้ หว่อ เมิน เซียน ชวี่ เฮอ เปย คา เฟย, เติ๋ง อวี่ ถิง เลอ ไซ้ โจ่ว?",
+      "translation": "พวกเราไปดื่มกาแฟกันก่อน รอให้ฝนหยุดตกแล้วค่อยไปดีไหม",
+      "chunks": [
+        "要不我们先去喝杯咖啡，等雨停了再走？"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "id": "A21",
+  "number": 1,
+  "title": "A. Passive Voice",
+  "chunks": [
+    {
+      "id": "en:session-2-1:A21:1",
+      "legacyId": "A21-0",
+      "position": 1,
+      "script": "The report is sent to the manager every Monday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รายงานถูกส่งให้ผู้จัดการทุกวันจันทร์",
+      "chunks": [
+        "The report is sent",
+        "to the manager every Monday."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:2",
+      "legacyId": "A21-1",
+      "position": 2,
+      "script": "English is spoken all over the world.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ภาษาอังกฤษถูกพูดกันทั่วโลก",
+      "chunks": [
+        "English is spoken all over the world."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:3",
+      "legacyId": "A21-2",
+      "position": 3,
+      "script": "The office is cleaned every night.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ออฟฟิศถูกทำความสะอาดทุกคืน",
+      "chunks": [
+        "The office is cleaned every night."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:4",
+      "legacyId": "A21-3",
+      "position": 4,
+      "script": "This product is sold online only.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สินค้าชิ้นนี้จำหน่ายเฉพาะออนไลน์",
+      "chunks": [
+        "This product is sold online only."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:5",
+      "legacyId": "A21-4",
+      "position": 5,
+      "script": "The results are announced every Friday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผลจะถูกประกาศทุกวันศุกร์",
+      "chunks": [
+        "The results are announced every Friday."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:6",
+      "legacyId": "A21-5",
+      "position": 6,
+      "script": "The meeting was cancelled at the last minute.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "การประชุมถูกยกเลิกในนาทีสุดท้าย",
+      "chunks": [
+        "The meeting was cancelled",
+        "at the last minute."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:7",
+      "legacyId": "A21-6",
+      "position": 7,
+      "script": "My wallet was stolen on the bus.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "กระเป๋าตังค์ฉันถูกขโมยบนรถเมล์",
+      "chunks": [
+        "My wallet was stolen",
+        "on the bus."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:8",
+      "legacyId": "A21-7",
+      "position": 8,
+      "script": "The email was sent to the wrong person.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อีเมลถูกส่งไปหาคนผิด",
+      "chunks": [
+        "The email was sent",
+        "to the wrong person."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:9",
+      "legacyId": "A21-8",
+      "position": 9,
+      "script": "The project was finished ahead of schedule.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โปรเจกต์เสร็จก่อนกำหนดเลย",
+      "chunks": [
+        "The project was finished ahead of schedule."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:10",
+      "legacyId": "A21-9",
+      "position": 10,
+      "script": "We were told to wait outside.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราถูกบอกให้ไปรอข้างนอก",
+      "chunks": [
+        "We were told",
+        "to wait outside."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:11",
+      "legacyId": "A21-10",
+      "position": 11,
+      "script": "The file was deleted by mistake.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ไฟล์ถูกลบโดยไม่ได้ตั้งใจ",
+      "chunks": [
+        "The file was deleted by mistake."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:12",
+      "legacyId": "A21-11",
+      "position": 12,
+      "script": "She was offered a job in Singapore.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอได้รับข้อเสนองานในสิงคโปร์",
+      "chunks": [
+        "She was offered a job",
+        "in Singapore."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:13",
+      "legacyId": "A21-12",
+      "position": 13,
+      "script": "The issue has been resolved.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปัญหาได้รับการแก้ไขแล้ว",
+      "chunks": [
+        "The issue has been resolved."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:14",
+      "legacyId": "A21-13",
+      "position": 14,
+      "script": "All the tickets have been sold out.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ตั๋วทั้งหมดขายหมดแล้ว",
+      "chunks": [
+        "All the tickets have been sold out."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:15",
+      "legacyId": "A21-14",
+      "position": 15,
+      "script": "The package has been delivered.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พัสดุถูกส่งถึงแล้ว",
+      "chunks": [
+        "The package has been delivered."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:16",
+      "legacyId": "A21-15",
+      "position": 16,
+      "script": "The deadline has been moved to next week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ดีดไลน์ถูกเลื่อนไปอาทิตย์หน้าแล้ว",
+      "chunks": [
+        "The deadline has been moved",
+        "to next week."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:17",
+      "legacyId": "A21-16",
+      "position": 17,
+      "script": "The app has been updated to the latest version.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แอปได้รับการอัปเดตเป็นเวอร์ชันล่าสุดแล้ว",
+      "chunks": [
+        "The app has been updated",
+        "to the latest version."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:18",
+      "legacyId": "A21-17",
+      "position": 18,
+      "script": "I haven't been told anything about this.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันไม่ได้รับแจ้งเรื่องนี้เลยสักนิด",
+      "chunks": [
+        "I haven't been told anything",
+        "about this."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:19",
+      "legacyId": "A21-18",
+      "position": 19,
+      "script": "The results will be announced next week.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ผลจะถูกประกาศสัปดาห์หน้า",
+      "chunks": [
+        "The results will be announced next week."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:20",
+      "legacyId": "A21-19",
+      "position": 20,
+      "script": "All employees will be given a bonus.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พนักงานทุกคนจะได้รับโบนัส",
+      "chunks": [
+        "All employees will be given a bonus."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:21",
+      "legacyId": "A21-20",
+      "position": 21,
+      "script": "The building will be demolished next year.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อาคารจะถูกรื้อถอนปีหน้า",
+      "chunks": [
+        "The building will be demolished next year."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:22",
+      "legacyId": "A21-21",
+      "position": 22,
+      "script": "This must be done before Friday.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เรื่องนี้ต้องเสร็จก่อนวันศุกร์",
+      "chunks": [
+        "This must be done before Friday."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:23",
+      "legacyId": "A21-22",
+      "position": 23,
+      "script": "Mistakes should be reported immediately.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ข้อผิดพลาดควรรายงานทันที",
+      "chunks": [
+        "Mistakes should be reported immediately."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:24",
+      "legacyId": "A21-23",
+      "position": 24,
+      "script": "This room can be booked online.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ห้องนี้สามารถจองออนไลน์ได้เลย",
+      "chunks": [
+        "This room can be booked online."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:25",
+      "legacyId": "A21-24",
+      "position": 25,
+      "script": "The form needs to be filled in completely.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฟอร์มต้องกรอกให้ครบทุกช่อง",
+      "chunks": [
+        "The form needs",
+        "to be filled",
+        "in completely."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:26",
+      "legacyId": "A21-25",
+      "position": 26,
+      "script": "This information might be used later.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ข้อมูลนี้อาจถูกนำไปใช้ภายหลัง",
+      "chunks": [
+        "This information might be used later."
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:27",
+      "legacyId": "A21-26",
+      "position": 27,
+      "script": "Was the report submitted on time?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รายงานถูกส่งตรงเวลาไหม?",
+      "chunks": [
+        "Was the report submitted",
+        "on time?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:28",
+      "legacyId": "A21-27",
+      "position": 28,
+      "script": "When was this photo taken?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "รูปนี้ถ่ายเมื่อไหร่?",
+      "chunks": [
+        "When was this photo taken?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:29",
+      "legacyId": "A21-28",
+      "position": 29,
+      "script": "Has the problem been fixed yet?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ปัญหานั้นได้รับการแก้ไขหรือยัง?",
+      "chunks": [
+        "Has the problem been fixed yet?"
+      ]
+    },
+    {
+      "id": "en:session-2-1:A21:30",
+      "legacyId": "A21-29",
+      "position": 30,
+      "script": "Where is the meeting being held?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "การประชุมจัดที่ไหน?",
+      "chunks": [
+        "Where is the meeting being held?"
+      ]
+    }
+  ]
+}

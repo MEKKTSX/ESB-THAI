@@ -1,0 +1,138 @@
+{
+  "id": "T2",
+  "number": 20,
+  "title": "T. Tag Questions",
+  "chunks": [
+    {
+      "id": "en:session-2:T2:1",
+      "legacyId": "T2-0",
+      "position": 1,
+      "script": "You are coming, aren't you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณจะมา ใช่ไหม?",
+      "chunks": [
+        "You are coming,",
+        "aren't you?"
+      ]
+    },
+    {
+      "id": "en:session-2:T2:2",
+      "legacyId": "T2-1",
+      "position": 2,
+      "script": "You like coffee, don't you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณชอบกาแฟ ใช่ไหม?",
+      "chunks": [
+        "You like coffee,",
+        "don't you?"
+      ]
+    },
+    {
+      "id": "en:session-2:T2:3",
+      "legacyId": "T2-2",
+      "position": 3,
+      "script": "You didn't see him, did you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณไม่เห็นเขา ใช่ไหม?",
+      "chunks": [
+        "You didn't see him,",
+        "did you?"
+      ]
+    },
+    {
+      "id": "en:session-2:T2:4",
+      "legacyId": "T2-3",
+      "position": 4,
+      "script": "It’s a nice day, isn't it?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อากาศดีเนอะ ว่าไหม?",
+      "chunks": [
+        "It’s a nice day,",
+        "isn't it?"
+      ]
+    },
+    {
+      "id": "en:session-2:T2:5",
+      "legacyId": "T2-4",
+      "position": 5,
+      "script": "She is a doctor, isn't she?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เธอเป็นหมอ ใช่ไหม?",
+      "chunks": [
+        "She is a doctor,",
+        "isn't she?"
+      ]
+    },
+    {
+      "id": "en:session-2:T2:6",
+      "legacyId": "T2-5",
+      "position": 6,
+      "script": "He can swim, can't he?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาว่ายน้ำเป็น ใช่ไหม?",
+      "chunks": [
+        "He can swim,",
+        "can't he?"
+      ]
+    },
+    {
+      "id": "en:session-2:T2:7",
+      "legacyId": "T2-6",
+      "position": 7,
+      "script": "We are late, aren't we?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เราสายแล้ว ใช่ไหม?",
+      "chunks": [
+        "We are late,",
+        "aren't we?"
+      ]
+    },
+    {
+      "id": "en:session-2:T2:8",
+      "legacyId": "T2-7",
+      "position": 8,
+      "script": "You have been there, haven't you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณเคยไปที่นั่น ใช่ไหม?",
+      "chunks": [
+        "You have been there,",
+        "haven't you?"
+      ]
+    },
+    {
+      "id": "en:session-2:T2:9",
+      "legacyId": "T2-8",
+      "position": 9,
+      "script": "They live in London, don't they?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "พวกเขาอยู่ที่ลอนดอน ใช่ไหม?",
+      "chunks": [
+        "They live",
+        "in London,",
+        "don't they?"
+      ]
+    },
+    {
+      "id": "en:session-2:T2:10",
+      "legacyId": "T2-9",
+      "position": 10,
+      "script": "You won't tell anyone, will you?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณจะไม่บอกใคร ใช่ไหม?",
+      "chunks": [
+        "You won't tell anyone,",
+        "will you?"
+      ]
+    }
+  ]
+}

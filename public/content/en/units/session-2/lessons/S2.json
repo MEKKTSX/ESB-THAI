@@ -1,0 +1,132 @@
+{
+  "id": "S2",
+  "number": 19,
+  "title": "S. Quantity & Degree",
+  "chunks": [
+    {
+      "id": "en:session-2:S2:1",
+      "legacyId": "S2-0",
+      "position": 1,
+      "script": "It’s too hot to go outside.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันร้อนเกินกว่าจะออกไปข้างนอก",
+      "chunks": [
+        "It’s too hot",
+        "to go outside."
+      ]
+    },
+    {
+      "id": "en:session-2:S2:2",
+      "legacyId": "S2-1",
+      "position": 2,
+      "script": "It’s too expensive for me.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มันแพงเกินไปสำหรับฉัน",
+      "chunks": [
+        "It’s too expensive",
+        "for me."
+      ]
+    },
+    {
+      "id": "en:session-2:S2:3",
+      "legacyId": "S2-2",
+      "position": 3,
+      "script": "The music is too loud.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เพลงเสียงดังเกินไป",
+      "chunks": [
+        "The music is too loud."
+      ]
+    },
+    {
+      "id": "en:session-2:S2:4",
+      "legacyId": "S2-3",
+      "position": 4,
+      "script": "I’m too tired to cook.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันเหนื่อยเกินกว่าจะทำอาหาร",
+      "chunks": [
+        "I’m too tired",
+        "to cook."
+      ]
+    },
+    {
+      "id": "en:session-2:S2:5",
+      "legacyId": "S2-4",
+      "position": 5,
+      "script": "He is too young to drive.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เขาเด็กเกินกว่าจะขับรถ",
+      "chunks": [
+        "He is too young",
+        "to drive."
+      ]
+    },
+    {
+      "id": "en:session-2:S2:6",
+      "legacyId": "S2-5",
+      "position": 6,
+      "script": "I don’t have enough money.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมีเงินไม่พอ",
+      "chunks": [
+        "I don’t have enough money."
+      ]
+    },
+    {
+      "id": "en:session-2:S2:7",
+      "legacyId": "S2-6",
+      "position": 7,
+      "script": "I don’t have enough time.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันมีเวลาไม่พอ",
+      "chunks": [
+        "I don’t have enough time."
+      ]
+    },
+    {
+      "id": "en:session-2:S2:8",
+      "legacyId": "S2-7",
+      "position": 8,
+      "script": "This room isn’t big enough.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ห้องนี้ใหญ่ไม่พอ",
+      "chunks": [
+        "This room isn’t big enough."
+      ]
+    },
+    {
+      "id": "en:session-2:S2:9",
+      "legacyId": "S2-8",
+      "position": 9,
+      "script": "It’s not warm enough to swim.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "อากาศไม่ร้อนพอที่จะว่ายน้ำ",
+      "chunks": [
+        "It’s not warm enough",
+        "to swim."
+      ]
+    },
+    {
+      "id": "en:session-2:S2:10",
+      "legacyId": "S2-9",
+      "position": 10,
+      "script": "Did you buy enough food?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ซื้ออาหารมาพอไหม?",
+      "chunks": [
+        "Did you buy enough food?"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "id": "I",
+  "number": 9,
+  "title": "I. Online, Phone & Chat",
+  "chunks": [
+    {
+      "id": "en:session-1:I:1",
+      "legacyId": "I-0",
+      "position": 1,
+      "script": "Can you hear me?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ได้ยินฉันไหม?",
+      "chunks": [
+        "Can you hear me?"
+      ]
+    },
+    {
+      "id": "en:session-1:I:2",
+      "legacyId": "I-1",
+      "position": 2,
+      "script": "Can you see me?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เห็นฉันไหม?",
+      "chunks": [
+        "Can you see me?"
+      ]
+    },
+    {
+      "id": "en:session-1:I:3",
+      "legacyId": "I-2",
+      "position": 3,
+      "script": "Can you see my screen?",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เห็นหน้าจอฉันไหม?",
+      "chunks": [
+        "Can you see my screen?"
+      ]
+    },
+    {
+      "id": "en:session-1:I:4",
+      "legacyId": "I-3",
+      "position": 4,
+      "script": "The connection is bad.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "สัญญาณไม่ดีเลย",
+      "chunks": [
+        "The connection is bad."
+      ]
+    },
+    {
+      "id": "en:session-1:I:5",
+      "legacyId": "I-4",
+      "position": 5,
+      "script": "The internet is slow.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เน็ตช้ามาก",
+      "chunks": [
+        "The internet is slow."
+      ]
+    },
+    {
+      "id": "en:session-1:I:6",
+      "legacyId": "I-5",
+      "position": 6,
+      "script": "You are breaking up.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เสียงคุณขาดๆ หายๆ",
+      "chunks": [
+        "You are breaking up."
+      ]
+    },
+    {
+      "id": "en:session-1:I:7",
+      "legacyId": "I-6",
+      "position": 7,
+      "script": "You are on mute.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "คุณปิดไมค์อยู่",
+      "chunks": [
+        "You are",
+        "on mute."
+      ]
+    },
+    {
+      "id": "en:session-1:I:8",
+      "legacyId": "I-7",
+      "position": 8,
+      "script": "I’m calling you now.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังโทรหาคุณ",
+      "chunks": [
+        "I’m calling you now."
+      ]
+    },
+    {
+      "id": "en:session-1:I:9",
+      "legacyId": "I-8",
+      "position": 9,
+      "script": "I’m texting you.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังส่งข้อความหาคุณ",
+      "chunks": [
+        "I’m texting you."
+      ]
+    },
+    {
+      "id": "en:session-1:I:10",
+      "legacyId": "I-9",
+      "position": 10,
+      "script": "I’m sending an email.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันกำลังส่งอีเมล",
+      "chunks": [
+        "I’m sending an email."
+      ]
+    },
+    {
+      "id": "en:session-1:I:11",
+      "legacyId": "I-10",
+      "position": 11,
+      "script": "I’m waiting for your reply.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ฉันรอคุณตอบอยู่นะ",
+      "chunks": [
+        "I’m waiting",
+        "for your reply."
+      ]
+    },
+    {
+      "id": "en:session-1:I:12",
+      "legacyId": "I-11",
+      "position": 12,
+      "script": "Let me check my phone.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ขอเช็คโทรศัพท์แป๊บ",
+      "chunks": [
+        "Let me check my phone."
+      ]
+    },
+    {
+      "id": "en:session-1:I:13",
+      "legacyId": "I-12",
+      "position": 13,
+      "script": "Let me Google it.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เดี๋ยวขอลองกูเกิลดูก่อน",
+      "chunks": [
+        "Let me Google it."
+      ]
+    },
+    {
+      "id": "en:session-1:I:14",
+      "legacyId": "I-13",
+      "position": 14,
+      "script": "Check your inbox.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "เช็คกล่องข้อความหน่อย",
+      "chunks": [
+        "Check your inbox."
+      ]
+    },
+    {
+      "id": "en:session-1:I:15",
+      "legacyId": "I-14",
+      "position": 15,
+      "script": "Send me the link.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ส่งลิงก์มาให้หน่อย",
+      "chunks": [
+        "Send me the link."
+      ]
+    },
+    {
+      "id": "en:session-1:I:16",
+      "legacyId": "I-15",
+      "position": 16,
+      "script": "Text me later.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "ส่งข้อความมาทีหลังนะ",
+      "chunks": [
+        "Text me later."
+      ]
+    },
+    {
+      "id": "en:session-1:I:17",
+      "legacyId": "I-16",
+      "position": 17,
+      "script": "Call me back.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "โทรกลับด้วยนะ",
+      "chunks": [
+        "Call me back."
+      ]
+    },
+    {
+      "id": "en:session-1:I:18",
+      "legacyId": "I-17",
+      "position": 18,
+      "script": "My battery is low.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "แบตเตอรี่ฉันต่ำแล้ว",
+      "chunks": [
+        "My battery is low."
+      ]
+    },
+    {
+      "id": "en:session-1:I:19",
+      "legacyId": "I-18",
+      "position": 19,
+      "script": "My phone is dead.",
+      "pronunciation": "",
+      "phonetic": "",
+      "translation": "มือถือฉันแบตหมด",
+      "chunks": [
+        "My phone is dead."
+      ]
+    }
+  ]
+}
