@@ -75,7 +75,7 @@ function StudyScreen({ language, curriculum, curriculumRepository, repository, o
     }
   }
   return <section className="screen"><header className="screen-header"><div><h1>{language.nativeName}</h1><p className="muted">{title(language)}</p></div><span className="language-pill">{language.flag} {language.name}</span></header>
-    {!curriculum ? <Loading /> : <><div className="unit-rail">{curriculum.units.map(item => <button key={item.id} onClick={() => { setUnitId(item.id); setLesson(null) }} className={item.id === unitId ? 'selected' : ''}>UNIT {item.number}</button>)}</div>
+    {!curriculum ? <Loading /> : <><div className="unit-rail">{curriculum.units.map(item => <button key={item.id} onClick={() => { setUnitId(item.id); setLesson(null); setFailedLesson(null) }} className={item.id === unitId ? 'selected' : ''}>UNIT {item.number}</button>)}</div>
     <div className="lesson-list">{unit.lessons.map(item => <button key={item.id} onClick={() => openLesson(item)} className="lesson-row"><span><small>LESSON {item.number}</small><strong>{item.title}</strong><em>{item.chunkCount} chunks</em></span><ChevronRight /></button>)}</div>
     {failedLesson && <div className="lesson-alert" role="alert">Could not load {failedLesson.path}<button onClick={() => openLesson(failedLesson.lessonMeta)}>Retry</button></div>}
     {lesson && <LessonPlayer language={language} lesson={lesson} repository={repository} onClose={() => setLesson(null)} onChange={onChange} />}</>}</section>
@@ -93,7 +93,7 @@ export function LessonPlayer({ language, lesson, repository, onClose, onChange =
   const save = nextProgress => { repository.saveLanguage(language.id, nextProgress); setProgress(nextProgress); onChange() }
   const previous = () => {
     if (chunkIndex === 0) return
-    setProgress(current => ({ ...current, lessonProgress: { ...current.lessonProgress, [lesson.id]: { ...savedProgress, currentChunkIndex: chunkIndex - 1 } } }))
+    save({ ...progress, lessonProgress: { ...progress.lessonProgress, [lesson.id]: { ...savedProgress, currentChunkIndex: chunkIndex - 1 } } })
     setRevealed(false)
   }
   const advance = () => {

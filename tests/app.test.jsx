@@ -45,4 +45,17 @@ describe('LingoFlow app shell', () => {
     expect(repository.loadLanguage('en').lessonProgress.A.learnedChunkIds).toContain(lesson.chunks[0].id)
     expect(screen.getByText(lesson.chunks[1].script)).toBeTruthy()
   })
+
+  it('persists the selected previous chunk for the next lesson session', () => {
+    let state = { lessonProgress: { A: { currentChunkIndex: 1, learnedChunkIds: ['en:A:1'], completedAt: null } }, bookmarks: [], srs: {}, reviewHistory: [], activity: [], studySeconds: 0, xp: 0 }
+    const repository = {
+      loadLanguage: () => state,
+      saveLanguage: (_languageId, nextState) => { state = nextState }
+    }
+    const view = render(<LessonPlayer language={english} lesson={lesson} repository={repository} onClose={() => {}} />)
+    fireEvent.click(screen.getByRole('button', { name: /Previous/ }))
+    view.unmount()
+    render(<LessonPlayer language={english} lesson={lesson} repository={repository} onClose={() => {}} />)
+    expect(screen.getByText(lesson.chunks[0].script)).toBeTruthy()
+  })
 })
