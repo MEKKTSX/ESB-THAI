@@ -3,8 +3,8 @@ import { BookOpen, Bookmark, Bot, ChartNoAxesCombined, ChevronLeft, ChevronRight
 import { LANGUAGE_CATALOG, getLanguage } from './lib/catalog.js'
 import { createProgressRepository } from './lib/progress-repository.js'
 import { createCurriculumRepository, lessonPath } from './lib/curriculum-repository.js'
-import { buildReviewQueue, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from './lib/learning-progress.js'
-import { createBackup, importBackup } from './lib/backup.js'
+import { buildPracticeQueue, buildReviewQueue, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from './lib/learning-progress.js'
+import { createBackup, importBackup, validateBackup } from './lib/backup.js'
 import { migrateLegacyEsb } from './lib/migration.js'
 
 const title = language => language.id === 'en' ? 'English sentence practice' : '15 Units · 150 lessons'
@@ -59,7 +59,7 @@ function CoursesScreen({ stats, onOpen }) {
   </section>
 }
 
-function StudyScreen({ language, curriculum, curriculumRepository, repository, onChange }) {
+export function StudyScreen({ language, curriculum, curriculumError, retryCurriculum, curriculumRepository, repository, onChange }) {
   const [unitId, setUnitId] = useState(null)
   const [lesson, setLesson] = useState(null)
   const [failedLesson, setFailedLesson] = useState(null)
@@ -75,7 +75,7 @@ function StudyScreen({ language, curriculum, curriculumRepository, repository, o
     }
   }
   return <section className="screen"><header className="screen-header"><div><h1>{language.nativeName}</h1><p className="muted">{title(language)}</p></div><span className="language-pill">{language.flag} {language.name}</span></header>
-    {!curriculum ? <Loading /> : <><div className="unit-rail">{curriculum.units.map(item => <button key={item.id} onClick={() => { setUnitId(item.id); setLesson(null); setFailedLesson(null) }} className={item.id === unitId ? 'selected' : ''}>UNIT {item.number}</button>)}</div>
+    {curriculumError ? <LoadAlert message={curriculumError} onRetry={retryCurriculum} /> : !curriculum ? <Loading /> : <><div className="unit-rail">{curriculum.units.map(item => <button key={item.id} onClick={() => { setUnitId(item.id); setLesson(null); setFailedLesson(null) }} className={item.id === unitId ? 'selected' : ''}>UNIT {item.number}</button>)}</div>
     <div className="lesson-list">{unit.lessons.map(item => <button key={item.id} onClick={() => openLesson(item)} className="lesson-row"><span><small>LESSON {item.number}</small><strong>{item.title}</strong><em>{item.chunkCount} chunks</em></span><ChevronRight /></button>)}</div>
     {failedLesson && <div className="lesson-alert" role="alert">Could not load {failedLesson.path}<button onClick={() => openLesson(failedLesson.lessonMeta)}>Retry</button></div>}
     {lesson && <LessonPlayer language={language} lesson={lesson} repository={repository} onClose={() => setLesson(null)} onChange={onChange} />}</>}</section>
@@ -112,23 +112,29 @@ export function ReviewScreen({ language, repository, onLanguageChange, onChange 
   const [progress, setProgress] = useState(() => repository.loadLanguage(language.id))
   const [card, setCard] = useState(null)
   const [revealed, setRevealed] = useState(false)
+  const [loadError, setLoadError] = useState(null)
+  const [loadRevision, setLoadRevision] = useState(0)
   const ratingInProgress = useRef(false)
-  const queue = buildReviewQueue(progress, Date.now())
-  const queuedCardId = queue[0]?.id
-  useEffect(() => { ratingInProgress.current = false; setProgress(repository.loadLanguage(language.id)); setCard(null); setRevealed(false) }, [language.id, repository])
+  const curriculumRepository = useMemo(() => createCurriculumRepository(), [])
+  const now = Date.now()
+  const dueQueue = buildReviewQueue(progress, now)
+  const practiceQueue = buildPracticeQueue(progress, now)
+  const mode = dueQueue.length ? 'Review' : practiceQueue.length ? 'Practice' : null
+  const queuedCardId = (dueQueue[0] || practiceQueue[0])?.id
+  useEffect(() => { ratingInProgress.current = false; setProgress(repository.loadLanguage(language.id)); setCard(null); setRevealed(false); setLoadError(null) }, [language.id, repository])
   useEffect(() => {
     if (!queuedCardId) { ratingInProgress.current = false; setCard(null); return }
     let cancelled = false
-    fetch(`/content/${language.id}/manifest.json`).then(response => response.json()).then(async manifest => {
+    setLoadError(null)
+    curriculumRepository.loadManifest(language.id).then(async manifest => {
       const unit = manifest.units.find(item => item.lessons.some(lesson => queuedCardId.startsWith(`${language.id}:${lesson.id}`) || queuedCardId.includes(`:${lesson.id}:`)))
       const lesson = unit?.lessons.find(item => queuedCardId.startsWith(`${language.id}:${item.id}`) || queuedCardId.includes(`:${item.id}:`))
       if (!lesson) return null
-      const response = await fetch(`/content/${language.id}/units/${unit.id}/lessons/${lesson.id}.json`)
-      const payload = await response.json()
+      const payload = await curriculumRepository.loadLesson(language.id, unit.id, lesson.id)
       return payload.chunks.find(item => item.id === queuedCardId) || null
-    }).then(nextCard => { if (!cancelled) { ratingInProgress.current = false; setCard(nextCard) } }).catch(() => { if (!cancelled) { ratingInProgress.current = false; setCard(null) } })
+    }).then(nextCard => { if (!cancelled) { ratingInProgress.current = false; setCard(nextCard) } }).catch(error => { if (!cancelled) { ratingInProgress.current = false; setCard(null); setLoadError(error.message) } })
     return () => { cancelled = true }
-  }, [language.id, queuedCardId])
+  }, [language.id, queuedCardId, loadRevision, curriculumRepository])
   const rate = rating => {
     if (!card || ratingInProgress.current) return
     ratingInProgress.current = true
@@ -140,7 +146,7 @@ export function ReviewScreen({ language, repository, onLanguageChange, onChange 
     setRevealed(false)
   }
   return <section className="screen review-screen"><header className="review-header"><h1>SRS Review</h1><Settings /></header><select value={language.id} onChange={event => onLanguageChange(event.target.value)}>{LANGUAGE_CATALOG.map(item => <option key={item.id} value={item.id}>{item.flag} {item.nativeName}</option>)}</select><div className="review-progress"><span /></div>
-    {card ? <><button className="review-card" onClick={() => setRevealed(true)}><strong className="script">{card.script}</strong>{card.pronunciation && <span className="pronunciation">{card.pronunciation}</span>}{revealed && <p>{card.translation}</p>}{!revealed && <small>✦ Tap to show answer</small>}<Volume2 /></button><div className="rating-grid">{[['again','ยากอีกครั้ง'],['hard','จำได้ 1 วัน'],['good','ง่าย 4 วัน'],['easy','ง่ายมาก 7 วัน']].map(([rating, label]) => <button key={rating} className={rating} onClick={() => rate(rating)}><span>{rating === 'again' ? '☹' : rating === 'hard' ? '😐' : rating === 'good' ? '🙂' : '😄'}</span>{label}</button>)}</div></> : queuedCardId ? <Loading /> : <div className="loading">No reviews due right now.</div>}</section>
+    {loadError ? <LoadAlert message={loadError} onRetry={() => setLoadRevision(value => value + 1)} /> : card ? <><p className="review-mode">{mode}</p><button className="review-card" onClick={() => setRevealed(true)}><strong className="script">{card.script}</strong>{card.pronunciation && <span className="pronunciation">{card.pronunciation}</span>}{revealed && <p>{card.translation}</p>}{!revealed && <small>✦ Tap to show answer</small>}<Volume2 /></button><div className="rating-grid">{[['again','ยากอีกครั้ง'],['hard','จำได้ 1 วัน'],['good','ง่าย 4 วัน'],['easy','ง่ายมาก 7 วัน']].map(([rating, label]) => <button key={rating} className={rating} onClick={() => rate(rating)}><span>{rating === 'again' ? '☹' : rating === 'hard' ? '😐' : rating === 'good' ? '🙂' : '😄'}</span>{label}</button>)}</div></> : queuedCardId ? <Loading /> : <div className="loading">No reviews due right now.</div>}</section>
 }
 
 function ProgressScreen({ stats, metrics }) { const total = Math.round(stats.reduce((sum, item) => sum + item.progress, 0) / stats.length); return <section className="screen"><header className="screen-header"><h1>Progress</h1><ChartNoAxesCombined /></header><div className="filter-tabs"><button className="selected">Overview</button><button>Languages</button><button>Skills</button></div><div className="progress-card"><div className="donut" style={{ '--progress': `${total * 3.6}deg` }}><strong>{total}%</strong><small>Mastery</small></div><div>{stats.map(stat => <div className="progress-row" key={stat.language.id}><span>{stat.language.flag} {stat.language.nativeName}</span><strong>{stat.progress}%</strong><div className="track"><span style={{width: `${stat.progress}%`}} /></div></div>)}</div></div><h2>Weekly activity</h2><div className="bars">{metrics.weeklyActivity.map(day => <span key={day.date} style={{height: `${day.value * 24}px`}} aria-label={`${day.value} activities on ${day.date}`}><i />{day.label}</span>)}</div><div className="stat-cards"><div><Sparkles /><strong>{metrics.xpThisWeek}</strong><small>XP this week</small></div><div><BookOpen /><strong>{metrics.reviewedThisWeek}</strong><small>Items reviewed</small></div></div><div className="coming-soon"><Bot /><div><strong>Skills</strong><p>Skill-level insights are coming with future curriculum metadata.</p></div></div></section> }
@@ -165,13 +171,17 @@ function Assistant({ language }) {
   return <><button className="assistant-trigger" aria-label="Ask LingoFlow" onClick={() => setOpen(true)}><Bot /></button>{open && <div className="assistant-backdrop" role="dialog" aria-modal="true" aria-label="LingoFlow assistant"><form className="assistant-panel" onSubmit={ask}><header><div><Bot /><strong>Ask LingoFlow</strong><small>{language.flag} {language.nativeName}</small></div><button type="button" aria-label="Close assistant" onClick={() => setOpen(false)}>×</button></header><p>{answer || `Ask about your ${language.name} course, a sentence, or a study tip.`}</p><label><span className="sr-only">Question for LingoFlow</span><input value={message} onChange={event => setMessage(event.target.value)} placeholder="Ask a question…" autoFocus /></label><footer><small>{status}</small><button className="primary" type="submit">Send</button></footer></form></div>}</>
 }
 
-function ProfileScreen({ settings, setSettings, repository }) {
+export function ProfileScreen({ settings, setSettings, repository }) {
+  const [importError, setImportError] = useState('')
   const exportBackup = () => { const blob = new Blob([JSON.stringify(createBackup(repository), null, 2)], { type: 'application/json' }); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = 'lingoflow-backup.json'; link.click(); URL.revokeObjectURL(link.href) }
-  const importFile = async event => { const file = event.target.files?.[0]; if (!file || !window.confirm('Replace all LingoFlow progress with this backup?')) return; importBackup(repository, JSON.parse(await file.text())); window.location.reload() }
+  const importFile = async event => { const file = event.target.files?.[0]; if (!file) return; try { const backup = validateBackup(JSON.parse(await file.text())); if (!window.confirm('Replace all LingoFlow progress with this backup?')) return; importBackup(repository, backup); window.location.reload() } catch { setImportError('Unable to import backup. Choose a compatible LingoFlow backup file.') } }
+  if (importError) return <section className="screen"><div className="lesson-alert" role="alert">{importError}</div></section>
   return <section className="screen"><header className="screen-header"><div><h1>Profile</h1><p className="muted">Your learning space</p></div><UserRound /></header><div className="profile-hero"><span>LF</span><div><strong>LingoFlow learner</strong><small>Learning at your pace</small></div></div><h2>Appearance</h2><div className="settings-row"><span>{settings.theme === 'dark' ? <Moon /> : <Sun />}</span><div><strong>Theme</strong><small>Follow system or choose your preference</small></div><select value={settings.theme} onChange={event => setSettings({ ...settings, theme: event.target.value })}><option value="system">System</option><option value="light">Light</option><option value="dark">Dark</option></select></div><h2>Learning</h2><div className="settings-row"><Languages /><div><strong>Default language</strong><small>Used when opening study or review</small></div><select value={settings.defaultLanguage} onChange={event => setSettings({ ...settings, defaultLanguage: event.target.value })}>{LANGUAGE_CATALOG.map(language => <option key={language.id} value={language.id}>{language.nativeName}</option>)}</select></div><h2>Backup</h2><div className="backup-actions"><button onClick={exportBackup}><Download /> Export all languages</button><label><Upload /> Import and replace<input type="file" accept="application/json" onChange={importFile} /></label></div></section>
 }
 
 function Loading() { return <div className="loading">Loading your course…</div> }
+
+function LoadAlert({ message, onRetry }) { return <div className="lesson-alert" role="alert">Could not load {message}<button onClick={onRetry}>Retry</button></div> }
 
 export default function App({ storageKey }) {
   const repository = useMemo(() => createProgressRepository(window.localStorage, storageKey), [storageKey])
@@ -180,6 +190,7 @@ export default function App({ storageKey }) {
   const [activeLanguageId, setActiveLanguageId] = useState(settings.defaultLanguage)
   const [tab, setTab] = useState('home')
   const [curricula, setCurricula] = useState({})
+  const [curriculumErrors, setCurriculumErrors] = useState({})
   const [, setRevision] = useState(0)
   const setSettings = value => { repository.saveSettings(value); setSettingsState(repository.loadSettings()); if (value.defaultLanguage) setActiveLanguageId(value.defaultLanguage) }
   useEffect(() => {
@@ -188,7 +199,10 @@ export default function App({ storageKey }) {
     apply(); media.addEventListener('change', apply)
     return () => media.removeEventListener('change', apply)
   }, [settings.theme])
-  useEffect(() => { LANGUAGE_CATALOG.forEach(language => fetch(language.curriculum).then(response => response.json()).then(data => setCurricula(current => ({ ...current, [language.id]: data }))).catch(() => {})) }, [])
+  const loadCurriculum = languageId => curriculumRepository.loadManifest(languageId)
+    .then(data => { setCurricula(current => ({ ...current, [languageId]: data })); setCurriculumErrors(current => ({ ...current, [languageId]: null })) })
+    .catch(error => setCurriculumErrors(current => ({ ...current, [languageId]: error.message })))
+  useEffect(() => { LANGUAGE_CATALOG.forEach(language => loadCurriculum(language.id)) }, [curriculumRepository])
   useEffect(() => { fetch('/content/en/legacy-map.json').then(response => response.json()).then(map => { if (migrateLegacyEsb(repository, window.localStorage, map)) setRevision(value => value + 1) }).catch(() => {}) }, [repository])
   if (!activeLanguageId) return <LanguageSetup onChoose={languageId => setSettings({ ...settings, defaultLanguage: languageId })} />
   const activeLanguage = getLanguage(activeLanguageId)
@@ -200,6 +214,6 @@ export default function App({ storageKey }) {
   const openLanguage = languageId => { setActiveLanguageId(languageId); setTab('study') }
   const openReview = languageId => { setActiveLanguageId(languageId); setTab('review') }
   const onProgressChange = () => setRevision(value => value + 1)
-  const screens = { home: <HomeScreen stats={stats} metrics={activeMetrics} onOpen={openLanguage} onReview={openReview} />, courses: <CoursesScreen stats={stats} onOpen={openLanguage} />, study: <StudyScreen language={activeLanguage} curriculum={curricula[activeLanguageId]} curriculumRepository={curriculumRepository} repository={repository} onChange={onProgressChange} />, review: <ReviewScreen language={activeLanguage} repository={repository} onLanguageChange={setActiveLanguageId} onChange={onProgressChange} />, progress: <ProgressScreen stats={stats} metrics={activeMetrics} />, profile: <ProfileScreen settings={settings} setSettings={setSettings} repository={repository} /> }
+  const screens = { home: <HomeScreen stats={stats} metrics={activeMetrics} onOpen={openLanguage} onReview={openReview} />, courses: <CoursesScreen stats={stats} onOpen={openLanguage} />, study: <StudyScreen language={activeLanguage} curriculum={curricula[activeLanguageId]} curriculumError={curriculumErrors[activeLanguageId]} retryCurriculum={() => loadCurriculum(activeLanguageId)} curriculumRepository={curriculumRepository} repository={repository} onChange={onProgressChange} />, review: <ReviewScreen language={activeLanguage} repository={repository} onLanguageChange={setActiveLanguageId} onChange={onProgressChange} />, progress: <ProgressScreen stats={stats} metrics={activeMetrics} />, profile: <ProfileScreen settings={settings} setSettings={setSettings} repository={repository} /> }
   return <main className="app-shell">{screens[tab]}<Assistant language={activeLanguage} /><Nav tab={tab} setTab={setTab} /></main>
 }

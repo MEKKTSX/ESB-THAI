@@ -1,6 +1,6 @@
 import { cleanup, fireEvent, render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import App, { LessonPlayer, ReviewScreen } from '../src/App.jsx'
+import App, { LessonPlayer, ProfileScreen, ReviewScreen } from '../src/App.jsx'
 
 const english = { id: 'en', name: 'English', nativeName: 'English', flag: '🇬🇧' }
 const lesson = {
@@ -69,7 +69,7 @@ describe('LingoFlow app shell', () => {
       loadLanguage: () => state,
       saveLanguage: (_languageId, nextState) => Object.assign(state, nextState)
     }
-    const fetchMock = vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce({ json: async () => ({ units: [{ lessons: [{ id: 'A', path: '/content/en/A.json' }] }] }) }).mockResolvedValueOnce({ json: async () => lesson })
+    const fetchMock = vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce({ ok: true, json: async () => ({ units: [{ id: 'session-1', lessons: [{ id: 'A', path: '/content/en/A.json' }] }] }) }).mockResolvedValueOnce({ ok: true, json: async () => lesson })
 
     render(<ReviewScreen language={english} repository={repository} onLanguageChange={() => {}} onChange={() => {}} />)
 
@@ -77,7 +77,6 @@ describe('LingoFlow app shell', () => {
     fireEvent.click(document.querySelector('.rating-grid .good'))
     expect(state.reviewHistory).toHaveLength(1)
     expect(state.reviewHistory[0]).toMatchObject({ cardId: 'en:A:1', rating: 'good' })
-    expect(await screen.findByText('No reviews due right now.')).toBeTruthy()
     fetchMock.mockRestore()
   })
 
@@ -88,7 +87,7 @@ describe('LingoFlow app shell', () => {
       reviewHistory: [], activity: [], studySeconds: 0, xp: 0
     }
     const repository = { loadLanguage: () => state, saveLanguage: (_languageId, nextState) => Object.assign(state, nextState) }
-    const fetchMock = vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce({ json: async () => ({ units: [{ id: 'session-1', lessons: [{ id: 'A' }] }] }) }).mockResolvedValueOnce({ json: async () => lesson })
+    const fetchMock = vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce({ ok: true, json: async () => ({ units: [{ id: 'session-1', lessons: [{ id: 'A' }] }] }) }).mockResolvedValueOnce({ ok: true, json: async () => lesson })
 
     render(<ReviewScreen language={english} repository={repository} onLanguageChange={() => {}} onChange={() => {}} />)
 
@@ -100,5 +99,43 @@ describe('LingoFlow app shell', () => {
     expect(state.activity).toHaveLength(1)
     expect(state.xp).toBe(3)
     fetchMock.mockRestore()
+  })
+
+  it('offers the earliest future learned card as Practice without changing its schedule', async () => {
+    const future = Date.now() + 60_000
+    const state = { lessonProgress: { A: { learnedChunkIds: ['en:A:1'] } }, bookmarks: [], srs: { 'en:A:1': { interval: 4, ease: 2.5, nextReview: future } }, reviewHistory: [], activity: [], studySeconds: 0, xp: 0 }
+    const repository = { loadLanguage: () => state, saveLanguage: (_languageId, nextState) => Object.assign(state, nextState) }
+    const fetchMock = vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce({ ok: true, json: async () => ({ units: [{ id: 'session-1', lessons: [{ id: 'A' }] }] }) }).mockResolvedValueOnce({ ok: true, json: async () => lesson })
+
+    render(<ReviewScreen language={english} repository={repository} onLanguageChange={() => {}} onChange={() => {}} />)
+
+    expect(await screen.findByText('Practice')).toBeTruthy()
+    expect(state.srs['en:A:1'].nextReview).toBe(future)
+    fetchMock.mockRestore()
+  })
+
+  it('shows a manifest failure with its path and retry action', async () => {
+    const state = { lessonProgress: { A: { learnedChunkIds: ['en:A:1'] } }, bookmarks: [], srs: { 'en:A:1': { nextReview: 0 } }, reviewHistory: [], activity: [], studySeconds: 0, xp: 0 }
+    const repository = { loadLanguage: () => state, saveLanguage: () => {} }
+    const fetchMock = vi.spyOn(globalThis, 'fetch').mockResolvedValue({ ok: false })
+
+    render(<ReviewScreen language={english} repository={repository} onLanguageChange={() => {}} onChange={() => {}} />)
+
+    expect((await screen.findByRole('alert')).textContent).toContain('/content/en/manifest.json')
+    expect(screen.getByRole('button', { name: 'Retry' })).toBeTruthy()
+    fetchMock.mockRestore()
+  })
+
+  it('rejects malformed backup files before asking to replace progress', async () => {
+    const confirm = vi.spyOn(window, 'confirm')
+    const repository = { loadState: () => ({}), replaceAll: vi.fn() }
+    render(<ProfileScreen settings={{ theme: 'system', defaultLanguage: 'en' }} setSettings={() => {}} repository={repository} />)
+    const input = document.querySelector('input[type="file"]')
+    fireEvent.change(input, { target: { files: [{ text: async () => '{broken' }] } })
+
+    expect(await screen.findByRole('alert')).toBeTruthy()
+    expect(confirm).not.toHaveBeenCalled()
+    expect(repository.replaceAll).not.toHaveBeenCalled()
+    confirm.mockRestore()
   })
 })

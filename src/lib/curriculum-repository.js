@@ -9,7 +9,14 @@ export function createCurriculumRepository(fetchImpl = fetch) {
   }
 
   return {
-    loadManifest: languageId => loadJson(`/content/${languageId}/manifest.json`),
+    async loadManifest(languageId) {
+      const path = `/content/${languageId}/manifest.json`
+      const manifest = await loadJson(path)
+      if (!Array.isArray(manifest.units) || !manifest.units.every(unit => unit?.id && Array.isArray(unit.lessons))) {
+        throw new Error(`Invalid manifest asset: ${path}`)
+      }
+      return manifest
+    },
     async loadLesson(languageId, unitId, lessonId) {
       const path = lessonPath(languageId, unitId, lessonId)
       const lesson = await loadJson(path)

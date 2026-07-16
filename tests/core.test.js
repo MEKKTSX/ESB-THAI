@@ -4,6 +4,7 @@ import { createProgressRepository } from '../src/lib/progress-repository.js'
 import { createBackup, importBackup } from '../src/lib/backup.js'
 import { migrateLegacyEsb } from '../src/lib/migration.js'
 import { scheduleReview } from '../src/lib/scheduler.js'
+import { buildReviewQueue, getLanguageMetrics, rateReview } from '../src/lib/learning-progress.js'
 
 const storage = () => {
   const values = new Map()
@@ -54,11 +55,22 @@ describe('LingoFlow core', () => {
   it('migrates each legacy ESB card key only once into English', () => {
     local.setItem('esb_srs_data', JSON.stringify({ 'A-0': { interval: 4, nextReview: 1 } }))
     local.setItem('esb_bookmarks', JSON.stringify(['A-0']))
+    local.setItem('esb_review_history', JSON.stringify({ 'A-0': { rating: 'good' } }))
     const legacyMap = { 'A-0': createCardId('en', 'session-1', 'A', 1) }
 
     expect(migrateLegacyEsb(repository, local, legacyMap)).toBe(true)
     expect(repository.loadLanguage('en').bookmarks).toEqual(['en:session-1:A:1'])
+    expect(repository.loadLanguage('en').reviewHistory).toEqual([expect.objectContaining({ cardId: 'en:session-1:A:1' })])
+    expect(buildReviewQueue(repository.loadLanguage('en'), 10).map(card => card.id)).toEqual(['en:session-1:A:1'])
+    expect(getLanguageMetrics(repository.loadLanguage('en'), 100, 10).progress).toBeGreaterThan(0)
     expect(migrateLegacyEsb(repository, local, legacyMap)).toBe(false)
+  })
+
+  it('rates an older object-shaped review history without crashing', () => {
+    const state = { ...repository.loadLanguage('en'), reviewHistory: { old: { cardId: 'en:A:1' } }, srs: { 'en:A:1': { nextReview: 0 } } }
+
+    expect(() => rateReview(state, 'en:A:1', 'good', 0)).not.toThrow()
+    expect(rateReview(state, 'en:A:1', 'good', 0).reviewHistory).toHaveLength(2)
   })
 
   it('schedules again, hard, good, and easy as distinct four-grade outcomes', () => {

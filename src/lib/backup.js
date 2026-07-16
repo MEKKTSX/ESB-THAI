@@ -6,8 +6,13 @@ export function createBackup(repository) {
 }
 
 export function importBackup(repository, backup) {
+  validateBackup(backup)
+  repository.replaceAll(backup.state)
+}
+
+export function validateBackup(backup) {
   if (!backup || backup.format !== 'lingoflow-backup' || backup.version !== BACKUP_VERSION || !backup.state) {
     throw new Error('Unsupported LingoFlow backup')
   }
-  repository.replaceAll(backup.state)
+  return backup
 }

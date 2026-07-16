@@ -12,8 +12,10 @@ export const emptyLanguageState = () => ({
 
 export function markChunkLearned(state, lessonId, chunkId, chunkIndex, totalChunks, now = new Date()) {
   const current = state.lessonProgress[lessonId] || { currentChunkIndex: 0, learnedChunkIds: [], completedAt: null }
+  const isNewlyLearned = !current.learnedChunkIds.includes(chunkId)
   const learnedChunkIds = [...new Set([...current.learnedChunkIds, chunkId])]
   const completedAt = learnedChunkIds.length === totalChunks ? now.toISOString() : current.completedAt
+  const learningEvent = { type: 'learn', cardId: chunkId, at: now.toISOString(), xp: 5, studySeconds: 30 }
 
   return {
     ...state,
@@ -30,7 +32,10 @@ export function markChunkLearned(state, lessonId, chunkId, chunkIndex, totalChun
     srs: state.srs[chunkId] ? state.srs : {
       ...state.srs,
       [chunkId]: { interval: 0, ease: 2.5, nextReview: now.getTime() }
-    }
+    },
+    activity: isNewlyLearned ? [...state.activity, learningEvent] : state.activity,
+    xp: isNewlyLearned ? state.xp + learningEvent.xp : state.xp,
+    studySeconds: isNewlyLearned ? state.studySeconds + learningEvent.studySeconds : state.studySeconds
   }
 }
 
@@ -74,6 +79,15 @@ export function buildReviewQueue(state, now = Date.now()) {
     .sort((left, right) => left.nextReview - right.nextReview)
 }
 
+export function buildPracticeQueue(state, now = Date.now()) {
+  const timestamp = now instanceof Date ? now.getTime() : now
+  const learned = learnedCardIds(state)
+  return Object.entries(state.srs)
+    .filter(([id, card]) => learned.has(id) && card.nextReview > timestamp)
+    .map(([id, card]) => ({ id, ...card }))
+    .sort((left, right) => left.nextReview - right.nextReview)
+}
+
 export function rateReview(state, cardId, rating, now = new Date()) {
   const timestamp = now instanceof Date ? now.getTime() : now
   const at = new Date(timestamp).toISOString()
@@ -83,7 +97,7 @@ export function rateReview(state, cardId, rating, now = new Date()) {
   return {
     ...state,
     srs: { ...state.srs, [cardId]: scheduleReview(state.srs[cardId], rating, timestamp) },
-    reviewHistory: [...state.reviewHistory, event],
+    reviewHistory: [...(Array.isArray(state.reviewHistory) ? state.reviewHistory : Object.values(state.reviewHistory || {})), event],
     activity: [...state.activity, activity],
     xp: state.xp + activity.xp
   }
@@ -103,8 +117,8 @@ export function getLanguageMetrics(state, totalChunks, now = Date.now()) {
   return {
     progress: totalChunks ? Math.round((learned / totalChunks) * 100) : 0,
     due: buildReviewQueue(state, timestamp).length,
-    mastered: Object.values(state.srs).filter(card => card.interval >= 21).length,
-    reviewed: state.reviewHistory.length,
+    mastered: Object.entries(state.srs).filter(([id, card]) => learnedCardIds(state).has(id) && card.interval >= 21).length,
+    reviewed: Array.isArray(state.reviewHistory) ? state.reviewHistory.length : Object.keys(state.reviewHistory || {}).length,
     xp: state.xp,
     dayStreak,
     xpToday: xpFor(reviewActivity.filter(event => event.at?.slice(0, 10) === today)),

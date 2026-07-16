@@ -68,6 +68,28 @@ describe('learning progress', () => {
     expect(rated.xp).toBeGreaterThan(0)
   })
 
+  it('awards one deterministic learning event and study time for a newly learned chunk', () => {
+    const first = markChunkLearned(emptyLanguageState(), 'A', 'en:A:1', 0, 2, now)
+    const repeated = markChunkLearned(first, 'A', 'en:A:1', 0, 2, now)
+
+    expect(first.activity).toEqual([expect.objectContaining({ type: 'learn', cardId: 'en:A:1', xp: 5, studySeconds: 30 })])
+    expect(first.xp).toBe(5)
+    expect(first.studySeconds).toBe(30)
+    expect(repeated.activity).toHaveLength(1)
+    expect(repeated.xp).toBe(5)
+    expect(repeated.studySeconds).toBe(30)
+  })
+
+  it('does not let an orphaned SRS record inflate mastery', () => {
+    const state = {
+      ...emptyLanguageState(),
+      lessonProgress: { A: { learnedChunkIds: ['en:A:1'] } },
+      srs: { 'en:A:1': { interval: 21, nextReview: 1 }, 'en:orphan': { interval: 21, nextReview: 1 } }
+    }
+
+    expect(getLanguageMetrics(state, 10, 10).mastered).toBe(1)
+  })
+
   it('builds weekly activity bars from review event days', () => {
     const state = {
       ...emptyLanguageState(),
