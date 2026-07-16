@@ -167,6 +167,19 @@ describe('LingoFlow app shell', () => {
     confirm.mockRestore()
   })
 
+  it('asks for confirmation after validating an older compatible backup', async () => {
+    const confirm = vi.spyOn(window, 'confirm').mockReturnValue(false)
+    const repository = { loadState: () => ({}), replaceAll: vi.fn() }
+    render(<ProfileScreen settings={{ theme: 'system', defaultLanguage: 'en' }} setSettings={() => {}} repository={repository} />)
+    const input = document.querySelector('input[type="file"]')
+    const backup = { format: 'lingoflow-backup', version: 1, state: { settings: {}, languages: { en: { srs: {}, bookmarks: [] } } } }
+    fireEvent.change(input, { target: { files: [{ text: async () => JSON.stringify(backup) }] } })
+
+    await vi.waitFor(() => expect(confirm).toHaveBeenCalledWith('Replace all LingoFlow progress with this backup?'))
+    expect(repository.replaceAll).not.toHaveBeenCalled()
+    confirm.mockRestore()
+  })
+
   it('renders lesson progress from manifest chunk counts', () => {
     const curriculum = { units: [{ id: 'unit-1', number: 1, lessons: [{ id: 'A', number: 1, title: 'First lesson', chunkCount: 4 }] }] }
     const repository = { loadLanguage: () => ({ lessonProgress: { A: { learnedChunkIds: ['en:A:1', 'en:A:2'] } } }) }

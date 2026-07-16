@@ -52,11 +52,41 @@ describe('LingoFlow core', () => {
     expect(repository.loadLanguage('zh-Hans').bookmarks).toEqual(['zh-Hans:U01-L01-C001'])
   })
 
+  it('imports an older English backup and normalizes fields introduced later', () => {
+    const backup = {
+      format: 'lingoflow-backup',
+      version: 1,
+      state: {
+        settings: { theme: 'dark' },
+        languages: { en: { srs: { 'en:session-1:A:1': { interval: 4 } }, bookmarks: ['en:session-1:A:1'] } }
+      }
+    }
+
+    importBackup(repository, backup)
+
+    expect(repository.loadLanguage('en')).toMatchObject({
+      srs: { 'en:session-1:A:1': { interval: 4 } },
+      bookmarks: ['en:session-1:A:1'],
+      lessonProgress: {},
+      reviewHistory: [],
+      activity: [],
+      xp: 0,
+      studySeconds: 0
+    })
+  })
+
   it.each([
     ['an array state', []],
     ['missing settings', { languages: {} }],
     ['missing languages', { settings: {} }],
-    ['a malformed language namespace', { settings: {}, languages: { en: [] } }]
+    ['a malformed language namespace', { settings: {}, languages: { en: [] } }],
+    ['a supplied bookmarks field with the wrong type', { settings: {}, languages: { en: { bookmarks: {} } } }],
+    ['a supplied review history field with the wrong type', { settings: {}, languages: { en: { reviewHistory: {} } } }],
+    ['a supplied activity field with the wrong type', { settings: {}, languages: { en: { activity: {} } } }],
+    ['a supplied SRS field with the wrong type', { settings: {}, languages: { en: { srs: [] } } }],
+    ['a supplied lesson progress field with the wrong type', { settings: {}, languages: { en: { lessonProgress: [] } } }],
+    ['a negative supplied XP value', { settings: {}, languages: { en: { xp: -1 } } }],
+    ['a non-finite supplied study time', { settings: {}, languages: { en: { studySeconds: Infinity } } }]
   ])('rejects a backup with %s', (_label, state) => {
     expect(() => validateBackup({ format: 'lingoflow-backup', version: 1, state })).toThrow('Unsupported LingoFlow backup')
   })

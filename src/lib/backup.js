@@ -19,13 +19,13 @@ export function validateBackup(backup) {
   if (!isObject(settings) || !isObject(languages)) throw new Error('Unsupported LingoFlow backup')
   for (const language of Object.values(languages)) {
     if (!isObject(language)
-      || !isObject(language.lessonProgress)
-      || !Array.isArray(language.bookmarks)
-      || !isObject(language.srs)
-      || !Array.isArray(language.reviewHistory)
-      || !Array.isArray(language.activity)
-      || !Number.isFinite(language.xp) || language.xp < 0
-      || !Number.isFinite(language.studySeconds) || language.studySeconds < 0) {
+      || ('lessonProgress' in language && !isObject(language.lessonProgress))
+      || ('bookmarks' in language && !Array.isArray(language.bookmarks))
+      || ('srs' in language && !isObject(language.srs))
+      || ('reviewHistory' in language && !Array.isArray(language.reviewHistory))
+      || ('activity' in language && !Array.isArray(language.activity))
+      || ('xp' in language && (!Number.isFinite(language.xp) || language.xp < 0))
+      || ('studySeconds' in language && (!Number.isFinite(language.studySeconds) || language.studySeconds < 0))) {
       throw new Error('Unsupported LingoFlow backup')
     }
   }
