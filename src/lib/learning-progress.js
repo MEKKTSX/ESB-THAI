@@ -46,6 +46,24 @@ const reviewXp = { again: 1, hard: 2, good: 3, easy: 4 }
 
 const learnedCardIds = state => new Set(Object.values(state.lessonProgress).flatMap(progress => progress.learnedChunkIds || []))
 
+export function buildWeeklyActivitySeries(state, now = new Date()) {
+  const timestamp = now instanceof Date ? now.getTime() : now
+  const end = new Date(timestamp)
+  end.setUTCHours(0, 0, 0, 0)
+  const counts = new Map()
+  state.activity.forEach(event => {
+    const day = event.at?.slice(0, 10)
+    if (day) counts.set(day, (counts.get(day) || 0) + 1)
+  })
+
+  return Array.from({ length: 7 }, (_, index) => {
+    const day = new Date(end)
+    day.setUTCDate(end.getUTCDate() - 6 + index)
+    const date = day.toISOString().slice(0, 10)
+    return { date, label: ['S', 'M', 'T', 'W', 'T', 'F', 'S'][day.getUTCDay()], value: counts.get(date) || 0 }
+  })
+}
+
 export function buildReviewQueue(state, now = Date.now()) {
   const timestamp = now instanceof Date ? now.getTime() : now
   const learned = learnedCardIds(state)
@@ -91,6 +109,7 @@ export function getLanguageMetrics(state, totalChunks, now = Date.now()) {
     dayStreak,
     xpToday: xpFor(reviewActivity.filter(event => event.at?.slice(0, 10) === today)),
     xpThisWeek: xpFor(reviewActivity.filter(event => new Date(event.at).getTime() >= weekStart && new Date(event.at).getTime() <= timestamp)),
-    reviewedThisWeek: reviewActivity.filter(event => new Date(event.at).getTime() >= weekStart && new Date(event.at).getTime() <= timestamp).length
+    reviewedThisWeek: reviewActivity.filter(event => new Date(event.at).getTime() >= weekStart && new Date(event.at).getTime() <= timestamp).length,
+    weeklyActivity: buildWeeklyActivitySeries(state, timestamp)
   }
 }

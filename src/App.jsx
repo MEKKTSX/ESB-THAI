@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { BookOpen, Bookmark, Bot, ChartNoAxesCombined, ChevronLeft, ChevronRight, Download, Flame, Home, Languages, Moon, RefreshCcw, Settings, Sparkles, Sun, Upload, UserRound, Volume2 } from 'lucide-react'
 import { LANGUAGE_CATALOG, getLanguage } from './lib/catalog.js'
 import { createProgressRepository } from './lib/progress-repository.js'
@@ -112,11 +112,12 @@ export function ReviewScreen({ language, repository, onLanguageChange, onChange 
   const [progress, setProgress] = useState(() => repository.loadLanguage(language.id))
   const [card, setCard] = useState(null)
   const [revealed, setRevealed] = useState(false)
+  const ratingInProgress = useRef(false)
   const queue = buildReviewQueue(progress, Date.now())
   const queuedCardId = queue[0]?.id
-  useEffect(() => { setProgress(repository.loadLanguage(language.id)); setCard(null); setRevealed(false) }, [language.id, repository])
+  useEffect(() => { ratingInProgress.current = false; setProgress(repository.loadLanguage(language.id)); setCard(null); setRevealed(false) }, [language.id, repository])
   useEffect(() => {
-    if (!queuedCardId) { setCard(null); return }
+    if (!queuedCardId) { ratingInProgress.current = false; setCard(null); return }
     let cancelled = false
     fetch(`/content/${language.id}/manifest.json`).then(response => response.json()).then(async manifest => {
       const unit = manifest.units.find(item => item.lessons.some(lesson => queuedCardId.startsWith(`${language.id}:${lesson.id}`) || queuedCardId.includes(`:${lesson.id}:`)))
@@ -125,11 +126,13 @@ export function ReviewScreen({ language, repository, onLanguageChange, onChange 
       const response = await fetch(`/content/${language.id}/units/${unit.id}/lessons/${lesson.id}.json`)
       const payload = await response.json()
       return payload.chunks.find(item => item.id === queuedCardId) || null
-    }).then(nextCard => { if (!cancelled) setCard(nextCard) }).catch(() => { if (!cancelled) setCard(null) })
+    }).then(nextCard => { if (!cancelled) { ratingInProgress.current = false; setCard(nextCard) } }).catch(() => { if (!cancelled) { ratingInProgress.current = false; setCard(null) } })
     return () => { cancelled = true }
   }, [language.id, queuedCardId])
   const rate = rating => {
-    if (!card) return
+    if (!card || ratingInProgress.current) return
+    ratingInProgress.current = true
+    setCard(null)
     const nextProgress = rateReview(progress, card.id, rating)
     repository.saveLanguage(language.id, nextProgress)
     setProgress(nextProgress)
@@ -140,7 +143,7 @@ export function ReviewScreen({ language, repository, onLanguageChange, onChange 
     {card ? <><button className="review-card" onClick={() => setRevealed(true)}><strong className="script">{card.script}</strong>{card.pronunciation && <span className="pronunciation">{card.pronunciation}</span>}{revealed && <p>{card.translation}</p>}{!revealed && <small>✦ Tap to show answer</small>}<Volume2 /></button><div className="rating-grid">{[['again','ยากอีกครั้ง'],['hard','จำได้ 1 วัน'],['good','ง่าย 4 วัน'],['easy','ง่ายมาก 7 วัน']].map(([rating, label]) => <button key={rating} className={rating} onClick={() => rate(rating)}><span>{rating === 'again' ? '☹' : rating === 'hard' ? '😐' : rating === 'good' ? '🙂' : '😄'}</span>{label}</button>)}</div></> : queuedCardId ? <Loading /> : <div className="loading">No reviews due right now.</div>}</section>
 }
 
-function ProgressScreen({ stats, metrics }) { const total = Math.round(stats.reduce((sum, item) => sum + item.progress, 0) / stats.length); return <section className="screen"><header className="screen-header"><h1>Progress</h1><ChartNoAxesCombined /></header><div className="filter-tabs"><button className="selected">Overview</button><button>Languages</button><button>Skills</button></div><div className="progress-card"><div className="donut" style={{ '--progress': `${total * 3.6}deg` }}><strong>{total}%</strong><small>Mastery</small></div><div>{stats.map(stat => <div className="progress-row" key={stat.language.id}><span>{stat.language.flag} {stat.language.nativeName}</span><strong>{stat.progress}%</strong><div className="track"><span style={{width: `${stat.progress}%`}} /></div></div>)}</div></div><h2>Weekly activity</h2><div className="bars">{['M','T','W','T','F','S','S'].map((day, index) => <span key={index} style={{height: `${28 + index * 7}px`}}><i />{day}</span>)}</div><div className="stat-cards"><div><Sparkles /><strong>{metrics.xpThisWeek}</strong><small>XP this week</small></div><div><BookOpen /><strong>{metrics.reviewedThisWeek}</strong><small>Items reviewed</small></div></div><div className="coming-soon"><Bot /><div><strong>Skills</strong><p>Skill-level insights are coming with future curriculum metadata.</p></div></div></section> }
+function ProgressScreen({ stats, metrics }) { const total = Math.round(stats.reduce((sum, item) => sum + item.progress, 0) / stats.length); return <section className="screen"><header className="screen-header"><h1>Progress</h1><ChartNoAxesCombined /></header><div className="filter-tabs"><button className="selected">Overview</button><button>Languages</button><button>Skills</button></div><div className="progress-card"><div className="donut" style={{ '--progress': `${total * 3.6}deg` }}><strong>{total}%</strong><small>Mastery</small></div><div>{stats.map(stat => <div className="progress-row" key={stat.language.id}><span>{stat.language.flag} {stat.language.nativeName}</span><strong>{stat.progress}%</strong><div className="track"><span style={{width: `${stat.progress}%`}} /></div></div>)}</div></div><h2>Weekly activity</h2><div className="bars">{metrics.weeklyActivity.map(day => <span key={day.date} style={{height: `${day.value * 24}px`}} aria-label={`${day.value} activities on ${day.date}`}><i />{day.label}</span>)}</div><div className="stat-cards"><div><Sparkles /><strong>{metrics.xpThisWeek}</strong><small>XP this week</small></div><div><BookOpen /><strong>{metrics.reviewedThisWeek}</strong><small>Items reviewed</small></div></div><div className="coming-soon"><Bot /><div><strong>Skills</strong><p>Skill-level insights are coming with future curriculum metadata.</p></div></div></section> }
 
 function Assistant({ language }) {
   const [open, setOpen] = useState(false)

@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildReviewQueue, emptyLanguageState, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from '../src/lib/learning-progress.js'
+import { buildReviewQueue, buildWeeklyActivitySeries, emptyLanguageState, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from '../src/lib/learning-progress.js'
 import { createProgressRepository } from '../src/lib/progress-repository.js'
 
 const now = new Date('2026-07-16T10:00:00.000Z')
@@ -66,6 +66,20 @@ describe('learning progress', () => {
     expect(rated.reviewHistory).toEqual([{ cardId: 'en:A:1', rating: 'good', at: now.toISOString() }])
     expect(rated.activity).toMatchObject([{ type: 'review', cardId: 'en:A:1', rating: 'good', at: now.toISOString() }])
     expect(rated.xp).toBeGreaterThan(0)
+  })
+
+  it('builds weekly activity bars from review event days', () => {
+    const state = {
+      ...emptyLanguageState(),
+      activity: [
+        { type: 'review', at: '2026-07-10T08:00:00.000Z' },
+        { type: 'review', at: '2026-07-14T08:00:00.000Z' },
+        { type: 'review', at: '2026-07-14T10:00:00.000Z' },
+        { type: 'review', at: '2026-07-16T08:00:00.000Z' }
+      ]
+    }
+
+    expect(buildWeeklyActivitySeries(state, now).map(day => day.value)).toEqual([1, 0, 0, 0, 2, 0, 1])
   })
 
   it('normalizes persisted language progress with every language-state field', () => {

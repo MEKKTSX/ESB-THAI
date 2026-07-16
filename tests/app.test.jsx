@@ -80,4 +80,25 @@ describe('LingoFlow app shell', () => {
     expect(await screen.findByText('No reviews due right now.')).toBeTruthy()
     fetchMock.mockRestore()
   })
+
+  it('records one grade when the active review card is clicked twice before the queue advances', async () => {
+    const state = {
+      lessonProgress: { A: { learnedChunkIds: ['en:A:1', 'en:A:2'] } }, bookmarks: [],
+      srs: { 'en:A:1': { interval: 0, ease: 2.5, nextReview: 0 }, 'en:A:2': { interval: 0, ease: 2.5, nextReview: 0 } },
+      reviewHistory: [], activity: [], studySeconds: 0, xp: 0
+    }
+    const repository = { loadLanguage: () => state, saveLanguage: (_languageId, nextState) => Object.assign(state, nextState) }
+    const fetchMock = vi.spyOn(globalThis, 'fetch').mockResolvedValueOnce({ json: async () => ({ units: [{ id: 'session-1', lessons: [{ id: 'A' }] }] }) }).mockResolvedValueOnce({ json: async () => lesson })
+
+    render(<ReviewScreen language={english} repository={repository} onLanguageChange={() => {}} onChange={() => {}} />)
+
+    expect(await screen.findByText('Hello')).toBeTruthy()
+    const good = document.querySelector('.rating-grid .good')
+    fireEvent.click(good)
+    fireEvent.click(good)
+    expect(state.reviewHistory).toEqual([expect.objectContaining({ cardId: 'en:A:1', rating: 'good' })])
+    expect(state.activity).toHaveLength(1)
+    expect(state.xp).toBe(3)
+    fetchMock.mockRestore()
+  })
 })
