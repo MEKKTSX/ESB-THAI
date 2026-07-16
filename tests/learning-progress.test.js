@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { emptyLanguageState, markChunkLearned, toggleBookmark } from '../src/lib/learning-progress.js'
+import { buildReviewQueue, emptyLanguageState, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from '../src/lib/learning-progress.js'
 import { createProgressRepository } from '../src/lib/progress-repository.js'
 
 const now = new Date('2026-07-16T10:00:00.000Z')
@@ -28,6 +28,44 @@ describe('learning progress', () => {
 
     expect(toggleBookmark(state, 'en:A:1').bookmarks).toEqual(['en:A:1'])
     expect(toggleBookmark({ ...state, bookmarks: ['en:A:1'] }, 'en:A:1').bookmarks).toEqual([])
+  })
+
+  it('returns only learned cards due in next-review order', () => {
+    const state = {
+      ...emptyLanguageState(),
+      lessonProgress: { A: { learnedChunkIds: ['en:A:early', 'en:A:later'] } },
+      srs: {
+        'en:A:early': { nextReview: 1 },
+        'en:A:later': { nextReview: 5 },
+        'en:A:future': { nextReview: 999 },
+        'en:A:unlearned': { nextReview: 2 }
+      }
+    }
+
+    expect(buildReviewQueue(state, 10).map(item => item.id)).toEqual(['en:A:early', 'en:A:later'])
+  })
+
+  it('derives course metrics from learned chunks and review events', () => {
+    const state = {
+      ...emptyLanguageState(),
+      lessonProgress: { A: { learnedChunkIds: ['en:A:1', 'en:A:2'] } },
+      srs: { 'en:A:1': { interval: 21, nextReview: 1 }, 'en:A:2': { interval: 4, nextReview: 999 } },
+      reviewHistory: [{ cardId: 'en:A:1' }],
+      activity: [{ type: 'review', at: '2026-07-16T10:00:00.000Z' }],
+      xp: 7
+    }
+
+    expect(getLanguageMetrics(state, 10, 10)).toMatchObject({ progress: 20, due: 1, mastered: 1, reviewed: 1, xp: 7 })
+  })
+
+  it('records a rating event and schedules the reviewed card', () => {
+    const state = { ...emptyLanguageState(), srs: { 'en:A:1': { interval: 0, ease: 2.5, nextReview: 0 } } }
+    const rated = rateReview(state, 'en:A:1', 'good', now)
+
+    expect(rated.srs['en:A:1'].nextReview).toBeGreaterThan(now.getTime())
+    expect(rated.reviewHistory).toEqual([{ cardId: 'en:A:1', rating: 'good', at: now.toISOString() }])
+    expect(rated.activity).toMatchObject([{ type: 'review', cardId: 'en:A:1', rating: 'good', at: now.toISOString() }])
+    expect(rated.xp).toBeGreaterThan(0)
   })
 
   it('normalizes persisted language progress with every language-state field', () => {

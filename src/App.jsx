@@ -3,13 +3,13 @@ import { BookOpen, Bookmark, Bot, ChartNoAxesCombined, ChevronLeft, ChevronRight
 import { LANGUAGE_CATALOG, getLanguage } from './lib/catalog.js'
 import { createProgressRepository } from './lib/progress-repository.js'
 import { createCurriculumRepository, lessonPath } from './lib/curriculum-repository.js'
-import { markChunkLearned, toggleBookmark } from './lib/learning-progress.js'
-import { scheduleReview } from './lib/scheduler.js'
+import { buildReviewQueue, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from './lib/learning-progress.js'
 import { createBackup, importBackup } from './lib/backup.js'
 import { migrateLegacyEsb } from './lib/migration.js'
 
 const title = language => language.id === 'en' ? 'English sentence practice' : '15 Units · 150 lessons'
 const emptyStats = language => ({ language, progress: 0, due: 0, mastered: 0, reviewed: 0 })
+const curriculumChunkCount = curriculum => curriculum?.units?.reduce((total, unit) => total + unit.lessons.reduce((count, lesson) => count + (lesson.chunkCount || 0), 0), 0) || 0
 
 function LanguageSetup({ onChoose }) {
   return <main className="setup-screen"><div className="setup-card">
@@ -37,10 +37,10 @@ function CourseRow({ stat, onOpen, compact = false }) {
   </button>
 }
 
-function HomeScreen({ stats, onOpen, onReview }) {
+function HomeScreen({ stats, metrics, onOpen, onReview }) {
   return <section className="screen home-screen"><header className="topbar"><Brand /><button className="icon-button" aria-label="Notifications">●</button></header>
     <h1>Hello, learner <span>👋</span></h1><p className="muted">Let’s keep your streak going!</p>
-    <div className="metric-strip"><Metric icon={<Flame />} value="0" label="Day streak" /><Metric icon={<Sparkles />} value="0" label="XP today" /><Metric icon={<ChartNoAxesCombined />} value="1" label="Level" /></div>
+    <div className="metric-strip"><Metric icon={<Flame />} value={metrics.dayStreak} label="Day streak" /><Metric icon={<Sparkles />} value={metrics.xpToday} label="XP today" /><Metric icon={<ChartNoAxesCombined />} value={Math.floor(metrics.xp / 100) + 1} label="Level" /></div>
     <SectionTitle title="Today’s Review" action="See all" />
     <div className="panel">{stats.map(stat => <div className="review-row" key={stat.language.id}><span>{stat.language.flag}</span><span><strong>{stat.language.nativeName}</strong><small>{stat.due} items due</small></span><button onClick={() => onReview(stat.language.id)}>Review</button></div>)}</div>
     <SectionTitle title="Your Courses" action="See all" />
@@ -108,28 +108,39 @@ export function LessonPlayer({ language, lesson, repository, onClose, onChange =
   return <div className="modal-backdrop"><article className="lesson-modal lesson-player" aria-label={`${lesson.title} lesson player`}><button className="close" aria-label="Close lesson" onClick={onClose}>×</button><small>LESSON {lesson.number}</small><h2>{lesson.title}</h2><div className="lesson-progress"><span style={{ width: `${(learnedCount / lesson.chunks.length) * 100}%` }} /></div><p className="saved-position">Saved position: Chunk {chunkIndex + 1} of {lesson.chunks.length}</p><article className="study-card active-chunk"><div><strong className="script">{chunk.script}</strong>{chunk.pronunciation && <span className="pronunciation">{chunk.pronunciation}</span>}{revealed && <p>{chunk.translation}</p>}</div><Volume2 /></article>{!revealed && <button className="translation-toggle" onClick={() => setRevealed(true)}>Show translation</button>}<div className="lesson-actions"><button className="icon-action" aria-label={isBookmarked ? 'Remove bookmark' : 'Bookmark chunk'} onClick={() => save(toggleBookmark(progress, chunk.id))}><Bookmark fill={isBookmarked ? 'currentColor' : 'none'} /></button><button className="secondary" onClick={previous} disabled={chunkIndex === 0}><ChevronLeft /> Previous</button><button className="primary" onClick={advance}>{isLastChunk ? 'Finish' : 'Next chunk'} {!isLastChunk && <ChevronRight />}</button></div></article></div>
 }
 
-function ReviewScreen({ language, repository, onLanguageChange, onChange }) {
+export function ReviewScreen({ language, repository, onLanguageChange, onChange }) {
+  const [progress, setProgress] = useState(() => repository.loadLanguage(language.id))
   const [card, setCard] = useState(null)
   const [revealed, setRevealed] = useState(false)
-  useEffect(() => { setCard(null); setRevealed(false) }, [language.id])
-  useEffect(() => { fetch(`/content/${language.id}/manifest.json`).then(response => response.json()).then(async manifest => {
-    const unit = manifest.units[0]; const lesson = unit?.lessons[0]
-    if (!lesson) return
-    const response = await fetch(`/content/${language.id}/units/${unit.id}/lessons/${lesson.id}.json`)
-    const payload = await response.json(); setCard(payload.chunks[0])
-  }).catch(() => setCard(null)) }, [language.id])
+  const queue = buildReviewQueue(progress, Date.now())
+  const queuedCardId = queue[0]?.id
+  useEffect(() => { setProgress(repository.loadLanguage(language.id)); setCard(null); setRevealed(false) }, [language.id, repository])
+  useEffect(() => {
+    if (!queuedCardId) { setCard(null); return }
+    let cancelled = false
+    fetch(`/content/${language.id}/manifest.json`).then(response => response.json()).then(async manifest => {
+      const unit = manifest.units.find(item => item.lessons.some(lesson => queuedCardId.startsWith(`${language.id}:${lesson.id}`) || queuedCardId.includes(`:${lesson.id}:`)))
+      const lesson = unit?.lessons.find(item => queuedCardId.startsWith(`${language.id}:${item.id}`) || queuedCardId.includes(`:${item.id}:`))
+      if (!lesson) return null
+      const response = await fetch(`/content/${language.id}/units/${unit.id}/lessons/${lesson.id}.json`)
+      const payload = await response.json()
+      return payload.chunks.find(item => item.id === queuedCardId) || null
+    }).then(nextCard => { if (!cancelled) setCard(nextCard) }).catch(() => { if (!cancelled) setCard(null) })
+    return () => { cancelled = true }
+  }, [language.id, queuedCardId])
   const rate = rating => {
     if (!card) return
-    const progress = repository.loadLanguage(language.id)
-    repository.saveLanguage(language.id, { ...progress, srs: { ...progress.srs, [card.id]: scheduleReview(progress.srs[card.id], rating) }, activity: [...progress.activity, { at: new Date().toISOString(), rating }] })
+    const nextProgress = rateReview(progress, card.id, rating)
+    repository.saveLanguage(language.id, nextProgress)
+    setProgress(nextProgress)
     onChange()
     setRevealed(false)
   }
   return <section className="screen review-screen"><header className="review-header"><h1>SRS Review</h1><Settings /></header><select value={language.id} onChange={event => onLanguageChange(event.target.value)}>{LANGUAGE_CATALOG.map(item => <option key={item.id} value={item.id}>{item.flag} {item.nativeName}</option>)}</select><div className="review-progress"><span /></div>
-    {card ? <><button className="review-card" onClick={() => setRevealed(true)}><strong className="script">{card.script}</strong>{card.pronunciation && <span className="pronunciation">{card.pronunciation}</span>}{revealed && <p>{card.translation}</p>}{!revealed && <small>✦ Tap to show answer</small>}<Volume2 /></button><div className="rating-grid">{[['again','ยากอีกครั้ง'],['hard','จำได้ 1 วัน'],['good','ง่าย 4 วัน'],['easy','ง่ายมาก 7 วัน']].map(([rating, label]) => <button key={rating} className={rating} onClick={() => rate(rating)}><span>{rating === 'again' ? '☹' : rating === 'hard' ? '😐' : rating === 'good' ? '🙂' : '😄'}</span>{label}</button>)}</div></> : <Loading />}</section>
+    {card ? <><button className="review-card" onClick={() => setRevealed(true)}><strong className="script">{card.script}</strong>{card.pronunciation && <span className="pronunciation">{card.pronunciation}</span>}{revealed && <p>{card.translation}</p>}{!revealed && <small>✦ Tap to show answer</small>}<Volume2 /></button><div className="rating-grid">{[['again','ยากอีกครั้ง'],['hard','จำได้ 1 วัน'],['good','ง่าย 4 วัน'],['easy','ง่ายมาก 7 วัน']].map(([rating, label]) => <button key={rating} className={rating} onClick={() => rate(rating)}><span>{rating === 'again' ? '☹' : rating === 'hard' ? '😐' : rating === 'good' ? '🙂' : '😄'}</span>{label}</button>)}</div></> : queuedCardId ? <Loading /> : <div className="loading">No reviews due right now.</div>}</section>
 }
 
-function ProgressScreen({ stats }) { const total = Math.round(stats.reduce((sum, item) => sum + item.progress, 0) / stats.length); return <section className="screen"><header className="screen-header"><h1>Progress</h1><ChartNoAxesCombined /></header><div className="filter-tabs"><button className="selected">Overview</button><button>Languages</button><button>Skills</button></div><div className="progress-card"><div className="donut" style={{ '--progress': `${total * 3.6}deg` }}><strong>{total}%</strong><small>Mastery</small></div><div>{stats.map(stat => <div className="progress-row" key={stat.language.id}><span>{stat.language.flag} {stat.language.nativeName}</span><strong>{stat.progress}%</strong><div className="track"><span style={{width: `${stat.progress}%`}} /></div></div>)}</div></div><h2>Weekly activity</h2><div className="bars">{['M','T','W','T','F','S','S'].map((day, index) => <span key={index} style={{height: `${28 + index * 7}px`}}><i />{day}</span>)}</div><div className="stat-cards"><div><Sparkles /><strong>0</strong><small>XP this week</small></div><div><BookOpen /><strong>0</strong><small>Items reviewed</small></div></div><div className="coming-soon"><Bot /><div><strong>Skills</strong><p>Skill-level insights are coming with future curriculum metadata.</p></div></div></section> }
+function ProgressScreen({ stats, metrics }) { const total = Math.round(stats.reduce((sum, item) => sum + item.progress, 0) / stats.length); return <section className="screen"><header className="screen-header"><h1>Progress</h1><ChartNoAxesCombined /></header><div className="filter-tabs"><button className="selected">Overview</button><button>Languages</button><button>Skills</button></div><div className="progress-card"><div className="donut" style={{ '--progress': `${total * 3.6}deg` }}><strong>{total}%</strong><small>Mastery</small></div><div>{stats.map(stat => <div className="progress-row" key={stat.language.id}><span>{stat.language.flag} {stat.language.nativeName}</span><strong>{stat.progress}%</strong><div className="track"><span style={{width: `${stat.progress}%`}} /></div></div>)}</div></div><h2>Weekly activity</h2><div className="bars">{['M','T','W','T','F','S','S'].map((day, index) => <span key={index} style={{height: `${28 + index * 7}px`}}><i />{day}</span>)}</div><div className="stat-cards"><div><Sparkles /><strong>{metrics.xpThisWeek}</strong><small>XP this week</small></div><div><BookOpen /><strong>{metrics.reviewedThisWeek}</strong><small>Items reviewed</small></div></div><div className="coming-soon"><Bot /><div><strong>Skills</strong><p>Skill-level insights are coming with future curriculum metadata.</p></div></div></section> }
 
 function Assistant({ language }) {
   const [open, setOpen] = useState(false)
@@ -178,10 +189,14 @@ export default function App({ storageKey }) {
   useEffect(() => { fetch('/content/en/legacy-map.json').then(response => response.json()).then(map => { if (migrateLegacyEsb(repository, window.localStorage, map)) setRevision(value => value + 1) }).catch(() => {}) }, [repository])
   if (!activeLanguageId) return <LanguageSetup onChoose={languageId => setSettings({ ...settings, defaultLanguage: languageId })} />
   const activeLanguage = getLanguage(activeLanguageId)
-  const stats = LANGUAGE_CATALOG.map(language => { const progress = repository.loadLanguage(language.id); const srs = Object.values(progress.srs); return { ...emptyStats(language), due: srs.filter(item => item.nextReview <= Date.now()).length, mastered: srs.filter(item => item.interval >= 21).length, reviewed: srs.length, progress: 0 } })
+  const stats = LANGUAGE_CATALOG.map(language => {
+    const metrics = getLanguageMetrics(repository.loadLanguage(language.id), curriculumChunkCount(curricula[language.id]), Date.now())
+    return { ...emptyStats(language), ...metrics, language }
+  })
+  const activeMetrics = stats.find(stat => stat.language.id === activeLanguageId) || emptyStats(activeLanguage)
   const openLanguage = languageId => { setActiveLanguageId(languageId); setTab('study') }
   const openReview = languageId => { setActiveLanguageId(languageId); setTab('review') }
   const onProgressChange = () => setRevision(value => value + 1)
-  const screens = { home: <HomeScreen stats={stats} onOpen={openLanguage} onReview={openReview} />, courses: <CoursesScreen stats={stats} onOpen={openLanguage} />, study: <StudyScreen language={activeLanguage} curriculum={curricula[activeLanguageId]} curriculumRepository={curriculumRepository} repository={repository} onChange={onProgressChange} />, review: <ReviewScreen language={activeLanguage} repository={repository} onLanguageChange={setActiveLanguageId} onChange={onProgressChange} />, progress: <ProgressScreen stats={stats} />, profile: <ProfileScreen settings={settings} setSettings={setSettings} repository={repository} /> }
+  const screens = { home: <HomeScreen stats={stats} metrics={activeMetrics} onOpen={openLanguage} onReview={openReview} />, courses: <CoursesScreen stats={stats} onOpen={openLanguage} />, study: <StudyScreen language={activeLanguage} curriculum={curricula[activeLanguageId]} curriculumRepository={curriculumRepository} repository={repository} onChange={onProgressChange} />, review: <ReviewScreen language={activeLanguage} repository={repository} onLanguageChange={setActiveLanguageId} onChange={onProgressChange} />, progress: <ProgressScreen stats={stats} metrics={activeMetrics} />, profile: <ProfileScreen settings={settings} setSettings={setSettings} repository={repository} /> }
   return <main className="app-shell">{screens[tab]}<Assistant language={activeLanguage} /><Nav tab={tab} setTab={setTab} /></main>
 }
