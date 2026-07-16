@@ -1,6 +1,8 @@
+import { emptyLanguageState } from './learning-progress.js'
+
 const STORAGE_KEY = 'lingoflow-state-v1'
 
-const emptyLanguage = () => ({ srs: {}, bookmarks: [], reviewHistory: {}, activity: [] })
+const emptyLanguage = emptyLanguageState
 const emptyState = () => ({ version: 1, settings: { theme: 'system', defaultLanguage: null }, languages: {} })
 
 export function createProgressRepository(storage = window.localStorage, storageKey = STORAGE_KEY) {
@@ -24,7 +26,7 @@ export function createProgressRepository(storage = window.localStorage, storageK
       state.settings = { ...state.settings, ...structuredClone(settings) }
       write(state)
     },
-    loadLanguage: languageId => structuredClone(read().languages[languageId] || emptyLanguage()),
+    loadLanguage: languageId => structuredClone({ ...emptyLanguage(), ...read().languages[languageId] }),
     saveLanguage: (languageId, value) => {
       const state = read()
       state.languages[languageId] = { ...emptyLanguage(), ...structuredClone(value) }
