@@ -75,6 +75,12 @@ describe('LingoFlow core', () => {
     })
   })
 
+  it('accepts a v1 backup when legacy settings fields are missing', () => {
+    const backup = { format: 'lingoflow-backup', version: 1, state: { settings: {}, languages: {} } }
+
+    expect(() => validateBackup(backup)).not.toThrow()
+  })
+
   it.each([
     ['an array state', []],
     ['missing settings', { languages: {} }],
@@ -86,7 +92,9 @@ describe('LingoFlow core', () => {
     ['a supplied SRS field with the wrong type', { settings: {}, languages: { en: { srs: [] } } }],
     ['a supplied lesson progress field with the wrong type', { settings: {}, languages: { en: { lessonProgress: [] } } }],
     ['a negative supplied XP value', { settings: {}, languages: { en: { xp: -1 } } }],
-    ['a non-finite supplied study time', { settings: {}, languages: { en: { studySeconds: Infinity } } }]
+    ['a non-finite supplied study time', { settings: {}, languages: { en: { studySeconds: Infinity } } }],
+    ['an invalid supplied default language', { settings: { defaultLanguage: 'th' }, languages: {} }],
+    ['an invalid supplied theme', { settings: { theme: 'midnight' }, languages: {} }]
   ])('rejects a backup with %s', (_label, state) => {
     expect(() => validateBackup({ format: 'lingoflow-backup', version: 1, state })).toThrow('Unsupported LingoFlow backup')
   })

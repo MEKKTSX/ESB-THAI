@@ -16,7 +16,12 @@ export function validateBackup(backup) {
     throw new Error('Unsupported LingoFlow backup')
   }
   const { settings, languages } = backup.state
-  if (!isObject(settings) || !isObject(languages)) throw new Error('Unsupported LingoFlow backup')
+  if (!isObject(settings)
+    || !isObject(languages)
+    || ('defaultLanguage' in settings && ![null, 'en', 'zh-Hans'].includes(settings.defaultLanguage))
+    || ('theme' in settings && !['system', 'light', 'dark'].includes(settings.theme))) {
+    throw new Error('Unsupported LingoFlow backup')
+  }
   for (const language of Object.values(languages)) {
     if (!isObject(language)
       || ('lessonProgress' in language && !isObject(language.lessonProgress))

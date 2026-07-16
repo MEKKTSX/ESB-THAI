@@ -167,6 +167,23 @@ describe('LingoFlow app shell', () => {
     confirm.mockRestore()
   })
 
+  it.each([
+    ['an invalid default language', { defaultLanguage: 'th' }],
+    ['an invalid theme', { theme: 'midnight' }]
+  ])('rejects %s before asking to replace progress', async (_label, settings) => {
+    const confirm = vi.spyOn(window, 'confirm')
+    const repository = { loadState: () => ({}), replaceAll: vi.fn() }
+    render(<ProfileScreen settings={{ theme: 'system', defaultLanguage: 'en' }} setSettings={() => {}} repository={repository} />)
+    const input = document.querySelector('input[type="file"]')
+    const backup = { format: 'lingoflow-backup', version: 1, state: { settings, languages: {} } }
+    fireEvent.change(input, { target: { files: [{ text: async () => JSON.stringify(backup) }] } })
+
+    expect(await screen.findByRole('alert')).toBeTruthy()
+    expect(confirm).not.toHaveBeenCalled()
+    expect(repository.replaceAll).not.toHaveBeenCalled()
+    confirm.mockRestore()
+  })
+
   it('asks for confirmation after validating an older compatible backup', async () => {
     const confirm = vi.spyOn(window, 'confirm').mockReturnValue(false)
     const repository = { loadState: () => ({}), replaceAll: vi.fn() }
