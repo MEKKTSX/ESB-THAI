@@ -1,7 +1,7 @@
 import { describe, expect, it, beforeEach } from 'vitest'
 import { LANGUAGE_CATALOG, createCardId } from '../src/lib/catalog.js'
 import { createProgressRepository } from '../src/lib/progress-repository.js'
-import { createBackup, importBackup } from '../src/lib/backup.js'
+import { createBackup, importBackup, validateBackup } from '../src/lib/backup.js'
 import { migrateLegacyEsb } from '../src/lib/migration.js'
 import { scheduleReview } from '../src/lib/scheduler.js'
 import { buildReviewQueue, getLanguageMetrics, rateReview } from '../src/lib/learning-progress.js'
@@ -50,6 +50,15 @@ describe('LingoFlow core', () => {
     expect(repository.loadSettings()).toMatchObject({ theme: 'dark', defaultLanguage: 'zh-Hans' })
     expect(repository.loadLanguage('en').bookmarks).toEqual(['en:session-1:A:1'])
     expect(repository.loadLanguage('zh-Hans').bookmarks).toEqual(['zh-Hans:U01-L01-C001'])
+  })
+
+  it.each([
+    ['an array state', []],
+    ['missing settings', { languages: {} }],
+    ['missing languages', { settings: {} }],
+    ['a malformed language namespace', { settings: {}, languages: { en: [] } }]
+  ])('rejects a backup with %s', (_label, state) => {
+    expect(() => validateBackup({ format: 'lingoflow-backup', version: 1, state })).toThrow('Unsupported LingoFlow backup')
   })
 
   it('migrates each legacy ESB card key only once into English', () => {

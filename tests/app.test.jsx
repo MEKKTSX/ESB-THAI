@@ -1,6 +1,6 @@
 import { cleanup, fireEvent, render, screen } from '@testing-library/react'
 import { afterEach, describe, expect, it, vi } from 'vitest'
-import App, { LessonPlayer, ProfileScreen, ReviewScreen } from '../src/App.jsx'
+import App, { LessonPlayer, ProfileScreen, ReviewScreen, StudyScreen } from '../src/App.jsx'
 
 const english = { id: 'en', name: 'English', nativeName: 'English', flag: '🇬🇧' }
 const lesson = {
@@ -44,6 +44,21 @@ describe('LingoFlow app shell', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Next chunk' }))
     expect(repository.loadLanguage('en').lessonProgress.A.learnedChunkIds).toContain(lesson.chunks[0].id)
     expect(screen.getByText(lesson.chunks[1].script)).toBeTruthy()
+  })
+
+  it('persists only unaccounted elapsed lesson time for each newly learned chunk', () => {
+    let state = { lessonProgress: {}, bookmarks: [], srs: {}, reviewHistory: [], activity: [], studySeconds: 0, xp: 0 }
+    const repository = { loadLanguage: () => state, saveLanguage: (_languageId, nextState) => { state = nextState } }
+    const now = vi.spyOn(Date, 'now').mockReturnValue(1_000)
+    render(<LessonPlayer language={english} lesson={lesson} repository={repository} onClose={() => {}} />)
+
+    now.mockReturnValue(11_000)
+    fireEvent.click(screen.getByRole('button', { name: 'Next chunk' }))
+    now.mockReturnValue(21_000)
+    fireEvent.click(screen.getByRole('button', { name: 'Finish' }))
+
+    expect(state.studySeconds).toBe(20)
+    now.mockRestore()
   })
 
   it('persists the selected previous chunk for the next lesson session', () => {
@@ -137,5 +152,27 @@ describe('LingoFlow app shell', () => {
     expect(confirm).not.toHaveBeenCalled()
     expect(repository.replaceAll).not.toHaveBeenCalled()
     confirm.mockRestore()
+  })
+
+  it('rejects an invalid backup envelope before asking to replace progress', async () => {
+    const confirm = vi.spyOn(window, 'confirm')
+    const repository = { loadState: () => ({}), replaceAll: vi.fn() }
+    render(<ProfileScreen settings={{ theme: 'system', defaultLanguage: 'en' }} setSettings={() => {}} repository={repository} />)
+    const input = document.querySelector('input[type="file"]')
+    fireEvent.change(input, { target: { files: [{ text: async () => JSON.stringify({ format: 'lingoflow-backup', version: 1, state: [] }) }] } })
+
+    expect(await screen.findByRole('alert')).toBeTruthy()
+    expect(confirm).not.toHaveBeenCalled()
+    expect(repository.replaceAll).not.toHaveBeenCalled()
+    confirm.mockRestore()
+  })
+
+  it('renders lesson progress from manifest chunk counts', () => {
+    const curriculum = { units: [{ id: 'unit-1', number: 1, lessons: [{ id: 'A', number: 1, title: 'First lesson', chunkCount: 4 }] }] }
+    const repository = { loadLanguage: () => ({ lessonProgress: { A: { learnedChunkIds: ['en:A:1', 'en:A:2'] } } }) }
+    render(<StudyScreen language={english} curriculum={curriculum} curriculumRepository={{ loadLesson: vi.fn() }} repository={repository} onChange={() => {}} />)
+
+    expect(screen.getByText('2 / 4 chunks (50%)')).toBeTruthy()
+    expect(screen.getByText('Unit progress: 2 / 4 chunks (50%)')).toBeTruthy()
   })
 })

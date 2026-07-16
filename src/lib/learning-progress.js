@@ -10,12 +10,13 @@ export const emptyLanguageState = () => ({
   xp: 0
 })
 
-export function markChunkLearned(state, lessonId, chunkId, chunkIndex, totalChunks, now = new Date()) {
+export function markChunkLearned(state, lessonId, chunkId, chunkIndex, totalChunks, now = new Date(), elapsedStudySeconds = 0) {
   const current = state.lessonProgress[lessonId] || { currentChunkIndex: 0, learnedChunkIds: [], completedAt: null }
   const isNewlyLearned = !current.learnedChunkIds.includes(chunkId)
   const learnedChunkIds = [...new Set([...current.learnedChunkIds, chunkId])]
   const completedAt = learnedChunkIds.length === totalChunks ? now.toISOString() : current.completedAt
-  const learningEvent = { type: 'learn', cardId: chunkId, at: now.toISOString(), xp: 5, studySeconds: 30 }
+  const studySeconds = Number.isFinite(elapsedStudySeconds) && elapsedStudySeconds >= 0 ? Math.floor(elapsedStudySeconds) : 0
+  const learningEvent = { type: 'learn', cardId: chunkId, at: now.toISOString(), xp: 5, studySeconds }
 
   return {
     ...state,
@@ -120,10 +121,22 @@ export function getLanguageMetrics(state, totalChunks, now = Date.now()) {
     mastered: Object.entries(state.srs).filter(([id, card]) => learnedCardIds(state).has(id) && card.interval >= 21).length,
     reviewed: Array.isArray(state.reviewHistory) ? state.reviewHistory.length : Object.keys(state.reviewHistory || {}).length,
     xp: state.xp,
+    studySeconds: Number.isFinite(state.studySeconds) && state.studySeconds >= 0 ? state.studySeconds : 0,
     dayStreak,
     xpToday: xpFor(reviewActivity.filter(event => event.at?.slice(0, 10) === today)),
     xpThisWeek: xpFor(reviewActivity.filter(event => new Date(event.at).getTime() >= weekStart && new Date(event.at).getTime() <= timestamp)),
     reviewedThisWeek: reviewActivity.filter(event => new Date(event.at).getTime() >= weekStart && new Date(event.at).getTime() <= timestamp).length,
     weeklyActivity: buildWeeklyActivitySeries(state, timestamp)
   }
+}
+
+export function buildLessonProgress(lessonProgress, item) {
+  const lessons = Array.isArray(item.lessons) ? item.lessons : [item]
+  const counts = lessons.reduce((result, lesson) => {
+    const total = Number.isFinite(lesson.chunkCount) && lesson.chunkCount >= 0 ? lesson.chunkCount : 0
+    const saved = lessonProgress?.[lesson.id]
+    const learned = saved?.completedAt ? total : Math.min(Array.isArray(saved?.learnedChunkIds) ? new Set(saved.learnedChunkIds).size : 0, total)
+    return { learned: result.learned + learned, total: result.total + total }
+  }, { learned: 0, total: 0 })
+  return { ...counts, percent: counts.total ? Math.round((counts.learned / counts.total) * 100) : 0 }
 }

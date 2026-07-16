@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest'
-import { buildReviewQueue, buildWeeklyActivitySeries, emptyLanguageState, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from '../src/lib/learning-progress.js'
+import { buildLessonProgress, buildReviewQueue, buildWeeklyActivitySeries, emptyLanguageState, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from '../src/lib/learning-progress.js'
 import { createProgressRepository } from '../src/lib/progress-repository.js'
 
 const now = new Date('2026-07-16T10:00:00.000Z')
@@ -58,6 +58,10 @@ describe('learning progress', () => {
     expect(getLanguageMetrics(state, 10, 10)).toMatchObject({ progress: 20, due: 1, mastered: 1, reviewed: 1, xp: 7 })
   })
 
+  it('returns persisted study seconds with language metrics', () => {
+    expect(getLanguageMetrics({ ...emptyLanguageState(), studySeconds: 73 }, 0, now).studySeconds).toBe(73)
+  })
+
   it('records a rating event and schedules the reviewed card', () => {
     const state = { ...emptyLanguageState(), srs: { 'en:A:1': { interval: 0, ease: 2.5, nextReview: 0 } } }
     const rated = rateReview(state, 'en:A:1', 'good', now)
@@ -68,16 +72,16 @@ describe('learning progress', () => {
     expect(rated.xp).toBeGreaterThan(0)
   })
 
-  it('awards one deterministic learning event and study time for a newly learned chunk', () => {
-    const first = markChunkLearned(emptyLanguageState(), 'A', 'en:A:1', 0, 2, now)
-    const repeated = markChunkLearned(first, 'A', 'en:A:1', 0, 2, now)
+  it('persists passed elapsed study time only for a newly learned chunk', () => {
+    const first = markChunkLearned(emptyLanguageState(), 'A', 'en:A:1', 0, 2, now, 47)
+    const repeated = markChunkLearned(first, 'A', 'en:A:1', 0, 2, now, 99)
 
-    expect(first.activity).toEqual([expect.objectContaining({ type: 'learn', cardId: 'en:A:1', xp: 5, studySeconds: 30 })])
+    expect(first.activity).toEqual([expect.objectContaining({ type: 'learn', cardId: 'en:A:1', xp: 5, studySeconds: 47 })])
     expect(first.xp).toBe(5)
-    expect(first.studySeconds).toBe(30)
+    expect(first.studySeconds).toBe(47)
     expect(repeated.activity).toHaveLength(1)
     expect(repeated.xp).toBe(5)
-    expect(repeated.studySeconds).toBe(30)
+    expect(repeated.studySeconds).toBe(47)
   })
 
   it('does not let an orphaned SRS record inflate mastery', () => {
@@ -124,5 +128,27 @@ describe('learning progress', () => {
       srs: { 'en:A:1': { interval: 4 } },
       bookmarks: ['en:A:1']
     })
+  })
+
+  it('normalizes malformed nested lesson progress when loading and saving', () => {
+    const local = storage()
+    local.setItem('lingoflow-state-v1', JSON.stringify({
+      version: 1,
+      settings: {},
+      languages: { en: { lessonProgress: { A: { currentChunkIndex: -3, learnedChunkIds: 'broken', completedAt: 5, updatedAt: {} } } } }
+    }))
+    const repository = createProgressRepository(local)
+
+    expect(repository.loadLanguage('en').lessonProgress.A).toEqual({ currentChunkIndex: 0, learnedChunkIds: [], completedAt: null, updatedAt: null })
+    repository.saveLanguage('en', { lessonProgress: { B: null } })
+    expect(repository.loadLanguage('en').lessonProgress.B).toEqual({ currentChunkIndex: 0, learnedChunkIds: [], completedAt: null, updatedAt: null })
+  })
+
+  it('returns lesson and unit progress from learned chunks and manifest chunk counts', () => {
+    const lessonProgress = { A: { learnedChunkIds: ['en:A:1', 'en:A:2'] }, B: { learnedChunkIds: ['en:B:1'], completedAt: '2026-07-16T10:00:00.000Z' } }
+    const manifest = { units: [{ id: 'unit-1', lessons: [{ id: 'A', chunkCount: 4 }, { id: 'B', chunkCount: 5 }] }] }
+
+    expect(buildLessonProgress(lessonProgress, manifest.units[0].lessons[0])).toEqual({ learned: 2, total: 4, percent: 50 })
+    expect(buildLessonProgress(lessonProgress, manifest.units[0])).toEqual({ learned: 7, total: 9, percent: 78 })
   })
 })

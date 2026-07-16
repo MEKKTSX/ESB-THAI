@@ -3,7 +3,7 @@ import { BookOpen, Bookmark, Bot, ChartNoAxesCombined, ChevronLeft, ChevronRight
 import { LANGUAGE_CATALOG, getLanguage } from './lib/catalog.js'
 import { createProgressRepository } from './lib/progress-repository.js'
 import { createCurriculumRepository, lessonPath } from './lib/curriculum-repository.js'
-import { buildPracticeQueue, buildReviewQueue, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from './lib/learning-progress.js'
+import { buildLessonProgress, buildPracticeQueue, buildReviewQueue, getLanguageMetrics, markChunkLearned, rateReview, toggleBookmark } from './lib/learning-progress.js'
 import { createBackup, importBackup, validateBackup } from './lib/backup.js'
 import { migrateLegacyEsb } from './lib/migration.js'
 
@@ -64,7 +64,8 @@ export function StudyScreen({ language, curriculum, curriculumError, retryCurric
   const [lesson, setLesson] = useState(null)
   const [failedLesson, setFailedLesson] = useState(null)
   useEffect(() => { setUnitId(curriculum?.units?.[0]?.id ?? null); setLesson(null); setFailedLesson(null) }, [curriculum, language.id])
-  const unit = curriculum?.units?.find(item => item.id === unitId)
+  const unit = curriculum?.units?.find(item => item.id === unitId) || curriculum?.units?.[0]
+  const progress = repository.loadLanguage(language.id)
   const openLesson = async lessonMeta => {
     const path = lessonPath(language.id, unit.id, lessonMeta.id)
     setFailedLesson(null)
@@ -75,8 +76,8 @@ export function StudyScreen({ language, curriculum, curriculumError, retryCurric
     }
   }
   return <section className="screen"><header className="screen-header"><div><h1>{language.nativeName}</h1><p className="muted">{title(language)}</p></div><span className="language-pill">{language.flag} {language.name}</span></header>
-    {curriculumError ? <LoadAlert message={curriculumError} onRetry={retryCurriculum} /> : !curriculum ? <Loading /> : <><div className="unit-rail">{curriculum.units.map(item => <button key={item.id} onClick={() => { setUnitId(item.id); setLesson(null); setFailedLesson(null) }} className={item.id === unitId ? 'selected' : ''}>UNIT {item.number}</button>)}</div>
-    <div className="lesson-list">{unit.lessons.map(item => <button key={item.id} onClick={() => openLesson(item)} className="lesson-row"><span><small>LESSON {item.number}</small><strong>{item.title}</strong><em>{item.chunkCount} chunks</em></span><ChevronRight /></button>)}</div>
+    {curriculumError ? <LoadAlert message={curriculumError} onRetry={retryCurriculum} /> : !curriculum ? <Loading /> : <><div className="unit-rail">{curriculum.units.map(item => { const unitProgress = buildLessonProgress(progress.lessonProgress, item); return <button key={item.id} onClick={() => { setUnitId(item.id); setLesson(null); setFailedLesson(null) }} className={item.id === unit.id ? 'selected' : ''}>UNIT {item.number} · {unitProgress.learned}/{unitProgress.total} ({unitProgress.percent}%)</button> })}</div>
+    <p className="unit-progress">Unit progress: {buildLessonProgress(progress.lessonProgress, unit).learned} / {buildLessonProgress(progress.lessonProgress, unit).total} chunks ({buildLessonProgress(progress.lessonProgress, unit).percent}%)</p><div className="lesson-list">{unit.lessons.map(item => { const lessonProgress = buildLessonProgress(progress.lessonProgress, item); return <button key={item.id} onClick={() => openLesson(item)} className="lesson-row"><span><small>LESSON {item.number}</small><strong>{item.title}</strong><em>{lessonProgress.learned} / {lessonProgress.total} chunks ({lessonProgress.percent}%)</em></span><ChevronRight /></button> })}</div>
     {failedLesson && <div className="lesson-alert" role="alert">Could not load {failedLesson.path}<button onClick={() => openLesson(failedLesson.lessonMeta)}>Retry</button></div>}
     {lesson && <LessonPlayer language={language} lesson={lesson} repository={repository} onClose={() => setLesson(null)} onChange={onChange} />}</>}</section>
 }
@@ -84,7 +85,9 @@ export function StudyScreen({ language, curriculum, curriculumError, retryCurric
 export function LessonPlayer({ language, lesson, repository, onClose, onChange = () => {} }) {
   const [progress, setProgress] = useState(() => repository.loadLanguage(language.id))
   const [revealed, setRevealed] = useState(false)
-  useEffect(() => { setProgress(repository.loadLanguage(language.id)); setRevealed(false) }, [language.id, lesson.id, repository])
+  const sessionStartedAt = useRef(Date.now())
+  const recordedSessionSeconds = useRef(0)
+  useEffect(() => { sessionStartedAt.current = Date.now(); recordedSessionSeconds.current = 0; setProgress(repository.loadLanguage(language.id)); setRevealed(false) }, [language.id, lesson.id, repository])
 
   const savedProgress = progress.lessonProgress[lesson.id]
   const chunkIndex = Math.min(savedProgress?.currentChunkIndex ?? 0, lesson.chunks.length - 1)
@@ -97,7 +100,10 @@ export function LessonPlayer({ language, lesson, repository, onClose, onChange =
     setRevealed(false)
   }
   const advance = () => {
-    const nextProgress = markChunkLearned(progress, lesson.id, chunk.id, chunkIndex, lesson.chunks.length)
+    const elapsedSeconds = Math.max(0, Math.floor((Date.now() - sessionStartedAt.current) / 1000) - recordedSessionSeconds.current)
+    const isNewlyLearned = !(savedProgress?.learnedChunkIds || []).includes(chunk.id)
+    const nextProgress = markChunkLearned(progress, lesson.id, chunk.id, chunkIndex, lesson.chunks.length, new Date(), elapsedSeconds)
+    if (isNewlyLearned) recordedSessionSeconds.current += elapsedSeconds
     save(nextProgress)
     setRevealed(false)
     if (chunkIndex === lesson.chunks.length - 1) onClose()
@@ -149,7 +155,7 @@ export function ReviewScreen({ language, repository, onLanguageChange, onChange 
     {loadError ? <LoadAlert message={loadError} onRetry={() => setLoadRevision(value => value + 1)} /> : card ? <><p className="review-mode">{mode}</p><button className="review-card" onClick={() => setRevealed(true)}><strong className="script">{card.script}</strong>{card.pronunciation && <span className="pronunciation">{card.pronunciation}</span>}{revealed && <p>{card.translation}</p>}{!revealed && <small>✦ Tap to show answer</small>}<Volume2 /></button><div className="rating-grid">{[['again','ยากอีกครั้ง'],['hard','จำได้ 1 วัน'],['good','ง่าย 4 วัน'],['easy','ง่ายมาก 7 วัน']].map(([rating, label]) => <button key={rating} className={rating} onClick={() => rate(rating)}><span>{rating === 'again' ? '☹' : rating === 'hard' ? '😐' : rating === 'good' ? '🙂' : '😄'}</span>{label}</button>)}</div></> : queuedCardId ? <Loading /> : <div className="loading">No reviews due right now.</div>}</section>
 }
 
-function ProgressScreen({ stats, metrics }) { const total = Math.round(stats.reduce((sum, item) => sum + item.progress, 0) / stats.length); return <section className="screen"><header className="screen-header"><h1>Progress</h1><ChartNoAxesCombined /></header><div className="filter-tabs"><button className="selected">Overview</button><button>Languages</button><button>Skills</button></div><div className="progress-card"><div className="donut" style={{ '--progress': `${total * 3.6}deg` }}><strong>{total}%</strong><small>Mastery</small></div><div>{stats.map(stat => <div className="progress-row" key={stat.language.id}><span>{stat.language.flag} {stat.language.nativeName}</span><strong>{stat.progress}%</strong><div className="track"><span style={{width: `${stat.progress}%`}} /></div></div>)}</div></div><h2>Weekly activity</h2><div className="bars">{metrics.weeklyActivity.map(day => <span key={day.date} style={{height: `${day.value * 24}px`}} aria-label={`${day.value} activities on ${day.date}`}><i />{day.label}</span>)}</div><div className="stat-cards"><div><Sparkles /><strong>{metrics.xpThisWeek}</strong><small>XP this week</small></div><div><BookOpen /><strong>{metrics.reviewedThisWeek}</strong><small>Items reviewed</small></div></div><div className="coming-soon"><Bot /><div><strong>Skills</strong><p>Skill-level insights are coming with future curriculum metadata.</p></div></div></section> }
+function ProgressScreen({ stats, metrics }) { const total = Math.round(stats.reduce((sum, item) => sum + item.progress, 0) / stats.length); const studyTime = `${Math.floor(metrics.studySeconds / 60)}m ${metrics.studySeconds % 60}s`; return <section className="screen"><header className="screen-header"><h1>Progress</h1><ChartNoAxesCombined /></header><div className="filter-tabs"><button className="selected">Overview</button><button>Languages</button><button>Skills</button></div><div className="progress-card"><div className="donut" style={{ '--progress': `${total * 3.6}deg` }}><strong>{total}%</strong><small>Mastery</small></div><div>{stats.map(stat => <div className="progress-row" key={stat.language.id}><span>{stat.language.flag} {stat.language.nativeName}</span><strong>{stat.progress}%</strong><div className="track"><span style={{width: `${stat.progress}%`}} /></div></div>)}</div></div><h2>Weekly activity</h2><div className="bars">{metrics.weeklyActivity.map(day => <span key={day.date} style={{height: `${day.value * 24}px`}} aria-label={`${day.value} activities on ${day.date}`}><i />{day.label}</span>)}</div><div className="stat-cards"><div><Sparkles /><strong>{metrics.xpThisWeek}</strong><small>XP this week</small></div><div><BookOpen /><strong>{metrics.reviewedThisWeek}</strong><small>Items reviewed</small></div><div><ChartNoAxesCombined /><strong>{studyTime}</strong><small>Study time</small></div></div><div className="coming-soon"><Bot /><div><strong>Skills</strong><p>Skill-level insights are coming with future curriculum metadata.</p></div></div></section> }
 
 function Assistant({ language }) {
   const [open, setOpen] = useState(false)
