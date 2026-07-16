@@ -1,7 +1,9 @@
 import { useEffect, useMemo, useState } from 'react'
-import { BookOpen, Bot, ChartNoAxesCombined, ChevronRight, Download, Flame, Home, Languages, Moon, RefreshCcw, Settings, Sparkles, Sun, Upload, UserRound, Volume2 } from 'lucide-react'
+import { BookOpen, Bookmark, Bot, ChartNoAxesCombined, ChevronLeft, ChevronRight, Download, Flame, Home, Languages, Moon, RefreshCcw, Settings, Sparkles, Sun, Upload, UserRound, Volume2 } from 'lucide-react'
 import { LANGUAGE_CATALOG, getLanguage } from './lib/catalog.js'
 import { createProgressRepository } from './lib/progress-repository.js'
+import { createCurriculumRepository, lessonPath } from './lib/curriculum-repository.js'
+import { markChunkLearned, toggleBookmark } from './lib/learning-progress.js'
 import { scheduleReview } from './lib/scheduler.js'
 import { createBackup, importBackup } from './lib/backup.js'
 import { migrateLegacyEsb } from './lib/migration.js'
@@ -57,22 +59,54 @@ function CoursesScreen({ stats, onOpen }) {
   </section>
 }
 
-function StudyScreen({ language, curriculum, onReview }) {
+function StudyScreen({ language, curriculum, curriculumRepository, repository, onChange }) {
   const [unitId, setUnitId] = useState(null)
   const [lesson, setLesson] = useState(null)
-  useEffect(() => { setUnitId(curriculum?.units?.[0]?.id ?? null); setLesson(null) }, [curriculum, language.id])
+  const [failedLesson, setFailedLesson] = useState(null)
+  useEffect(() => { setUnitId(curriculum?.units?.[0]?.id ?? null); setLesson(null); setFailedLesson(null) }, [curriculum, language.id])
   const unit = curriculum?.units?.find(item => item.id === unitId)
   const openLesson = async lessonMeta => {
-    const response = await fetch(`/content/${language.id}/units/${unit.id}/lessons/${lessonMeta.id}.json`)
-    setLesson(await response.json())
+    const path = lessonPath(language.id, unit.id, lessonMeta.id)
+    setFailedLesson(null)
+    try {
+      setLesson(await curriculumRepository.loadLesson(language.id, unit.id, lessonMeta.id))
+    } catch {
+      setFailedLesson({ lessonMeta, path })
+    }
   }
   return <section className="screen"><header className="screen-header"><div><h1>{language.nativeName}</h1><p className="muted">{title(language)}</p></div><span className="language-pill">{language.flag} {language.name}</span></header>
     {!curriculum ? <Loading /> : <><div className="unit-rail">{curriculum.units.map(item => <button key={item.id} onClick={() => { setUnitId(item.id); setLesson(null) }} className={item.id === unitId ? 'selected' : ''}>UNIT {item.number}</button>)}</div>
     <div className="lesson-list">{unit.lessons.map(item => <button key={item.id} onClick={() => openLesson(item)} className="lesson-row"><span><small>LESSON {item.number}</small><strong>{item.title}</strong><em>{item.chunkCount} chunks</em></span><ChevronRight /></button>)}</div>
-    {lesson && <LessonModal language={language} lesson={lesson} onClose={() => setLesson(null)} onReview={onReview} />}</>}</section>
+    {failedLesson && <div className="lesson-alert" role="alert">Could not load {failedLesson.path}<button onClick={() => openLesson(failedLesson.lessonMeta)}>Retry</button></div>}
+    {lesson && <LessonPlayer language={language} lesson={lesson} repository={repository} onClose={() => setLesson(null)} onChange={onChange} />}</>}</section>
 }
 
-function LessonModal({ language, lesson, onClose, onReview }) { return <div className="modal-backdrop"><article className="lesson-modal"><button className="close" onClick={onClose}>×</button><small>LESSON {lesson.number}</small><h2>{lesson.title}</h2><div className="chunk-list">{lesson.chunks.map(card => <article key={card.id} className="study-card"><div><strong className="script">{card.script}</strong>{card.pronunciation && <span className="pronunciation">{card.pronunciation}</span>}<p>{card.translation}</p></div><Volume2 /></article>)}</div><button className="primary" onClick={() => { onClose(); onReview(language.id) }}>Start SRS Review</button></article></div> }
+export function LessonPlayer({ language, lesson, repository, onClose, onChange = () => {} }) {
+  const [progress, setProgress] = useState(() => repository.loadLanguage(language.id))
+  const [revealed, setRevealed] = useState(false)
+  useEffect(() => { setProgress(repository.loadLanguage(language.id)); setRevealed(false) }, [language.id, lesson.id, repository])
+
+  const savedProgress = progress.lessonProgress[lesson.id]
+  const chunkIndex = Math.min(savedProgress?.currentChunkIndex ?? 0, lesson.chunks.length - 1)
+  const chunk = lesson.chunks[chunkIndex]
+  const learnedCount = savedProgress?.learnedChunkIds.length ?? 0
+  const save = nextProgress => { repository.saveLanguage(language.id, nextProgress); setProgress(nextProgress); onChange() }
+  const previous = () => {
+    if (chunkIndex === 0) return
+    setProgress(current => ({ ...current, lessonProgress: { ...current.lessonProgress, [lesson.id]: { ...savedProgress, currentChunkIndex: chunkIndex - 1 } } }))
+    setRevealed(false)
+  }
+  const advance = () => {
+    const nextProgress = markChunkLearned(progress, lesson.id, chunk.id, chunkIndex, lesson.chunks.length)
+    save(nextProgress)
+    setRevealed(false)
+    if (chunkIndex === lesson.chunks.length - 1) onClose()
+  }
+  const isLastChunk = chunkIndex === lesson.chunks.length - 1
+  const isBookmarked = progress.bookmarks.includes(chunk.id)
+
+  return <div className="modal-backdrop"><article className="lesson-modal lesson-player" aria-label={`${lesson.title} lesson player`}><button className="close" aria-label="Close lesson" onClick={onClose}>×</button><small>LESSON {lesson.number}</small><h2>{lesson.title}</h2><div className="lesson-progress"><span style={{ width: `${(learnedCount / lesson.chunks.length) * 100}%` }} /></div><p className="saved-position">Saved position: Chunk {chunkIndex + 1} of {lesson.chunks.length}</p><article className="study-card active-chunk"><div><strong className="script">{chunk.script}</strong>{chunk.pronunciation && <span className="pronunciation">{chunk.pronunciation}</span>}{revealed && <p>{chunk.translation}</p>}</div><Volume2 /></article>{!revealed && <button className="translation-toggle" onClick={() => setRevealed(true)}>Show translation</button>}<div className="lesson-actions"><button className="icon-action" aria-label={isBookmarked ? 'Remove bookmark' : 'Bookmark chunk'} onClick={() => save(toggleBookmark(progress, chunk.id))}><Bookmark fill={isBookmarked ? 'currentColor' : 'none'} /></button><button className="secondary" onClick={previous} disabled={chunkIndex === 0}><ChevronLeft /> Previous</button><button className="primary" onClick={advance}>{isLastChunk ? 'Finish' : 'Next chunk'} {!isLastChunk && <ChevronRight />}</button></div></article></div>
+}
 
 function ReviewScreen({ language, repository, onLanguageChange, onChange }) {
   const [card, setCard] = useState(null)
@@ -127,6 +161,7 @@ function Loading() { return <div className="loading">Loading your course…</div
 
 export default function App({ storageKey }) {
   const repository = useMemo(() => createProgressRepository(window.localStorage, storageKey), [storageKey])
+  const curriculumRepository = useMemo(() => createCurriculumRepository(), [])
   const [settings, setSettingsState] = useState(() => repository.loadSettings())
   const [activeLanguageId, setActiveLanguageId] = useState(settings.defaultLanguage)
   const [tab, setTab] = useState('home')
@@ -146,6 +181,7 @@ export default function App({ storageKey }) {
   const stats = LANGUAGE_CATALOG.map(language => { const progress = repository.loadLanguage(language.id); const srs = Object.values(progress.srs); return { ...emptyStats(language), due: srs.filter(item => item.nextReview <= Date.now()).length, mastered: srs.filter(item => item.interval >= 21).length, reviewed: srs.length, progress: 0 } })
   const openLanguage = languageId => { setActiveLanguageId(languageId); setTab('study') }
   const openReview = languageId => { setActiveLanguageId(languageId); setTab('review') }
-  const screens = { home: <HomeScreen stats={stats} onOpen={openLanguage} onReview={openReview} />, courses: <CoursesScreen stats={stats} onOpen={openLanguage} />, study: <StudyScreen language={activeLanguage} curriculum={curricula[activeLanguageId]} onReview={openReview} />, review: <ReviewScreen language={activeLanguage} repository={repository} onLanguageChange={setActiveLanguageId} onChange={() => setRevision(value => value + 1)} />, progress: <ProgressScreen stats={stats} />, profile: <ProfileScreen settings={settings} setSettings={setSettings} repository={repository} /> }
+  const onProgressChange = () => setRevision(value => value + 1)
+  const screens = { home: <HomeScreen stats={stats} onOpen={openLanguage} onReview={openReview} />, courses: <CoursesScreen stats={stats} onOpen={openLanguage} />, study: <StudyScreen language={activeLanguage} curriculum={curricula[activeLanguageId]} curriculumRepository={curriculumRepository} repository={repository} onChange={onProgressChange} />, review: <ReviewScreen language={activeLanguage} repository={repository} onLanguageChange={setActiveLanguageId} onChange={onProgressChange} />, progress: <ProgressScreen stats={stats} />, profile: <ProfileScreen settings={settings} setSettings={setSettings} repository={repository} /> }
   return <main className="app-shell">{screens[tab]}<Assistant language={activeLanguage} /><Nav tab={tab} setTab={setTab} /></main>
 }
